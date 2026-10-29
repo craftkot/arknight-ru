@@ -1,0 +1,22 @@
+{
+  "version": "v0.30",
+  "route": "chronology of Terra",
+  "event": "Darknights Memoir / act9d0",
+  "new_event_file": "level_act9d0_02_end.txt",
+  "new_named_lines": 216,
+  "new_unnamed_lines": 22,
+  "new_total": 238,
+  "event_complete_scripts": 4,
+  "event_total_main_scripts": 13,
+  "event_total_named_lines": 594,
+  "event_total_unnamed_lines": 58,
+  "event_total_lines": 652,
+  "main_story_named_ru_lines_preserved": 2377,
+  "ui_keyed_preserved": 2544,
+  "source_cn_git_blob_sha1": "968822669957c22d9c4d7d0717cef94638a23078",
+  "source_en_git_blob_sha1": "9ae65c962e245579bbba5c0245d24f604a954d26",
+  "source_validation": "CN/EN alignment by textual row kind and count, 216 named + 22 plain; GitHub source blobs pinned",
+  "technical_validation": "Static alignment and markup verified; offline Python CI pending",
+  "game_test": "not performed",
+  "status": "first_literary_draft"
+}
