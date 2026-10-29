@@ -13,7 +13,8 @@ ALLOWED_EVENT_PATH=re.compile(r'activities/act9d0/level_act9d0_(?:0[1-6]_(?:beg|
 SPEAKER_EVENT_RU={'Ines':'Инес', 'Hoederer':'Хёдерер',
     'Disheveled Sarkaz Woman':'Оборванная девушка-сарказ',
     'W':'W',
-    'Sarkaz Warrior':'Воин-сарказ'}
+    'Sarkaz Warrior':'Воин-сарказ',
+    'Sarkaz Warrior?':'Воин-сарказ?', 'Mercenary':'Наёмник'}
 
 def plain_line(s):
     t=s.strip()
