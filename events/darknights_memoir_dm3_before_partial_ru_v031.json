@@ -1,0 +1,48 @@
+{
+  "version": "v0.31-partial",
+  "event": "Darknights Memoir",
+  "event_code": "act9d0",
+  "stage": "DM-3 before battle",
+  "status": "partial_first_draft_needs_editorial_review; NOT a complete scene; NOT patchable or game-tested",
+  "format": "partial_translation_work_in_progress",
+  "source_file": "activities/act9d0/level_act9d0_03_beg.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "538c852f8a64981df34f7699be9f73dfe00873ea",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "37dcf8c721efd0fa5068d18146caae45ba200b70",
+    "named_dialogue_count": 152,
+    "plain_dialogue_count": 35,
+    "dialogue_kind_sequence_matches": true
+  },
+  "progress": {
+    "named_ru_lines": 0,
+    "plain_ru_lines": 12,
+    "total_ru_lines": 12,
+    "completed_plain_ordinals": "1-12",
+    "next_plain_ordinal": 13,
+    "complete": false
+  },
+  "dialogues": {},
+  "plain_dialogues": {
+    "1": "Сарказы остановились.",
+    "2": "Пылающие руины словно сжимали кольцо вокруг центра. Чудовищные враги смотрели на нас сверху вниз.",
+    "3": "В центре этого кольца внезапно появилась женщина. Какая-то… странная женщина.",
+    "4": "Она не была сарказом, но стояла совсем одна посреди поля боя, не меняясь в лице.",
+    "5": "Инес дрожала. Отчего — понятия не имею.",
+    "6": "Похоже, взрыв слегка повредил мне слух. Я не могла разобрать, о чём они говорили.",
+    "7": "Но я знала: они боятся.",
+    "8": "Из-за женщины перед ними?",
+    "9": "Нет. Все смотрели в другую сторону. На другого человека.",
+    "10": "В последнее мгновение перед тем, как потерять сознание, я увидела…",
+    "11": "Сарказа…",
+    "12": "Хрупкого сарказа… в котором не было ни капли враждебности."
+  },
+  "editorial_notes": [
+    "Первые 12 строк — непрерывный начальный фрагмент повествования без меток [name].",
+    "CN — смысловая основа, EN — проверка контекста; не выдавать эту выборку за законченную сцену.",
+    "Продолжать с plain #13, сохраняя порядок всех именных и безымянных реплик; до полной готовности не передавать в apply_ru_event.py."
+  ]
+}

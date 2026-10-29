@@ -14,7 +14,9 @@ SPEAKER_EVENT_RU={'Ines':'Инес', 'Hoederer':'Хёдерер',
     'Disheveled Sarkaz Woman':'Оборванная девушка-сарказ',
     'W':'W',
     'Sarkaz Warrior':'Воин-сарказ',
-    'Sarkaz Warrior?':'Воин-сарказ?', 'Mercenary':'Наёмник'}
+    'Sarkaz Warrior?':'Воин-сарказ?', 'Mercenary':'Наёмник',
+    "Kal'tsit":'Кальцит', '???':'???', 'Small Cautus':'Невысокая каутус',
+    'Closure':'Клоужер', 'Theresa':'Терезия'}
 
 def plain_line(s):
     t=s.strip()
@@ -30,6 +32,24 @@ def extract(raw):
         elif plain_line(line):
             plain.append(line.strip())
     return named,plain
+
+def dialogue_kinds(raw):
+    """Return the ordered named/plain dialogue signature, ignoring scene commands.
+
+    Equal counts alone are insufficient: an EN/CN version can insert or move
+    narration relative to named dialogue without changing either total.
+    Matching signatures are only a necessary condition, not proof of alignment.
+    """
+    kinds=[]
+    for line in raw.decode('utf-8-sig').splitlines():
+        m=SPEAKER.search(line)
+        if m:
+            spoken=line[m.end():].strip()
+            if spoken and not spoken.startswith('//'):
+                kinds.append('named')
+        elif plain_line(line):
+            kinds.append('plain')
+    return kinds
 
 def patch(en_raw,spec):
     if len(spec['dialogues'])!=spec['dialogue_count'] or len(spec['plain_dialogues'])!=spec['plain_dialogue_count']:
@@ -82,6 +102,8 @@ def build(source_root,out_root,translations):
         en_n,en_p=extract(en);cn_n,cn_p=extract(cn)
         if (len(en_n),len(en_p))!=(len(cn_n),len(cn_p)) or (len(en_n),len(en_p))!=(spec['dialogue_count'],spec['plain_dialogue_count']):
             raise ValueError('CN EN RU dialogue count mismatch '+rel)
+        if dialogue_kinds(en)!=dialogue_kinds(cn):
+            raise ValueError('CN EN dialogue order mismatch '+rel)
         transformed=patch(en,spec)
         old=en.decode('utf-8-sig').splitlines();new=transformed.decode('utf-8-sig').splitlines()
         for a,b in zip(old,new):

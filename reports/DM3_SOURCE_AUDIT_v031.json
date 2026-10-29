@@ -1,0 +1,75 @@
+{
+  "audit_date_utc": "2026-10-29",
+  "event": "Darknights Memoir",
+  "scene": "DM-3 before battle",
+  "relative_story_path": "activities/act9d0/level_act9d0_03_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "branch": "master",
+      "path": "zh_CN/gamedata/story/activities/act9d0/level_act9d0_03_beg.txt",
+      "git_blob_sha1": "538c852f8a64981df34f7699be9f73dfe00873ea",
+      "physical_lines": 369,
+      "ends_with_newline": false
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "branch": "main",
+      "path": "en_US/gamedata/story/activities/act9d0/level_act9d0_03_beg.txt",
+      "git_blob_sha1": "37dcf8c721efd0fa5068d18146caae45ba200b70",
+      "physical_lines": 369,
+      "ends_with_newline": true
+    }
+  },
+  "alignment": {
+    "cn_named": 152,
+    "en_named": 152,
+    "cn_plain": 35,
+    "en_plain": 35,
+    "dialogue_kind_sequence_identical": true,
+    "semantic_alignment_confirmed": false,
+    "physical_line_counts_identical": true,
+    "difference_in_raw_line_splits": "EN ends with a final newline; CN does not"
+  },
+  "en_speaker_labels": [
+    "W",
+    "Ines",
+    "Hoederer",
+    "Kal'tsit",
+    "???",
+    "Small Cautus",
+    "Closure",
+    "Theresa"
+  ],
+  "cn_speaker_labels": [
+    "W",
+    "伊内丝",
+    "赫德雷",
+    "凯尔希",
+    "？？？",
+    "娇小的卡特斯",
+    "可露希尔",
+    "特蕾西娅"
+  ],
+  "speaker_mapping_review": {
+    "Kal'tsit": "Кальцит",
+    "???": "???",
+    "Small Cautus": "Невысокая каутус",
+    "Closure": "Клоужер",
+    "Theresa": "Терезия"
+  },
+  "partial_translation": {
+    "file": "events/darknights_memoir_dm3_before_partial_ru_v031.json",
+    "plain_lines_translated": 12,
+    "named_lines_translated": 0,
+    "remaining_plain_lines": 23,
+    "remaining_named_lines": 152,
+    "complete": false
+  },
+  "limitations": [
+    "CN/EN are community mirror versions, not official patch payloads.",
+    "Equal dialogue kinds and counts do not prove semantic alignment.",
+    "The 12 Russian narration lines are a draft, not a complete patch or game-tested localization.",
+    "Original Chinese and English dialogue text is not stored in this repository."
+  ]
+}
