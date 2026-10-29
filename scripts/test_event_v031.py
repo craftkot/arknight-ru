@@ -33,8 +33,8 @@ class DarknightsV031(unittest.TestCase):
         self.assertTrue(doc["source"]["dialogue_kind_sequence_matches"])
         for line in doc["plain_dialogues"].values():
             self.assertTrue(line.strip())
-            self.assertNotIn("\\n", line)
-            self.assertNotIn("\\t", line)
+            self.assertNotIn("\n", line)
+            self.assertNotIn("\t", line)
             self.assertEqual(event.quoted_tokens(line), [])
 
     def test_new_speakers_and_earlier_mappings(self):
@@ -48,8 +48,8 @@ class DarknightsV031(unittest.TestCase):
             self.assertEqual(event.SPEAKER_EVENT_RU[en], ru)
 
     def test_order_signature_detects_named_plain_swap(self):
-        en = b'[name="W"] Hello\\nNarration\\n'
-        cn = '旁白\\n[name="W"] 你好\\n'.encode("utf8")
+        en = b'[name="W"] Hello\nNarration\n'
+        cn = '旁白\n[name="W"] 你好\n'.encode("utf8")
         self.assertEqual((len(event.extract(en)[0]), len(event.extract(en)[1])), (1, 1))
         self.assertEqual((len(event.extract(cn)[0]), len(event.extract(cn)[1])), (1, 1))
         self.assertEqual(event.dialogue_kinds(en), ["named", "plain"])
@@ -57,8 +57,8 @@ class DarknightsV031(unittest.TestCase):
         self.assertNotEqual(event.dialogue_kinds(en), event.dialogue_kinds(cn))
 
     def test_build_rejects_same_counts_in_different_order(self):
-        en = b'[name="W"] Hello\\nNarration\\n'
-        cn = '旁白\\n[name="W"] 你好\\n'.encode("utf8")
+        en = b'[name="W"] Hello\nNarration\n'
+        cn = '旁白\n[name="W"] 你好\n'.encode("utf8")
         spec = {
             "version": "test",
             "event": "Darknights Memoir",
@@ -83,8 +83,8 @@ class DarknightsV031(unittest.TestCase):
             self.assertFalse((root / "output").exists())
 
     def test_build_accepts_matching_order_with_different_commands(self):
-        en = b'[Dialog]\\n[name="W"] Hello\\nNarration\\n'
-        cn = '[stopmusic]\\n[name="W"] 你好\\n旁白\\n'.encode("utf8")
+        en = b'[Dialog]\n[name="W"] Hello\nNarration\n'
+        cn = '[stopmusic]\n[name="W"] 你好\n旁白\n'.encode("utf8")
         spec = {
             "version": "test", "event": "Darknights Memoir",
             "files": {KEY: {
