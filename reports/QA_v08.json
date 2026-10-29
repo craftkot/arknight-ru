@@ -1,0 +1,77 @@
+{
+  "stage": "translation development; not game-tested; no executable files or mods",
+  "game_resource_version": "26-10-26-09-27-51_eeb02e",
+  "full_game_translation_finished": false,
+  "ui_total_real_keys": 2711,
+  "ui_v04_keys": 616,
+  "ui_v07_added": 48,
+  "ui_v08_manual_added": 344,
+  "ui_auto_exact_added": 13,
+  "ui_all_nonempty_translations": 1021,
+  "ui_safe_after_syntax_audit": 1021,
+  "ui_unsafe_tag_or_placeholder": 0,
+  "ui_pending": 1690,
+  "xunity_preview_exact_unique_pairs": 601,
+  "v04_asset_draft_entries": 162,
+  "extracted_bundles": 10,
+  "extracted_all_strings_including_identifiers": 405086,
+  "extracted_total_per_table_including_identifiers": {
+    "medals": 13078,
+    "main_text": 21068,
+    "items": 16362,
+    "story_index": 17237,
+    "activities": 116184,
+    "operators": 23801,
+    "events": 24158,
+    "enemies": 11484,
+    "battle_equips": 14314,
+    "operator_voices": 147400
+  },
+  "heuristically_detected_text_candidates_per_table": {
+    "medals": 4441,
+    "main_text": 3263,
+    "items": 3129,
+    "story_index": 1225,
+    "activities": 9121,
+    "operators": 4660,
+    "events": 2818,
+    "enemies": 4931,
+    "battle_equips": 2288,
+    "operator_voices": 16360
+  },
+  "scripted_full_story_dialogues_available": false,
+  "tag_audit_errors_first_20": [],
+  "merge_conflicts_first_20": [
+    {
+      "key": "JUDGE_DELETE_CACHED_FILES",
+      "old": "Будет удалён весь локальный кэш, включая ресурсы. Продолжить?",
+      "candidate": "Весь локальный кэш, включая игровые ресурсы, будет удалён. Продолжить?",
+      "source": "v07"
+    },
+    {
+      "key": "ALERT_DELETE_CACHED_FILES_OK",
+      "old": "Кэш очищен.",
+      "candidate": "Кэш очищен",
+      "source": "v07"
+    },
+    {
+      "key": "HOT_UPDATE_RES_TYPE_VOICE",
+      "old": "Голос",
+      "candidate": "Озвучка",
+      "source": "v07"
+    },
+    {
+      "key": "ERROR_NETWORK_SECURE_INIT_FAILED",
+      "old": "Не удалось настроить защищённое соединение. Повторите попытку.\\nКод ошибки: {0}",
+      "candidate": "Не удалось настроить защиту сетевого соединения. Попробуйте снова.\\nКод ошибки: {0}",
+      "source": "v08_new"
+    }
+  ],
+  "notes": [
+    "Translated UI total does NOT equal total game coverage",
+    "Asset string counts include keys and internal IDs",
+    "XUnity plain string dictionary can only cover some cases, many text and sprites need separate handler",
+    "No original game files have been modified",
+    "English texts in this package originate from user-provided game resources"
+  ]
+}

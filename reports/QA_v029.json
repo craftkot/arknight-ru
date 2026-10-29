@@ -1,0 +1,26 @@
+{
+  "version": "v0.29",
+  "route": "chronology of Terra",
+  "event": "Darknights Memoir / act9d0",
+  "new_event_file": "level_act9d0_02_beg.txt",
+  "new_named_lines": 132,
+  "new_unnamed_lines": 5,
+  "total_new": 137,
+  "event_complete_scripts": 3,
+  "event_total_main_scripts": 13,
+  "event_total_named_lines": 378,
+  "event_total_unnamed_lines": 36,
+  "event_total_lines": 414,
+  "main_story_named_ru_lines_preserved": 2377,
+  "ui_keyed_preserved": 2544,
+  "source_cn_git_blob_sha1": "4442821acf5114c05819dbd18f14136cf0f440f5",
+  "source_en_git_blob_sha1": "778a32130fd80ee1aaf4d78adcb4fa07f3771bb0",
+  "source_validation": "source repo CN & EN read through GitHub connector; real source download not run inside sandbox",
+  "game_test": "not performed",
+  "status": "first_literary_draft",
+  "tests_passed": 140,
+  "previous_files_unchanged": 224,
+  "previous_files_modified": [
+    "scripts/apply_ru_event.py"
+  ]
+}

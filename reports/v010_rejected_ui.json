@@ -1,0 +1,9 @@
+{
+  "ART_GALLERY_UNLOCK_CONDITION_FORMAT": {
+    "issue": "invalid translation or format preservation",
+    "en": "- {0} ({1}/{2})",
+    "ru": "- {0} ({1}/{2})",
+    "signature_en": "(Counter({'{0}': 1, '{1}': 1, '{2}': 1}), Counter(), 0, 0)",
+    "signature_ru": "(Counter({'{0}': 1, '{1}': 1, '{2}': 1}), Counter(), 0, 0)"
+  }
+}

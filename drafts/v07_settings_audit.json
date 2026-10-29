@@ -1,0 +1,332 @@
+[
+  {
+    "key": "ALERT_HOME_SETTING_APPLIED",
+    "en": "Settings saved",
+    "ru": "Настройки сохранены",
+    "status": "added_v07"
+  },
+  {
+    "key": "BUILDING_CONFIRM_EXIT",
+    "en": "Leave the Base?\\n(You can enable/disable this notice in 'Settings')",
+    "ru": "Покинуть базу?\\n(Это предупреждение можно отключить в настройках.)",
+    "status": "added_v07"
+  },
+  {
+    "key": "JUDGE_DELETE_CACHED_FILES",
+    "en": "All the local cache including resource files will be deleted. Continue?",
+    "ru": "Весь локальный кэш, включая игровые ресурсы, будет удалён. Продолжить?",
+    "status": "already_in_v06"
+  },
+  {
+    "key": "ALERT_DELETE_CACHED_FILES_OK",
+    "en": "Cleared all cache data",
+    "ru": "Кэш очищен",
+    "status": "already_in_v06"
+  },
+  {
+    "key": "ALERT_DELETE_CACHED_FILES_FAILED",
+    "en": "Failed to clear cache data. Please try again.",
+    "ru": "Не удалось очистить кэш. Повторите попытку.",
+    "status": "already_in_v06"
+  },
+  {
+    "key": "ALERT_DELETE_CACHED_FILED_IO_EXCEPTION",
+    "en": "Hardware error occurred during the clearing of cache data. Please try again",
+    "ru": "Ошибка при очистке кэша. Повторите попытку.",
+    "status": "already_in_v06"
+  },
+  {
+    "key": "HOT_UPDATE_LOADING_NETWORK_SETTING",
+    "en": "Loading network configuration...",
+    "ru": "Загрузка сетевых параметров...",
+    "status": "added_v07"
+  },
+  {
+    "key": "HOT_UPDATE_DOWNLOADING_PATCH",
+    "en": "Downloading update...",
+    "ru": "Загрузка обновления...",
+    "status": "added_v07"
+  },
+  {
+    "key": "HOT_UPDATE_FULL_RES_OPTION",
+    "en": "Download the complete resource package ({0}) for the best gameplay experience.",
+    "ru": "Загрузить все ресурсы ({0}) для полного игрового опыта.",
+    "status": "added_v07"
+  },
+  {
+    "key": "HOT_UPDATE_BASE_RES_OPTION",
+    "en": "Download the basic resource package ({0}) to enter the game quickly.",
+    "ru": "Загрузить основные ресурсы ({0}), чтобы быстрее войти в игру.",
+    "status": "added_v07"
+  },
+  {
+    "key": "DIALOG_DOWNLOAD_RESOURCE",
+    "en": "Missing <color=#FF6101>{0}</color> assets detected; Would you like to go to the hotfix interface to download missing assets?\\n<color=#FF6101>[Notice] You may download these assets from Settings at any time.</color>",
+    "ru": "Не хватает ресурсов: <color=#FF6101>{0}</color>. Перейти к загрузке недостающих файлов?\\n<color=#FF6101>[Примечание] Их можно загрузить позже в настройках.</color>",
+    "status": "added_v07"
+  },
+  {
+    "key": "DOWNLOAD_RESOURCE_CONFIRM",
+    "en": "Download",
+    "ru": "Загрузить",
+    "status": "already_in_v06"
+  },
+  {
+    "key": "DOWNLOAD_RESOURCE_RETURN",
+    "en": "Not Now",
+    "ru": "Не сейчас",
+    "status": "added_v07"
+  },
+  {
+    "key": "DIALOG_MISSING_RESOURCE",
+    "en": "{0} was not downloaded, and the corresponding segment will be skipped during the story.",
+    "ru": "Ресурс {0} не загружен. Соответствующий фрагмент сюжета будет пропущен.",
+    "status": "added_v07"
+  },
+  {
+    "key": "DIALOG_ADDITIONAL_RES",
+    "en": "Would you like to go to the hotfix interface to download missing assets?",
+    "ru": "Перейти к загрузке недостающих ресурсов?",
+    "status": "added_v07"
+  },
+  {
+    "key": "HOT_UPDATE_RES_TYPE_VOICE",
+    "en": "Voice",
+    "ru": "Озвучка",
+    "status": "already_in_v06"
+  },
+  {
+    "key": "DIALOG_SETTING_RESET",
+    "en": "Reset settings?",
+    "ru": "Сбросить настройки?",
+    "status": "added_v07"
+  },
+  {
+    "key": "DIALOG_JUDGE_EXIT_GAME",
+    "en": "Are you sure you want to exit?",
+    "ru": "Выйти из игры?",
+    "status": "added_v07"
+  },
+  {
+    "key": "TOAST_VOICE_LANG_SET_CHAR_LANG_SUC",
+    "en": "Saved",
+    "ru": "Сохранено",
+    "status": "added_v07"
+  },
+  {
+    "key": "TOAST_VOICE_LANG_NO_RES",
+    "en": "Go to <color=#00B0FF>Settings-Game-Additional Resources</color> and download <color=#00B0FF>Voice Resources</color>",
+    "ru": "Откройте <color=#00B0FF>Настройки → Игра → Дополнительные ресурсы</color> и загрузите <color=#00B0FF>файлы озвучки</color>.",
+    "status": "added_v07"
+  },
+  {
+    "key": "DIALOG_VOICE_LANG_BATCH",
+    "en": "Batch setting <color=#AE3737>{0}</color> voices will overwrite the current voice settings of some characters\\nConfirm?",
+    "ru": "Групповая смена озвучки для <color=#AE3737>{0}</color> операторов заменит некоторые индивидуальные настройки.\\nПродолжить?",
+    "status": "added_v07"
+  },
+  {
+    "key": "ERROR_VOICE_LANG_INIT_FAIL",
+    "en": "Failed to save voice settings\\nError code {0}",
+    "ru": "Не удалось сохранить настройки озвучки.\\nКод ошибки: {0}",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_CHOICE_CN_TITLE",
+    "en": "Use CN voices",
+    "ru": "Китайская озвучка",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_CHOICE_CN_DESC",
+    "en": "Operators with CN voices will change to CN voices, overwriting the currently saved voice settings",
+    "ru": "У операторов с китайской озвучкой будет выбран китайский язык вместо ранее сохранённого.",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_CHOICE_JP_TITLE",
+    "en": "Use JP voices",
+    "ru": "Японская озвучка",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_CHOICE_JP_DESC",
+    "en": "Operators with JP voices will change to JP voices, overwriting the currently saved voice settings",
+    "ru": "У операторов с японской озвучкой будет выбран японский язык вместо ранее сохранённого.",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_CHOICE_KR_TITLE",
+    "en": "Use KR voices",
+    "ru": "Корейская озвучка",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_CHOICE_KR_DESC",
+    "en": "Operators with KR voices will change to KR voices, overwriting the currently saved voice settings",
+    "ru": "У операторов с корейской озвучкой будет выбран корейский язык вместо ранее сохранённого.",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_CHOICE_EN_TITLE",
+    "en": "Use EN voices",
+    "ru": "Английская озвучка",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_CHOICE_EN_DESC",
+    "en": "Operators with EN voices will change to EN voices, overwriting the currently saved voice settings",
+    "ru": "У операторов с английской озвучкой будет выбран английский язык вместо ранее сохранённого.",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_CHOICE_NOOP_TITLE",
+    "en": "Keep current settings",
+    "ru": "Сохранить текущие настройки",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_CHOICE_NOOP_DESC",
+    "en": "If voice settings have been saved previously, then use the saved voice settings",
+    "ru": "Если язык озвучки уже выбран, сохранить прежние настройки операторов.",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICELANG_SETTING_LACKVOICE",
+    "en": "Operator does not yet have\\n<color=#ffb400>{0}</color> voice(s)",
+    "ru": "Для этого оператора пока нет\\n<color=#ffb400>озвучки на языке {0}</color>.",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICELANG_SETTING_SINGLE_SWITCH",
+    "en": "Switch voice of Operator {0} to\\n<color=#0098DC>{1}</color>?",
+    "ru": "Сменить озвучку оператора {0} на\\n<color=#0098DC>{1}</color>?",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICELANG_SETTING_ALREADY_SELECT",
+    "en": "Voice of Operator {0} is currently\\n<color=#0098DC>{1}</color>",
+    "ru": "Текущая озвучка оператора {0}:\\n<color=#0098DC>{1}</color>.",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICELANG_SETTING_BATCH_SWITCH",
+    "en": "Switch voices of all selected Operators to\\n<color=#0098DC>{0}</color>?",
+    "ru": "Сменить озвучку всех выбранных операторов на\\n<color=#0098DC>{0}</color>?",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_PACK_CN_TITLE",
+    "en": "Download CN - Mandarin voice pack",
+    "ru": "Загрузить китайскую озвучку (путунхуа)",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_PACK_CN_DESC",
+    "en": "Only includes CN - Mandarin voices. Voices will not be present if not yet supported (excluding single-language Collaboration Operators)",
+    "ru": "Только озвучка на путунхуа. У части операторов она может отсутствовать (кроме персонажей коллабораций с единственным языком озвучки).",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_PACK_JP_TITLE",
+    "en": "Download JP voice pack",
+    "ru": "Загрузить японскую озвучку",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_PACK_JP_DESC",
+    "en": "Only includes JP voices. Voices will not be present if not yet supported (excluding single-language Collaboration Operators)",
+    "ru": "Только японская озвучка. У части операторов она может отсутствовать (кроме персонажей коллабораций с единственным языком озвучки).",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_PACK_EN_TITLE",
+    "en": "Download EN voice pack",
+    "ru": "Загрузить английскую озвучку",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_PACK_EN_DESC",
+    "en": "Only includes EN voices. Voices will not be present if not yet supported (excluding single-language Collaboration Operators)",
+    "ru": "Только английская озвучка. У части операторов она может отсутствовать (кроме персонажей коллабораций с единственным языком озвучки).",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_PACK_KR_TITLE",
+    "en": "Download KR voice pack",
+    "ru": "Загрузить корейскую озвучку",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_PACK_KR_DESC",
+    "en": "Only includes KR voices. Voices will not be present if not yet supported (excluding single-language Collaboration Operators)",
+    "ru": "Только корейская озвучка. У части операторов она может отсутствовать (кроме персонажей коллабораций с единственным языком озвучки).",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_PACK_CUSTOM_TITLE",
+    "en": "Download personalized voice pack",
+    "ru": "Загрузить особые варианты озвучки",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_PACK_CUSTOM_DESC",
+    "en": "Only includes special voices, such as dialects. Voices will not be present if not yet supported (excluding single-language Collaboration Operators)",
+    "ru": "Дополнительные варианты озвучки, например на диалектах. Некоторые операторы могут их не поддерживать (кроме персонажей коллабораций с единственным языком озвучки).",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_PACK_DEPENDENT_PACK_NOTICE",
+    "en": "<color=#FFD800>Cannot be downloaded alone. At least one of the regular voice packs above must be selected in order to download this</color>",
+    "ru": "<color=#FFD800>Нельзя загрузить отдельно: сначала выберите хотя бы один из основных пакетов озвучки выше.</color>",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_PACK_NORMAL_CONFIRM",
+    "en": "Confirm",
+    "ru": "Подтвердить",
+    "status": "already_in_v06"
+  },
+  {
+    "key": "VOICE_PACK_NOTICE_CONFIRM",
+    "en": "Launch game without downloading voices",
+    "ru": "Войти в игру без загрузки озвучки",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_PACK_SETTING_CONFIRM",
+    "en": "Proceed to hotfix interface to download",
+    "ru": "Перейти к загрузке ресурсов",
+    "status": "added_v07"
+  },
+  {
+    "key": "VOICE_PACK_NO_PACK_SELECT",
+    "en": "Please select at least one voice pack",
+    "ru": "Выберите хотя бы один пакет озвучки.",
+    "status": "added_v07"
+  },
+  {
+    "key": "DYN_ENTRANCE_SETTING_DESC_NORMAL",
+    "en": "*Entrance animations will no longer be played if turned off (except manual playback)",
+    "ru": "*При отключении вступительные анимации не будут воспроизводиться автоматически (ручной запуск останется доступен).",
+    "status": "added_v07"
+  },
+  {
+    "key": "DYN_ENTRANCE_SETTING_DESC_DISABLED",
+    "en": "*Cannot be set when dynamic art-related settings are turned off",
+    "ru": "*Настройка недоступна, пока отключены связанные параметры динамических иллюстраций.",
+    "status": "added_v07"
+  },
+  {
+    "key": "DYN_ENTRANCE_LOGIN_SETTING_DESC_NORMAL",
+    "en": "*Assistant entrance animations will no longer be played if turned off",
+    "ru": "*При отключении вступительные анимации ассистента не будут воспроизводиться автоматически.",
+    "status": "added_v07"
+  },
+  {
+    "key": "DYN_ENTRANCE_LOGIN_SETTING_DESC_DISABLED",
+    "en": "*Cannot be set when dynamic art entrance animations are turned off",
+    "ru": "*Настройка недоступна, пока отключены вступительные анимации динамических иллюстраций.",
+    "status": "added_v07"
+  }
+]

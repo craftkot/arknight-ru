@@ -1,0 +1,24 @@
+{
+  "version": "v0.28",
+  "route": "chronology of Terra",
+  "event": "Darknights Memoir / act9d0",
+  "completed_event_scripts": 2,
+  "total_event_scripts": 13,
+  "new_named_dialogues": 152,
+  "new_unnamed_narratives": 15,
+  "new_total_lines": 167,
+  "event_total_named": 246,
+  "event_total_unnamed": 31,
+  "event_total_lines": 277,
+  "main_story_files_preserved": 44,
+  "main_story_named_preserved": 2377,
+  "ui_keys_preserved": 2544,
+  "cn_git_blob_sha1": "9086e7dfb554a06dba354a8313e6c49221eb1e8a",
+  "en_git_blob_sha1": "f292786b0b7cbc11b69712b7ee5e65739e2c2c7f",
+  "notes": [
+    "Original CN/EN source verified by GitHub connector counts and exact revision IDs.",
+    "Real client integration untested; local preview tests synthetic.",
+    "Literary draft; proofreading remains."
+  ],
+  "tests_passed": 130
+}

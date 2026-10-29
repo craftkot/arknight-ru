@@ -1,0 +1,8 @@
+v0.23 — chapter 2 continued
+02-02_end: 82 new CN->RU lines, contract negotiation Wei / Kaltsit / Ch'en / Amiya.
+02-03_beg: 91 new CN->RU lines, Misha and children, Lungmen outskirts.
+02-03_end: 60 new CN->RU lines, Misha meets Amiya.
+CN originals primary, EN for structural/terminology validation.
+Total 1741 RU story lines in 30 scripts. Chapter 2: 386 lines in 6 of 20 files.
+Preserves all previous translations and game script commands in synthetic QA.
+KNOWN: NO in-game client verification; FIRST-DRAFT dialogue quality; complete chapter 2 NOT translated.

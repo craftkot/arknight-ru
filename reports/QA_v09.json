@@ -1,0 +1,21 @@
+{
+  "project": "Arknights RU Independent v0.9",
+  "release_kind": "Translation development workspace, NOT installable game patch",
+  "source": "User-provided game string_map; 2026-10-26 resource version",
+  "total_real_ui_keys": 2711,
+  "safe_translated_ui_keys": 1449,
+  "previous_ui_keys": 1021,
+  "new_verified_ui_keys": 428,
+  "manual_candidates_in_v09": 428,
+  "failed_v09_checks": 0,
+  "untranslated_ui_keys": 1262,
+  "plain_xunity_candidate_pairs": 811,
+  "unsafe_plain_text_collision_count": 25,
+  "item_enemy_operator_drafts_carried_from_v08": 162,
+  "full_story_scripts_present": false,
+  "new_item_drafts": 82,
+  "item_duplicates_skipped": 22,
+  "item_import_errors": 0,
+  "installed_or_game_tested": false,
+  "note": "UI coverage is not overall game translation coverage. Some variants require editor review, actual client fonts and hook support remain unknown."
+}

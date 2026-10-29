@@ -1,0 +1,168 @@
+index	game_key	original	reason
+0	NAME_WEEKLY_ZONE_IN_DROP_INFO	<{0}>{1}	technical UI formatting or symbol; preserve byte-for-byte
+1	STAGE_WEEKLY_UNLOCK_DESC_SPTR	,	technical UI formatting or symbol; preserve byte-for-byte
+2	CAMPAIGN_BRIEF_SEPARATOR	,	technical UI formatting or symbol; preserve byte-for-byte
+3	CAMPAIGN_LADDER_TEXT	+ ~{0}	technical UI formatting or symbol; preserve byte-for-byte
+4	STAGE_MIX_STORY_OVERALL_PROGRESS_FORMAT	{0}<color=#ffffff66><size=18>/{1}</size></color>	technical UI formatting or symbol; preserve byte-for-byte
+5	STAGE_MIX_STORY_RETRO_PROGRESS_FORMAT	{0}<color=#ffffff66><size=24>/{1}</size></color>	technical UI formatting or symbol; preserve byte-for-byte
+6	STAGE_MIX_STORY_RETRO_COIN_FORMAT	{0}<color=#898989>/{1}</color>	technical UI formatting or symbol; preserve byte-for-byte
+7	DESC_ATTR_VALUE_ADD	{0}  <color=#ff9d5c>+{1}</color>	technical UI formatting or symbol; preserve byte-for-byte
+8	ENEMY_HIDE_INFO	?	technical UI formatting or symbol; preserve byte-for-byte
+9	RECRUIT_COMBINE_GACHA_TK_ITEM	{1} × {0}	technical UI formatting or symbol; preserve byte-for-byte
+10	RECRUIT_COMBINE_DIAMOND_SHD_ITEM	{0} {1}	technical UI formatting or symbol; preserve byte-for-byte
+11	RECRUIT_COMBINE_ITEM_DIV	,<color=#ffd800> </color>	technical UI formatting or symbol; preserve byte-for-byte
+12	SKIN_ILLUST_0_TEXT_GREEK	I	technical UI formatting or symbol; preserve byte-for-byte
+13	SKIN_ILLUST_1_TEXT_GREEK	I SP	technical UI formatting or symbol; preserve byte-for-byte
+14	SKIN_ILLUST_2_TEXT_GREEK	II	technical UI formatting or symbol; preserve byte-for-byte
+15	SHOP_TIME_OUT_WARNING	{0}	technical UI formatting or symbol; preserve byte-for-byte
+16	CASH_PRICE_CURRENCY	$	technical UI formatting or symbol; preserve byte-for-byte
+17	SHOP_RECOMMEND_TEMPLATE_SKIN_NAME_FORMAT	{0}-{1}	technical UI formatting or symbol; preserve byte-for-byte
+18	BATTLE_FINISH_PRY_DIFFICULTY_FORMAT	'{0}, {1}'	technical UI formatting or symbol; preserve byte-for-byte
+19	BUILDING_REST_TIME_FORMAT_WITHOUT_DAY	{0:D2}:{1:D2}:{2:D2}	technical UI formatting or symbol; preserve byte-for-byte
+20	BUILDING_EMPTY_TIME_TEXT	--:--:--	technical UI formatting or symbol; preserve byte-for-byte
+21	HOT_UPDATE_PERCENT	{0:P0}	technical UI formatting or symbol; preserve byte-for-byte
+22	BUILDING_MESSAGE_LEAVE_TIME_SPAN_HOUR_FORMAT	{0:D2}:{1:D2}:{2:D2}	technical UI formatting or symbol; preserve byte-for-byte
+23	BUILDING_MESSAGE_LEAVE_TIME_LAST_WEEK_FORMAT	{0}—{1}	technical UI formatting or symbol; preserve byte-for-byte
+24	BUILDING_MESSAGE_LEAVE_TIME_LAST_WEEK_TIME_FORMAT	{0:D4}.{1:D2}.{2:D2}	technical UI formatting or symbol; preserve byte-for-byte
+25	COMMON_SPLIT_HANDBOOK_ICON	<color=#717171>, </color>	technical UI formatting or symbol; preserve byte-for-byte
+26	COMMON_SPLIT_ICON	,	technical UI formatting or symbol; preserve byte-for-byte
+27	COMMON_NUMBER_WITH_ADD	+{0}	technical UI formatting or symbol; preserve byte-for-byte
+28	ACTIVITY_MISSION_STATE	<color=#22bbff>{0}</color><size=25>/{1}</size>	technical UI formatting or symbol; preserve byte-for-byte
+29	ACT5D0_MISSION_PASS_RATE	<color=#ffd800>{0}</color><color=#898989>/{1}</color>	technical UI formatting or symbol; preserve byte-for-byte
+30	COMMON_ACT_TIME_WITH_START_TIME	{0:D2}/{1:D2} {2:D2}:{3:D2}~{4:D2}/{5:D2} {6:D2}:{7:D2}	technical UI formatting or symbol; preserve byte-for-byte
+31	NO_TIME_HH_MM_SS	--:--:--	technical UI formatting or symbol; preserve byte-for-byte
+32	TIME_MAIL_PASS	<color=#0075A9>{0}-{1}-{2}</color>	technical UI formatting or symbol; preserve byte-for-byte
+36	DATE_FORMAT_MM	{0}	technical UI formatting or symbol; preserve byte-for-byte
+37	DATE_FORMAT_MM_DD	{0}/{1}	technical UI formatting or symbol; preserve byte-for-byte
+38	DATE_FORMAT_MM_DD_HH_TT	{0:D2}/{1:D2} {2:D2}:{3:D2}	technical UI formatting or symbol; preserve byte-for-byte
+39	DATE_FORMAT_YYYY_MM_DD_HH_MM	{0:D4}/{1:D2}/{2:D2} {3:D2}:{4:D2}	technical UI formatting or symbol; preserve byte-for-byte
+40	DATE_FORMAT_YYYY_MM_DD	{0:D4}/{1:D2}/{2:D2}	technical UI formatting or symbol; preserve byte-for-byte
+41	DATE_FORMAT_MM_DD_TINY	{0}.{1}	technical UI formatting or symbol; preserve byte-for-byte
+42	ACT12D6_RELIC_PROGRESS	(<color=#00dad7>{0}</color>/{1})	technical UI formatting or symbol; preserve byte-for-byte
+43	AVG_PLAYBACK_OPTION_NORMAL	[{0}]	technical UI formatting or symbol; preserve byte-for-byte
+44	AVG_PLAYBACK_OPTION_HIGHLIGHT	<color=#00A0E9FF>[{0}]</color>	technical UI formatting or symbol; preserve byte-for-byte
+47	CRISIS_SEASON_END_TIME	{0:D4}/{1:D2}/{2:D2} {3:D2}:{4:D2}	technical UI formatting or symbol; preserve byte-for-byte
+48	CRISIS_V2_MISSION_PROGRESS_TEXT	<color=#dbd8d7>{0}</color>/{1}	technical UI formatting or symbol; preserve byte-for-byte
+49	BLESSONLY_REWARD_CNT_DISPLAY	X {0}	technical UI formatting or symbol; preserve byte-for-byte
+50	BLESSONLY_NAME_FORMAT	{0}#{1}	technical UI formatting or symbol; preserve byte-for-byte
+51	BLESSONLY_UID_FORMAT	ID {0}	technical UI formatting or symbol; preserve byte-for-byte
+52	STORY_BRIEF_CHAPTER_TITLE	'{0}'	technical UI formatting or symbol; preserve byte-for-byte
+53	ACT11D0_ZONE_FOG_UNLOCK_ITEM	{0}\n{1}/{2}	technical UI formatting or symbol; preserve byte-for-byte
+54	ACT11D0_STAGE_FOG_UNLOCK_ITEM	{0}:{1}/{2}	technical UI formatting or symbol; preserve byte-for-byte
+55	ROGUELIKE_TOPIC_MONTH_TASK_PROGRESS	<color=#{0}>{1}</color>/{2}	technical UI formatting or symbol; preserve byte-for-byte
+56	ROGUELIKE_COMMON_COST_COUNT_FORMAT	- {0}	technical UI formatting or symbol; preserve byte-for-byte
+57	ROGUELIKE_STASHED_RECRUIT_TICKET_COST_ADD	+ {0}	technical UI formatting or symbol; preserve byte-for-byte
+58	ROGUELIKE_ACTIVE_TOOL_DESC	{0} ({1})	technical UI formatting or symbol; preserve byte-for-byte
+59	ROGUELIKE_COMMON_I18N_COMMA_SPLIT	,	technical UI formatting or symbol; preserve byte-for-byte
+60	RL02_MUTATION_DESC_SEPARATOR	,	technical UI formatting or symbol; preserve byte-for-byte
+61	RL_EXPEDITION_RETURN_DETAIL_REWARD_ITEM	{0} {1}	technical UI formatting or symbol; preserve byte-for-byte
+62	RL_EXPEDITION_RETURN_ITEM_SPLIT	,	technical UI formatting or symbol; preserve byte-for-byte
+63	ROGUELIKE_BUFF_TOAST_NAME_SEPARATOR	,	technical UI formatting or symbol; preserve byte-for-byte
+64	RL03_OUTER_BUFF_SUMMARY_COUNT_FORMAT	{0}/<color=#AEAEAE><size=25>{1}</size></color>	technical UI formatting or symbol; preserve byte-for-byte
+65	ROGUE_4_TRAVEL_TOAST_SEPARATOR	,	technical UI formatting or symbol; preserve byte-for-byte
+66	ROGUE_4_DISASTER_TOAST_NAME	{0}·{1}	technical UI formatting or symbol; preserve byte-for-byte
+67	ROGUE_5_ARCHIVE_UNKNOWN_NAME	???	technical UI formatting or symbol; preserve byte-for-byte
+68	TOAST_MAINLINE_UNLOCK_NEW_STAGE_ITEM_FORMAT	<color=#4abdff>{0}</color>	technical UI formatting or symbol; preserve byte-for-byte
+69	TOAST_MAINLINE_UNLOCK_NEW_STAGE_ITEM_SPLITTER	,	technical UI formatting or symbol; preserve byte-for-byte
+70	SP_CHAR_NAME_SEPARATOR	,	technical UI formatting or symbol; preserve byte-for-byte
+72	GUIDE_MISSION_ITEM_COUNT_STR	<size=30> x </size>{0}	technical UI formatting or symbol; preserve byte-for-byte
+73	INFORMANT_INNER_RESULT_CUSTOMER_GET_COUNT	+ {0}	technical UI formatting or symbol; preserve byte-for-byte
+74	UNIEQUIP_DEFAULT_LEVEL_SHORT	-	technical UI formatting or symbol; preserve byte-for-byte
+76	ACT_ARCHIVE_NEWS_READ_COUNT_BOUND2	200k+	technical UI formatting or symbol; preserve byte-for-byte
+77	ACT_ARCHIVE_NEWS_READ_COUNT_BOUND1	{0}{1}k	technical UI formatting or symbol; preserve byte-for-byte
+80	HOME_BACKGROUND_BGM_NAME_TYPE	-  {0}	technical UI formatting or symbol; preserve byte-for-byte
+81	HOME_BACKGROUND_UNLOCK_CONDITION_TYPE	    - {0} ({1}/{2})	technical UI formatting or symbol; preserve byte-for-byte
+82	ROGUE_COMMON_CHANGE_ITEM_TAG	<{0}>	technical UI formatting or symbol; preserve byte-for-byte
+83	DEEP_SEA_MISSION_DESC	{0} ({1}/{2})	technical UI formatting or symbol; preserve byte-for-byte
+92	SANDBOX_V2_ITEM_CARD_MAX_COUNT_FORMAT	{0:F1}0k	technical UI formatting or symbol; preserve byte-for-byte
+93	SANDBOX_V2_ENEMY_RUSH_COUNT_STR	{0}/<color=#8c8c8c>{1}</color>	technical UI formatting or symbol; preserve byte-for-byte
+94	SANDBOX_V2_NODE_UPDATE_UNLOCK_DESC_FORMAT	{0}({1}/{2})	technical UI formatting or symbol; preserve byte-for-byte
+95	SANDBOX_V2_FOOD_SUB_USAGE_SEPARATOR	;	technical UI formatting or symbol; preserve byte-for-byte
+96	SANDBOX_V2_CONSTRUCT_TOP_UID	ID {0}	technical UI formatting or symbol; preserve byte-for-byte
+97	SANDBOX_V2_EVENT_CHOICE_TITLE_FORMAT	<i> ({0}) </i>	technical UI formatting or symbol; preserve byte-for-byte
+98	SANDBOX_V2_QUEST_TARGET_PROGRESS	{0} <color=#828282> (</color><color=#CECD64>{1}</color><color=#828282>/{2}) </color>	technical UI formatting or symbol; preserve byte-for-byte
+99	SANDBOX_V2_LOGISTICS_BUFF_COUNT	<color=#{0}>{1}</color><color=#{2}>/{3}</color>	technical UI formatting or symbol; preserve byte-for-byte
+100	SANDBOX_V2_LOGISTICS_POPULATION	{0}/{1}	technical UI formatting or symbol; preserve byte-for-byte
+101	SANDBOX_V2_RIFT_TARGET_PROGRESS	(<color=#fd5d5d>{0}</color>/{1})	technical UI formatting or symbol; preserve byte-for-byte
+102	SANDBOX_V2_DUNGEON_SPHERE_MAX_DAY_FORMAT	/{0}	technical UI formatting or symbol; preserve byte-for-byte
+104	SANDBOX_V2_RACER_TEMP_NAME	?????	technical UI formatting or symbol; preserve byte-for-byte
+105	SANDBOX_V2_RACING_UNFINISHED_TIME_STR	--:--.--	technical UI formatting or symbol; preserve byte-for-byte
+106	SANDBOX_V2_ARCHIVE_FORMAT_ACHIEVEMENT_PROGRESS	{0} ({1}/{2})	technical UI formatting or symbol; preserve byte-for-byte
+107	SANDBOX_V2_CHALLENGE_DEFAULT_START_TS	----/--/-- --:--	technical UI formatting or symbol; preserve byte-for-byte
+109	SANDBOX_V2_BASEMENT_UPGRADE_NOT_ENOUGH	(<color=#fd5d5d>{0}</color>/{1})	technical UI formatting or symbol; preserve byte-for-byte
+110	SANDBOX_V2_BASEMENT_UPGRADE_ENOUGH	(<color=#d6d560>{0}</color>/{1})	technical UI formatting or symbol; preserve byte-for-byte
+111	ACTIVITY_ENTRY_MEDAL_PROGRESS_FORMAT	<color=#E7960E>{0}</color><color=#ADADAD>/{1}</color>	technical UI formatting or symbol; preserve byte-for-byte
+112	ACTIVITY_ENTRY_MEDAL_PROGRESS_CAN_SET_COLOR_FORMAT	<color=#{0}>{1}</color> <color=#ADADAD>/{2}</color>	technical UI formatting or symbol; preserve byte-for-byte
+113	ACT24SIDE_MISSION_NUM_OVER_ZERO	(<color=#cb4d27>{0}</color>/{1})	technical UI formatting or symbol; preserve byte-for-byte
+114	ACT24SIDE_MISSION_NUM_ZERO	({0}/{1})	technical UI formatting or symbol; preserve byte-for-byte
+115	RHINE_RESEARCH_PROGRESS_FORMAT	{0}%	technical UI formatting or symbol; preserve byte-for-byte
+122	RHINE_HARVEST_BOOST	+{0}%	technical UI formatting or symbol; preserve byte-for-byte
+138	CHECKIN_VS_UNKNOW_TITLE	???	technical UI formatting or symbol; preserve byte-for-byte
+146	SPECIAL_GACHA_JUMP_TO_GACHA_TOAST_SPLIT	,	technical UI formatting or symbol; preserve byte-for-byte
+147	SPECIAL_GACHA_JUMP_TO_GACHA_TOAST_NAME_FORMAT	{0}★{1}	technical UI formatting or symbol; preserve byte-for-byte
+155	GROCERY_HOME_GOOD_GROUP_NAME_FORMAT	{0}, {1}, {2}	technical UI formatting or symbol; preserve byte-for-byte
+178	BIRTHDAY_DATE_SHOW_FORMAT	{0}                 /         {1}	technical UI formatting or symbol; preserve byte-for-byte
+179	BIRTHDAY_DATE_INVALID_PLACEHOLDER	-	technical UI formatting or symbol; preserve byte-for-byte
+193	CHARACTER_SHOW_ATTR_VALUE_ADD	{0} <color=#ff9d5c>(+{1})</color>	technical UI formatting or symbol; preserve byte-for-byte
+211	ACT42D0_MILESTONE_PROGRESS	{0}/{1}	technical UI formatting or symbol; preserve byte-for-byte
+213	ACT42D0_MILESTONE_PROGRESS_ALL_FINISHED	-/-	technical UI formatting or symbol; preserve byte-for-byte
+214	NAME_CARD_EQUIPMENT_COLLECTION_ITEM_INFO_FORMAT	/{0}	technical UI formatting or symbol; preserve byte-for-byte
+215	FIFTH_ANNIV_PASS_ENDING_TITLE	'{0}'	technical UI formatting or symbol; preserve byte-for-byte
+216	FIFTH_ANNIV_VALUE_GE_FORMAT	≥ {0}	technical UI formatting or symbol; preserve byte-for-byte
+217	VEC_BREAK_V2_ENTRY_OFFENSE_STAGE_NUM_TEXT	/{0}	technical UI formatting or symbol; preserve byte-for-byte
+218	VEC_BREAK_V2_STAGE_CURR_LV_FMT	{0:00}	technical UI formatting or symbol; preserve byte-for-byte
+219	VEC_BREAK_V2_STAGE_MAX_LV_FMT	/{0:00}	technical UI formatting or symbol; preserve byte-for-byte
+220	VEC_BREAK_V2_OFFENSE_LEVEL_CODE_NAME_FORMAT	{0} {1}	technical UI formatting or symbol; preserve byte-for-byte
+221	VEC_BREAK_V2_MILESTONE_TOTAL_PROGRESS_FORMAT	/{0}	technical UI formatting or symbol; preserve byte-for-byte
+222	VEC_BREAK_V2_MILESTONE_PROGRESS_ALL_FINISHED	-	technical UI formatting or symbol; preserve byte-for-byte
+223	VEC_BREAK_V2_REWARD_HINT_FMT	+{0}	technical UI formatting or symbol; preserve byte-for-byte
+225	ACT1VAUTOCHESS_SETTLE_GAME_REWARD_COUNT_FORMAT	+{0}	technical UI formatting or symbol; preserve byte-for-byte
+226	ACT1VAUTOCHESS_BATTLE_CAMP_FEATURE_COUNTER_FORMAT	{0}{1} ({2}/{3})	technical UI formatting or symbol; preserve byte-for-byte
+227	ACT1VAUTOCHESS_DIY_CHAR_CHESS_ITEM_COUNT_FORMAT	<color=#FFFFFF>{0}</color><color=#A8A8A8>/{1}</color>	technical UI formatting or symbol; preserve byte-for-byte
+228	ACT1VAUTOCHESS_SHOP_LIST_TOP_ASSIST_INFO_COUNT_FORMAT	<color=#16302D>{0}</color><color=#1D5750>/{1}</color>	technical UI formatting or symbol; preserve byte-for-byte
+229	ACT1VAUTOCHESS_SHOP_LIST_TOP_ASSIST_ALL_NOT_TOPIC_INFO_COUNT_FORMAT	<color=#16302D>{0}</color>	technical UI formatting or symbol; preserve byte-for-byte
+230	ACT1VAUTOCHESS_CHESS_POOL_CHANGED_SEPARATOR	,	technical UI formatting or symbol; preserve byte-for-byte
+233	ACTMULTIV3_MANUAL_DOCTOR_NAME_FORMAT	{0}#{1}	technical UI formatting or symbol; preserve byte-for-byte
+234	ACTMULTIV3_MANUAL_TITLE_FORMAT	{0} {1}	technical UI formatting or symbol; preserve byte-for-byte
+235	ACTMULTIV3_MISSION_UNCOMPLETE_PROGRESS_FORMAT	<color=#D4143D>{0}</color><color=#676767>/{1}</color>	technical UI formatting or symbol; preserve byte-for-byte
+236	ACTMULTIV3_MISSION_COMPLETED_PROGRESS_FORMAT	{0}/{1}	technical UI formatting or symbol; preserve byte-for-byte
+237	ACTMULTIV3_MISSION_REWARD_COUNT_FORMAT	 × {0}	technical UI formatting or symbol; preserve byte-for-byte
+238	ACTMULTIV3_ALBUM_ORDER_NUMBER_FORMAT	{0:D2}	technical UI formatting or symbol; preserve byte-for-byte
+239	ACTMULTIV3_ALBUM_TIME_FORMAT	yyyy/MM/dd	technical UI formatting or symbol; preserve byte-for-byte
+240	ACTMULTIV3_MATCH_UNSELECT_STAR_FORMAT	<color=#3E3E3E>{0}</color><color=#9D9D9D>/{1}</color>	technical UI formatting or symbol; preserve byte-for-byte
+241	ACTMULTIV3_MATCH_SELECT_STAR_FORMAT	<color=#E1E1E1>{0}</color><color=#9D9D9D>/{1}</color>	technical UI formatting or symbol; preserve byte-for-byte
+242	ACTMULTIV3_COLLECT_STAR_PROGRESS	<color=#C11338>{0}</color>/{1}	technical UI formatting or symbol; preserve byte-for-byte
+243	ACTMULTIV3_ALBUM_WEEK_NUMBER_FORMAT	{0:D2}	technical UI formatting or symbol; preserve byte-for-byte
+244	ACTMULTIV3_MILESTONE_MAX_DESC	MAX	technical UI formatting or symbol; preserve byte-for-byte
+245	ACTMULTIV3_STAGE_RECORD_SCORE_EMPTY_PLACE_HOLDER	/	technical UI formatting or symbol; preserve byte-for-byte
+246	ENEMY_DUEL_DAILY_PROGRESS	{0}/{1}	technical UI formatting or symbol; preserve byte-for-byte
+248	ENEMY_DUEL_ROUND_BET_COUNTDOWN	{0}:{1}	technical UI formatting or symbol; preserve byte-for-byte
+249	ENEMY_DUEL_ROUND_BET_ENEMY_DETAIL	{0}: <color=#969696>{1}</color>	technical UI formatting or symbol; preserve byte-for-byte
+250	ENEMY_DUEL_BET_CURR_MONEY_FORMAT	<color=#F4D326>{0}</color>	technical UI formatting or symbol; preserve byte-for-byte
+251	ENEMY_DUEL_MILESTONE_PROGRESS_FORMAT	/ {0}	technical UI formatting or symbol; preserve byte-for-byte
+252	ENEMY_DUEL_MILESTONE_ITEM_NAME_FORMAT	{0}	technical UI formatting or symbol; preserve byte-for-byte
+253	CARVING_MAIN_SHOP_SLOT_CNT_TXT	{0}/{1}	technical UI formatting or symbol; preserve byte-for-byte
+254	CARVING_HOME_TIME_LOCKED_FORMAT	{0}/{1} {2:D2}:{3:D2}	technical UI formatting or symbol; preserve byte-for-byte
+255	SPECIAL_OPERATOR_EVOLVE_CURSOR_PANEL_EXP_FORMAT	<color=#ffd800>{0}</color>/{1}	technical UI formatting or symbol; preserve byte-for-byte
+256	SPECIAL_OPERATOR_EVOLVE_CURSOR_PANEL_LEVEL_MAX_FORMAT	/{0}	technical UI formatting or symbol; preserve byte-for-byte
+257	SPECIAL_OPERATOR_EVOLVE_DETAIL_TASK_FORMAT	{0} ({1}/{2})	technical UI formatting or symbol; preserve byte-for-byte
+258	ACT1ARCADE_SCORE_FORMAT	{0:D7}	technical UI formatting or symbol; preserve byte-for-byte
+259	ACT1ARCADE_SCORE_INFO_FORMAT	{0}-	technical UI formatting or symbol; preserve byte-for-byte
+260	ACT1ARCADE_REWARD_FORMAT	+{0}	technical UI formatting or symbol; preserve byte-for-byte
+261	ACT1ARCADE_BADGE_UNLOCK_DESC_FORMAT	{0}(<color=#{3}>{1}</color>/{2})	technical UI formatting or symbol; preserve byte-for-byte
+262	TEMPLATE_MISSION_SKIN_REWARD_NAME_FORMAT	{0} - {1}	technical UI formatting or symbol; preserve byte-for-byte
+263	OPEN_SERVER_ITEM_COUNT_FORMAT	<size=15> x </size>{0}	technical UI formatting or symbol; preserve byte-for-byte
+264	LONG_TERM_CHECK_IN_COMPLETE_PROGRESS_FORMAT	<color=#009DE5>{0}</color>/{1}	technical UI formatting or symbol; preserve byte-for-byte
+265	LONG_TERM_CHECK_IN_UNCOMPLETE_PROGRESS_FORMAT	<color=#C64A43>{0}</color>/{1}	technical UI formatting or symbol; preserve byte-for-byte
+266	ART_GALLERY_COLLECT_PROGRESS	{0}/{1}	technical UI formatting or symbol; preserve byte-for-byte
+267	ART_GALLERY_UNLOCK_CONDITION_FORMAT	- {0} ({1}/{2})	technical UI formatting or symbol; preserve byte-for-byte
+268	ART_GALLERY_MUSIC_NAME_TEXT_SPLIT	/	technical UI formatting or symbol; preserve byte-for-byte
+269	APRIL_FOOL_FUN_6_STAGE_HAS_NO_PASS_TIME_FORMAT	--:--	technical UI formatting or symbol; preserve byte-for-byte
+270	APRIL_FOOL_FUN_6_BATTLE_FINISH_ARCHIEVEMENT_TOTAL_FORMAT	/ {0}	technical UI formatting or symbol; preserve byte-for-byte
+271	APRIL_FOOL_FUN_6_ZONE_MAP_ARCHIEVEMENT_TOTAL_FORMAT	/ {0}	technical UI formatting or symbol; preserve byte-for-byte
+272	ACT1VHALFIDLE_ASSIST_MAX_NUM_FORMAT	/ {0}	technical UI formatting or symbol; preserve byte-for-byte
+273	ACT1VHALFIDLE_RECRUIT_REFUND_FORMAT	+{0}	technical UI formatting or symbol; preserve byte-for-byte
+274	ACT45SIDE_CHAR_NAME	, {0}	technical UI formatting or symbol; preserve byte-for-byte
+275	COMMON_ASSIST_COUNT_DOWN_FORMAT	{0:D2}:{1:D2}:{2:D2}	technical UI formatting or symbol; preserve byte-for-byte
+276	ACT_AUTO_CHESS_ROOM_PLAYER_NAME_FORMAT	{0} <color=#777777>#{1}</color>	technical UI formatting or symbol; preserve byte-for-byte
+277	AUTO_CHESS_COUNT_DOWN_DIGIT_TYPE	0{0}	technical UI formatting or symbol; preserve byte-for-byte

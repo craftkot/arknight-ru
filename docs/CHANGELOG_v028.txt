@@ -1,0 +1,6 @@
+v0.28 — Darknights Memoir chronology progression
+DM-1 postbattle has 152 named + 15 unnamed CN-reviewed Russian dialogue lines.
+Original EN and CN Git SHA1 pinned. Added combined DM-1 preview for two files.
+Old chapter story and UI unchanged; old 110 event translations untouched.
+No original copyrighted CN/EN script in the distribution. No game integration.
+Next: DM-2 prebattle.

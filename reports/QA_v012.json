@@ -1,0 +1,20 @@
+{
+  "release": "Arknights RU Independent v0.12",
+  "source": "v0.11 workspace from user and manual source-keyed additions",
+  "source_version": "2026-10-29, 2711 EN UI game keys",
+  "ui_total": 2711,
+  "ui_previous": 1994,
+  "ui_new_drafts": 439,
+  "ui_translated": 2433,
+  "ui_remaining": 278,
+  "ui_percent": 89.75,
+  "ui_needs_cn_or_context_review": 76,
+  "xunity_safe_literal_preview_pairs": 1271,
+  "english_collisions_with_multiple_ru": 42,
+  "tag_placeholder_escaped_newline_checks_pass": true,
+  "prior_ui_translations_preserved": true,
+  "real_cn_story_scripts_obtained": false,
+  "story_translated_lines": 0,
+  "game_tested": false,
+  "ready_to_install": false
+}

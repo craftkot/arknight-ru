@@ -1,0 +1,345 @@
+CHAR_RESPAWNTIME_FAST	Быстрое
+CHAR_RESPAWNTIME_MEDIUM	Среднее
+SHOP_REFRESH_TIME	Обновление магазина через: {0}
+SHOP_BUY_SKIN	Купить костюм «{1}» за {0}?
+SHOP_BUY_SKIN_WITH_GIFT	Купить костюм «{1}» за {0}?\n{2}
+TOAST_NO_POTENTIAL_ITEM_TO_CONVERT	Нет жетонов для обмена.
+TOAST_NO_CLASSIC_POTENTIAL_ITEM_TO_CONVERT	Нет жетонов ядра для обмена.
+TOAST_NO_SOCIAL_RECEIVE	Нет кредитов для получения.
+SHOP_ERROR_INVALID_CASH_PRODUCT	Товар больше недоступен. Перезайдите в игру для обновления данных.
+SHOP_ERROR_CREATE_ORDER_TIMEOUT	Не удалось создать заказ: время ожидания истекло. Проверьте соединение и повторите попытку.
+SHOP_ERROR_CREATE_ORDER_FAILED	Не удалось создать заказ. Повторите попытку позже.\nКод ошибки: {0}
+SHOP_RECEIVE_ITEM_FROM_UNFINISH_ORDER	Найден незавершённый заказ. Получаем предметы.
+SHOP_ROUTE_TO_CASH_SHOP	Недостаточно {0}. Купить {0} в магазине?
+SHOP_DONT_SELECT	Выберите вариант оформления.
+SHOP_CHAR_FORMAT	Досье: {0}
+SHOP_DECOMPOSE_POTENTIAL	Обменять лишние жетоны на сертификаты?
+SHOP_DECOMPOSE_CLASSIC_POTENTIAL	Обменять лишние жетоны ядра на сертификаты?
+SHOP_RECOMMEND_TEMPLATE_GIFT_AVAIL_COUNT	Доступно покупок: {0}
+NAME_MAIL_SENDER_UNKOWN	Неизвестно
+ALERT_MAIL_RECEIVED	Письмо уже получено.
+ALERT_NO_MAIL_NEED_RECEIVE	Нет писем с наградами.
+ALERT_NO_MAIL_NEED_DELETE	Нет писем для удаления.
+MAIL_ARCHIVE_UNLOCK_TOAST	Сохранено в архив писем.
+DESC_AP_RECOVER_COUNT_DOWN	1 ед. рассудка восстановится через {0}
+ALERT_AP_ALREADY_FULL	Достигнут дневной лимит покупок.
+AP_BUY_TEXT	Потратить {0} {1} и восстановить {2} ед. рассудка? (Осталось покупок сегодня: {3})
+AP_BUY_REMAIN_TIMES	Осталось покупок сегодня: {0}
+AP_BUY_COST_DESC	Восстановить за {0}
+AP_LIMIT_OUT_NOTIFACTY	Попытки обмена закончились.
+ITEM_VOUCHER_CURRENT_COUNT	(В наличии: <color=#FFFFFF>{0}</color>)
+ITEM_VOUCHER_PICK_TITLE	Выберите оператора:
+ALERT_AP_BUY_SUCCESS	Рассудок восстановлен.
+DESC_HOME_ALL_STAGE_COMPELTE	Все этапы пройдены.
+DESC_CUR_CHAPTER_COMPLETE	Эпизод завершён.
+ALERT_DAILY_REAUTH_FAILED	Данные авторизации устарели. Войдите снова.
+EXCHANGE_DIAMOND_TEXT	Потратить {0} {1}, чтобы получить {2} {3}?
+EXCHANGE_DIAMOND_SUCC	Обмен завершён.
+CHECK_IN_DATE	День {0}
+CHECK_IN_REMAIN_DATE	Осталось дней: {0}
+ALERT_NO_ANNOUNCE	Новых объявлений нет.
+ALERT_ANNOUNE_ACTIVITY_NOT_OPEN	Событие ещё не началось.
+ALERT_ANNOUNE_SHOP_NOT_OPEN	Магазин пока недоступен.
+ALERT_START_BATTLE_STAGE_IS_LOCKED	Связь с нейросетью потеряна. Требуется повторная синхронизация.
+ALERT_START_BATTLE_UNKNOWN_ERROR	Ошибка при запуске операции. Войдите в игру снова.\nКод ошибки: {0}
+ALERT_BATTLE_RES_CORRUPTED_ERROR	Ресурсы боя повреждены. Очистите кэш или переустановите игру.\nЕсли проблема останется, обратитесь в поддержку.
+DIALOG_BATTLE_SERVICE_RETRY	Не удалось синхронизировать результаты боя с нейросетью.\nПовторить попытку?
+ALERT_FINISH_BATTLE_SERVICE_FAILED	Не удалось отправить результаты боя: связь с нейросетью прервана.\nКод ошибки: {0}
+ALERT_BLOCK_ANY_ROUTES	Нельзя перекрыть все пути. Измените расстановку.
+ALERT_CANCEL_DIRECTION_SELECTION_IN_TUTORIAL	Во время обучения отменить размещение нельзя.
+ERROR_BATTLE_JOURNAL_SAVE_FAILED	Плохое соединение. Не удалось сохранить результаты боя.
+ERROR_BATTLE_RECORD_SAVE_FAILED	Слабый сигнал. Не удалось синхронизировать запись боя с нейросетью.\nТекущая сцена будет закрыта.
+ERROR_BATTLE_JOURNAL_INVALID	Данные боя утеряны. Сохранение не выполнено.
+DIALOG_CONFIRM_EXIT_AUTO_BATTLE	Если вы возьмёте управление на себя, авторазвёртывание станет недоступно.\nПродолжить?
+DIALOG_AUTO_BATTLE_GIVE_UP	Прервать операцию?
+DIALOG_AUTO_BATTLE_GIVE_UP_COMBO_CARD	Прервать операцию?
+ADD_FRIEND_STRING	Добавить {0}#{1} в друзья?
+JUDGE_DELETE_FRIEND	Удалить этого друга?
+APPLY_ASSIST_STRING	Изменения отрядов поддержки не сохранены. Сохранить сейчас?
+FRIEND_SEND	Запрос отправлен.
+FRIEND_ADDED	Добавлено.
+FRIEND_ALREADY_SEND	Запрос уже отправлен.
+TOAST_FRIEND_SEARCH_RESULT_EMPTY	Пользователь не найден.
+TOAST_FRIEND_SEARCH_INPUT_EMPTY	Поле не должно быть пустым.
+CANNOT_AUTO_BATTLE_DEFAULT	Чтобы открыть авторазвёртывание, получите <color=#4ABDFF>3 звезды</color> <color=#4ABDFF>без использования оператора поддержки</color>.
+CANNOT_AUTO_BATTLE_CAMPAIGN	Чтобы открыть авторазвёртывание, один раз пройдите «Аннигиляцию» без оператора поддержки.
+BEFORE_BATTLE_TRIGGER	До боя
+AFTER_BATTLE_TRIGGER	После боя
+BATTLE_FINISH_REWARD	{0:N1} × опыта и LMD
+BATTLE_FINISH_AP_UP	Максимум рассудка увеличен с <color=#898989>{0}</color> до <color=#22bbff>{1}</color>
+BATTLE_FINISH_AP_RECOVER	Рассудок восстановлен: +{0}
+BATTLE_FINISH_MULTIPLE_STAT_SUCC	Авторазвёртывание успешно: <color=#00b0ff>{0}</color} раз
+BATTLE_FINISH_MULTIPLE_REWARD	Награда опытом и LMD
+BUY_AP_OUT_OF_LIMIT	Рассудок, восстановленный препаратами и ориджиниумом, не может превышать {0}.
+INVENTORY_BUY_AP_OUT_OF_LIMIT	Рассудок, восстановленный препаратами, не может превышать {0}.
+BATTLE_FINISH_FAIL_REWARD	Опыт и LMD
+ALERT_FRIEND_VISIT_BUILDING_LOCKED	Для посещения баз друзей сначала постройте {0}.
+ALERT_FRIEND_FULL_CANNOT_SEND	Список друзей заполнен. Нельзя отправить запрос.
+ALERT_FRIEND_FULL_CANNOT_DEAL	Список друзей заполнен. Нельзя добавить нового друга.
+ALERT_FRIEND_REQUESTED_FULL_CANNOT_DEAL	У этого игрока заполнен список друзей.
+ALERT_FRIEND_OUT_OF_DATE_CANNOT_DEAL	Срок действия запроса истёк.
+ALERT_FRIEND_ALREADY_REQUEST	Вы уже отправили этому Доктору запрос в друзья.
+ALERT_FRIEND_REUQEST_DEAL_SUC	Друг добавлен.
+ALERT_FRIEND_EMPTY_ALIAS	Поле комментария не должно быть пустым.
+ALERT_FRIEND_INVALID_ALIAS	Недопустимый комментарий. Попробуйте другой.
+FRIEND_EMPTY_TEXT	Не показывать медали
+FRIEND_DIY_TEXT	Настроить отображение медалей
+ALERT_RESUME_TOO_LONG	Комментарий слишком длинный. Сократите его.
+ALERT_RESUME_ILLEGAL_CHAR	Недопустимые символы. Измените текст.
+ALERT_RESUME_ILLEGAL_WORD	Недопустимые слова. Измените текст.
+ALERT_NAME_CARD_RESUME_TOO_LONG	Превышен лимит длины текста.
+ALERT_NAME_CARD_RESUME_ILLEGAL_CHAR	В тексте есть недопустимые символы.
+ALERT_NAME_CARD_RESUME_ILLEGAL_WORD	В тексте есть недопустимые слова.
+NO_RESUME_SELF	Может, расскажете о себе?
+NO_RESUME_NOT_SELF	Игрок не оставил информации о себе.
+FRIEND_RARITY_LEVEL_LIMIT	Только для операторов редкости {0}★ и ниже
+FRIEND_RARITY_TOAST	В этот слот нельзя назначить оператора {0}★.
+FRIEND_RARITY_LEVEL_NO_LIMIT	Операторы любой редкости
+BUILDING_LEVEL_INFO_HIRE_ECON_RATE	Расход ресурсов
+BUILDING_LEVEL_INFO_SPEC_LVL	Максимальный уровень
+BUILDING_LEVEL_INFO_HIRE_SPEED	Скорость поиска контактов
+BUILDING_LEVEL_INFO_NEW_FORMULA_COUNT	Новые рецепты
+BUILDING_LEVEL_INFO_COMFORT_LIMIT	Лимит комфорта
+BUILDING_BROOM_CATEGORY_CUSTOM	Особое помещение
+BUILDING_BROOM_CATEGORY_OUTPUT	Производственное помещение
+BUILDING_BROOM_CATEGORY_FUNC	Вспомогательное помещение
+BUILDING_FUNCTIONAL_ROOM_NAME	Помещение без активности
+BUILDING_BROOM_HIRE_IDLE_STATE	Ожидание
+BUILDING_BROOM_HIRE_STOP_STATE	Приостановлено
+BUILDING_BROOM_HIRE_WORK_STATE	Установление контактов
+BUILDING_BROOM_HIRE_FINISH_STATE	Готово
+BUILDING_BROOM_DORM_IDLE_STATE	Свободно
+BUILDING_BROOM_DORM_REST_STATE	Занято
+BUILDING_BROOM_POWER_STATE	Работает
+BUILDING_BROOM_MANUF_WORK	Производство
+BUILDING_BROOM_MANUF_IDLE	Ожидание
+BUILDING_BROOM_MANUF_STOP	Остановлено
+BUILDING_BROOM_SHOP_WORK	Продажа
+BUILDING_BROOM_SHOP_IDLE	Ожидание
+BUILDING_BROOM_SHOP_STOP	Остановлено
+BUILDING_BROOM_TRADING_WORK	Получение заказов
+BUILDING_BROOM_TRADING_IDEL	Ожидание
+BUILDING_BROOM_TRADING_FULL	Заполнено
+BUILDING_BROOM_TRAINING_IDLE	Ожидание
+BUILDING_BROOM_TRAINING_FINISH	Готово
+BUILDING_BROOM_TRAINING_STATE	Прогресс: {0}%
+BUILDING_BROOM_DIY_RESET	Сбросить все изменения?
+BUILDING_BROOM_DIY_CLEAR	Убрать всю мебель?
+BUILDING_BROOM_DIY_FURNITURE_INTERSECT	Нельзя сохранить планировку: мебель пересекается. Измените расстановку.
+BUILDING_BROOM_DIY_QUIT_NOT_SAVED	Есть несохранённые изменения. Выйти без сохранения?
+BUILDING_BROOM_DIY_SAVE	Сохранить изменения?
+BUILDING_BROOM_DIY_SAVED	Сохранено.
+BUILDING_BROOM_PRIVATE_IDLE_STATE	Свободно
+BUILDING_BROOM_PRIVATE_USE_STATE	Занято
+BUILDING_COMFORT_RULE_HINT_FORMAT	Повторная мебель не повышает комфорт после {0}-го экземпляра.
+BUILDING_FURNI_LIMIT_MEETING	(Максимум в приёмной: <color=#008fcb>{0}/{1}</color>)
+BUILDING_FURNI_NO_LIMIT_MEETING	Для перечисленной мебели нет отдельных ограничений.
+BUILDING_FURNI_EXCEED_LIMIT	Нельзя сохранить: превышен лимит количества мебели.
+BUILDING_OVERVIEW_STOREY_LVL	Ур. {0}
+BUILDING_OVERVIEW_STOREY_LOCKED	Не удаётся обнаружить сигнал.\nУлучшите {0}.
+BUILDING_CHAR_IDLE_DESC	Ожидает
+BUILDING_CHAR_WORK_DESC	Работает
+BUILDING_CHAR_REST_DESC	Отдыхает
+BUILDING_CHAR_TIRED_DESC	Усталость
+BUILDING_CHAR_MP_FULL	Полон сил
+BUILDING_CHAR_MP_HALF	Сосредоточен
+BUILDING_CHAR_MP_EMPTY	Усталость
+BUILDING_FORMULA_UNLOCK_ROOM	Чтобы открыть рецепт, постройте и улучшите {1} (ур. {2}) ×{0}.
+BUILDING_FORMULA_UNLOCK_STAGE	Чтобы открыть рецепт, пройдите {1} на {0} звезды.
+BUILDING_WORKSHOP_UPGRADING	Сначала завершите строительство мастерской.
+ERROR_BUILDING_WORKSHOP_FORMULA_COST_NOT_ENOUGH	Недостаточно материалов для обработки.
+ERROR_BUILDING_MANUFACT_FORMULA_COST_NOT_ENOUGH	Недостаточно материалов для производства.
+ERROR_BUILDING_WORKSHOP_FORMULA_GOLD_LIMIT	Недостаточно LMD.
+ERROR_BUILDING_WORKSHOP_FORMULA_INGREDIENT_LIMIT	Недостаточно материалов.
+BUILDING_WORKSHOP_RECOVER_MOOD	Настроение +{0}
+ERROR_BUILDING_SHOP_FORMULA_COST_NOT_ENOUGH	Недостаточно материалов для заказа.
+ERROR_BUILDING_MANUFACT_OUTPUT_FULL	Склад заполнен. Сначала заберите готовую продукцию.
+ERROR_BUILDING_MANUFACT_ALL_EMPTY	Для начала производства назначьте хотя бы одного оператора.
+DIALOG_BUILDING_MANUFACT_EDIT_NOT_APPLY	Новый рецепт не выбран. Всё равно выйти?
+DIALOG_BUILDING_MANUFACT_EDIT_CONFIRM	При выборе нового рецепта текущий заказ будет отменён. Продолжить?
+BUILDING_ARCHITECTURE_BUILD_CONDITION_FAILED	Не выполнены требования для строительства.
+BUILDING_ARCHITECTURE_LACK_OF_POWER_BUILD	Недостаточно энергии для строительства.
+BUILDING_ARCHITECTURE_LACK_OF_POWER_LEVELUP	Недостаточно энергии для улучшения.
+BUILDING_ARCHITECTURE_LEVELUP_CONDITION_FAILED	Не выполнены требования для улучшения.
+BUILDING_EMPTY_ROOM	Можно построить
+BUILDING_UNCLEANED_ROOM	Можно расчистить
+BUILDING_EMPTY_ROOM_CANNOT_BUILD	Ожидает строительства
+BUILDING_UNCLEANED_ROOM_CANNOT_CLEAN	Расчистка недоступна
+ERROR_BUILDING_SHOP_OUTPUT_FULL	Лимит заказов достигнут. Сначала заберите готовые заказы.
+ERROR_BUILDING_SHOP_STOCK_CHAR_EMPTY	Для начала торговли назначьте хотя бы одного оператора.
+ERROR_BUILDING_SHOP_STOCK_CHAR_TIRED	У назначенных операторов не хватает настроения для работы.
+DIALOG_BUILDING_SHOP_EDIT_CONFIRM	При выборе нового рецепта текущие продажи будут отменены. Продолжить?
+DIALOG_BUILDING_CHAR_BUSY	Выбранные операторы будут сняты с работы. Продолжить?
+BUILDING_LEVELUP_COMPLETE	Улучшено.
+ERROR_BUILDING_LEVELUP_UNCOMPLETE	Потеряна синхронизация по времени сети. Улучшение не завершено.
+BUILDING_LEVELDOWN_COMPLETE	Уровень понижен.
+BUILDING_CLEAN_COMPLETE	Помещение очищено. Доступно дронов: +{0}.
+BUILDING_COST_NOT_ENOUGH	Недостаточно материалов.
+BUILDING_LABOR_NOT_ENOUGH	Недостаточно дронов.
+BUILDING_LABOR_SYNC_FAILED	Ошибка синхронизации с нейросетью. Попробуйте снова.
+BUILDING_BUILD_COMPLETE	Строительство завершено.
+BUILDING_MAX_LEVEL_ALREADY	Достигнут максимальный уровень.
+BUILDING_CANNOT_LEVELDOWN	Достигнут минимальный уровень. Понижение невозможно.
+BUILDING_LEVELDOWN_ELECT_EXCEED	Понижение уровня вызовет нехватку энергии.
+BUILDING_DIY_CANNOT_LEVELUP	Нельзя улучшить.
+BUILDING_DIY_NO_MODIFIER	Убрать
+BUILDING_DIY_LEVELUP_COMPLETE	Улучшено.
+BUILDING_DIY_FURNITURE_BUY_OUT_OF_LIMIT	Превышен лимит количества мебели.
+BUILDING_DIY_FURNITURE_BUY_ZERO	Укажите количество мебели для покупки.
+BUILDING_DIY_FURNITURE_MULTI_BUY	Нельзя одновременно использовать несколько способов покупки мебели.
+BUILDING_DIY_FURNITURE_OUT_OF_TIME_RANGE	Сейчас эта мебель недоступна для покупки.
+BUILDING_ROOM_COUNT_LIMIT	Достигнут лимит помещений. Нельзя построить ещё {0}.
+BUILDING_DIY_MAX_LEVEL	Достигнут максимальный уровень оформления общежития.
+BUILDING_DIY_SHOP_FURNITURE_COUNT_FORMAT	В наличии: {0}
+BUILDING_DIY_NEED_APPLY_PRESET	Загрузить комплект?
+BUILDING_DIY_PRESET_LOAD_FAILED_INSUFFICIENT	Не хватает мебели для применения комплекта: {0}
+BUILDING_DIY_PRESET_LOAD_FAILED_NOT_EXIST	Некоторые предметы мебели отсутствуют: {0}
+BUILDING_DIY_PRESET_SAVE	Сохранить комплект?
+BUILDING_DIY_NO_PRESET	Пусто
+BUILDING_DIY_PRESET_SAVED	Комплект сохранён.
+BUILDING_DIY_PRESET_APPLIED	Комплект применён.
+BUILDING_PRESET_RENAME_INVALID	Недопустимое имя
+BUILDING_PRESET_RENAME_TOOLONG	Слишком длинное имя
+BUILDING_DIY_DEFAULT_PRESET_NAME_PREFIX	Комплект
+BUILDING_DIY_THEME_APPLIED	Расстановка завершена.
+BUILDING_DIY_FURNITURE_INVALID_ALREADY_ADDED	Установлено
+BUILDING_DIY_FURNITURE_INVALID_ALREADY_OCCUPIED	Занято
+BUILDING_DIY_FURNITURE_INVALID_NO_STORAGE	Нет в наличии
+BUILDING_DIY_LISTVIEW_EMPTY_THEME	Нет тем оформления.
+BUILDING_DIY_LISTVIEW_EMPTY_FURNITURE	Нет мебели.
+BUILDING_DIY_ROOMTYPE_THEME	Тема {0}
+BUILDING_MANUFACT_WORK_DESC	Производство
+BUILDING_MANUFACT_IDLE_DESC	Ожидание
+BUILDING_MANUFACT_STOP_DESC	Приостановлено
+BUILDING_MANUFACT_OUTPUT_OVERLOADED	Не хватает места на складе.\nСначала заберите продукцию.
+BUILDING_MANUFACT_CAN_NOT_EXECUTE_LABOR_ACCEL	Сначала выберите рецепт.
+ERROR_BUILDING_TEARDOWN_BUSY	Помещение используется, поэтому его нельзя понизить в уровне.
+ERROR_BUILDING_HIRE_RECRUIT_SLOT_BUSY	Идёт поиск контактов. Нельзя демонтировать помещение.
+ERROR_BUILDING_LEVELUP_BUSY	Помещение используется. Улучшение недоступно.
+ERROR_BUILDING_STATION_WHILE_LEVELUP	Помещение улучшается. Назначать операторов нельзя.
+BUILDING_CONFIRM_BACK_TO_SELF	Вернуться на свою базу?
+BUILDING_CONFIRM_BACK_TO_FRIEND_LIST	Вернуться к списку друзей?
+BUILDING_VCHAR_PATH_INVALID	Нельзя переместиться к выбранному предмету мебели.
+BUILDING_VISIT_SOCIAL_PT_ADDED	Посещено друзей сегодня: {0}/{1}
+BUILDING_VISIT_SOCIAL_PT_DUPLICATE	Сегодня вы уже посещали этого друга.
+BUILDING_VISIT_SOCIAL_PT_FULL	Дневной лимит кредитов за посещения исчерпан.
+BUILDING_RECEIVE_SOCIAL_PT_ALREADY	Сегодня кредиты уже получены.
+BUILDING_RECEIVE_SOCIAL_PT_ZERO	Нет кредитов для получения.
+BUILDING_TRADING_LABOR_ACCEL_TITLE	Ускорить получение заказа с помощью дронов?
+BUILDING_MANUFACT_LABOR_ACCEL_TITLE	Ускорить производство с помощью дронов?
+BUILDING_MANUFACT_INVALID_LABOR_ACCEL	Производство уже завершено. Ускорение невозможно.
+BUILDING_HIRE_WORK_LIMIT	Достигнут лимит.
+BUILDING_HIRE_REQUIRE_ROOM	Сначала постройте {0}.
+BUILDING_REST_TIME_FORMAT_WITH_DAY	{0} дн.
+BUILDING_NO_CLUE_HINT_ALL	Нет улик
+BUILDING_NO_CLUE_HINT_RECEIVED	Улики не получены
+BUILDING_NO_CLUE_HINT_OWN	Назначьте операторов для поиска улик.
+BUILDING_TRAIN_FINISH_CONST	Улучшено.
+BUILDING_TRAIN_FINISH	Улучшено: {0}
+BUILDING_TRAIN_FINISH_FULL	{0} освоил специализацию уровня {1}.
+BUILDING_TRAIN_SELECT_NO_CHAR	Нет операторов, доступных для специализации.
+BUILDING_TRAIN_SELECT_SKILL_LEVEL_MAX	Достигнут максимальный уровень специализации навыка.
+BUILDING_TRAIN_SELECT_SKILL_LEVEL_LOW_LEVEL_ROOM_LEVEL	Для специализации нужен тренировочный зал уровня {0}.
+BUILDING_TRAIN_TRAINEE_SLOT_LABEL	Ученик
+BUILDING_TRAIN_TRAINER_SLOT_LABEL	Инструктор
+BUILDING_TRAIN_TRAINEE_BUSY_TO_CHANGE	Оператор проходит обучение, поэтому его нельзя заменить или убрать.
+BUILDING_FLOAT_STATION_TEXT_TRAINER	Назначить инструктора
+BUILDING_FLOAT_STATION_TEXT_TRAINEE	Назначить ученика
+BUILDING_HIRING_NO_HIRING	Сначала постройте {0}.
+BUILDING_HIRING_HIRING_NOT_ENOUGH	Поиск контактов можно обновить после завершения текущего.
+BUILDING_TRADING_ORDER_TYPE_COMPOUND	Обычный заказ
+BUILDING_TRADING_ORDER_TYPE_GOLD	Заказ драгоценных металлов
+BUILDING_TRADING_ORDER_TYPE_DIAMOND	Заказ ориджиниума
+BUILDING_TRADING_STRATEGY_LOCKED	Переключение станет доступно, когда {0} достигнет ур. {1}.
+BUILDING_BUY_LABOR	Потратить <color=#7B0021>{0}</color> рассудка и зарядить <color=#7B0021>{1}</color> дронов?
+BUILDING_LABOR_DETAIL_RECOVER_BUFF	Скорость зарядки <color=#{1}>+{0:##.#%}</color>
+JUDGE_BUILDING_TRADING_DELETE_COMPLETE_ORDER	Заказ можно выполнить. Всё равно удалить его?
+ALERT_BUILDING_LABOR_ACCEL_WASTE_TIME	Избыточное время ускорения будет потеряно.
+ALERT_BUILDING_TRADING_ACCEL_INVALID_ORDER	Заказ уже получен. Ускорение невозможно.
+ALERT_BUILDING_TRADING_ACCEL_SUC	Ускорение завершено.
+ALERT_BUILDING_MANUFACT_ACCEL_SUC	Ускорение завершено.
+BUILDING_LABOR_ACCEL_RESULT_MANUF_NAME	Ускорить
+BUILDING_LABOR_ACCEL_RESULT_MANUF_UNIT	шт.
+BUILDING_BUFF_UNLOCK_EVOLVE_PHASE	Элита {0}
+BUILDING_BUFF_UNLOCK_LEVEL	Ур. {0}
+BUILDING_BUFF_UNLOCK_DESC	 для открытия
+BUILDING_BUFF_IMPROVE_DESC	 для улучшения
+BUILDING_ENTRY_LOCKED_TOAST	Функция базы заблокирована.
+BUILDING_STATION_SLOT_UNLOCK_COND	Откроется, когда {0} достигнет ур. {1}.
+BUILDING_STATION_SELECT_NO_CHAR	Нет подходящих операторов.
+BUILDING_STATION_SELECT_PASSIVE_CHANGED_ROOM_DESC	Смена смены затронет назначение операторов в <color=#4ABDFF>{0}</color> помещениях.
+BUILDING_WORKSHOP_GAIN_EXTRA_ITEM	Получен побочный продукт: <color=#4ABDFF>{0}</color>
+BUILDING_ROOM_LEVELDOWN_RETURN	Возврат за понижение уровня: <color=#4ABDFF>{0}</color>
+BUILDING_BUY_LABOR_FULL	Достигнут лимит дронов.
+BUILDING_ASSIST_UNLOCK	Откроется, когда {0} достигнет ур. {1}.
+BUILDING_BUY_LABOR_NO_AP	Недостаточно рассудка для ускоренной зарядки.
+BUILDING_BUY_LABOR_SUCCESS	Дроны заряжены.
+BUILDING_AP_LABOR_UNLOCK	Функция заблокирована.
+BUILDING_GET_RECENT_VISITOR_FAILED	Не удалось получить список недавних посетителей.\nКод ошибки: {0}
+BUILDING_NOTIFY_MANUF_PRODUCT	Производство в <color=#4ABDFF>{0}</color> завершено.
+BUILDING_NOTIFY_NON_ASSIST_FAVOR	Доверие операторов
+BUILDING_NOTIFY_ASSIST_FAVOR	Доверие помощников
+BUILDING_NOTIFY_PRIVATE_FAVOR	Доверие посетителей комнаты отдыха
+BUILDING_NOTIFY_TRADING_DELIVERY	Заказ <color=#4ABDFF>{0}</color> выполнен.
+BUILDING_TODO_BATCH_REST	 операторов
+MUSIC_PLAYER_TOAST	<color=#4abdff>{0}</color> выбрано как музыка базы.
+TOAST_GET_BUILDING_MUSIC_TIP	Доступна новая музыка базы: <color=#4abdff>{0}</color>.
+TOAST_GET_BUILDING_MUSICS_TIP	<color=#4abdff>{0}</color> и ещё {1} композиций доступны для музыки базы.
+BUILDING_MOVE_PREQUE_TO_DORM_LOCK	Убрать оператора из набора и назначить его в заблокированный слот?
+BUILDING_MOVE_FROM_DORM_LOCK	Убрать заблокированного оператора?
+JUDGE_TRY_FIX_LOCAL_RES	Начнётся восстановление локальных ресурсов. Во время проверки может потребоваться повторная загрузка ресурсов заданий.\nПродолжить?
+TEXT_BUY_SKIN_WITH_VOUCHER	Использовать {0}?
+TEXT_VOUCHER_GET_SKIN_NAME	Получить костюм: {0}
+ACTIVITY_REMAIN_TEXT_NO_STAGE	В магазине события доступно:
+ACTIVITY_3D5_DESC	Участвуйте в событии и собирайте предметы,\nчтобы получать награды за их количество.
+ACTIVITY_3D5_NEED_DESC	Всего: {0}{1}
+ACTIVITY_3D5_POINT_TITLE	Сейчас: {0}
+ACTIVITY_3D5_HELP_BTN_DESC	Как получить {0}
+ACTIVITY_3D5_TIME_DESC	{0:D4}/{1:D2}/{2:D2} {3:D2}:{4:D2} Осталось: {5}
+ACTIVITY_3D5_APTIME_DESC	Во время события {0} исчезнет через {1}
+ACTIVITY_3D5_HELP_STATUS_DESC0	Выполняйте задания, чтобы получить:
+ACTIVITY_3D0_ZONE_TIMEOUT	Завершено
+ACTIVITY_3D0_ZONE_TIME_LOCK_TEXT	Открыто {0}/{1}
+ACTIVITY_4D5_POINT_SIMPLE_NAME	Очки
+ACT_SIGN_REST_DAYS_MAY_CALM	Доступно через {0} дн.
+ACT_SIGN_ALL_CALM	Все награды получены.
+ACTIVITY_FLIPONLY_RAMAIN_TIP	Молитв сегодня: {0}
+ACTIVITY_FLIPONLY_REFRESH_TIP	Обновление через {0}
+MEDAL_ITEM_REWARD	— {0} ×{1}
+MEDAL_NEED_PRE	Сначала получите {0} медалей.
+GOOD_RARITY1	Обычный
+GOOD_RARITY2	Редкий
+GOOD_RARITY3	Особый
+DESC_MEDAL_TOAST_COUNT	Других медалей: <color=#0099cc>{0}</color>
+TOAST_MEDAL_DIY_SAVE_SUC	Сохранено.
+TOAST_MEDAL_DIY_UPDATE_TO_DATE	Текущая раскладка уже сохранена.
+TOAST_MEDAL_SELECT_MAX_COUNT	Выбрано максимальное количество медалей.
+JUDGE_MEDAL_DIY_NOT_SAVE_EXIT	Есть несохранённые изменения. Выйти без сохранения?
+JUDGE_MEDAL_DIY_RESET	Очистить текущую раскладку?
+MEDAL_DIY_SELECTED_COUNT	Выбрано медалей: <color=#0099cc>{0}</color>
+MEDAL_PROGRESS_IN_DESC	  (<color=#f49800>{0}</color>/{1})
+MEDAL_DESC_TEMP_EXPIRED	— Событие сейчас недоступно; медаль можно получить во время события.
+BUILDING_ASSIST_ROOM_NAME	Помощник базы
+CHARACTER_SORT_TYPE_RESPAWN	Повторное развёртывание
+CHARACTER_SORT_TYPE_ATKSPEED	Скор. атаки
+ALERT_SQUAD_HARD_STAGE_LOCKED	Чтобы открыть режим испытания, получите <color=#4ABDFF>3 звезды</color>.
+ALERT_SQUAD_PREDEFINE_HARD_STAGE_LOCKED	Чтобы открыть режим бедствий, получите <color=#4ABDFF>3 звезды</color>.
+GACHA_NEWBEE_REOPENTIME	Снова доступно с <color=#c82a39>{1}/{2}/{0}</color>
+RECRUIT_STAR	{0}★
+RECRUIT_RATE_UP_6_CAPTION	[Повышен шанс получить оператора <color=#ffd800>6★</color>: {0}!]
+SKIN_TMPL_ENSURE	(Применяется к {0}, статус конверсии класса {1}.)
+CASH_SHOP_PLUS_DIAMOND	Содержит {0} <color=white>×{1}</color>
+SHOP_CONST_COUNT	×{0}
+SHOP_ERROR_MONTHLY_SUB_TIME_EXCEED	Подписка действует 90 дней с момента покупки. Повторная покупка сейчас недоступна.
+SHOP_ERROR_CASH_NOTHING_RECEIVED	Покупка прошла успешно, но получить предметы не удалось. Перезайдите в игру и проверьте заказ.\nЕсли проблема сохранится, обратитесь в поддержку. Код ошибки: {0}
+SHOP_ERROR_UNFINISHED_ORDERS_NOT_CONFIRMED	Обнаружен незавершённый заказ, но получить предметы не удалось.\nПри необходимости обратитесь в поддержку.
+SHOP_ALERT_MINOR_USER_PAYMENT	Для вашего аккаунта покупки ограничены. Попросите законного представителя помочь с оплатой.
+SHOP_CHOOSE_SHOP_NAME	Выбрано оформление: {0}
+SHOP_RECOMMEND_TEMPLATE_FURN_HINT_FORMAT	* Остальные предметы мебели из комплекта можно получить в «{0}».
+ALERT_CRYSTAL_NOT_ENOUGH_TO_BUY_AP	Недостаточно {0}.
+AP_BUY_TEXT_WITHOUT_REMAINTIMES	Потратить <color=#22bbff> {0} </color>{1} и восстановить <color=#22bbff> {2} </color> ед. рассудка?
+ITEM_VOUCHER_USE_ENSURE	Открыть <color=#22bbff>{0}</color> {1}?
+ITEM_VOUCHER_EVOLVE_TITLE	Выберите одного из операторов {0}★ ниже, чтобы повысить его до Элиты 2, ур. 1.
+ITEM_VOUCHER_EVOLVE_6_TITLE	Выберите одного из операторов {0}★ ниже, чтобы повысить его до Элиты 2, ур. 1 (особый оператор исключён).
+ALERT_START_BATTLE_COST_NOT_ENOUGH	Требования не выполнены. Операцию начать нельзя.
+ERROR_NETWORK_SECURE_INIT_FAILED	Не удалось настроить защиту сетевого соединения. Попробуйте снова.\nКод ошибки: {0}

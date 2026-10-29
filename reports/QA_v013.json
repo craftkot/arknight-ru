@@ -1,0 +1,22 @@
+{
+  "release": "Arknights RU v0.13",
+  "ui_source_keys": 2711,
+  "ui_v012_translated": 2433,
+  "ui_new_keyed_drafts": 111,
+  "ui_total_keyed_drafts": 2544,
+  "ui_percent_of_all_source_keys": 93.84,
+  "ui_format_unchanged": 167,
+  "ui_remaining_unclassified": 0,
+  "ui_new_cn_or_context_review": 54,
+  "xunity_simple_literal_pairs": 1312,
+  "english_phrase_multi_ru_collisions": 45,
+  "previous_2433_keyed_translations_preserved": true,
+  "markup_variable_and_linebreak_integrity": true,
+  "story_source_paths_verified_in_community_github": true,
+  "story_source_files_in_zip": false,
+  "story_cn_ru_translated_dialogues": 0,
+  "story_downloader_tested_without_live_network": true,
+  "local_runtime_download_not_tested": true,
+  "client_patch_not_tested": true,
+  "installation_ready": false
+}

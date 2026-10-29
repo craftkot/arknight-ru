@@ -1,0 +1,24 @@
+{
+  "release": "Arknights RU v0.16",
+  "previous_release": "v0.15",
+  "ui_keyed_carryover": 2544,
+  "ui_total_indexed": 2711,
+  "ui_technical_unchanged": 167,
+  "new_story_scenes": [
+    "0-4, pre-battle",
+    "0-6, post-battle"
+  ],
+  "new_story_files": 2,
+  "new_story_dialogue_drafts": 78,
+  "previous_story_dialogues_preserved": 237,
+  "story_dialogue_drafts_total": 315,
+  "story_files_total": 6,
+  "partial_stage_warning": "0-4 only pre-battle, 0-6 only post-battle; other episodes have not been translated",
+  "game_installable_patch": false,
+  "live_game_tested": false,
+  "windows_live_fetch_tested": false,
+  "source_chinese_primary": true,
+  "cn_en_source_hashes": "GitHub blob SHA from connector; raw files not locally downloaded in this environment",
+  "quality_status": "first draft, technical validation not full editorial check",
+  "unit_test_summary": "Ran 32 tests in 0.026s"
+}

@@ -1,0 +1,33 @@
+Arknights RU Independent v0.21 — Chapter 1 / first Russian story draft
+
++701 Russian dialogue translations across 12 publicly indexed main-story episode-1 scripts:
+  level_main_01-01_beg.txt      34
+  level_main_01-01_end.txt      61
+  level_main_01-03_beg.txt      39
+  level_main_01-03_end.txt      11
+  level_main_01-04_beg.txt      37
+  level_main_01-06_beg.txt      60
+  level_main_01-07_beg.txt      76
+  level_main_01-07_end.txt      65
+  level_main_01-08_beg.txt     140
+  level_main_01-10_end.txt      47
+  level_main_01-12_beg.txt      48
+  level_main_01-12_end.txt      83
+  TOTAL                        701
+
+Combined chapters 0 and 1: 1355 story dialogue drafts in 24 indexed scripts.
+UI 2544 keyed translations, previous item/operator/enemy drafts preserved.
+
+TECHNICAL
+- Extend pinned source allow-list to public chapter-1 scenarios.
+- Add civilian, Talulah, W and anonymous name speaker labels.
+- Preserve exact case of {@nickname} / {@Nickname}.
+- New Windows one-step preview batch scripts for chapter 1 and both chapters.
+- New QA suite (74 tests in total) including synthetic 24-scene preview.
+- Preserves game commands in generated private local previews.
+
+LIMITATIONS
+- This archive is NOT a working game patch. No game client was launched.
+- Runtime download from Windows has not been tested.
+- Structural checks cannot guarantee prose quality or canonical term correctness.
+- Text covered here is the 12 story files catalogued as episode 1 in public CN/EN archives, not the complete game.

@@ -1,0 +1,702 @@
+scene	dialogue_index	russian_first_draft	review_status
+obt/main/level_main_01-01_beg.txt	1	Мне кажется или небо действительно становится всё темнее?	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	2	…Хотелось бы верить, что тебе кажется.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	3	Но времени у нас и так почти не осталось.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	4	Облака Катастрофы уже не просто сплошная чёрная пелена — теперь отчётливо видны их очертания.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	5	Тц. Смотреть невооружённым глазом, как они сгущаются прямо над головой, — дурной знак.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	6	К тому же Воссоединение может устроить засаду на любой улице нижнего города…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	7	Нет, я слишком мягко выразилась.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	8	Вернее будет сказать: улицы буквально кишат бойцами Воссоединения.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	9	Почти повсюду погромы: грабят людей, поджигают машины и магазины…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	10	Они что, решили, будто сегодня чудесная погода для пикника?!	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	11	Любой, кто вздумает сейчас устроить пикник, попадёт под беспощадный удар Катастрофы.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	12	Выходит, большинство бойцов Воссоединения — глупцы, которым жестокость затуманила разум.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	13	…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	14	…Пф!	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	15	Н-нет, они же не в самом деле… собрались на пикник…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	16	Я-я просто пожаловалась! Это была шутка…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	17	—	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	18	Разве это не было сравнением? Или я не уловила шутку?	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	19	Хм…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	20	Простите. Даже в такой момент я умудряюсь…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	21	Н-нет… всё в порядке…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	22	Просто сдерживать смех оказалось неожиданно трудно…!	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	23	Ох, простите… Сейчас ведь совсем не время смеяться, а я…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	24	Ничего страшного.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	25	Мы создавали Родос Айленд не для того, чтобы все ходили с мрачными лицами.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	26	Наоборот, мы хотели, чтобы здесь каждый мог улыбнуться.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	27	А-Амия…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	28	Всё хорошо, доктор!	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	29	А теперь поможем разведке.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	30	Противников на четыре часа я устраню бесшумно.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	31	Если, конечно, поражённые органы в их телах не служат сигнализацией или взрывными устройствами.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	32	А мы займёмся большой группой Воссоединения по другую сторону, за пределами их опорного пункта.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	33	Когда шум достаточно силён, уже не разобрать, какие именно звуки в нём слышны.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_beg.txt	34	Тогда приступайте. Каждый — к своей задаче!	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	1	Время неизвестно \ Погода неизвестна \ Видимость низкая	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	2	Чернобог. Местонахождение оперативной группы E0	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	3	Операция по спасению доктора {@nickname}. Третий этап	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	4	А!	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	5	Эта клиника…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	6	Амия, разве мы не приходили сюда раньше?	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	7	…Да, это она…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	8	Но как же… она превратилась в такое?	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	9	Здесь никого не осталось… Похоже, на клинику напало Воссоединение…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	10	…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	11	Это ведь та самая клиника для заражённых — «Азазель»?	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	12	…Да.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	13	У них была целая подпольная сеть осведомителей по Чернобогу, а они отказались с нами сотрудничать…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	14	Их отношения с Воссоединением тогда тоже оставались весьма туманными…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	15	Если бы они хотя бы поделились сведениями или просто предупредили нас…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	16	Мы, возможно, уже успели бы выбраться отсюда.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	17	Сами виноваты, что до такого дошло!	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	18	Не всё так просто…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	19	Амия, ты ведь тоже присутствовала на тех переговорах?	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	20	Такое высокомерие и равнодушие… Я просто…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	21	Не стоит их винить.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	22	Командир…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	23	Заражённым и без того трудно кому-либо доверять.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	24	После стольких страданий неудивительно, что они стали осторожными и упрямыми.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	25	По крайней мере, я могу понять и простить их решение. Стоит перестать остерегаться других — и тебя могут ранить.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	26	Даже сами заражённые не всегда способны доверять друг другу. И не каждый готов рисковать так, как мы…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	27	Ах да… Это была подпольная клиника, лечившая исключительно заражённых.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	28	Из-за своего положения в обществе заражённые не могут свободно появляться на улицах.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	29	Те, кто не хочет оказаться в изоляционной зоне, до сих пор тайно скрываются в городе и едва сводят концы с концами…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	30	«Азазель» помогал именно таким людям.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	31	…Наверное, они отказались от предложения Воссоединения сотрудничать.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	32	Доктор, помните, я рассказывала вам о нашей болезни?	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	33	…Она не только убивает нас, но и дарует способности, которых нет у обычных людей.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	34	Например, я могу использовать Искусства Ориджиниума без посоха.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	35	Однако болезнь медленно отнимает у нас жизнь не только физически…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	36	Она не позволяет нам жить как всем. Общество обычных людей лишает заражённого всего.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	37	Этот Чернобог стал воплощением таких порядков.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	38	Изгнать заражённых, уничтожить их, презирать их, бояться их…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	39	…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	40	И вот к чему это привело.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	41	Но сколько заражённых вообще могут позволить себе выбрать Воссоединение, Родос Айленд или хотя бы другую организацию заражённых?	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	42	Большинство из них просто потеряло всё.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	43	Возможно, для немногих оставшихся эта клиника когда-то была последним тёплым домом…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	44	От орипатии нет лекарства. По крайней мере сейчас заражённым остаётся лишь мучительно умирать в отчаянии…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	45	А потом их тела… сами становятся новым источником заражения.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	46	Необычные силы и страшная заразная болезнь, которая рано или поздно приводит к смерти…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	47	Вот почему большинство жителей Терры боится заражённых.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	48	—	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	49	Наверное, нескольких слов недостаточно, чтобы вы по-настоящему это почувствовали, Доктор.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	50	Но когда вы увидите последствия всего этого своими глазами… вы поймёте.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	51	Поймёте, насколько сурова действительность, в которой живут заражённые.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	52	Такие организации, как Родос Айленд, принимающий людей без различий, или Воссоединение, сплачивающее своих и отвергающее остальных, встречаются редко.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	53	Я понимаю твою злость. Но могу понять и положение этой небольшой клиники.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	54	…Я понял.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	55	Возможно, они и вправду столкнулись с серьёзными трудностями…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	56	Пора оставить обиды в прошлом. Пусть они, как и эта клиника, обратятся в прах.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	57	На Родос Айленде хорошие люди. Страх и враждебность порой создают между ними стены…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	58	Но здесь мы обязательно сможем преодолеть недопонимание.	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	59	«Азазель»… Разве сам Родос Айленд в каком-то смысле не такой же «Азазель»?	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	60	…Амия…	Needs editorial review and in-game validation
+obt/main/level_main_01-01_end.txt	61	Пойдёмте, Доктор.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	1	Время неизвестно \ Погода неизвестна \ Видимость низкая	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	2	Чернобог. Местонахождение оперативной группы E0	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	3	Операция по спасению доктора {@nickname}. Третий этап	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	4	Осталось меньше часа. Обходить через другие районы уже некогда…	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	5	Чем больше времени мы теряем, тем выше вероятность, что Катастрофа обрушится прямо на нас.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	6	Придётся идти напрямик.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	7	С таким большим отрядом нас неизбежно заметят.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	8	А в узких переулках нас легко окружить и устроить засаду…	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	9	Что будем делать?	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	10	Вариантов немного…	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	11	Доктор {@nickname}, что думаете?	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	12	Поодиночке бойцы Воссоединения уступают нам в силе.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	13	Как правило, они берут числом и пытаются окружить нас.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	14	Если постоянно двигаться вперёд на высокой скорости и свести число противников в каждой стычке к минимуму…	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	15	Они ведь даже не подготовили укреплений.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	16	Если ударить по их линии блокирования внезапно…	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	17	При всей численности Воссоединения их разрозненные отряды нас не удержат.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	18	Судя по предыдущим боям, связь у Воссоединения весьма примитивная.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	19	Пока мы прорвёмся через заслон, а они соберутся, чтобы перехватить нас…	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	20	К тому времени, как Воссоединение окончательно сосредоточит силы, мы уже окажемся в следующем районе.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	21	Именно.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	22	Стремительный удар, нарушить строй, уничтожить огневые точки и сразу отойти.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	23	…Доберманн, ты проверяешь меня или…	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	24	С явной угрозой куда проще справиться, чем с выбором без хорошего выхода.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	25	Амия, могу я считать это приказом доктора {@nickname}?	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	26	Ситуация ясна. Я доверяю решению Доктора…	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	27	— Доверие, знаешь ли, не возникает после одного-единственного боя.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	28	Я высокого мнения о докторе {@nickname}. Но, Амия…	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	29	Не теряй бдительности. Пользоваться знаниями Доктора можно, но полностью полагаться на него — нельзя.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	30	— Я понимаю.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	31	Не принимайте близко к сердцу, Доктор. Я не собиралась ставить вас в неловкое положение.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	32	Просто хочу, чтобы вы поняли: Амии ещё предстоит многому научиться и повзрослеть.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	33	На моём месте вы тоже не позволили бы ей слишком сильно зависеть от кого-то другого.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	34	Впрочем, ваши способности командовать я уже признала.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	35	И не держитесь так скованно. Мы ведь уже товарищи, прошедшие через опасность вместе.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	36	По крайней мере на поле боя я уже доверила вам свою жизнь.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	37	На этом разговоры закончим. Поторопимся.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	38	Верно.	Needs editorial review and in-game validation
+obt/main/level_main_01-03_beg.txt	39	В Казимеже есть пословица: «Остановишься перевести дух — и смерть тебя настигнет».	Needs editorial review and in-game validation
+obt/main/level_main_01-03_end.txt	1	В атаку!!	Needs editorial review and in-game validation
+obt/main/level_main_01-03_end.txt	2	А?	Needs editorial review and in-game validation
+obt/main/level_main_01-03_end.txt	3	Кто там?!	Needs editorial review and in-game validation
+obt/main/level_main_01-03_end.txt	4	Тц! Куда смотришь?! Получай!	Needs editorial review and in-game validation
+obt/main/level_main_01-03_end.txt	5	А-а-а!	Needs editorial review and in-game validation
+obt/main/level_main_01-03_end.txt	6	Фух…	Needs editorial review and in-game validation
+obt/main/level_main_01-03_end.txt	7	Воссоединение собирается у нас за спиной… готовится атаковать!	Needs editorial review and in-game validation
+obt/main/level_main_01-03_end.txt	8	Им за нами не угнаться! Не сбавлять скорость!	Needs editorial review and in-game validation
+obt/main/level_main_01-03_end.txt	9	Мы почти выбрались из района под контролем Воссоединения! Не останавливаться!	Needs editorial review and in-game validation
+obt/main/level_main_01-03_end.txt	10	Какие-то головорезы…	Needs editorial review and in-game validation
+obt/main/level_main_01-03_end.txt	11	Нас не остановят!	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	1	Фух… Оторвались.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	2	В таком темпе мы скоро минуем центральную часть города и доберёмся до южного выхода.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	3	Вокруг становится всё шумнее…	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	4	Наверное, жители Чернобога пытаются бежать из города и сталкиваются с Воссоединением.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	5	…	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	6	Похоже, несколько районов уже эвакуировали.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	7	А тех жителей, кто не успел покинуть Чернобог, Воссоединение всё ещё удерживает здесь.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	8	…	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	9	—	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	10	Когда-то здесь была большая площадь, верно? А теперь… одни развалины.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	11	Город, жестоко обращавшийся с заражёнными, теперь подвергся их мести…	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	12	Ты, кажется…	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	13	…принимаешь это близко к сердцу.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	14	Хм. Когда-то…	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	15	Небо… темнеет всё сильнее.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	16	Кажется, даже воздух… пропах гарью.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	17	Что вы делаете?!	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	18	…	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	19	А-а-а!!	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	20	—!	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	21	Мирные жители?	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	22	Больше ничего не слышно.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	23	— С такого расстояния мы даже не можем установить, кто это был.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	24	—!	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	25	Воссоединение нападает на них!	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	26	На открытой местности у нас нет преимущества. Мы не можем защитить чужие жизни.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	27	Жизнь бесценна, Амия. Каждая жизнь.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	28	…	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	29	—	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	30	Мы всё равно не успеем.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	31	К тому же у нас уже возникла куда более серьёзная проблема.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	32	…	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	33	Случилось то, чего я опасалась.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	34	—	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	35	— Убейте их.	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	36	Воссоединение выходит к площади сразу со всех сторон!	Needs editorial review and in-game validation
+obt/main/level_main_01-04_beg.txt	37	Приготовиться к бою!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	1	Да. Они не знают, что Фауст следит за ними. Разведчики, которых он прислал, сообщили мне кое-что интересное.	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	2	Родос Айленд действительно застрял на окраине центрального района.	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	3	Пусть они и букашки, но под прикрытием хаоса Катастрофы могут сбежать.	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	4	Они слишком много знают о нынешнем положении Чернобога и могут помешать нашим планам.	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	5	— Во всяком случае, избавившись от них, мы ничего не потеряем.	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	6	—	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	7	Проклятые жители Чернобога! Это вы, вы довели нас, заражённых, до такого!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	8	Прочь с дороги!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	9	Ух!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	10	Они лишь безрассудно бросаются вперёд, чтобы умереть!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	11	Почему все бойцы Воссоединения словно обезумели?	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	12	Почему именно сейчас здесь собралось столько Воссоединения?!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	13	Это бессмысленно! Им совершенно незачем удерживать это место!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	14	Операторы Родос Айленда, не отступать! Отбросьте Воссоединение и расчистите путь отхода!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	15	—	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	16	Так вот кого в донесениях называли «Родос Айлендом»? Хм… Храбрецы.	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	17	…	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	18	…А?	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	19	…Падающие камни? Сейчас?	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	20	Не останавливаться! Главное — удержать оборону!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	21	Нет… Это обломки, выбитые из зданий…	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	22	Что ты хочешь сказать…	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	23	Началось! Началось!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	24	Ха-ха… Спасение для нас, заражённых! Конец для обычных людей!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	25	А-а-а… Гх!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	26	А-а-а… Гх!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	27	—	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	28	Что… сбило его с ног?	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	29	Кто-нибудь из вас… атаковал его?	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	30	Или это был…	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	31	Доберманн! Небо…!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	32	—	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	33	Небо окрасилось кровью…	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	34	«Кипящие чёрные тучи клубятся в пламени…»	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	35	Не поддавайтесь панике!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	36	Берегите себя!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	37	…У нас ещё есть шанс спасти свои жизни. Действуйте!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	38	«— Земля замерла в тишине, и страх отнял у людей голоса».	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	39	«Огромный Ориджиниум склонил свою голову —»	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	40	«— и рухнул. Рухнул в тень смертельного зноя».	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	41	Талула.	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	42	…	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	43	Что прикажешь?	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	44	— Возможно, кому-то из них удастся пережить Катастрофу.	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	45	Разберись с теми, кто уцелеет.	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	46	Да.	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	47	Мы предполагали, что Воссоединение использует Катастрофу ради мести…	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	48	Но не ожидали, что они позволят ей полностью уничтожить Чернобог…	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	49	Это уже не просто возмездие. Скорее, провозглашение…	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	50	Эпохи заражённых…?	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	51	А… а…	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	52	Всё небо… сейчас рухнет на нас…	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	53	Осторожно!!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	54	Это…	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	55	Соберись!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	56	— А!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	57	Защитите медика! Скорее уведите её в безопасное место!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	58	Есть!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	59	Операторы, ищите укрытия!	Needs editorial review and in-game validation
+obt/main/level_main_01-06_beg.txt	60	Все отряды! Приготовиться… к удару Катастрофы!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	1	Приготовиться к удару!!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	2	Всем рассредоточиться!!!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	3	Масштаб слишком велик… Так весь квартал будет стёрт с лица земли!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	4	Нет… Проклятье…!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	5	—!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	6	Немедленно уходите!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	7	…!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	8	Держись!!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	9	А-а-а!! Падает! Оно падает!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	10	Небо падает!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	11	Н-нет… Нет! Как больно…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	12	Моя рука! Моя рука! Где моя рука?!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	13	Как… как же так?! Я не хочу умирать…!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	14	А-а-а-а!!!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	15	Защитники!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	16	Прикройте наших заклинателей!!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	17	—!!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	18	Что это за звук?!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	19	Огромная глыба рухнула на здания у дороги! Ложись!!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	20	А…!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	21	— Там… Медик! Опасность!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	22	Беда! Медик, отскочи!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	23	А!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	24	…Ух… Д-доктор?	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	25	Доктор оттолкнул медика за укрытие? Но тогда… тогда Доктор…!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	26	Нет! Доктор!!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	27	Доктор {@nickname}!!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	28	А?	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	29	Н-Нирл выскочила из укрытия!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	30	Доктор, пригнитесь!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	31	Гх…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	32	Успела!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	33	Она спасла… спасла Доктора!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	34	Кха…!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	35	Нирл! Доктор! Скорее назад!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	36	Всё в порядке!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	37	Мой щит ещё выдержит…!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	38	Прыгайте, Доктор!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	39	Прыгайте!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	40	Доктор… Доктор…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	41	Вы… вы не ранены?	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	42	Вы были в такой опасности, совсем одни!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	43	Хотя бы позовите меня, чтобы я могла вас защитить!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	44	Как бы там ни было, я не позволю вам пострадать…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	45	Тем более прямо у меня на глазах!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	46	Хорошо, что мы все живы…!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	47	Но нам ведь ещё…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	48	(Сколько ещё придётся терпеть?)	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	49	(Сможем ли мы вообще выжить?)	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	50	…Ух…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	51	Камней падает меньше?	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	52	Мы пережили первую, самую мощную волну Катастрофы?..	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	53	Расслабляться нельзя. Никто не знает, сколько ещё она продлится.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	54	Но хотя бы… мы не в самом её эпицентре.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	55	Нам чудом удалось уцелеть.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	56	Да…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	57	Как остальные?	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	58	Почти все операторы в порядке…!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	59	Некоторые легко ранены, но их состояние в целом неплохое!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	60	Мы… выжили!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	61	А…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	62	Среди Воссоединения тоже есть выжившие…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	63	…А?	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	64	А… А-а! Родос Айленд!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	65	…Что?	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	66	А-а-а!!!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	67	Они и после этого собираются на нас нападать?	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	68	…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	69	Родос Айленд!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	70	Да что с ними такое?!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	71	Не уходите…!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	72	Они окончательно обезумели.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	73	Почему эти люди совсем не ценят собственную жизнь?!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	74	Доберманн…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	75	Ничего не поделаешь…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_beg.txt	76	Разгромить их и немедленно двигаться дальше!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	1	Ха… ха… ха…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	2	Получилось…!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	3	Мы не только отбили нападение Воссоединения…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	4	Сама Катастрофа, похоже, заметно ослабевает!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	5	Но обстановка ужасная… Всем сохранять осторожность!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	6	Катастрофа…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	7	Прежние улицы завалены обломками, а разрушенные здания преградили путь…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	8	Ориджиниум уже начал стремительно разрастаться?..	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	9	Именно теперь, когда цель так близка, всё словно ополчилось против нас!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	10	Если бы мы могли…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	11	…Могли…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	12	—	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	13	Они здесь.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	14	Кто здесь?	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	15	Воссоединение? Они нас догнали?!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	16	А…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	17	Столько… бойцов Воссоединения…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	18	Они… не догнали нас.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	19	Они…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	20	— Появляются со всех сторон.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	21	С площадей, со склонов, из зданий… из развалин повсюду.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	22	Их количество… Ха…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	23	Неудивительно, что они почти не боялись Катастрофы — кроме тех, кого вот-вот раздавит насмерть.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	24	Даже если Катастрофа, допустим…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	25	…уничтожила половину их сил —	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	26	…оставшихся хватит, чтобы раз десять похоронить нас под собой.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	27	—	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	28	Не останавливаться! Продолжайте отход по маршруту!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	29	Стоять на открытом месте — верная смерть! Перестроимся, только когда доберёмся до выхода с площади!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	30	Нирл…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	31	Придётся сражаться. Прорвём их кольцо и уйдём, пока в рядах противника замешательство.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	32	У нас получится?	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	33	Шансов мало, но другого выхода нет. И всё же…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	34	Даже если головорезов будет в десятки раз больше, у Родос Айленда остаётся шанс!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	35	Не паниковать! К бою! Оборонительное построение!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	36	…Тц.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	37	С такой численностью они, может быть… действительно способны захватить Чернобог.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	38	Их слишком много.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	39	Невыносимо… много.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	40	Откуда Воссоединение вообще собрало столько заражённых?	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	41	Такое кольцо окружения…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	42	Воссоединение и правда оказывает нам особую честь.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	43	Огромные силы Воссоединения… окружили площадь!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	44	Противник остановился!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	45	…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	46	А…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	47	Один противник приближается к нашим позициям!	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	48	Почему… она идёт к нам совершенно одна?	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	49	Неужели они прислали парламентёра? Нет, невозможно…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	50	Она…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	51	Это… это ведь та, о ком говорилось в донесениях о Воссоединении…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	52	—	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	53	От неё исходит какой-то запах.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	54	…Нирл…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	55	Не могу понять наверняка, но…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	56	Пахнет… железом и серой.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	57	Что-то горит.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	58	Если это огонь…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	59	Все операторы Родос Айленда… полная боевая готовность.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	60	…Это она…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	61	Тиран Воссоединения…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	62	…Талула.	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	63	…	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	64	……	Needs editorial review and in-game validation
+obt/main/level_main_01-07_end.txt	65	Наверное… пламя, способное выжечь всю землю.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	1	Амия, уведи Доктора отсюда.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	2	…Немедленно!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	3	Нет! Я не могу…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	4	Ты тоже это чувствуешь! Она… Если так пойдёт дальше, весь спасательный отряд погибнет здесь!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	5	Эта Талула…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	6	Она настоящее чудовище! Амия!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	7	Если мы будем сражаться вместе, всё будет хорошо!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	8	А Доктор? Ты можешь гарантировать его безопасность?	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	9	…Ух…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	10	Отряд E4, мы остаёмся прикрывать отход!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	11	Вы обязаны обеспечить безопасную эвакуацию Амии, доктора {@nickname} и всех медицинских групп!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	12	Нет. Этим займёмся мы с моим отрядом.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	13	Эйс! Сейчас не время спорить!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	14	Я совершенно спокоен.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	15	Разве ты не видишь? Всё вокруг неё плавится!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	16	Я не оставлю вас сражаться одних.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	17	Родос Айленд… никогда вас не бросит!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	18	Амия, время дорого! Ты должна отступить!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	19	— Ты должна нам доверять.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	20	Я не могу смотреть, как погибает хоть один человек с Родос Айленда!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	21	Вспомни нашу задачу! Ради чего мы здесь?!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	22	Сейчас не время об этом!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	23	—	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	24	—?! Жар… сосредоточивается… у неё в ладони?	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	25	Воздух вокруг неё… искажается?	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	26	Нет, она… нагревает воздух вокруг себя!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	27	Осторожно, заклинание, которое она готовит…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	28	Нет… Нет! Нирл!! Вернись немедленно!!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	29	Это не… Это заклинание тебя…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	30	— Тихо.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	31	Угх…!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	32	Ха… ха…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	33	Нирл!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	34	Кх… Отойдите! Я в порядке…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	35	Просто… немного горячо…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	36	Что значит… «в порядке»?!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	37	На твоих доспехах нет ни одного целого участка! Что тут может быть в порядке?!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	38	Ты больше не можешь с ней сражаться!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	39	Я сказала — назад!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	40	Нирл! Ну и упрямица…!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	41	— О?	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	42	Пригнись!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	43	Кха… кха… Что это ещё за трюк?!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	44	…Невидимое пламя пронеслось над нашими головами.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	45	Отступаем. Весь квартал плавится…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	46	Не нужно бессмысленных жертв!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	47	…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	48	С чем я вообще сражаюсь?	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	49	Нужно помешать ей закончить заклинание…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	50	Снайперы! Цельтесь в противника!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	51	—	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	52	Сопротивление приносит надежду этой земле.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	53	Но сопротивлением вам не изменить свою судьбу.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	54	Огонь!!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	55	Чернобог освобождён.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	56	Наша работа завершена. А вы меня немного заинтересовали.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	57	Что…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	58	Но не более того.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	59	Вы сделали неправильный выбор.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	60	Родос Айленд, вам следовало бы по-настоящему встать на сторону заражённых.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	61	Что… происходит?	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	62	Почему вся площадь… обуглилась?	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	63	Что… только что произошло…?	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	64	Дышать… воздух… обжигает… Я…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	65	Камни, арбалетные болты, стрелы…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	66	Всё исчезло.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	67	За одно мгновение… всё вокруг неё сгорело дотла…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	68	У вас есть стойкость, достойная освободителей.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	69	…Даже пепла не осталось.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	70	Амия. Ты ведь понимаешь.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	71	—	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	72	Кто-то должен её остановить.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	73	— Но мне надоело.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	74	…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	75	Амия!!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	76	За убийство своих собратьев вам придётся заплатить.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	77	Я дарую вам финал, который особенно люблю.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	78	— Уничтожение.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	79	Плохо дело!!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	80	Уходим… уходим! Скорее!!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	81	Такая мощь, такой жар… Нет, это невозможно!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	82	Защитите Амию и Доктора! Быстрее!!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	83	Мы не успеем!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	84	Я остановлю её!!!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	85	А-а-а!!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	86	…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	87	…Что???	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	88	А… Амия?	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	89	Я не позволю тебе причинить им вред.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	90	…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	91	Я… не позволю тебе этого!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	92	— О?	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	93	Гх…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	94	Я должна… спасти всех…!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	95	Амия одна… остановила вражеское заклинание?!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	96	Нет… Его мощь слишком велика…!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	97	Даже Амия…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	98	Даже она долго не продержится!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	99	Амия!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	100	Всё хорошо… Я справлюсь…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	101	Я справлюсь!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	102	Я хочу… Я должна… защитить вас!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	103	Чёрная завеса… заперла вражеское заклинание на площади…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	104	Ух… А-а… Гх…!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	105	Амия… её барьер горит!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	106	Амия, нельзя!! Если так продолжится, твои кольца…!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	107	Даже если… хотя…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	108	Доктор, простите меня…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	109	Даже если это принесёт беду, даже если я сама…!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	110	Я больше не могу… видеть, как страдают дорогие мне люди…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	111	Ха-а…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	112	Прекрасно.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	113	А… А-а-а!!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	114	Амия!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	115	Проклятье… Если так продолжится, Амия…!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	116	Что ты собираешься делать?	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	117	Разрушить заклинание этой драконицы!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	118	Ты…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	119	— «О свет Казимежа, Сияющий рыцарь принесёт себя тебе в жертву…»	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	120	Доктор! Уходите! Мы поможем Амии, но вы должны…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	121	—!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	122	А-а-а-а!!!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	123	Ух…?	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	124	Хватит, Амия.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	125	—?!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	126	Ты уже сделала невероятно много.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	127	Позволь и нам взять часть твоей ноши.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	128	Я…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	129	Амия!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	130	Доберманн, уведи их. Я скоро догоню.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	131	…Эйс…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	132	Эйс… Нет… Эйс…!	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	133	Обязательно… вернись…	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	134	—	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	135	Простите, доктор {@nickname}. Возможно, вы меня не помните.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	136	Но я помню вас. И знаю, что вы за человек.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	137	…Однажды вам с Амией придётся вместе взглянуть в лицо всей жестокости этой земли.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	138	Поэтому берегите её, Доктор.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	139	Идите.	Needs editorial review and in-game validation
+obt/main/level_main_01-08_beg.txt	140	Пусть ничто не преградит вам путь.	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	1	Мы прорвали заслон Воссоединения!	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	2	Но… они…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	3	…Я… а…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	4	Тсс.	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	5	…Не дай Амии и остальным услышать.	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	6	Амия и сама всё прекрасно понимает! Она намного взрослее, чем нам кажется…!	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	7	…Ух…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	8	…Мм…?	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	9	И всё равно ей нельзя этого слышать!	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	10	Не стоит ещё больше терзать её. Она уже вынесла… слишком многое.	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	11	…Не дадим… их усилиям пропасть даром!	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	12	Раз уж они спасли нас, мы должны благополучно вернуть Доктора и Амию домой.	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	13	…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	14	Да.	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	15	Сейчас не время опускать голову.	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	16	Ты ведь Сияющий рыцарь. Разве ты не должна быть светом, который укажет путь другим, что бы ни случилось?	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	17	—	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	18	— Не знаю. Но я сделаю то, что должна.	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	19	Восстановить строй! Не терять бдительности! Мы почти у цели!	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	20	…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	21	Хм…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	22	Никто из тех, кто обещал мне не волноваться, так и не вернулся.	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	23	…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	24	Доктор {@nickname}…? Что… случилось…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	25	П-пожалуйста, отпустите меня… поставьте на землю…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	26	Да, всё хорошо, я могу идти сама…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	27	Я просто… ненадолго потеряла сознание… Ничего страшного.	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	28	…Мы выбрались?	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	29	А Эйс и остальные…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	30	Вот как.	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	31	Всё будет хорошо. Эйс обязательно справится.	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	32	На Родос Айленде все очень сильные.	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	33	Мы уже почти у южного выхода. Как только покинем Чернобог, мы…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	34	Мы…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	35	…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	36	Доктор… можно… мне немного на вас опереться?..	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	37	Совсем ненадолго… буквально на минутку…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	38	…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	39	—	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	40	Упорные.	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	41	…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	42	Он… он смог зайти так далеко… этот человек…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	43	Полквартала выжжено дотла, вся площадь пылает… Металл расплавился и снова застыл…	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	44	Но почему он… ещё может сражаться?	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	45	Сражаться, пока от тебя ничего не останется… Впечатляет.	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	46	Я запомнила.	Needs editorial review and in-game validation
+obt/main/level_main_01-10_end.txt	47	…Родос Айленд.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	1	Время неизвестно \ Погода неизвестна \ Видимость низкая	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	2	Чернобог. Местонахождение оперативной группы E0	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	3	Операция по спасению доктора {@nickname}. Заключительный этап эвакуации	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	4	Проклятье!	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	5	Мы ведь уже у самого выхода!	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	6	Думали, что сможете так просто уйти из Чернобога…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	7	Кому-то же придётся разбудить вас от этих сладких грёз, верно?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	8	Связь восстановилась! Я связалась с резервной группой прикрытия, они собираются встретиться с нами!	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	9	Но эта особа…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	10	Осторожно! У неё взрывчатка!	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	11	А вот с разведгруппой я до сих пор не могу связаться!	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	12	— Кто ты такая?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	13	Неудивительно, что ты меня не знаешь…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	14	Зато я знаю человека рядом с тобой.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	15	Воссоединение… вы всё ещё хотите сражаться?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	16	Ой-ой, не надо так.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	17	Мы с этой драконицей Талулой совсем не ладим. Я ведь не какая-нибудь привратница! Закончить свою работу и прискакать сюда — та ещё морока!	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	18	Ну что, ради знакомства обменяемся именами?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	19	Можешь звать меня… W.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	20	Я так давно здесь поджидаю встречи с этим человеком рядом с тобой.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	21	— С Доктором?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	22	Доктор {@Nickname}…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	23	У меня есть несколько вопросов к {@Nickname}. Не могли бы вы просто… подарить мне его?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	24	Ты впустую тратишь время.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	25	— Не торопись. У меня ведь есть сведения, которые вас заинтересуют.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	26	Мы только что встретили несколько весьма ловких ребят… Одеты почти как вы.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	27	Они пытались замаскироваться, но таким можно обмануть разве что урсусцев. Меня такими фокусами не проведёшь~	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	28	Это… наши разведчики?..	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	29	Слава богу… значит, они в безопасн…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	30	Маленькая крольчиха, это ты ведь ими руководила?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	31	?!	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	32	Мне так интересно, что за чары у тебя такие… Почему они готовы так охотно и так бессмысленно за тебя умирать?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	33	Что… что ты хочешь сказать?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	34	Вот именно. Ни один из них уже не вернётся с тобой.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	35	А ты-то…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	36	Ты действительно… стоишь чужих жертв?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	37	—	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	38	Пока не твоя очередь.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	39	Амия…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	40	— Ты… злишься?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	41	…Тебе не следовало этого говорить.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	42	Вот-вот… Именно этого я и добивалась.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	43	Ну давай.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	44	W из Воссоединения, тебе не следовало этого говорить!	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	45	У каждой жизни есть ценность…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	46	И не тебе её осквернять!	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	47	Доктор!!	Needs editorial review and in-game validation
+obt/main/level_main_01-12_beg.txt	48	Хе-хе…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	1	Это ощущение… До чего же знакомое.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	2	Амия, значит.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	3	—	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	4	А… а-ха-ха… Так вот оно что… Вот как.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	5	Я тебя запомнила, Амия.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	6	…Что?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	7	Я уже получила то, за чем пришла. Можете уходить. Поторопитесь!	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	8	Ты…!	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	9	W…?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	10	— Хотите остаться здесь и умереть? Мне всё равно. Поступайте как знаете.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	11	…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	12	…Отступаем в нижний город. Пусть уходят. Приказ Талулы.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	13	…?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	14	Ладно. Если тянуть дальше, станет скучно. А скучать я терпеть не могу. На этом всё.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	15	Буду с нетерпением ждать новой встречи, Амия.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	16	И ещё… с тем человеком.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	17	Что…?!	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	18	В следующий раз я узнаю от тебя правду, {@Nickname}.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	19	Пока-пока~	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	20	…Почему… Что она… делает?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	21	Воссоединение… отступило.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	22	— Мы уже превысили отведённое время.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	23	Немедленно… возвращаемся на Родос Айленд.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	24	…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	25	…Я… проведу операторов замыкающей группы.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	26	Амия…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	27	Со мной всё в порядке.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	28	…Хорошо.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	29	Ступай, Амия.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	30	……	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	31	………	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	32	…Командир…?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	33	А остальные…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	34	Нирл и Доберманн уже вывели Амию и доктора {@nickname} из окружения.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	35	А операторы отряда, оставшегося прикрывать отход…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	36	…Все погибли.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	37	…Что…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	38	Мы с тобой — двое последних выживших.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	39	…Вспомнил… Это… это чудовище, Талула… совсем одна…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	40	Наших бойцов разметало в мгновение ока, как шахматные фигуры…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	41	Она сминала защитников, будто мягкое масло…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	42	Не говори. Ты тяжело ранен.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	43	Катастрофа…! Она само воплощение Катастрофы! Иначе как она могла в одно мгновение обратить огневую группу в пепел…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	44	Я видел её Искусства собственными глазами, но… не могу поверить… Я…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	45	Эти крики… Ух… у-у…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	46	Помолчи!	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	47	…Прости… Я… я не могу…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	48	Успокойся.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	49	Я оказал тебе первую помощь.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	50	…Командир… твоя рука…?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	51	По крайней мере одна ещё работает.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	52	…Командир, уходи. Ты точно сможешь пробиться.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	53	Мы задержали это чудовище всего на несколько минут.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	54	Пока доктор {@nickname} и Амия не будут в безопасности, я не уйду.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	55	Сначала я должен остановить это чудовище.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	56	Командир… я тоже…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	57	За твою жизнь я заплатил одной рукой.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	58	Даже если тебе осталось жить одну минуту, я хочу, чтобы эта рука стоила хотя бы этой минуты.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	59	—	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	60	Я ненадолго. Береги себя.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	61	Командир… Я такой… бесполезный.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	62	Амия…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	63	Вы обязательно исполните… мечту каждого из нас…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	64	…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	65	Они… Я… у-у…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	66	……	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	67	…Амия?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	68	…Амия?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	69	А?	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	70	Что с тобой?..	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	71	…Н-ничего. Просто мне вдруг стало…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	72	…Тяжело.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	73	Ух… М-м…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	74	Тяжело… да?..	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	75	У-у…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	76	…Не плачь.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	77	Хотя бы сейчас… постарайся немного потерпеть.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	78	Когда-то один человек сказал мне…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	79	Слёзы… нужно беречь до конца войны.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	80	Сейчас… ещё нельзя.	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	81	М-м… У-у… М-м…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	82	Пойдём…	Needs editorial review and in-game validation
+obt/main/level_main_01-12_end.txt	83	…Мы возвращаемся домой.	Needs editorial review and in-game validation

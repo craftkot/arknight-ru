@@ -1,0 +1,428 @@
+DIALOG_JUDGE_DOWNLOAD_NOT_CONNECT_WIFI	Обнаружен новый пакет ресурсов размером <color=#FF0000>{0}</color>. Для входа необходимо обновить игру.\nПеред загрузкой рекомендуется подключиться к Wi-Fi.
+JUDGE_GAMEUPDATE_NOT_WIFI	Обнаружена новая версия клиента размером <color=#FF0000>{0}</color>. Для входа необходимо обновить игру.\nПеред обновлением рекомендуется подключиться к Wi-Fi.
+STAGE_ACTIVITY_REMAIN	{0:D2}/{1:D2} {2:D2}:{3:D2}~{4:D2}/{5:D2} {6:D2}:{7:D2} Осталось: {8} д. {9} ч.
+STAGE_ACTIVITY_AP_ITEM	Во время события срок действия {0} истечёт через {1}
+MAINLINE_RECAP_SPOILER_ALERT	Для Докторов, готовящихся отправиться в «Штормовой дозор», подготовлен краткий пересказ\n<color=#FF5757FF>сюжета основной темы «Расколотое видение» (эпизоды 04–08)</color>.
+MAINLINE_ANTI_SPOILER_FORMAT	Доступен эпизод <color=#d51c47>EP {0} {1}</color>.\nЧтобы лучше понять сюжет, рекомендуем проходить эпизоды по порядку.
+STAGE_SYSTEM_UNLOCK_MIX_STORY_OVERALL	Доступен обзор <color=4abdff>сюжетной арки</color>
+FULL_POTENTIAL_TIPS	Использовать <color=#0075a9FF>{0}</color> и повысить потенциал оператора до максимума? \n<color=#ffb400FF>* Также будут израсходованы все имеющиеся {1}</color>
+HANDBOOK_MISSION_GET	{0} для получения
+UP_CONST_TEXT	Часть 1
+MIDDLE_CONST_TEXT	Часть 1.5
+DOWN_CONST_TEXT	Часть 2
+SQUAD_LEVEL_TEXT	Максимальная фаза повышения в отряде — <color=#ff6801>{0}</color>. Параметры оператора поддержки синхронизированы.
+GACHA_DETAIL_WEIGHT_UP	Шанс получения других операторов <color=#ffd800>{0}★</color>: <color=#ffd800>【{1}%】</color>, повышение шанса в {2} раза.
+DIALOG_CONFIRM_EXIT_AUTO_BATTLE_COMBO_CARD	Если взять управление на себя, автопрохождение станет недоступно до конца операции.\nСерия операций завершится после этого боя.\nВзять управление?
+DIALOG_JUDGE_TWOSTAR_AUTO_BATTLE	В автопрохождении произошла ошибка. При отступлении <color=#FF6101>вернутся {0} {1}</color>, а при завершении боя <color=#FF6101>награды будут уменьшены</color>.\nЗавершить с двумя звёздами?
+DIALOG_JUDGE_TWOSTAR_AUTO_BATTLE_COMBO_CARD	Ошибка автопрохождения.\nПокинуть операцию: <color=#FF6101>бой завершится поражением, рассудок вернётся.</color>\nПерейти к результатам: <color=#FF6101>оценка — две звезды, рассудок вернётся частично.</color>\nПерейти к результатам?
+DIALOG_COMBO_CARD_AUTO_BATTLE_TOP	<color=#FFFFFFFF>Автопрохождение: {0}</color> <color=#898989FF>выполняется</color>
+WITHDRAW_RESPAWN_BUFF	Воин должен встречать смерть без страха.
+FRIEND_ASSIST_DESCREPTION_UP	*Нажмите на навык или модуль оператора поддержки, чтобы изменить настройки по умолчанию.
+FRIEND_ASSIST_DESCREPTION_DOWN	*Во время «Контракта на риск» операторы поддержки приносят больше кредитов за помощь другим игрокам.
+BATTLE_FINISH_MULTIPLE_STAT_FAIL	Результаты засчитаны как <color=#d33434>один бой</color>. Неиспользованный рассудок возвращён.
+BATTLE_FINISH_PRY	Прогресс {0} синхронизирован
+BUILDING_FORMULA_UNLOCK_ROOM_AND_STAGE	Пройдите {1} на {0} звёзд, откройте и улучшите {3} до ур. {4} в количестве x{2}
+BUILDING_CANNOT_LEVELDOWN_SINCE_DEPENDENCY	На этом объекте основана постройка {1} ур. {0}. Понизить уровень нельзя.
+BUILDING_CANNOT_LEVELDOWN_SINCE_UNABLE_TO_REBUILD	От этого объекта зависят другие сооружения. Понизить уровень нельзя.
+ALERT_BUILDING_LABOR_ACCEL_LOCKED	<color=#4ABDFF>Улучшите {0} до ур. {1}</color>,\nчтобы разблокировать <color=#4ABDFF>ускорение дронами</color>.
+BUILDING_BUY_LABOR_LOCKED	<color=#4ABDFF>Улучшите {0} до ур. {1}</color>,\nчтобы разблокировать <color=#4ABDFF>быструю зарядку</color>.
+ITEM_REPO_CHOOSE_CHAR_ENSURE	Потратить <color=#{3}> {0} </color>{1} для найма оператора <color=#{3}> {2}</color>?
+BUILDING_MESSAGE_LEAVE_TIME_SPAN_DAY_FORMAT	{0} д. {1:D2}:{2:D2}:{3:D2}
+ACTIVITY_ZONE_TIME_LOCKED	Откроется после {0}.{1} в {2:D2}:{3:D2}:{4:D2}
+ACTIVITY_OPEN_TIME	Конец: {0}/{1:D2}/{2:D2} {3:D2}:{4:D2}
+ACTIVITY_ACT_STAGE_LOCKED	Откроется после прохождения <color=#4ABDFF>{0}</color> события <color=#4ABDFF>{1}</color>
+ACTIVITY_3D5_POINT_SIMPLE_NAME	Браслет
+ACTIVITY_6D8_POINT_SIMPLE_NAME	Сокровище Праздника фонарей
+ACTIVITY_9D4_POINT_SIMPLE_NAME	Значок партизанского отряда
+ACT_ROGUELIKE_REOPEN_COOLDOWN	Лабиринт грибного тумана уже возник. Дождитесь, пока туман рассеется.
+MEDAL_DESC_ADV_TEMP_EXPIRED	— Сейчас событие недоступно. Улучшить медаль можно во время события.
+MEDAL_DESC_PERM_EXPIRED	— Получить невозможно.
+LUA_SCRIPTS_VALIDATION_FAILED	Проверка файлов сценариев не пройдена. Очистите кэш или переустановите игру.\nЕсли ошибка повторится, обратитесь в поддержку.
+LUA_INIT_ERROR_TIPS	Ошибка инициализации данных. Возврат в главное меню.\n{0}
+ACT3D0_GACHA_TIMES	Попыток: x{0}
+ACT3D0_MILE_STONE_GET_INFO	Соберите {0} {1} для выполнения условия.
+ACT3D0_GET_NEW_INFO	В теме <color=#{1}>#{0}</color> появилась новая публикация.
+ACT3D0_UNLOCK_CLUE_COUNT	Получено: {0}/{1}
+ACT3D0_TEXT_IN_TIME	Войти
+ACT3D0_TEXT_OUT_TIME	Обменять
+ACT3D0_UNLOCK_NEW_GACHABOX	Разблокирован новый капсульный автомат
+ACT4D0_MILE_STONE_GET_CHAR	Соберите {0} {1}, чтобы получить нового оператора.
+ACT4D0_MILE_STONE_GET_SKIN	Соберите {0} {1}, чтобы получить эксклюзивный костюм.
+ACT4D0_DETAIL_INFO	Во время события проходите этапы с особыми наградами, собирайте {0} и открывайте награды за сбор сведений.
+ACT4D0_AP_REMAIN	Во время события срок действия {0} истечёт через {1}.
+ACT4D0_MILE_STONE_GET	Получите, собрав {0} {1}.
+COMMON_LEFT_TIME	Осталось: {0}
+ACT5D0_DETAIL_INFO	Выполняйте особые задания, собирайте {0} и получайте награды события!
+ACT5D0_MILESTONE_GET	· Соберите {0} {1}
+ACT5D0_ZONE_TIME_LOCK_TEXT	Откроется {0}/{1}
+ACT5D1_REFRESH_INFO	Обновится через {0}
+ACT5D1_RUNE_UNLOCK	Можно выбрать контракт риска {0}.
+DATE_DAYBEFOREYES	Позавчера
+WEEK_TEXT	{0} нед.
+DAY_TEXT	{0} д.
+MIN_TEXT	{0} мин.
+DATE_FORMAT_HH_MM_SS	{0:D2} ч. {1:D2} мин. {2:D2} сек.
+DATE_FORMAT_DD_HH_MM_SS	{0} д. {1:D2} ч. {2:D2} мин. {3:D2} сек.
+DIALOG_CONFIRM_SKIPSTORY	Пропустить сюжетную сцену?
+SQUAD_CONFIRM_CLEAR_FORMATION	Убрать всех операторов из отряда?
+SQUAD_ASSIST_CHAR_ALREADY_EXIST	Уже в этом отряде.
+SQUAD_ASSIST_EXCLUSIVE_CHAR_ALREADY_EXIST_WITHOUT_CHAR_INFO	Уже в этом отряде.
+SQUAD_ASSIST_EXCLUSIVE_CHAR_ALREADY_EXIST	Уже в этом отряде.
+SQUAD_ASSIST_CHAR_BANNED_BY_RUNE	Выбранного оператора нельзя выставить на поле.
+SQUAD_SELECT_CHAR_BANNED_BY_RUNE	Выбранного оператора\nнельзя выставить на поле.
+DAILY_STRING_WILL_OPEN	Откроется сегодня в {0:D2}:{1:D2}
+CANNOT_USE_EMPTY_NAME	Имя не может быть пустым.
+ACT12D6_BUFF_MAX_LEVEL	Достигнут максимальный уровень.
+ACT12D6_UNLOCK_RELIC_COUNT	Во время этой экспедиции открыто новых коллекционных предметов: {0}.
+ACT12D6_UNLOCK	Разблокировано: {0}.
+ACT12D6_NO_NODE	Озеро сознания
+ACT12D6_CHOOSE_RELIC	Нажмите справа, чтобы увидеть сведения о коллекционном предмете.
+ACT12D6_RELIC_NOT_GOT	Ещё не получено.
+ACT12D6_MODE_LOCKED	Пройдите игру на сложности {0}, чтобы открыть этот режим.
+ACT17D1_CREATE_ROOM_TIP_MAP	Выберите испытательный полигон.
+ACT17D1_CREATE_ROOM_TIP_DIFFICULTY	Выберите сложность испытания.
+ACT17D1_CREATE_ROOM_TIP_POS	Выберите уровень испытания.
+ACT17D1_STAGE_ENTRY_SQUAD_NOT_SET	Сформируйте отряд хотя бы для одного полигона.
+ACT17D1_STAGE_ENTRY_SERVICE_CLOSED	Функция временно недоступна. Подробности — в официальных объявлениях.
+BATTLE_SYSMENU_AP_RETURN_PROTECTED	    Первая попытка: рассудок будет возвращён.
+BATTLE_SYSMENU_IN_AP_PROTECT_PERIOD	    Защита рассудка: потраченный рассудок возвращается.
+BATTLE_SYSMENU_AP_RETURN_NO_PROTECTION	Рассудок будет возвращён.
+BATTLE_SYSMENU_ET_RETURN	Потрачено {0}; ресурс будет возвращён.
+HOT_UPDATE_CHECK_COMPLETE	Проверка целостности ресурсов. Интернет-трафик не расходуется...
+HOT_UPDATE_EXTRACTING_FILE	Распаковка файлов. Интернет-трафик не расходуется...
+HOT_UPDATE_FETCHING_PATCH	Получение обновления...
+HOT_UPDATE_RES_TYPE_DYN_ILLUST	Динамическая иллюстрация
+CHARACTER_DEPLOY_POSITION_ALL	Все доступные позиции
+HGSDK_GUEST_DISABLE	Гостевой вход недоступен. Подробности — в официальных объявлениях.
+STR_ERROR_CODE_DESC	(Код ошибки: {0})
+TEMPLATE_SHOP_CLOSE	Закроется: {0}
+TEMPLATE_SHOP_REPLICATE	<color=#e1360a>{0}</color> предметов будут обменены на <color=#e1360a>{1}</color> {2}.
+SHOP_VOUCHER_PICK_TITLE	Выберите оператора для найма:
+SHOP_VOUCHER_EVOLVE_TITLE	Выбранного оператора 5★ можно повысить до Элиты 2, ур. 1.
+SHOP_VOUCHER_LEVEL_MAX_4_TITLE	Можно повысить оператора 4★ с Элитой 2 до максимального уровня.
+SHOP_VOUCHER_LEVEL_MAX_5_TITLE	Можно повысить оператора 5★ с Элитой 2 до максимального уровня.
+SHOP_VOUCHER_LEVEL_MAX_6_TITLE	Можно повысить оператора 6★ с Элитой 2 до максимального уровня (кроме особого оператора).
+VOUCHER_SKILL_SPECIALLEVELMAX_TITLE	Выберите подходящего оператора {0}★ и повысьте специализацию навыка до 3-го уровня.
+VOUCHER_SKILL_SPECIALLEVELMAX_6_TITLE	Выберите подходящего оператора {0}★ и повысьте специализацию навыка до 3-го уровня (кроме особого оператора).
+VOUCHER_EVOLVE_EMPTY_TEXT	Этим предметом нельзя повысить ни одного оператора.
+VOUCHER_SKILL_EMPTY_TEXT	Этим предметом нельзя обучить специализации ни одного оператора.
+CRISIS_DATA_NEED_RESYNC_ALERT	Данные обновлены. Начинается синхронизация.
+CRISIS_DATA_RESYNC_SUC	Синхронизация данных завершена.
+CRISIS_TRAIN_SEASON_TITLE	План тренировок
+CRISIS_REFRESH_INFO	Обновится через {0}
+CRISIS_STAGE_EASY_MODE_ALERT	Использование оператора поддержки не позволит засчитать этот бой для повышения уровня риска.
+CRISIS_STAGE_HARD_MODE_ALERT	Выбранные контракты создают очень высокую сложность. \nДействуйте осторожно.
+CRISIS_RUNE_DETAIL_LEVEL	Уровень риска {0}
+CRISIS_CHALLENGE_LEVEL_DESC	Завершите операцию с уровнем риска не ниже {0}.
+CRISIS_MAP_RANK_NOT_ABLE_TO_GET	Сначала заберите награды за предыдущие этапы.
+CRISIS_TRAINING_MAP_NAME	Тренировочная площадка #{0:D2}
+CRISIS_MAP_RANK	Ранг разблокировки
+CRISIS_UNLOCK_TITLE	О {0}
+CRISIS_UNLOCK_TOTAL_GET	Всего: {0}
+CRISIS_MAPRANK_INFO_0	Пройдите операцию\nна этой площадке (можно использовать поддержку).
+CRISIS_MAPRANK_INFO	Пройдите операцию на этой площадке\nс уровнем риска {0}.
+CRISIS_MAPRANK_UNLOCK	Для открытия нужен ранг {0}\n
+CRISIS_V2_ALL_UNLOCK	Событие ещё не началось
+CRISIS_V2_BAG_UNREACH_TOAST	Предыдущие условия ещё не разблокированы.
+CRISIS_V2_BAG_DISABLE_TOAST	Выполните задание сменного полигона, чтобы открыть.
+CRISIS_V2_TEMP_MAP_HINT	Выполните все задания, чтобы открыть новые [Условия] на [Главном полигоне].
+CRISIS_V2_DAILY_NODE_UNKNOWN_TOAST	Условия сменного полигона не разблокированы.
+CRISIS_V2_DAILY_NODE_LOCKED_TOAST	Выполните задание сменного полигона, чтобы открыть.
+CRISIS_V2_STAGE_UNLOCK	Откроется через {0}
+CRISIS_V2_DAILY_RUNE_UNLOCK_TOAST	Открыты новые условия.
+CRISIS_V2_PREVIEW_SELECTED_COUNT_TEXT	(Сейчас <color=#d7181c>{0}</color>/{1})
+CRISIS_V2_ENTRY_DAILY_TEXT	Сменный полигон
+RECAL_RUNE_ACT_NAME	Голографическая боевая матрица
+RECAL_RUNE_STAGE_TIPS_FORMAT	Завершите испытание с результатом <color=#cbcbcb>{0}</color>, чтобы получить медаль, или <color=#cbcbcb>{1}</color> — для улучшенной медали.
+BLESSONLY_BLESS_COUNT	Собрано благословений: {0}/{1}
+BLESSONLY_ACT_END_DATE	Конец: {0}
+BLESSONLY_REST_DAY_RECEIVE	Доступно через {0} д.
+BLESSONLY_TOMORROW_RECEIVE	Доступно завтра
+ACT_COLLECTION_HELP_BTN_DESC	Как получить {0}
+ACT_COLLECTION_HELP_DAILY_ITEM_DESC	Получено сегодня
+ACT_COLLECTION_BIG_BONUS_POINT_DESC	Наберите {0} очков для получения награды
+ACT_COLLECTION_CANT_JUMP_TO_ROGUELIKE_TOAST	Пройдите <color=#4ABDFF>{0}</color>, чтобы открыть «Интегрированные стратегии».
+ACT_COLLECTION_DAILY_TASK_ITEM_TIME_OPEN_DESC	Откроется {0:D2}/{1:D2} в {2:D2}:{3:D2}
+GUIDE_UNLOCK_TOAST_TEMPLATE	Открыто: <color=#4abdff>{0}</color>.
+TIP_CHAR_SKILL_LOCK	Повысьте оператора, чтобы разблокировать навык.
+STORY_REVIEW_UNLOCK_COIN_CONDITION	X{0}  Восстановить события прошлого
+STORY_REVIEW_UNLOCK_STAGE_CONDITION	{0}  {1}  Восстановить события прошлого
+STORY_REVIEW_ITEM_NOT_ENOUGH	Недостаточно {0}
+STORY_REVIEW_UNLOCK_STORY	Потратить {0} {1}, чтобы восстановить события прошлого?
+STORY_REVIEW_UNLOCK_STAGE_CONDITION_PLAYED	Просмотрено
+STORY_REVIEW_UNLOCK_STAGE_CONDITION_PASS	Пройдено
+STORY_REVIEW_UNLOCK_STAGE_CONDITION_DEFAULT	Пройдено
+STORY_REVIEW_NON_UNLOCK_DESC_INTIME	Не хватает сведений, доступных только во время события. Историю пока нельзя посмотреть.\nСоберите улики текущего события, чтобы восстановить события прошлого.
+STORY_REVIEW_NON_UNLOCK_DESC_OUT_OF_TIME	Не хватает сведений, доступных только во время события. Историю пока нельзя посмотреть. Дождитесь завершения сбора улик.
+MINI_ACT_TRIAL_NAV_UNLOCK_STORY	Открыть историю
+MINI_ACT_TRIAL_NAV_READ_STORY	Читать историю
+MINI_ACT_TRIAL_NAV_TRIAL	Восстановление записей
+MINI_ACT_TRIAL_COLLECT_ALL	Записи восстановлены
+MINI_ACT_TRIAL_COMMING_TIP	Откроется через {0}
+ACT11D0_FOG_UNLOCK_ITEM_USE	Потратить {0} {1}, {2}?
+ACT11D0_FOG_UNLOCK_STAGE_PASS	Пройдите {0}, {1}
+ACT11D0_FOG_ZONE_UNLOCK_DESC	Получить разрешение на поиск в занятом районе
+ACT11D0_FOG_STAGE_UNLOCK_DESC	Начать преследование
+ACT11D0_FOG_ITEM_NOT_ENOUGH	Недостаточно {0}. Расшифруйте старинный дневник, чтобы получить награды.
+STAGE_FOG_ZONE_UNLOCK_DESC	Открыть область?
+STAGE_FOG_STAGE_UNLOCK_DESC	Открыть {0}?
+USE_ITEM_NOT_ENOUGH_WARNING	Недостаточно {0}
+ROGUELIKE_TOPIC_FACTOR_DESC	В {0:f1} раза
+ROGUELIKE_TOPIC_MONSH_TASK_REFRESH	{0} раз
+ROGUELIKE_TOPIC_CHALLENGE_MODE_CHALLENGE_REWARD_CLAIMED	Получено: {0}
+ROGUELIKE_TOPIC_BP_GRAND_PRIZE_RECEIVED	Получено
+ROGUELIKE_TOPIC_BP_LEVEL_PREFIX	Ур. {0}
+ROGUELIKE_TOPIC_BP_REWARD_COUNT	Предметов: {0}
+ROGUELIKE_TOPIC_BP_LEVEL_CHANGE_DETAIL	С ур. {0} до ур. {1}
+ROGUELIKE_TOPIC_BP_LEVEL_MAX	Максимальный уровень {0} достигнут
+ROGUELIKE_TOPIC_BP_OVERFLOW_CONFIRM	Будет достигнут максимальный уровень. Излишек {0} пропадёт.\nПродолжить?
+ROGUELIKE_TOPIC_BP_PURCHASE_GRAND_PRIZE_CAN_RECEIVE	Недоступно для выбора
+ROGUELIKE_TOPIC_BP_PURCHASE_GRAND_PRIZE_RECEIVED	Получено
+ROGUELIKE_TOPIC_SELECT_DIFFICULTY_DESC	Выберите сложность
+ROGUELIKE_TOPIC_DIFFICULTY_NEED_TOAST	Выберите сложность экспедиции.
+ROGUELIKE_OTHER_MODE	Экспедиция уже идёт. Нельзя сменить режим.
+ROGUELIKE_TOPIC_ENDING_SP_OPERATOR_INFO_EVOLVE_UNLOCK	Выполните задания на повышение до Элиты, чтобы увеличить предел уровня особого оператора.
+ROGUELIKE_TOPIC_ENDING_SP_OPERATOR_INFO_EVOLVE_ACTIVE	Доступно повышение до Элиты
+ROGUELIKE_TOPIC_ENDING_SP_OPERATOR_INFO_SKILL_ACTIVE	Можно открыть навык <color=#00b0ff>{0}</color>
+ROGUELIKE_TOPIC_ENDING_SP_OPERATOR_INFO_TALENT_ACTIVE	Можно открыть талант <color=#00b0ff>{0}</color>
+ROGUELIKE_TOPIC_ENDING_SP_OPERATOR_INFO_MASTER_ACTIVE	Можно открыть специализацию <color=#00b0ff>{0}</color>
+ROGUELIKE_TOPIC_ENDING_SP_OPERATOR_INFO_UNIEQUIP_ACTIVE	Можно открыть модуль <color=#00b0ff>{0}</color>
+ROGUELIKE_INIT_GAIN	Стартовый коллекционный предмет
+ROGUELIKE_INIT_RELIC_BORN	Выберите отряд
+ROGUELIKE_INIT_REWARD	Выберите поддержку
+ROGUELIKE_INIT_RECRUIT_GRP	Выбранный набор найма
+ROGUELIKE_INIT_RECRUIT	Стартовый набор операторов
+ROGUELIKE_INIT_STABLE_SQUAD	Состав отряда
+ROGUELIKE_GAME_BANK_WITHDRAW_COST	(Сбережения текущей экспедиции − {0})
+ROGUELIKE_BANK_INVEST_MAX	Хранилище заполнено
+ROGUELIKE_BANK_INVEST_TOAST	Спасибо за вклад. Дзынь-дзынь!
+ROGUELIKE_BANK_WITHDRAW_TOAST	Средства сняты. Дзынь-дзынь!
+ROGUELIKE_BANK_REWARD_TOAST	Награды за вложения обновлены.
+ROGUELIKE_SHOP_SLOT_LOCK	Вкладывайте средства в <color=#02D3AE>систему перспективных инвестиций</color>, чтобы открыть дополнительные места товаров.
+ROGUELIKE_SHOP_SLOT_LOCK_CLOSED	<color=#02D3AE>Система перспективных инвестиций</color> недоступна во время текущей экспедиции. Новые места товаров открыть нельзя.
+ROGUELIKE_SHOP_WITHDRAWL_TIPS	Стоимость снятия средств из резервов удвоится.
+ROGUELIKE_SHOP_REFRESH_SUCCESS_TOAST	Магазин обновлён
+ROGUELIKE_SHOP_RECYCLE_COUNT_FORMAT	На продажу: {0}
+ROGUELIKE_SHOP_CONFIRM_BUY_VALID	Подтвердить покупку
+ROGUELIKE_SHOP_CONFIRM_BUY_INVALID_FORMAT	Недостаточно {0}
+ROGUELIKE_SHOP_CONFIRM_BUY_INVALID_FORMAT_GOLD	Недостаточно {0}
+ROGUELIKE_SHOP_CONFIRM_RECYCLE_INVALID	Достигнут лимит
+ROGUELIKE_SHOP_REFRESH_TIP_WITHOUT_COST	Обновить ассортимент?\nБудут обновлены <color=#01856e>все товары</color>.
+ROGUELIKE_SHOP_REFRESH_TIP_WITH_COST_FREE_FORMAT	Обновить ассортимент? Обновление не потребует {0}.
+ROGUELIKE_SHOP_REFRESH_TIP_WITH_COST_FORMAT	Потратить {0} {1}, чтобы обновить ассортимент?
+ROGUELIKE_SHOP_REFRESH_REMAIN_COUNT_FORMAT	Магазин можно обновить ещё <color=#1eb090>{0}</color> раз.
+ROGUELIKE_HARD_MODE_UNLOCK_HINT	Теперь доступен режим <{0}>
+ROGUELIKE_RELIC_SELECT	Выберите коллекционный предмет
+ROGUELIKE_RT_SELECT	Выберите разрешение на найм
+ROGUELIKE_UPGRADABLE_CHARACTER	Можно повысить операторов: {0}.
+ROGUELIKE_RECRUIT_SIMILAR_CHARACTER	В отряде уже есть похожие операторы: {0}.
+ROGUELIKE_STASHED_RECRUIT_TICKET_USE_DEFAULT_EMPTY_TIPS	Нет доступных разрешений на найм.
+ROGUELIKE_STASHED_RECRUIT_TICKET_USE_DEFAULT_USE_LIMIT_FORMAT	Осталось попыток: {0}
+ROGUELIKE_STASHED_RECRUIT_TICKET_USE_DEFAULT_CONFIRM_TOAST	Выберите разрешение на найм
+ROGUELIKE_STASHED_RECRUIT_TICKET_SIMILAR_CHARACTER	Операторов того же типа: {0}
+ROGUELIKE_CHOICE_STASHED_RECRUIT_HINT_TIP	Разрешений на найм: {0}
+ROGUELIKE_EFFECTIVE_CHARACTER	Подходящих операторов: {0}
+ROGUELIKE_REPLACE_TRAP_TIP	Текущее тактическое устройство будет заменено.
+ROGUELIKE_DISCARD_RECRUIT_TICKET	Отказаться от этой возможности найма?
+ROGUELIKE_DISCARD_UPGRADE_TICKET	Отказаться от возможности повышения?
+ROGUE_5_REDRAW_COPPER_ADD_COST_TIPS	*При переходе на следующий уровень стоимость повторного броска монет сбросится.
+ROGUE_5_COPPER_PACKAGE_DETAIL_REDRAW_CNT	Осталось попыток: {0}
+ROGUE_5_SKY_NODE_UNLOCK	Открыты новые узлы.
+ROGUE_5_ROLL_NODE_SUCC_TOAST	Узел обновлён.
+ROGUE_5_ROLL_NODE_ROLL_CONFIRM_DIALOG_DESC	Использовать {0} для обновления узла?
+ROGUE_5_ROLL_NODE_ROLL_CONFIRM_DIALOG_LEFT_COUNT	{0} <color=#FF7903>(осталось: {1})</color>
+ROGUE_5_NODE_UNLOCK_COPPER_FREE_MOVE_TIPS	Открыть вертикальный проход? Эта попытка бесплатна.
+ROGUE_5_NODE_UNLOCK_COPPER_LEFT_TIPS	Осталось бесплатных попыток: <color=#1eb090>{0}</color>
+ROGUE_5_SKY_NODE_LOCKED	Предыдущий узел ещё не пройден.
+ROGUE_5_SKY_NODE_CLOSED	Сознание пусто.
+ROGUE_5_SKY_NODE_SHOP_EMPTY	Магазин пуст. Всё равно войти?
+ROGUE_5_SKY_NODE_SHOP_EMPTY_COST	Ассортимент ещё можно обновить за <color=#1eb090>{0}</color> купонов.
+ROGUE_5_SKY_NODE_SHOP_EMPTY_CNT	Осталось обновлений: <color=#1eb090>{0}</color>
+ROGUE_5_SKY_NODE_SHOP_EMPTY_NONE	<color=#ff8948>Обновить ассортимент больше нельзя.</color>
+ROGUE_5_CHOICE_CANDLE_HINT_TIP	Операторов, способных зажечь свечи: {0}
+ROGUE_5_CHOICE_CANDLED_CHAR_HINT_TIP	Готовых к бою гостей со свечами: {0}
+ROGUE_5_CHOICE_SP_ZONE_AP_HINT_TIP	Осталось свечей: {0}
+ROGUE_5_SHOP_WITHDRAW_TIPS	Стоимость снятия средств из резервов увеличится.
+ROGUE_5_SHOP_COPPER_EXTRA_INFO	Выберите тунбао для обмена
+ROGUE_5_SHOP_COPPER_CONFIRM_BUY	Купить и обменять
+ROGUE_5_SACRIFICE_COPPER_EMPTY_TIP	Тунбао не выбран. Покинуть эту сцену?\nВы вернётесь на предыдущий экран.
+ROGUE_5_SACRIFICE_COPPER_DEFAULT_NAME	Выберите справа тунбао для обмена.
+ROGUE_5_SACRIFICE_COPPER_DEFAULT_USAGE	Время меняет всё.
+ROGUE_5_SACRIFICE_COPPER_DRAWN_CONFIRM_DESC	Этот тунбао уже подброшен. При обмене <color=#ff8948>его эффект пропадёт</color>.\nПродолжить?
+ROGUE_5_SACRIFICE_COPPER_REQUIRE_SELECT_TIPS	Выберите тунбао
+ROGUE_5_EXPEDITION_CHAR_CANDLED_CONFIRM_DESC	Оператор уже несёт <color=#ff8948>зажжённую свечу</color>, поэтому принесёт меньше наград. Отправить его?
+ROGUE_5_EXPEDITION_CHAR_CANDLED_CONFIRM_TIPS	(Можно вернуться и отправить оператора в обычную экспедицию без затрат очков жизни.)
+ROGUE_5_EXPEDITION_NO_UPGRADE_RETURN_TITLE	Операторы вернулись из-за пределов гробницы Суй.
+ROGUE_5_EXPEDITION_NO_UPGRADE_RETURN_DESC	Операторы вернулись и снова могут участвовать в бою.
+ROGUE_5_COPPER_REWARD_SELECT_DESC	Выберите тунбао
+ROGUE_5_START_BATTLE_CANT_GO_CHAR_IN_SLOT	В отряде есть операторы, <color=#ff8948>не способные сражаться</color>. Начать операцию?
+ROGUE_5_START_BATTLE_CANT_GO_CHAR_IN_SLOT_SUB_TIPS	Не показывать снова во время этой экспедиции.
+ROGUE_5_SP_ZONE_STEP_LEAVE_DESC	Уйти досрочно?\nВсе оставшиеся свечи будут <color=#ff8948>потушены</color>.
+ROGUE_5_ENDING_UNLOCK_COPPER_COUNT	В этой экспедиции открыто новых тунбао: {0}.
+ROGUE_5_MENU_WINDOW_WRATH_LEVEL_NUM	Ур. {0}
+ROGUE_5_MENU_COPPER_LIST_WINDOW_COUNT_DOWN	Осталось попыток: {0}
+ROGUE_5_UPTEXT_RECRUIT_GET_CANDLE	Нанять и зажечь
+ROGUE_5_UPTEXT_GET_CANDLE	Зажечь свечу
+ROGUE_5_UPTEXT_UPGRADE_GET_CANDLE	Повысить и зажечь
+ROGUE_5_ARCHIVE_WRATH_LOCKED	Этот Час Суй ещё не пережит.
+ROGUE_5_ARCHIVE_WRATH_LEVEL_LOCKED	Вы ещё не отправлялись в этот Час Суй.
+ROGUE_5_DIFF_RULE_ACTIVE_GRADE	Действует при сложности {0}{1} и выше.
+ROGUE_5_ARCHIVE_COPPER_UNATTAINED	Тунбао ещё не получен.
+ROGUE_5_ARCHIVE_COPPER_UNATTAINED_SEC	Удача приходит в своё время.
+ROGUE_5_ARCHIVE_GILD_UNATTAINED	Условие ещё не обнаружено.
+ROGUE_5_ARCHIVE_GILD_SEC	Тунбао может иметь разные условия и давать различные дополнительные эффекты.
+ROGUE_5_ARCHIVE_LUCKY_LEVEL_TITLE	Валюта
+ROGUE_5_ARCHIVE_GILD_TITLE	Условие
+ROGUELIKE_CHALLENGE_BOOK_LOCKED_ENTRY_HINT	Завершите исследования, чтобы открыть.
+ROGUELIKE_CHALLENGE_BOOK_LOCKED_ITEM_HINT	Продолжайте исследования, чтобы открыть.
+RL03_CHALLENGE_MODE_DETAIL_TARGET_PREFIX_FORMAT	Исследуйте <{0}> и выполните следующие условия за одну экспедицию:
+ROGUELIKE_INIT_EXPLORE_TOOL	Выберите исследовательское снаряжение
+ROGUELIKE_REWARD_LOSE_HP_TITLE	Текущий бой
+ROGUELIKE_EXPLORE_TOOL_SELECT	Выберите один предмет исследовательского снаряжения
+JUDGE_HOME_ILLUST_EDIT_EXIT	Покинуть экран настройки?\nВсе несохранённые изменения будут потеряны.
+NO_VIDEO_MESSAGE	Не найдены ресурсы сюжетной сцены.
+TOAST_CHAR_TMPL_UNLOCK_AMIYA	Открыта <color=#4abdff>система смены класса</color>. Подробнее — в карточке оператора Амия.
+TOAST_CHAR_TMPL_REFRESH_AMIYA	<color=#4abdff>Система смены класса</color> обновлена. Подробнее — в карточке Амии.
+TOAST_TMPL_UNLOCK	Класс заблокирован
+TOAST_QUICK_PLAY_GUIDE	Удерживайте кнопку, чтобы ускорить воспроизведение сюжета.
+TOAST_QUICK_PLAY_GUIDE_BTN	Понятно
+TOAST_MAINLINE_UNLOCK_NEW_STAGE_FORMAT	Открыты этапы основного сюжета: {0}
+TOAST_STAGE_HARD_MODE_UNLOCKED	Открыт режим испытания для <color=#4abdff>{0}</color>.
+TOAST_STAGE_PREDEFINED_HARD_MODE_UNLOCKED	Открыт режим «Испытание» для <color=#4abdff>{0}</color>.
+TOAST_CHAR_STAR_MARK_SET_SUCCESS	Выбранный оператор добавлен в избранное.
+TOAST_GET_NEW_BACK_GROUND_TIP	Доступен новый фон <color=#4abdff>{0}</color>.
+TOAST_GET_NEW_BACK_GROUNDS_TIP	Доступно новых фонов: {1}, включая <color=#4abdff>{0}</color>.
+TOAST_GET_NEW_THEME_TIP	Открыта новая тема главного экрана <color=#4abdff>{0}</color>.
+TOAST_GET_NEW_THEMES_TIP	Открыто новых тем главного экрана: {1}, включая <color=#4abdff>{0}</color>.
+ALERT_PRAY_ONLY_EXTRA_COUNT	Завтра дополнительных попыток: {0}
+CHECK_IN_V2_SHOW_ITEM_NOT_GOT	Можно получить через {0} д.
+SP_CHAR_MISSION_COMMON_DESC	Задание альтернативного оператора
+SP_CHAR_MISSION_LOCKED_DESC	Получите {0}, чтобы открыть задание альтернативного оператора.
+SP_CHAR_MISSION_COND_EVOLVE_PHASE	Достигните Элиты {0}, ур. {1}.
+MULTI_FIND_ROOM_ID_ERROR	Неверный формат номера проекта. Проверьте введённые данные.
+MULTI_FIND_ROOM_NONE	Проект не найден. Проверьте введённые данные.
+MULTI_READY	Готов
+MULTI_COPY_SUCCESS	Номер проекта скопирован.
+MULTI_ROOM_PING	Текущая задержка: {0} мс
+MULTI_ROOM_CD	Проект будет отменён через {0}
+MULTI_ROOM_CD_IN_BATTLE	Бой завершится через {0}
+MULTI_ROOM_LEAVE_JUDGE	Покинуть проект?
+MULTI_ROOM_MASTER_LEAVE_JUDGE	Завершить проект?
+MULTI_ROOM_KICK_JUDGE	Удалить напарника из проекта?
+MULTI_RET_CODE_DEFAULT	Обнаружена ошибка (код: {0}).
+MULTI_RET_CODE_101	Бой завершён. Выход из зоны.
+MULTI_RET_CODE_102	Обнаружена ошибка. Бой будет остановлен.
+MULTI_RET_CODE_605	Система занята. Не удалось начать бой. Попробуйте снова.
+MULTI_BATTLE_ERROR_CODE_30001	Время входа на полигон истекло. Бой завершён.
+MULTI_BATTLE_ERROR_CODE_30002	Не удалось получить результаты боя. Бой будет остановлен.
+MULTI_BATTLE_ERROR_CODE_20000	Обнаружена ошибка. Сражение завершится автоматически.
+MULTI_BATTLE_ERROR_CODE_PUNISH_20000	Награды и штрафы не начисляются.
+MULTI_BATTLE_ERROR_CODE_30009	Событие завершено. Выход с полигона.
+MULTI_BATTLE_ERROR_CODE_40901	Ошибка сети. Не удалось подключиться к серверу.
+MULTI_BATTLE_HINT_INVALID_BATTLE	Обнаружена ошибка. Бой будет остановлен (код: {0}).
+HOME_COMMON_CHECK_IN_TITLE	Ежедневные припасы
+HOME_DAILY_BONUS_CHECK_IN_TITLE	Месячная карта
+MULTI_BATTLE_START_FAILED	Не удалось начать бой!
+MULTI_BATTLE_JOIN_FAILED	Ошибка присоединения к бою:
+MULTI_DIFFICULTY_EASY	Обычное испытание
+MULTI_DIFFICULTY_NORMAL	Испытание под давлением
+MULTI_DIFFICULTY_HARD	Сложное испытание
+MULTI_POS_UP	Верхняя зона управления
+MULTI_POS_DOWN	Нижний испытательный сектор
+MULTI_POS_UP_TEAM	Команда верхней зоны
+MULTI_POS_DOWN_TEAM	Команда нижнего сектора
+MULTI_COMMON_TEAM_NAME	Пользовательский отряд
+MULTI_CHANGE_TEAM_NAME	<color=#898989>Изменение...</color>
+MULTI_BATTLE_HINT_PAUSE	Бой приостановлен.
+MULTI_BATTLE_HINT_RESUME	Бой возобновлён.
+MULTI_BATTLE_HINT_REQUEST_PAUSE	Запрос паузы отправлен.
+MULTI_BATTLE_HINT_REFUSE_PAUSE	Напарник отклонил запрос паузы.
+MULTI_BATTLE_HINT_IGNORE_PAUSE	Напарник проигнорировал запрос паузы.
+MULTI_BATTLE_HINT_PLAYER_OFFLINE	Связь с напарником потеряна. Выставленные операторы продолжат бой автоматически.
+MULTI_BATTLE_HINT_PLAYER_RECOVER	Напарник восстановил соединение.
+MULTI_BATTLE_HINT_PLAYER_CANCEL	Напарник покинул бой. Выставленные операторы продолжат бой автоматически.
+MULTI_BATTLE_HINT_MARK_MAX	Достигнут предел меток. Попробуйте позднее.
+MULTI_MATCHING_COUNTDOWN	Поиск напарника (осталось {0} сек.)
+MULTI_MATCHING_NO_SELECT	Выберите требования к испытательному проекту.
+MULTI_ABLE_TO_MATCH	Требования заданы. Используйте подбор напарника для поиска.
+MULTI_WAIT_FOR_ENTRY	Ожидание напарника для участия в проекте.
+MULTI_WAIT_FOR_ENTRY_DETAIL	Скопируйте номер проекта, чтобы пригласить друзей.
+MULTI_MATCH_WAIT	Напарник присоединяется к проекту.
+MULTI_MATCH_WAIT_DETAIL	Если ожидание затянулось, попробуйте повторить подбор.
+MULTI_TOO_MANY_PEOPLE	Слишком много участников. Подбор недоступен, попробуйте позднее.
+MULTI_UNKNOWN_WRONG	Ошибка подбора напарника. Попробуйте позднее.
+MULTI_MATCH_NO_TEAM	Подходящий напарник не найден. Измените параметры подбора или повторите попытку.
+MULTI_NEED_TEAM	Чтобы пройти {0}, сначала сформируйте отряд.
+MULTI_NEED_HARD	Сначала завершите испытание под давлением.
+MULTI_JOIN_ROOM_FULL	Все места заняты. Присоединиться нельзя.
+MULTI_JOIN_ROOM_ON_BATTLE	Испытание уже началось. Присоединиться нельзя.
+MULTI_NO_FRIEND_ROOM_FOUND	Доступных проектов нет.
+MULTI_CANNOT_KICK_IN_BATTLE_PLAYER	Пока бой не закончен, нельзя удалить команду.
+MULTI_CLICK_TOO_FAST	Слишком много действий подряд. Попробуйте позднее.
+ACT1LOCK_STAGE_TYPE_NORMAL	Тренировочная база
+ACT1LOCK_STAGE_TYPE_INTERLOCK	Пост
+ACT1LOCK_STAGE_TYPE_FINAL	Последний полигон
+ACT1LOCK_FINAL_STAGE_HINT	Новые сведения откроются после первого прохождения {0}.
+ACT1LOCK_MILESTONE_NEED_DESC	Получите, собрав {0} {1}.
+ACT1LOCK_SQUAD_RESTRICT	Оператор занят на посту и удалён из отряда.
+ACT1LOCK_SQUAD_ASSIST_ALREADY_EXIST	В отряде уже есть этот персонаж. Добавить повторно нельзя.
+ACT1LOCK_FINAL_STAGE_UNLOCKED	Появился {0}
+ACT1LOCK_INTERLOCK_STAGE_UNLOCKED	Открыто: {0}
+TEXT_TITLE_STARTMISSION	Доска заданий
+TEXT_TITLE_MAINMISSION	Кампания
+GUIDE_MISSION_CHAR_REWARD_HINT	Пройдите {0}, чтобы получить награду.
+GUIDE_MISSION_UNLOCK_TITLE_STR	Условия открытия: {0}
+RES_FULL_OPEN_REMAIN_DAY_TEXT	Осталось дней: {0}
+RES_FULL_OPEN_REAMIN_DAY_STR	{0} д.
+INFORMANT_ENTRY_LOCKED_TOAST	Пройдите {0}, чтобы открыть.
+INFORMANT_ENTRY_LOCKED_TIP	Пройдите {0}, чтобы открыть.
+INFORMANT_TAG_LOCKED_DESC	Завершите сделку, чтобы открыть сведения о покупателе.
+INFORMANT_CUSTOMER_LOCKED_DESC	Завершите сделку, чтобы открыть сведения о покупателе.
+INFORMANT_ITEM_NOT_ENOUGH_TOAST	Проходите этапы события, чтобы получить больше «Праздных сплетен».
+INFORMANT_NO_INSIGHT_TIME_TOAST	Недостаточно проверок настроения.
+DAILY_MISSION_CONFIRM_ALL_DESCRIPTION	Есть несколько выполненных ежедневных заданий, награды можно забрать.
+MAIN_MISSION_CONFIRM_ALL_DESCRIPTION	Выполнено несколько заданий.
+UNIEQUIP_UNLOCK_INFO_ATTR	Изменение базовых характеристик
+UNIEQUIP_UNLOCK_INFO_SUB_PROFESSION	Изменение особенности ветви
+UNIEQUIP_UNLOCK_INFO_TALENT	Улучшен талант [{0}]
+UNIEQUIP_UNLOCK_CONFIRM_INFO	Разблокировать <color=#22BBFF>{0}</color>?
+CHAR_SHOW_UNIEQUIP_INFO	<color=#22BBFF>Система модулей</color> откроется после повышения до Элиты 2.
+CHAR_SHOW_UNIEQUIP_UNLOCK_HINT	Открыт персональный модуль {0}
+CHAR_SHOW_EQUIP_LVL	ЭТАП {0}
+TOAST_UNIEQUIP_MISSION_UPDATE	Обновлено задание на открытие модуля {0}<color=#0098dc>[{1}]</color>.
+UNIEQUIP_LEVELUP_CONFIRM_INFO	Улучшить <color=#22BBFF>{0}</color> до ур. <color=#22BBFF>{1}</color>?
+ALERT_UNIEQUIP_UNLOCK_MISSION_UNFINISHED	Задание на открытие не выполнено. Модуль недоступен.
+ALERT_UNIEQUIP_UNLOCK_LEVEL_NOT_ENOUGH	Уровень оператора слишком низок для открытия модуля.
+ALERT_UNIEQUIP_UNLOCK_FAVOR_NOT_ENOUGH	Недостаточно доверия к оператору для открытия модуля.
+ALERT_UNIEQUIP_UNLOCK_ITEM_TEMPLATE_NOT_ENOUGH	Недостаточно {0} для открытия модуля.
+ALERT_UNIEQUIP_LEVELUP_ITEM_TEMPLATE_NOT_ENOUGH	Недостаточно {0} для улучшения модуля.
+ALERT_UNIEQUIP_LEVELUP_UNLOCK_FAVOR_NOT_ENOUGH	Недостаточно доверия к оператору для улучшения модуля.
+UNIEQUIP_LEVELUP_BASIC_INFO	Базовые характеристики
+UNIEQUIP_LEVELUP_PROFESSION	Особенность и дальность действия
+UNIEQUIP_LEVELUP_TALENT	Талант [{0}]
+UNIEQUIP_LEVELUP_NEW_TALENT	Новый талант [{0}]
+TOAST_UNIEQUIP_LEVELUP_SUC	Модуль улучшен
+ACT12SIDE_STAGE_LOCKED	Этап заблокирован
+ACT12SIDE_STAGE_TIMEOUT	Завершено
+ACT12SIDE_RECYCLE_RANDOM	После переработки получите {0} случайных наклеек.
+ACT12SIDE_RECYCLE_NEW	После переработки получите {0} наклеек.
+ACT12SIDE_REWARDS_TITLE_NEW	Не получено
+ACT12SIDE_REWARDS_TITLE_RANDOM	Случайная награда
+ACT12SIDE_REWARDS_TITLE_CNT	Предметов: {0}
+ACT12SIDE_EDITOR_LEAVE_TIP	Есть несохранённые изменения. Всё равно выйти?
+ACT12SIDE_PHOTO_JUMP_TIP	Перейти к {0}
+ACT12SIDE_CHARM_UNLOCK_HINT	Откроется после прохождения {0}.
+ACT12SIDE_MIST_UNLOCK_TIME	До {0}
+ACT12SIDE_FOG_UNLOCK_DESC	Получите {0}, чтобы открыть.
+ACT12SIDE_FOG_STAGE_LOCKED_TOAST	Чтобы открыть особое расследование, сначала пройдите предыдущие этапы.
+ACT12SIDE_PHOTO_LOCKED_TOAST	Откроется после получения наград за {0} памятных медалей госпожи Чэнь.
+ACT13SIDE_PRESTIGE_RANK_UNLOCK_HINT	Репутация достигла уровня {0}.
+ACT13SIDE_PRESTIGE_PROMOTE_REWARD_HINT	В раздел «{0}» информационного порта добавлено материалов: {1}.
+ACT13SIDE_PRESTIGE_PROMOTE_NEW_ITEM	Получено: {0}
+ACT13SIDE_ARCHIVE_DOC_NAME	Дневник Гибискус
+ACT13SIDE_ARCHIVE_NEWS_NAME	Голос бутона розы
+ACT13SIDE_FROM_TEXT	От {0}
+ACT13SIDE_ORG_ADD_TEXT	{0}  Репутация +{1}
+ACT13SIDE_ARCHIVE_PRESTIGE_LOCKED_TOAST	<color=#22bbff>{0}</color> откроется при репутации <color=#22bbff>{1}</color>.
+ACT13SIDE_ARCHIVE_STAGE_PLAYED_LOCKED_TOAST	Примите участие в этапе <color=#22bbff>{0}</color>, чтобы открыть.
+ACT13SIDE_ARCHIVE_STAGE_PASSED_LOCKED_TOAST	Пройдите этап <color=#22bbff>{0}</color>, чтобы открыть.

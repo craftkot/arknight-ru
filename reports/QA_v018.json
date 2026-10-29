@@ -1,0 +1,31 @@
+{
+  "release": "Arknights RU v0.18",
+  "previous_release": "v0.17",
+  "new_story_files": [
+    "obt/main/level_main_00-08_beg.txt"
+  ],
+  "new_story_draft_count": 78,
+  "previous_story_draft_count": 413,
+  "story_draft_total": 491,
+  "story_files_total": 9,
+  "ui_keyed_carryover": 2544,
+  "ui_total_indexed": 2711,
+  "source_cn_git_blob_sha1": "4a3d59100acba8510292fa2879c0dbfe6b8da274",
+  "source_en_git_blob_sha1": "a9c1c1258964a2622b6fbacf4c9b95c0e1d63dc6",
+  "source_type": "community game data mirrors",
+  "literary_review_completed": false,
+  "automated_validation": "48/48 Python tests passed, including synthetic 9-scene full preview and version mismatch refusal",
+  "game_installable_patch": false,
+  "real_game_tested": false,
+  "windows_runtime_tested": false,
+  "source_fetched_from_public_repository_in_assistant_context": true,
+  "real_story_full_text_downloaded_on_windows": false,
+  "source_mirror_file_structure_count_checked": true,
+  "source_CN_EN_new_scene_dialogue_count": 78,
+  "prior_UI_binary_equivalent": true,
+  "prior_item_drafts_binary_equivalent": true,
+  "prior_8_story_files_equivalent": true,
+  "ui_keyed_sha256": "66860274cec299afd293f9895476b5b4567e71f5e4af873eec481d6d3462a426",
+  "precise_story_total_pct": "unknown: total game dialogues not inventoried",
+  "new_story_draft_quality": "human literary draft, no full editor review"
+}

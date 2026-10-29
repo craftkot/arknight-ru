@@ -1,0 +1,18 @@
+{
+  "release": "Arknights RU v0.14",
+  "base_release": "v0.13",
+  "ui_keyed_unchanged": 2544,
+  "ui_technical_format_keys_unchanged": 167,
+  "ui_game_keys_total": 2711,
+  "story_episode": "0-1",
+  "story_cn_ru_drafted_dialogues": 138,
+  "story_files_count": 2,
+  "story_source_archives": "community CN + EN mirrors; Git blob SHA-1 recorded for each script",
+  "story_original_CN_EN_full_files_in_archive": false,
+  "story_reviewer_status": "first editorial draft only",
+  "scripts_preview_only": true,
+  "client_game_integration": false,
+  "window_real_client_tested": false,
+  "real_source_download_in_this_runtime": false,
+  "tests_local": "verified in build logs"
+}

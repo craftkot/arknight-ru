@@ -1,0 +1,22 @@
+{
+  "release": "Arknights RU Independent v0.10",
+  "type": "uninstalled development translation workspace",
+  "source": "User-supplied Arknights Global resource string_map and item_table",
+  "real_ui_keys": 2711,
+  "ui_translated": 1707,
+  "ui_previously_translated": 1449,
+  "ui_new_translated_in_cycle": 258,
+  "ui_rejected_in_cycle": 1,
+  "ui_remaining": 1004,
+  "ui_coverage_pct": 62.97,
+  "xunity_unique_literal_preview_pairs": 926,
+  "plain_literal_collisions": 29,
+  "item_previous_drafts": 134,
+  "item_new_editorial_drafts": 68,
+  "item_rejected": 1,
+  "full_story_dialogues_extracted": false,
+  "sprites_translated": false,
+  "game_runtime_tested": false,
+  "automated_checks": "PASS: zip integrity, id uniqueness, placeholders, tags, linebreaks, no old translation regressions, item source offsets",
+  "editorial_note": "UI strings and items require terminology/context review. Numeric denominator is one string_map, not whole game."
+}
