@@ -1,0 +1,1 @@
+v0.20: +60 Russian dialogue drafts in episode 0-11 ending; 654 total over 12 indexed chapter-0 main story scene files. Single-command chapter source fetch+offline preview, source version pins, regressions and QA. No actual client patch.

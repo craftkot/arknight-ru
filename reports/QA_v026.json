@@ -1,0 +1,20 @@
+{
+  "version": "v0.26",
+  "event": "Darknights Memoir (act9d0)",
+  "event_scripts_in_cn_and_en": 13,
+  "event_scripts_with_first_draft": 1,
+  "new_named_lines": 94,
+  "new_unnamed_lines": 16,
+  "new_total_text_lines": 110,
+  "previous_main_story_named_dialogues_preserved": 2377,
+  "previous_ui_keys_preserved": 2544,
+  "event_source_sha": "e83034b8bfd59bb3f66632f2ccfa5423005440f7",
+  "event_source_en_sha": "c1b956f58a66f2f9a8c06b1f4253c8044a6c4fe9",
+  "source_verification": "remote CN/EN same 94 named lines; 16 unnamed lines; pinned Git blobs",
+  "limitations": [
+    "synthetic tests only, no actual game client test",
+    "literary draft pending review",
+    "source content not distributed"
+  ],
+  "tests_passed": 123
+}

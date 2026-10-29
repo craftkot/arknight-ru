@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.log
+*.tmp
+*.bak
+.DS_Store
+# Downloaded upstream game scripts are never committed
+local_sources/
+original_cn/
+original_en/
+preview_output/

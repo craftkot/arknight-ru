@@ -1,0 +1,8 @@
+Arknights RU v0.22 — Beginning of chapter 2
+
+CHAPTER 2 DISCOVERY: 20 paired CN and EN obt/main files (10 numbered stages, before+after). 3 scripts translated now, 17 untranslated.
+RU: 02-01_beg 32; 02-01_end 66; 02-02_beg 55. 153 NEW first-draft lines.
+TOTAL: 654 (chapter0) + 701 (chapter1) + 153 (chapter2 partial) = 1508 RU story dialogues, 27 files.
+PREVIOUS: 2544 keyed UI strings preserved; item/operator/enemy drafts preserved.
+ENGINE: 02-01 to 02-10 story paths supported with a strict whitelist; new L.G.D. names.
+No game runtime test; structural synthetic tests only. No exe/DLL bundled. No original CN/EN full scripts bundled.

@@ -1,0 +1,471 @@
+[
+  {
+    "english": "Are you sure you want to leave?",
+    "keys": [
+      "ROGUELIKE_EXIT_SHOP",
+      "SANDBOX_V2_BATTLE_EXIT_CONFIRM",
+      "SANDBOX_V2_DUNGEON_RIFT_CONFIRM_TITLE",
+      "ACTMULTIV3_ROOM_EXIT_SC_TIPS"
+    ],
+    "russian_by_key": {
+      "ROGUELIKE_EXIT_SHOP": "Покинуть магазин?",
+      "SANDBOX_V2_BATTLE_EXIT_CONFIRM": "Вы действительно хотите выйти?",
+      "SANDBOX_V2_DUNGEON_RIFT_CONFIRM_TITLE": "Вы действительно хотите покинуть испытание?",
+      "ACTMULTIV3_ROOM_EXIT_SC_TIPS": "Вы действительно хотите покинуть комнату?"
+    }
+  },
+  {
+    "english": "Average",
+    "keys": [
+      "CHAR_ATK_SPEED_MEDI",
+      "CHAR_RESPAWNTIME_MEDIUM"
+    ],
+    "russian_by_key": {
+      "CHAR_ATK_SPEED_MEDI": "Средняя",
+      "CHAR_RESPAWNTIME_MEDIUM": "Среднее"
+    }
+  },
+  {
+    "english": "Branch Trait changes",
+    "keys": [
+      "UNIEQUIP_SUB_PROFESSION_DESC_CHANGE",
+      "UNIEQUIP_UNLOCK_INFO_SUB_PROFESSION"
+    ],
+    "russian_by_key": {
+      "UNIEQUIP_SUB_PROFESSION_DESC_CHANGE": "Изменение особенности подкласса",
+      "UNIEQUIP_UNLOCK_INFO_SUB_PROFESSION": "Изменение особенности ветви"
+    }
+  },
+  {
+    "english": "Clear {0} to unlock",
+    "keys": [
+      "MAINLINE_PREPOSED_HINT",
+      "COMMON_LOCK_BY_STAGE",
+      "INFORMANT_ENTRY_LOCKED_TOAST",
+      "INFORMANT_ENTRY_LOCKED_TIP",
+      "FIFTH_ANNIV_EXPLORE_LOCK_TEXT",
+      "CARVING_ENTRY_UNLOCK_CONDITION_DESC",
+      "CARVING_ENTRY_UNLOCK_CONDITION_TOAST_DESC",
+      "FIREWORK_UNLOCK_DESC_FORMAT",
+      "FIREWORK_CRAFT_ANIMAL_SELECT_LOCKED_DESC"
+    ],
+    "russian_by_key": {
+      "MAINLINE_PREPOSED_HINT": "Откроется после прохождения {0}",
+      "COMMON_LOCK_BY_STAGE": "Пройдите {0}, чтобы открыть.",
+      "INFORMANT_ENTRY_LOCKED_TOAST": "Пройдите {0}, чтобы открыть.",
+      "INFORMANT_ENTRY_LOCKED_TIP": "Пройдите {0}, чтобы открыть.",
+      "CARVING_ENTRY_UNLOCK_CONDITION_DESC": "Пройдите {0}, чтобы открыть",
+      "CARVING_ENTRY_UNLOCK_CONDITION_TOAST_DESC": "Пройдите {0}, чтобы открыть",
+      "FIREWORK_UNLOCK_DESC_FORMAT": "Пройдите {0}, чтобы открыть",
+      "FIREWORK_CRAFT_ANIMAL_SELECT_LOCKED_DESC": "Пройдите {0}, чтобы открыть"
+    }
+  },
+  {
+    "english": "Contains unallowed characters. Please enter another one",
+    "keys": [
+      "ALERT_RESUME_ILLEGAL_CHAR",
+      "ALERT_NAME_CARD_RESUME_ILLEGAL_CHAR"
+    ],
+    "russian_by_key": {
+      "ALERT_RESUME_ILLEGAL_CHAR": "Недопустимые символы. Измените текст.",
+      "ALERT_NAME_CARD_RESUME_ILLEGAL_CHAR": "В тексте есть недопустимые символы."
+    }
+  },
+  {
+    "english": "Contains unallowed words. Please enter another one",
+    "keys": [
+      "ALERT_RESUME_ILLEGAL_WORD",
+      "ALERT_NAME_CARD_RESUME_ILLEGAL_WORD"
+    ],
+    "russian_by_key": {
+      "ALERT_RESUME_ILLEGAL_WORD": "Недопустимые слова. Измените текст.",
+      "ALERT_NAME_CARD_RESUME_ILLEGAL_WORD": "В тексте есть недопустимые слова."
+    }
+  },
+  {
+    "english": "Continue Investigations to unlock",
+    "keys": [
+      "ROGUELIKE_CHALLENGE_BOOK_LOCKED_ITEM_HINT",
+      "TUNING_ARCHIVE_LOCK_TOAST",
+      "GUN_TASK_ARCHIVE_LOCK_TOAST"
+    ],
+    "russian_by_key": {
+      "ROGUELIKE_CHALLENGE_BOOK_LOCKED_ITEM_HINT": "Продолжайте исследования, чтобы открыть.",
+      "GUN_TASK_ARCHIVE_LOCK_TOAST": "Продолжайте расследование, чтобы открыть"
+    }
+  },
+  {
+    "english": "Data updated. Starting synchronization.",
+    "keys": [
+      "ALERT_SYNC_STATUS_NEED_CROSS_DAY",
+      "CRISIS_DATA_NEED_RESYNC_ALERT"
+    ],
+    "russian_by_key": {
+      "ALERT_SYNC_STATUS_NEED_CROSS_DAY": "Данные обновлены. Начинаем синхронизацию.",
+      "CRISIS_DATA_NEED_RESYNC_ALERT": "Данные обновлены. Начинается синхронизация."
+    }
+  },
+  {
+    "english": "Do not show again this exploration",
+    "keys": [
+      "ROGUE_5_SWAP_COPPER_CHECK_TIPS",
+      "ROGUE_5_START_BATTLE_CANT_GO_CHAR_IN_SLOT_SUB_TIPS"
+    ],
+    "russian_by_key": {
+      "ROGUE_5_SWAP_COPPER_CHECK_TIPS": "Больше не показывать в этом исследовании",
+      "ROGUE_5_START_BATTLE_CANT_GO_CHAR_IN_SLOT_SUB_TIPS": "Не показывать снова во время этой экспедиции."
+    }
+  },
+  {
+    "english": "During this event, {0} expires in {1}",
+    "keys": [
+      "STAGE_ACTIVITY_AP_ITEM",
+      "ACTIVITY_3D5_APTIME_DESC"
+    ],
+    "russian_by_key": {
+      "STAGE_ACTIVITY_AP_ITEM": "Во время события срок действия {0} истечёт через {1}",
+      "ACTIVITY_3D5_APTIME_DESC": "Во время события {0} исчезнет через {1}"
+    }
+  },
+  {
+    "english": "Event has ended",
+    "keys": [
+      "ACT20SIDE_ACT_CLOSED",
+      "TUNING_TIME_END",
+      "ENEMY_DUEL_ENTRY_ACT_END_ANNOUNCE",
+      "CARVING_ENTRY_TIMEOUT_DESC",
+      "FIREWORK_CLOSE_TOAST",
+      "ACT46SIDE_MONOPOLY_TIMEOUT_DESC"
+    ],
+    "russian_by_key": {
+      "ACT20SIDE_ACT_CLOSED": "Событие завершено",
+      "CARVING_ENTRY_TIMEOUT_DESC": "Событие завершилось",
+      "FIREWORK_CLOSE_TOAST": "Событие завершилось",
+      "ACT46SIDE_MONOPOLY_TIMEOUT_DESC": "Событие завершилось"
+    }
+  },
+  {
+    "english": "Event not yet available",
+    "keys": [
+      "ALERT_ANNOUNE_ACTIVITY_NOT_OPEN",
+      "ACTIVITY_NOT_OPEN_REASON_UNKNOW"
+    ],
+    "russian_by_key": {
+      "ALERT_ANNOUNE_ACTIVITY_NOT_OPEN": "Событие ещё не началось.",
+      "ACTIVITY_NOT_OPEN_REASON_UNKNOW": "Событие ещё недоступно."
+    }
+  },
+  {
+    "english": "Fast",
+    "keys": [
+      "CHAR_ATK_SPEED_FAST",
+      "CHAR_RESPAWNTIME_FAST"
+    ],
+    "russian_by_key": {
+      "CHAR_ATK_SPEED_FAST": "Высокая",
+      "CHAR_RESPAWNTIME_FAST": "Быстрое"
+    }
+  },
+  {
+    "english": "Idle",
+    "keys": [
+      "BUILDING_BROOM_HIRE_IDLE_STATE",
+      "BUILDING_BROOM_DORM_IDLE_STATE",
+      "BUILDING_BROOM_MANUF_IDLE",
+      "BUILDING_BROOM_SHOP_IDLE",
+      "BUILDING_BROOM_TRADING_IDEL",
+      "BUILDING_BROOM_TRAINING_IDLE",
+      "BUILDING_BROOM_PRIVATE_IDLE_STATE",
+      "BUILDING_CHAR_IDLE_DESC",
+      "BUILDING_MANUFACT_IDLE_DESC"
+    ],
+    "russian_by_key": {
+      "BUILDING_BROOM_HIRE_IDLE_STATE": "Ожидание",
+      "BUILDING_BROOM_DORM_IDLE_STATE": "Свободно",
+      "BUILDING_BROOM_MANUF_IDLE": "Ожидание",
+      "BUILDING_BROOM_SHOP_IDLE": "Ожидание",
+      "BUILDING_BROOM_TRADING_IDEL": "Ожидание",
+      "BUILDING_BROOM_TRAINING_IDLE": "Ожидание",
+      "BUILDING_BROOM_PRIVATE_IDLE_STATE": "Свободно",
+      "BUILDING_CHAR_IDLE_DESC": "Ожидает",
+      "BUILDING_MANUFACT_IDLE_DESC": "Ожидание"
+    }
+  },
+  {
+    "english": "In Use",
+    "keys": [
+      "BUILDING_BROOM_DORM_REST_STATE",
+      "BUILDING_BROOM_PRIVATE_USE_STATE",
+      "BUILDING_CHAR_REST_DESC"
+    ],
+    "russian_by_key": {
+      "BUILDING_BROOM_DORM_REST_STATE": "Занято",
+      "BUILDING_BROOM_PRIVATE_USE_STATE": "Занято",
+      "BUILDING_CHAR_REST_DESC": "Отдыхает"
+    }
+  },
+  {
+    "english": "Insufficient roll attempts",
+    "keys": [
+      "ROGUELIKE_REWARD_TREASURE_DICE_NO_ENOUGH_TIPS",
+      "RL02_SHOP_DICE_COUNT_LACK_TOAST"
+    ],
+    "russian_by_key": {
+      "ROGUELIKE_REWARD_TREASURE_DICE_NO_ENOUGH_TIPS": "Больше нет попыток броска",
+      "RL02_SHOP_DICE_COUNT_LACK_TOAST": "Не хватает попыток броска"
+    }
+  },
+  {
+    "english": "Insufficient {0}",
+    "keys": [
+      "POTENTIAL_ITEM_NOT_ENOUGH_TIPS",
+      "ALERT_RECRUIT_BUILD_RESOURCE_NOT_ENOUGH",
+      "GACHA_FAST_BUY_COST_NOT_ENOUGH",
+      "ALERT_GACHA_DIAMOND_EXCHANGE_NOT_ENOUGHT",
+      "RECRUIT_INSTANT_NOT_ENOUGH",
+      "ALERT_CRYSTAL_NOT_ENOUGH_TO_BUY_AP",
+      "STORY_REVIEW_ITEM_NOT_ENOUGH",
+      "USE_ITEM_NOT_ENOUGH_WARNING",
+      "ROGUELIKE_SHOP_CONFIRM_BUY_INVALID_FORMAT",
+      "ROGUELIKE_SHOP_CONFIRM_BUY_INVALID_FORMAT_GOLD",
+      "RL_KEY_ITEM_NOT_ENOUGH",
+      "ROGUE_4_FRAGMENT_NO_ENOUGH_KEY",
+      "ROGUE_4_ROLL_NODE_NO_ITEM_TOAST",
+      "ROGUELIKE_TOPIC_OUTER_BUFF_UPGRADE_FORBIDDEN_TOKEN_LACK",
+      "ACT1VHALFIDLE_CHAR_UPGRADE_ITEM_NOT_ENOUGH"
+    ],
+    "russian_by_key": {
+      "POTENTIAL_ITEM_NOT_ENOUGH_TIPS": "Недостаточно {0}.",
+      "ALERT_RECRUIT_BUILD_RESOURCE_NOT_ENOUGH": "Недостаточно {0}",
+      "GACHA_FAST_BUY_COST_NOT_ENOUGH": "Недостаточно {0}",
+      "ALERT_GACHA_DIAMOND_EXCHANGE_NOT_ENOUGHT": "Недостаточно {0}",
+      "RECRUIT_INSTANT_NOT_ENOUGH": "Недостаточно {0}",
+      "ALERT_CRYSTAL_NOT_ENOUGH_TO_BUY_AP": "Недостаточно {0}.",
+      "STORY_REVIEW_ITEM_NOT_ENOUGH": "Недостаточно {0}",
+      "USE_ITEM_NOT_ENOUGH_WARNING": "Недостаточно {0}",
+      "ROGUELIKE_SHOP_CONFIRM_BUY_INVALID_FORMAT": "Недостаточно {0}",
+      "ROGUELIKE_SHOP_CONFIRM_BUY_INVALID_FORMAT_GOLD": "Недостаточно {0}",
+      "RL_KEY_ITEM_NOT_ENOUGH": "Недостаточно {0}",
+      "ROGUE_4_FRAGMENT_NO_ENOUGH_KEY": "Недостаточно {0}",
+      "ROGUE_4_ROLL_NODE_NO_ITEM_TOAST": "Недостаточно {0}",
+      "ROGUELIKE_TOPIC_OUTER_BUFF_UPGRADE_FORBIDDEN_TOKEN_LACK": "Недостаточно {0}",
+      "ACT1VHALFIDLE_CHAR_UPGRADE_ITEM_NOT_ENOUGH": "Недостаточно {0}"
+    }
+  },
+  {
+    "english": "Level Limit",
+    "keys": [
+      "BUILDING_LEVEL_INFO_ROOM_MAX_LVL",
+      "BUILDING_LEVEL_INFO_SPEC_LVL"
+    ],
+    "russian_by_key": {
+      "BUILDING_LEVEL_INFO_ROOM_MAX_LVL": "Макс. уровень",
+      "BUILDING_LEVEL_INFO_SPEC_LVL": "Максимальный уровень"
+    }
+  },
+  {
+    "english": "Limit reached",
+    "keys": [
+      "BUILDING_HIRE_WORK_LIMIT",
+      "ROGUELIKE_SHOP_CONFIRM_RECYCLE_INVALID",
+      "ITEM_REPO_ISSUE_VOUCHER_MAX_PICK_TIPS"
+    ],
+    "russian_by_key": {
+      "BUILDING_HIRE_WORK_LIMIT": "Достигнут лимит.",
+      "ROGUELIKE_SHOP_CONFIRM_RECYCLE_INVALID": "Достигнут лимит",
+      "ITEM_REPO_ISSUE_VOUCHER_MAX_PICK_TIPS": "Достигнут предел"
+    }
+  },
+  {
+    "english": "Node Refreshed",
+    "keys": [
+      "ROGUE_4_ROLL_NODE_SUCC_TOAST",
+      "ROGUE_5_ROLL_NODE_SUCC_TOAST"
+    ],
+    "russian_by_key": {
+      "ROGUE_4_ROLL_NODE_SUCC_TOAST": "Узел обновлён",
+      "ROGUE_5_ROLL_NODE_SUCC_TOAST": "Узел обновлён."
+    }
+  },
+  {
+    "english": "Pinboard",
+    "keys": [
+      "BUILDING_TODO_MESSAGE_BOARD",
+      "TEXT_TITLE_STARTMISSION"
+    ],
+    "russian_by_key": {
+      "BUILDING_TODO_MESSAGE_BOARD": "Доска объявлений",
+      "TEXT_TITLE_STARTMISSION": "Доска заданий"
+    }
+  },
+  {
+    "english": "Reach Elite {0} Level {1}.",
+    "keys": [
+      "HANDBOOK_UNLOCK_EVOLVE",
+      "SP_CHAR_MISSION_COND_EVOLVE_PHASE"
+    ],
+    "russian_by_key": {
+      "HANDBOOK_UNLOCK_EVOLVE": "Достигните уровня {1} при повышении до Элиты {0}.",
+      "SP_CHAR_MISSION_COND_EVOLVE_PHASE": "Достигните Элиты {0}, ур. {1}."
+    }
+  },
+  {
+    "english": "Redeploy",
+    "keys": [
+      "ATTR_REVIVE_UP",
+      "CHARACTER_SORT_TYPE_RESPAWN",
+      "CLIMB_TOWER_LAYER_CHALLENGE_AGAIN"
+    ],
+    "russian_by_key": {
+      "ATTR_REVIVE_UP": "Повторное развёртывание",
+      "CHARACTER_SORT_TYPE_RESPAWN": "Повторное развёртывание",
+      "CLIMB_TOWER_LAYER_CHALLENGE_AGAIN": "Повторить операцию"
+    }
+  },
+  {
+    "english": "Refreshes in {0}",
+    "keys": [
+      "ACT5D1_REFRESH_INFO",
+      "CRISIS_REFRESH_INFO",
+      "RETURN_DAILY_MISSION_REFRESH_REMAIN_TIME_DESC"
+    ],
+    "russian_by_key": {
+      "ACT5D1_REFRESH_INFO": "Обновится через {0}",
+      "CRISIS_REFRESH_INFO": "Обновится через {0}",
+      "RETURN_DAILY_MISSION_REFRESH_REMAIN_TIME_DESC": "Обновление через {0}"
+    }
+  },
+  {
+    "english": "Request sent",
+    "keys": [
+      "FRIEND_SEND",
+      "FRIEND_ALREADY_SEND",
+      "ENEMY_DUEL_ROOM_OPTION_SENT_REQUEST"
+    ],
+    "russian_by_key": {
+      "FRIEND_SEND": "Запрос отправлен.",
+      "FRIEND_ALREADY_SEND": "Запрос уже отправлен."
+    }
+  },
+  {
+    "english": "Resets after {0}",
+    "keys": [
+      "ACTIVITY_FLIPONLY_REFRESH_TIP",
+      "ROGUELIKE_TOPIC_MONTH_SQUAD_REFRESH_TIME",
+      "TUNING_HOME_REMAIN_TIME_DESC"
+    ],
+    "russian_by_key": {
+      "ACTIVITY_FLIPONLY_REFRESH_TIP": "Обновление через {0}",
+      "ROGUELIKE_TOPIC_MONTH_SQUAD_REFRESH_TIME": "Сброс через {0}"
+    }
+  },
+  {
+    "english": "Saved",
+    "keys": [
+      "BUILDING_BROOM_DIY_SAVED",
+      "TOAST_MEDAL_DIY_SAVE_SUC",
+      "CHARM_EDITOR_SAVE_SUC",
+      "TOAST_VOICE_LANG_SET_CHAR_LANG_SUC",
+      "SANDBOX_V2_CONSTRUCT_NO_NEED_TO_SAVE"
+    ],
+    "russian_by_key": {
+      "BUILDING_BROOM_DIY_SAVED": "Сохранено.",
+      "TOAST_MEDAL_DIY_SAVE_SUC": "Сохранено.",
+      "CHARM_EDITOR_SAVE_SUC": "Сохранено",
+      "TOAST_VOICE_LANG_SET_CHAR_LANG_SUC": "Сохранено"
+    }
+  },
+  {
+    "english": "Set",
+    "keys": [
+      "BUILDING_DIY_DEFAULT_PRESET_NAME_PREFIX",
+      "TOAST_COMMON_SET_SUC"
+    ],
+    "russian_by_key": {
+      "BUILDING_DIY_DEFAULT_PRESET_NAME_PREFIX": "Комплект",
+      "TOAST_COMMON_SET_SUC": "Установлено"
+    }
+  },
+  {
+    "english": "Shop items can be refreshed <color=#1eb090>{0}</color> more time(s)",
+    "keys": [
+      "ROGUELIKE_SHOP_REFRESH_REMAIN_COUNT_FORMAT",
+      "ROGUE_5_SKY_NODE_SHOP_EMPTY_CNT"
+    ],
+    "russian_by_key": {
+      "ROGUELIKE_SHOP_REFRESH_REMAIN_COUNT_FORMAT": "Магазин можно обновить ещё <color=#1eb090>{0}</color> раз.",
+      "ROGUE_5_SKY_NODE_SHOP_EMPTY_CNT": "Осталось обновлений: <color=#1eb090>{0}</color>"
+    }
+  },
+  {
+    "english": "Stage Locked",
+    "keys": [
+      "MAINLINE_STAGE_LOCK",
+      "ACT12SIDE_STAGE_LOCKED"
+    ],
+    "russian_by_key": {
+      "MAINLINE_STAGE_LOCK": "Этап закрыт",
+      "ACT12SIDE_STAGE_LOCKED": "Этап заблокирован"
+    }
+  },
+  {
+    "english": "Stage currently unavailable",
+    "keys": [
+      "ALERT_WEEKLY_ZONE_NOT_OPEN",
+      "TOAST_ZONE_RECORD_STAGE_NOT_TIME"
+    ],
+    "russian_by_key": {
+      "ALERT_WEEKLY_ZONE_NOT_OPEN": "Этап временно недоступен.",
+      "TOAST_ZONE_RECORD_STAGE_NOT_TIME": "Этап сейчас недоступен."
+    }
+  },
+  {
+    "english": "Unlocked",
+    "keys": [
+      "STAGE_RETRO_UNLOCK_SUCCESS",
+      "STORY_REVIEW_UNLOCK_STAGE_CONDITION_UNLOCKED"
+    ],
+    "russian_by_key": {
+      "STAGE_RETRO_UNLOCK_SUCCESS": "Открыто",
+      "STORY_REVIEW_UNLOCK_STAGE_CONDITION_UNLOCKED": "Разблокировано"
+    }
+  },
+  {
+    "english": "Unlocked on {0}/{1}",
+    "keys": [
+      "ACTIVITY_3D0_ZONE_TIME_LOCK_TEXT",
+      "ACT5D0_ZONE_TIME_LOCK_TEXT"
+    ],
+    "russian_by_key": {
+      "ACTIVITY_3D0_ZONE_TIME_LOCK_TEXT": "Открыто {0}/{1}",
+      "ACT5D0_ZONE_TIME_LOCK_TEXT": "Откроется {0}/{1}"
+    }
+  },
+  {
+    "english": "Unlocks after completing <color=#0098DC>{0}</color>",
+    "keys": [
+      "ALERT_MAINLINE_ZONE_LOCKED",
+      "STAGE_MIX_STORY_LOCATION_LOCKED_MSG_FORMAT"
+    ],
+    "russian_by_key": {
+      "ALERT_MAINLINE_ZONE_LOCKED": "Откроется после прохождения <color=#0098DC>{0}</color>.",
+      "STAGE_MIX_STORY_LOCATION_LOCKED_MSG_FORMAT": "Откроется после прохождения <color=#0098DC>{0}</color>"
+    }
+  },
+  {
+    "english": "{0} days",
+    "keys": [
+      "BUILDING_REST_TIME_FORMAT_WITH_DAY",
+      "DAY_TEXT",
+      "RES_FULL_OPEN_REAMIN_DAY_STR",
+      "SANDBOX_V2_FOOD_DURATION_FORMAT",
+      "SANDBOX_V2_MONTH_COIN_TIME",
+      "SANDBOX_V2_RIFT_DAY_TEXT"
+    ],
+    "russian_by_key": {
+      "BUILDING_REST_TIME_FORMAT_WITH_DAY": "{0} дн.",
+      "DAY_TEXT": "{0} д.",
+      "RES_FULL_OPEN_REAMIN_DAY_STR": "{0} д."
+    }
+  }
+]

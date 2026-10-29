@@ -1,0 +1,9 @@
+v0.24
+02-04_beg: 62 dialogue lines, Exusiai, extraction route out of the slums.
+02-04_end: 43 dialogue lines, Misha distrusts L.G.D. escort.
+02-05_beg: 51 dialogue lines, Texas returns, Skullshatterer encounters Misha.
+02-05_end: 54 dialogue lines, Penguin Logistics directs group to building route.
+CN originals used as main reference, EN as alignment and proper-name cross-check.
+210 new Russian first drafts; chapter 2: 596 lines across 10 scripts / 20 present in both repositories.
+All previous 1741 story lines and 2544 keyed UI translations preserved.
+Known: no game runtime test, no editorial QA pass, not an installable patch.

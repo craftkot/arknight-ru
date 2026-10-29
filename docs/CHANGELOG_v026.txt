@@ -1,0 +1,8 @@
+v0.26: Event localization begins.
+Darknights Memoir (act9d0), DM-1 pre-battle: 94 named dialogue lines + 16 unnamed narrative/dialogue lines.
+Added new script apply_ru_event.py: exact source Git blob checks, complete named+unnamed translation,
+no changes to commands/animation/background/music, preview only.
+Previous 44 main-story files, 2377 named translations and 2544 UI translations unchanged.
+Event 13 main story files inventoried; other 12 NOT translated. Source scripts not republished.
+New place for future localized event dictionaries: events/.
+Tests check markup safety, nonlocal commands, falsified source revisions, duplicate/non-complete data.

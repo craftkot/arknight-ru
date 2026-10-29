@@ -1,0 +1,83 @@
+{
+  "version": "v0.21",
+  "scope": "Chapter 1, 12 paired public Chinese and English main story files",
+  "chapter_1_scenes": 12,
+  "chapter_1_dialogues_first_draft": 701,
+  "chapter_0_previous_dialogues_retained": 654,
+  "story_dialogues_total": 1355,
+  "ui_keyed_previous_retained": 2544,
+  "automated_unittests_passed": 74,
+  "automated_unittests_failed": 0,
+  "qa_coverage": "structural: indexed ordinals, revision SHA pins, tag matching, synthetic all-scenes preview, preservation of commands and old chapter; not game-tested",
+  "source_cn": "https://github.com/Kengxxiao/ArknightsGameData",
+  "source_en": "https://github.com/Kengxxiao/ArknightsGameData_YoStar",
+  "source_capture": "GitHub repository file readings and verified English markup positions; external sources are not bundled",
+  "files": {
+    "obt/main/level_main_01-01_beg.txt": {
+      "cn_git_blob_sha1": "02c0dd9ee8e4f24f0cb16281270f66e2c544a07c",
+      "en_git_blob_sha1": "ad2fe10a03fe31991211127ff45c3035ff66a8d1",
+      "dialogue_count": 34
+    },
+    "obt/main/level_main_01-01_end.txt": {
+      "cn_git_blob_sha1": "d65583d6740f9fa1a86d218b158c5a777484ea80",
+      "en_git_blob_sha1": "9567fdd4cfaea32eea849cd4d347eef25e145389",
+      "dialogue_count": 61
+    },
+    "obt/main/level_main_01-03_beg.txt": {
+      "cn_git_blob_sha1": "349b8c5d9be141be87fa974534ff1e7c7b854b81",
+      "en_git_blob_sha1": "a6da26a26af12b91470bd0dd8479a21159735572",
+      "dialogue_count": 39
+    },
+    "obt/main/level_main_01-03_end.txt": {
+      "cn_git_blob_sha1": "a0f5fc0b95236f874a6b84d204b3bc7ba21d9113",
+      "en_git_blob_sha1": "507e6193fe5a8744a56d4a832c54bd4386cc97fe",
+      "dialogue_count": 11
+    },
+    "obt/main/level_main_01-04_beg.txt": {
+      "cn_git_blob_sha1": "f6bce468b998df0af1c757b90bef32cc537d557d",
+      "en_git_blob_sha1": "52e316e9b0dd854df21a275fba80c87370baf439",
+      "dialogue_count": 37
+    },
+    "obt/main/level_main_01-06_beg.txt": {
+      "cn_git_blob_sha1": "d6e1297dc6f1dbb2ee09894b47b042f2ac3835b0",
+      "en_git_blob_sha1": "22643343e8eecfa7b64cc05270a218a2a159d495",
+      "dialogue_count": 60
+    },
+    "obt/main/level_main_01-07_beg.txt": {
+      "cn_git_blob_sha1": "0c4450562146cd39d153cda1471905a4cc8485d9",
+      "en_git_blob_sha1": "4b3f2764d85cce7cd39072f275221864622df6a9",
+      "dialogue_count": 76
+    },
+    "obt/main/level_main_01-07_end.txt": {
+      "cn_git_blob_sha1": "5c586aa5a87e2393f7f2910c68101eaed304105d",
+      "en_git_blob_sha1": "f331184fb23bd9e7264dfc57a374d3e90593ce83",
+      "dialogue_count": 65
+    },
+    "obt/main/level_main_01-08_beg.txt": {
+      "cn_git_blob_sha1": "1e4356c619246d456934ca3893e249753e9ce20a",
+      "en_git_blob_sha1": "7a91304a833ff843e6c2c529729d7e66ad54c8bc",
+      "dialogue_count": 140
+    },
+    "obt/main/level_main_01-10_end.txt": {
+      "cn_git_blob_sha1": "142c07e48b6042e94905e817aac01fe55312f004",
+      "en_git_blob_sha1": "5c9f05850fef2fbafa33e9f88478e9bf4e1a1552",
+      "dialogue_count": 47
+    },
+    "obt/main/level_main_01-12_beg.txt": {
+      "cn_git_blob_sha1": "d9946bd7362401892af2ceaabcbdae3a84ba2d40",
+      "en_git_blob_sha1": "235f2ae9f82b059d6deb097ee1ce850e48758b07",
+      "dialogue_count": 48
+    },
+    "obt/main/level_main_01-12_end.txt": {
+      "cn_git_blob_sha1": "cedff98ff352df2db83fa9e871df94f1a46109ba",
+      "en_git_blob_sha1": "8617e11c7eab6ea04367efb7931a0a89246a878c",
+      "dialogue_count": 83
+    }
+  },
+  "review_required": [
+    "literary editing all new dialogues",
+    "compare terms to Chinese context and prior canon",
+    "manual actual chapter source preview on Windows",
+    "real-game text injection + sprites"
+  ]
+}

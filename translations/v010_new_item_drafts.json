@@ -1,0 +1,614 @@
+[
+  {
+    "role": "items",
+    "offset": 149740,
+    "id": "items:149740:8b0f16fcb34b",
+    "en": "From events",
+    "ru": "Из событий",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 154492,
+    "id": "items:154492:e65705b5e103",
+    "en": "Event Stage drop, Event mission reward",
+    "ru": "Награды за этапы и задания события",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 154624,
+    "id": "items:154624:1baae005b0dd",
+    "en": "Medals prepared by Rhodes Island's workshop for operators participating in Stronghold Protocol. Magnetic. Apparently, if you gather enough of them, you can make a fortress out of chess pieces.",
+    "ru": "Медали мастерской Родос Айленда для операторов, участвовавших в «Протоколе крепости». Магнитные. Говорят, если собрать достаточно, из шахматных фигур можно сложить целую крепость.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 155964,
+    "id": "items:155964:779e8718f159",
+    "en": "Complete Tales Within the Sand Themed Set to obtain",
+    "ru": "Для получения соберите тематический набор «Сказания песков»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 156020,
+    "id": "items:156020:c3fb7df6aad9",
+    "en": "Sticker Pack/Tales Within the Sand",
+    "ru": "Набор наклеек / «Сказания песков»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 156344,
+    "id": "items:156344:1732dda1ab0d",
+    "en": "Complete Garden of Grotesqueries Themed Set to obtain",
+    "ru": "Для получения соберите тематический набор «Сад гротесков»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 156404,
+    "id": "items:156404:24943d90365b",
+    "en": "Sticker Pack/Garden of Grotesqueries",
+    "ru": "Набор наклеек / «Сад гротесков»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 156732,
+    "id": "items:156732:341aff64193a",
+    "en": "Complete Furnaceside Fables Themed Set to obtain",
+    "ru": "Для получения соберите тематический набор «Сказания у печи»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 156788,
+    "id": "items:156788:32ae26df1197",
+    "en": "Sticker Pack/Furnaceside Fables",
+    "ru": "Набор наклеек / «Сказания у печи»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 157108,
+    "id": "items:157108:c06a3a66f413",
+    "en": "Complete Silverfrost Frontier Themed Set to obtain",
+    "ru": "Для получения соберите тематический набор «Серебряные морозы»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 157164,
+    "id": "items:157164:b803bd1f4466",
+    "en": "Sticker Pack/Silverfrost Frontier",
+    "ru": "Набор наклеек / «Серебряные морозы»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 157488,
+    "id": "items:157488:c03046885989",
+    "en": "Complete Caerula Arbor Themed Set to obtain",
+    "ru": "Для получения соберите тематический набор «Церулеанское древо»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 157536,
+    "id": "items:157536:a198d705f9a9",
+    "en": "Sticker Pack/Caerula Arbor",
+    "ru": "Набор наклеек / «Церулеанское древо»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 157844,
+    "id": "items:157844:dc05093e26c2",
+    "en": "Complete Crimson Solitaire Themed Set to obtain",
+    "ru": "Для получения соберите тематический набор «Багровый пасьянс»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 157896,
+    "id": "items:157896:d74fcd94f84d",
+    "en": "Sticker Pack/Crimson Solitaire",
+    "ru": "Набор наклеек / «Багровый пасьянс»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 171104,
+    "id": "items:171104:0ec372fb33ba",
+    "en": "An unexploded dud. It must be handed over to relevant authorities once disarmed and disassembled.",
+    "ru": "Неразорвавшийся снаряд. После обезвреживания и разборки его необходимо передать компетентным органам.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 171296,
+    "id": "items:171296:17afba70d62e",
+    "en": "The corruption of the empire may not have begun with Grypherburg, but its decline surely started with a dud from Tulskaya.",
+    "ru": "Гниение империи могло начаться и не с Грифербурга, но её упадок наверняка начался с неразорвавшегося снаряда из Тульской.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 171512,
+    "id": "items:171512:bb1a90cc602d",
+    "en": "The flag of Ursus with the mark of Reunion painted over it. Defacing the national flag is punishable by death according to the Flag Law of Ursus.",
+    "ru": "Флаг Урсуса, поверх которого нанесён символ Воссоединения. По закону Урсуса о государственном флаге его осквернение карается смертью.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 171760,
+    "id": "items:171760:c40af9e9d1f3",
+    "en": "The nobles of Grypherburg see this symbol as a grave threat, but it was from their hubris that it came about in the first place.",
+    "ru": "Для знати Грифербурга этот знак — страшная угроза. Однако породила его собственная заносчивость дворян.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 172432,
+    "id": "items:172432:b4f8aea83a11",
+    "en": "A piece of deactivated Originium that no longer has any practical value, even if it is polished into the shape of an Originite Prime.",
+    "ru": "Кусочек деактивированного ориджиниума, утративший всякую практическую ценность, даже если отполировать его под Originite Prime.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 173820,
+    "id": "items:173820:cdb8932c46d2",
+    "en": "As you collect Participation Certificates, so does Hype. Reach certain Hype levels to receive rewards.",
+    "ru": "Вместе с сертификатами участия растёт и ажиотаж. Достигайте новых уровней ажиотажа, чтобы получать награды.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 174284,
+    "id": "items:174284:f7f6c7addfeb",
+    "en": "HR resource pack for recruitment, allowing a large number of Operators to be recruited via public channels.",
+    "ru": "Набор кадровых ресурсов для массового найма операторов через открытые каналы.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 176216,
+    "id": "items:176216:b49d6eb7215e",
+    "en": "Can be used to promote Operators in Rebuilding Mandate.",
+    "ru": "Используется для повышения операторов в режиме «Мандат на восстановление».",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 176280,
+    "id": "items:176280:947fbc2f2341",
+    "en": "Urgent Targets; Production Modules",
+    "ru": "Срочные цели; Производственные модули",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 176656,
+    "id": "items:176656:5b29c7d87f89",
+    "en": "Can be used to appoint Operators in Specialized Appointment.",
+    "ru": "Жетон элитного оператора — знак признания его вклада в производство на пограничных аванпостах.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 176728,
+    "id": "items:176728:dbcdfa417482",
+    "en": "Construction Strategies; Urgent Targets",
+    "ru": "Применяется для назначения операторов в специализированном наборе.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 177080,
+    "id": "items:177080:5d436cdfaa7f",
+    "en": "Can be used to appoint Operators in Random Appointment.",
+    "ru": "Применяется для назначения операторов в случайном наборе.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 178776,
+    "id": "items:178776:5aacfea1d897",
+    "en": "Token that represents Elite Medic Operators, signifying that the holder has earned recognition for their production work at the Frontier Outposts.",
+    "ru": "Жетон элитного медика — подтверждение заслуг в производственной работе на пограничных аванпостах.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 179244,
+    "id": "items:179244:6d63784184ae",
+    "en": "Token that represents Elite Caster Operators, signifying that the holder has earned recognition for their production work at the Frontier Outposts.",
+    "ru": "Жетон элитного кастера — подтверждение заслуг в производственной работе на пограничных аванпостах.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 180204,
+    "id": "items:180204:c94147f8fdd5",
+    "en": "Token that represents Elite Defender Operators, signifying that the holder has earned recognition for their production work at the Frontier Outposts.",
+    "ru": "Жетон элитного защитника — подтверждение заслуг в производственной работе на пограничных аванпостах.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 180684,
+    "id": "items:180684:20d4120a26f5",
+    "en": "Token that represents Elite Guard Operators, signifying that the holder has earned recognition for their production work at the Frontier Outposts.",
+    "ru": "Жетон элитного гвардейца — подтверждение заслуг в производственной работе на пограничных аванпостах.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 181152,
+    "id": "items:181152:d4c500b724a3",
+    "en": "Token that represents Elite Vanguard Operators, signifying that the holder has earned recognition for their production work at the Frontier Outposts.",
+    "ru": "Жетон элитного авангарда — подтверждение заслуг в производственной работе на пограничных аванпостах.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 181400,
+    "id": "items:181400:e67900f7931a",
+    "en": "Can be used to apply Construction Strategies in Rebuilding Mandate.",
+    "ru": "Применяется для реализации строительных стратегий в режиме «Мандат на восстановление».",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 181960,
+    "id": "items:181960:151a9171fc89",
+    "en": "Can be used to increase Operator skill level in Rebuilding Mandate.",
+    "ru": "Применяется для повышения уровня навыков операторов в режиме «Мандат на восстановление».",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 182156,
+    "id": "items:182156:7f1a69246b4b",
+    "en": "Building and producing is no less a chore than fighting and killing. Remain vigilant and work together.",
+    "ru": "Строить и производить ничуть не легче, чем сражаться. Будьте бдительны и действуйте сообща.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 182356,
+    "id": "items:182356:7923fdb38471",
+    "en": "Can be used to increase Operator training level in Rebuilding Mandate.",
+    "ru": "Применяется для повышения уровня подготовки операторов в режиме «Мандат на восстановление».",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 182560,
+    "id": "items:182560:a0327f4f1288",
+    "en": "The most important things in the Frontier Outposts are courage, perseverance, and humility. Live, learn, produce.",
+    "ru": "Главное на пограничных аванпостах — смелость, упорство и скромность. Живите, учитесь, созидайте.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 182772,
+    "id": "items:182772:bbe671b5ef15",
+    "en": "Credits derived from total resources, which can be used to obtain rewards from Closure.",
+    "ru": "Очки, начисляемые за собранные ресурсы. Их можно обменять у Клозур на награды.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 182968,
+    "id": "items:182968:c00d2cd40904",
+    "en": "Rhodes Island was not built in a day, but we build it up day by day.\n'For Rhodes Island.'",
+    "ru": "Родос Айленд построили не за один день, но каждый день мы делаем его лучше.\n«За Родос Айленд».",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 183324,
+    "id": "items:183324:a33246bab81a",
+    "en": "Obtained from Integrated Strategies",
+    "ru": "Получается в «Интегрированных стратегиях»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 185692,
+    "id": "items:185692:75f8d1c60e50",
+    "en": "A carefully-prepared tasting set. Can be exchanged for LMD.",
+    "ru": "Дегустационный набор, подготовленный с особой тщательностью. Можно обменять на LMD.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 188352,
+    "id": "items:188352:c20279535e86",
+    "en": "Lost Knowledge",
+    "ru": "Утраченные знания",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 188544,
+    "id": "items:188544:06dbaa7272de",
+    "en": "Stray Geistlings",
+    "ru": "Заблудшие гейстлинги",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 188704,
+    "id": "items:188704:85cdab6f869d",
+    "en": "A device that stores battle videos of Special Operators. Gives Special Operators a certain amount of EXP.",
+    "ru": "Устройство для хранения видеозаписей боёв особых операторов. Даёт им определённое количество опыта.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 188820,
+    "id": "items:188820:1b708c44b653",
+    "en": "From events and Special Missions",
+    "ru": "Из событий и особых заданий",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 188860,
+    "id": "items:188860:9d66f4ea80ab",
+    "en": "Special Operator Battle Record",
+    "ru": "Боевые записи особого оператора",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 190284,
+    "id": "items:190284:a9bb6e02affe",
+    "en": "Limited-time Event Missions, Daily Event Missions",
+    "ru": "Задания ограниченного события; Ежедневные задания события",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 191096,
+    "id": "items:191096:e05d81e3e8eb",
+    "en": "Chain Activation",
+    "ru": "Избыточный массив",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 191296,
+    "id": "items:191296:7415f32d6d8e",
+    "en": "Unlimited Pressure",
+    "ru": "Безграничное давление",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 192504,
+    "id": "items:192504:9397787232bd",
+    "en": "Strategy Point",
+    "ru": "Очко стратегии",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 193608,
+    "id": "items:193608:0147bfdde5e9",
+    "en": "What is it, really? A ghost? A prop? A hallucination? Somebody's Friedkin pet? Nobody knows. Miss.Christine simply waves her twin tails as she languidly basks in the sunlight.",
+    "ru": "Что это такое на самом деле? Призрак, реквизит, галлюцинация, чей-то питомец Фридкин? Никто не знает. Мисс Кристин лишь лениво машет двумя хвостами, греясь на солнце.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 193880,
+    "id": "items:193880:f3549bf520fc",
+    "en": "Can be exchanged at Breakthrough Milestones for rewards.",
+    "ru": "Обменивается на награды в разделе «Рубежи прорыва».",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 193964,
+    "id": "items:193964:d1292bb13e25",
+    "en": "'Caution! Wet Floor!'",
+    "ru": "«Осторожно! Мокрый пол!»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 195304,
+    "id": "items:195304:d1164c36cfc2",
+    "en": "Enlightened Pacifier",
+    "ru": "Просветлённая пустышка",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 195692,
+    "id": "items:195692:ef128f436304",
+    "en": "One of the more expensive Duel Channel gifts, and can be exchanged on the website for material rewards, with free shipping and home delivery.",
+    "ru": "Один из самых дорогих подарков канала дуэлей. Можно обменять на сайте на материальные награды с бесплатной доставкой на дом.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 195844,
+    "id": "items:195844:6a460106bea3",
+    "en": "Obtained from Duel Channel",
+    "ru": "Получено на канале дуэлей",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 195876,
+    "id": "items:195876:4045632eed33",
+    "en": "Grand Duel Fireworks",
+    "ru": "Фейерверк великой дуэли",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 197860,
+    "id": "items:197860:f8032446baf9",
+    "en": "Command: Reconstruction Ten-roll Headhunting Permit",
+    "ru": "Разрешение на десять попыток поиска операторов «Команда: Восстановление»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 198456,
+    "id": "items:198456:c226d6e0bfa4",
+    "en": "Command: Reconstruction Headhunting Permit",
+    "ru": "Разрешение на поиск операторов «Команда: Восстановление»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 198900,
+    "id": "items:198900:e5697478b8f3",
+    "en": "Emote Set",
+    "ru": "Набор эмодзи",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 199644,
+    "id": "items:199644:7becff54baaf",
+    "en": "'Courage' Badge",
+    "ru": "Значок «Отвага»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 200252,
+    "id": "items:200252:82d16f7ff937",
+    "en": "Super! Best! Boss Medal",
+    "ru": "Судя по виду, изготовлена из дорогих металлов. Можно обменять на LMD.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 200320,
+    "id": "items:200320:9828a5d457b1",
+    "en": "Exusiai suddenly remembered her promise to exchange those medals today. After checking the number of 'Best Boss' medals you have, she skirted around the old rules and gave you this one.",
+    "ru": "Супер! Лучший! Медаль босса",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 201400,
+    "id": "items:201400:18b50c77edc1",
+    "en": "Obtained from Icebreaker Games #1",
+    "ru": "Получено в «Ледокольных играх № 1»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 201440,
+    "id": "items:201440:3623e5950b8f",
+    "en": "Participation Certificate - S1",
+    "ru": "Сертификат участия — S1",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 201748,
+    "id": "items:201748:49ea091caa61",
+    "en": "An emote set based on Originium slugs, used to communicate between partners.",
+    "ru": "Набор эмодзи с ориджиниумовыми слизнями для общения между напарниками.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 201876,
+    "id": "items:201876:aec83f2c5071",
+    "en": "Emote Set: Slug Style",
+    "ru": "Набор эмодзи: стиль слизней",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 203528,
+    "id": "items:203528:0e4c3d0307f5",
+    "en": "Broken Petals",
+    "ru": "Опавшие лепестки",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  }
+]

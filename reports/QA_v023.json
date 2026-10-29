@@ -1,0 +1,32 @@
+{
+  "version": "v0.23",
+  "scope": "Chapter 2 additional 2 scenes",
+  "new_scripts": [
+    "02-02_end",
+    "02-03_beg",
+    "02-03_end"
+  ],
+  "new_dialogues": 233,
+  "ch2_files_translated": 6,
+  "ch2_files_total": 20,
+  "ch2_dialogues_translated": 386,
+  "main_story_files_translated": 30,
+  "main_story_dialogues_translated": 1741,
+  "ui_translations_unchanged": 2544,
+  "new_source_git_blob_sha1": {
+    "02-02_end": {
+      "CN": "a3520e5f6d29d94abe1645ac3910ad0cea47e722",
+      "EN": "0b589f3a6a29ca42f587cdffc263e92eaaf53042"
+    },
+    "02-03_beg": {
+      "CN": "538fe5267c8dd5aa00a79070f8fd0bb42f8eb3f2",
+      "EN": "d7267abc4f3f89235899ebb275869eab0017b308"
+    },
+    "02-03_end": {
+      "CN": "cab3215e8ace37642245398c1fc937627a55183c",
+      "EN": "25fe28c3d087a2acf2d410f567552f4f71726fed"
+    }
+  },
+  "quality": "first literary drafts, require line-by-line editorial check; game runtime NOT tested",
+  "automated_tests_passed": 89
+}

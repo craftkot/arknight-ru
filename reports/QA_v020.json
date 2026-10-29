@@ -1,0 +1,29 @@
+{
+  "release": "v0.20",
+  "chapter": "episode 0",
+  "new_scene": "obt/main/level_main_00-11_end.txt",
+  "new_dialogues": 60,
+  "previous_dialogues": 594,
+  "total_dialogues": 654,
+  "scene_files": 12,
+  "indexed_00_story_scenes": 12,
+  "ui_keyed_carryover": 2544,
+  "original_language": "zh_CN",
+  "comparison_language": "en_US",
+  "source_check": "CN 60 dialogue lines, EN 60 dialogue lines, Git blob SHA1 observed from GitHub connector",
+  "quality": "first literary draft, not a reviewed or in-game tested release",
+  "integration": "Offline preview only; no AssetBundle writer, game injection or game installation",
+  "chapter_scope": "Only 12 files in obt/main/level_main_00-*.txt from sampled GitHub directory. Excludes other story folders/branches.",
+  "notes": [
+    "The existing v0.19 translations are preserved unchanged",
+    "Chapter batch fetch checks all 24 source revisions before writing local cache",
+    "The user need not test or interact with game yet."
+  ],
+  "tests": "65 Python unittest tests passed (includes all 12 scenes via synthetic source files; no real downloaded scene E2E yet)",
+  "previous_translation_files_sha256_preserved": {
+    "translations/ui_keyed_all_ru.json": "66860274cec299afd293f9895476b5b4567e71f5e4af873eec481d6d3462a426",
+    "translations/v010_new_item_drafts.json": "ca1e74e73b5fd5903fe4aca9320995f79855794b5cec9890a78fa498ccfd6706",
+    "translations/v09_new_item_drafts.json": "67f9eadf6d62a944ef8a1e8a7c3d6181a1360e509d8e2e9f968ad5b6b43eae3f",
+    "translations/v04_item_operator_enemy_drafts.json": "e3e640c505dd2d147e9ea009237dfa673c1cc843889c3035d5ac554630123935"
+  }
+}

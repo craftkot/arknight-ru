@@ -1,0 +1,440 @@
+game_key	english	russian	editorial_status
+ACT11D0_ZONE_FOG_UNLOCK_TIP	Collect {0} {1}, {2}	Собрать {0} {1}: {2}	initial_editorial_draft
+ACT17D1_CREATE_ROOM_TIPS	You have selected <color=#FFC600>{0}</color>as <color=#FFC600>{1}</color>responsible for creating <color=#FFC600>{2}</color> project.	Вы назначили <color=#FFC600>{0}</color> ответственным (<color=#FFC600>{1}</color>) за проект <color=#FFC600>{2}</color>.	needs_game_and_cn_context
+ACT1LOCK_BATTLE_FINISH_INTERLOCK_STAGE_DEFEND	After Rhodes Island Operators are Garrisoned, a new OpFor <color=#FF7800>{0}</color> will appear at {1}. Defeat it to obtain even more \n Competition Points! At the same time, the current Auto Deploy for {1} <color=#FF3434>will no longer be available</color>.	После размещения операторов Родос Айленда появится противник <color=#FF7800>{0}</color> на {1}. Победите его ради дополнительных \n очков соревнования! При этом автопрохождение для {1} <color=#FF3434>станет недоступно</color>.	needs_game_and_cn_context
+ACT1LOCK_BATTLE_FINISH_INTERLOCK_STAGE_DEFEND_REPLACE	After changing the Garrison, the Post will still be Garrisoned, but the members will be changed. At the same time, the current Auto Deploy for {0} \n<color=#FF3434>will no longer be available</color>.	При смене гарнизона пост останется занятым, но его состав изменится. Текущее автопрохождение для {0} \n<color=#FF3434>станет недоступно</color>.	needs_game_and_cn_context
+ACT1LOCK_CANCEL_LOCK_HINT	After Rhodes Island Operators withdraw from the Post, the OpFor {0} will leave {1}. \nAt the same time, the current Auto Deploy for {1} <color=#FF3434>will no longer be available</color>.\nConfirm withdrawal?	После вывода операторов Родос Айленда с поста противник {0} покинет {1}. \nТекущее автопрохождение для {1} <color=#FF3434>станет недоступно</color>.\nПодтвердить вывод?	needs_game_and_cn_context
+ACT1LOCK_UNLOCK_CAPTION	No traces of <{0}> found yet	Следов <{0}> пока не найдено	needs_game_and_cn_context
+ACT1VAUTOCHESS_BATTLE_EQUIP_REPLACE_DESC_FORMAT	Please select an existing piece of equipment to replace with\n(selected equipment will be destroyed)	Выберите предмет снаряжения для замены\n(заменённый предмет будет уничтожен)	initial_editorial_draft
+ACT1VAUTOCHESS_CHAR_SELECT_DETAIL_CHESS_LEVEL	Tier {0}	Ранг {0}	needs_game_and_cn_context
+ACT1VAUTOCHESS_CHAR_SELECT_DETAIL_LEVEL	Lv. {0}	Ур. {0}	initial_editorial_draft
+ACT1VAUTOCHESS_CHAR_SELECT_DETAIL_SKILL_UNLOCK	Operators at this tier cannot	Операторы этого ранга не могут	needs_game_and_cn_context
+ACT1VAUTOCHESS_CHESS_BATTLE_GOLD_LEFT_CHECK_MSG	Do not show again this round	Больше не показывать в этом раунде	initial_editorial_draft
+ACT1VAUTOCHESS_CHESS_BATTLE_GOLD_LEFT_CONFIRM_DESC	Begin	Начать	initial_editorial_draft
+ACT1VAUTOCHESS_CHESS_BATTLE_GOLD_LEFT_DESC	You still have Gold Coins left. Do you want to start the next round of combat?\nYou'll <color=#FF6101>lose</color> all unspent Gold Coins from this round.	У вас остались золотые монеты. Начать следующий раунд боя?\nВсе неизрасходованные в этом раунде монеты будут <color=#FF6101>потеряны</color>.	initial_editorial_draft
+ACT1VAUTOCHESS_CHESS_POOL_CHANGED_CONFIRM	Adjust	Изменить	initial_editorial_draft
+ACT1VAUTOCHESS_CHESS_POOL_CHANGED_DESC	You obtained <color=#2DA186>{0}</color>, so the corresponding model or support Operator has been withdrawn\nGo to Stronghold Logistics to make adjustments	Вы получили <color=#2DA186>{0}</color>, поэтому соответствующий оператор-модель или оператор поддержки убран из состава\nПерейдите в снабжение крепости и измените состав	needs_game_and_cn_context
+ACT1VAUTOCHESS_CHESS_POOL_MENU_LEVEL_ITEM_NAME	Tier {0}	Ранг {0}	needs_game_and_cn_context
+ACT1VAUTOCHESS_CHESS_SHOP_CANT_ASSIST_MAX_TOAST	Supports at max	Достигнут предел поддержки	initial_editorial_draft
+ACT1VAUTOCHESS_CHESS_SHOP_CANT_ASSIST_TIPS	Lineup complete, no need to configure supports	Состав готов. Поддержку менять не требуется	needs_game_and_cn_context
+ACT1VAUTOCHESS_CHESS_SHOP_ENTRY_LOCK_HINT	Simulation in progress. Cannot allocate resources	Идёт симуляция. Нельзя распределять ресурсы	initial_editorial_draft
+ACT1VAUTOCHESS_CHESS_SHOP_QUICK_ASSIST_LIST_VIEW_TIPS	Unowned Operators will automatically switch to Model Operators\nYou can currently borrow the following Support Operators:	Неполученные операторы будут автоматически заменены операторами-моделями\nСейчас можно одолжить следующих операторов поддержки:	needs_game_and_cn_context
+ACT1VAUTOCHESS_DEPLOY_STATUS_EXCEED	 Your hand has exceeded the limit [{0}/{1}]. Adjust as soon as possible.	 На вашей руке превышен предел [{0}/{1}]. Скорее освободите место.	initial_editorial_draft
+ACT1VAUTOCHESS_DEPLOY_STATUS_FULL	 Your hand is full [{0}/{1}]. Unable to buy supplies from the Barge.	 Рука заполнена [{0}/{1}]. Покупка припасов с баржи недоступна.	initial_editorial_draft
+ACT1VAUTOCHESS_FRIEND_ASSIST_TIPS	Can only be borrowed from friends; Proficiency and Potential are at base values for the corresponding tier	Можно брать только у друзей; мастерство навыков и потенциал соответствуют базовым значениям ранга	needs_game_and_cn_context
+ACT1VAUTOCHESS_HUD_ENEMY_EFFECT_TOAST_FORMAT	Effect obtained: [{0}]	Получен эффект: [{0}]	initial_editorial_draft
+ACT1VAUTOCHESS_MAIN_QUIT_GAME_JUDGE_DESC	Give up on the current simulation?\n<color=#FF6101>(If you haven't selected a strategy, you will not enter the completion screen)</color>	Отказаться от текущей симуляции?\n<color=#FF6101>(Если стратегия не выбрана, экран итогов не появится)</color>	initial_editorial_draft
+ACT1VAUTOCHESS_MAIN_QUIT_GAME_JUDGE_POSITIVE	Discard	Отказаться	initial_editorial_draft
+ACT1VAUTOCHESS_MENU_BTN_BUY_COIN_NOT_ENOUGH	 Insufficient Gold Coins	 Недостаточно золотых монет	initial_editorial_draft
+ACT1VAUTOCHESS_MENU_BTN_BUY_HAND_FULL_OR_EXCEED	 Hand is full	 Рука заполнена	initial_editorial_draft
+ACT1VAUTOCHESS_MENU_BTN_BUY_NORMAL	 Purchase	 Купить	initial_editorial_draft
+ACT1VAUTOCHESS_MENU_BTN_DESTORY_NORMAL	 Destroy	 Уничтожить	initial_editorial_draft
+ACT1VAUTOCHESS_MENU_BTN_FREEZE	 Frozen	 Заморожено	initial_editorial_draft
+ACT1VAUTOCHESS_MENU_BTN_REFERESH	 Refresh	 Обновить	initial_editorial_draft
+ACT1VAUTOCHESS_MENU_BTN_REFERESH_COIN_NOT_ENOUGH	 Insufficient Gold Coins	 Недостаточно золотых монет	initial_editorial_draft
+ACT1VAUTOCHESS_MENU_BTN_SELL_NORMAL	 Sell	 Продать	initial_editorial_draft
+ACT1VAUTOCHESS_MENU_BTN_UNFREEZE	 Unfrozen	 Разморожено	initial_editorial_draft
+ACT1VAUTOCHESS_MENU_BTN_UPGRADE_COIN_NOT_ENOUGH	 Insufficient Gold Coins	 Недостаточно золотых монет	initial_editorial_draft
+ACT1VAUTOCHESS_MENU_BTN_UPGRADE_LEVEL_REACH_MAX	 Max level	 Максимальный уровень	initial_editorial_draft
+ACT1VAUTOCHESS_MENU_BTN_UPGRADE_NORMAL	 Upgrade	 Улучшить	initial_editorial_draft
+ACT1VAUTOCHESS_ON_SPELL_IN_FIELD_REACH_LIMIT	 Unable to deploy any more Arts.	 Больше нельзя размещать Искусства.	needs_game_and_cn_context
+ACT1VAUTOCHESS_SETTLE_GAME_ENGAGING_COUNT_FORMAT	Fight {0} time(s)	Боёв проведено: {0}	initial_editorial_draft
+ACT1VAUTOCHESS_SETTLE_GAME_REWARD_GAIN_FORMAT	Obtained {0}!	Получено: {0}!	needs_game_and_cn_context
+ACT1VAUTOCHESS_SPECIAL_ENEMY_NOTICE	A special enemy will appear on round {0}; Defeat them to obtain extra rewards	На {0}-м раунде появится особый враг. Победите его ради дополнительных наград	initial_editorial_draft
+ACT1VAUTOCHESS_START_GAME_BAND_EMPTY	Select a strategy from the list below	Выберите стратегию из списка ниже	initial_editorial_draft
+ACT1VAUTOCHESS_START_GAME_BAND_SELECTED	Strategy selected	Стратегия выбрана	initial_editorial_draft
+ACT1VAUTOCHESS_TOAST_CHESS_FULL	 Too many units. Unable to purchase now.	 Слишком много бойцов. Покупка недоступна.	initial_editorial_draft
+ACT1VAUTOCHESS_TOAST_HAND_EXCEED	 Your hand has exceeded the limit. Sort out your hand first.	 Превышен предел карт в руке. Сначала освободите место.	initial_editorial_draft
+ACT1VAUTOCHESS_TOAST_HAND_FULL	 Sort out your hand first.	 Сначала освободите место в руке.	initial_editorial_draft
+ACT1VAUTOCHESS_TOAST_IN_SELECTING	 Use after casting the special recruitment Arts.	 Используйте после применения особых Искусств найма.	needs_game_and_cn_context
+ACT1VAUTOCHESS_TOAST_IN_TUTORIAL	 Tutorial	 Обучение	initial_editorial_draft
+ACT1VAUTOCHESS_TOAST_IN_TUTORIAL_INFO_DEFAULT	 Use after completing the tutorial.	 Используйте после завершения обучения.	initial_editorial_draft
+ACT24SIDE_BATTLE_TRAP_ITEM_LOCK_TOAST	This item hasn't been unlocked	Предмет ещё не открыт	initial_editorial_draft
+ACT24SIDE_BATTLE_TRAP_ITEM_SQUAD_CAN_NOT_EDIT	Currently unable to change tools	Сейчас нельзя менять инструменты	initial_editorial_draft
+ACT24SIDE_BATTLE_TRAP_ITEM_TAKE_MAX_TOAST	Unable to bring any more tools	Нельзя взять больше инструментов	initial_editorial_draft
+ACT24SIDE_BATTLE_TRAP_ITEM_UNLOCK_TOAST	<color=#0098DC>{0}</color> unlocked	Разблокировано: <color=#0098DC>{0}</color>	initial_editorial_draft
+ACT24SIDE_EAT_AP_FULL	Unable to exchange for Sanity in excess of {0}	Нельзя восстановить Рассудок сверх {0}	initial_editorial_draft
+ACT24SIDE_EAT_COUNTDOWN	{0:00}:{1:00}:{2:00} until next available meal	До следующего приёма пищи: {0:00}:{1:00}:{2:00}	initial_editorial_draft
+ACT24SIDE_EAT_MEAL_NOT_DIGESTED	Come back after the current meal effect has worn off	Приходите, когда закончится действие текущего блюда	initial_editorial_draft
+ACT24SIDE_EAT_SUCCESS	Sanity successfully restored	Рассудок восстановлен	initial_editorial_draft
+ACT24SIDE_EAT_WELCOME_EATEN	Ingredients have been used up, please come again next time	Ингредиенты закончились. Приходите в следующий раз!	initial_editorial_draft
+ACT24SIDE_EAT_WELCOME_EATEN_LAST_DAY	This meal event has ended. Thanks for your patronage!	Событие с угощением завершено. Спасибо за визит!	initial_editorial_draft
+ACT24SIDE_HARD_STAGE_NAME	Challenge: {0}	Испытание: {0}	initial_editorial_draft
+ACT24SIDE_MELDING_COUNT_UP_TO_MAX_TOAST	Melding products already maxed out; unable to add any more materials	Изготовлено максимальное количество продуктов синтеза. Нельзя добавить больше материалов	initial_editorial_draft
+ACT24SIDE_MELDING_ITEM_NOT_ENOUGH_TOAST	Required Melding value hasn't been met; please insert more Melding materials	Не достигнуто необходимое значение синтеза. Добавьте ещё материалы	needs_game_and_cn_context
+ACT24SIDE_MELDING_REWARD_NOT_ENOUGH_TOAST	Not enough rewards available; unable to add any more materials	Наград недостаточно. Нельзя добавить больше материалов	initial_editorial_draft
+ACT25SIDE_FOG_ITEM_TOAST	Not enough Special Ops Permits, continue to increase investigation progress	Недостаточно разрешений на спецоперации. Продолжайте расследование	initial_editorial_draft
+ACT25SIDE_FOG_STAGE_LOCKED_TOAST	Cannot view secret zone, complete {0} first	Секретная зона недоступна. Сначала пройдите {0}	initial_editorial_draft
+ACT36SIDE_BOSS_ANGRY	You tricked me! I'm SO mad!	Ты меня обманул! Я ОЧЕНЬ злюсь!	initial_editorial_draft
+ACT36SIDE_BOSS_NO_FOOD	No! Not enough!	Нет! Слишком мало!	initial_editorial_draft
+ACT3D0_REMAIN_TIME	{0:D2}/{1:D2}/{2:D2}:{3:D2}~{4:D2}/{5:D2}/{6:D2}:{7:D2}\n{8} remaining	{0:D2}/{1:D2}/{2:D2}:{3:D2}~{4:D2}/{5:D2}/{6:D2}:{7:D2}\nОсталось: {8}	initial_editorial_draft
+ACT3D0_WITH_PERCENT	{0} accounts for <color=#ffd800>{1}%</color> of the odds	Вероятность {0} составляет <color=#ffd800>{1}%</color>	initial_editorial_draft
+ACT4D0_END_TIME	Event period from {0:D2}/{1:D2}/{2:D2}:{3:D2}~{4:D2}/{5:D2}/{6:D2}:{7:D2} Remaining {8}	Событие: {0:D2}/{1:D2}/{2:D2}:{3:D2}~{4:D2}/{5:D2}/{6:D2}:{7:D2}. Осталось: {8}	initial_editorial_draft
+ACT4D0_START_TIME	Event period from {0:D2}/{1:D2}/{2:D2}:{3:D2}~{4:D2}/{5:D2}/{6:D2}:{7:D2} Remaining {8}	Событие: {0:D2}/{1:D2}/{2:D2}:{3:D2}~{4:D2}/{5:D2}/{6:D2}:{7:D2}. Осталось: {8}	initial_editorial_draft
+ACT5D0_BONUS_AWARD_COND	Collect <color=#CF364B>{0}</color>{1} to obtain this.	Соберите <color=#CF364B>{0}</color>{1}, чтобы получить награду.	initial_editorial_draft
+ACT5D0_MILESTONE_GAP	The party's only getting started, so before that, you should grab a slice of apple pie! Why does it always have to be apple pie?	Праздник только начинается! А пока можно угоститься яблочным пирогом. Почему опять непременно яблочным?	initial_editorial_draft
+ACTMULTIV3_BATTLE_ABNORNAL_EXIT	Abnormal situation detected. Battle stopped	Обнаружена нештатная ситуация. Бой остановлен	initial_editorial_draft
+ACTMULTIV3_BATTLE_DEFENCE_LAST_WAVE	Final Objective: Deal as much damage to the Monument of Trial within the time limit	Финальная цель: за отведённое время нанесите как можно больше урона Монументу испытания	needs_game_and_cn_context
+ACTMULTIV3_BATTLE_EXIT_SHOW	Partner has abandoned match	Напарник покинул матч	initial_editorial_draft
+ACTMULTIV3_BATTLE_FORTRESS_INFO	Objective · Defense	Цель · Оборона	initial_editorial_draft
+ACTMULTIV3_BATTLE_MATE_DIE_INFO	Partner has temporarily left. Protect their Objective Point for 30 seconds as you wait for their return	Напарник временно вышел. Защищайте его целевую точку 30 секунд до возвращения	initial_editorial_draft
+ACTMULTIV3_BATTLE_OFFLINE_CONNECT_SHOW	Partner reconnected	Напарник вернулся в игру	initial_editorial_draft
+ACTMULTIV3_BATTLE_OFFLINE_SHOW	Partner reconnecting	Напарник переподключается	initial_editorial_draft
+ACTMULTIV3_BATTLE_PAUSE_IGNORE_SHOW	Partner has ignored request to pause	Напарник проигнорировал запрос на паузу	initial_editorial_draft
+ACTMULTIV3_BATTLE_PAUSE_REFUSE_SHOW	Partner has refused to pause	Напарник отказался ставить игру на паузу	initial_editorial_draft
+ACTMULTIV3_BATTLE_PAUSE_REQUEST_SHOW	Partner requests to pause	Напарник просит поставить игру на паузу	initial_editorial_draft
+ACTMULTIV3_BATTLE_PAUSE_SHOW	Waiting for Partner to approve...	Ожидание ответа напарника...	initial_editorial_draft
+ACTMULTIV3_BATTLE_TASK_BOSS_INFO	Reduce leader enemy HP by as much as possible	Снизить здоровье вражеского лидера как можно сильнее	needs_game_and_cn_context
+ACTMULTIV3_BATTLE_TASK_CAR_INFO	Push the Anti-Witchcraft Repositionable Bomb	Толкнуть передвижную противоколдовскую бомбу	needs_game_and_cn_context
+ACTMULTIV3_BATTLE_TASK_KILL_INFO	Defeat enemies	Победить врагов	initial_editorial_draft
+ACTMULTIV3_BATTLE_TASK_PROTECT_INFO	Protect Ursus Civilians until they enter the Objective Point	Защищать мирных жителей Урсуса, пока они не достигнут целевой точки	needs_game_and_cn_context
+ACTMULTIV3_BATTLE_TASK_SURVIVE_INFO	Survive for as long as possible	Продержаться как можно дольше	initial_editorial_draft
+ACTMULTIV3_BATTLE_TASK_TARGET_INFO	Defeat as many {0} as possible	Победить как можно больше {0}	initial_editorial_draft
+ACTMULTIV3_BATTLE_TASK_TOWER_INFO	Occupy {0}	Захватить {0}	needs_game_and_cn_context
+ACTMULTIV3_BATTLE_TIME_OUT_INFO	You will not be penalized for leaving	За выход штрафа не будет	initial_editorial_draft
+ACTMULTIV3_BATTLE_TIME_OUT_SHOW	Partner timed out	Время ожидания напарника истекло	initial_editorial_draft
+ACTMULTIV3_COLLECT_STAR_HINT	Collect {0}	Соберите {0}	initial_editorial_draft
+ACTMULTIV3_ENTRY_BANNED_UNTIL_TIME	Banned for {0:D2}:{1:D2}	Блокировка на {0:D2}:{1:D2}	initial_editorial_draft
+ACTMULTIV3_ENTRY_MATCH_BTN_SQUAD_NOT_ENOUGH	Insufficient members in squad, unable to enter\nProceed to squad adjustment?	В отряде недостаточно участников. Войти нельзя.\nПерейти к изменению отряда?	initial_editorial_draft
+ACTMULTIV3_ENTRY_MATCH_BTN_SQUAD_NOT_ENOUGH_CONFIRM	Go to Squads	К отрядам	initial_editorial_draft
+ACTMULTIV3_ENTRY_REMAIN_TIME	{0} left	Осталось: {0}	initial_editorial_draft
+ACTMULTIV3_ENTRY_TUTORIAL_INCOMPLETED_TOAST	Complete Regular Events guide first	Сначала пройдите обучение обычным событиям	initial_editorial_draft
+ACTMULTIV3_MATCH_WAIT_SEC_STR	({0}s)	({0} с)	initial_editorial_draft
+ACTMULTIV3_MILESTONE_UNLOCK	Next phase's rewards unlock after {0}	Награды следующего этапа откроются через {0}	initial_editorial_draft
+ACTMULTIV3_MODE_UNLOCK_TIME_STR	Registration opens in {0}	Регистрация откроется через {0}	initial_editorial_draft
+ACTMULTIV3_ROOM_CHAR_PICK_SKIP_CONFIRM	Skip\n{0} selections	Пропустить\n{0} выборов	initial_editorial_draft
+ACTMULTIV3_ROOM_EXIT_BTN_CONFIRM_PICK	Leave match	Покинуть матч	initial_editorial_draft
+ACTMULTIV3_ROOM_EXIT_BTN_CONFIRM_SC	Leave room	Покинуть комнату	initial_editorial_draft
+ACTMULTIV3_ROOM_EXIT_BTN_CONFIRM_SC_MASTER	Close room	Закрыть комнату	initial_editorial_draft
+ACTMULTIV3_ROOM_EXIT_PICK_TIPS_MATCH	Leaving now will end the match. Leaving early repeatedly will result in a suspension.	Выход завершит матч. За частые досрочные выходы можно получить временную блокировку.	initial_editorial_draft
+ACTMULTIV3_ROOM_EXIT_PICK_TIPS_TM	Leaving now will end the match	Выход завершит матч	initial_editorial_draft
+ACTMULTIV3_ROOM_EXIT_SC_TIPS_MASTER	Are you sure you want to close the room? Partner will leave automatically	Закрыть комнату? Напарник покинет её автоматически	initial_editorial_draft
+ACTMULTIV3_ROOM_JOINFAILED_COMMON	Connection failed. The match has ended \nRepeated disruptions like this may result in a suspension. Please check your connection to ensure a smooth experience	Не удалось подключиться. Матч завершён. \nПовторные разрывы соединения могут привести к временной блокировке. Проверьте сеть, чтобы избежать проблем.	initial_editorial_draft
+ACTMULTIV3_ROOM_JOINFAILED_MATCH_PICK	Connection failed. The match has ended \nRepeated disruptions like this may result in a suspension. Please check your connection to ensure a smooth experience	Не удалось подключиться. Матч завершён. \nПовторные разрывы соединения могут привести к временной блокировке. Проверьте сеть.	initial_editorial_draft
+ACTMULTIV3_ROOM_JOINFAILED_TM_PICK	Connection failed. Match has ended \nPlease check your connection for a smooth experience	Не удалось подключиться. Матч завершён. \nПроверьте соединение с сетью.	initial_editorial_draft
+ACTMULTIV3_ROOM_JOINFAILED_TM_SC	Connection failed. Leaving room	Не удалось подключиться. Вы покидаете комнату	initial_editorial_draft
+ACTMULTIV3_ROOM_KICK_DISBAND_MATCH_PICK	Partner has left, ending match\nPartner will be penalized	Напарник вышел. Матч завершается\nНапарник получит штраф	initial_editorial_draft
+ACTMULTIV3_ROOM_KICK_DISBAND_TM_PICK	Partner has left, ending match	Напарник вышел. Матч завершается	initial_editorial_draft
+ACTMULTIV3_ROOM_KICK_DISBAND_TM_SC	Room closed	Комната закрыта	initial_editorial_draft
+ACTMULTIV3_ROOM_KICK_DISLIKE	You have been asked to leave the room	Вас попросили покинуть комнату	initial_editorial_draft
+ACTMULTIV3_ROOM_KICK_PARTNER_DESC	Are you sure you want to ask this partner to leave?	Попросить этого напарника покинуть комнату?	initial_editorial_draft
+ACTMULTIV3_ROOM_KICK_TIMEOUT	Room timed out and closed	Время ожидания истекло. Комната закрыта	initial_editorial_draft
+ACTMULTIV3_ROOM_SQUAD_BACK_TIP	Cancel ready status to go back	Отмените готовность, чтобы вернуться назад	initial_editorial_draft
+ACTMULTIV3_SQUAD_MIN_CNT_TIPS	Minimum Operators: {0}	Минимум операторов: {0}	initial_editorial_draft
+ACTMULTIV3_STAGE_CHOOSE_GUEST_IS_READY	Partner ready	Напарник готов	initial_editorial_draft
+ACTMULTIV3_STAGE_CHOOSE_GUEST_OFFLINE_CONFIRM	Proceed	Продолжить	initial_editorial_draft
+ACTMULTIV3_STAGE_CHOOSE_GUEST_OFFLINE_DESC	Partner's connection unstable, currently reconnecting\nProceed to preparation?	Соединение напарника нестабильно, он переподключается\nПерейти к подготовке?	initial_editorial_draft
+ACTMULTIV3_STAGE_CHOOSE_RANDOM_STAGE_NAME	Random Event	Случайное событие	initial_editorial_draft
+ACTMULTIV3_STAGE_CHOOSE_WATING_GUEST_JOIN	Waiting for partner to join...	Ожидаем присоединения напарника...	initial_editorial_draft
+ACTMULTIV3_STAGE_CHOOSE_WATING_GUEST_READY	Waiting for partner to get ready...	Ожидаем готовности напарника...	initial_editorial_draft
+ACTMULTIV3_STAGE_CHOOSE_WATING_HOST_CHOOSE	Waiting for event to be selected	Ожидаем выбора события	initial_editorial_draft
+ACTMULTIV3_STAGE_CHOOSE_WATING_HOST_START	Entering preparation stage...	Переход к подготовке...	initial_editorial_draft
+ACTMULTIV3_STAGE_CHOOSE_WATING_SELF_READY	Get ready...	Подтвердите готовность...	initial_editorial_draft
+ACTMULTIV3_STAGE_LIST_ITEM_OPEN_TIME_REMAIN	Unlocks after {0}	Откроется через {0}	initial_editorial_draft
+ACTMULTIV3_STAGE_LIST_RANDOM_LOCKED	Random Events locked	Случайные события закрыты	initial_editorial_draft
+ACTMULTIV3_STAGE_UNLOCK_TIME_STR	New stages unlock in {0}	Новые этапы откроются через {0}	initial_editorial_draft
+ACTMULTIV3_TRAINING_MODE_REMAIN_BY_TIME_DESC	Registration opens in {0}	Регистрация откроется через {0}	initial_editorial_draft
+ATTMULTIV3_BATTLE_TASK_TOWER_A	Gramophone	Граммофон	needs_game_and_cn_context
+ATTMULTIV3_BATTLE_TASK_TOWER_B	Gelato Stop	Лавка мороженого	needs_game_and_cn_context
+BOSS_RUSH_RELIC_LOCK_DES	{0} (must be claimed in Trial Tasks after completion)	{0} (получите в заданиях испытания после завершения)	initial_editorial_draft
+BOSS_RUSH_STAGE_UNLOCK_TIP	<color=#4abdff>{0}</color> {1} unlocked	<color=#4abdff>{0}</color> {1} разблокировано	needs_game_and_cn_context
+CLIMB_TOWER_BUFF_LOCK_TOAST	Complete all stages in any security contract to unlock Tactical Equipment switching.	Пройдите все этапы любого охранного контракта, чтобы открыть смену тактического оборудования.	initial_editorial_draft
+CLIMB_TOWER_EQUIP_LOCK_TOAST	Stationary Security Service unlocked after owning at least <color=#4abdff>{0}</color> exclusive modules.	Служба стационарной безопасности откроется, когда у вас будет не менее <color=#4abdff>{0}</color> уникальных модулей.	initial_editorial_draft
+CLIMB_TOWER_EXPANSION_POS_DES	Additional Operators can be deployed when you reach phase {0} of Security Missions.	Дополнительные операторы станут доступны после достижения этапа {0} в охранных заданиях.	initial_editorial_draft
+CLIMB_TOWER_OFFER_DESC	During Additional Special Bounty, each phase drops {0}, with a chance to drop {1} starting from phase 3.	Во время дополнительного особого вознаграждения на каждом этапе выпадает {0}; начиная с третьего этапа может выпасть {1}.	initial_editorial_draft
+CLIMB_TOWER_RECRUIT_SUB_GOD_DES_1	Directional EC Component can be obtained when you reach phase {0} of Security Missions	Направленный компонент ЭП можно получить после достижения этапа {0} в охранных заданиях.	needs_game_and_cn_context
+CLIMB_TOWER_RECRUIT_SUB_GOD_DES_2	Select Conductive Unit for {0}	Выберите проводящий модуль для {0}	needs_game_and_cn_context
+CLIMB_TOWER_SQUAD_ASSIST_TIP	All Support Operators from non-friended players have capped Specialization levels (Level 7 max).	У операторов поддержки от игроков не из списка друзей уровень улучшения навыка ограничен 7.	initial_editorial_draft
+CLIMB_TOWER_SQUAD_USE_RECORD_DESC	A predetermined squad is selected for this operation. You can still modify your squad before starting. Do you want to start directly?	Для операции выбран заранее подготовленный отряд. До начала боя его состав ещё можно изменить. Начать прямо сейчас?	initial_editorial_draft
+CLIMB_TOWER_WEEKLY_REWARD_TITLE_TEXT	{0}, etc.	{0} и другие	initial_editorial_draft
+COLOR_DAY_TEXT	<color={0}>{1}</color> day(s)	<color={0}>{1}</color> дн.	initial_editorial_draft
+COLOR_HOUR_TEXT	<color={0}>{1}</color> hrs	<color={0}>{1}</color> ч	initial_editorial_draft
+COLOR_MIN_TEXT	<color={0}>{1}</color> min	<color={0}>{1}</color> мин	initial_editorial_draft
+DATE_FORMAT_DD_HH_MM	{0}D {1:00}:{2:00}	{0} дн. {1:00}:{2:00}	initial_editorial_draft
+ENEMY_DUEL_BACK_TO_ENTRY	Back to Main	На главную	initial_editorial_draft
+ENEMY_DUEL_BATTLE_AUTO_CHOOSE_SUPPORT_TIP	<color=#000000>The system has randomly chosen a side for you</color>	<color=#000000>Система случайно выбрала за вас сторону</color>	initial_editorial_draft
+ENEMY_DUEL_BATTLE_CHOOSE_LEFT_SUMMARY	<color=#FFFFFF>{0}</color> supporting this side······	<color=#FFFFFF>{0}</color> поддерживают эту сторону······	initial_editorial_draft
+ENEMY_DUEL_BATTLE_CHOOSE_RIGHT_SUMMARY	······<color=#FFFFFF>{0}</color> supporting this side	······<color=#FFFFFF>{0}</color> поддерживают эту сторону	initial_editorial_draft
+ENEMY_DUEL_BATTLE_SUPPORT_TIP	<color=#000000>You</color> support this side	<color=#000000>Вы</color> поддерживаете эту сторону	initial_editorial_draft
+ENEMY_DUEL_ENTER_ROOM_EMPTY_TOAST	Please enter a Room ID	Введите ID комнаты	initial_editorial_draft
+ENEMY_DUEL_ENTRY_ACT_END_ANNOUNCE	Event has ended	Событие завершено	initial_editorial_draft
+ENEMY_DUEL_ENTRY_NOT_UNLOCK_CLICK_TOAST	Unlocks after experiencing {0}	Откроется после прохождения {0}	initial_editorial_draft
+ENEMY_DUEL_GIVE_UP_ROOM_GUEST_OUT	Game has yet to end. Once you leave, you will also <color=#FF4D2A>leave the room</color>.\nAre you sure you want to leave?	Матч ещё идёт. После выхода вы также <color=#FF4D2A>покинете комнату</color>.\nВыйти?	initial_editorial_draft
+ENEMY_DUEL_GIVE_UP_ROOM_GUEST_SURVIVE	Game has yet to end, and leaving now will <color=#FF4D2A>eliminate you from the match</color>.\nOnce you leave, you will also <color=#FF4D2A>leave the room</color>.\nAre you sure you want to leave?	Матч ещё идёт. Выход сейчас приведёт к <color=#FF4D2A>выбыванию</color>.\nПри выходе вы также <color=#FF4D2A>покинете комнату</color>.\nВыйти?	initial_editorial_draft
+ENEMY_DUEL_GIVE_UP_ROOM_HOST_OUT	Game has yet to end. As the room host, leaving will<color=#FF4D2A>automatically disband the group</color> after this round ends.\nAre you sure you want to leave?	Матч ещё идёт. Поскольку вы организатор, после конца раунда выход <color=#FF4D2A>автоматически распустит группу</color>.\nВыйти?	initial_editorial_draft
+ENEMY_DUEL_GIVE_UP_ROOM_HOST_SURVIVE	Game has yet to end, and leaving now will <color=#FF4D2A>eliminate you from the match</color>.\nAs the room host, leaving will<color=#FF4D2A>automatically disband the group</color> after this round ends.\nAre you sure you want to leave?	Матч ещё идёт. Выход сейчас приведёт к <color=#FF4D2A>выбыванию</color>.\nПоскольку вы организатор, после конца раунда выход <color=#FF4D2A>автоматически распустит группу</color>.\nВыйти?	initial_editorial_draft
+ENEMY_DUEL_PREPARE_ENTRANCE_SHOW_FORMAT	<color=#F9E828>{0}</color> Contestants	<color=#F9E828>{0}</color> участников	initial_editorial_draft
+ENEMY_DUEL_ROOM_DISCONNECT	Connection timeout. Unable to enter battle	Время ожидания соединения истекло. Нельзя начать бой	initial_editorial_draft
+ENEMY_DUEL_ROOM_DISCONNECT_DISBAND	Group disbanded	Группа распущена	initial_editorial_draft
+ENEMY_DUEL_ROOM_DISCONNECT_KICK	You are removed from the group	Вас исключили из группы	initial_editorial_draft
+ENEMY_DUEL_ROOM_DISCONNECT_TIME_OUT	Group disbanded from timeout	Группа распущена из-за истечения времени ожидания	initial_editorial_draft
+ENEMY_DUEL_ROOM_END_COUNT_DOWN	Group will automatically disband after {0:D2}:{1:D2}	Группа будет распущена через {0:D2}:{1:D2}	initial_editorial_draft
+ENEMY_DUEL_ROOM_JOIN_FAIL	Failed to find room, please check your network and try again	Комната не найдена. Проверьте сеть и повторите попытку	initial_editorial_draft
+ENEMY_DUEL_ROOM_JOIN_NO_ROOM	Room no longer exists or cannot be entered	Комната больше не существует или вход в неё недоступен	initial_editorial_draft
+ENEMY_DUEL_ROOM_JOIN_TOO_FAST	You're acting too frequently. Please try again later	Слишком частые действия. Повторите попытку позже	initial_editorial_draft
+ENEMY_DUEL_ROOM_KICK_CONFIRM	Are you sure you want to remove this member from the group?	Исключить этого участника из группы?	initial_editorial_draft
+ENEMY_DUEL_ROOM_LACK_OF_PLAYER	{0} more members\nneeded	Не хватает ещё {0} участников\nдля начала	initial_editorial_draft
+ENEMY_DUEL_ROOM_LEAVE_CONFIRM	Are you sure you want to leave the group?	Покинуть группу?	initial_editorial_draft
+ENEMY_DUEL_ROOM_LEAVE_CONFIRM_HOST	Are you sure you want to leave the group? The group will automatically disband	Покинуть группу? Она будет автоматически распущена	initial_editorial_draft
+ENEMY_DUEL_ROOM_OPTION_ADD_FRIEND	Add	Добавить	initial_editorial_draft
+ENEMY_DUEL_ROOM_OPTION_IS_FRIEND	Already friends	Уже в друзьях	initial_editorial_draft
+ENEMY_DUEL_ROOM_OPTION_SENT_REQUEST	Request sent	Запрос отправлен	initial_editorial_draft
+ENEMY_DUEL_ROUND_BET_DESC	Choose the side you support	Выберите сторону, которую поддержите	initial_editorial_draft
+ENEMY_DUEL_ROUND_BET_DESC_PRIVATE	Starting soon! Make your choice	Скоро начало! Сделайте выбор	initial_editorial_draft
+ENEMY_DUEL_ROUND_BET_DESC_WATCHING	Spectating. Please wait for other players to make their choice	Режим зрителя. Дождитесь выбора других игроков	initial_editorial_draft
+ENEMY_DUEL_ROUND_RANK_BOTTOM_END	Match ended. Entering results screen	Матч завершён. Переход к итогам	initial_editorial_draft
+ENEMY_DUEL_ROUND_RANK_BOTTOM_NORMAL	Entering next round	Переход к следующему раунду	initial_editorial_draft
+ENEMY_DUEL_ROUND_RANK_BOTTOM_OUT	Eliminated. Entering next round as a spectator	Вы выбыли. Переход к следующему раунду в качестве зрителя	initial_editorial_draft
+ENEMY_DUEL_ROUND_RANK_QUIT	Unable to return once left. Are you sure you want to leave?	После выхода вернуться нельзя. Выйти?	initial_editorial_draft
+ENEMY_DUEL_ROUND_RANK_QUIT_ROOM_OWNER	The room will disband after this round ends if you leave the match. Are you sure you want to leave?	Если выйти сейчас, комната распустится после окончания раунда. Выйти?	initial_editorial_draft
+ENEMY_DUEL_ROUND_RANK_TITLE_OPERATION	{0} Round {1}/<color=#7C7C7C>{2}</color>	{0}, раунд {1}/<color=#7C7C7C>{2}</color>	initial_editorial_draft
+ENEMY_DUEL_ROUND_RANK_TITLE_STAND	{0} Round {1}	{0}, раунд {1}	initial_editorial_draft
+ENEMY_DUEL_SETTLEMENT_ROOM_END	Due to the host's actions, you cannot return to the group room. Returning to home page now	Из-за действий организатора вернуться в комнату группы нельзя. Возврат на главный экран	initial_editorial_draft
+ENEMY_DUEL_SETTLEMENT_ROOM_OWNER	Group will be disbanded if you return to home page\nAre you sure you want to continue?	Если вернуться на главный экран, группа распустится\nПродолжить?	initial_editorial_draft
+ENEMY_DUEL_STAND_MODE_PROTECTION_DESC	Protected from elimination once within the next <color=#F2D22A>{0}</color> rounds	Защита от выбывания на следующие <color=#F2D22A>{0}</color> раундов	initial_editorial_draft
+EXPIRE_TIME	<color=#313131>expiring in {0} days</color>	<color=#313131>истекает через {0} дн.</color>	initial_editorial_draft
+FAST_CAMP_LOCK_NORCD	Complete an Annihilation without using a support unit to unlock (including Auto Deploy)	Для разблокировки пройдите аннигиляцию без оператора поддержки (в том числе для автопрохождения)	initial_editorial_draft
+FIFTH_ANNIV_CHECKPOINT_CONTINUE_HINT	Tap anywhere to continue	Нажмите где угодно, чтобы продолжить	initial_editorial_draft
+FIFTH_ANNIV_CHECKPOINT_RESTART_HINT	Tap anywhere to restart	Нажмите где угодно, чтобы начать заново	initial_editorial_draft
+FIFTH_ANNIV_EVENT_INFO_DESC	The battlefield is ever changing; plan your route with prudence and direct your squad to the city	Обстановка на поле боя постоянно меняется. Тщательно выбирайте маршрут и ведите отряд к городу	needs_game_and_cn_context
+FIFTH_ANNIV_EXPLORE_LOCK_TEXT	Clear {0} to unlock	Пройдите {0}, чтобы разблокировать	initial_editorial_draft
+FIFTH_ANNIV_EXPLORE_LOCK_ZONE_TEXT	Reach {0} to unlock	Достигните {0}, чтобы разблокировать	initial_editorial_draft
+FIFTH_ANNIV_EXPLORE_LOG_SUCCESS_TITLE	Operation Successful	Операция завершена успешно	initial_editorial_draft
+FIFTH_ANNIV_EXPLORE_STAGE_UNLOCK	New Hidden Front stage unlocked	Открыт новый этап «Скрытого фронта»	initial_editorial_draft
+FIFTH_ANNIV_EXPLORE_UNLOCK	Hidden Front is now open	Открыт «Скрытый фронт»	initial_editorial_draft
+FIFTH_ANNIV_FAIL_ENDING_TITLE	Connection Lost	Связь потеряна	initial_editorial_draft
+FIFTH_ANNIV_PASS_NORMAL_TARGET_SUBTITLE	Cleared	Пройдено	initial_editorial_draft
+FIFTH_ANNIV_TARGET_CAPTION	Encounter Ahead	Встреча впереди	initial_editorial_draft
+FIFTH_ANNIV_TARGET_INFO_COMPLETE_REQUIRE	Prerequisite: '{0}' completed	Условие: «{0}» выполнено	initial_editorial_draft
+FIFTH_ANNIV_TARGET_INFO_NO_REQUIRE	No prerequisites for this operation	Для этой операции нет предварительных условий	initial_editorial_draft
+FIFTH_ANNIV_TARGET_INFO_UNCOMPLETE_REQUIRE	Prerequisite: '{0}' incomplete	Условие: «{0}» не выполнено	initial_editorial_draft
+HGSDK_IDVERIFY_TITLE	In accordance with national policy, players must undergo ID verification using a valid identification card.	В соответствии с законодательством игрокам необходимо подтвердить личность с помощью действительного удостоверения.	initial_editorial_draft
+ITEM_REPO_OPTIONAL_VOUCHER_CHOOSE_MAX_PICK_TIPS	<color=#0697DDFF>{0}</color>You can choose up to <color=#0697DDFF>{1}</color>.	<color=#0697DDFF>{0}</color>Можно выбрать не более <color=#0697DDFF>{1}</color>.	initial_editorial_draft
+LEGION_BATTLE_SELECT_TIPS_ALL	<color=#909090>Choose {0} Operator(s) or EC Unit(s) (Available: {1})</color>.	<color=#909090>Выберите {0} операторов или устройств ЭП (доступно: {1})</color>.	initial_editorial_draft
+LEGION_BATTLE_SELECT_TIPS_ALL_NO	<color=#909090>Choose {0} Operator(s) or EC Unit(s) (Available: {1}, </color><color=#FF6600>remaining units will not appear again in this operation)</color>.	<color=#909090>Выберите {0} операторов или устройств ЭП (доступно: {1}, </color><color=#FF6600>остальные бойцы и устройства больше не появятся в этой операции)</color>.	initial_editorial_draft
+LEGION_BATTLE_SELECT_TIPS_CHAR	<color=#909090>Choose {0} Operator(s) (Available: {1})</color>.	<color=#909090>Выберите {0} операторов (доступно: {1})</color>.	initial_editorial_draft
+LEGION_BATTLE_SELECT_TIPS_CHAR_NO	<color=#909090>Choose {0} Operator(s) (Available: {1}, </color><color=#FF6600>remaining units will not appear again in this operation)</color>.	<color=#909090>Выберите {0} операторов (доступно: {1}, </color><color=#FF6600>оставшиеся бойцы больше не появятся в этой операции)</color>.	initial_editorial_draft
+LEGION_BATTLE_SELECT_TIPS_TRAP	<color=#909090>Choose {0} EC Unit(s) (Available: {1})</color>.	<color=#909090>Выберите {0} устройств ЭП (доступно: {1})</color>.	initial_editorial_draft
+LEGION_BATTLE_SELECT_TIPS_TRAP_NO	<color=#909090>Choose {0} EC Unit(s) (Available: {1}, </color><color=#FF6600>remaining units will not appear again in this operation)</color>.	<color=#909090>Выберите {0} устройств ЭП (доступно: {1}, </color><color=#FF6600>остальные устройства больше не появятся в этой операции)</color>.	initial_editorial_draft
+LEGION_BATTLE_SELECT_TIPS_USE_DIRECT	<color=#909090>Choose industrial material to release (available: {0})</color>	<color=#909090>Выберите промышленный материал для использования (доступно: {0})</color>	needs_game_and_cn_context
+NAME_CARD_CANNOT_SELECT_MODULE	Current module at maximum quantity	Достигнут предел количества текущих модулей	initial_editorial_draft
+NAME_CARD_COPY_UID	UID copied to clipboard	UID скопирован в буфер обмена	initial_editorial_draft
+RHINE_BATTLE_PERFORMANCE_LOCK_DESC	Perform Area Case Investigation to activate	Проведите расследование обстоятельств, чтобы активировать	needs_game_and_cn_context
+RHINE_BATTLE_PERFORMANCE_LOCK_NAME	Inactive	Неактивно	initial_editorial_draft
+RHINE_BATTLE_PERFORMANCE_TOAST_AUTO_BATTLE	Cannot view at this time	Сейчас недоступно	initial_editorial_draft
+RHINE_RESEARCH_CONFIRM_DESC_DOWN	You can spend <color=#CC6E3B>{0}</color> Authorized Investigation Permits to try to get information on the area.	Вы можете потратить <color=#CC6E3B>{0}</color> разрешений на расследование, чтобы получить сведения об области.	initial_editorial_draft
+RHINE_RESEARCH_CONFIRM_DESC_UP	Are you sure you want to investigate '{0}'?	Начать расследование «{0}»?	initial_editorial_draft
+RHINE_RESEARCH_LOCK_AREA_TOAST	Clear {0} to unlock this area	Пройдите {0}, чтобы открыть эту область	initial_editorial_draft
+RHINE_RESEARCH_NOT_OPEN_DESC_DOWN	Investigation available once [The Lingering of the Past] is unlocked	Расследование станет доступно после открытия [Отголосков прошлого]	needs_game_and_cn_context
+RHINE_RESEARCH_NOT_OPEN_DESC_UP	Area cannot be investigated yet	Эта область пока недоступна для расследования	initial_editorial_draft
+RHINE_RESEARCH_NO_COUNT_DESC_DOWN	While operation is in progress, you can obtain <color=#CC6E3B>{0}</color> Authorized Investigation Permits per day	Во время события вы можете получать <color=#CC6E3B>{0}</color> разрешений на расследование ежедневно	initial_editorial_draft
+RHINE_RESEARCH_NO_COUNT_DESC_UP	No remaining Authorized Investigation Permits	Больше нет разрешений на расследование	initial_editorial_draft
+ROGUELIKE_TOPIC_CHALLENGE_MODE_DESC	Select a {0} to explore and complete {1} to obtain a one-time reward! (Check [{2}] for more details)	Выберите {0}, исследуйте территорию и выполните {1}, чтобы получить разовую награду! (Подробнее в разделе [{2}])	initial_editorial_draft
+ROGUELIKE_TOPIC_MONTH_SQUAD_DESC	Use the monthly {0} to explore and clear the mission objectives to obtain a one-time reward!{2} (Check [{1}] for more details)	Исследуйте территорию с ежемесячным отрядом {0} и выполните цели задания, чтобы получить разовую награду!{2} (Подробнее в разделе [{1}])	initial_editorial_draft
+ROGUELIKE_TOPIC_MONTH_SQUAD_SUB_DESC	*While this main theme continues to update, {0} will change at the start of every month\n*After the updates conclude, all {0} will return, however {1} or obtained rewards can no longer be obtained.	* Пока эта тема обновляется, {0} будет меняться в начале каждого месяца\n* После завершения обновлений все {0} вернутся, но {1} и ранее доступные награды уже нельзя будет получить.	initial_editorial_draft
+ROGUE_4_FRAGMENT_CHOICE_ITEM_HINT_LIMIT_WEIGHT	<color=#5b5b5b>(</color><color=#c38e37>{0}</color><color=#5b5b5b> more Toil and your mind will be </color><color=#c38e37>Fractured</color><color=#5b5b5b>)</color>	<color=#5b5b5b>(Ещё </color><color=#c38e37>{0}</color><color=#5b5b5b> ед. нагрузки — и разум будет </color><color=#c38e37>надломлен</color><color=#5b5b5b>)</color>	needs_game_and_cn_context
+ROGUE_4_FRAGMENT_CHOICE_ITEM_HINT_OVER_WEIGHT	<color=#5b5b5b>(</color><color=#ae1711>{0}</color><color=#5b5b5b> more Toil and your mind will be </color><color=#ae1711>Obstructed</color><color=#5b5b5b>)</color>	<color=#5b5b5b>(Ещё </color><color=#ae1711>{0}</color><color=#5b5b5b> ед. нагрузки — и разум будет </color><color=#ae1711>заблокирован</color><color=#5b5b5b>)</color>	needs_game_and_cn_context
+ROGUE_4_FRAGMENT_HINT_LIMIT_WEIGHT	<color=#c38e37>{0}</color> more Toil and your mind will be <color=#c38e37>Fractured</color>	Ещё <color=#c38e37>{0}</color> ед. нагрузки — и ваш разум будет <color=#c38e37>надломлен</color>	needs_game_and_cn_context
+ROGUE_4_FRAGMENT_HINT_OVER_WEIGHT	<color=#ae1711>{0}</color> more Toil and your mind will be <color=#ae1711>Obstructed</color>	Ещё <color=#ae1711>{0}</color> ед. нагрузки — и ваш разум будет <color=#ae1711>заблокирован</color>	needs_game_and_cn_context
+ROGUE_BP_COUNTDOWN_NOTICE	{1} in {0}	{1} через {0}	initial_editorial_draft
+ROGUE_ENDING_BASIC_INFO	You, <color=#{4}>Dr. {0}</color> used the <color=#{4}>{1}</color> and spent <color=#{4}>{2}</color> on <color=#{4}>{3}</color>	Вы, <color=#{4}>Доктор {0}</color>, использовали <color=#{4}>{1}</color> и потратили <color=#{4}>{2}</color> на <color=#{4}>{3}</color>	needs_game_and_cn_context
+ROGUE_ENDING_SUC_ENDING_INFO	Witnessed the <color=#{1}>{0}</color>	Вы увидели <color=#{1}>{0}</color>	needs_game_and_cn_context
+ROGUE_ENDING_SUC_ENDING_INFO_WITH_DIFFICULTY	Witnessed <color=#{1}>{2}</color> on <color=#{1}>{0}</color>	Вы увидели <color=#{1}>{2}</color> на сложности <color=#{1}>{0}</color>	needs_game_and_cn_context
+SANDBOX_V2_ARCHIVE_QUEST_TYPE_LOCKED_TEXT	Keep exploring to unlock	Продолжайте исследование для разблокировки	initial_editorial_draft
+SANDBOX_V2_AUTO_ADD_TOOL_TOAST	Added to active toolbox	Добавлено к используемым инструментам	initial_editorial_draft
+SANDBOX_V2_BASEMENT_UPDATE_UNLOCK_DESC	Upgrade <color=#d8d769>Headquarters Level to {0}</color> to unlock the following	Для разблокировки улучшите <color=#d8d769>штаб до уровня {0}</color>	initial_editorial_draft
+SANDBOX_V2_BATLLE_TOAST_TMP_BAG_FULL	Your Capture Box is full!	Контейнер для ловли заполнен!	initial_editorial_draft
+SANDBOX_V2_BATTLE_BATTLE_EXIT_DESC	Can be challenged multiple times; proceed to conclude and save current Zone status	Это испытание можно повторять. Завершить бой и сохранить состояние текущей зоны.	initial_editorial_draft
+SANDBOX_V2_BATTLE_BATTLE_EXIT_TITLE	Suspend current battle?	Приостановить текущий бой?	initial_editorial_draft
+SANDBOX_V2_BATTLE_EXIT_HINT_RUSH	Raid	Набег	needs_game_and_cn_context
+SANDBOX_V2_BATTLE_GIVEUP_EXIT_DESC	Are you sure you want to abandon the battle and end the run? \n<color=#c61515>Evacuating will cause the Algorithm or Strange Territory exploration to fail</color>.	Отказаться от боя и завершить забег? \n<color=#c61515>Эвакуация приведёт к провалу освоения или исследования странной территории</color>.	needs_game_and_cn_context
+SANDBOX_V2_BATTLE_GIVEUP_EXIT_TITLE	Emergency Evacuation	Экстренная эвакуация	needs_game_and_cn_context
+SANDBOX_V2_BATTLE_RACING_GIVEUP_EXIT_DESC	You will not obtain any rewards if you leave now	При выходе награды не выдаются	initial_editorial_draft
+SANDBOX_V2_BATTLE_RACING_GIVEUP_EXIT_TITLE	Leave the current battle?	Покинуть текущий бой?	initial_editorial_draft
+SANDBOX_V2_BATTLE_TIMEMODE_EXIT_DESC	Finished with business here? Proceed to conclude and save current zone progress	Завершить дела здесь? Подвести итоги и сохранить прогресс текущей зоны.	initial_editorial_draft
+SANDBOX_V2_BATTLE_TIMEMODE_EXIT_TITLE	Leave Current Zone	Покинуть текущую зону	initial_editorial_draft
+SANDBOX_V2_CANNOT_SELECT_NODE_EMERGENCY	Please handle the Emergency Situation at Headquarters first	Сначала устраните чрезвычайную ситуацию в штабе	initial_editorial_draft
+SANDBOX_V2_CANNOT_SELECT_NODE_EMERGENCY_RIFT	Please handle the Emergency Situation at the Campervan first	Сначала устраните чрезвычайную ситуацию у передвижного лагеря	initial_editorial_draft
+SANDBOX_V2_CANNOT_SELECT_NODE_LOCKED	Zone Locked	Зона закрыта	needs_game_and_cn_context
+SANDBOX_V2_CHALLENGE_HAS_RECORD_DESC	Ongoing	В процессе	initial_editorial_draft
+SANDBOX_V2_CHALLENGE_HOME_FIRST_ENTRY_CONFIRM_STR	Enter	Войти	initial_editorial_draft
+SANDBOX_V2_CHALLENGE_HOME_FIRST_ENTRY_CONFIRM_TITLE	Start Critical Contentions?	Начать критическое состязание?	needs_game_and_cn_context
+SANDBOX_V2_CHALLENGE_HOME_SETTLE_CONFIRM_DESC	Once the Critical Contentions session ends, all data during the experiment will be reset	После завершения сеанса критического состязания все данные эксперимента будут сброшены	needs_game_and_cn_context
+SANDBOX_V2_CHALLENGE_HOME_SETTLE_CONFIRM_TITLE	Are you sure you want to conclude Critical Contentions?	Завершить критическое состязание?	needs_game_and_cn_context
+SANDBOX_V2_CHALLENGE_INACTIVATED_DESC	Unlocks after the next Calculation Day	Откроется после следующего дня подсчёта	initial_editorial_draft
+SANDBOX_V2_CHALLENGE_NEW_DEBUFF_DESC	Environment Degradation	Ухудшение окружающей среды	needs_game_and_cn_context
+SANDBOX_V2_CHALLENGE_NO_RECORD_DESC	Starting Point	Начальная точка	initial_editorial_draft
+SANDBOX_V2_CHALLENGE_OCCUPIED_DESC	Currently in the Critical Contentions of another theme and unable to enter	Сейчас идёт испытание другого типа. Войти нельзя	needs_game_and_cn_context
+SANDBOX_V2_CHALLENGE_REWARD_DESC	Survive {0} days in Critical Contentions	Продержитесь {0} дн. в критическом состязании	needs_game_and_cn_context
+SANDBOX_V2_CHALLENGE_SETTLE_ENEMY_RUSH_KILL_DESC	{0} Raids Defeated	Отражено нападений: {0}	needs_game_and_cn_context
+SANDBOX_V2_CHALLENGE_START_DAY_DESC	Day {0}	День {0}	initial_editorial_draft
+SANDBOX_V2_CHALLENGE_UNLOCK_TOAST	Critical Contentions Available	Критическое состязание доступно	needs_game_and_cn_context
+SANDBOX_V2_CHAR_FOOD_REMAIN_FORMAT	{0}d left	Осталось {0} дн.	initial_editorial_draft
+SANDBOX_V2_CHAR_FOOD_REMAIN_LASTING	Forever	Навсегда	initial_editorial_draft
+SANDBOX_V2_CHAR_SELECT_EXPED_TEXT	{0}d left until return	До возвращения: {0} дн.	initial_editorial_draft
+SANDBOX_V2_CHAR_STATUS_EXPED	Dispatched	В экспедиции	needs_game_and_cn_context
+SANDBOX_V2_CHAR_STATUS_NONE	 All	  Все	initial_editorial_draft
+SANDBOX_V2_CHAR_STATUS_SUPPLY	Supporting	Оказывают поддержку	initial_editorial_draft
+SANDBOX_V2_CHAR_STATUS_USED	Tired	Устали	initial_editorial_draft
+SANDBOX_V2_CLEAR_SQUAD_DESC	Squad and Tools cleared	Отряд и инструменты будут удалены из списка	initial_editorial_draft
+SANDBOX_V2_CLEAR_SQUAD_HINT	Clear current squad?	Очистить текущий отряд?	initial_editorial_draft
+SANDBOX_V2_CONSTRUCT_ANIMAL_FULL	Maximum number of Corral deployed, unable to add more	Достигнут предел размещённых загонов. Добавить ещё нельзя.	initial_editorial_draft
+SANDBOX_V2_CONSTRUCT_AUTO_SAVE_CONTENT	Changes will be auto saved	Изменения сохранятся автоматически	initial_editorial_draft
+SANDBOX_V2_CONSTRUCT_HOME_OUTPOST	Mobile Headquarters	Передвижной штаб	needs_game_and_cn_context
+SANDBOX_V2_CONSTRUCT_LEAVE_CONFIRM_TITLE	There are unsaved changes. Exit anyway?	Есть несохранённые изменения. Всё равно выйти?	initial_editorial_draft
+SANDBOX_V2_CONSTRUCT_LEAVE_SAVE_CONTENT	Current status will be saved on confirmation	После подтверждения текущее состояние будет сохранено	initial_editorial_draft
+SANDBOX_V2_CONSTRUCT_NO_NEED_TO_SAVE	Saved	Сохранено	initial_editorial_draft
+SANDBOX_V2_CONSTRUCT_PAGE_CRAFT_CONFIRM_TITLE	There are unsaved changes. Do you wish to save and proceed?	Есть несохранённые изменения. Сохранить их и продолжить?	initial_editorial_draft
+SANDBOX_V2_CONSTRUCT_PORT	Outpost	Аванпост	initial_editorial_draft
+SANDBOX_V2_CONSTRUCT_REPAIR_CONFIRM_CONTENT	{0} Crude Gold consumed	Будет потрачено сырого золота: {0}	needs_game_and_cn_context
+SANDBOX_V2_CONSTRUCT_REPAIR_CONFIRM_TITLE	Repair all Constructs?	Отремонтировать все сооружения?	initial_editorial_draft
+SANDBOX_V2_CONSTRUCT_RESET_CONFIRM_CONTENT	Unsaved changes will be reset	Несохранённые изменения будут сброшены	initial_editorial_draft
+SANDBOX_V2_CONSTRUCT_RESET_CONFIRM_TITLE	Reset all changes?	Сбросить все изменения?	initial_editorial_draft
+SANDBOX_V2_CONSTRUCT_RESET_SUCCEED	Reset Successfully	Изменения сброшены	initial_editorial_draft
+SANDBOX_V2_CONSTRUCT_TOP_NAME	Dr. {0} <color=#D6D660>{1}</color>	Доктор {0} <color=#D6D660>{1}</color>	initial_editorial_draft
+SANDBOX_V2_COOK_RECIPE_UNLOCK	{0} Recipe Learned	Изучен рецепт: {0}	initial_editorial_draft
+SANDBOX_V2_CRAFT_UNLOCK	Learned how to craft {0}!	Изготовление {0} изучено!	initial_editorial_draft
+SANDBOX_V2_CROSS_DAY_SUPPLY_BUFF_TIPS	{0} Logistics buffs active	Активных бонусов снабжения: {0}	initial_editorial_draft
+SANDBOX_V2_CROSS_DAY_SUPPLY_DRINK_HAS_COUNT	{0} Owned	В наличии: {0}	initial_editorial_draft
+SANDBOX_V2_CROSS_DAY_SUPPLY_DRINK_NOT_ENOUGH_TIPS	*Not enough to last through cycle	* Не хватит до конца цикла	initial_editorial_draft
+SANDBOX_V2_DINE_COMPLETE_TOAST_FORMAT	{0}Dined{1}	{0} принял(а) пищу{1}	needs_game_and_cn_context
+SANDBOX_V2_DINE_NO_RECIPE_TIP	Unable to make Provision	Невозможно приготовить припасы	initial_editorial_draft
+SANDBOX_V2_DINE_REPLACE_DESC	Operator's current Provision buff will be replaced	Текущий бонус припасов у оператора будет заменён	initial_editorial_draft
+SANDBOX_V2_DINE_REPLACE_TITLE	Use this Provision?	Использовать эти припасы?	initial_editorial_draft
+SANDBOX_V2_DUNGEON_DISCARD_AP_DESC	Today's Acts will be consumed	Сегодняшние действия будут потрачены	initial_editorial_draft
+SANDBOX_V2_DUNGEON_DISCARD_AP_TITLE	Skip over today?	Пропустить сегодняшний день?	initial_editorial_draft
+SANDBOX_V2_DUNGEON_LOAD_ARCHIVE_DESC	You can load a save from the last two Calculation Days, and cannot return to the current state once you proceed	Можно загрузить сохранение за один из двух последних дней подсчёта. После загрузки вернуться к текущему состоянию нельзя.	initial_editorial_draft
+SANDBOX_V2_DUNGEON_LOAD_ARCHIVE_SECOND_DESC	You cannot return to the current state if you proceed. Please act with caution.	После загрузки вернуться к текущему состоянию нельзя. Будьте осторожны.	initial_editorial_draft
+SANDBOX_V2_DUNGEON_LOAD_ARCHIVE_SECOND_TITLE	Load save data?	Загрузить сохранение?	initial_editorial_draft
+SANDBOX_V2_DUNGEON_LOAD_ARCHIVE_TITLE	Load save data?	Загрузить сохранение?	initial_editorial_draft
+SANDBOX_V2_DUNGEON_MISC_RIFT_DIFFICULTY_TITLE	Environmental Pressure	Давление среды	needs_game_and_cn_context
+SANDBOX_V2_DUNGEON_MISC_RIFT_END_TIPS	{0}d until Exploration completed	До конца исследования: {0} дн.	initial_editorial_draft
+SANDBOX_V2_DUNGEON_MISC_RIFT_END_ZERO_DAY_TIPS	Exploration ends today	Исследование завершится сегодня	initial_editorial_draft
+SANDBOX_V2_DUNGEON_MISC_RIFT_GLOBAL_EFFECT_TITLE	Variable	Переменная	needs_game_and_cn_context
+SANDBOX_V2_DUNGEON_MISC_RIFT_MAIN_MISSION_FAIL	Core Goal lost	Основная цель провалена	initial_editorial_draft
+SANDBOX_V2_DUNGEON_MISC_RIFT_MAIN_MISSION_FINISH	Core Goal achieved	Основная цель достигнута	initial_editorial_draft
+SANDBOX_V2_DUNGEON_MISC_RIFT_MAIN_MISSION_NOT_FINISH	Core Goal incomplete	Основная цель не выполнена	initial_editorial_draft
+SANDBOX_V2_DUNGEON_MISC_RIFT_RANDOM_NO_DIFFICULTY	No Environmental Pressure in effect	Давление среды отсутствует	needs_game_and_cn_context
+SANDBOX_V2_DUNGEON_QUEST_FINISH	{0} Completed	{0} — завершено	initial_editorial_draft
+SANDBOX_V2_DUNGEON_RIFT_CONFIRM_LEAVE	Dispatch	Отправить	initial_editorial_draft
+SANDBOX_V2_DUNGEON_RIFT_CONFIRM_SUB_TITLE_FAIL	Core Goal lost, unable to obtain corresponding rare reward, proceed to end exploration	Основная цель провалена, соответствующая редкая награда недоступна. Завершить исследование?	initial_editorial_draft
+SANDBOX_V2_DUNGEON_RIFT_CONFIRM_SUB_TITLE_SUC	Core Goal achieved, proceed to end exploration	Основная цель достигнута. Завершить исследование?	initial_editorial_draft
+SANDBOX_V2_DUNGEON_RIFT_CONFIRM_SUB_TITLE_UN_COMPLETE	Core Goal incomplete, unable to obtain corresponding rare reward, proceed to end exploration	Основная цель не выполнена, соответствующая редкая награда недоступна. Завершить исследование?	initial_editorial_draft
+SANDBOX_V2_DUNGEON_SETTLE_GAME_CONFIRM	Confirm Wipe	Подтвердить сброс	initial_editorial_draft
+SANDBOX_V2_DUNGEON_SETTLE_GAME_CONFIRM_2	Confirm Wipe	Подтвердить сброс	initial_editorial_draft
+SANDBOX_V2_DUNGEON_SETTLE_GAME_DESC_2	There is no reverting your decision. Please act with caution.	Это действие нельзя отменить. Будьте осторожны.	initial_editorial_draft
+SANDBOX_V2_DUNGEON_SETTLE_GAME_TITLE	Wipe save data?	Стереть сохранение?	initial_editorial_draft
+SANDBOX_V2_DUNGEON_SETTLE_GAME_TITLE_2	Are you sure you want to wipe your save?	Вы действительно хотите стереть сохранение?	initial_editorial_draft
+SANDBOX_V2_DUNGEON_SPHERE_DAY_ASSESSMENT_FORMAT	{0}d to Calculation Day	До дня подсчёта: {0} дн.	initial_editorial_draft
+SANDBOX_V2_DUNGEON_SPHERE_EMERGENCY_NO_ACTION	Enemies have surrounded our camp	Враги окружили наш лагерь	initial_editorial_draft
+SANDBOX_V2_DUNGEON_SPHERE_RIFT_EMERGENCY_NO_ACTION	Enemies have surrounded our Forward Camp	Враги окружили передовой лагерь	initial_editorial_draft
+SANDBOX_V2_DUNGEON_SPHERE_RIFT_RESERVE_FORMAT	{0}d left until Strange Territory exploration	До исследования странной территории: {0} дн.	initial_editorial_draft
+SANDBOX_V2_DUNGEON_SPHERE_RIFT_TODAY	Exploring Strange Territory today	Сегодня — исследование странной территории	needs_game_and_cn_context
+SANDBOX_V2_DUNGEON_SPHERE_SEASON_REMAIN_FORMAT	{0}d left	Осталось {0} дн.	initial_editorial_draft
+SANDBOX_V2_DUNGEON_SPHERE_SETTLE_DAY_FORMAT	Calculation Day today	Сегодня день подсчёта	initial_editorial_draft
+SANDBOX_V2_DUNGEON_START_BATTLE_AP_NOT_ENOUGH	No Acts left, please proceed to next day	Действия закончились. Перейдите к следующему дню	initial_editorial_draft
+SANDBOX_V2_ENEMY_RUSH_ARRIVE_TIP	Arrived	Прибыли	initial_editorial_draft
+SANDBOX_V2_ENEMY_RUSH_DESTROY_TIP	Deserted Town Seized	Заброшенный город захвачен	needs_game_and_cn_context
+SANDBOX_V2_ENEMY_RUSH_ESCAPE_TIP	{0}d until escape	До отступления: {0} дн.	initial_editorial_draft
+SANDBOX_V2_ENEMY_RUSH_GO_TIP	Advancing towards Deserted Town	Продвигаются к Заброшенному городу	needs_game_and_cn_context
+SANDBOX_V2_ENEMY_RUSH_REMAIN_TIP	{0}d until arrival	До прибытия: {0} дн.	initial_editorial_draft
+SANDBOX_V2_ENEMY_RUSH_STAY_TIP	Accumulating strength	Копят силы	initial_editorial_draft
+SANDBOX_V2_EVENT_FINISH	Encounter complete	Встреча завершена	initial_editorial_draft
+SANDBOX_V2_EVENT_NO_ACTION	Can no longer Act today	Сегодня больше нельзя действовать	initial_editorial_draft
+SANDBOX_V2_EVENT_NO_RESOURCE	Resources Insufficient	Недостаточно ресурсов	initial_editorial_draft
+SANDBOX_V2_EVENT_RARE_ANIMAL_CAUGHT	Captured [{0}]!	Пойман [{0}]!	initial_editorial_draft
+SANDBOX_V2_EVENT_RARE_ANIMAL_FINISH	Defeated [{0}]!	Побеждён [{0}]!	initial_editorial_draft
+SANDBOX_V2_EVENT_XBDIT_FINISH	Defeated 'Liquid Shifter' and obtained an [Assist Gear]!	Побеждён «Жидкий перевёртыш»! Получено [вспомогательное снаряжение]!	needs_game_and_cn_context
+SANDBOX_V2_EVENT_XBNUM_BIGFALL	The Rogue Burdenbeast's baggage broke, and [Rare Minor Ingredients] dropped!	У бродячего вьючного зверя порвался мешок — выпали [редкие ингредиенты]!	needs_game_and_cn_context
+SANDBOX_V2_EXPEDITION_EFFECT_RETURN	Back in {0}d	Вернутся через {0} дн.	initial_editorial_draft
+SANDBOX_V2_EXPEDITION_NODRINK_CONFIRM	Proceed	Продолжить	initial_editorial_draft
+SANDBOX_V2_EXPEDITION_NODRINK_DESC	Proceed to brew energy drinks?	Перейти к приготовлению энергетиков?	initial_editorial_draft
+SANDBOX_V2_EXPEDITION_NODRINK_TITLE	Not enough energy drinks. Brew some?	Недостаточно энергетиков. Приготовить ещё?	initial_editorial_draft
+SANDBOX_V2_EXPEDITION_NO_CHARS	Not enough Expedition Operators selected	Выбрано недостаточно операторов для экспедиции	initial_editorial_draft
+SANDBOX_V2_EXPEDITION_START	Operators dispatched, back in {0} days	Операторы отправлены. Вернутся через {0} дн.	initial_editorial_draft
+SANDBOX_V2_EXPLORE_MODE_CONFIRM	Switch	Переключить	initial_editorial_draft
+SANDBOX_V2_EXPLORE_MODE_OFF_TITLE	Switch to <color=#797717>{0}</color> and <color=#d83b3b>lose</color> the following effects?	Переключиться на <color=#797717>{0}</color> и <color=#d83b3b>потерять</color> следующие эффекты?	needs_game_and_cn_context
+SANDBOX_V2_EXPLORE_MODE_ON_TITLE	Switch to <color=#797717>{0}</color> and obtain the following effects?	Переключиться на <color=#797717>{0}</color> и получить следующие эффекты?	needs_game_and_cn_context
+SANDBOX_V2_EXPLORE_MODE_TOAST	Switched to {0}	Выбран режим: {0}	initial_editorial_draft
+SANDBOX_V2_FOOD_DURATION_FORMAT	{0} days	{0} дн.	needs_game_and_cn_context
+SANDBOX_V2_FOOD_DURATION_LASTING	Forever	Навсегда	initial_editorial_draft
+SANDBOX_V2_FOOD_MAT_EMPTY_FORMAT	You don't have {0} with you...	У вас нет {0}...	initial_editorial_draft
+SANDBOX_V2_FOOD_STATUS_DURATION_FORMAT	{0}d left	Осталось {0} дн.	initial_editorial_draft
+SANDBOX_V2_FOOD_STATUS_DURATION_LASTING	Forever	Навсегда	needs_game_and_cn_context
+SANDBOX_V2_GET_NEW_ACHIEVEMENT	Achievement '{0}' Unlocked	Достижение «{0}» открыто	initial_editorial_draft
+SANDBOX_V2_GUIDE_GIVE_UP_FIRST_CANCEL	Skip Training	Пропустить обучение	initial_editorial_draft
+SANDBOX_V2_GUIDE_GIVE_UP_FIRST_DESC	Continue where you left off to better understand the basics of this game mode	Продолжите обучение с текущего места, чтобы лучше освоить основы режима	initial_editorial_draft
+SANDBOX_V2_GUIDE_GIVE_UP_FIRST_TITLE	Currently in Wasteland Survival Training	Сейчас проходит обучение выживанию в пустоши	initial_editorial_draft
+SANDBOX_V2_GUIDE_GIVE_UP_SECOND_DESC	Unable to re-do if skipped	После пропуска повторить обучение нельзя	initial_editorial_draft
+SANDBOX_V2_GUIDE_GIVE_UP_SECOND_TITLE	Skip Wasteland Survival Training?	Пропустить обучение выживанию в пустоши?	initial_editorial_draft
+SANDBOX_V2_HOME_MONTH_TIME	Updates in {0}	Обновится через {0}	initial_editorial_draft
+SANDBOX_V2_HOME_SHOP_CURRENT_UPDATE	Monthly Rewards Expanded	Ежемесячные награды расширены	initial_editorial_draft
+SANDBOX_V2_HOME_SHOP_NEXT_UPDATE	Rewards Expansion in {0} days	Расширение наград через {0} дн.	initial_editorial_draft
+SANDBOX_V2_LOGISTICS_BASEMENT_LEVEL	LV. {0}	Ур. {0}	initial_editorial_draft
+SANDBOX_V2_LOGISTICS_CONFIRM_DIALOG_TITLE	Dispatch {0}?	Отправить {0}?	initial_editorial_draft
+SANDBOX_V2_LOGISTICS_DRINK_STOCK_CAPACITY	{0} Owned	В наличии: {0}	initial_editorial_draft
+SANDBOX_V2_LOGISTICS_IN_RIFT_DESC	Ineffective in Strange Territory	Не действует на странной территории	initial_editorial_draft
+SANDBOX_V2_LOGISTICS_NO_CHAR_DESC	No Logistics Operators	Нет операторов снабжения	initial_editorial_draft
+SANDBOX_V2_LOGISTICS_NO_DRINK_DESC	Energy drinks not provided in this cycle	В этом цикле энергетики не предоставлены	initial_editorial_draft
+SANDBOX_V2_LOGISTICS_OBTAIN_COUNT_FORMAT	{0} Owned	В наличии: {0}	initial_editorial_draft
+SANDBOX_V2_LOGISTICS_SQUAD_BLOCK_TOAST	Upgrade your Headquarters to unlock more Logistics slots	Улучшите штаб, чтобы открыть дополнительные места снабжения	initial_editorial_draft
+SANDBOX_V2_LOGISTICS_SQUAD_EMPTY_RIFT_TOAST	Logistics cannot be adjusted in while Strange Territory	На странной территории нельзя менять снабжение	needs_game_and_cn_context
+SANDBOX_V2_LOGISTICS_SQUAD_EMPTY_TOAST	Logistics Operators can only be adjusted at the start of a Reclamation Cycle	Состав снабжения можно менять только в начале цикла освоения	initial_editorial_draft
+SANDBOX_V2_LOGISTICS_TITLE_FORMAT	{0} Logistics Bonus	Бонус снабжения {0}	initial_editorial_draft
+SANDBOX_V2_MONTHLY_BATTLE_GIVEUP_EXIT_DESC	Your Algorithm save data and progress will not be affected; this battle's progress will also not be saved	Сохранение алгоритма и общий прогресс не изменятся, но прогресс этого боя не сохранится.	initial_editorial_draft
+SANDBOX_V2_MONTHLY_BATTLE_GIVEUP_EXIT_TITLE	Suspend current battle?	Приостановить текущий бой?	initial_editorial_draft
+SANDBOX_V2_MONTH_BEFORE_STARTING	Mode Not Open	Режим пока закрыт	initial_editorial_draft
+SANDBOX_V2_MONTH_COIN_TIME	{0} days	{0} дн.	initial_editorial_draft
+SANDBOX_V2_MONTH_FIRST_PASS_TOAST	Contention Reiteration Objective Completed	Цель повторного состязания выполнена	needs_game_and_cn_context
+SANDBOX_V2_MONTH_NODEVIEW_RIFT_TIPS	Cannot challenge while in Strange Territory	Во время исследования странной территории испытание недоступно	needs_game_and_cn_context
+SANDBOX_V2_MONTH_NODEVIEW_START	Unlocks in {0}	Откроется через {0}	initial_editorial_draft
+SANDBOX_V2_MONTH_NODEVIEW_TIME	Updates in {0}	Обновится через {0}	initial_editorial_draft
+SANDBOX_V2_MONTH_REMAIN_TIME	<color=#d8d769>{0}</color> left	Осталось <color=#d8d769>{0}</color>	initial_editorial_draft
+SANDBOX_V2_MONTH_UDPATE_TIME	Updates after <color=#d8d769>{0}</color>	Обновление через <color=#d8d769>{0}</color>	initial_editorial_draft
+SANDBOX_V2_PREVIEW_SUPPLY_LOCK_TOAST	Upgrade your Headquarters to unlock Logistics Support	Улучшите штаб, чтобы открыть снабжение	initial_editorial_draft
+SANDBOX_V2_RACER_BAG_FULL_TOAST_FORMAT	{0} full	{0} заполнено	initial_editorial_draft
+SANDBOX_V2_RACER_REFRESH_TALENT_DIALOG_CONFIRM_DESC	Use	Использовать	initial_editorial_draft
+SANDBOX_V2_RACER_REFRESH_TALENT_DIALOG_DESC	Use a Slug Trainer	Использовать тренера слизней	needs_game_and_cn_context
+SANDBOX_V2_RACER_REFRESH_TALENT_DIALOG_TITLE	Use a Slug Trainer to grant the selected Slug a new Trait?	Использовать тренера слизней, чтобы дать выбранному слизню новую особенность?	initial_editorial_draft
+SANDBOX_V2_RACER_REFRESH_TALENT_TOKEN_NOT_ENOUGH_TOAST	Insufficient Slug Trainers	Недостаточно тренеров слизней	initial_editorial_draft
+SANDBOX_V2_RACER_REGISTER_TOAST_FORMAT	{0} now in {1}!	{0} теперь в {1}!	initial_editorial_draft
+SANDBOX_V2_RACER_RELEASE_ALL_DIALOG_DESC	Once confirmed, all Originium slugs will be released from {0}	После подтверждения все ориджиниевые слизни покинут {0}	initial_editorial_draft
+SANDBOX_V2_RACER_RELEASE_ALL_DIALOG_TITLE	Release all Originium slugs in {0}?	Выпустить всех ориджиниевых слизней из {0}?	initial_editorial_draft
+SANDBOX_V2_RACER_RELEASE_DIALOG_CONFIRM_DESC	Confirm release	Подтвердить выпуск	initial_editorial_draft
+SANDBOX_V2_RACER_RELEASE_DIALOG_DESC	You cannot retrieve this Slug upon release	После выпуска этого слизня нельзя будет вернуть	initial_editorial_draft
+SANDBOX_V2_RACER_RELEASE_DIALOG_TITLE	Are you sure you want to release?	Выпустить слизня?	initial_editorial_draft
+SANDBOX_V2_RACER_START_BATTLE_NO_SELECT_TOAST	Select a Slug first	Сначала выберите слизня	initial_editorial_draft
+SANDBOX_V2_READ_ARCHIVE_CONFIRM	Return to <color=#d8d769>{0}{1}</color>?	Вернуться к <color=#d8d769>{0}{1}</color>?	needs_game_and_cn_context
+SANDBOX_V2_RIFT_DAY_TEXT	{0} days	{0} дн.	initial_editorial_draft
+SANDBOX_V2_RIFT_HAVE_AP_NOT_USED_TEXT	Spend Acts first	Сначала потратьте действия	initial_editorial_draft
+SANDBOX_V2_RIFT_REWARD_DESC_DUBIOUS	Can obtain	Можно получить	initial_editorial_draft
+SANDBOX_V2_RIFT_SETTLE_MAIN_COMPLETE	Core Goal achieved	Основная цель достигнута	initial_editorial_draft
+SANDBOX_V2_RIFT_SETTLE_MAIN_FAIL	Core Goal lost	Основная цель провалена	initial_editorial_draft
+SANDBOX_V2_RIFT_SETTLE_MAIN_UNCOMPLETE	Core Goal incomplete	Основная цель не выполнена	initial_editorial_draft
+SANDBOX_V2_RIFT_START_REMAIN_TIME	<color=#D8D769FF>{0}</color>d left until Strange Territory exploration	До исследования странной территории: <color=#D8D769FF>{0}</color> дн.	needs_game_and_cn_context
+SANDBOX_V2_RIFT_TEAM_NOT_SELECTED_TEXT	Select Tactical Tendency	Выберите тактическую специализацию	needs_game_and_cn_context
+SANDBOX_V2_SCIENCE_BASEMENT_LEVEL_NOT_ENOUGH	Headquarters level not sufficient	Недостаточный уровень штаба	initial_editorial_draft
+SANDBOX_V2_SCIENCE_PRENODE_LOCKED	Preceding nodes not lit yet	Предыдущие узлы ещё не активированы	initial_editorial_draft
+SANDBOX_V2_SCIENCE_TECH_POINTS_NOT_ENOUGH	Not enough Tech Tree points	Недостаточно очков древа технологий	initial_editorial_draft
+SANDBOX_V2_TEMP_RACER_BAG_NOT_ENOUGH_DIALOG_CONFIRM_DESC	Proceed	Продолжить	initial_editorial_draft
+SANDBOX_V2_TEMP_RACER_BAG_NOT_ENOUGH_DIALOG_DESC	{0} can hold up to <color=#e50d0d>{1}</color> slugs. Exceeded ones will not be captured	В {0} помещается не более <color=#e50d0d>{1}</color> слизней. Лишних поймать не удастся	initial_editorial_draft
+SANDBOX_V2_TEMP_RACER_BAG_NOT_ENOUGH_DIALOG_TITLE	Are you sure you want to proceed?	Вы действительно хотите продолжить?	needs_game_and_cn_context
+SANDBOX_V2_WORKBENCH_ALCHEMY_MAKE_FORMAT	{0} pcs	{0} шт.	initial_editorial_draft
+SANDBOX_V2_WORKBENCH_ALCHEMY_MAKE_TOTAL_FORMAT	{0} smelted	Выплавлено: {0}	needs_game_and_cn_context
+SANDBOX_V2_WORKBENCH_BUILDING_DEPLOY_FULL	Maximum deployable quantity reached	Достигнут предел размещённых объектов	initial_editorial_draft
+SANDBOX_V2_WORKBENCH_BUILDING_DEPLOY_STATUS_FORMAT	<size=22><color=black>{0}</color></size> deployed / <size=22><color=black>{1}</color></size> maximum	<size=22><color=black>{0}</color></size> размещено / <size=22><color=black>{1}</color></size> максимум	initial_editorial_draft
+SANDBOX_V2_WORKBENCH_BUILDING_LIMIT_DESC_FORMAT	Only {0} of this Construct can be placed. Assembling extra pieces will not let you deploy any more past the limit.	Можно разместить только {0} таких сооружений. Изготовление дополнительных не увеличит предел размещения.	initial_editorial_draft
+SANDBOX_V2_WORKBENCH_BUILDING_LIMIT_TITLE	Continue building?	Продолжить строительство?	initial_editorial_draft
+SANDBOX_V2_WORKBENCH_CRAFT_MAKE_FORMAT	{0} pcs	{0} шт.	initial_editorial_draft
+SANDBOX_V2_WORKBENCH_CRAFT_MAKE_TOTAL_FORMAT	Craft Qty {0}	Изготовить: {0}	initial_editorial_draft
+SANDBOX_V2_WORKBENCH_NOT_ENOUGH_MAT_TIP	Insufficient materials	Недостаточно материалов	initial_editorial_draft
+TIME_MAIL_PASS_AND_EXPIRE	<color=#0075A9>{0}-{1}-{2}</color> <color=#313131>expiring in {3} days</color>	<color=#0075A9>{0}-{1}-{2}</color> <color=#313131>истекает через {3} дн.</color>	initial_editorial_draft
+VEC_BREAK_V2_ACT_NAME	Vector Breakthrough	Векторный прорыв	needs_game_and_cn_context
+VEC_BREAK_V2_DEFENSE_SCHEDULE_HINT_STR	Updates after {0}	Обновится через {0}	initial_editorial_draft
+VEC_BREAK_V2_DEFENSE_UNLOCK_COND_FORMAT	Activate {0} to unlock	Активируйте {0}, чтобы открыть	initial_editorial_draft
+VEC_BREAK_V2_MILESTONE_ITEM_LOCK_TEXT	Next phase's rewards unlock after {0}	Награды следующего этапа откроются через {0}	initial_editorial_draft
+VEC_BREAK_V2_MILESTONE_REWARD_INFO_FORMAT	*Reach Breakthrough Milestone Lv. <color=#E4DF13>{0}</color> to collect	* Достигните <color=#E4DF13>{0}</color> ур. этапа прорыва, чтобы получить награду	initial_editorial_draft
+VEC_BREAK_V2_SQUAD_ASSIST_CHAR_BANNED_IN_DEFENSE	Operator is already garrisoned	Оператор уже размещён в гарнизоне	initial_editorial_draft
+VEC_BREAK_V2_STAGE_NO_DATA_TOAST	Not Open	Пока недоступно	initial_editorial_draft
+VEC_BREAK_V2_STAGE_ZONE_HOME_TODO_TITLE	Special Front	Особый фронт	needs_game_and_cn_context
+VEC_BREAK_V2_UNLOCK_TIME_HINT_STR	Unlocks in {0}	Откроется через {0}	initial_editorial_draft

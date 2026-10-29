@@ -1,0 +1,30 @@
+{
+  "release": "Arknights RU v0.17",
+  "previous_release": "v0.16",
+  "ui_keyed_carryover": 2544,
+  "ui_total_indexed": 2711,
+  "new_story_files": [
+    "obt/main/level_main_00-07_beg.txt",
+    "obt/main/level_main_00-07_end.txt"
+  ],
+  "new_story_dialogue_drafts": 98,
+  "previous_story_dialogues_preserved": 315,
+  "story_dialogue_drafts_total": 413,
+  "story_files_total": 8,
+  "new_story_scenes": [
+    "0-7, pre-battle",
+    "0-7, post-battle"
+  ],
+  "translation_basis": "Chinese CN original (community mirrored); English EN for context",
+  "status": "first literary draft; requires review",
+  "game_installable_patch": false,
+  "live_game_tested": false,
+  "windows_live_fetch_tested": false,
+  "unit_test_summary": "Ran 40 tests in 0.034s (all passed); synthetic preview builds; no Windows or game run",
+  "ui_keyed_sha256": "66860274cec299afd293f9895476b5b4567e71f5e4af873eec481d6d3462a426",
+  "previous_story_files_identical": 6,
+  "previous_item_drafts_identical": 3,
+  "new_cn_and_en_revision_source": "GitHub fetch_file results with exact Git blob SHA-1; physical original scenes not embedded in this project",
+  "real_story_sources_fetched_for_local_game_preview": false,
+  "proof_of_real_game_functionality": false
+}

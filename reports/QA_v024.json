@@ -1,0 +1,44 @@
+{
+  "version": "v0.24",
+  "new_scripts": [
+    "02-04_beg",
+    "02-04_end",
+    "02-05_beg",
+    "02-05_end"
+  ],
+  "new_dialogues": 210,
+  "chapter_2_scripts_draft": 10,
+  "chapter_2_scripts_total": 20,
+  "chapter_2_lines_draft": 596,
+  "total_story_files": 34,
+  "total_story_lines": 1951,
+  "ui_translations_preserved": 2544,
+  "sources": {
+    "02-04_beg": {
+      "cn_git_blob_sha1": "e21d3ff27b6a6c4f4e8c62bb8e7a5bce265eea63",
+      "en_git_blob_sha1": "1ac89425fabf20a1c093b94470731ca2ce779bca",
+      "dialogues": 62
+    },
+    "02-04_end": {
+      "cn_git_blob_sha1": "d70bfa56a7b2a0ac022832562a6162ab4a870805",
+      "en_git_blob_sha1": "1839989a30dc73c20ae55bf1f2ca9ea9958a2daf",
+      "dialogues": 43
+    },
+    "02-05_beg": {
+      "cn_git_blob_sha1": "f102c4671a0398fee5b8f223f8c83089b86642b4",
+      "en_git_blob_sha1": "4f1db44081816fba4f051d52ad5e143b91568417",
+      "dialogues": 51
+    },
+    "02-05_end": {
+      "cn_git_blob_sha1": "519fdfd2f05c20ad04ef3abb188025bf7844a11f",
+      "en_git_blob_sha1": "456fdebaa5ca11e76a0f6b8d924715b7e58a2e20",
+      "dialogues": 54
+    }
+  },
+  "limits": [
+    "literary first drafts: not reviewed by second editor",
+    "real CN/EN network fetch and Windows game client not tested",
+    "local source revision hashes must match"
+  ],
+  "automated_tests_passed": 99
+}

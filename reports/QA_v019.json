@@ -1,0 +1,30 @@
+{
+  "release": "v0.19",
+  "new_story_files": [
+    "obt/main/level_main_00-09_end.txt",
+    "obt/main/level_main_00-10_beg.txt"
+  ],
+  "new_drafts": 103,
+  "previous_story_drafts": 491,
+  "story_drafts_total": 594,
+  "story_files_total": 11,
+  "ui_keyed_carryover": 2544,
+  "ui_total_indexed": 2711,
+  "source_type": "community mirrors, not official",
+  "all_new_dialogues_have_cn_en_pair_counts": true,
+  "semantic_editorial_review": "pending",
+  "game_patch": false,
+  "game_tested": false,
+  "tests": "55 Python unittest checks passed (including 11-scene synthetic end-to-end, invalid revision refusal)",
+  "ui_unchanged_verified_by_sha256": true,
+  "item_drafts_unchanged_verified_by_sha256": true,
+  "prior_story_491_unchanged": true,
+  "actual_story_source_download_in_sandbox": false,
+  "real_Arknights_launch_tested": false,
+  "source_english_cn_file_counts_checked_via_GitHub_connector": true,
+  "limitations": [
+    "Source files fetched for translation through GitHub connector; sandbox cannot execute GitHub network download; synthetic scene tests do not establish actual game compatibility",
+    "No game patch/AssetBundle writer",
+    "Requires second-pass literary review, 2 new scenes only"
+  ]
+}

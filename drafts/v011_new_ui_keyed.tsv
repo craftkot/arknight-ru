@@ -1,0 +1,288 @@
+game_key	english	russian	editorial_status
+ACT12D6_MILE_STONE_GET	Obtain by collecting<color=#F77719>{0}</color>{1}	Для получения соберите <color=#F77719>{0}</color>{1}	initial_editorial_draft
+ACT12D6_RELIC_COUNT	Currently held: <color=#EDEDED>{0}</color>	В наличии: <color=#EDEDED>{0}</color>	initial_editorial_draft
+ACT12D6_UPGRADE_BUFF_CONFIRM	Consume <color=#0093D5>{1}</color> {0} to upgrade to {2}?	Потратить <color=#0093D5>{1}</color> {0}, чтобы улучшить до {2}?	initial_editorial_draft
+ACT12SIDE_FOG_ITEM_TOAST	Amount of <color=#22bbff>{0}</color> insufficient, please head to the Honors Showcase to obtain the corresponding rewards	Недостаточно <color=#22bbff>{0}</color>. Перейдите на витрину наград, чтобы получить нужные предметы.	initial_editorial_draft
+ACT12SIDE_REPO_NOT_OWN	<color=#636363>Unlock more information after obtaining Stickers</color>	<color=#636363>Получите наклейки, чтобы открыть дополнительные сведения</color>	initial_editorial_draft
+ACT13SIDE_CANCEL_AGENDA_MAX	<color=#C34342>The number of Agenda Proposals has reached the maximum limit {0}, any extra gained cannot be recovered.</color>	<color=#C34342>Достигнут предел предложений повестки: {0}. Лишние предложения не будут возвращены.</color>	initial_editorial_draft
+ACT13SIDE_CANCEL_MISSION_DESC	Turn down the selected task? ({0} Agenda Proposals will be returned)\nProgress will be lost and the task will not return to the task list	Отказаться от выбранного задания? ({0} предложений повестки вернутся)\nПрогресс будет потерян, а задание не появится в списке снова.	initial_editorial_draft
+ACT13SIDE_DAILY_POOL_MISSION_DESC	{0}\n\n<color=#b9b9b9>{1}  Prestige +{2}</color>	{0}\n\n<color=#b9b9b9>{1}  Престиж +{2}</color>	initial_editorial_draft
+ACT13SIDE_FOG_ITEM_TOAST	<color=#22bbff>{0}</color> amount insufficient, please increase the respective faction's Prestige to obtain	Недостаточно <color=#22bbff>{0}</color>. Повышайте престиж соответствующей фракции.	initial_editorial_draft
+ACT17D1_CREATE_ROOM_SQUAD_NOT_SET	There are currently no squads setup for the selected Test Site <color=#FFC600>{0}</color>	Для выбранного испытательного полигона <color=#FFC600>{0}</color> ещё не создано ни одного отряда.	requires_context_review
+ACT17D1_STAGE_ENTRY_BANNED	Abnormal activity in Multivariate Cooperation has been detected on this account. This account has been automatically restricted by the system and will be released on {0}	На этой учётной записи обнаружена подозрительная активность в «Многовариантном сотрудничестве». Система автоматически ограничила доступ до {0}.	requires_context_review
+ACT17D1_STAGE_ENTRY_MATCH_FROZEN	Multiple instances of negative behavior in Multivariate Cooperation has been detected on this account. This account is temporarily restricted from Matchmaking, please try again after the countdown ends	За неоднократные нарушения в «Многовариантном сотрудничестве» доступ к подбору игроков временно ограничен. Попробуйте снова после окончания отсчёта.	requires_context_review
+ACT20SIDE_ACT_CLOSED	Event has ended	Событие завершено	initial_editorial_draft
+ACT20SIDE_COMPETITION_INVALID	Not open	Недоступно	initial_editorial_draft
+ACT20SIDE_EHIBT_FINISH	Design updated	Оформление обновлено	initial_editorial_draft
+ACT20SIDE_ENSURE_CHANGE_CAR	Self-Driving Cart configuration not saved! Really want to leave?	Настройки самоходной тележки не сохранены. Всё равно выйти?	initial_editorial_draft
+ACT20SIDE_ENSURE_CHANGE_EXHIBITION_CAR	Self-Driving Cart design not saved! Really want to leave?	Оформление самоходной тележки не сохранено. Всё равно выйти?	initial_editorial_draft
+ACT20SIDE_EQUIP_FINISH	Self-Driving Cart configuration updated	Комплектация самоходной тележки обновлена	initial_editorial_draft
+ACT20SIDE_ITEM_RANGE_TIP	There is a chance to get any gear other than {0} at the Gear Trading Center	В центре обмена деталей можно получить любые детали, кроме {0}	initial_editorial_draft
+ACT20SIDE_LOCK_SP_DETAIL	Unlocked after obtaining {0} pieces of Self-Driving Cart gear	Откроется после получения {0} деталей самоходной тележки	initial_editorial_draft
+ACT20SIDE_NO_ITEM_TO_CLAIM	Collect more <color=#0098DC>{0}</color> to get gear	Соберите больше <color=#0098DC>{0}</color>, чтобы получить детали	initial_editorial_draft
+ACT20SIDE_NO_JUDE_TIMES	Today's Self-Driving Cart sharing has ended	Сегодня больше нельзя делиться самоходной тележкой	initial_editorial_draft
+ACT20SIDE_RECYCLE_CHECK	No extra gear available to be recycled	Нет лишних деталей для переработки	initial_editorial_draft
+ACT20SIDE_SP_STAGE_UNLOCK	Unlocked after completing {0}	Откроется после прохождения {0}	initial_editorial_draft
+ACT20SIDE_TOAST_AUTO_BATTLE	Cannot change Self-Driving Cart gear in this operation	В этой операции нельзя менять детали самоходной тележки	initial_editorial_draft
+ACT20SIDE_TOAST_UNLOCK_CART	Backyard Garage unlocked!	Открыт гараж на заднем дворе!	initial_editorial_draft
+ACTLOGIN_END_TIME_TITLE	Event Ends at:	Окончание события:	initial_editorial_draft
+ACTMULTIV3_ROOM_EXIT_SC_TIPS	Are you sure you want to leave?	Вы действительно хотите покинуть комнату?	initial_editorial_draft
+ACT_COLLECTION_TIME_DESC	{0:D4}/{1:D2}/{2:D2} {3:D2}:{4:D2}  <color=#{5}>{6} remaining</color>	{0:D4}/{1:D2}/{2:D2} {3:D2}:{4:D2}  <color=#{5}>Осталось: {6}</color>	initial_editorial_draft
+AVATAR_UNLOCK_CONDITION_PRE	Unlock condition - {0}	Условие разблокировки — {0}	initial_editorial_draft
+BATTLE_SYSMENU_DESCRIPTION_AP_FORMAT	<color=#FF6101>Retreating</color> refunds {0} Sanity <color=#FF6101>(only {1} Sanity will be consumed)</color>:	<color=#FF6101>Отступление</color> вернёт {0} рассудка <color=#FF6101>(потратится только {1})</color>:	initial_editorial_draft
+BATTLE_SYSMENU_DESCRIPTION_AP_RETURNALL_FORMAT	<color=#FF6101>Retreating</color> refunds {0} Sanity <color=#FF6101>(totally returned)</color>:	<color=#FF6101>Отступление</color> вернёт {0} рассудка <color=#FF6101>(полный возврат)</color>:	initial_editorial_draft
+BATTLE_SYSMENU_DESCRIPTION_ET_FORMAT	<color=#FF6101>Retreating</color> refunds {0} {2} <color=#FF6101>(only {1} {2} will be consumed)</color>:	<color=#FF6101>Отступление</color> вернёт {0} {2} <color=#FF6101>(потратится только {1} {2})</color>:	initial_editorial_draft
+BATTLE_SYSMENU_DESCRIPTION_ET_RETURNALL_FORMAT	<color=#FF6101>Retreating</color> refunds {0} {1} <color=#FF6101>(totally returned)</color>:	<color=#FF6101>Отступление</color> вернёт {0} {1} <color=#FF6101>(полный возврат)</color>:	initial_editorial_draft
+BOSS_RUSH_BATTLE_FAILED_CAPTION	Trial ended	Испытание завершено	requires_context_review
+BOSS_RUSH_BATTLE_SUCCESS_CAPTION	Trial passed	Испытание пройдено	requires_context_review
+BOSS_RUSH_ENTRY_RELIC_CAN_UPGRADE_TIP	A new Limiter Unit can be upgraded	Доступно улучшение ограничивающего модуля	requires_context_review
+BOSS_RUSH_ENTRY_RELIC_NEW_TIP	A new Limiter Unit is available	Доступен новый ограничивающий модуль	requires_context_review
+BOSS_RUSH_EX_STAGE_NAME	Spectacular Trial	Зрелищное испытание	requires_context_review
+BOSS_RUSH_NORMAL_STAGE_NAME	Basic Trial	Базовое испытание	requires_context_review
+BOSS_RUSH_RELICS_CAN_USE_TOAST	Limiter Units <color=#0697DDFF>{0}</color> are available	Доступны ограничивающие модули <color=#0697DDFF>{0}</color>	requires_context_review
+BOSS_RUSH_RELICS_UPGRADE_FAIL_TOAST	Insufficient Data Blackboxes	Недостаточно чёрных ящиков данных	requires_context_review
+BOSS_RUSH_RELICS_UPGRADE_LACK_TIP	<color=#BC2323>{0}</color> {1} needed to upgrade {2} to LV.{3}	Для улучшения {2} до ур. {3} не хватает <color=#BC2323>{0}</color> {1}	requires_context_review
+BOSS_RUSH_RELICS_UPGRADE_NEED_TIP	Spend <color=#166ABF>{0}</color> {1} to upgrade {2} to LV.{3}?	Потратить <color=#166ABF>{0}</color> {1}, чтобы улучшить {2} до ур. {3}?	requires_context_review
+BOSS_RUSH_RELICS_UPGRADE_SUCCESS_TOAST	Data Iteration updated	Итерация данных обновлена	requires_context_review
+BOSS_RUSH_RELIC_CAN_USE_TOAST	Limiter Unit <color=#0697DDFF>{0}</color> is available	Доступен ограничивающий модуль <color=#0697DDFF>{0}</color>	requires_context_review
+BOSS_RUSH_SP_STAGE_NAME	Ultimate Trial	Предельное испытание	requires_context_review
+BOSS_RUSH_SUCCESS_WAVE_DES	Wave {0} Elite	Волна {0}: элитные противники	requires_context_review
+BOSS_RUSH_TEAM_STAGE_NAME	Orientation Trial	Ознакомительное испытание	requires_context_review
+CHARACTER_HANDBOOKSTAGE_NONE	No data	Нет данных	initial_editorial_draft
+CHARACTER_HANDBOOKSTAGE_PASS	Cleared	Пройдено	initial_editorial_draft
+CHARACTER_HANDBOOKSTAGE_UNLOCK	Uncleared	Не пройдено	initial_editorial_draft
+CHARACTER_SORT_TYPE_COST	Deployment Cost	Стоимость размещения	initial_editorial_draft
+CHARACTER_SORT_TYPE_GAIN_TIME	Acquisition Date	Дата получения	initial_editorial_draft
+CHAR_LEVELUP_ALERT_LACK_EXP	Insufficient Battle Records	Недостаточно боевых записей	initial_editorial_draft
+CHAR_LEVELUP_ALERT_LACK_RES	Insufficient LMD and Battle Records	Недостаточно LMD и боевых записей	initial_editorial_draft
+CHAR_LEVELUP_LACK_EXP	Still need {0}, approximately {1}x{2}	Не хватает {0} опыта — примерно {1} × {2}	initial_editorial_draft
+CHAR_LEVELUP_LACK_GOLD	Still need {0}	Не хватает {0}	initial_editorial_draft
+CHAR_LEVELUP_WASTE_EXP_TIPS	*{0} EXP will be wasted	*{0} опыта будет потрачено впустую	initial_editorial_draft
+CHOOSE_SECRETARY_SKIN_ENSURE	Select this outfit as <color=#22bbff>{0}</color>'s assistant outfit?	Выбрать этот костюм для ассистента <color=#22bbff>{0}</color>?	initial_editorial_draft
+CLIMB_TOWER_ASSIST_MAX_TOAST	Support limit reached	Достигнут предел операторов поддержки	requires_context_review
+CLIMB_TOWER_BUFF_NAME	Tactical Equipment: {0}	Тактическое оборудование: {0}	requires_context_review
+CLIMB_TOWER_CANT_START_TOAST	{0} Operators required for Security Operation	Для операции безопасности требуется {0} операторов	requires_context_review
+CLIMB_TOWER_ENTRY_PROGRESS_FORMAT	STAGE {0}	ЭТАП {0}	requires_context_review
+CLIMB_TOWER_FREE_PLAN_DES	Operators will be chosen at random.	Операторы выбираются случайным образом.	requires_context_review
+CLIMB_TOWER_FREE_PLAN_NAME	Free Plan	Свободный план	requires_context_review
+CLIMB_TOWER_HARD_MODE_LOCKED_TIPS_TOAST	Unlocked after completing Standard Supply mode	Откроется после прохождения режима обычных поставок	requires_context_review
+CLIMB_TOWER_INIT_GOD_CARD_UNSELECT_TOAST	Choose a Directional EC Unit	Выберите направленный EC-модуль	requires_context_review
+CLIMB_TOWER_INIT_SETTLE_DESC	End the current security operation and leave the mission?	Завершить текущую операцию безопасности и покинуть задание?	requires_context_review
+CLIMB_TOWER_INIT_SQUAD_HINT	Pick 1st Squad	Выберите первый отряд	requires_context_review
+CLIMB_TOWER_INIT_SQUAD_NOT_FULL_TOAST	Not enough members in 1st squad to start operation.	В первом отряде недостаточно операторов для начала операции.	requires_context_review
+CLIMB_TOWER_IN_BATTLE	Clearing	Прохождение	requires_context_review
+CLIMB_TOWER_LAYER_CHALLENGE_AGAIN	Redeploy	Повторить операцию	requires_context_review
+CLIMB_TOWER_LAYER_CHALLENGE_START	Begin Deployment	Начать операцию	requires_context_review
+CLIMB_TOWER_LAYER_TASK_ALREADY_RECEIVED	Claimed	Получено	requires_context_review
+CLIMB_TOWER_LAYER_TASK_INCOMPLETED	Incomplete	Не выполнено	requires_context_review
+CLIMB_TOWER_PREFERRED_PLAN_DES	Frequently-used Operators will be prioritized.	В первую очередь выбираются часто используемые операторы.	requires_context_review
+CLIMB_TOWER_PREFERRED_PLAN_NAME	Preferred Plan	Приоритетный план	requires_context_review
+CLIMB_TOWER_REMAIN_TIME_FORMAT	{0} remaining	Осталось: {0}	requires_context_review
+CLIMB_TOWER_REWARD_ITEM_NAME_FORMAT	Reward <color=#FF6800>{0}</color>	Награда <color=#FF6800>{0}</color>	requires_context_review
+CLIMB_TOWER_SETTLE_BUTTON_DESC	Revoke Authority	Отозвать полномочия	requires_context_review
+CLIMB_TOWER_SETTLE_BUTTON_DESC_TRAINING	End Drill	Завершить тренировку	requires_context_review
+CLIMB_TOWER_SETTLE_DESC	End the current security operation?	Завершить текущую операцию безопасности?	requires_context_review
+CLIMB_TOWER_SETTLE_DESC_TRAINING	End the current security operation and end the drill?	Завершить текущую операцию безопасности и тренировку?	requires_context_review
+CLIMB_TOWER_SQUAD_FULL_TOAST	Squad Operator limit reached	Достигнут предел операторов в отряде	requires_context_review
+CLIMB_TOWER_SWEEP_COST_NOT_ENOUGH_TOAST	Not enough {1}. {0} required.	Недостаточно {1}. Требуется {0}.	requires_context_review
+CLIMB_TOWER_SWEEP_REWARD_EMPTY_TOAST	No projected rewards. Proxy card cannot be used.	Награды не ожидаются. Использовать карточку пропуска нельзя.	requires_context_review
+CLIMB_TOWER_TODO_PANEL_CURRENT_ITEM_NAME_FORMAT	<color=00000080>Incomplete</color>{0}	<color=00000080>Не выполнено</color>{0}	requires_context_review
+CLIMB_TOWER_TRAIN_INCOMPLETE_TOAST	Unlocked after completing Security Drill.	Откроется после прохождения тренировочного испытания.	requires_context_review
+CLIMB_TOWER_UNLOCK_TOAST	<color=#0098dc>Stationary Security Service</color> unlocked in Terminal - Regular Tasks	<color=#0098dc>Служба стационарной безопасности</color> открыта в Терминале — Регулярные задания	requires_context_review
+CRISIS_MAPRANK_DETAIL	Complete an operation at the <color=#ff6801>designated Site</color> in <color=#ff6801>any mode</color> to receive an Unlock Rank corresponding to your completed Contingency Level.	Пройдите операцию на <color=#ff6801>указанной локации</color> в <color=#ff6801>любом режиме</color>, чтобы получить ранг разблокировки, соответствующий достигнутому уровню риска.	initial_editorial_draft
+DEEP_SEA_RP_TECH_NODE_NEW_GET	New component available!	Доступен новый компонент!	initial_editorial_draft
+DEEP_SEA_RP_TECH_SQUAD_CANT_EDIT	Cannot set components at this time	Сейчас нельзя изменить набор компонентов	initial_editorial_draft
+DEEP_SEA_RP_TECH_STATE_EXIT_CONFIRM	There are unsaved changes on this page. Are you sure you want to exit?	Есть несохранённые изменения. Выйти, не сохраняя их?	initial_editorial_draft
+DEEP_SEA_RP_TECH_UNLOCK	Little Handy unlocked!	Открыт «Маленький помощник»!	initial_editorial_draft
+DEEP_SEA_STAGE_LOCKED_TOAST	Stage not yet unlocked, please challenge the preceding stage first	Этап пока закрыт. Сначала пройдите предыдущий.	initial_editorial_draft
+DIALOG_JUDGE_NO_MORE_CHECK	Do not show again	Больше не показывать	initial_editorial_draft
+DYN_ENTRANCE_DISABLED_BY_PARENT	Please enable dynamic art-related settings	Включите отображение динамических иллюстраций в настройках	initial_editorial_draft
+DYN_ENTRANCE_INVALID_NO_RES	Please download the additional dynamic art assets first	Сначала загрузите дополнительные ресурсы динамических иллюстраций	initial_editorial_draft
+FAST_CAMP_LOCK_NOREWARD	Cannot execute with 0 expected Orundum reward	Нельзя выполнить: ожидаемая награда в орондуме равна 0	initial_editorial_draft
+FAST_CAMP_LOCK_NOTKT	No {0}	Нет {0}	initial_editorial_draft
+FAST_CAMP_LOCK_TRAIN	Not available in Annihilation Simulation	Недоступно в симуляции аннигиляции	initial_editorial_draft
+FLOATPARADE_EXT_REWARD_DESC	DAY {0} Special Development Fund	ДЕНЬ {0}: дополнительный фонд развития	initial_editorial_draft
+HOME_BACKGROUND_UNLOCK_CONDITION_PRE	Unlock Conditions	Условия разблокировки	initial_editorial_draft
+HOT_UPDATE_RES_TYPE_VIDEO	Video	Видео	initial_editorial_draft
+ITEM_REPO_ISSUE_VOUCHER_CONSUME_0_FORMAT	Spend {0} <size=25><color=#FF6801>{1}</color></size>	Потратить {0} <size=25><color=#FF6801>{1}</color></size>	initial_editorial_draft
+ITEM_REPO_ISSUE_VOUCHER_CONSUME_1_FORMAT	Spend <color=#009ee8>{1}</color> <color=#009ee8>{0}</color> to get these materials?	Потратить <color=#009ee8>{1}</color> <color=#009ee8>{0}</color>, чтобы получить эти материалы?	initial_editorial_draft
+ITEM_REPO_ISSUE_VOUCHER_MAX_PICK_TIPS	Limit reached	Достигнут предел	initial_editorial_draft
+ITEM_REPO_ISSUE_VOUCHER_POSSESS_FORMAT	You own {0}	В наличии: {0}	initial_editorial_draft
+ITEM_REPO_OPTIONAL_VOUCHER_CHOOSE_NOT_COMPLETE_TIPS	There are more items available to exchange.	Доступны дополнительные предметы для обмена.	initial_editorial_draft
+ITEM_REPO_OPTIONAL_VOUCHER_ITEM_HAS	You own {0}	В наличии: {0}	initial_editorial_draft
+ITEM_REPO_OPTIONAL_VOUCHER_MAX_PICK_TIPS	At max	Достигнут предел выбора	initial_editorial_draft
+ITEM_REPO_OPTIONAL_VOUCHER_OUTPUT_TIPS	Exchange <color=#0697DDFF>{0}</color> <color=#0697DDFF>{1}</color> for these items?	Обменять <color=#0697DDFF>{0}</color> <color=#0697DDFF>{1}</color> на эти предметы?	initial_editorial_draft
+LEGION_BATTLE_SELECT_BEYOND_OUT_PENDING	Enter Preparation Area	Войти в зону подготовки	initial_editorial_draft
+LEGION_BATTLE_SELECT_BEYOND_OUT_USED	Enter Recuperation Area	Войти в зону восстановления	initial_editorial_draft
+LEGION_BATTLE_SELECT_CARD_GIVE_UP_CONFIRM	Discard	Сбросить	initial_editorial_draft
+LEGION_BATTLE_SELECT_CARD_GIVE_UP_TIPS	Discard selection?	Сбросить выбор?	initial_editorial_draft
+LEGION_BATTLE_SELECT_TIPS_NEED	Requires assignment	Требуется назначение	initial_editorial_draft
+LEGION_BATTLE_SELECT_TIPS_UNNEED	Not needed	Не требуется	initial_editorial_draft
+LEGION_BATTLE_TOAST_BLAST_CARD	Full Zone. {0} cannot join.	Зона заполнена. {0} не может присоединиться.	initial_editorial_draft
+LEGION_BATTLE_TOAST_BLAST_TRAP_TRIGGER	You deployed a {0} and triggered {1}.	Вы разместили {0} и активировали {1}.	initial_editorial_draft
+MULTI_CREATE_ROOM_BACK_TO_OUT	Abnormal situation detected when applying for Test Project. Returning to the login interface	Ошибка при создании проекта испытания. Возврат к экрану входа.	initial_editorial_draft
+MULTI_CREATE_TOO_MANY_PEOPLE	Unable to apply for Test Project due to too many participants. Please try again later	Не удалось создать проект испытания: слишком много участников. Повторите попытку позже.	initial_editorial_draft
+MULTI_ENTER_ROOM_BACK_TO_OUT	Abnormal situation detected when entering the Test Site. Returning to the login interface	Ошибка при входе на полигон. Возврат к экрану входа.	initial_editorial_draft
+MULTI_FIND_ROOM_BACK_TO_OUT	Abnormal situation detected when searching for cooperator. Returning to the login interface	Ошибка при поиске напарника. Возврат к экрану входа.	initial_editorial_draft
+MULTI_JOIN_ROOM_BACK_TO_OUT	Abnormal situation detected when joining Test Project. Returning to the login interface	Ошибка при присоединении к проекту испытания. Возврат к экрану входа.	initial_editorial_draft
+MULTI_JOIN_ROOM_WORD	Abnormal situation detected when joining Test Project	Ошибка при присоединении к проекту испытания	initial_editorial_draft
+MULTI_MATCH_BACK_TO_OUT	Abnormal situation detected when attempting to Matchmake. Returning to the login interface	Ошибка при подборе игроков. Возврат к экрану входа.	initial_editorial_draft
+MULTI_NOT_ABLE_TO_HARD	Some Test Sites do not have Challenge Tests available. Matchmaking will be automatically restricted to available Tests	На некоторых полигонах недоступны сложные испытания. Подбор игроков будет ограничен доступными испытаниями.	initial_editorial_draft
+MULTI_NO_HARD_AVAIL	All Test Sites do not have Challenge Tests available currently. Please change the Test Project requirement	Сложные испытания сейчас недоступны на всех полигонах. Измените требования к проекту.	initial_editorial_draft
+NAMECARD_CHANGE_SKIN_TMPL_TOAST	Style changed	Оформление изменено	initial_editorial_draft
+NAMECARD_DETAIL_HIDE	Widgets set to hidden by default	Виджеты скрыты по умолчанию	initial_editorial_draft
+NAMECARD_DETAIL_SHOW	Widgets set to display by default	Виджеты отображаются по умолчанию	initial_editorial_draft
+NAMECARD_DISPLAY_BIRTHDAY	Birthday will be shown publicly	Дата рождения будет видна всем	initial_editorial_draft
+NAMECARD_DISPLAY_EMPLOY_DATE	Onboarding date will be shown publicly	Дата начала службы будет видна всем	initial_editorial_draft
+NAMECARD_SKIN_TMPL_TIPS	Please choose a default style for profile <color=#0085bf><{0}></color>	Выберите оформление по умолчанию для профиля <color=#0085bf><{0}></color>	initial_editorial_draft
+NAMECARD_SKIN_UNLOCK_CONDITION_PRE	Unlock Conditions	Условия разблокировки	initial_editorial_draft
+RL02_SHOP_REFRESH_TIP	Spend 1 die roll to refresh items?\n Randomly refreshes <color=#d13132>2</color> shop slots. If roll is <color=#d13132>5 or higher</color>, refresh all slots instead. If roll is <color=#d13132>7 or higher</color>, randomly refresh slots with higher-value collectibles.	Потратить один бросок кубика, чтобы обновить товары?\n Случайным образом обновятся <color=#d13132>2</color> ячейки магазина. Если выпадет <color=#d13132>5 или больше</color>, обновятся все ячейки. При результате <color=#d13132>7 или больше</color> появится шанс получить более ценные коллекционные предметы.	initial_editorial_draft
+RL03_COST_TEXT	Raising the equipment's power to explore a new path will decrease the device's Anti-Interference Index. Are you sure you want to continue?	Увеличение мощности устройства откроет новый путь, но снизит его индекс помехоустойчивости. Продолжить?	requires_context_review
+RL03_DIFF_RULE_ACTIVE_GRADE	Takes effect when exploring on difficulty <{0}·{1}> and above	Действует при исследовании на сложности <{0}·{1}> и выше	requires_context_review
+RL03_SHOP_WITHDRAWL_TIPS	The system balance consumed for withdrawing reserves will be increased.	Стоимость снятия средств из резервов увеличится.	requires_context_review
+RL03_TOTEM_CANT_USE_TOAST	Foldartal does not meet requirements and cannot be used	Фолдартал не соответствует условиям и не может быть использован.	requires_context_review
+RL03_TOTEM_CONFIRM_DEFAULT	Pair a Source and Layout	Соедините «Источник» и «Расклад»	requires_context_review
+RL03_TOTEM_CONFIRM_NEED_NODE	Please select node(s)	Выберите узел или несколько узлов	requires_context_review
+RL03_TOTEM_ONLY_DISPLAY_TOAST	Cannot be used now, please use on main map	Сейчас использовать нельзя. Вернитесь на основную карту.	requires_context_review
+RL03_TOTEM_PREDICT_TOAST	[Clairvoyance] Receive Foldartal after current floor	[Ясновидение] Получите фолдартал после текущего этажа	requires_context_review
+RL03_TOTEM_SELECT_DESC	Choose a Foldartal	Выберите фолдартал	requires_context_review
+RL03_VISION_MAX_TIP	Anti-Interference Index limit reached	Достигнут предел индекса помехоустойчивости	requires_context_review
+ROGUELIKE_HAVE_ACTIVE_TOPIC	<{0}> In Progress	<{0}> — в процессе	initial_editorial_draft
+ROGUELIKE_TOPIC_MONTH_TASK_REFRESH_ALERT	Refresh the selected contract? \nThe progress for the current contract will be reset and a random contract of the same <color=#{0}>{1}Type</color> will be selected\nRemaining refreshes this month: {2}	Обновить выбранный контракт? \nТекущий прогресс будет сброшен. Вместо него появится случайный контракт того же <color=#{0}>{1}типа</color>.\nОсталось обновлений в этом месяце: {2}	initial_editorial_draft
+ROGUELIKE_TOPIC_MONTH_TASK_RULE	While the main theme updates, complete monthly contracts in Regular Operations to obtain <color=#{0}>{1}</color>! \nMonthly contracts will be refreshed at the start of every month and the previous month's progress will not carry over	Пока обновляется основная тема, выполняйте ежемесячные контракты в обычном режиме, чтобы получить <color=#{0}>{1}</color>! \nКонтракты обновляются в начале каждого месяца. Прогресс прошлого месяца не сохраняется.	initial_editorial_draft
+ROGUE_4_ALCHEMY_FORECAST_REWARD_TIPS_NORMAL	Predicted Result: <color=#bababa>Regular Reward</color>	Предполагаемый результат: <color=#bababa>обычная награда</color>	requires_context_review
+ROGUE_4_ALCHEMY_FORECAST_REWARD_TIPS_NOT_READY	Predicted Result	Предполагаемый результат	requires_context_review
+ROGUE_4_ALCHEMY_FORECAST_REWARD_TIPS_RARE	Predicted Result: <color=#987cbf>Uncommon Reward</color>	Предполагаемый результат: <color=#987cbf>необычная награда</color>	requires_context_review
+ROGUE_4_ALCHEMY_FORECAST_REWARD_TIPS_SSR	Predicted Result: <color=#c08301>Rare Reward</color>	Предполагаемый результат: <color=#c08301>редкая награда</color>	requires_context_review
+ROGUE_4_ALCHEMY_GROUP_TITLE	Thoughts - {0}	Мысли — {0}	requires_context_review
+ROGUE_4_ALCHEMY_IS_IN_DISASTER_TOAST	Your Thoughts are lost to the Philosophical Epoch, unable to continue interpreting	Ваши мысли затерялись в философской эпохе. Продолжить толкование нельзя.	requires_context_review
+ROGUE_4_ALCHEMY_RESULT_FAIL	Overflowing Distraction	Поток отвлечённых мыслей	requires_context_review
+ROGUE_4_ALCHEMY_RESULT_NORMAL	Plausible Comprehension	Правдоподобное понимание	requires_context_review
+ROGUE_4_ALCHEMY_RESULT_NORMAL_MULTI_CHOICE	Plausible Comprehension... Select a Collectible	Правдоподобное понимание… Выберите коллекционный предмет	requires_context_review
+ROGUE_4_ALCHEMY_RESULT_SSR	A Sudden Revelation	Внезапное озарение	requires_context_review
+ROGUE_4_ALCHEMY_RESULT_SSR_MULTI_CHOICE	A Sudden Revelation! Select a Collectible	Внезапное озарение! Выберите коллекционный предмет	requires_context_review
+ROGUE_4_ALCHEMY_START_BTN_IS_IN_DISASTER_TOAST	Your Thoughts have been lost to the Philosophical Epoch, unable to interpret them	Ваши мысли затерялись в философской эпохе. Их нельзя истолковать.	requires_context_review
+ROGUE_4_ALCHEMY_START_BTN_NOT_READY_TOAST	Select {0} Thoughts	Выберите {0} мысли	requires_context_review
+ROGUE_4_ALCHEMY_TIPS	Select {0} Thoughts from the right	Выберите справа {0} мысли	requires_context_review
+ROGUE_4_ALCHEMY_TIPS_1	The rarer the Thoughts, the better the reward	Чем реже мысли, тем ценнее награда	requires_context_review
+ROGUE_4_ARCHIVE_DISASTER_LOCKED_DESC	Have yet to venture into this epoch	Вы ещё не бывали в этой эпохе	requires_context_review
+ROGUE_4_ARCHIVE_DISASTER_LOCKED_EFFECT	Have yet to venture into this epoch period	Вы ещё не бывали в этом периоде эпохи	requires_context_review
+ROGUE_4_ARCHIVE_FRAGMENT_DESC_LOCKED	Thought unobtained	Мысль ещё не получена	requires_context_review
+ROGUE_4_ARCHIVE_FRAGMENT_UNATTAINED	Not obtained	Не получено	requires_context_review
+ROGUE_4_DIFF_RULE_ACTIVE_GRADE	Takes effect when exploring on difficulty <{0}·{1}> and above	Действует при исследовании на сложности <{0}·{1}> и выше	requires_context_review
+ROGUE_4_DUEL_GIVE_UP_BATTLE_CONTINUE	Abort current battle? \n<color=#FF6101>Doing so will not end your exploration</color>	Прервать текущий бой? \n<color=#FF6101>Исследование на этом не закончится</color>	requires_context_review
+ROGUE_4_DUEL_START_BATTLE_NOT_FULL	You can still select more Operator(s). Are you sure you want to proceed?	Можно выбрать ещё операторов. Всё равно продолжить?	requires_context_review
+ROGUE_4_ENDING_UNLOCK_FRAGMENT_COUNT	Unlocked {0} new Thoughts in this exploration	За это исследование открыто новых мыслей: {0}	requires_context_review
+ROGUE_4_FRAGMENT_CHAR_SELECT_DESC	Select {0}/{1} Operators to increase your Mental Toil Limit	Выберите {0}/{1} операторов, чтобы увеличить предел умственной нагрузки	requires_context_review
+ROGUE_4_FRAGMENT_CHECK_ONLY_TOAST	Unable to use right now, please return to the main map first	Сейчас использовать нельзя. Сначала вернитесь на основную карту.	requires_context_review
+ROGUE_4_FRAGMENT_COST_KEY_DESC	Are you sure you want to spend {0} {1} to travel vertically?	Потратить {0} {1}, чтобы переместиться по вертикали?	requires_context_review
+ROGUE_4_FRAGMENT_DROP_TOAST	<color=#0098dc>[{0}]</color> Discarded	<color=#0098dc>[{0}]</color> — выброшено	requires_context_review
+ROGUE_4_FRAGMENT_INSPIRATION_COVER_TOAST	This will override the current active Inspirer. Are you sure you want to continue?	Текущее активное вдохновение будет заменено. Продолжить?	requires_context_review
+ROGUE_4_FRAGMENT_NO_ENOUGH_KEY	Insufficient {0}	Недостаточно {0}	requires_context_review
+ROGUE_4_FRAGMENT_OVER_WEIGHT_TO_MOVE	Mind Obstructed. Unable to enter node. Please organize your Thoughts first	Разум заблокирован. Вход в узел недоступен. Сначала упорядочьте мысли.	requires_context_review
+ROGUE_4_FRAGMENT_REWARD_SELECT_DESC	Select a fragment	Выберите фрагмент	requires_context_review
+ROGUE_4_FRAGMENT_USE_INSPIRATION_TOAST	Inspirer <color=#0098dc>[{0}]</color> Used	Вдохновение <color=#0098dc>[{0}]</color> использовано	requires_context_review
+ROGUE_4_FRAGMENT_WEIGHT_DIALOG_HEAVY_DEBUFF_FORMAT	Mind is <color=#fcb01d>Fractured</color>, {0}\nAre you sure you wish to enter node?	Разум <color=#fcb01d>надломлен</color>, {0}\nВы точно хотите войти в узел?	requires_context_review
+ROGUE_4_ITEM_OBTAIN_COUNT	You have {0}	В наличии: {0}	requires_context_review
+ROGUE_4_MENU_DISASTER_STEP	<color=#ffffff>{0}</color> move(s) left	Осталось ходов: <color=#ffffff>{0}</color>	requires_context_review
+ROGUE_4_MENU_STATUS_BAR_WEIGHT	+{0} Toil Limit	+{0} к пределу нагрузки	requires_context_review
+ROGUE_4_MENU_WINDOW_DISASTER_STEP	Ends after <color=#ffffff>{0}</color> move(s)	Завершится через <color=#ffffff>{0}</color> ход(ов)	requires_context_review
+ROGUE_4_NODE_UPGRADE_BTN_PERM_NAME	Consolidate Impression	Закрепить впечатление	requires_context_review
+ROGUE_4_NODE_UPGRADE_BTN_TEMP_NAME	Amplify Impression	Усилить впечатление	requires_context_review
+ROGUE_4_NODE_UPGRADE_ITEM_CNT_STR	You have {0}	В наличии: {0}	requires_context_review
+ROGUE_4_NODE_UPGRADE_ITEM_COST_STR	x{0}	×{0}	requires_context_review
+ROGUE_4_NODE_UPGRADE_ITEM_LACK_STR	Insufficient Plans	Недостаточно планов	requires_context_review
+ROGUE_4_PERM_NODE_UPGRADE_TOAST_STR	Impression Consolidated	Впечатление закреплено	requires_context_review
+ROGUE_4_ROLL_NODE_DIALOG_DESC	Spend {0} {1} to refresh node?	Потратить {0} {1}, чтобы обновить узел?	requires_context_review
+ROGUE_4_ROLL_NODE_DIALOG_FREE_DESC	Refresh node? No Plans are required for this refresh	Обновить узел? На это не потребуются планы.	requires_context_review
+ROGUE_4_ROLL_NODE_LEFT_COUNT	Node can be refreshed {0} more times	Узел можно обновить ещё {0} раз(а)	requires_context_review
+ROGUE_4_ROLL_NODE_NO_COUNT_TOAST	Used up refreshes for this node	Попытки обновления этого узла закончились	requires_context_review
+ROGUE_4_ROLL_NODE_NO_ITEM_TOAST	Insufficient {0}	Недостаточно {0}	requires_context_review
+ROGUE_4_ROLL_NODE_SUCC_TOAST	Node Refreshed	Узел обновлён	requires_context_review
+ROGUE_4_SHOP_REFRESH_TIP	Refresh shop items?\n This will refresh <color=#01856e>all item slots</color>, every shop can only be refreshed <color=#01856e>once</color>	Обновить товары магазина?\n Обновятся <color=#01856e>все ячейки</color>. Каждый магазин можно обновить <color=#01856e>только один раз</color>.	requires_context_review
+ROGUE_4_SHOP_WITHDRAW_TIPS	The system balance consumed for withdrawing reserves will be increased.	Стоимость снятия средств из резервов увеличится.	requires_context_review
+ROGUE_4_TEMP_NODE_UPGRADE_TOAST_STR	Impression Amplified	Впечатление усилено	requires_context_review
+ROGUE_5_CAN_NOT_REDRAW_COPPER	Unable to toss again right now, please return to the main map first	Сейчас нельзя бросить монеты снова. Вернитесь на основную карту.	requires_context_review
+ROGUE_5_CHOICE_COPPER_LUCK_HINT_TIP	Current Coin(s) counting as Flower Coins: {0}; Balance Coins: {1}; Risk Coins: {2}	Монеты в текущем броске: цветочные — {0}; равновесия — {1}; риска — {2}	requires_context_review
+ROGUE_5_DEIFY_GIVE_UP_BATTLE	Abort current trial?\n\n<color=#FF6101>Doing so will not end your exploration</color>	Прервать текущее испытание?\n\n<color=#FF6101>Исследование на этом не закончится</color>	requires_context_review
+ROGUE_5_DEIFY_START_BATTLE_NOT_FULL	There are unused Candle Stands. Are you sure you want to proceed?	Остались неиспользованные подсвечники. Всё равно продолжить?	requires_context_review
+ROGUE_5_DIVINATION_KIT_NOT_ENOUGH	Insufficient Coupons to toss again	Недостаточно купонов для повторного броска	requires_context_review
+ROGUE_5_GIVE_UP_SWAP_COPPER_TIPS	Abandon exchange?	Отменить обмен?	requires_context_review
+ROGUE_5_REDRAW_COPPER_COST_TIPS	Spend {0} Coupon(s) to toss Tongbao again?	Потратить {0} купон(ов), чтобы снова бросить тунбао?	requires_context_review
+ROGUE_5_REDRAW_COPPER_FREE_TIPS	Toss Tongbao again? This re-toss will not cost Coupons	Бросить тунбао снова? Купоны не потребуются.	requires_context_review
+ROGUE_5_STEAL_GOLD	Your ingots have been stolen	Ваши слитки украдены	requires_context_review
+ROGUE_5_SWAP_COPPER_CHECK_TIPS	Do not show again this exploration	Больше не показывать в этом исследовании	requires_context_review
+ROGUE_5_SWAP_COPPER_EMPTY	Choose a Tongbao to exchange	Выберите тунбао для обмена	requires_context_review
+ROGUE_5_SWAP_DRAWN_COPPER	Tongbao currently tossed, and <color=#E47624>effect will be lost</color>\n when exchanged. Are you sure you want to proceed?	При обмене подброшенного тунбао его <color=#E47624>эффект исчезнет</color>.\nПродолжить?	requires_context_review
+ROGUE_5_ZONE_GIVE_UP_BATTLE_CONTINUE	Abort current battle? Doing so will not end your exploration\nBattle progress will be saved (Enemies left: <color=#FF6101>{0}</color>/{1})<color=#FF6101> and you can still carry on</color>	Прервать текущий бой? Исследование на этом не закончится.\nПрогресс боя будет сохранён (врагов осталось: <color=#FF6101>{0}</color>/{1})<color=#FF6101>, и вы сможете продолжить позднее</color>	requires_context_review
+ROGUE_ARCHIVE_TOTEM_UNATTAINED_DESC_TOTEM	Sami has no Foldartal information to reveal	Сами пока не раскрывает сведений об этом фолдартале	initial_editorial_draft
+ROGUE_ARCHIVE_TOTEM_UNATTAINED_USAGE_AFFIX	This Flair has not been obtained	Это украшение ещё не получено	initial_editorial_draft
+ROGUE_ARCHIVE_TOTEM_UNATTAINED_USAGE_TOTEM	Unobtained Foldartals	Неполученные фолдарталы	initial_editorial_draft
+ROGUE_BP_UPDATE_NOTICE	This month's {0}	{0} этого месяца	initial_editorial_draft
+ROGUE_ENDING_FAIL_ENDING_INFO	Ended your journey at <color=#{1}>{0}</color>	Путешествие завершилось на <color=#{1}>{0}</color>	initial_editorial_draft
+ROGUE_ENDING_FAIL_ENDING_INFO_WITH_DIFFICULTY	Ended your journey at <color=#{1}>{2}</color> on <color=#{1}>{0}</color>	Путешествие завершилось на <color=#{1}>{2}</color> (сложность <color=#{1}>{0}</color>)	initial_editorial_draft
+ROGUE_ENDING_UNLOCK_RELIC_COUNT	{0} new collectible(s) unlocked during this exploration	За это исследование открыто новых коллекционных предметов: {0}	initial_editorial_draft
+ROGUE_ENDING_UNLOCK_TOTEM_COUNT	{0} new Foldartal(s) unlocked during this exploration	За это исследование открыто новых фолдарталов: {0}	initial_editorial_draft
+ROGUE_MONTH_MISSION_FINISH	{0} mission complete	Заданий выполнено: {0}	initial_editorial_draft
+ROGUE_MONTH_MISSION_PROCESS	{0} mission incomplete	Заданий не выполнено: {0}	initial_editorial_draft
+ROGUE_MONTH_MISSION_ZONE_NOT_PASS	Did not reach <{0}>	Не достигнуто: <{0}>	initial_editorial_draft
+ROGUE_MONTH_MISSION_ZONE_PASS	Reached <{0}>	Достигнуто: <{0}>	initial_editorial_draft
+SANDBOX_V2_BAG_NAME	Luggage	Багаж	initial_editorial_draft
+SANDBOX_V2_BASEMENT_BUILDING_CAN_UPGRADE_TIP	{0} Upgradeable Constructs	Сооружения, доступные для улучшения: {0}	initial_editorial_draft
+SANDBOX_V2_BASEMENT_BUILDING_DAMAGED_TIP	{0} Damaged Constructs	Повреждённые сооружения: {0}	initial_editorial_draft
+SANDBOX_V2_BASEMENT_SEVERELY_DAMAGED_TIP	{0} Severely damaged	{0}: тяжёлые повреждения	initial_editorial_draft
+SANDBOX_V2_BATTLE_BUILDING_CAN_UPGRADE_TIP	Constructs upgrade details	Сведения об улучшении сооружений	initial_editorial_draft
+SANDBOX_V2_BATTLE_BUILDING_DAMAGED_TIP	Construct damage details	Сведения о повреждениях сооружений	initial_editorial_draft
+SANDBOX_V2_BATTLE_EXIT_CONFIRM	Are you sure you want to leave?	Вы действительно хотите выйти?	initial_editorial_draft
+SANDBOX_V2_BATTLE_REMOVE_RES	{0} consumed	Потрачено: {0}	initial_editorial_draft
+SANDBOX_V2_BATTLE_REMOVE_RES_LOTS	{0} {1} consumed	Потрачено: {0} {1}	initial_editorial_draft
+SANDBOX_V2_BUILDING_INFO_TITLE	{0}Construct Status	{0} — состояние сооружений	initial_editorial_draft
+SANDBOX_V2_CANNOT_UPGRADE_BASEMENT_TOAST	Headquarters cannot be upgraded for the time being	Сейчас штаб нельзя улучшить	initial_editorial_draft
+SANDBOX_V2_COOK_NAME	Cooking Platform	Площадка для готовки	initial_editorial_draft
+SANDBOX_V2_DRINK_LACK_CONFIRM_DESC	Proceed	Приготовить	initial_editorial_draft
+SANDBOX_V2_DRINK_LACK_DESC	Proceed to brew energy drinks?	Приготовить энергетики?	initial_editorial_draft
+SANDBOX_V2_DRINK_LACK_HINT	Not enough energy drinks. Brew some?	Недостаточно энергетиков. Приготовить ещё?	initial_editorial_draft
+SANDBOX_V2_DUNGEON_RIFT_CONFIRM_TITLE	Are you sure you want to leave?	Вы действительно хотите покинуть испытание?	initial_editorial_draft
+SANDBOX_V2_FOOD_CURRENT_RECIPE_FORMAT	Recipe selected {0}	Выбран рецепт: {0}	initial_editorial_draft
+SANDBOX_V2_NODE_PREVIEW_CONSTRUCT_LOCKED	Can enter Build Mode after Headquarters level is {0}	Режим строительства откроется после достижения штабом уровня {0}	initial_editorial_draft
+SANDBOX_V2_NODE_PREVIEW_ENTER_BASEMENT	Enter Build Mode	Перейти в режим строительства	initial_editorial_draft
+SANDBOX_V2_NO_BUILDING_INFO	*Will be updated in real time after a Construct is placed in the {0}	*Обновится в реальном времени после размещения сооружения в {0}	initial_editorial_draft
+SANDBOX_V2_SCIENCE_NAME	Tech Tree	Древо технологий	initial_editorial_draft
+SANDBOX_V2_SQUAD_ABNORMAL_DESC	There's an issue with your current setup, do you still wish to proceed?	В текущем составе обнаружена проблема. Продолжить?	initial_editorial_draft
+SANDBOX_V2_SQUAD_ABNORMAL_HINT	Are you sure you want to proceed?	Всё равно продолжить?	initial_editorial_draft
+SANDBOX_V2_SQUAD_EMPTY_DESC	Your current squad has no Operators but will still require energy drinks	В отряде нет операторов, но энергетики всё равно потребуются.	initial_editorial_draft
+SANDBOX_V2_SQUAD_EMPTY_HINT	Are you sure you don't want to bring any Operators into battle?	Отправиться в бой без операторов?	initial_editorial_draft
+SANDBOX_V2_SQUAD_PORTABLE_ISSUE_DESC	Deploying Constructs will be beneficial to your Operations	Сооружения помогут при проведении операций.	initial_editorial_draft
+SANDBOX_V2_SQUAD_PORTABLE_ISSUE_HINT	You have no Constructs placed in your Forward Camp, do you still wish to proceed?	В передовом лагере нет размещённых сооружений. Продолжить?	initial_editorial_draft
+SANDBOX_V2_WORKBENCH_NAME	Workbench	Верстак	initial_editorial_draft
+SIRACUSA_BATTLE_TASK_CLOSED_TOAST	Operation complete	Операция завершена	initial_editorial_draft
+SIRACUSA_BATTLE_TASK_COMPLETE_TOAST	Operation complete. Tap the objective to continue.	Операция завершена. Нажмите на цель, чтобы продолжить.	initial_editorial_draft
+SIRACUSA_CHAR_CARD_COMPLETE_CAPTION_1	Exploration has ended	Исследование завершено	initial_editorial_draft
+SIRACUSA_CHAR_CARD_COMPLETE_CAPTION_2	Operation has ended. You can review in Azione Solo	Операция завершена. Её можно пересмотреть в Azione Solo	initial_editorial_draft
+SIRACUSA_CHAR_CARD_UNLOCK_CAPTION_1	New character unlocked	Открыт новый персонаж	initial_editorial_draft
+SIRACUSA_CHAR_CARD_UNLOCK_CAPTION_2	Start exploring with Azione Solo	Начните исследование в Azione Solo	initial_editorial_draft
+SIRACUSA_COMMON_CLOSE_TIP	Tap anywhere to close	Нажмите в любом месте, чтобы закрыть	initial_editorial_draft
+SIRACUSA_MAP_AREA_LOCKED	Keep exploring to unlock this area	Продолжайте исследовать, чтобы открыть эту область	initial_editorial_draft
+SIRACUSA_MAP_AVG_AFTER	After Operation	После операции	initial_editorial_draft
+SIRACUSA_MAP_AVG_BEFORE	Before Operation	Перед операцией	initial_editorial_draft
+SIRACUSA_MAP_AVG_MID	Interlude	Интерлюдия	initial_editorial_draft
+SIRACUSA_MAP_CHAT_OBTAIN_ITEM_FORMAT	<color=#898989>Received '{0}':\n{1}</color>	<color=#898989>Получено «{0}»:\n{1}</color>	initial_editorial_draft
+SIRACUSA_MAP_ENTRY_TRACKPOINT_NEW_TEXT	New stage unlocked	Открыт новый этап	initial_editorial_draft
+SIRACUSA_MAP_OPERA_COMMENT_BOTTOM	Get new Likes daily for Premiere	Каждый день получайте новые отметки «Нравится» за премьеру	initial_editorial_draft
+SIRACUSA_MAP_OPERA_COMMENT_TOAST	Reached Likes limit.\nCome back tomorrow.	Достигнут предел отметок «Нравится».\nВозвращайтесь завтра.	initial_editorial_draft
+SIRACUSA_MAP_OPERA_ENTRY_TIMEOUT	Critica Artistica is closed	Critica Artistica закрыта	initial_editorial_draft
+SIRACUSA_MAP_OPERA_LIKE_COMMENT	Like	Нравится	initial_editorial_draft
+SIRACUSA_MAP_OPERA_UNKNOWN_CHAR	UNKNOWN	НЕИЗВЕСТНО	initial_editorial_draft
+SIRACUSA_OPERA_COMMENT_ALL_RELEASED_BOTTOM	Like public comments from critics to obtain their relevant item	Отмечайте рецензии критиков, чтобы получить связанные с ними предметы	initial_editorial_draft
+SIRACUSA_TASK_RING_BUBBLE_TEXT	Explore more areas first	Сначала исследуйте другие области	initial_editorial_draft
+SIRACUSA_TASK_RING_UNLOCK_HINT	Unlocks after completing <color=#bc2020>{0}</color>	Откроется после прохождения <color=#bc2020>{0}</color>	initial_editorial_draft
+SQUAD_DENIED_SQUAD_NUM_EXCEED	Too many Operators are currently assigned to this squad for this operation. Please adjust the squad and try again.	В отряде слишком много операторов для этой операции. Измените состав и попробуйте снова.	initial_editorial_draft
+SQUAD_SELECT_CHAR_PREDEFINED_JUDGE_TIPS	Begin combat?\n <color=#C84227>Operator skills can be adjusted before the operation</color>	Начать бой?\n <color=#C84227>Перед операцией можно изменить навыки операторов</color>	initial_editorial_draft
+TOAST_COMMON_SET_SUC	Set	Установлено	initial_editorial_draft
+TOAST_FAVOR_ADD_ITEM_FULL	Operator <color=#22bbff>{0}</color>'s Trust is already max	Доверие оператора <color=#22bbff>{0}</color> уже на максимуме	initial_editorial_draft
+TOAST_FAVOR_ADD_ITEM_GET	Operator <color=#22bbff>{0}</color>'s Trust has increased	Доверие оператора <color=#22bbff>{0}</color> повысилось	initial_editorial_draft
+TOAST_UNIEQUIP_MISSION_STAGE_LOCKED	<color=#22BBFF>{0}</color> locked	<color=#22BBFF>{0}</color> недоступен	initial_editorial_draft
+TOAST_UNIEQUIP_MISSION_STAGE_LOCKED_IN_RETRO	{0}<color=#22BBFF>{1}</color> locked	{0}<color=#22BBFF>{1}</color> недоступен	initial_editorial_draft
+UNIEQUIP_DEFAULT_LEVEL	STAGE <color=#FFFFFF><size=19>-</size></color>	ЭТАП <color=#FFFFFF><size=19>-</size></color>	initial_editorial_draft
+UNIEQUIP_LEVEL	STAGE <color=#FFFFFF><size=19>{0}</size></color>	ЭТАП <color=#FFFFFF><size=19>{0}</size></color>	initial_editorial_draft
+USE_CHANGE_NAME_CARD	Use <color=#{1}>{0}</color> as your new name?	Сменить имя на <color=#{1}>{0}</color>?	initial_editorial_draft

@@ -1,0 +1,10 @@
+v0.25 Chapter 2 (main-story scripts) complete first-pass coverage
+10 additional scenes: 02-06 through 02-10, beg/end; 426 new RU dialogue drafts.
+20/20 Chapter 2 scripts, 1022 dialogue drafts. All three chapters: 44 files, 2377 dialogue drafts.
+All 2544 UI keyed translations and all earlier item/operator/enemy draft lists are retained unchanged.
+Correct EN display speaker name for "Operators" now mapped.
+Game script commands and names of source assets are unchanged by the preview builder.
+Exact pinned CN/EN Git blob SHA-1 prevents patching unknown revisions.
+No actual game client run, no official or automated literary accuracy certification.
+CN source used for meaning; EN source used for script shape, labels and context.
+Important review points: 02-08_end final Talulah line directly addresses Talulah; 02-07_beg insensitivity joke; 02-09_end infected-citizenship nuance; 02-10_beg Amiya confrontation.

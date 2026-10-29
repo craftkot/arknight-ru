@@ -1,0 +1,259 @@
+key	russian
+ROGUELIKE_NEXT_LEVEL	Повысить до ур. {0}
+ROGUELIKE_NEXT_LEVEL_MAX	Достигнут максимальный уровень.
+ROGUELIKE_POP_ADD_TEXT	Макс. надежда + {0}
+ROGUELIKE_SQUAD_ADD_TEXT	Лимит отряда + {0}
+ROGUELIKE_MAX_HP_ADD_TEXT	Макс. очки жизни +{0}
+ROGUELIKE_GET	Получить
+ROGUELIKE_TAKE	Забрать
+ROGUELIKE_DISABLE_SKILL_EVOLVE	Откроется после повышения элитного ранга
+ROGUELIKE_DISABLE_SKILL_UPGRADE	Откроется после повышения
+ROGUELIKE_LEVEL_LIMITED	Ограничение до повышения
+ROGUELIKE_LEVEL_MAX	Максимум
+ROGUELIKE_GAIN_ITEM	Получить {0}
+ROGUELIKE_GIVE_UP_REWARD	Отказаться от этой награды?
+ROGUELIKE_EXIT_SHOP	Покинуть магазин?
+ROGUELIKE_START_BATTLE_WITH_NO_CHARACTER	Продолжить, не наняв оператора?
+ROGUELIKE_GIVE_UP_BATTLE	<color=#FF6101>Отказ немедленно завершит текущую экспедицию</color>\nОтступить из боя?
+ROGUELIKE_GIVE_UP_BATTLE_CHALLENGE	Отступление не завершит расследование: будут <color=#FF6101>подсчитаны очки опыта текущего расследования и уменьшен максимум очков жизни</color>, после чего вы перейдёте к следующему этапу\nОтступить из боя?
+ROGUELIKE_UNLOCK_ROAD	Потратить {0} {1}, чтобы переместиться по вертикали?
+ROGUELIKE_AVAIL_ITEM_COUNT	(осталось: {0})
+ROGUELIKE_REWARD_TREASURE_DICE_NO_ENOUGH_TIPS	Больше нет попыток броска
+ROGUELIKE_REWARD_TREASURE_KEY_NO_ENOUGH_TIPS	Недостаточно ключей
+ROGUELIKE_BATTLE_PASS_DETAIL_PROMOTE_CAPTION	Получите {0}, чтобы повысить уровень
+ROGUELIKE_BATTLE_PASS_DETAIL_NORMAL_MODE_CAPTION	По окончании экспедиции набранные очки будут преобразованы в {0}.
+ROGUELIKE_BATTLE_PASS_EXPAND_CAPTION	Новые награды появятся через {0} в следующем месяце
+ROGUELIKE_BATTLE_PASS_NEXT_EXPAND_HINT	Расстояние: {0}
+ROGUELIKE_WITHDRAWL_ENTRY_MAX_TIPS	Достигнут лимит вывода средств
+ROGUELIKE_SACRIFICE_REQUIRE_SELECT_TIPS	Выберите коллекционный предмет
+ROGUELIKE_SACRIFICE_USAGE_WITH_COST_TIPS_FORMAT	{0}\n<color=#C30A0A8A>Обмен стоит {1} {2}</color>
+ROGUELIKE_EXPEDITION_REQUIRE_SELECT_TIPS	Выберите оператора
+ROGUELIKE_EXPEDITION_COST_TIPS_FORMAT	Отправка стоит {0} {1}
+ROGUELIKE_SEED_INPUT_PLACE_HOLDER	Введите или вставьте сид
+ROGUELIKE_STASH_TICKET_FORMAT	Сохранено: {0}/{1}
+ROGUELIKE_STASH_TICKET_FULL	Достигнут лимит хранения
+RL02_MUTATION_DESC	Затронутые операторы:
+RL02_SACRIFICE_DEFAULT_NAME	Выберите справа предмет для обмена
+RL02_SACRIFICE_DEFAULT_USAGE	Пустоту бессилия заполнят радость и удовлетворение от приобретения.
+RL02_SACRIFICE_EMPTY_TIP	Вы не выбрали ни одного коллекционного предмета. Выйти?\nВы вернётесь к предыдущей сцене.
+RL02_MENU_TASK_NORMAL_DESC	Региональные контракты
+RL02_MENU_TASK_COMPLETED_DESC	Контракт выполнен
+RL02_MENU_TASK_RECEIVE_INVALID	Сейчас этот контракт выполнить нельзя
+RL02_EXPEDITION_SELECT_DESC_NO_MUTATION	Оператор {0} вернётся с припасами после прохождения этажа.
+RL02_EXPEDITION_SELECT_DESC_MUTATION	Оператор <color=#824AADFF>{0}</color> вернётся с припасами после прохождения этажа.
+RL02_EXPEDITION_SELECT_DESC_EVOLUTION	Оператор <color=#DDC01DFF>{0}</color> вернётся с припасами после прохождения этажа.
+RL02_EXPEDITION_EMPTY_TIP	Операторы не выбраны. Выйти?\nВы вернётесь к предыдущей сцене.
+RL_EXPEDITION_RETURN_TITLE	{0} вернулся.
+RL_TRAVEL_RETURN_TITLE	{0} выбрался из хаотичного будущего
+RL_EXPEDITION_CHOICE_TIP	Доступно операторов для доставки припасов: {0}.
+RL_SACRIFICE_CHOICE_TIP	Доступно предметов для обмена: {0}.
+RL_HP_CHOICE_TIP	Текущие очки жизни: {0}
+RL_KEY_ITEM_NOT_ENOUGH	Недостаточно {0}
+RL02_SHOP_DICE_COUNT_LACK_TOAST	Не хватает попыток броска
+RL_SHOP_REFRESH_COUNT_LACK_TOAST	Лимит обновлений магазина исчерпан
+RL_SHOP_REFRESH_COST_LACK_TOAST	Недостаточно {0} для обновления
+RL03_SHOP_REFRESH_TIP	Обновить товары?\nЭто обновит <color=#01856e>все ячейки</color>. Каждый магазин можно обновить <color=#01856e>только один раз</color>.
+ROGUELIKE_TOPIC_PINNED_TOAST	Вы подписались на «Интегрированные стратегии» [{0}].
+ROGUELIKE_TOPIC_UNPINNED_TOAST	Вы отписались от «Интегрированных стратегий» [{0}].
+ROGUELIKE_TOPIC_PIN_REPLACE_TOAST	Уже активна подписка на [{0}].\n<color=#0098dc>Заменить её</color> на [{1}]?
+ROGUELIKE_ENTRY_HAS_ON_BATTLE_TOAST	Уже идёт экспедиция в другой теме. Вход недоступен
+RL03_SACRIFICE_TOTEM_CHOICE_TIP	Доступно фолдаталей для обмена: {0}
+RL03_VISION_CHOICE_TIP	Текущий индекс сопротивления помехам: {0}
+RL03_CHAOS_CHOICE_TIP	Текущее значение коллапса: {0}/{1}
+RL03_GET_TOTEM_CHOICE_TIP	Фолдаталей для применения: {0}
+RL03_SACRIFICE_TOTEM_DEFAULT_NAME	Выберите фолдаталь справа для обмена
+RL03_SACRIFICE_TOTEM_EMPTY_TIP	Фолдаталь не выбрана. Выйти?\nВы вернётесь к предыдущей сцене.
+RL03_OUTER_BUFF_EFFECTIVE_GRADE	Действует при исследовании на сложности <Braving Nature {0}> и выше
+ACT13SIDE_ARCHIVE_LOCKED_ORG	Неизвестно
+ACT13SIDE_HIDDEN_AREA_STAGE_TEXT	Пройдите {0}
+ACT13SIDE_HIDDED_AREA_UNLOCK_TIME	Достигните {0}
+ACT13SIDE_RANDOM_ORG	Случайная фракция
+ACT13SIDE_RANDOM_MAT	Случайный материал
+ACT13SIDE_MAT_SELECTION	{0} (осталось: {1})
+ACT13SIDE_DAILY_SEARCH_HINT	Повторный поиск заменит все текущие ежедневные задания. Продолжить?
+ACT13SIDE_NEXT_PARAM	Следующая страница ({0}/{1})
+ACT13SIDE_PRESTIGE_UP_TOAST	Репутация у {0} повысилась! {1} -> {2}
+ACT13SIDE_PRESTIGE_MAX_TOAST	Достигнута максимальная репутация у {0}
+ACT13SIDE_RANDOM_UP_TOAST	Попыток повторного поиска стало больше! {0} -> {1}
+ACT13SIDE_AGENDA_RECOVER	Предложения повестки +{0}
+ACT13SIDE_AGENDA_NEAR_MAX	Количество предложений повестки скоро достигнет предела. Лучше потратить их заранее
+ACT13SIDE_AGENDA_MAX	Достигнут лимит предложений повестки: {0}. Излишки будут потеряны — потратьте их заранее
+ACT13SIDE_AGENDA_SUMMARY	Всего предложений повестки: {0} (включая ранее накопленные)
+ACT13SIDE_ACCEPT_DAILY_MISSION_TOAST	Задание принято и добавлено в список текущих
+ACT13SIDE_REPLACE_DAILY_MISSION_TOAST	Задание заменено и добавлено в список текущих
+ACT13SIDE_DAILY_REPLACE_EMPTY_HINT	Новых заданий нет
+ACT13SIDE_DAILY_REPLACE_COMPLETED_HINT	Задание выполнено
+ACT13SIDE_PRESTIGE_MAX	Максимум
+RETURN_DAILY_MISSION_REFRESH_REMAIN_TIME_DESC	Обновление через {0}
+RETURN_DAILY_MISSION_END_TIME_DESC	Закончится через {0}
+RETURN_POINT_TIP_FORMAT	Получено: {0}
+CHARM_EDITOR_SAVE_SUC	Сохранено
+CHARM_DROP_TIP	Получена новая наклейка\n<color=#0098DCFF>{0}</color>
+SQUAD_CHARM_CAN_NOT_EDIT	Сейчас изменить нельзя
+ACT_ARCHIVE_NEWS_READ_COUNT	Просмотров: {0}
+ACT_ARCHIVE_ACTIVITY_ENTRY_LOCKED	Продолжайте исследование, чтобы открыть новые сведения
+ROGUELIKE_TOPIC_MONTH_SQUAD_DESC_TASK	Прогресс задания сохраняется между экспедициями
+ROGUELIKE_TOPIC_MONTH_SQUAD_TARGET_DESC	Достигнуто: <{0}>
+ROGUELIKE_TOPIC_MONTH_SQUAD_RECEIVE_BP_DESC	Получено: {0}
+ROGUELIKE_TOPIC_MONTH_SQUAD_REFRESH_TIME	Сброс через {0}
+ROGUELIKE_TOPIC_MONTH_SQUAD_BP_MAX	Достигнут лимит: {0}
+ROGUELIKE_TOPIC_MONTH_TASK_END_TIME	Закончится через {0}
+ROGUELIKE_TOPIC_OUTER_BUFF_PROGRESS_UNLOCKED	Открыто: {0}
+ROGUELIKE_TOPIC_OUTER_BUFF_UPGRADE_FORBIDDEN_IN_EXPLORATION	Идёт экспедиция
+ROGUELIKE_TOPIC_OUTER_BUFF_UPGRADE_FORBIDDEN_TOKEN_LACK	Недостаточно {0}
+ROGUELIKE_TOPIC_OUTER_BUFF_UPGRADE_TOKEN_ACQUIRE_METHOD	Потратьте {0}, чтобы активировать узел усиления
+JUDGE_ROGUELIKE_GIVEUP	Завершить текущую экспедицию?\n<color=#FF6101>(Если вы ещё находитесь в [{0}], экран итогов не появится)</color>
+ROGUELIKE_CHAT_UNLOCK_MORE	Продолжайте экспедицию, чтобы узнать больше
+ROGUELIKE_CHAT_UNLOCK_ALL	Все сведения записаны
+JUDGE_ROGUELIKE_CHAT_SKIP	Пропустить?\n(Запись можно посмотреть в журнале бесед после экспедиции)
+ROGUE_ARCHIVE_CHAT_UNLOCK	Добавлено в журнал бесед ({0}/{1})
+ROGUE_ARCHIVE_RELIC_UNATTAINED	Этот коллекционный предмет ещё не получен
+ROGUE_ARCHIVE_RELIC_UNATTAINED_DESC	Неведомое всё ещё таится во мраке.
+ROGUE_ARCHIVE_CAPSULE_UNATTAINED_USAGE	Продолжайте экспедицию, чтобы открыть этот режим
+ROGUE_ARCHIVE_TRAP_UNATTAINED	Этот предмет ещё не получен
+ROGUE_ARCHIVE_TRAP_UNATTAINED_DESC	//Нет сведений
+ROGUE_ARCHIVE_RELIC_ALL_NUM	Всего коллекционных предметов: {0}
+ROGUE_ARCHIVE_RELIC_ATTAINED_NUM	Получено коллекционных предметов: {0}
+ROGUE_ARCHIVE_RELIC_ATTAINED_EMPTY	Коллекционные предметы ещё не получены
+ROGUE_ARCHIVE_RELIC_UNATTAINED_EMPTY	Все коллекционные предметы получены
+ENEMY_DUEL_PREPARE_PING_FORMAT	Текущая задержка: {0}
+ENEMY_DUEL_GIVE_UP_MATCH_SURVIVE	Матч ещё не окончен. Если выйти, вы <color=#FF4D2A>выбываете из матча</color>.\nВыйти?
+ENEMY_DUEL_GIVE_UP_MATCH_OUT	Матч ещё не окончен. Выйти?
+ENEMY_DUEL_MODE_PREFIX_ROOM	Создать группу
+ENEMY_DUEL_MODE_PREFIX_MATCH	Подбор игроков
+ENEMY_DUEL_MODE_PREFIX_SINGLE	Одиночная игра
+ENEMY_DUEL_ROOM_INVITE_FORMAT	Код группы [{0}]. Доктор {1} приглашает вас на сеанс {2}. Вставьте код в поле ввода, чтобы присоединиться.
+ENEMY_DUEL_ROOM_INVITE_TOAST	Код приглашения скопирован. Можно звать друзей!
+ENEMY_DUEL_MILESTONE_ITEM_LOCK_TEXT	Награды следующего этапа откроются через {0}
+ENEMY_DUEL_ROOM_END_DIALOG_TEXT	Ошибка подключения. Матч завершён
+CARVING_MAIN_CHALLENGE_INFO_TITLE	Наберите требуемое количество очков за {0} раундов!
+CARVING_MAIN_SHOP_TITLE	Раунд {0}
+CARVING_MAIN_CHALLENGE_INFO_ROUND_ITEM_TITLE	Материалы для раунда {0}
+CARVING_MAIN_ENTER_UNLIMITED_DESC	Дополнительное занятие! Перейти к бонусному раунду?
+CARVING_MAIN_ENTER_UNLIMITED_CONFIRM	Принять
+CARVING_HOME_SETTLE_JUDGE_DESC	Закончить занятие и подсчитать очки?
+CARVING_HOME_SETTLE_JUDGE_CONFIRM_BTN	Завершить
+CARVING_MAIN_BOARD_HAND_AREA_TIP	Перетащите сюда, чтобы вернуть
+CARVING_MAIN_BOARD_HAND_AREA_HOVERING_TIP	Отпустите, чтобы вернуть
+CARVING_ENTRY_UNLOCK_CONDITION_DESC	Пройдите {0}, чтобы открыть
+CARVING_ENTRY_TIMEOUT_DESC	Событие завершилось
+CARVING_ENTRY_UNLOCK_CONDITION_TOAST_DESC	Пройдите {0}, чтобы открыть
+CARVING_MAIN_PAGE_TOP_BACK_BTN_CLOSE_PAGE	Покинуть занятие
+FIREWORK_CANNOT_EDIT_TOAST	Сейчас изменить нельзя
+FIREWORK_PUZZLE_PLATE_UNFINISH_TOAST	Проект не соответствует условиям, поэтому отправить его нельзя
+FIREWORK_PUZZLE_QUIT_CLEAR_STR	Прогресс не сохранится. Выйти?
+FIREWORK_ANIMAL_LOCKED_TOAST	Пройдите ещё несколько этапов, чтобы открыть этот заряд
+FIREWORK_UNLOCK_DESC_FORMAT	Пройдите {0}, чтобы открыть
+FIREWORK_UNLOCK_TOAST_FORMAT	Откроется после прохождения {0}
+FIREWORK_CLOSE_TOAST	Событие завершилось
+FIREWORK_PUZZLE_UNLOCK_TOAST	Открыта [Commissione di Fuochi d'Artificio]
+FIREWORK_CRAFT_UNLOCK_TOAST	Открыта [Мастерская]
+FIREWORK_PLATE_UNLOCK_TOAST	Доступны новые образцы фейерверков
+FIREWORK_FILL_PLATE_FULL_TOAST	Достигнут лимит образцов фейерверков, добавить ещё нельзя
+FIREWORK_PUZZLE_HINT_COUNT_TEXT	Осталось подсказок: <color=#e9e5df><size=22>{0}</size></color>.
+FIREWORK_CRAFT_SWITCH_ZONE_LOCKED_TOAST	Этап заблокирован
+FIREWORK_CRAFT_ANIMAL_SELECT_LOCKED_DESC	Пройдите {0}, чтобы открыть
+FIREWORK_CRAFT_PLATE_SAVE_SUCCESS	Проект сохранён
+FIREWORK_CRAFT_DISCARD_CHANGES_DESC	Изменения не сохранены. Выйти?
+FIREWORK_PUZZLE_UNLOCK_TIME_FORMAT	Откроется через {0}
+FIREWORK_PUZZLE_LOCKED_TOAST	Заказ ещё не выполнен
+GUN_TASK_REWARD_TITLE_FORMAT	Заказов: {0}
+GUN_TASK_ARCHIVE_LOCK_TOAST	Продолжайте расследование, чтобы открыть
+GUN_TASK_REWARD_DETAIL_SUBTITLE	Награды нужно забирать каждый день. Неполученные награды не накапливаются
+GUN_TASK_DETAIL_TITLE_FORMAT	Заказ: {0}
+SPECIAL_OPERATOR_EVOLVE_PHASE_COND_FORMAT	Повысить до Элиты {0}
+SPECIAL_OPERATOR_EVOLVE_LEVEL_COND_FORMAT	Макс. уровень увеличен до {0}
+SPECIAL_OPERATOR_EVOLVE_TIP_PRE_LEVEL_COND_FORMAT	Повысить до ур. {0}
+SPECIAL_OPERATOR_EVOLVE_DETAIL_EVOLVE_TITLE_FORMAT	Элита {0}
+SPECIAL_OPERATOR_EVOLVE_DETAIL_EVOLVE_PRE_BTN	Повысить до Элиты {0}
+SPECIAL_OPERATOR_TO_TARGET	Пройдите {0} {1}\n для развития этого оператора
+SPECIAL_OPERATOR_TO_FORMAT	Перейти к {0}
+ACT1ARCADE_RESULT_BADGE_UPDATE_FORMAT	{0}<color=#C8D6F6> Улучшено</color>
+ACT1ARCADE_RESULT_NEW_STAGE_ZONE_FORMAT	{0}<color=#C8D6F6> Открыт новый этап</color>
+ACT1ARCADE_STAGE_LOCK_TOAST_FORMAT	Достигните ранга {0} на предыдущем этапе, чтобы открыть
+ACT1ARCADE_STAGE_UNLOCK_TIME_FORMAT	Откроется через {0}
+ACT1ARCADE_BATTLE_WAVE_FIRST	НАЧАЛО
+ACT1ARCADE_BATTLE_WAVE_SECOND	НАЧАЛО
+ACT1ARCADE_BATTLE_WAVE_THIRD	НАЧАЛО
+ACT1ARCADE_BATTLE_SCORE_TITLE	Следующий ранг
+ACT1ARCADE_BATTLE_SCORE_TITLE_MAX	Достигнут максимальный ранг!
+ACT1ARCADE_BATTLE_SKIP_INFO	Отдыхает. Можно разместить на поле боя.
+ACT1ARCADE_BATTLE_SKIP_TITLE	Пропустить отдых
+ACT1ARCADE_BATTLE_GIVE_UP	<color=#353535>Завершить эту попытку?</color>\n<color=#FF6801>Результат будет подсчитан с текущими очками и рангом.</color>
+ACT1ARCADE_BATTLE_SELECT_CARD_GIVE_UP_CONFIRM	Завершить попытку
+ACT6FUN_BATTLE_FAILED_DESC_1	Нажмите на вражеского оператора, чтобы посмотреть его дальность атаки и навыки
+ACT6FUN_BATTLE_FAILED_DESC_2	Реакция вражеских операторов зависит от расположения союзников
+DEFAULT_TEAM_FULL	Отряд заполнен
+TEMPLATE_MISSION_CLAIM_ALL_COMMON_TIPS	Есть несколько выполненных заданий с доступными наградами
+TRAINING_CAMP_STAGE_PROGRESS	Прогресс прохождения: {0}/{1}
+CHAR_ROTATION_PRESET_RENAME_EMPTY_TOAST	Название набора интерфейса не может быть пустым
+CHAR_ROTATION_PRESET_RENAME_DEFAULT_PLACEHOLDER	Введите название набора интерфейса (не более 7 символов)
+CHAR_ROTATION_PRESET_SET_CURRENT_SUCCESS_TOAST	Главный экран обновлён
+CHAR_ROTATION_PRESET_DELETE_JUDGE_DIALOG	Удалить этот набор интерфейса?
+CHAR_ROTATION_SELECT_CHAR_NUM_SAFE_FORMAT	<color=#02afff>{0}</color>/{1} ассистентов выбрано
+CHAR_ROTATION_SELECT_SKIN_NUM_SAFE_FORMAT	<color=#02afff>{0}</color>/{1} обликов выбрано
+CHAR_ROTATION_SELECT_SKIN_NUM_DANGER_FORMAT	<color=#ffffff>{0}/{1} обликов выбрано</color>
+CHAR_ROTATION_CHAR_EXCEED_TOAST	Достигнут лимит ассистентов
+CHAR_ROTATION_TOTAL_SELECT_CHAR_NUM_FORMAT	Выбрать ассистента заново ({0})
+CHAR_ROTATION_NOT_SELECT_CHAR_TOAST	Выберите хотя бы одного ассистента
+CHAR_ROTATION_NOT_SELECT_SKIN_TOAST	Выберите хотя бы один облик
+CHAR_ROTATION_SKIN_EXCEED_TOAST	Достигнут лимит обликов
+CHAR_ROTATION_PRESET_SET_SECRETARY_SUCCESS_TOAST	Аватар профиля обновлён
+UNIEQUIP_ARCHIVE_ENTRY_COLLECTION_INFO_TOTAL	Собрано модулей
+UNIEQUIP_ARCHIVE_ENTRY_COLLECTION_INFO_STAGE_3	Модуль 3-й стадии
+UNIEQUIP_ARCHIVE_ENTRY_COLLECTION_INFO_CHAR	Операторы с модулями
+UNIEQUIP_ARCHIVE_MODULE_TYPE_FILTER_ALL_BRIEF	Все типы
+UNIEQUIP_ARCHIVE_MODULE_ITEM_TMPL_CLICK_TOAST	После смены класса смотрите на странице оператора
+LONG_TERM_CHECK_IN_LEVEL_PROGRESS_FORMAT	Достигните ур. {0}
+LONG_TERM_CHECK_IN_DAY_PROGRESS_FORMAT	Всего входов: {0} дн.
+COMMON_INVITE_DIALOG_INVITE_SEND	Приглашение отправлено
+COMMON_INVITE_DIALOG_AFTER_INVITE_SEND	Повторно отправить приглашение пока нельзя
+ART_GALLERY_LIMIT_DEFAULT_DESC	Временно недоступно
+ART_GALLERY_UNLOCK_CONDITION_PRE	Условие открытия
+ART_GALLERY_COLLECT_JUMP_FAIL_TOAST	Предпросмотр недоступен
+APRIL_FOOL_FUN_6_ZONE_MAP_PREVIEW_CHAR_ITEM_CLICK_TOAST	Нам не хватает людей, Доктор
+APRIL_FOOL_FUN_6_STAGE_LOCKED	На предыдущем этапе не достигнута синяя контрольная точка
+ACT1VHALFIDLE_ENTRY_LOCK_TEXT	Откроется после прохождения учебного этапа {0}
+ACT1VHALFIDLE_STAGE_LOCK_TEXT	Откроется через {0}
+ACT1VHALFIDLE_DEPOT_BUFF_LEVEL	Ур. {0}:
+ACT1VHALFIDLE_GACHA_ITEM_NOT_ENOUGH	Недостаточно предметов
+ACT1VHALFIDLE_HARD_STAGE_PRODUCT_TOAST	Этот этап не даёт бонусов к эффективности
+ACT1VHALFIDLE_COMMON_TOAST_PLOT	Сначала активируйте в «Стратегиях строительства»
+ACT1VHALFIDLE_HARVEST_ITEM_TOAST	<color=#f3eb68>{0}</color> отправлено на склад
+ACT1VHALFIDLE_HARVEST_ITEM_TOAST_MULTI	<color=#f3eb68>Жетоны повышения элиты</color> отправлены на склад
+ACT1VHALFIDLE_ELITE_UPGRADE_ITEM_TOAST	<color=#f3eb68>Награды за подготовку элиты {0}</color> автоматически помещены в арсенал
+ACT1VHALFIDLE_SKILL_UPGRADE_LOCKED_TOAST	Чтобы улучшить навыки, достигните ранга элиты {0}
+ACT1VHALFIDLE_CHAR_UPGRADE_ITEM_NOT_ENOUGH	Недостаточно {0}
+ACT1VHALFIDLE_COMMON_TOAST_PLOT_LOCKED	Сначала активируйте в «Стратегиях строительства»
+ACT1VHALFIDLE_MILESTONE_BIG_PRICE_NEED_DESC	*{0} Для получения достигните ур. <color=#faed63>{1}</color>
+ACT1VHALFIDLE_MILESTONE_NEED_DESC	*Достигните ур. {0}
+ACT1VHALFIDLE_MILESTONE_LOCKED_DESC	Награды следующего этапа откроются через {0}
+ACT1VHALFIDLE_ASSIST_STATE_TITLE_RECRUITED_ONLY	Список поддержки пока ограничен отправленными операторами. Лимит можно снять в «Стратегиях строительства»
+ACT1VHALFIDLE_ASSIST_STATE_TITLE_WITH_NOT_RECRUITED	Ограничение поддержки снято. Теперь доступны и неполученные операторы
+ACT1VHALFIDLE_ASSIST_ADD_SUCC_TOAST	{0} добавлен в поддержку и доступен для подготовки
+ACT1VHALFIDLE_ASSIST_CLEAR_SUCC_TOAST	{0} удалён из поддержки
+ACT1VHALFIDLE_CHAR_BUFF_COUNT	Для усиления отправьте ещё <color=#faed63>{0}</color> операторов
+ACT1VHALFIDLE_ASSIST_LOCK_TOAST	Сначала активируйте в «Стратегиях строительства»
+ACT1VHALFIDLE_PLOT_SELECT_TIP	Добавьте необходимые производственные модули: {0}-{1} {2}
+ACT1VHALFIDLE_PLOT_SELECT_TIP_EQUAL	Выберите {0} необходимых производственных модулей {1}
+ACT1VHALFIDLE_PLOT_SELECT_MAX_TOAST	Больше производственных модулей взять нельзя
+ACT1VHALFIDLE_PLOT_SELECT_INVALID_TOAST	Установлено недостаточно производственных модулей
+ACT1VHALFIDLE_SQUAD_EMPTY_TOAST	Перед началом боя добавьте в отряд хотя бы 1 оператора
+ACT45SIDE_MAIL_FROM	<color=#CCCCCC>От</color> {0}
+ACT45SIDE_CHAR_UNLOCK	Появился: {0}
+ACT46SIDE_MONOPOLY_LOCK_TOAST	Откроется после прохождения {0}
+ACT46SIDE_MONOPOLY_LOCK_DESC	Откроется после прохождения {0}
+ACT46SIDE_MONOPOLY_TIMEOUT_DESC	Событие завершилось
+ACT46SIDE_TRAP_DETAIL_AUTO_MODE	Пока настроить нельзя
+ACT46SIDE_SPBELL_TOAST_1	Любимая Кьерагандр... Прошу, услышь мою молитву
+ACT46SIDE_SPBELL_TOAST_2	Я столько раз спрашивал себя, что делает Кьераг Кьерагом, а нас — такими, какие мы есть
+ACT46SIDE_SPBELL_TOAST_3	Я хочу верить, что оставленное тобой на этой земле — благословение, а не оковы
+ACT46SIDE_SPBELL_TOAST_4	Прошу, позволь мне стать твоим наместником, чтобы я смог в последний раз защитить Кьераг
+AUTO_CHESS_MATCH_COUNT_DOWN_TIME	({0} с)
+AUTO_CHESS_MENU_BTN_SELL_NORMAL	 Продать
+AUTO_CHESS_MENU_BTN_DESTORY_NORMAL	 Уничтожить
+ACT7FUN_BATTLE_MENU_DESC	Покинуть бой? Операция завершится с текущим результатом:\n<color=#ffa000>{0}</color> «Рук прототипа» уничтожено
+ACT7FUN_BATTLE_MENU_RESULT_FAIL				<color=#ffa000>Условие прохождения не выполнено</color>
+ACT7FUN_BATTLE_MENU_RESULT_WIN				<color=#ffa000>Условие прохождения выполнено</color>
+ANNIV7TH_MAINLINE_CLUE_GROUP_COMPLETE_TOAST	Собраны все улики: {0}
+VIRTUAL_TOP_JUMP_SCENE_BLOCK_TOAST	Откройте Главная > Магазин > Наборы

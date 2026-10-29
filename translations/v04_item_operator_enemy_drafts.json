@@ -1,0 +1,1622 @@
+[
+  {
+    "role": "items",
+    "index": 3126,
+    "offset": 159348,
+    "id": "items:159348:e65705b5e103",
+    "en": "Event Stage drop, Event mission reward",
+    "ru": "Награда за прохождение этапов и выполнение заданий события",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3127,
+    "offset": 159392,
+    "id": "items:159392:7958ba29593f",
+    "en": "Broken Originium Lamp",
+    "ru": "Разбитый ориджиниумовый фонарь",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3141,
+    "offset": 160328,
+    "id": "items:160328:8b0f16fcb34b",
+    "en": "From events",
+    "ru": "Из событий",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3142,
+    "offset": 160344,
+    "id": "items:160344:fa1c3c3f0741",
+    "en": "Ostracon",
+    "ru": "Остракон",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3147,
+    "offset": 160664,
+    "id": "items:160664:52449bda2356",
+    "en": "Can be exchanged for the corresponding event stage reward.",
+    "ru": "Можно обменять на соответствующую награду этапа события.",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3148,
+    "offset": 160732,
+    "id": "items:160732:ba38fab79075",
+    "en": "Limited-time event missions",
+    "ru": "Задания временного события",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3149,
+    "offset": 160764,
+    "id": "items:160764:394669cb228a",
+    "en": "'Strategist' Point",
+    "ru": "Очки «Стратега»",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3152,
+    "offset": 160852,
+    "id": "items:160852:25b2569b1607",
+    "en": "Rhodes Island issues special reward points as an incentive to field operators contributing to Integrated Strategies operations. These points can be used to redeem important supplies.",
+    "ru": "Родос Айленд выдаёт специальные наградные очки операторам, участвующим в операциях «Интегрированных стратегий». Их можно обменять на важные припасы.",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3164,
+    "offset": 161660,
+    "id": "items:161660:e65705b5e103",
+    "en": "Event Stage drop, Event mission reward",
+    "ru": "Награда за прохождение этапов и выполнение заданий события",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3165,
+    "offset": 161704,
+    "id": "items:161704:8e2d864e1968",
+    "en": "'Yum-yum!'",
+    "ru": "«Объедение!»",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3179,
+    "offset": 162636,
+    "id": "items:162636:e65705b5e103",
+    "en": "Event Stage drop, Event mission reward",
+    "ru": "Награда за прохождение этапов и выполнение заданий события",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3194,
+    "offset": 163660,
+    "id": "items:163660:8b0f16fcb34b",
+    "en": "From events",
+    "ru": "Из событий",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3200,
+    "offset": 164080,
+    "id": "items:164080:d0909753daca",
+    "en": "Event Mission Reward",
+    "ru": "Награда за задание события",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3201,
+    "offset": 164108,
+    "id": "items:164108:2aeb9cb56828",
+    "en": "Particle Tracking",
+    "ru": "Отслеживание частиц",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3205,
+    "offset": 164280,
+    "id": "items:164280:d0909753daca",
+    "en": "Event Mission Reward",
+    "ru": "Награда за задание события",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3206,
+    "offset": 164308,
+    "id": "items:164308:ba4b2a15ba51",
+    "en": "Rapid Charge",
+    "ru": "Быстрая зарядка",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3210,
+    "offset": 164476,
+    "id": "items:164476:d0909753daca",
+    "en": "Event Mission Reward",
+    "ru": "Награда за задание события",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3211,
+    "offset": 164504,
+    "id": "items:164504:5d2aaccf7a55",
+    "en": "Precision Focus",
+    "ru": "Точная фокусировка",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3215,
+    "offset": 164672,
+    "id": "items:164672:d0909753daca",
+    "en": "Event Mission Reward",
+    "ru": "Награда за задание события",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3216,
+    "offset": 164700,
+    "id": "items:164700:3280f6577529",
+    "en": "Guardian Core",
+    "ru": "Ядро защитника",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3220,
+    "offset": 164872,
+    "id": "items:164872:377e14794b04",
+    "en": "Used to perform Data Iteration on Limiter Units.",
+    "ru": "Используется для итерации данных в модулях-ограничителях.",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3221,
+    "offset": 164932,
+    "id": "items:164932:3d0c154691f1",
+    "en": "Event Stages",
+    "ru": "Этапы события",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3222,
+    "offset": 164952,
+    "id": "items:164952:d049edc5296f",
+    "en": "Data Blackbox",
+    "ru": "Чёрный ящик данных",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3227,
+    "offset": 165320,
+    "id": "items:165320:fdb893160b5c",
+    "en": "Experience gained from finished trials. Upgrades trial levels.",
+    "ru": "Опыт, получаемый за прохождение испытаний. Повышает уровень испытаний.",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3228,
+    "offset": 165392,
+    "id": "items:165392:e65705b5e103",
+    "en": "Event Stage drop, Event mission reward",
+    "ru": "Награда за прохождение этапов и выполнение заданий события",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3229,
+    "offset": 165436,
+    "id": "items:165436:4a3b39562f06",
+    "en": "Trial EXP",
+    "ru": "Опыт испытаний",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3232,
+    "offset": 165524,
+    "id": "items:165524:be5bded46927",
+    "en": "Right and wrong are far from crucial in a simulation. They are only a form of support. They help you make the correct choices when the battle is real.",
+    "ru": "В симуляции понятия добра и зла не столь важны. Они лишь опора, помогающая принять верное решение, когда битва станет настоящей.",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3244,
+    "offset": 166320,
+    "id": "items:166320:8b0f16fcb34b",
+    "en": "From events",
+    "ru": "Из событий",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3245,
+    "offset": 166336,
+    "id": "items:166336:19e3f945cf32",
+    "en": "Multi-functional Snow Detector",
+    "ru": "Многофункциональный снежный детектор",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3251,
+    "offset": 166908,
+    "id": "items:166908:f53376c77c86",
+    "en": "Emote Set: Stronghold Protocol",
+    "ru": "Набор эмоций: Stronghold Protocol",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3255,
+    "offset": 167104,
+    "id": "items:167104:f6e9bf6ca6c5",
+    "en": "Can be exchanged for all sorts of supplies in Stronghold Protocol.",
+    "ru": "Можно обменять на различные припасы в Stronghold Protocol.",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3256,
+    "offset": 167180,
+    "id": "items:167180:e65705b5e103",
+    "en": "Event Stage drop, Event mission reward",
+    "ru": "Награда за прохождение этапов и выполнение заданий события",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3257,
+    "offset": 167224,
+    "id": "items:167224:68ffb8f1f2db",
+    "en": "Stronghold Credits",
+    "ru": "Кредиты Stronghold Protocol",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3260,
+    "offset": 167312,
+    "id": "items:167312:1baae005b0dd",
+    "en": "Medals prepared by Rhodes Island's workshop for operators participating in Stronghold Protocol. Magnetic. Apparently, if you gather enough of them, you can make a fortress out of chess pieces.",
+    "ru": "Медали, изготовленные мастерской Родос Айленда для операторов — участников Stronghold Protocol. Магнитные. Говорят, если собрать достаточно, из шахматных фигур можно построить целую крепость.",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3273,
+    "offset": 168188,
+    "id": "items:168188:e65705b5e103",
+    "en": "Event Stage drop, Event mission reward",
+    "ru": "Награда за прохождение этапов и выполнение заданий события",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3279,
+    "offset": 168692,
+    "id": "items:168692:f3e56a8310c7",
+    "en": "A batch headhunting permit issued by the Rhodes Island HR Department; Can be used at a certain time to recruit talented Operators, 10 rolls at once.",
+    "ru": "Специальное разрешение от отдела кадров Родос Айленда, позволяющее в определённое время провести десять поисков операторов.",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3280,
+    "offset": 168852,
+    "id": "items:168852:ee7da936b5cb",
+    "en": "Store",
+    "ru": "Магазин",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3281,
+    "offset": 168864,
+    "id": "items:168864:80ba3facc965",
+    "en": "Exclusive Ten-roll Headhunting Permit",
+    "ru": "Особое разрешение на десять поисков операторов",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3286,
+    "offset": 169292,
+    "id": "items:169292:0fdd1f400b33",
+    "en": "A special permit from Rhodes Island HR for recruiting special talents at special points in time. Can be used to recruit one operator.",
+    "ru": "Специальное разрешение отдела кадров Родос Айленда на поиск одного оператора в течение ограниченного периода.",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3287,
+    "offset": 169436,
+    "id": "items:169436:ee7da936b5cb",
+    "en": "Store",
+    "ru": "Магазин",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3288,
+    "offset": 169448,
+    "id": "items:169448:107c3500e783",
+    "en": "The Silent Wavelengths Headhunting Permit",
+    "ru": "Разрешение на поиск операторов «The Silent Wavelengths»",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3293,
+    "offset": 169864,
+    "id": "items:169864:5bd16b3b632a",
+    "en": "Contains an Emergency Sanity Sampler and some Rhodes Island Supplies.",
+    "ru": "Содержит экстренный стимулятор рассудка и некоторое количество припасов Родос Айленда.",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3294,
+    "offset": 169944,
+    "id": "items:169944:8b0f16fcb34b",
+    "en": "From events",
+    "ru": "Из событий",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3295,
+    "offset": 169960,
+    "id": "items:169960:d1beaf43b553",
+    "en": "Rhodes Island Supply Crate",
+    "ru": "Ящик снабжения Родос Айленда",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3298,
+    "offset": 170032,
+    "id": "items:170032:87f30e21f549",
+    "en": "A materials supply crate issued alongside Sanity samplers, giving you a random material as you restore your Sanity.",
+    "ru": "Ящик материалов, выдаваемый вместе со стимуляторами рассудка. При восстановлении рассудка позволяет получить случайный материал.",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3300,
+    "offset": 170236,
+    "id": "items:170236:5bd16b3b632a",
+    "en": "Contains an Emergency Sanity Sampler and some Rhodes Island Supplies.",
+    "ru": "Содержит экстренный стимулятор рассудка и некоторое количество припасов Родос Айленда.",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3301,
+    "offset": 170316,
+    "id": "items:170316:8b0f16fcb34b",
+    "en": "From events",
+    "ru": "Из событий",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3302,
+    "offset": 170332,
+    "id": "items:170332:d1beaf43b553",
+    "en": "Rhodes Island Supply Crate",
+    "ru": "Ящик снабжения Родос Айленда",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3305,
+    "offset": 170404,
+    "id": "items:170404:87f30e21f549",
+    "en": "A materials supply crate issued alongside Sanity samplers, giving you a random material as you restore your Sanity.",
+    "ru": "Ящик материалов, выдаваемый вместе со стимуляторами рассудка. При восстановлении рассудка позволяет получить случайный материал.",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3307,
+    "offset": 170612,
+    "id": "items:170612:1e5f2d36c3df",
+    "en": "A hollow crystal shell, once crammed full of an unbroken stream of information. Now it sleeps alongside silent light and shadow.",
+    "ru": "Пустая кристаллическая оболочка, некогда заполненная непрерывным потоком информации. Теперь она покоится среди безмолвных света и тени.",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3308,
+    "offset": 170752,
+    "id": "items:170752:c7c583a0a1c6",
+    "en": "Drops from Main Theme stages",
+    "ru": "Выпадает в этапах основной сюжетной линии",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "items",
+    "index": 3312,
+    "offset": 170848,
+    "id": "items:170848:9c26e5712dc8",
+    "en": "She still remembers that murmur spanning both time and the boundary between life and death: Search for traces of life. Search for hope and a future. Find yourself.",
+    "ru": "Она до сих пор помнит шёпот, преодолевший границу времени, жизни и смерти: ищи следы жизни. Ищи надежду и будущее. Найди себя.",
+    "status": "draft_for_review",
+    "source_file_sha256": "639ada9ba67eaee0f4fb885a6bddf04a6c2e9e5c1db811bc9425705d1c254fb4"
+  },
+  {
+    "role": "main_text",
+    "index": 1936,
+    "offset": 100068,
+    "id": "main_text:100068:e3b92ad8168a",
+    "en": "Entering",
+    "ru": "Вход",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1938,
+    "offset": 100120,
+    "id": "main_text:100120:16808f866076",
+    "en": "Enemy Info",
+    "ru": "Сведения о противнике",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1940,
+    "offset": 100172,
+    "id": "main_text:100172:6140e37296d4",
+    "en": "There is a security mission in progress",
+    "ru": "Выполняется операция по обеспечению безопасности",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1942,
+    "offset": 100252,
+    "id": "main_text:100252:ca0d60e852a7",
+    "en": "Standard Supply Mode",
+    "ru": "Стандартный режим снабжения",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1944,
+    "offset": 100316,
+    "id": "main_text:100316:3b33266651e1",
+    "en": "Total Authority",
+    "ru": "Общие полномочия",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1946,
+    "offset": 100372,
+    "id": "main_text:100372:fe1aab9c74c9",
+    "en": "Start security operation",
+    "ru": "Начать операцию по обеспечению безопасности",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1948,
+    "offset": 100440,
+    "id": "main_text:100440:3b33266651e1",
+    "en": "Total Authority",
+    "ru": "Общие полномочия",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1950,
+    "offset": 100496,
+    "id": "main_text:100496:19766ed6ccb2",
+    "en": "Cancel",
+    "ru": "Отмена",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1952,
+    "offset": 100544,
+    "id": "main_text:100544:3b33266651e1",
+    "en": "Total Authority",
+    "ru": "Общие полномочия",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1954,
+    "offset": 100600,
+    "id": "main_text:100600:001e5cbbe9e9",
+    "en": "Switch To",
+    "ru": "Переключить на",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1956,
+    "offset": 100652,
+    "id": "main_text:100652:18a7c03963eb",
+    "en": "Emergency Supply Mode",
+    "ru": "Экстренный режим снабжения",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1958,
+    "offset": 100716,
+    "id": "main_text:100716:eebdd24a77d9",
+    "en": "Confirm",
+    "ru": "Подтвердить",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1960,
+    "offset": 100764,
+    "id": "main_text:100764:90789c12d073",
+    "en": "View Details",
+    "ru": "Подробнее",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1962,
+    "offset": 100820,
+    "id": "main_text:100820:741187903d90",
+    "en": "Regular Clear Record",
+    "ru": "Результаты обычного прохождения",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1964,
+    "offset": 100884,
+    "id": "main_text:100884:001e5cbbe9e9",
+    "en": "Switch To",
+    "ru": "Переключить на",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1966,
+    "offset": 100936,
+    "id": "main_text:100936:feb91bc7ea2f",
+    "en": "Highest Floor Cleared",
+    "ru": "Максимальный пройденный этаж",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1968,
+    "offset": 101000,
+    "id": "main_text:101000:3b33266651e1",
+    "en": "Total Authority",
+    "ru": "Общие полномочия",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1970,
+    "offset": 101056,
+    "id": "main_text:101056:e97301f49b99",
+    "en": "*Excluding operations with supports",
+    "ru": "*Без учёта операций с поддержкой",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1972,
+    "offset": 101132,
+    "id": "main_text:101132:503b2606d299",
+    "en": "Expected Rewards",
+    "ru": "Ожидаемые награды",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1974,
+    "offset": 101192,
+    "id": "main_text:101192:4664827f8e89",
+    "en": "Progress",
+    "ru": "Прогресс",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1976,
+    "offset": 101244,
+    "id": "main_text:101244:4664827f8e89",
+    "en": "Progress",
+    "ru": "Прогресс",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1978,
+    "offset": 101296,
+    "id": "main_text:101296:b7f18169453a",
+    "en": "Completion time",
+    "ru": "Время прохождения",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1984,
+    "offset": 101464,
+    "id": "main_text:101464:46b91ac3b47b",
+    "en": "Directional EC Unit",
+    "ru": "Направленный модуль EC",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1986,
+    "offset": 101524,
+    "id": "main_text:101524:479f718c3656",
+    "en": "Branch+",
+    "ru": "Ветвь+",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1988,
+    "offset": 101572,
+    "id": "main_text:101572:caa2e08f4f55",
+    "en": "Talent",
+    "ru": "Талант",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1990,
+    "offset": 101620,
+    "id": "main_text:101620:479f718c3656",
+    "en": "Branch+",
+    "ru": "Ветвь+",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1992,
+    "offset": 101668,
+    "id": "main_text:101668:6df1bb18a59a",
+    "en": "Skill",
+    "ru": "Навык",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1994,
+    "offset": 101716,
+    "id": "main_text:101716:4a2ff5699dec",
+    "en": "Tap the Operator on the right for details",
+    "ru": "Нажмите на оператора справа, чтобы узнать подробности",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1996,
+    "offset": 101800,
+    "id": "main_text:101800:6df1bb18a59a",
+    "en": "Skill",
+    "ru": "Навык",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 1998,
+    "offset": 101848,
+    "id": "main_text:101848:a18c13d855ea",
+    "en": "Attack Range",
+    "ru": "Радиус атаки",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2000,
+    "offset": 101904,
+    "id": "main_text:101904:479f718c3656",
+    "en": "Branch+",
+    "ru": "Ветвь+",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2002,
+    "offset": 101952,
+    "id": "main_text:101952:28e3e479e087",
+    "en": "Trait",
+    "ru": "Особенность",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2004,
+    "offset": 102000,
+    "id": "main_text:102000:6df1bb18a59a",
+    "en": "Skill",
+    "ru": "Навык",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2006,
+    "offset": 102048,
+    "id": "main_text:102048:52656e8104ee",
+    "en": "Branch",
+    "ru": "Ветвь",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2008,
+    "offset": 102096,
+    "id": "main_text:102096:6df1bb18a59a",
+    "en": "Skill",
+    "ru": "Навык",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2010,
+    "offset": 102144,
+    "id": "main_text:102144:f148224ae44f",
+    "en": "Module",
+    "ru": "Модуль",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2012,
+    "offset": 102192,
+    "id": "main_text:102192:9ff2abffe254",
+    "en": "Quick edit:",
+    "ru": "Быстрое редактирование:",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2014,
+    "offset": 102244,
+    "id": "main_text:102244:5a441b300276",
+    "en": "Choose an Operator",
+    "ru": "Выберите оператора",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2016,
+    "offset": 102304,
+    "id": "main_text:102304:62fab21846fd",
+    "en": "Confirm Assignment",
+    "ru": "Подтвердить назначение",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2018,
+    "offset": 102364,
+    "id": "main_text:102364:b5afd4ddc0f1",
+    "en": "Abandon Assignment",
+    "ru": "Отменить назначение",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2020,
+    "offset": 102424,
+    "id": "main_text:102424:bd4adba356ef",
+    "en": "Rapid Response",
+    "ru": "Быстрое реагирование",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2022,
+    "offset": 102480,
+    "id": "main_text:102480:202bb35e5a00",
+    "en": "Quick Assign",
+    "ru": "Быстрое назначение",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2024,
+    "offset": 102536,
+    "id": "main_text:102536:08a5d3d3c65c",
+    "en": "Squad is fixed and cannot be changed",
+    "ru": "Состав отряда закреплён и не может быть изменён",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2026,
+    "offset": 102616,
+    "id": "main_text:102616:08a5d3d3c65c",
+    "en": "Squad is fixed and cannot be changed",
+    "ru": "Состав отряда закреплён и не может быть изменён",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2028,
+    "offset": 102696,
+    "id": "main_text:102696:99f539d4f195",
+    "en": "Leave mission",
+    "ru": "Покинуть задание",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2030,
+    "offset": 102752,
+    "id": "main_text:102752:75b8869c1595",
+    "en": "Quick Select",
+    "ru": "Быстрый выбор",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2032,
+    "offset": 102808,
+    "id": "main_text:102808:a977f09e97aa",
+    "en": "Select Support",
+    "ru": "Выбрать поддержку",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2036,
+    "offset": 102920,
+    "id": "main_text:102920:3b70ace10b43",
+    "en": "Confirm Selection",
+    "ru": "Подтвердить выбор",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "main_text",
+    "index": 2038,
+    "offset": 102980,
+    "id": "main_text:102980:0fd68f4b3796",
+    "en": "Cannot be changed during a security operation",
+    "ru": "Нельзя изменить во время операции по обеспечению безопасности",
+    "status": "draft_for_review",
+    "source_file_sha256": "724917ecdcf79cb84253611199e0f1d14f038869704e5262d1f3b96cd258162a"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8081,
+    "offset": 389480,
+    "id": "operator_voices:389480:39721c0fd4bc",
+    "en": "Talk 2",
+    "ru": "Разговор 2",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8082,
+    "offset": 389492,
+    "id": "operator_voices:389492:8b26928edc5a",
+    "en": "Our job is to handle life and death.",
+    "ru": "Наша работа — решать, кому жить, а кому умереть.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8089,
+    "offset": 389748,
+    "id": "operator_voices:389748:d0c6173a3501",
+    "en": "Talk 1",
+    "ru": "Разговор 1",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8090,
+    "offset": 389760,
+    "id": "operator_voices:389760:4b03c8d00741",
+    "en": "I don't say much? That's because I'd rather avoid thinking about most things.",
+    "ru": "Я мало говорю? Просто предпочитаю о многом не задумываться.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8097,
+    "offset": 390060,
+    "id": "operator_voices:390060:92d5ad4a6ed3",
+    "en": "Appointed as Assistant",
+    "ru": "Назначение помощником",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8098,
+    "offset": 390088,
+    "id": "operator_voices:390088:a8ca51e5a8d3",
+    "en": "My next mission is to protect you, Doctor.",
+    "ru": "Моё следующее задание — защищать вас, Доктор.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8121,
+    "offset": 391428,
+    "id": "operator_voices:391428:2f35055d7f7e",
+    "en": "Greeting",
+    "ru": "Приветствие",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8122,
+    "offset": 391444,
+    "id": "operator_voices:391444:8adf00b8b78e",
+    "en": "Great, this place is the same as it ever was. Morning. Got any new plans?",
+    "ru": "Отлично, здесь всё по-прежнему. Доброе утро. Есть новые планы?",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8145,
+    "offset": 392464,
+    "id": "operator_voices:392464:f900d2635d01",
+    "en": "Trust Tap",
+    "ru": "При доверительном прикосновении",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8146,
+    "offset": 392480,
+    "id": "operator_voices:392480:6bf0f5955a3a",
+    "en": "Doctor, where's the hair dryer? I'd like to dry my tail.",
+    "ru": "Доктор, где фен? Хочу высушить хвост.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8153,
+    "offset": 392776,
+    "id": "operator_voices:392776:1235f81118f8",
+    "en": "Hey. Stop it.",
+    "ru": "Эй. Прекрати.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8160,
+    "offset": 393020,
+    "id": "operator_voices:393020:a66a428b65b5",
+    "en": "Assigned to Facility",
+    "ru": "Назначение на объект",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8161,
+    "offset": 393048,
+    "id": "operator_voices:393048:4d8257827743",
+    "en": "This place reminds me of Lungmen. It's quiet. Doesn't have the constant pitter patter of the rain.",
+    "ru": "Это место напоминает мне Лунмэнь. Тихо. Не слышно бесконечного стука дождя.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8168,
+    "offset": 393376,
+    "id": "operator_voices:393376:f0036ecabd6a",
+    "en": "Operation Failure",
+    "ru": "Поражение в операции",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8169,
+    "offset": 393400,
+    "id": "operator_voices:393400:84ab26a52cb1",
+    "en": "I can take out a few more. You go ahead and retreat.",
+    "ru": "Я ещё могу с ними справиться. Вы отступайте.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8176,
+    "offset": 393684,
+    "id": "operator_voices:393684:b828f7c12df8",
+    "en": "Sub 3-star Result",
+    "ru": "Результат ниже трёх звёзд",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8177,
+    "offset": 393708,
+    "id": "operator_voices:393708:e7e2dc878846",
+    "en": "There's still more to clean. When's our next sweep?",
+    "ru": "Работы ещё хватает. Когда следующая зачистка?",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8184,
+    "offset": 393988,
+    "id": "operator_voices:393988:612b429e81e3",
+    "en": "3-star Result",
+    "ru": "Результат: три звезды",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8185,
+    "offset": 394008,
+    "id": "operator_voices:394008:d9917a190cfb",
+    "en": "A battle without an explosion or cheering makes me feel a little uneasy. Let's head back. A drink? Maybe next time.",
+    "ru": "Бой без взрывов и радостных криков... Даже непривычно. Пора обратно. Выпить? Может, в другой раз.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8192,
+    "offset": 394352,
+    "id": "operator_voices:394352:e89c7bf9b804",
+    "en": "4-star Result",
+    "ru": "Результат: четыре звезды",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8193,
+    "offset": 394372,
+    "id": "operator_voices:394372:ca30b2b8c4a2",
+    "en": "The only way to solve a problem is to clear all the obstacles in the way, no matter what they might be and keep moving.",
+    "ru": "Решить проблему можно только одним способом: убрать все преграды с пути, какими бы они ни были, и идти дальше.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8200,
+    "offset": 394720,
+    "id": "operator_voices:394720:93f8b5c5d597",
+    "en": "In Battle 4",
+    "ru": "В бою 4",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8201,
+    "offset": 394736,
+    "id": "operator_voices:394736:029c992cc869",
+    "en": "This will keep you quiet.",
+    "ru": "Теперь ты замолчишь.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8208,
+    "offset": 394992,
+    "id": "operator_voices:394992:f1995bb13cc2",
+    "en": "In Battle 3",
+    "ru": "В бою 3",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8209,
+    "offset": 395008,
+    "id": "operator_voices:395008:420ef4bebfe8",
+    "en": "Pass on your last words? No.",
+    "ru": "Последнее слово? Нет.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8216,
+    "offset": 395268,
+    "id": "operator_voices:395268:44edbcf7c400",
+    "en": "In Battle 2",
+    "ru": "В бою 2",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8217,
+    "offset": 395284,
+    "id": "operator_voices:395284:c48a4352823f",
+    "en": "You saw nothing.",
+    "ru": "Ты ничего не видел.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8224,
+    "offset": 395532,
+    "id": "operator_voices:395532:37b714dd8297",
+    "en": "In Battle 1",
+    "ru": "В бою 1",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8225,
+    "offset": 395548,
+    "id": "operator_voices:395548:582fda4f5577",
+    "en": "Bad luck, you ran into me.",
+    "ru": "Не повезло тебе со мной столкнуться.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8232,
+    "offset": 395804,
+    "id": "operator_voices:395804:f9edbc100e75",
+    "en": "Deployment 2",
+    "ru": "Размещение 2",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8233,
+    "offset": 395824,
+    "id": "operator_voices:395824:37d518869373",
+    "en": "I see them. I'll be right back.",
+    "ru": "Вижу их. Скоро вернусь.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8240,
+    "offset": 396084,
+    "id": "operator_voices:396084:7d8413f2a214",
+    "en": "Deployment 1",
+    "ru": "Размещение 1",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8241,
+    "offset": 396104,
+    "id": "operator_voices:396104:ff6e85f2506e",
+    "en": "Got a problem that needs solving?",
+    "ru": "Нужно решить проблему?",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8248,
+    "offset": 396368,
+    "id": "operator_voices:396368:6d8ad24d9cc9",
+    "en": "Selecting Operator 2",
+    "ru": "Выбор оператора 2",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8249,
+    "offset": 396396,
+    "id": "operator_voices:396396:50ac6e791196",
+    "en": "Need speed to succeed.",
+    "ru": "Побеждает тот, кто быстрее.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8256,
+    "offset": 396648,
+    "id": "operator_voices:396648:36a98206b9fa",
+    "en": "Selecting Operator 1",
+    "ru": "Выбор оператора 1",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8257,
+    "offset": 396676,
+    "id": "operator_voices:396676:ebf3d556bb1c",
+    "en": "Moving to designated location.",
+    "ru": "Выдвигаюсь к указанной точке.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8264,
+    "offset": 396936,
+    "id": "operator_voices:396936:4c0ff0d82ac4",
+    "en": "Begin Operation",
+    "ru": "Начало операции",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8265,
+    "offset": 396956,
+    "id": "operator_voices:396956:4bc7aba59d10",
+    "en": "Don't leave bloodstains. They're hard to clean.",
+    "ru": "Не оставляйте пятен крови. Их трудно отмыть.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8272,
+    "offset": 397232,
+    "id": "operator_voices:397232:5b67ed5f7d28",
+    "en": "Depart",
+    "ru": "Выход на задание",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8273,
+    "offset": 397244,
+    "id": "operator_voices:397244:a3fa81c037a9",
+    "en": "No need to make a scene.",
+    "ru": "Без лишнего шума.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8280,
+    "offset": 397500,
+    "id": "operator_voices:397500:73bedc1ef1cf",
+    "en": "Appointed as Squad Leader",
+    "ru": "Назначение командиром отряда",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8281,
+    "offset": 397532,
+    "id": "operator_voices:397532:d3a90eb5d0dc",
+    "en": "Alright. Try to keep up. Let me know if you can't.",
+    "ru": "Ладно. Постарайтесь не отставать. Если не справитесь — скажите.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8288,
+    "offset": 397812,
+    "id": "operator_voices:397812:2775e9ef8d39",
+    "en": "Added to Squad",
+    "ru": "Добавление в отряд",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8289,
+    "offset": 397832,
+    "id": "operator_voices:397832:1449c628c384",
+    "en": "Order confirmed, crystal clear.",
+    "ru": "Приказ понятен и принят.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8304,
+    "offset": 398548,
+    "id": "operator_voices:398548:f19c4c5e4eaa",
+    "en": "Promotion 1",
+    "ru": "Первое повышение",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "operator_voices",
+    "index": 8305,
+    "offset": 398564,
+    "id": "operator_voices:398564:481151057c99",
+    "en": "I'm not helping you for the money, Doctor. But still, go ahead and send my salary over to Penguin Logistics as usual. I'll pick it up from Emperor.",
+    "ru": "Я помогаю вам не ради денег, Доктор. Но зарплату, как обычно, отправляйте в Penguin Logistics. Заберу её у Императора.",
+    "status": "draft_for_review",
+    "source_file_sha256": "f66bc0c477a02187a6512c7a1720974520359d1e5f67ee47dc79ae9d37834845"
+  },
+  {
+    "role": "enemies",
+    "index": 94,
+    "offset": 15236,
+    "id": "enemies:15236:7cf25df52a45",
+    "en": "A lingering beat, a dull echo. Who conducts it, and why does it sing?",
+    "ru": "Затихающий ритм, глухое эхо. Кто им дирижирует и почему оно поёт?",
+    "status": "draft_for_review",
+    "source_file_sha256": "207652f2a1e1c059f594ba586bbc585c58e75e159ba14964b8cf8ed40fe79e03"
+  },
+  {
+    "role": "enemies",
+    "index": 95,
+    "offset": 15360,
+    "id": "enemies:15360:9c6bc9d682ee",
+    "en": "All <'Echoes'> periodically play in ensemble, dealing AoE Arts damage and inflicting <$ba.dt.apoptosis>Necrosis</>",
+    "ru": "Все <'Echoes'> периодически действуют сообща, нанося Arts-урон по площади и накладывая <$ba.dt.apoptosis>Некроз</>.",
+    "status": "draft_for_review",
+    "source_file_sha256": "207652f2a1e1c059f594ba586bbc585c58e75e159ba14964b8cf8ed40fe79e03"
+  },
+  {
+    "role": "enemies",
+    "index": 96,
+    "offset": 15488,
+    "id": "enemies:15488:226b8f6761ec",
+    "en": "Upon taking damage, deals Arts damage in an area around itself, inflicting <$ba.dt.apoptosis>Necrosis</>",
+    "ru": "Получая урон, наносит Arts-урон по области вокруг себя и накладывает <$ba.dt.apoptosis>Некроз</>.",
+    "status": "draft_for_review",
+    "source_file_sha256": "207652f2a1e1c059f594ba586bbc585c58e75e159ba14964b8cf8ed40fe79e03"
+  },
+  {
+    "role": "enemies",
+    "index": 97,
+    "offset": 15608,
+    "id": "enemies:15608:8fe4b94a62ae",
+    "en": "Movement Speed is reduced while ATK is increased in [Penumbral Lament] form, transforms into [Golden Wail] form after taking damage several times",
+    "ru": "В форме [Penumbral Lament] скорость передвижения снижена, а ATK повышена. После нескольких попаданий принимает форму [Golden Wail].",
+    "status": "draft_for_review",
+    "source_file_sha256": "207652f2a1e1c059f594ba586bbc585c58e75e159ba14964b8cf8ed40fe79e03"
+  },
+  {
+    "role": "enemies",
+    "index": 98,
+    "offset": 15768,
+    "id": "enemies:15768:1a4adc0217d4",
+    "en": "ASPD increased in [Golden Wail] form, transforms into [Penumbral Lament] form after taking damage several times",
+    "ru": "В форме [Golden Wail] повышена ASPD. После нескольких попаданий принимает форму [Penumbral Lament].",
+    "status": "draft_for_review",
+    "source_file_sha256": "207652f2a1e1c059f594ba586bbc585c58e75e159ba14964b8cf8ed40fe79e03"
+  },
+  {
+    "role": "enemies",
+    "index": 99,
+    "offset": 15892,
+    "id": "enemies:15892:76e8238022d1",
+    "en": "[Polytonality]: Switches between [Golden Wail] and [Penumbral Lament] forms",
+    "ru": "[Polytonality]: переключается между формами [Golden Wail] и [Penumbral Lament].",
+    "status": "draft_for_review",
+    "source_file_sha256": "207652f2a1e1c059f594ba586bbc585c58e75e159ba14964b8cf8ed40fe79e03"
+  },
+  {
+    "role": "enemies",
+    "index": 100,
+    "offset": 15980,
+    "id": "enemies:15980:6f8d0f52ca5a",
+    "en": "Can only be blocked by units with at least 2 Block",
+    "ru": "Его могут блокировать только бойцы с показателем блока не ниже 2.",
+    "status": "draft_for_review",
+    "source_file_sha256": "207652f2a1e1c059f594ba586bbc585c58e75e159ba14964b8cf8ed40fe79e03"
+  },
+  {
+    "role": "enemies",
+    "index": 101,
+    "offset": 16044,
+    "id": "enemies:16044:a23b7b0e8fd0",
+    "en": "Must be attacked several times to defeat",
+    "ru": "Для победы требуется нанести несколько ударов.",
+    "status": "draft_for_review",
+    "source_file_sha256": "207652f2a1e1c059f594ba586bbc585c58e75e159ba14964b8cf8ed40fe79e03"
+  },
+  {
+    "role": "enemies",
+    "index": 109,
+    "offset": 16648,
+    "id": "enemies:16648:417d06e6e8d3",
+    "en": "[Broken Strings] Targets all <'Echoes'> in [Golden Wail] form on the field, dealing Arts damage in a large area centered around them and inflicting <$ba.dt.apoptosis>Necrosis</>, and transforms the targets' <'Echoes'> form",
+    "ru": "[Broken Strings]: поражает все <'Echoes'> в форме [Golden Wail] Arts-уроном по большой площади и накладывает <$ba.dt.apoptosis>Некроз</>, после чего меняет форму <'Echoes'>.",
+    "status": "draft_for_review",
+    "source_file_sha256": "207652f2a1e1c059f594ba586bbc585c58e75e159ba14964b8cf8ed40fe79e03"
+  },
+  {
+    "role": "enemies",
+    "index": 110,
+    "offset": 16884,
+    "id": "enemies:16884:66b890887bee",
+    "en": "Attacks prioritize <'Echoes'> in [Golden Wail] form",
+    "ru": "В форме [Golden Wail] в первую очередь атакует <'Echoes'>.",
+    "status": "draft_for_review",
+    "source_file_sha256": "207652f2a1e1c059f594ba586bbc585c58e75e159ba14964b8cf8ed40fe79e03"
+  },
+  {
+    "role": "enemies",
+    "index": 111,
+    "offset": 16948,
+    "id": "enemies:16948:07f4e82afb8f",
+    "en": "When on the field, continuously summons <'Echoes'> in [Golden Wail] form",
+    "ru": "Пока находится на поле, непрерывно призывает <'Echoes'> в форме [Golden Wail].",
+    "status": "draft_for_review",
+    "source_file_sha256": "207652f2a1e1c059f594ba586bbc585c58e75e159ba14964b8cf8ed40fe79e03"
+  },
+  {
+    "role": "enemies",
+    "index": 112,
+    "offset": 17036,
+    "id": "enemies:17036:7465989f48b7",
+    "en": "Permanently Invulnerable; leaves the field when <OpFor: Pipe> is defeated",
+    "ru": "Постоянно неуязвим; покидает поле после поражения <OpFor: Pipe>.",
+    "status": "draft_for_review",
+    "source_file_sha256": "207652f2a1e1c059f594ba586bbc585c58e75e159ba14964b8cf8ed40fe79e03"
+  },
+  {
+    "role": "enemies",
+    "index": 120,
+    "offset": 17604,
+    "id": "enemies:17604:56bdeaeb1e15",
+    "en": "<OpFor: String> and <OpFor: Pipe> will appear at the same time after fulfilling specific conditions and entering the Hidden Core round",
+    "ru": "<OpFor: String> и <OpFor: Pipe> появятся одновременно после выполнения особых условий при переходе в раунд Hidden Core.",
+    "status": "draft_for_review",
+    "source_file_sha256": "207652f2a1e1c059f594ba586bbc585c58e75e159ba14964b8cf8ed40fe79e03"
+  },
+  {
+    "role": "enemies",
+    "index": 123,
+    "offset": 17948,
+    "id": "enemies:17948:29cdc0c2cfdf",
+    "en": "Attacks prioritize <'Echoes'> in [Penumbral Lament] form",
+    "ru": "В форме [Penumbral Lament] в первую очередь атакует <'Echoes'>.",
+    "status": "draft_for_review",
+    "source_file_sha256": "207652f2a1e1c059f594ba586bbc585c58e75e159ba14964b8cf8ed40fe79e03"
+  }
+]

@@ -1,0 +1,740 @@
+[
+  {
+    "role": "items",
+    "offset": 143248,
+    "id": "items:143248:0f43fe0c8f8d",
+    "en": "Universal Certificates Exchange Area",
+    "ru": "Пункт обмена универсальных сертификатов",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 143324,
+    "id": "items:143324:51d99e16a5bb",
+    "en": "Intelligence Certification",
+    "ru": "Сертификат сведений",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 143384,
+    "id": "items:143384:6477b2a34a0a",
+    "en": "Headhunting Parametric Models",
+    "ru": "Параметрические модели найма",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 143448,
+    "id": "items:143448:42aa4c3a8591",
+    "en": "Purchase Certificates",
+    "ru": "Закупочные сертификаты",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 149480,
+    "id": "items:149480:39a0102e28da",
+    "en": "A substitute currency issued in Zelgrad after the implementation of Anatoliy Svetlanov Buterin's ordinances at the beginning of 1102. Normally only distributed within the residential park, where it is traded for daily necessities, food, medicine, etc.",
+    "ru": "Временная валюта Зелграда, выпущенная после введения указов Анатолия Светланова Бутерина в начале 1102 года. Ею обычно пользуются только в жилом комплексе: покупают товары первой необходимости, продукты и лекарства.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 149756,
+    "id": "items:149756:ac3453a8b5f4",
+    "en": "'Factory scrip'",
+    "ru": "«Фабричные талоны»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 150288,
+    "id": "items:150288:e2d8fd710a8e",
+    "en": "Special Looseleaf Stickers for Fashion Collections usable as decorations.",
+    "ru": "Особые наклейки для модных коллекций. Можно использовать как украшения.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 150372,
+    "id": "items:150372:5183a9f657ca",
+    "en": "Complete Relaunch Anchor Themed Set to obtain",
+    "ru": "Можно получить, собрав тематический комплект «Новый курс».",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 150424,
+    "id": "items:150424:a85442401473",
+    "en": "Sticker Pack/Relaunch Anchor",
+    "ru": "Набор наклеек / «Новый курс»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 150516,
+    "id": "items:150516:42bce616f3fb",
+    "en": "Get ready to follow a new course.",
+    "ru": "Приготовьтесь взять новый курс.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 150648,
+    "id": "items:150648:a98839b25862",
+    "en": "Scraps of unsent letters. Those who find these can choose to either preserve them as evidence, or toss them to the still-burning bonfire in exchange for a pittance of warmth.",
+    "ru": "Обрывки так и не отправленных писем. Нашедший может сохранить их как свидетельство прошлого или бросить в ещё горящий костёр — ради нескольких мгновений тепла.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 151132,
+    "id": "items:151132:bccd93416955",
+    "en": "Broken Verses",
+    "ru": "Разбитые стихи",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 151544,
+    "id": "items:151544:f3e56a8310c7",
+    "en": "A batch headhunting permit issued by the Rhodes Island HR Department; Can be used at a certain time to recruit talented Operators, 10 rolls at once.",
+    "ru": "Пакет разрешений на найм от отдела кадров Родос Айленда. В определённое время позволяет нанять сразу десять операторов.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 151716,
+    "id": "items:151716:5f2212591034",
+    "en": "Rage of the Many Ten-roll Headhunting Permit",
+    "ru": "Разрешение на десятикратный поиск «Ярость многих»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 152152,
+    "id": "items:152152:0fdd1f400b33",
+    "en": "A special permit from Rhodes Island HR for recruiting special talents at special points in time. Can be used to recruit one operator.",
+    "ru": "Особое разрешение отдела кадров Родос Айленда на поиск редких талантов в указанный период. Позволяет нанять одного оператора.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 152308,
+    "id": "items:152308:ccf1bae62f44",
+    "en": "Rage of the Many Headhunting Permit",
+    "ru": "Разрешение на поиск «Ярость многих»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 152716,
+    "id": "items:152716:1245bdecd84e",
+    "en": "A voucher that can be exchanged for rewards at 'Rhodes Island Procurement Center'.",
+    "ru": "Купон для обмена на награды в центре снабжения Родос Айленда.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 152808,
+    "id": "items:152808:19d91854857a",
+    "en": "Obtained from Reclamation Algorithm",
+    "ru": "Можно получить в «Алгоритме выживания».",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 152848,
+    "id": "items:152848:1ab930532bc8",
+    "en": "Mission Acceptance Slip",
+    "ru": "Бланк принятия задания",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 152924,
+    "id": "items:152924:623b158a4004",
+    "en": "Completing missions to build the new base will earn you these acceptance slips. Closure's favorite right now.",
+    "ru": "Эти бланки выдают за выполнение заданий по строительству новой базы. Сейчас это любимая вещь Клоузер.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 153124,
+    "id": "items:153124:599bb6b1a6d8",
+    "en": "Obtained from Stronghold Protocol: Alliance",
+    "ru": "Можно получить в режиме «Протокол укреплений: Альянс».",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 153172,
+    "id": "items:153172:f53376c77c86",
+    "en": "Emote Set: Stronghold Protocol",
+    "ru": "Набор эмоций «Протокол укреплений»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 153936,
+    "id": "items:153936:1c9be81a3b01",
+    "en": "Limited Event Drop",
+    "ru": "Ограниченная награда события",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 153960,
+    "id": "items:153960:fba1e2f8c3ab",
+    "en": "Cork Stopper",
+    "ru": "Винная пробка",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 154416,
+    "id": "items:154416:f6e9bf6ca6c5",
+    "en": "Can be exchanged for all sorts of supplies in Stronghold Protocol.",
+    "ru": "Можно обменять на различные припасы в «Протоколе укреплений».",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 154536,
+    "id": "items:154536:68ffb8f1f2db",
+    "en": "Stronghold Credits",
+    "ru": "Кредиты укреплений",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 155536,
+    "id": "items:155536:11719859b5a2",
+    "en": "Draft of History",
+    "ru": "Черновик истории",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 155616,
+    "id": "items:155616:45e4717cbec2",
+    "en": "A chronicle of an event's beginning and end, an examination of an era's gains and losses, an analysis of one's rights and wrongs, to be settled with a single verdict.",
+    "ru": "Летопись событий и их последствий, успехов и потерь целой эпохи, верных и ошибочных решений — всё ради одного окончательного вердикта.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 156116,
+    "id": "items:156116:52044bcb5bd1",
+    "en": "Admire the artistic mesh of desert and oasis.",
+    "ru": "Полюбуйтесь искусным переплетением пустыни и оазиса.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 156504,
+    "id": "items:156504:2e11a1cdf0ce",
+    "en": "Tourists entranced by enchanting landscapes.",
+    "ru": "Путешественники, покорённые чарующими пейзажами.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 156880,
+    "id": "items:156880:e4c382540083",
+    "en": "The land witnesses the Sarkaz's splendid forms.",
+    "ru": "Земля хранит следы великолепия сарказов.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 157260,
+    "id": "items:157260:c1310e012b8e",
+    "en": "Seek the beauty of mystery in the bitter cold.",
+    "ru": "Ищите красоту неизведанного среди лютых морозов.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 157624,
+    "id": "items:157624:33023bcccb78",
+    "en": "The tides call out for you to travel.",
+    "ru": "Прилив зовёт в дорогу.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 157988,
+    "id": "items:157988:ebcb85aa5cfd",
+    "en": "A grand encompassing performance.",
+    "ru": "Грандиозное представление.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 158120,
+    "id": "items:158120:a6306398a8f3",
+    "en": "A themed Fashion Collections set containing a Custom Looseleaf and stickers, easily placed and displayed.",
+    "ru": "Тематический набор модной коллекции с листом для оформления и наклейками. Легко разместить и показать другим.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 158236,
+    "id": "items:158236:1b4169113381",
+    "en": "Fashion Collections Gift",
+    "ru": "Подарок модной коллекции",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 158336,
+    "id": "items:158336:74dffacbd589",
+    "en": "A new melody composed for today's display.",
+    "ru": "Новая мелодия для сегодняшнего показа.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 158620,
+    "id": "items:158620:d687d00758b1",
+    "en": "Looseleaf/Rhodes Fashion Review",
+    "ru": "Отдельный лист / «Мода Родос Айленда»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 158704,
+    "id": "items:158704:25b7fcc0b1cd",
+    "en": "Create your own unique style.",
+    "ru": "Создайте собственный неповторимый стиль.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 162680,
+    "id": "items:162680:f442c0b758f9",
+    "en": "Saltfin Garum",
+    "ru": "Солёный гарум",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 163676,
+    "id": "items:163676:4b2520b9ed27",
+    "en": "Dr Oxygen",
+    "ru": "«Доктор Кислород»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 165036,
+    "id": "items:165036:e4e42537a152",
+    "en": "An encrypted data block. Always remember, the conversion of information often entails unavoidable wear. Make good use of your information storage devices, but do not depend on them.",
+    "ru": "Зашифрованный блок данных. Помните: преобразование информации редко обходится без потерь. Используйте носители с умом, но не полагайтесь на них безоговорочно.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 171212,
+    "id": "items:171212:c36415af1be6",
+    "en": "Obtain from Main Theme",
+    "ru": "Можно получить в основном сюжете.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 171240,
+    "id": "items:171240:af1fb6682073",
+    "en": "Unexploded Dud",
+    "ru": "Неразорвавшийся снаряд",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 171696,
+    "id": "items:171696:590fbddeceb4",
+    "en": "Altered Flag",
+    "ru": "Изменённое знамя",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 171984,
+    "id": "items:171984:cb09ce055218",
+    "en": "An abandoned mining lamp that still works, though the name tag has been torn off.",
+    "ru": "Брошенная шахтёрская лампа всё ещё работает, хотя табличку с именем владельца сорвали.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 172112,
+    "id": "items:172112:2b50cabd9093",
+    "en": "Ownerless Mining Lamp",
+    "ru": "Шахтёрская лампа без хозяина",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 172612,
+    "id": "items:172612:6da5dee77435",
+    "en": "Dull Originium",
+    "ru": "Потускневший ориджиниум",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 172680,
+    "id": "items:172680:b95a8f5c794d",
+    "en": "Once, they said it was the origin of suffering. Now, they say its disappearance was the beginning of tragedy.",
+    "ru": "Когда-то его называли источником страданий. Теперь говорят, что исчезновение ориджиниума положило начало трагедии.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 173576,
+    "id": "items:173576:da6293ef4ad9",
+    "en": "Icebreak Points",
+    "ru": "Очки ледокола",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 173644,
+    "id": "items:173644:d86ab61bcb79",
+    "en": "The Icebreaker Games have the spotlight today thanks to your wholehearted support.",
+    "ru": "Благодаря вашей поддержке Игры ледоколов сегодня в центре внимания.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 173932,
+    "id": "items:173932:32e20d54aa3c",
+    "en": "Obtained from Icebreaker Games #2",
+    "ru": "Награда Игр ледоколов № 2",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 173972,
+    "id": "items:173972:b6bc2c1b6b2b",
+    "en": "Participation Certification - S2",
+    "ru": "Сертификат участника — сезон 2",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 174060,
+    "id": "items:174060:07e4af601e70",
+    "en": "A certificate of participation in Rhodes Island's Icebreaker Games. 'Leave your sweat in the stadium. Come home with camaraderie.'",
+    "ru": "Свидетельство об участии в Играх ледоколов Родос Айленда. «Оставь пот на арене, а домой привези товарищество».",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 174416,
+    "id": "items:174416:58179fae408c",
+    "en": "Thank-You Celebration Recruiting Supplies",
+    "ru": "Рекрутинговые припасы в честь праздника благодарности",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 174816,
+    "id": "items:174816:3b19862ccb2e",
+    "en": "Special Redemption Point",
+    "ru": "Особые очки обмена",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 174912,
+    "id": "items:174912:078b8f181a5e",
+    "en": "Rhodes Island issues special redemption points as an incentive to field operators. These points can be used to redeem important supplies.",
+    "ru": "Родос Айленд начисляет эти очки операторам за участие в боевых вылазках. Их можно обменять на важные припасы.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 175684,
+    "id": "items:175684:698570ee4625",
+    "en": "Dream Puzzle Pieces",
+    "ru": "Фрагменты головоломки снов",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 176320,
+    "id": "items:176320:80974ed6cbbc",
+    "en": "Elite Advancement Token",
+    "ru": "Жетон повышения до Элиты",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 176772,
+    "id": "items:176772:0a7053fcee24",
+    "en": "Refined Core",
+    "ru": "Очищенное ядро",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 176864,
+    "id": "items:176864:e95065cd49a9",
+    "en": "Obtained by refining Packaged Cores. Difficult to obtain, and typically used to launch new production bases.",
+    "ru": "Получают путём обработки упакованных ядер. Редкий материал, обычно используемый при создании новых производственных баз.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 177240,
+    "id": "items:177240:07bfd746dc0c",
+    "en": "Packaged Core",
+    "ru": "Упакованное ядро",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 177324,
+    "id": "items:177324:bc14347e030b",
+    "en": "Packaged ore sample extracted from the center of an Originium vein. It is an acceptable substitute for refined Originium fuel when refining facilities are not available.",
+    "ru": "Упакованный образец руды из сердцевины ориджиниумовой жилы. Если оборудования для переработки нет, может заменить очищенное ориджиниумовое топливо.",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 177744,
+    "id": "items:177744:ecf13553d91b",
+    "en": "Specialist Advancement Token",
+    "ru": "Жетон повышения специалиста",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 178232,
+    "id": "items:178232:0afa9da6c5b8",
+    "en": "Supporter Advancement Token",
+    "ru": "Жетон повышения поддержки",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 178692,
+    "id": "items:178692:016e521392de",
+    "en": "Medic Advancement Token",
+    "ru": "Жетон повышения медика",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 179156,
+    "id": "items:179156:63dc6971425c",
+    "en": "Caster Advancement Token",
+    "ru": "Жетон повышения заклинателя",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 179640,
+    "id": "items:179640:99eeff2456d9",
+    "en": "Sniper Advancement Token",
+    "ru": "Жетон повышения снайпера",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 180116,
+    "id": "items:180116:13c810ac9975",
+    "en": "Defender Advancement Token",
+    "ru": "Жетон повышения защитника",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 180600,
+    "id": "items:180600:51a83eba8798",
+    "en": "Guard Advancement Token",
+    "ru": "Жетон повышения гвардейца",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 181064,
+    "id": "items:181064:ec96d3c2cbee",
+    "en": "Vanguard Advancement Token",
+    "ru": "Жетон повышения авангарда",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 181520,
+    "id": "items:181520:624c8a6f77f2",
+    "en": "Strategic Beacon",
+    "ru": "Стратегический маяк",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 181616,
+    "id": "items:181616:74a5c1f7d209",
+    "en": "Virtual marker with Closure's crypto-signature. The quantity deployed is carefully calculated, ensuring that aid provided by Rhodes Island HQ is utilized efficiently.\n'More interesting than a plain paper production plan, don't you think?'",
+    "ru": "Виртуальная метка с криптографической подписью Клоузер. Число меток рассчитано так, чтобы помощь штаба Родос Айленда использовалась эффективно.\n«Куда интереснее скучного производственного плана на бумаге, верно?»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 182080,
+    "id": "items:182080:9f210cbe9235",
+    "en": "Skill Handbook",
+    "ru": "Учебник навыков",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 182480,
+    "id": "items:182480:7fd334e584d3",
+    "en": "Training Handbook",
+    "ru": "Учебник подготовки",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 182884,
+    "id": "items:182884:471288204321",
+    "en": "Resource Point",
+    "ru": "Очки ресурсов",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 183364,
+    "id": "items:183364:1488f46fcbb0",
+    "en": "Fantasies of the Garden Furniture Pack II",
+    "ru": "Мебельный набор «Фантазии сада II»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 184096,
+    "id": "items:184096:7adf8fc551b2",
+    "en": "Fantasies of the Garden Furniture Pack I",
+    "ru": "Мебельный набор «Фантазии сада I»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 185128,
+    "id": "items:185128:8f581138589c",
+    "en": "Flowing Glimmerdust",
+    "ru": "Мерцающая самоцветная пыль",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 185772,
+    "id": "items:185772:9b9b8198c592",
+    "en": "Carefully-Prepared Tasting Set",
+    "ru": "Подготовленный дегустационный набор",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 186300,
+    "id": "items:186300:ff9f9ed94022",
+    "en": "'Treasure Pouch'",
+    "ru": "«Мешочек сокровищ»",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  },
+  {
+    "role": "items",
+    "offset": 186928,
+    "id": "items:186928:8acb6fdc4090",
+    "en": "Idle Gossip",
+    "ru": "Праздные сплетни",
+    "status": "draft_for_review",
+    "source_file_sha256": "1b77f15c6716c35880870382c34bbe5735b814a38545e8d07762618efe59b500"
+  }
+]

@@ -1,0 +1,279 @@
+game_key	english
+NAME_WEEKLY_ZONE_IN_DROP_INFO	<{0}>{1}
+STAGE_WEEKLY_UNLOCK_DESC_SPTR	,
+CAMPAIGN_BRIEF_SEPARATOR	,
+CAMPAIGN_LADDER_TEXT	+ ~{0}
+STAGE_MIX_STORY_OVERALL_PROGRESS_FORMAT	{0}<color=#ffffff66><size=18>/{1}</size></color>
+STAGE_MIX_STORY_RETRO_PROGRESS_FORMAT	{0}<color=#ffffff66><size=24>/{1}</size></color>
+STAGE_MIX_STORY_RETRO_COIN_FORMAT	{0}<color=#898989>/{1}</color>
+DESC_ATTR_VALUE_ADD	{0}  <color=#ff9d5c>+{1}</color>
+ENEMY_HIDE_INFO	?
+RECRUIT_COMBINE_GACHA_TK_ITEM	{1} × {0}
+RECRUIT_COMBINE_DIAMOND_SHD_ITEM	{0} {1}
+RECRUIT_COMBINE_ITEM_DIV	,<color=#ffd800> </color>
+SKIN_ILLUST_0_TEXT_GREEK	I
+SKIN_ILLUST_1_TEXT_GREEK	I SP
+SKIN_ILLUST_2_TEXT_GREEK	II
+SHOP_TIME_OUT_WARNING	{0}
+CASH_PRICE_CURRENCY	$
+SHOP_RECOMMEND_TEMPLATE_SKIN_NAME_FORMAT	{0}-{1}
+BATTLE_FINISH_PRY_DIFFICULTY_FORMAT	'{0}, {1}'
+BUILDING_REST_TIME_FORMAT_WITHOUT_DAY	{0:D2}:{1:D2}:{2:D2}
+BUILDING_EMPTY_TIME_TEXT	--:--:--
+HOT_UPDATE_PERCENT	{0:P0}
+BUILDING_MESSAGE_LEAVE_TIME_SPAN_HOUR_FORMAT	{0:D2}:{1:D2}:{2:D2}
+BUILDING_MESSAGE_LEAVE_TIME_LAST_WEEK_FORMAT	{0}—{1}
+BUILDING_MESSAGE_LEAVE_TIME_LAST_WEEK_TIME_FORMAT	{0:D4}.{1:D2}.{2:D2}
+COMMON_SPLIT_HANDBOOK_ICON	<color=#717171>, </color>
+COMMON_SPLIT_ICON	,
+COMMON_NUMBER_WITH_ADD	+{0}
+ACTIVITY_MISSION_STATE	<color=#22bbff>{0}</color><size=25>/{1}</size>
+ACT5D0_MISSION_PASS_RATE	<color=#ffd800>{0}</color><color=#898989>/{1}</color>
+COMMON_ACT_TIME_WITH_START_TIME	{0:D2}/{1:D2} {2:D2}:{3:D2}~{4:D2}/{5:D2} {6:D2}:{7:D2}
+NO_TIME_HH_MM_SS	--:--:--
+TIME_MAIL_PASS	<color=#0075A9>{0}-{1}-{2}</color>
+DAY_CONST_TEXT	d
+HOUR_CONST_TEXT	h
+MIN_CONST_TEXT	m
+DATE_FORMAT_MM	{0}
+DATE_FORMAT_MM_DD	{0}/{1}
+DATE_FORMAT_MM_DD_HH_TT	{0:D2}/{1:D2} {2:D2}:{3:D2}
+DATE_FORMAT_YYYY_MM_DD_HH_MM	{0:D4}/{1:D2}/{2:D2} {3:D2}:{4:D2}
+DATE_FORMAT_YYYY_MM_DD	{0:D4}/{1:D2}/{2:D2}
+DATE_FORMAT_MM_DD_TINY	{0}.{1}
+ACT12D6_RELIC_PROGRESS	(<color=#00dad7>{0}</color>/{1})
+AVG_PLAYBACK_OPTION_NORMAL	[{0}]
+AVG_PLAYBACK_OPTION_HIGHLIGHT	<color=#00A0E9FF>[{0}]</color>
+DIALOG_HGSDK_JUDGE_MINOR_POLICY	* Please note, the information you provided classifies you as a minor. Such classification may subject this account to the following restrictions\n<color=#710000>Minors may only log in for 1 hour between 20:00 and 21:00 on Fridays, Saturdays, Sundays and statutory holidays\nFor players aged 8-15, no more than 50 RMB may be spent in a single transaction, with a monthly limit of 200 RMB\nFor players aged 16-17, no more than 100 RMB may be spent in a single transaction, with a monthly limit of 400 RMB</color>\nRefer to official announcements for specific information regarding restrictions on play time.
+DIALOG_HGSDK_IDENTITY_VERIFY_POLICY	Please note, accounts classified as minors may be subject to these following restrictions in the future\n<color=#ffd800>Minors may only log in for 1 hour between 20:00 and 21:00 on Fridays, Saturdays, Sundays and statutory holidays\nFor players aged 8-15, no more than 50 RMB may be spent in a single transaction, with a monthly limit of 200 RMB\nFor players aged 16-17, no more than 100 RMB may be spent in a single transaction, with a monthly limit of 400 RMB</color>\nRefer to official announcements for specific information regarding restrictions on play time.
+CRISIS_SEASON_END_TIME	{0:D4}/{1:D2}/{2:D2} {3:D2}:{4:D2}
+CRISIS_V2_MISSION_PROGRESS_TEXT	<color=#dbd8d7>{0}</color>/{1}
+BLESSONLY_REWARD_CNT_DISPLAY	X {0}
+BLESSONLY_NAME_FORMAT	{0}#{1}
+BLESSONLY_UID_FORMAT	ID {0}
+STORY_BRIEF_CHAPTER_TITLE	'{0}'
+ACT11D0_ZONE_FOG_UNLOCK_ITEM	{0}\n{1}/{2}
+ACT11D0_STAGE_FOG_UNLOCK_ITEM	{0}:{1}/{2}
+ROGUELIKE_TOPIC_MONTH_TASK_PROGRESS	<color=#{0}>{1}</color>/{2}
+ROGUELIKE_COMMON_COST_COUNT_FORMAT	- {0}
+ROGUELIKE_STASHED_RECRUIT_TICKET_COST_ADD	+ {0}
+ROGUELIKE_ACTIVE_TOOL_DESC	{0} ({1})
+ROGUELIKE_COMMON_I18N_COMMA_SPLIT	,
+RL02_MUTATION_DESC_SEPARATOR	,
+RL_EXPEDITION_RETURN_DETAIL_REWARD_ITEM	{0} {1}
+RL_EXPEDITION_RETURN_ITEM_SPLIT	,
+ROGUELIKE_BUFF_TOAST_NAME_SEPARATOR	,
+RL03_OUTER_BUFF_SUMMARY_COUNT_FORMAT	{0}/<color=#AEAEAE><size=25>{1}</size></color>
+ROGUE_4_TRAVEL_TOAST_SEPARATOR	,
+ROGUE_4_DISASTER_TOAST_NAME	{0}·{1}
+ROGUE_5_ARCHIVE_UNKNOWN_NAME	???
+TOAST_MAINLINE_UNLOCK_NEW_STAGE_ITEM_FORMAT	<color=#4abdff>{0}</color>
+TOAST_MAINLINE_UNLOCK_NEW_STAGE_ITEM_SPLITTER	,
+SP_CHAR_NAME_SEPARATOR	,
+MULTI_BATTLE_LAG	{0} ms
+GUIDE_MISSION_ITEM_COUNT_STR	<size=30> x </size>{0}
+INFORMANT_INNER_RESULT_CUSTOMER_GET_COUNT	+ {0}
+UNIEQUIP_DEFAULT_LEVEL_SHORT	-
+ACT12SIDE_REWARDS_INTRO	For every {0} Mama John's Vouchers recycled, Ernesto will give 1 gift\nWhen there are still uncollected Stickers, the gift will be one of the uncollected Stickers; Otherwise, he will give a random Sticker from those which have value.
+ACT_ARCHIVE_NEWS_READ_COUNT_BOUND2	200k+
+ACT_ARCHIVE_NEWS_READ_COUNT_BOUND1	{0}{1}k
+ROGUELIKE_TOPIC_CHALLENGE_MODE_SUB_DESC	* Your current unlock status in [{0}] has no effect on the Relics, events, etc. that may appear. This will not unlock [{0}] and will have no effect on your Relics' status. This mode will not count toward your [{1}] and your Squad unlock progress.\n* All items will become permanent and will be playable at any time.
+ROGUE_ARCHIVE_TOTEM_UNATTAINED_DESC_AFFIX	Source and Layout Foldartals have decorative Flairs that bring forth additional effects when declaring Foldartals. \n Obtainable from exploring on difficulties <Braving Nature 3> and higher
+HOME_BACKGROUND_BGM_NAME_TYPE	-  {0}
+HOME_BACKGROUND_UNLOCK_CONDITION_TYPE	    - {0} ({1}/{2})
+ROGUE_COMMON_CHANGE_ITEM_TAG	<{0}>
+DEEP_SEA_MISSION_DESC	{0} ({1}/{2})
+CLIMB_TOWER_HARD_MODE_UNLOCK_TIPS_TOAST	<color=#4ABDFF>{0}</color> Emergency Supply mode unlocked
+CLIMB_TOWER_SWEEP_UNLOCK_TIPS_TOAST	You can now use Total Proxy Command Authority
+CAMPAIGN_LOCKED_TEXT	Complete <color=#4ABDFF>{0}</color> to unlock rotating contracts.
+CLIMB_TOWER_CANT_SWEEP_TOAST	Clear {0} floors without using a support unit to unlock Total Proxy Command Authority
+CLIMB_TOWER_SWEEP_CONFIRM_DESC	Use {0} <color=#3399cc>{1}</color>\nto perform one <color=#3399cc>Stationary Security Service Total Proxy Command Authority</color>?
+FAST_CAMP_CONFIRM_DESC	Use 1 <color=#3399cc>{0}</color>\nto execute a <color=#3399cc>Total Proxy Auto Deploy</color>?
+LEGION_ENEMY_6028_COSGIA	'Song of the Pack' has been awakened
+SIRACUSA_BAG_EMPTY_TOAST	Proceed to <color=#bc2020>Critica Artistica</color> to get this item
+SANDBOX_V2_ITEM_CARD_MAX_COUNT_FORMAT	{0:F1}0k
+SANDBOX_V2_ENEMY_RUSH_COUNT_STR	{0}/<color=#8c8c8c>{1}</color>
+SANDBOX_V2_NODE_UPDATE_UNLOCK_DESC_FORMAT	{0}({1}/{2})
+SANDBOX_V2_FOOD_SUB_USAGE_SEPARATOR	;
+SANDBOX_V2_CONSTRUCT_TOP_UID	ID {0}
+SANDBOX_V2_EVENT_CHOICE_TITLE_FORMAT	<i> ({0}) </i>
+SANDBOX_V2_QUEST_TARGET_PROGRESS	{0} <color=#828282> (</color><color=#CECD64>{1}</color><color=#828282>/{2}) </color>
+SANDBOX_V2_LOGISTICS_BUFF_COUNT	<color=#{0}>{1}</color><color=#{2}>/{3}</color>
+SANDBOX_V2_LOGISTICS_POPULATION	{0}/{1}
+SANDBOX_V2_RIFT_TARGET_PROGRESS	(<color=#fd5d5d>{0}</color>/{1})
+SANDBOX_V2_DUNGEON_SPHERE_MAX_DAY_FORMAT	/{0}
+SANDBOX_V2_DUNGEON_SETTLE_GAME_DESC	When wiping save data, Tech Tree progress will be cleared, but points will be refunded. Unlocked Achievements and Formulating content will remain while Algorithm details will be completely cleared (including map exploration progress, Constructs placed in Headquarters, etc)
+SANDBOX_V2_RACER_TEMP_NAME	?????
+SANDBOX_V2_RACING_UNFINISHED_TIME_STR	--:--.--
+SANDBOX_V2_ARCHIVE_FORMAT_ACHIEVEMENT_PROGRESS	{0} ({1}/{2})
+SANDBOX_V2_CHALLENGE_DEFAULT_START_TS	----/--/-- --:--
+SANDBOX_V2_CHALLENGE_HOME_FIRST_ENTRY_CONFIRM_DESC	The system will initialize a stress test based on the most recent Calculation Day in Arsalan. In Critical Contentions, you cannot save or load data, nor proceed further in any storylines
+SANDBOX_V2_BASEMENT_UPGRADE_NOT_ENOUGH	(<color=#fd5d5d>{0}</color>/{1})
+SANDBOX_V2_BASEMENT_UPGRADE_ENOUGH	(<color=#d6d560>{0}</color>/{1})
+ACTIVITY_ENTRY_MEDAL_PROGRESS_FORMAT	<color=#E7960E>{0}</color><color=#ADADAD>/{1}</color>
+ACTIVITY_ENTRY_MEDAL_PROGRESS_CAN_SET_COLOR_FORMAT	<color=#{0}>{1}</color> <color=#ADADAD>/{2}</color>
+ACT24SIDE_MISSION_NUM_OVER_ZERO	(<color=#cb4d27>{0}</color>/{1})
+ACT24SIDE_MISSION_NUM_ZERO	({0}/{1})
+RHINE_RESEARCH_PROGRESS_FORMAT	{0}%
+RHINE_RESEARCH_EXCHANGE_ADD	Technological transformation <color=#E97646>+{0}%</color>
+RHINE_AREA_UNLOCK_TOAST	New area [{0}] unlocked in [Case Investigation]
+RHINE_AREA_UNLOCK_RECEIVE_ITEM_TOAST	New reward in [Technological Transformation]
+RHINE_HARVEST_ZERO_BOOST	Preparing transformation...
+RHINE_HARVEST_NORMAL	Transforming technology...
+RHINE_HARVEST_END	Transformation complete
+RHINE_HARVEST_BOOST	+{0}%
+RHINE_ARCH_ENTRY_LOCK_ITEM_NAME	Investigate area to unlock
+RHINE_RESEARCH_TOKEN_DETAIL_TITLE	Authorized Investigation Permits
+RHINE_RESEARCH_HARVEST_RULE_TITLE	Technological transformation rules
+RHINE_ARCH_ENTRY_ENTER_ARCH_PAGE_LOCK_TOAST	Nothing here to see yet
+RHINE_RESEARCH_STAGE_LOCK	Stage not yet unlocked
+EXTEND_MONTHLY_SUB_TOAST_TEXT	Monthly card in effect
+CHECKIN_VS_DAY_DISPLAY	DAY {0}/{1}
+CHECKIN_VS_VOTE_CNT	Cheered {0} times
+CHECKIN_VS_FINISH_TIME	Sign-in ends at: {0}
+CHECKIN_VS_VOTE_TODO_CAPTION	Cheer for them!
+CHECKIN_VS_HAS_VOTED_CAPTION	Already cheered today
+CHECKIN_VS_GAIN_SPECIAL_REWARD_CAPTION	Claim Reward
+CHECKIN_VS_VOTE_TASTE_CAPTION	Cheer for the boat you support
+CHECKIN_VS_HAS_VOTED_TODAY_CAPTION	Cheering complete, now racing at full speed
+CHECKIN_VS_VOTE_REWARD_CAPTION	Dr. {0} has obtained {1} reward
+CHECKIN_VS_UNKNOW_TITLE	???
+CHECKIN_VIDEO_LOCK_TIP_FORMAT	Unlocks in {0}d
+FES_CLASSIC_GACHA_CHOOSE_CHAR_5_FORMAT	Tap a 5-star Operator below to increase its chance {0}:
+FES_CLASSIC_GACHA_CHOOSE_CHAR_6_FORMAT	Tap a 6-star Operator below to increase its chance {0}:
+FES_CLASSIC_GACHA_IN_SHOP	(Exchangeable at Store)
+FES_CLASSIC_CHOOSE_CONFIRM_TIPS	Operators with increased chance in this Kernel Locating:\n<color=#0098DC>6★ {0} (Available at Store)</color>, 6★ {1}\n<color=#0098DC>5★ {2} (Available at Store)</color>, 5★ {3}, 5★ {4}\n\nKernel Locating cannot be changed once selected. Confirm pick?
+FES_CLASSIC_CHOOSE_RULE_TYPE	Kernel Locating pool introduction
+FES_CLASSIC_SHOP_JUMP_TO_GACHA_TOAST	Select Operator in [Headhunt]--[Kernel Locating]
+SPECIAL_GACHA_JUMP_TO_GACHA_TOAST_SPLIT	,
+SPECIAL_GACHA_JUMP_TO_GACHA_TOAST_NAME_FORMAT	{0}★{1}
+SPECIAL_GACHA_JUMP_TO_GACHA_TOAST_FORMAT	Operators with an increased chance in this orienteering:\n{0}\n\nThe pick cannot be changed once confirmed. Confirm pick?
+SPECIAL_GACHA_CHOOSE_CHAR_TITLE_FORMAT	Choose {0} <color=#fecd4f>{1}★ Operators</color> to rate up.
+ACT27SIDE_GROCERY_UNLOCK_DESC_FORMAT	Unlocks after completing {0}
+ACT27SIDE_GROCERY_UNLOCK_TOAST_DESC_FORMAT	Unlocks after completing <color=#4ABDFF>{0}</color>
+ACT27SIDE_GROCERY_UNLOCK_SALE_TOAST	<color=#4ABDFF>[Siestan Fashion Street] </color>unlocked
+ACT27SIDE_GROCERY_UNLOCK_LAUNCH_TOAST	New product launch at <color=#4ABDFF>[Siestan Fashion Street]</color> completed
+GROCERY_HOME_START_SALE_TIP	New product launch task incomplete; you can only do business with old products and <color=#AF1A1A>cannot obtain a higher profit margin.</color> Are you sure you want to continue? \n<color=#898989>You can go to 'Release Plan' to check tasks for new products</color>
+GROCERY_HOME_GOOD_GROUP_NAME_FORMAT	{0}, {1}, {2}
+GROCERY_HOME_SALE_START_REMAIN_DESC_FORMAT	{0} until next business day
+GROCERY_ORDER_CUSTOMER_COUNT	<color=#96AA75>{0} people</color>
+GROCERY_SELL_CUSTOMER_PASS	Already visited today
+GROCERY_SELL_CUSTOMER_FUTURE	Not visiting today
+GROCERY_SELL_INQUIRE_DESC	<color=#AFC094>{0}</color> chances daily
+GROCERY_SELL_NORMAL_DESC	Are you sure you want to sell at this price? ({0}s not sold today will be destroyed)
+GROCERY_SELL_PERMANENT_DESC	Are you sure you want to sell at this price? ({0}s not sold today can be carried over to the next day)
+GROCERY_CUR_DAY_NO_REMAIN_INQUIRE_TIME	No more Scouting for today
+GROCERY_INQUIRE_CONFIRM_ORDER_INFO	<color=#FFF4E6>You can scout to learn our rivals' <color=#B82929>purchasing strategies</color>, to help us decide our purchasing price</color>
+GROCERY_INQUIRE_CONFIRM_ORDER_TIPS	<color=#A49B8F>Scout chances are shared between both buying and selling phases</color>
+GROCERY_INQUIRE_CONFIRM_SELL_INFO	<color=#FFF4E6>You can scout to find our rivals' <color=#B82929>selling prices</color>, to help us decide our selling price</color>
+GROCERY_INQUIRE_CONFIRM_SELL_TIPS	<color=#A49B8F>When selling goods, scouting will reveal the <color=#B82929>highest price</color> first</color>
+TUNING_HOME_REMAIN_TIME_DESC	Resets after {0}
+TUNING_CHAT_ASK_FORMAT	Q: {0}
+TUNING_CHAT_ANSWER_FORMAT	A: {0}
+TUNING_ARCHIVE_LOCK_TOAST	Continue Investigations to unlock
+TUNING_ENTRY_UNLOCK_TOAST	<color=#9C8F78>Herzenfolgen</color> unlocked
+TUNING_HANDBOOK_GROUPLOCK_TOAST	Keep exploring to unlock
+TUNING_CHAT_GAIN_INVEST_COUNT	Complete all Routine Visitations to obtain 1 Authorization Warrant
+TUNING_TIME_END	Event has ended
+DOCTOR_NICK_NAME_AND_NUM_TEXT	Dr.{0}#{1}
+DOCTOR_NICK_NAME	Dr. {0}
+BIRTHDAY_DATE_SHOW_FORMAT	{0}                 /         {1}
+BIRTHDAY_DATE_INVALID_PLACEHOLDER	-
+BIRTHDAY_SETTING_COMPLETE_TOAST	Birthday saved. You can edit it from your Profile.
+BIRTHDAY_SET_DATE_TITLE	Edit Birthday
+MAINLINE_BP_STAGE_COMPLETE	Complete All
+MAINLINE_BP_REWARD_OPEN_CLAIM_TIPS	*Milestone rewards open for collection on Standard and Adverse Difficulties
+MAINLINE_BP_UP_DESC_FORMAT	Milestone bonus +{0}%
+MAINLINE_BP_UP_DETAIL_ITEM_DEFAULT	Base bonus
+MAINLINE_BP_UP_DETAIL_ITEM_FORMAT	Clear {0}{1}
+MAINLINE_BP_UNLIMIT_BP_DETAIL_TIME_TIPS	During this event,{0} expires in: {1}
+MAINLINE_BP_LIMIT_BP_STAGE_LOCK_TIPS	Clear\n{0}
+ACT_ACCESS_TOTAL_TIMES_FORMAT	{0} times total!
+ACT_ACCESS_CURR_TIMES_FORMAT	Already claimed: {0}
+ACT_ACCESS_TIME	Event Ends at: <color=#22bbff>{0:D4}/{1:D2}/{2:D2} {3:D2}:{4:D2}</color>
+ACT_ACCESS_REWARD_ITEM_FORMAT	<color=#c01a4b>Sign in daily</color> to obtain {0}
+CHARACTER_SHOW_ATTR_VALUE_ADD	{0} <color=#ff9d5c>(+{1})</color>
+CHARACTER_SHOW_EQUIP_TALENT_UNLOCK_HINT	Unlocked after increasing module level
+CHARACTER_SHOW_FULL_CULTI_INFO_HINT	This page shows your Operators' condition after enhancement
+CHARACTER_SHOW_ROGUELIKE_INFO_HINT	This page shows your Operators' promoted status during Integrated Strategies
+ACT1CHECK_TIMES	{0} times
+ACT1CHECK_PASS	Cleared
+ACT1CHECK_NOPASS	Not cleared
+ACT42D0_BATTLE_FINISH_TIME	Completion time: {0}
+ACT42D0_MISSION_COMPLETED_TEXT	Objective complete
+ACT42D0_TIPS_SELECT_STAGE	Please choose a battlefield and begin your combat simulation
+ACT42D0_REWARD_HINT_FORMAT	*Obtain <color=#2DC7B1>{0}</color> after clearing stages for the first time
+ACT42D0_REWARD_DESC	Clearing a stage will also count as clearing it on all lower difficulty levels with the highest rating, and clearing the same stage with a higher rating will count as clearing it with all lower ratings
+ACT42D0_EFFECT_NO_ENERGY_TOAST	Current Immersion Level insufficient to select more Buffs
+ACT42D0_BATTLE_FINISH_REWARD_CAPTION	Obtained {0}!
+ACT42D0_AREA_UNLOCK_FORMAT	{0} unlocked
+ACT42D0_MILESTONE_ITEM_DESC	{0} Reach
+ACT42D0_CHALLENGE_STAGE_OPEN_TIME	Unlocks after {0}
+ACT42D0_MILESTONE_SKIN_NEED_DESC	*{0} Reach Lv. <color=#27FDDE>{1}</color> to obtain
+ACT42D0_MILESTONE_PROGRESS	{0}/{1}
+ACT42D0_AREA_LOCKED_TOAST_TEXT	Clear a combat zone's third stage to unlock (without using Combat Buffs)
+ACT42D0_MILESTONE_PROGRESS_ALL_FINISHED	-/-
+NAME_CARD_EQUIPMENT_COLLECTION_ITEM_INFO_FORMAT	/{0}
+FIFTH_ANNIV_PASS_ENDING_TITLE	'{0}'
+FIFTH_ANNIV_VALUE_GE_FORMAT	≥ {0}
+VEC_BREAK_V2_ENTRY_OFFENSE_STAGE_NUM_TEXT	/{0}
+VEC_BREAK_V2_STAGE_CURR_LV_FMT	{0:00}
+VEC_BREAK_V2_STAGE_MAX_LV_FMT	/{0:00}
+VEC_BREAK_V2_OFFENSE_LEVEL_CODE_NAME_FORMAT	{0} {1}
+VEC_BREAK_V2_MILESTONE_TOTAL_PROGRESS_FORMAT	/{0}
+VEC_BREAK_V2_MILESTONE_PROGRESS_ALL_FINISHED	-
+VEC_BREAK_V2_REWARD_HINT_FMT	+{0}
+ACT1VAUTOCHESS_SETTLE_GAME_PLAYER_IDENTITY_FORMAT	Dr.{0}#{1}
+ACT1VAUTOCHESS_SETTLE_GAME_REWARD_COUNT_FORMAT	+{0}
+ACT1VAUTOCHESS_BATTLE_CAMP_FEATURE_COUNTER_FORMAT	{0}{1} ({2}/{3})
+ACT1VAUTOCHESS_DIY_CHAR_CHESS_ITEM_COUNT_FORMAT	<color=#FFFFFF>{0}</color><color=#A8A8A8>/{1}</color>
+ACT1VAUTOCHESS_SHOP_LIST_TOP_ASSIST_INFO_COUNT_FORMAT	<color=#16302D>{0}</color><color=#1D5750>/{1}</color>
+ACT1VAUTOCHESS_SHOP_LIST_TOP_ASSIST_ALL_NOT_TOPIC_INFO_COUNT_FORMAT	<color=#16302D>{0}</color>
+ACT1VAUTOCHESS_CHESS_POOL_CHANGED_SEPARATOR	,
+ACT1VAUTOCHESS_CHESS_POOL_CHANGED_DESC_MORE_THAN_THREE	You obtained <color=#2DA186>{0}</color> and other Operators, so the corresponding model or support Operator has been withdrawn\nGo to Stronghold Logistics to make adjustments
+ACT1VAUTOCHESS_CHESS_BATTLE_QUIT_DESC	Exiting <color=#FF6101>will not end</color> the entire round. You can return to the main page to <color=#FF6101>end the simulation</color> or <color=#FF6101>restart</color> this round of the battle.\nAre you sure you want to exit?
+ACTMULTIV3_MANUAL_DOCTOR_NAME_FORMAT	{0}#{1}
+ACTMULTIV3_MANUAL_TITLE_FORMAT	{0} {1}
+ACTMULTIV3_MISSION_UNCOMPLETE_PROGRESS_FORMAT	<color=#D4143D>{0}</color><color=#676767>/{1}</color>
+ACTMULTIV3_MISSION_COMPLETED_PROGRESS_FORMAT	{0}/{1}
+ACTMULTIV3_MISSION_REWARD_COUNT_FORMAT	 × {0}
+ACTMULTIV3_ALBUM_ORDER_NUMBER_FORMAT	{0:D2}
+ACTMULTIV3_ALBUM_TIME_FORMAT	yyyy/MM/dd
+ACTMULTIV3_MATCH_UNSELECT_STAR_FORMAT	<color=#3E3E3E>{0}</color><color=#9D9D9D>/{1}</color>
+ACTMULTIV3_MATCH_SELECT_STAR_FORMAT	<color=#E1E1E1>{0}</color><color=#9D9D9D>/{1}</color>
+ACTMULTIV3_COLLECT_STAR_PROGRESS	<color=#C11338>{0}</color>/{1}
+ACTMULTIV3_ALBUM_WEEK_NUMBER_FORMAT	{0:D2}
+ACTMULTIV3_MILESTONE_MAX_DESC	MAX
+ACTMULTIV3_STAGE_RECORD_SCORE_EMPTY_PLACE_HOLDER	/
+ENEMY_DUEL_DAILY_PROGRESS	{0}/{1}
+ENEMY_DUEL_ENTRY_REWARD_STAND_BASIC_FORMAT	In Guess Royale, the participation rate in all rounds is {0}
+ENEMY_DUEL_ROUND_BET_COUNTDOWN	{0}:{1}
+ENEMY_DUEL_ROUND_BET_ENEMY_DETAIL	{0}: <color=#969696>{1}</color>
+ENEMY_DUEL_BET_CURR_MONEY_FORMAT	<color=#F4D326>{0}</color>
+ENEMY_DUEL_MILESTONE_PROGRESS_FORMAT	/ {0}
+ENEMY_DUEL_MILESTONE_ITEM_NAME_FORMAT	{0}
+CARVING_MAIN_SHOP_SLOT_CNT_TXT	{0}/{1}
+CARVING_HOME_TIME_LOCKED_FORMAT	{0}/{1} {2:D2}:{3:D2}
+SPECIAL_OPERATOR_EVOLVE_CURSOR_PANEL_EXP_FORMAT	<color=#ffd800>{0}</color>/{1}
+SPECIAL_OPERATOR_EVOLVE_CURSOR_PANEL_LEVEL_MAX_FORMAT	/{0}
+SPECIAL_OPERATOR_EVOLVE_DETAIL_TASK_FORMAT	{0} ({1}/{2})
+ACT1ARCADE_SCORE_FORMAT	{0:D7}
+ACT1ARCADE_SCORE_INFO_FORMAT	{0}-
+ACT1ARCADE_REWARD_FORMAT	+{0}
+ACT1ARCADE_BADGE_UNLOCK_DESC_FORMAT	{0}(<color=#{3}>{1}</color>/{2})
+TEMPLATE_MISSION_SKIN_REWARD_NAME_FORMAT	{0} - {1}
+OPEN_SERVER_ITEM_COUNT_FORMAT	<size=15> x </size>{0}
+LONG_TERM_CHECK_IN_COMPLETE_PROGRESS_FORMAT	<color=#009DE5>{0}</color>/{1}
+LONG_TERM_CHECK_IN_UNCOMPLETE_PROGRESS_FORMAT	<color=#C64A43>{0}</color>/{1}
+ART_GALLERY_COLLECT_PROGRESS	{0}/{1}
+ART_GALLERY_UNLOCK_CONDITION_FORMAT	- {0} ({1}/{2})
+ART_GALLERY_MUSIC_NAME_TEXT_SPLIT	/
+APRIL_FOOL_FUN_6_STAGE_HAS_NO_PASS_TIME_FORMAT	--:--
+APRIL_FOOL_FUN_6_BATTLE_FINISH_ARCHIEVEMENT_TOTAL_FORMAT	/ {0}
+APRIL_FOOL_FUN_6_ZONE_MAP_ARCHIEVEMENT_TOTAL_FORMAT	/ {0}
+ACT1VHALFIDLE_ASSIST_MAX_NUM_FORMAT	/ {0}
+ACT1VHALFIDLE_RECRUIT_REFUND_FORMAT	+{0}
+ACT45SIDE_CHAR_NAME	, {0}
+COMMON_ASSIST_COUNT_DOWN_FORMAT	{0:D2}:{1:D2}:{2:D2}
+ACT_AUTO_CHESS_ROOM_PLAYER_NAME_FORMAT	{0} <color=#777777>#{1}</color>
+AUTO_CHESS_COUNT_DOWN_DIGIT_TYPE	0{0}

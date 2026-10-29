@@ -1,0 +1,135 @@
+{
+  "version": "v0.28",
+  "sorting_rule": "Main narrative time of each intact story, not release dates; overlapping/multiple timelines explicitly flagged",
+  "user_instruction": "Переводить в хронологии Терры, не по дате релиза",
+  "critical_caveat": "Chronology is approximate and multidimensional. Flashbacks preserved inside original scene order. An event may overlap other events chronologically.",
+  "source_urls": [
+    "https://arknights.wiki.gg/wiki/Timeline",
+    "https://arknights.wiki.gg/wiki/Story/Movements",
+    "https://arknights.wiki.gg/wiki/Darknights_Memoir",
+    "https://arknights.wiki.gg/wiki/Babel_(event)",
+    "https://arknights.wiki.gg/wiki/A_Walk_in_the_Dust"
+  ],
+  "translation_integrity": {
+    "main_story_named_ru_lines": 2377,
+    "main_story_files": 44,
+    "ui_keyed_ru": 2544,
+    "darknights_named_ru_lines": 246,
+    "darknights_plain_ru_lines": 31,
+    "darknights_completed_files": 2,
+    "darknights_total_main_files": 13
+  },
+  "next_file": "activities/act9d0/level_act9d0_02_beg.txt",
+  "events": [
+    {
+      "order": 1,
+      "anchor": "1090-е — 1094/1096",
+      "event": "Darknights Memoir",
+      "type": "Intermezzo",
+      "source_code": "act9d0",
+      "status": "В работе: 2/13 сценарных файлов, 277 строк",
+      "accuracy": "Перекрывающиеся годы, ретроспекции",
+      "priority": "Сначала завершить начатое",
+      "notes": "DM-1 до и после боя завершены в черновике. Следующий файл — DM-2 до боя."
+    },
+    {
+      "order": 2,
+      "anchor": "1090-е — 1094",
+      "event": "Babel",
+      "type": "Intermezzo",
+      "source_code": "не установлен (проверить по game-data)",
+      "status": "Не начат",
+      "accuracy": "Основное действие около 1094, воспоминания от более ранних эпох",
+      "priority": "После Darknights Memoir",
+      "notes": "События могут перекрываться с DM. Порядок внутри пары — практический, а не строго по единой дате."
+    },
+    {
+      "order": 3,
+      "anchor": "1096 — начало 1097",
+      "event": "Основная история: главы 0–2",
+      "type": "Main Theme",
+      "source_code": "obt/main",
+      "status": "Первый черновик: 44/44 основных файлов; 2377 реплик",
+      "accuracy": "Последовательность подтверждена сюжетом",
+      "priority": "Не перепереводить, начать литературную вычитку позднее",
+      "notes": "Сюжеты Чернобога и Лунмэня; не считать черновик встроенным в игровой клиент."
+    },
+    {
+      "order": 4,
+      "anchor": "1096 — начало 1097",
+      "event": "Основная история: главы 3–8",
+      "type": "Main Theme",
+      "source_code": "obt/main",
+      "status": "Ожидает перевода",
+      "accuracy": "Сюжет следует за главой 2",
+      "priority": "Продолжить после ретроспективных предысторий",
+      "notes": "После главы 6/перед 7 нужно сверять контекст DM; при переводе идти главами, сохраняя оригинальный порядок."
+    },
+    {
+      "order": 5,
+      "anchor": "1096 / 1097 и воспоминания",
+      "event": "Children of Ursus",
+      "type": "Story Collection",
+      "source_code": "уточнить",
+      "status": "Не начат",
+      "accuracy": "Временные рамки сюжета и последствий отличаются",
+      "priority": "Рядом с линией Чернобога",
+      "notes": "Несколько отдельных историй с ретроспекциями — не смешивать хронологически без пометки."
+    },
+    {
+      "order": 6,
+      "anchor": "Около 1097; флешбэки с 1070-х",
+      "event": "A Walk in the Dust",
+      "type": "Intermezzo",
+      "source_code": "уточнить",
+      "status": "Не начат",
+      "accuracy": "Основная временная линия и воспоминания различны",
+      "priority": "После арки Чернобога, до Виктории",
+      "notes": "Самые ранние сцены не делают весь ивент «самым ранним». Флешбэки переводить в авторском порядке."
+    },
+    {
+      "order": 7,
+      "anchor": "1097",
+      "event": "События 1097 года",
+      "type": "Side Stories/Collections",
+      "source_code": "по мере проверки",
+      "status": "Не начаты",
+      "accuracy": "Параллельные линии без общего строгого порядка",
+      "priority": "Mansfield Break; казимежская арка и другие подтверждённые события",
+      "notes": "Даты сверять по первичным текстам; равный год не означает известный порядок ивентов."
+    },
+    {
+      "order": 8,
+      "anchor": "Начало 1098",
+      "event": "Основная история: глава 9",
+      "type": "Main Theme",
+      "source_code": "obt/main",
+      "status": "Не начата",
+      "accuracy": "Январь 1098 для первых событий",
+      "priority": "Начало викторианской линии",
+      "notes": "Начинается раньше основной лондиниумской фазы."
+    },
+    {
+      "order": 9,
+      "anchor": "1098",
+      "event": "Основная история: главы 10–14 и связанные истории",
+      "type": "Main Theme + Intermezzi",
+      "source_code": "obt/main и отдельно",
+      "status": "Не начаты",
+      "accuracy": "Имеются параллельные сюжеты",
+      "priority": "Требуется отдельная схема пересечений",
+      "notes": "Не всегда строго линейный порядок по главам; связанные истории размещать рядом."
+    },
+    {
+      "order": 10,
+      "anchor": "1099 и далее",
+      "event": "Остальные события и поздние главы",
+      "type": "Various",
+      "source_code": "по мере проверки",
+      "status": "Не начаты",
+      "accuracy": "Годы зависят от истории",
+      "priority": "Расширять реестр по хронологии сюжетного действия",
+      "notes": "Коллаборации и альтернативные временные линии — отдельно; не приписывать точный год без подтверждения."
+    }
+  ]
+}

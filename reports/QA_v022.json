@@ -1,0 +1,30 @@
+{
+  "version": "v0.22",
+  "scope": "initial chapter-2 files, 3 of 20 available CN/EN main story scripts",
+  "cn_en_chapter_2_scenes_listed": 20,
+  "translated_chapter_2_files": 3,
+  "remaining_chapter_2_files": 17,
+  "chapter_2_dialogues_translated": 153,
+  "chapters_0_and_1_dialogues_unchanged": 1355,
+  "all_ru_story_dialogues": 1508,
+  "ui_translations_unchanged": 2544,
+  "files": {
+    "obt/main/level_main_02-01_beg.txt": {
+      "cn_git_blob_sha1": "7f6c8dfcb02babd6c790aa8d7464f071b3f76804",
+      "en_git_blob_sha1": "a2d966243898d4ea6a937e217d944f5e50be23d3",
+      "dialogue_count": 32
+    },
+    "obt/main/level_main_02-01_end.txt": {
+      "cn_git_blob_sha1": "8cdcee8c256022366c09a5f56385ecb7f1975065",
+      "en_git_blob_sha1": "e14e1bd94a44001e97de437bc8082f4cdb6400a1",
+      "dialogue_count": 66
+    },
+    "obt/main/level_main_02-02_beg.txt": {
+      "cn_git_blob_sha1": "0bb68c59d0531c99d78430bf117c99348b7e4061",
+      "en_git_blob_sha1": "41c88a64a6809d0b21cd109c383953e5ed8c9fc5",
+      "dialogue_count": 55
+    }
+  },
+  "qa": "automated structural and synthetic testing; NOT tested with game client; translation needs editorial review",
+  "automated_tests_passed": 82
+}

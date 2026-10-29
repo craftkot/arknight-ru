@@ -1,0 +1,25 @@
+{
+  "release": "Arknights RU v0.15",
+  "previous_release": "v0.14",
+  "ui_keyed_carryover": 2544,
+  "ui_total_indexed": 2711,
+  "ui_technical_unchanged": 167,
+  "new_story_stage": "0-2",
+  "new_story_files": 2,
+  "new_story_dialogue_drafts": 99,
+  "previous_story_dialogues_preserved": 138,
+  "story_dialogue_drafts_total": 237,
+  "story_stages": [
+    "0-1",
+    "0-2"
+  ],
+  "story_cn_and_en_github_blob_sha1_verified_from_source_connector": true,
+  "raw_source_scripts_bundled": false,
+  "fetch_script_fix": "EN YoStar main branch, formerly master",
+  "game_installable_patch": false,
+  "live_game_tested": false,
+  "windows_live_fetch_tested": false,
+  "automated_tests_description": "synthetic integration and structural tests; original upstream files could not be downloaded into this build environment",
+  "editorial_review_status": "first literary draft, second pass required",
+  "unit_test_summary": "25 tests in 0.018s"
+}

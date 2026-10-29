@@ -1,0 +1,71 @@
+{
+  "version": "v0.25",
+  "chapter_2_translated_scripts": 20,
+  "chapter_2_total_scripts_in_cn_en_main": 20,
+  "chapter_2_translated_dialogue_drafts": 1022,
+  "new_scenes": 10,
+  "new_dialogue_drafts": 426,
+  "total_story_scripts": 44,
+  "total_story_dialogue_drafts": 2377,
+  "ui_translations_preserved": 2544,
+  "source_revision_sha1": {
+    "02-06_beg": {
+      "cn": "eb82af84989e35e64aba469067896a81e9a7fe25",
+      "en": "51486e6533c4a00887f70cd67a5e8a886d51556a",
+      "dialogues": 32
+    },
+    "02-06_end": {
+      "cn": "fa941addf7bf2fae71065a4d7e8b6a5c7cdfc1ba",
+      "en": "3eaa2a37e8d0325c521a0d44ed2c5c45e345fa57",
+      "dialogues": 24
+    },
+    "02-07_beg": {
+      "cn": "9dbc3d7d10a6abc6d615a3480cb297a62b8cee71",
+      "en": "f2661e89a90f55fe796cac492dc9dea169bb72f0",
+      "dialogues": 58
+    },
+    "02-07_end": {
+      "cn": "15b4912166a8d1c7f2c623ed12228f6ba91e2bf0",
+      "en": "8cf5f83bdb6c79e9818c5aee5021e775a7e47c15",
+      "dialogues": 36
+    },
+    "02-08_beg": {
+      "cn": "a88694c46e747090e58d9d4abab7c9d3cc390f3e",
+      "en": "cf070969c6788efc67e48f94e027cb0f5f266c71",
+      "dialogues": 53
+    },
+    "02-08_end": {
+      "cn": "8108202794ce258c87e7f18a059d5f3a41b0feca",
+      "en": "467c804d7851c99dde21aa8095a29fcb6a4b736a",
+      "dialogues": 53
+    },
+    "02-09_beg": {
+      "cn": "7987c34673f8e081727dd7ca5ad4da11702e2a51",
+      "en": "df86e8a19e9390bccc8ac50de9715d60d7f6d1e5",
+      "dialogues": 32
+    },
+    "02-09_end": {
+      "cn": "2ad835048f351526d05eb2a8c1cad1391e37ef77",
+      "en": "8cca0bba28b53bdd01961b6976d5eeb8a3767ea5",
+      "dialogues": 54
+    },
+    "02-10_beg": {
+      "cn": "c0820f3302febe9257022875a49757f24783495d",
+      "en": "f974875ae204b315bc74ffa29c0b2ddbf23711a5",
+      "dialogues": 49
+    },
+    "02-10_end": {
+      "cn": "d922490cbe7166c0b6e425363ba7dde087d7abf6",
+      "en": "d7d78bd69805170be22ee9092ace9d3c0e7fa9b6",
+      "dialogues": 35
+    }
+  },
+  "limitations": [
+    "First translation drafts; not second-editor-approved",
+    "No installed or tested game patch",
+    "External GitHub network retrieval on user Windows not validated",
+    "Automatic tests use synthetic sources, not full original raw files",
+    "Localized names may require canon spelling decisions"
+  ],
+  "tests_passed": 113
+}

@@ -1,0 +1,17 @@
+{
+  "release": "Arknights RU Independent v0.11",
+  "source": "User supplied text resources and previous v0.10 workspace",
+  "ui_total": 2711,
+  "ui_translated": 1994,
+  "ui_added": 287,
+  "ui_remaining": 717,
+  "ui_percent": 73.55,
+  "ui_source_keys_unique": 2711,
+  "legacy_UI_preserved": 1707,
+  "xunity_literal_safe_preview_pairs": 1028,
+  "colliding_source_texts": 35,
+  "QA_pass": true,
+  "editorial": "new strings are initial editorial drafts, contextual mode terms unverified",
+  "story_extracted": false,
+  "game_tested": false
+}
