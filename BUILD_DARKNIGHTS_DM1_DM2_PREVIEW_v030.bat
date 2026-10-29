@@ -1,0 +1,22 @@
+@echo off
+setlocal
+cd /d "%~dp0"
+where py >nul 2>&1
+if errorlevel 1 (
+  set "PY=python"
+) else (
+  set "PY=py -3"
+)
+echo Russian preview Darknights Memoir: DM-1 complete and DM-2 before and after battle.
+echo This does NOT install or modify Arknights.
+%PY% scripts\fetch_story_chapter.py --translations events\darknights_memoir_dm1_dm2_ru_v030.json --output source\story
+if errorlevel 1 goto fail
+%PY% scripts\apply_ru_event.py --source source\story --output output\darknights_dm1_dm2_ru_v030 --translations events\darknights_memoir_dm1_dm2_ru_v030.json
+if errorlevel 1 goto fail
+echo Preview available in output\darknights_dm1_dm2_ru_v030\ru\activities\act9d0
+pause
+exit /b 0
+:fail
+echo Preview FAILED. No game files have been modified.
+pause
+exit /b 1
