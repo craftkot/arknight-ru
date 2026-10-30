@@ -1,0 +1,93 @@
+{
+  "version": "v0.49",
+  "event": "Babel",
+  "event_code": "act33side",
+  "scene": "BB-ST-1 opening, partial, source lines 1–194",
+  "relative_story_path": "activities/act33side/level_act33side_st01.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "git_blob_sha1": "b892ff9507ab142d39a0ea18876444c3269ec055",
+      "lines": 452
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "git_blob_sha1": "359381b0e52bae2a7811211ba908aeee0288b5f1",
+      "lines": 453
+    }
+  },
+  "alignment": {
+    "cn_named": 89,
+    "en_named": 89,
+    "cn_plain": 38,
+    "en_plain": 38,
+    "cn_sticker_text": 14,
+    "en_sticker_text": 14,
+    "source_prefix_line_end": 194,
+    "prefix_text_kind_order_identical": true,
+    "full_semantic_equivalence_confirmed": false,
+    "source_version_match_v048": true,
+    "semantic_differences": [
+      "CN 薄暮般 (twilight-like) vs EN dawn-like at line 129; RU follows CN."
+    ]
+  },
+  "translation": {
+    "file": "events/babel_st01_opening_partial_ru_v049.json",
+    "new_named_lines": 13,
+    "new_plain_lines": 14,
+    "new_sticker_lines": 0,
+    "cumulative_named_lines": 34,
+    "cumulative_plain_lines": 29,
+    "cumulative_sticker_lines": 14,
+    "cumulative_total_entries": 77,
+    "source_total_entries": 141,
+    "complete_scene": false,
+    "editorial_review_required": true,
+    "game_tested": false
+  },
+  "source_line_scope": {
+    "first": 1,
+    "last": 194,
+    "new_first": 115,
+    "new_last": 194,
+    "next": 195,
+    "named_source_lines": [
+      126,
+      133,
+      135,
+      136,
+      137,
+      145,
+      147,
+      157,
+      178,
+      179,
+      180,
+      181,
+      188
+    ],
+    "plain_source_lines": [
+      129,
+      139,
+      140,
+      141,
+      142,
+      143,
+      149,
+      151,
+      152,
+      158,
+      161,
+      162,
+      163,
+      174
+    ]
+  },
+  "notes": [
+    "This is a cumulative partial translation; no full CN/EN source content is committed.",
+    "All commands, tags, Sticker parameters and scene branching remain in the original source files; JSON maps text only.",
+    "The next source line 195 starts the next camera/character transition. Babel is not yet supported by the Darknights preview script."
+  ]
+}
