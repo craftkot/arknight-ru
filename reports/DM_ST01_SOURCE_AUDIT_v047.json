@@ -1,0 +1,42 @@
+{
+  "version": "v0.47",
+  "event": "Darknights Memoir",
+  "scene": "st01 complete first draft",
+  "relative_story_path": "activities/act9d0/level_act9d0_st01.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "git_blob_sha1": "ef38d6471d4890a126a4b487c56938aa7ed620cf"
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "git_blob_sha1": "10773adce6afe48cc35db38aa8de35ef594d4c3f"
+    }
+  },
+  "alignment": {
+    "cn_named": 239,
+    "en_named": 239,
+    "cn_plain": 5,
+    "en_plain": 5,
+    "dialogue_kind_sequence_identical": true,
+    "semantic_alignment_confirmed": false
+  },
+  "translation": {
+    "file": "events/darknights_memoir_st01_ru_v047.json",
+    "named_lines_translated": 239,
+    "plain_lines_translated": 5,
+    "complete_first_draft": true,
+    "editorial_review_required": true
+  },
+  "translation_notes": [
+    "CN primary, EN used to verify speaker labels and line order; semantic identity not claimed.",
+    "All named ordinals 1-239 plus all 5 plain entries translated. Scene is W and two Ursus children Rublev and Andrey.",
+    "#112 preserves a censored Ursus expletive as stage-like inline text.",
+    "#119 CN W explicitly identifies herself as a murderer responsible for destruction and harm; English also supports this reading.",
+    "#228 CN renders Andrey Feodor Ostrovski, EN provides Andrey Fyodorovich Ostrovsky; Russian uses culturally appropriate Фёдорович. Final name consistency requires editorial review.",
+    "#131-132, #200-202 W argues about dependency and personal agency; maintain register.",
+    "This is a full first literary draft; never represents proven working UI or story patch and contains no full copyrighted source file."
+  ]
+}
