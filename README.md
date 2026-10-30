@@ -37,7 +37,7 @@ python -m unittest discover -s scripts -p 'test*.py' -v
 
 ## Предпросмотр
 
-В Windows для Darknights Memoir доступен `BUILD_DARKNIGHTS_DM1_DM2_DM3_BEFORE_PREVIEW_v037.bat`. Для глав 0–2 — `BUILD_CHAPTERS_0_TO_2_RU_v025.bat`.
+В Windows для Darknights Memoir доступен `BUILD_DARKNIGHTS_DM1_DM2_DM3_PREVIEW_v040.bat`. Архивная версия `BUILD_DARKNIGHTS_DM1_DM2_DM3_BEFORE_PREVIEW_v037.bat` сохранена для сравнения. Для глав 0–2 — `BUILD_CHAPTERS_0_TO_2_RU_v025.bat`.
 
 Скрипты скачивают игровые сценарии CN/EN отдельно и проверяют версии оригиналов. Перевод **не устанавливается в игру автоматически**. В рабочей базе есть исторические и потенциально небезопасные варианты XUnity: не используйте файлы с меткой `UNSAFE` как готовый патч.
 
