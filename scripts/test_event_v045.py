@@ -26,7 +26,7 @@ class DarknightsV045(unittest.TestCase):
         self.assertEqual(set(spec["plain_dialogues"]),set(map(str,range(1,7))))
         self.assertEqual(spec["cn_git_blob_sha1"],"d5b1c14de71cf9e2934de501849ffd2fd678342b")
         self.assertEqual(spec["en_git_blob_sha1"],"dad011c5c2e8b82bce388b3acf3b7b65d6430b49")
-        self.assertIn("Талула",spec["dialogues"]["54"])
+        self.assertIn("драконице",spec["dialogues"]["54"])
         self.assertIn("Воссоединения",spec["dialogues"]["82"])
         self.assertIn("Инес",spec["dialogues"]["203"])
         self.assertIn("22:14",spec["plain_dialogues"]["2"])
