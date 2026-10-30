@@ -16,7 +16,7 @@ INLINE = re.compile(r'\{@[\w]+\}|\{\d+(?:[^{}]*)\}|<[^>]+>')
 DECISION = re.compile(r'(\[Decision\(options=")([^"]*)(", values=")([^"]*)("\)\])')
 ALLOWED_PATH = r'obt/main/level_main_(?:00-(?:01_(?:beg|end)|02_(?:beg|end)|04_beg|06_end|07_(?:beg|end)|08_beg|09_end|10_beg|11_end)|01-(?:01_(?:beg|end)|03_(?:beg|end)|04_beg|06_beg|07_(?:beg|end)|08_beg|10_end|12_(?:beg|end))|02-(?:0[1-9]|10)_(?:beg|end)|03-01_(?:beg|end)|03-02_(?:beg|end)|03-03_(?:beg|end)|03-04_(?:beg|end)|03-05_(?:beg|end)|03-06_(?:beg|end)|03-07_(?:beg|end))\.txt'
 SPEAKER_RU = {
-    'Dobermann':'Доберманн', 'Amiya':'Амия', 'Ace':'Эйс', 'Reunion Member':'Боец Воссоединения', 'Reunion Suspect':'Подозреваемый в связях с Воссоединением',
+    'Dobermann':'Доберманн', 'Amiya':'Амия', 'Ace':'Эйс', 'Reunion Member':'Боец Воссоединения', 'Reunion Caster':'Заклинатель Воссоединения', 'Reunion Suspect':'Подозреваемый в связях с Воссоединением',
     'Reunion Member A':'Боец Воссоединения А', 'Reunion Member B':'Боец Воссоединения Б',
     'Ursus Guard':'Военный полицейский Урсуса', 'Medic':'Медик',
     'Guard':'Боец', 'Female':'Женщина', 'Male':'Мужчина', 'Child':'Ребёнок',
