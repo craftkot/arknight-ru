@@ -45,7 +45,7 @@ class BabelV049(unittest.TestCase):
             for entry in entries.values():
                 ru = entry if isinstance(entry, str) else entry["ru"]
                 self.assertTrue(isinstance(ru, str) and ru.strip())
-                self.assertFalse(any(c in ru for c in "\\r\\n\\t"))
+                self.assertFalse(any(c in ru for c in "\r\n\t"))
 
     def test_pinned_sources_index_and_chronology(self):
         d = self.d
