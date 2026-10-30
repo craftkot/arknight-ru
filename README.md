@@ -96,3 +96,7 @@ Babel BB-ST-1 продолжен в v0.49: `events/babel_st01_opening_partial_ru
 ### Глава 3, уровень 3-3 завершён в первом черновике (v0.55)
 
 После боя переведены **92 именные реплики** `story/story_chapter_3_stage_3-3_after_ru_v055.json`; до боя было 51, итого **143 реплики** уровня 3-3. Сводная выборка `story/story_main_selection_ru_v055.json`: 50 файлов, 2802 именные реплики; все прежние 49 файлов сохранены без изменения. Сверка китайского и английского: `reports/CHAPTER_3_STAGE_3-3_AFTER_SOURCE_AUDIT_v055.json`; QA: `reports/QA_MAIN_STORY_v055.json`. Следующий файл — `obt/main/level_main_03-04_beg.txt`. Перевод не установлен и не проверен в клиенте Yostar Global PC.
+
+### Глава 3, уровень 3-4 до боя (v0.56)
+
+Первый полный черновик **сцены до боя**: `story/story_chapter_3_stage_3-4_before_ru_v056.json` (79 именных реплик). Объединённая выборка `story/story_main_selection_ru_v056.json` — 51 файл и 2 881 реплика. Сверка CN/EN и замечания: `reports/CHAPTER_3_STAGE_3-4_BEFORE_SOURCE_AUDIT_v056.json`; QA: `reports/QA_MAIN_STORY_v056.json`. Следующая сцена: `obt/main/level_main_03-04_end.txt`. Часть после боя ещё не переведена; это не проверенный игровой патч.
