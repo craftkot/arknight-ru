@@ -39,7 +39,7 @@ class Chapter3Stage34BeforeV056(unittest.TestCase):
             root=pathlib.Path(tmp)
             doc=copy.deepcopy(load("story/story_chapter_3_stage_3-4_before_ru_v056.json"))
             for lang in ("en","cn"):
-                data=('[Background(image="keep")]\r\n'+''.join('[name="Test"] Hello\r\n[Delay(time=0.1)]\r\n' for _ in range(79))).encode("utf-8")
+                data=('[Background(image="keep")]\r\n'+''.join('[name="Texas"] Hello\r\n[Delay(time=0.1)]\r\n' for _ in range(79))).encode("utf-8")
                 p=root/"source"/lang/REL
                 p.parent.mkdir(parents=True,exist_ok=True)
                 p.write_bytes(data)
