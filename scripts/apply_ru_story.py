@@ -21,7 +21,7 @@ SPEAKER_RU = {
     'Ursus Guard':'Военный полицейский Урсуса', 'Medic':'Медик',
     'Guard':'Боец', 'Female':'Женщина', 'Male':'Мужчина', 'Child':'Ребёнок',
     'TV Host':'Телеведущий', 'Ursus Captain':'Капитан военной полиции Урсуса',
-    '???':'???', '':'', 'Civilian':'Мирный житель', 'Talulah':'Талула', 'W':'W', 'Nearl':'Нирл', 'Faust':'Фауст', 'Ch\'en':'Чэнь', 'Hoshiguma':'Хосигума', 'Kal\'tsit':'Кальцит', 'Wei Yenwu':'Вэй Яньу', 'PRTS':'PRTS', 'Broadcast':'Оповещение', 'L.G.D. Agent':'Сотрудник городской стражи', 'Infected':'Заражённый', 'Children':'Дети', 'Child':'Ребёнок', 'Misha':'Миша', 'Rioter':'Погромщик', 'Franka':'Франка', 'Liskarm':'Лискарм', 'Exusiai':'Экзия', 'Texas':'Техас', 'Skullshatterer':'Крушитель Черепов', 'Operators':'Оперативники', 'Crownslayer':'Краунслеер', 'Mephisto':'Мефисто',
+    '???':'???', '':'', 'Civilian':'Мирный житель', 'Talulah':'Талула', 'W':'W', 'Nearl':'Нирл', 'Faust':'Фауст', 'Ch\'en':'Чэнь', 'Hoshiguma':'Хосигума', 'Kal\'tsit':'Кальцит', 'Wei Yenwu':'Вэй Яньу', 'PRTS':'PRTS', 'Broadcast':'Оповещение', 'L.G.D. Agent':'Сотрудник городской стражи', 'Infected':'Заражённый', 'Children':'Дети', 'Child':'Ребёнок', 'Misha':'Миша', 'Rioter':'Погромщик', 'Franka':'Франка', 'Liskarm':'Лискарм', 'Exusiai':'Экзия', 'Texas':'Техас', 'Skullshatterer':'Крушитель Черепов', 'Operators':'Оперативники', 'Crownslayer':'Краунслеер', 'Mephisto':'Мефисто', 'Girl\'s Voice':'Голос девушки', 'Young Man\'s Voice':'Голос юноши', 'Boy\'s Voice':'Голос мальчика',
 }
 
 def git_blob_sha1(raw):
