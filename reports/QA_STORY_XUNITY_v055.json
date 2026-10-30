@@ -1,0 +1,52 @@
+{
+  "version": "v0.55",
+  "tested_by": "GitHub Actions on branch feature/story-0-2-xunity-test-v055",
+  "workflow_run": "https://github.com/craftkot/arknight-ru/actions/runs/41074702896",
+  "source_files": 44,
+  "source_dialogues": 2377,
+  "unique_safe_keys": 1732,
+  "potentially_covered_dialogue_occurrences": 1738,
+  "omitted_dialogues": 639,
+  "omission_reasons": {
+    "too_short_or_generic": 343,
+    "conflicting_translations": 257,
+    "dynamic_markup": 39
+  },
+  "by_chapter": {
+    "0": {
+      "source": 654,
+      "potentially_covered": 504,
+      "unique_written": 504
+    },
+    "1": {
+      "source": 701,
+      "potentially_covered": 482,
+      "unique_written": 477
+    },
+    "2": {
+      "source": 1022,
+      "potentially_covered": 752,
+      "unique_written": 751
+    }
+  },
+  "known_runtime_config": {
+    "language": "ru",
+    "from_language": "en",
+    "MaxCharactersPerTranslation": 200,
+    "DisableTextMeshPro": false,
+    "EnableTextMeshPro": true,
+    "EnableUGUI": true,
+    "OnDiskReloadOnFileChange": false
+  },
+  "pinned_source_checks": "all 44 EN story files were fetched on GH runner and verified against recorded Git blob SHA1",
+  "archive_sha256": "19bdb738d4c3294822b394b058578babb3e7710b097d8a4e7f080eac8a99223e",
+  "source_scripts_repacked": false,
+  "existing_7_txt_overwritten": false,
+  "tested_in_game": false,
+  "warnings": [
+    "English text lookup does not guarantee the game exposes the story dialogue to XUnity, especially under IL2CPP.",
+    "Short/common English strings excluded to avoid UI translation collisions and previous unexplained login failures.",
+    "Conflicting English strings with multiple Russian translations excluded; dynamic {@nickname} cannot be safely matched.",
+    "The 2377 first-draft RU translations remain available in the repo but do not all become exact XUnity keys."
+  ]
+}
