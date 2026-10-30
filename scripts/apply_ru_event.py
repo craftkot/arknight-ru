@@ -16,7 +16,7 @@ SPEAKER_EVENT_RU={'Ines':'Инес', 'Hoederer':'Хёдерер',
     'Sarkaz Warrior':'Воин-сарказ',
     'Sarkaz Warrior?':'Воин-сарказ?', 'Mercenary':'Наёмник',
     "Kal'tsit":'Кальцит', '???':'???', 'Small Cautus':'Невысокая каутус',
-    'Closure':'Клоужер', 'Theresa':'Терезия', 'Scout':'Скаут', 'Sarkaz Captive':'Пленный сарказ', 'Talulah':'Талула'}
+    'Closure':'Клоужер', 'Theresa':'Терезия', 'Scout':'Скаут', 'Sarkaz Captive':'Пленный сарказ', 'Talulah':'Талула', 'Talulah?':'Талула?', 'Sarkaz Mercenary Leader':'Командир наёмников-сарказов'}
 
 def plain_line(s):
     t=s.strip()
