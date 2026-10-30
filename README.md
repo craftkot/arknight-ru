@@ -1,11 +1,11 @@
-# Arknights RU — независимый русификатор (рабочая база v0.42)
+# Arknights RU — независимый русификатор (рабочая база v0.43)
 
 Любительский перевод **оригинальной Arknights, Yostar Global PC**. Это **не Endfield**.
 
 ## Что уже есть
 
 - **Главы 0–2:** 2 377 сюжетных реплик, первый русский черновик (44 файла).
-- **Darknights Memoir:** 8 из 13 основных сцен, 1 270 строк в завершённых первых черновиках. DM-4 до и после боя завершены; далее DM-5 до боя. Продолжаем по хронологии Терры.
+- **Darknights Memoir:** 9 из 13 основных сцен, 1 372 строки в завершённых первых черновиках. DM-5 до боя завершена; далее DM-5 после боя. Продолжаем по хронологии Терры.
 - **Интерфейс:** 2 544 переведённых ключа.
 - Инструменты для сохранения команд и переменных, словари, отчёты и автоматические тесты.
 
@@ -37,7 +37,7 @@ python -m unittest discover -s scripts -p 'test*.py' -v
 
 ## Предпросмотр
 
-В Windows для Darknights Memoir доступен `BUILD_DARKNIGHTS_DM1_TO_DM4_PREVIEW_v042.bat`. Архивная версия `BUILD_DARKNIGHTS_DM1_DM2_DM3_BEFORE_PREVIEW_v037.bat` сохранена для сравнения. Для глав 0–2 — `BUILD_CHAPTERS_0_TO_2_RU_v025.bat`.
+В Windows для Darknights Memoir доступен `BUILD_DARKNIGHTS_DM1_TO_DM5_BEFORE_PREVIEW_v043.bat`. Архивная версия `BUILD_DARKNIGHTS_DM1_DM2_DM3_BEFORE_PREVIEW_v037.bat` сохранена для сравнения. Для глав 0–2 — `BUILD_CHAPTERS_0_TO_2_RU_v025.bat`.
 
 Скрипты скачивают игровые сценарии CN/EN отдельно и проверяют версии оригиналов. Перевод **не устанавливается в игру автоматически**. В рабочей базе есть исторические и потенциально небезопасные варианты XUnity: не используйте файлы с меткой `UNSAFE` как готовый патч.
 
@@ -50,3 +50,5 @@ DM-3 после боя завершена в первом черновике: `e
 DM-4 до боя — первый полный русский черновик: `events/darknights_memoir_dm4_before_ru_v041.json` (154 именных + 16 безымянных строк). Объединённая выборка семи сцен: `events/darknights_memoir_dm1_dm2_dm3_dm4_before_ru_v041.json`. Аудит: `reports/DM4_BEFORE_SOURCE_AUDIT_v041.json`. Предпросмотр: `BUILD_DARKNIGHTS_DM1_TO_DM4_BEFORE_PREVIEW_v041.bat`. Перевод ещё не проверен в игре.
 
 DM-4 после боя — полный первый черновик: `events/darknights_memoir_dm4_after_ru_v042.json` (76 именных + 14 безымянных реплик). Актуальная объединённая выборка восьми сцен: `events/darknights_memoir_dm1_dm2_dm3_dm4_ru_v042.json`. Сверка источников: `reports/DM4_AFTER_SOURCE_AUDIT_v042.json`. Предпросмотр: `BUILD_DARKNIGHTS_DM1_TO_DM4_PREVIEW_v042.bat`. Следующая сцена DM-5 до боя. Не проверено в игре.
+
+DM-5 до боя — полный первый черновик: `events/darknights_memoir_dm5_before_ru_v043.json` (102 именные реплики, безымянных нет). Объединённая выборка девяти сцен: `events/darknights_memoir_dm1_dm2_dm3_dm4_dm5_before_ru_v043.json`. Аудит: `reports/DM5_BEFORE_SOURCE_AUDIT_v043.json`. Предпросмотр: `BUILD_DARKNIGHTS_DM1_TO_DM5_BEFORE_PREVIEW_v043.bat`. Следующая сцена DM-5 после боя. Не проверено в игре.

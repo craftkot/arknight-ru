@@ -1,0 +1,46 @@
+{
+  "version": "v0.43",
+  "event": "Darknights Memoir",
+  "scene": "DM-5 before battle, complete first draft",
+  "relative_story_path": "activities/act9d0/level_act9d0_05_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/activities/act9d0/level_act9d0_05_beg.txt",
+      "git_blob_sha1": "052baf117c32259107ca11c57360c1555953d741"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/activities/act9d0/level_act9d0_05_beg.txt",
+      "git_blob_sha1": "7105d149710be623cc1ca24b8d193bf4944b28c9"
+    }
+  },
+  "alignment": {
+    "cn_named": 102,
+    "en_named": 102,
+    "cn_plain": 0,
+    "en_plain": 0,
+    "dialogue_kind_sequence_identical": true,
+    "semantic_alignment_confirmed": false
+  },
+  "translation": {
+    "file": "events/darknights_memoir_dm5_before_ru_v043.json",
+    "named_lines_translated": 102,
+    "plain_lines_translated": 0,
+    "complete_first_draft": true,
+    "editorial_review_required": true
+  },
+  "editorial_notes": [
+    "CN is primary, EN used for context, names and speaker order; same counts/kinds not proof of semantic equivalence.",
+    "Named #16 CN points to the person's own self as possible sacrifice, while EN says 'soul'; Russian follows CN.",
+    "Named #56 CN says 'I hope you can escape like this', while EN says 'don't think you can get away'; opposite intent. Russian follows CN.",
+    "Named #44 CN compares Scout's battlefield experience to Faust's Originium Arts; avoid claiming he uses Faust's arts.",
+    "Named #18 CN says real name, EN just says name; Russian preserves true-name nuance.",
+    "Named #21-26 fallen operators' names require official localisation consistency check later; preliminary transliterations from EN.",
+    "Named #102 speaker Talulah rather than Talulah?, labels differ and must not be conflated.",
+    "All 102 lines are named; source files contain no unlabelled script text. No full CN/EN game text stored.",
+    "Full literary/editorial review and in-game test remain pending."
+  ]
+}
