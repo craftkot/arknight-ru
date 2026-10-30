@@ -1,0 +1,36 @@
+{
+  "version": "v0.55",
+  "scene": "Main 3-3 after battle",
+  "source_file": "obt/main/level_main_03-03_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_03-03_end.txt",
+      "git_blob_sha1": "c8f7a5f143f3793a573cc3783e04496658fe126e"
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "path": "en_US/gamedata/story/obt/main/level_main_03-03_end.txt",
+      "git_blob_sha1": "f3d5e32725a2b5183cd0715b1ff68b943e8709ac"
+    }
+  },
+  "alignment": {
+    "cn_named": 92,
+    "en_named": 92,
+    "cn_en_speaker_order_corresponds": true,
+    "cn_en_dialogue_source_line_positions_equal": true,
+    "unlabeled_noncommand_lines_cn": 0,
+    "unlabeled_noncommand_lines_en": 0,
+    "markup_tokens_preserved": true,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "editorial_notes": [
+    "Line 7 CN describes gripping the handle; EN adds 'concentrate' in that line; RU follows CN and reserves concentration for line 8.",
+    "Line 77 retains {@nickname} unchanged, but 'Dr.' label is localized; requires in-client visual test.",
+    "Line 81/82 W describes removing Rhodes Island's brain; RU preserves the metaphor.",
+    "Translation covers every named dialogue line; no standalone unlabeled non-command text found in these two source scripts.",
+    "All storyboard commands, timing, audio and asset references are untouched by the JSON translation map; local preview is SHA-pinned.",
+    "Not an installed or in-game tested localization; first draft needs editorial review."
+  ]
+}
