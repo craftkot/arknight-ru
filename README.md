@@ -1,4 +1,4 @@
-# Arknights RU — независимый русификатор (рабочая база v0.37)
+# Arknights RU — независимый русификатор (рабочая база v0.38-partial)
 
 Любительский перевод **оригинальной Arknights, Yostar Global PC**. Это **не Endfield**.
 
@@ -21,7 +21,7 @@
 | `docs/`, `reports/` | заметки, проверки, журнал изменений |
 | `backlog/`, `drafts/`, `data/` | очереди непереведённого текста, промежуточные таблицы |
 
-DM-3: завершённый первый черновик в `events/darknights_memoir_dm3_before_ru_v037.json`, аудит CN/EN — `reports/DM3_SOURCE_AUDIT_v037.json`. Для локального предпросмотра пяти готовых сцен доступен `BUILD_DARKNIGHTS_DM1_DM2_DM3_BEFORE_PREVIEW_v037.bat` (без установки в игру).
+DM-3 до боя: завершённый первый черновик в `events/darknights_memoir_dm3_before_ru_v037.json`, аудит CN/EN — `reports/DM3_SOURCE_AUDIT_v037.json`. Для локального предпросмотра пяти готовых сцен доступен `BUILD_DARKNIGHTS_DM1_DM2_DM3_BEFORE_PREVIEW_v037.bat` (без установки в игру).
 
 Архив предыдущих черновиков: `events/darknights_memoir_dm3_before_partial_ru_v036.json`, `events/darknights_memoir_dm3_before_partial_ru_v035.json`, `events/darknights_memoir_dm3_before_partial_ru_v034.json`, `events/darknights_memoir_dm3_before_partial_ru_v032.json` и `events/darknights_memoir_dm3_before_partial_ru_v033.json`. Они не являются актуальными файлами для сборки.
 
@@ -44,3 +44,5 @@ python -m unittest discover -s scripts -p 'test*.py' -v
 **Статус:** литературные черновики, технические тесты на подготовленных данных пройдены; реальная работа перевода в игровом клиенте ещё не подтверждена.
 
 Подробности переноса — [`MIGRATION.md`](MIGRATION.md).
+
+DM-3 после боя (незавершённый перевод): `events/darknights_memoir_dm3_after_partial_ru_v038.json`, аудит — `reports/DM3_AFTER_SOURCE_AUDIT_v038.json`. Файл нельзя использовать для сборки игрового патча. Следующая именная реплика №61.
