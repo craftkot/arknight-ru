@@ -18,7 +18,7 @@ class DarknightsV038(unittest.TestCase):
         self.assertEqual((doc["progress"]["next_named_ordinal"],doc["progress"]["next_plain_ordinal"]),(61,1))
         for s in doc["dialogues"].values():
             self.assertTrue(isinstance(s,str) and s.strip())
-            self.assertFalse(any(ch in s for ch in "\\r\\n\\t"))
+            self.assertFalse(any(ch in s for ch in "\r\n\t"))
     def test_source_and_counts(self):
         doc=load("events/darknights_memoir_dm3_after_partial_ru_v038.json")
         audit=load("reports/DM3_AFTER_SOURCE_AUDIT_v038.json")
@@ -38,7 +38,7 @@ class DarknightsV038(unittest.TestCase):
         self.assertEqual(m["translation_integrity"]["darknights_completed_files"],5)
         self.assertEqual(m["translation_integrity"]["darknights_ru_lines_including_partial"],899)
         self.assertEqual(m["translation_integrity"]["darknights_partial_files"],1)
-        self.assertIn("level_act9d0_03_end.txt\\tpartial_first_draft\\t60\\t0",idx)
+        self.assertIn("level_act9d0_03_end.txt\tpartial_first_draft\t60\t0",idx)
         self.assertIn("darknights_memoir_dm3_after_partial_ru_v038.json",readme)
     def test_cn_overrides_known_en_differences(self):
         d=load("events/darknights_memoir_dm3_after_partial_ru_v038.json")["dialogues"]
