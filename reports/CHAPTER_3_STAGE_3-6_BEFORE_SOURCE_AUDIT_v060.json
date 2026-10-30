@@ -1,0 +1,42 @@
+{
+  "version": "v0.60",
+  "scene": "Main story 3-6 before battle",
+  "source_file": "obt/main/level_main_03-06_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_03-06_beg.txt",
+      "git_blob_sha1": "1714fe93bbc26e37c51e1ae1c2d129695562794c"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_03-06_beg.txt",
+      "git_blob_sha1": "c8ccbc44eafbe4a6dc2af3f1d894768e98762a43"
+    }
+  },
+  "alignment": {
+    "cn_named": 56,
+    "en_named": 56,
+    "cn_en_dialogue_source_line_positions_equal": true,
+    "cn_decision_commands": 0,
+    "en_decision_commands": 0,
+    "unlabeled_noncommand_lines_cn": 0,
+    "unlabeled_noncommand_lines_en": 0,
+    "source_line_count_cn": 92,
+    "source_line_count_en": 92,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "CN primary for semantics; EN only for alignment and localized speaker labels. 56 named lines in both sources, aligned by line position; no Decision commands or dynamic placeholders.",
+    "CN #19 says LGD can immediately arrest any Reunion fighters escaping the mine. EN additionally says Rhodes Island will flush them out; RU follows CN and does not invent that action.",
+    "CN #31 specifies Hoshiguma and Rhodes Island take separate routes and simultaneously disrupt enemy positions and defenses. EN describes a pincer; RU follows CN wording.",
+    "CN #33 uses first-person singular obligation to retrieve Misha for Lungmen. EN uses 'we have to'; RU preserves Ch'en's personal obligation across the three interrupted lines #33-35.",
+    "CN #43 explicitly mentions Reunion casters within the ambush set for Rhodes Island; RU keeps the ambush target and caster distinction.",
+    "Original [HEADER], [Character], [Background], [PlayMusic], [Delay], [Dialog], [Blocker], [Image] instructions are not translated or distributed in the repository. The separate local preview script preserves them.",
+    "This is a complete first draft of the 56 named dialogue lines, not a tested game patch; editorial review and client verification remain outstanding."
+  ]
+}
