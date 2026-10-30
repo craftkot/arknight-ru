@@ -1,0 +1,11 @@
+Arknights RU v0.34-partial — 2026-10-30
+
+Darknights Memoir, DM-3 before battle:
+- +12 named Russian lines (#41–52) and +1 unnamed (#21).
+- Cumulative DM-3 progress: 52 named + 21 unnamed = 73/187; 4/13 event scenes fully drafted.
+- Narrative: W explores the landship, speaks with a small Cautus, then hears a technical malfunction.
+- CN is the semantic base; EN is used to check context and speaker labels.
+- Verified source Git blob hashes remain CN 538c852f8a64981df34f7699be9f73dfe00873ea and EN 37dcf8c721efd0fa5068d18146caae45ba200b70.
+- Original script content and game assets are not added.
+- Partial draft only; not a complete scene, not a patch, not tested in the game.
+- Next: named #53 (W), then continue the original scene order.
