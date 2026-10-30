@@ -1,0 +1,44 @@
+{
+  "version": "v0.61",
+  "scene": "Main story 3-6 after battle",
+  "source_file": "obt/main/level_main_03-06_end.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_03-06_end.txt",
+      "git_blob_sha1": "eb92638f81f83d6f28a4e6b03a3ba56754fcee02"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_03-06_end.txt",
+      "git_blob_sha1": "e69574b297a03fc71abc9affe35a38c00da497e8"
+    }
+  },
+  "alignment": {
+    "cn_named": 70,
+    "en_named": 70,
+    "cn_en_dialogue_source_line_positions_equal": true,
+    "cn_decision_commands": 0,
+    "en_decision_commands": 0,
+    "unlabeled_noncommand_lines_cn": 0,
+    "unlabeled_noncommand_lines_en": 0,
+    "source_line_count_cn": 122,
+    "source_line_count_en": 122,
+    "non_dialogue_source_lines_equal": true,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "CN is primary for meaning; EN confirms names and ordinal alignment. Both contain 70 named dialogue lines at identical source line positions and identical non-dialogue instructions.",
+    "CN #8 explicitly says Mephisto could have saved many people; not necessarily Skullshatterer. RU preserves plural.",
+    "CN #32 specifies the Reunion rearguard (殿后的整合运动) rather than all people present; RU preserves the rearguard.",
+    "CN #46 says Misha would abandon Reunion fighters to their fate (自生自灭). EN reframes it as watching friends sacrifice themselves; RU follows CN.",
+    "CN #49 is a dash (——), whereas EN has ellipsis; RU keeps dash.",
+    "CN #68–70 is an unfinished three-part thought: 'Skullshatterer's… / … / I must…'. EN turns it into a complete claim about his legacy. RU follows CN and preserves the interrupted phrasing, without inventing a final object.",
+    "Commands [HEADER], [Background], [Character], [PlayMusic], [Delay], [Dialog], [Blocker], [Image] are unchanged by translation data; no complete CN/EN scripts redistributed.",
+    "This is a full first draft of 70 named lines, not an installed or client-verified patch."
+  ]
+}
