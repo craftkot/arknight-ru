@@ -34,7 +34,7 @@ class DarknightsV032(unittest.TestCase):
         for v in new["plain_dialogues"].values():
             self.assertIsInstance(v, str)
             self.assertTrue(v.strip())
-            self.assertFalse(any(c in v for c in "\\r\\n\\t"))
+            self.assertFalse(any(c in v for c in "\r\n\t"))
             self.assertEqual(quoted_tokens(v), [])
 
     def test_progress_is_consistent_across_metadata(self):
@@ -55,8 +55,8 @@ class DarknightsV032(unittest.TestCase):
         self.assertEqual(audit["sources"]["cn"]["git_blob_sha1"], "538c852f8a64981df34f7699be9f73dfe00873ea")
         self.assertEqual(audit["sources"]["en"]["git_blob_sha1"], "37dcf8c721efd0fa5068d18146caae45ba200b70")
         index = (ROOT / "events/DARKNIGHTS_MEMOIR_INDEX_v032.tsv").read_text(encoding="utf8")
-        self.assertIn("level_act9d0_03_beg.txt\\tpartial_first_draft\\t0\\t17", index)
-        self.assertIn("level_act9d0_03_end.txt\\tnot_translated\\t0\\t0", index)
+        self.assertIn("level_act9d0_03_beg.txt\tpartial_first_draft\t0\t17", index)
+        self.assertIn("level_act9d0_03_end.txt\tnot_translated\t0\t0", index)
         readme = (ROOT / "README.md").read_text(encoding="utf8")
         self.assertIn("darknights_memoir_dm3_before_partial_ru_v032.json", readme)
 
