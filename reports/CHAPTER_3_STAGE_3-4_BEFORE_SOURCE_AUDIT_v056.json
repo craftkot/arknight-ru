@@ -1,0 +1,41 @@
+{
+  "version": "v0.56",
+  "scene": "Main story 3-4 before battle",
+  "source_file": "obt/main/level_main_03-04_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_03-04_beg.txt",
+      "git_blob_sha1": "68357fc231568edc590d4e893a946a112a06e447"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "path": "en_US/gamedata/story/obt/main/level_main_03-04_beg.txt",
+      "git_blob_sha1": "396f62eb27e5004a7369898366f40d54d916a092"
+    }
+  },
+  "alignment": {
+    "cn_named": 79,
+    "en_named": 79,
+    "cn_en_dialogue_source_line_positions_equal": true,
+    "unlabeled_noncommand_lines_cn": 0,
+    "unlabeled_noncommand_lines_en": 0,
+    "markup_tokens_preserved": true,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "speaker_order_checked": true,
+    "source_line_count_cn": 152,
+    "source_line_count_en": 153
+  },
+  "editorial_notes": [
+    "CN line 15 lists yellow sand, wasteland and rocks; EN adds a movie-showdown analogy absent from CN; RU follows CN.",
+    "CN line 40 explicitly calls the targets traitors to the Infected; EN only says traitors; RU follows CN.",
+    "CN line 42 warns about an attack from the side; EN says from behind; RU follows CN.",
+    "CN line 44 says fast sword (快剑), while EN interprets it as an unseen sword; RU follows CN.",
+    "CN line 72 ends in an interrupted 魔...; EN removes this hint; RU uses interrupted 'де…' as a provisional editorial rendering requiring review.",
+    "CN line 77 is an interjection; EN adds a yawn; RU follows CN.",
+    "CN/EN contain an extra leading space in the speaker name for Exusiai on line 59 of the source dialogue; dialogue numbering uses all [name] tags, not speaker string normalization.",
+    "All commands, cinematic cues, image/audio names and timing remain outside the translation map; no full CN/EN script is committed.",
+    "Not a tested in-game localization; Russian first draft requires literary review and terminology check."
+  ]
+}
