@@ -1,0 +1,53 @@
+name: Publish BepInEx Arknights RU drop-in overlay v0.48
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/build_bepinex_dropin_v048.py
+      - release/USER_TEXT_489_KEY_FINGERPRINTS_v048.b64
+      - release/README_BEPINEX_RU_v048.md
+      - .github/workflows/release-bepinex-v048.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test-build-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Test all translations and safe installation paths
+        run: python -m unittest discover -s scripts -p 'test*.py' -v
+      - name: Build one-step BepInEx ZIP
+        run: python scripts/build_bepinex_dropin_v048.py --out dist
+      - name: Upload downloadable workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ArknightsRU_BepInEx_DropIn_v048
+          path: |
+            dist/ArknightsRU_BepInEx_DropIn_v048.zip
+            dist/ArknightsRU_BepInEx_DropIn_v048.zip.sha256
+            dist/ArknightsRU_BepInEx_DropIn_v048_manifest.json
+      - name: Publish beta release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "ru-bepinex-v0.48" >/dev/null 2>&1; then
+            echo "Release already exists, leaving it unchanged"
+          else
+            gh release create "ru-bepinex-v0.48" \
+              dist/ArknightsRU_BepInEx_DropIn_v048.zip \
+              dist/ArknightsRU_BepInEx_DropIn_v048.zip.sha256 \
+              dist/ArknightsRU_BepInEx_DropIn_v048_manifest.json \
+              --title "Arknights RU v0.48 - BepInEx drop-in UI overlay" \
+              --notes "Unzip into Arknights_EN game folder containing BepInEx. Adds ONLY BepInEx/Translation/ru/Text/ArknightsRU_ExpandedUI_v048.txt. Preserves seven user's existing TXT files (489 existing keys filtered). Experimental UI-only, not proven game patch and not the full 2062-line Darknights story translation. Read README in ZIP." \
+              --prerelease \
+              --target "$GITHUB_SHA"
+          fi
