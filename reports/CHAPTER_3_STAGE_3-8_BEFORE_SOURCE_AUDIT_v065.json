@@ -1,0 +1,52 @@
+{
+  "version": "v0.65",
+  "scene": "Main story 3-8 before battle — complete first literary draft",
+  "source_file": "obt/main/level_main_03-08_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_03-08_beg.txt",
+      "git_blob_sha1": "9d435d88bcefca622e04b7590fb9eeb9a91e4ae3"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_03-08_beg.txt",
+      "git_blob_sha1": "f8e82127f69225bf8bc8c141c78661b5d27acc3f"
+    }
+  },
+  "alignment": {
+    "cn_named": 69,
+    "en_named": 69,
+    "cn_en_dialogue_source_line_positions_equal": true,
+    "cn_decision_commands": 1,
+    "en_decision_commands": 1,
+    "cn_en_decision_positions_equal": true,
+    "cn_en_choice_counts_equal": true,
+    "decision_option_counts": [
+      1
+    ],
+    "unlabeled_noncommand_lines_cn": 0,
+    "unlabeled_noncommand_lines_en": 0,
+    "source_line_count_cn": 184,
+    "source_line_count_en": 185,
+    "non_dialogue_source_lines_equal_after_ignoring_terminal_newline": true,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "translated_named_ordinals": "1-69",
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "CN is primary meaning source, EN is used for speaker names and scene structure. Different Git blob SHA: localized contents differ; identical dialogue positions and game commands (ignoring terminal newline).",
+    "CN #13 says the speaker lay among corpses and barely survived; EN adds holding breath. RU follows CN.",
+    "CN #17 says fight until the last moment; EN instead says 'You've made your choice'. RU follows CN.",
+    "CN #20 distinguishes good people in Lungmen from bad people in Ursus; EN contains an apparent typo ('good and even'). RU follows CN.",
+    "CN #31 says defeat the opposing group; EN intensifies to kill. RU follows CN.",
+    "CN #33 is 'I must ... together with you', without EN's 'go back'. RU uses feminine speaker gender based on the established Misha/Skullshatterer story context; this is an editorial interpretation requiring review.",
+    "CN #46 says 'But I...' without EN's explicit 'don't want to'; RU preserves the incomplete sentence.",
+    "CN #65 makes Ch'en explicitly call all Infected Amiya's enemies; translated faithfully despite harshness.",
+    "One [Decision] option translated; its values='1' and [Predicate(references='1')] remain in the separately sourced game script and are not modified by the ordinal mapping.",
+    "No full original CN or EN source script included; the translation JSON contains only Russian replacements. No Yostar Global PC in-client test."
+  ]
+}
