@@ -1,0 +1,23 @@
+{
+  "version": "v0.64",
+  "scene": "3-7 after battle — complete first draft 78/78",
+  "new_named_ru": 78,
+  "source_named_total": 78,
+  "source_named_remaining": 0,
+  "completed_story_named_ru": 3392,
+  "completed_story_files": 58,
+  "chapter3_completed_named_ru": 1015,
+  "chapter3_completed_files": 14,
+  "chapter3_stages_completed": 7,
+  "source_sha_cn": "16be90a2b08049f419f219642c88e11ded8bf8de",
+  "source_sha_en": "1e294478d30ad50aac8701865d1233c15492734c",
+  "cn_en_position_alignment": true,
+  "non_dialogue_commands_preserved_by_not_modifying_source": true,
+  "source_noncommand_unnamed_lines": 0,
+  "choice_commands": 0,
+  "markup_preserved": true,
+  "included_in_complete_story_selection": true,
+  "editorial_review": false,
+  "in_game_test": false,
+  "next_file": "obt/main/level_main_03-08_beg.txt"
+}
