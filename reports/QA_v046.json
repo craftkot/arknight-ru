@@ -20,5 +20,7 @@
   "technical_validation": "Source alignment and markup checked; GitHub Actions required before merge",
   "game_test": "not performed",
   "next_work": "DM special story st01 level_act9d0_st01.txt (239 named + 5 plain)",
-  "status": "complete_first_literary_draft_not_game_tested"
+  "status": "complete_first_literary_draft_not_game_tested",
+  "event_named_ru_lines": 1663,
+  "event_plain_ru_lines": 155
 }
