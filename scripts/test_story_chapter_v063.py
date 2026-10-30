@@ -25,7 +25,7 @@ def load(path):
 class Chapter3Stage37BeforeV063(unittest.TestCase):
     def test_complete_and_preserve_prior_partial(self):
         doc = load(NEW)
-        partial = load(OLD_PART)["files"][REL]
+        partial = load(OLD_PARTIAL)["files"][REL]
         self.assertEqual(doc["version"], "v0.63")
         self.assertEqual(set(doc["files"]), {REL})
         record = doc["files"][REL]
