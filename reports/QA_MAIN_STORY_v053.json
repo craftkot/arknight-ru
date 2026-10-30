@@ -1,0 +1,21 @@
+{
+  "version": "v0.53",
+  "scope": "chapter 3 3-2 after",
+  "new_dialogues": 120,
+  "prior_files": 47,
+  "prior_dialogues": 2539,
+  "total_files": 48,
+  "total_dialogues": 2659,
+  "chapter_3_files": 4,
+  "chapter_3_dialogues": 282,
+  "chapter_3_completed_stages": 2,
+  "stage_3_2_before_dialogues": 37,
+  "stage_3_2_after_dialogues": 120,
+  "stage_3_2_combined_dialogues": 157,
+  "cn_sha": "47e83a40c6e41984661069d1b75fdfa7f33d178f",
+  "en_sha": "03ab515ff47a41f7e439d045772e4de74748fd24",
+  "unmodified_preexisting_scene_entries": true,
+  "client_test": false,
+  "technical_tests": "GitHub Actions pending",
+  "next_file": "obt/main/level_main_03-03_beg.txt"
+}

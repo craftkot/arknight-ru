@@ -1,0 +1,48 @@
+{
+  "version": "v0.53",
+  "scene": "Arknights main 3-2 after battle",
+  "source_file": "obt/main/level_main_03-02_end.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "git_blob_sha1": "47e83a40c6e41984661069d1b75fdfa7f33d178f",
+      "source_line_count": 197
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "git_blob_sha1": "03ab515ff47a41f7e439d045772e4de74748fd24",
+      "source_line_count": 198
+    }
+  },
+  "alignment": {
+    "cn_named": 120,
+    "en_named": 120,
+    "dialogue_order_and_source_positions_match": true,
+    "all_english_cyrillic_tokens_in_renamed_dialogues_preserved": true,
+    "en_trailing_blank_line_additional": true,
+    "semantic_alignment_confirmed": false
+  },
+  "translation": {
+    "file": "story/story_chapter_3_stage_3-2_after_ru_v053.json",
+    "combined": "story/story_main_selection_ru_v053.json",
+    "new_named": 120,
+    "preserved_old_named": 2539,
+    "total_named": 2659,
+    "preserved_old_files": 47,
+    "total_files": 48,
+    "chapter_3_named": 282,
+    "chapter_3_files": 4,
+    "chapter_3_complete": false,
+    "literary_review": false,
+    "client_test": false
+  },
+  "editorial_notes": [
+    "CN-first where EN differs: line 79 '与乌萨斯战斗' is 'fought AGAINST Ursus', whereas EN writes 'fought for Ursus'; Russian follows CN.",
+    "CN line 54 uses a blood trail in snow without explicitly assigning agency; avoid EN's added causal assertion.",
+    "Russian terminology reused from prior stage: Миша, Крушитель Черепов, Экзия, Техас, Воссоединение, Чернобог.",
+    "No story patch integrated in Yostar PC game; local preview still relies on unchanged scripts and validated source blobs.",
+    "No raw CN/EN copyright scripts stored; only independently authored RU draft and audits."
+  ]
+}
