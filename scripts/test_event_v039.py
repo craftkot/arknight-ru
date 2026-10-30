@@ -23,7 +23,7 @@ class DarknightsV039(unittest.TestCase):
         self.assertEqual((doc["progress"]["next_named_ordinal"],doc["progress"]["next_plain_ordinal"]),(67,1))
         for value in doc["dialogues"].values():
             self.assertTrue(isinstance(value,str) and value.strip())
-            self.assertFalse(any(c in value for c in "\\r\\n\\t"))
+            self.assertFalse(any(c in value for c in "\r\n\t"))
     def test_metadata(self):
         doc=load("events/darknights_memoir_dm3_after_partial_ru_v039.json")
         audit=load("reports/DM3_AFTER_SOURCE_AUDIT_v039.json")
@@ -43,7 +43,7 @@ class DarknightsV039(unittest.TestCase):
         self.assertEqual(m["translation_integrity"]["darknights_completed_files"],5)
         self.assertEqual(m["translation_integrity"]["darknights_ru_lines_including_partial"],905)
         self.assertEqual(m["next_file"],"activities/act9d0/level_act9d0_03_end.txt")
-        self.assertIn("level_act9d0_03_end.txt\\tpartial_first_draft\\t66\\t0",idx)
+        self.assertIn("level_act9d0_03_end.txt\tpartial_first_draft\t66\t0",idx)
         self.assertIn("darknights_memoir_dm3_after_partial_ru_v039.json",readme)
         self.assertIn("Докторе",doc["dialogues"]["64"])
 if __name__=="__main__":
