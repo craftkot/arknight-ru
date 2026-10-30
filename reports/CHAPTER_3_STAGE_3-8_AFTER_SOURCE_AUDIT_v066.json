@@ -1,0 +1,47 @@
+{
+  "version": "v0.66",
+  "scene": "Main story 3-8 after battle — complete first literary draft",
+  "source_file": "obt/main/level_main_03-08_end.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_03-08_end.txt",
+      "git_blob_sha1": "60055bdcb79136fef9d1e728a6c53ba0187f14c1"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_03-08_end.txt",
+      "git_blob_sha1": "da19cbb7090e5207621d210670e609cc407119f1"
+    }
+  },
+  "alignment": {
+    "cn_named": 70,
+    "en_named": 70,
+    "cn_en_dialogue_source_line_positions_equal": true,
+    "cn_en_non_dialogue_source_lines_equal_after_ignoring_terminal_newline": true,
+    "source_line_count_cn": 133,
+    "source_line_count_en": 134,
+    "unlabeled_noncommand_lines_cn": 0,
+    "unlabeled_noncommand_lines_en": 0,
+    "cn_decision_commands": 0,
+    "en_decision_commands": 0,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "translated_named_ordinals": "1-70",
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "CN primary meaning source; EN for speaker names, position and commands. Source Git blob SHA differ as localized text differs; 70 ordinal positions and all non-dialogue commands match, EN has terminal newline.",
+    "CN #8 likens the corrupting effects of power/desire to cancer; EN 'They are cancers' can sound like it labels Infected as cancers. RU avoids this added identification.",
+    "CN #10 directly says the mask means nothing to Amiya; EN softens this as 'I don't think'. RU follows CN.",
+    "CN #22 describes her actions and the outcome as not evil; EN shifts the second clause toward 'we did not put an end to evil'. RU preserves CN sense, with a draft interpretive rendering of the outcome.",
+    "CN #30 says a person's fate no longer rests solely in their own hands after Oripathy; EN 'her life is no longer her own' is narrower. RU follows CN.",
+    "CN #45 speaks of extinguishing hatred on a chain of thorns; EN speaks of casting the chains aside. RU follows CN image.",
+    "CN #54 uses masculine pronouns about the mask's owner, though surrounding context includes Misha's disguise. RU preserves the source's masculine pronoun; editorial review recommended.",
+    "CN #65 says 'that doctor', EN says 'that other doctor'; RU follows CN.",
+    "CN #68 describes even the best chess player being put in check by an accident; EN 'grandmaster' elaborates. RU follows CN.",
+    "No complete CN/EN source scripts are committed; translations are ordinal replacement strings only. No in-client validation."
+  ]
+}
