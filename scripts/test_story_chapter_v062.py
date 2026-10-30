@@ -30,7 +30,7 @@ class Chapter3Stage37BeforeV062(unittest.TestCase):
         self.assertEqual(ap.quoted_tokens(d["dialogues"]["53"]), ["{@nickname}"])
         for v in d["dialogues"].values():
             self.assertTrue(isinstance(v, str) and v.strip())
-            self.assertFalse(any(ch in v for ch in "\\r\\n\\t"))
+            self.assertFalse(any(ch in v for ch in "\r\n\t"))
     def test_previous_56_unchanged(self):
         old = load("story/story_main_selection_ru_v061.json")
         new = load("story/story_main_selection_ru_v062.json")
@@ -44,15 +44,15 @@ class Chapter3Stage37BeforeV062(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             doc = copy.deepcopy(load(NEW))
-            lines = ['[HEADER(key="title_test", is_skippable=true)]\\n', '[Background(image="bg_wild_a")]\\n']
+            lines = ['[HEADER(key="title_test", is_skippable=true)]\n', '[Background(image="bg_wild_a")]\n']
             names = ["Franka", "Liskarm", "Hoshiguma", "Reunion Member", "Amiya", "Texas"]
             for i in range(55):
-                lines.append('[Character(name="char_107_liskam_1")]\\n')
+                lines.append('[Character(name="char_107_liskam_1")]\n')
                 en_line = "EN line " + str(i + 1) + (" {@nickname}" if i == 52 else "")
-                lines.append('[name="' + names[i % len(names)] + '"] ' + en_line + '\\n')
+                lines.append('[name="' + names[i % len(names)] + '"] ' + en_line + '\n')
                 if i % 7 == 0:
-                    lines.append("[Delay(time=0.1)]\\n")
-            lines.extend(["[Blocker(block=true)]\\n", "[Image]"])
+                    lines.append("[Delay(time=0.1)]\n")
+            lines.extend(["[Blocker(block=true)]\n", "[Image]"])
             raw = "".join(lines).encode("utf-8")
             for lang in ("cn", "en"):
                 path = root / "source" / lang / REL
@@ -74,7 +74,7 @@ class Chapter3Stage37BeforeV062(unittest.TestCase):
                 ap.build(root / "source", root / "rejected", ROOT / NEW)
     def test_index_chronology_and_audit(self):
         with (ROOT / "story/CHAPTER_3_INDEX_v062.tsv").open(encoding="utf-8") as f:
-            rows = list(csv.DictReader(f, delimiter="\\t"))
+            rows = list(csv.DictReader(f, delimiter="\t"))
         self.assertEqual(len(rows), 14)
         self.assertEqual(sum(int(r["dialogues_ru_count"]) for r in rows), 937)
         self.assertEqual((rows[-2]["ru_status"], rows[-2]["dialogues_ru_count"]), ("first_draft_complete", "55"))
