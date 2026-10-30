@@ -40,7 +40,7 @@ class Chapter3Stage35BeforeV058(unittest.TestCase):
             fake+='[Decision(options="B;C;D", values="1;2;3")]\r\n'
             fake+='[Predicate(references="1;2;3")]\r\n'
             fake+='[Decision(options="E", values="1")]\r\n'
-            fake+=''.join('[name="Amiya"] Hello\r\n[Delay(time=0.1)]\r\n' for _ in range(83))
+            fake+=''.join('[name="Amiya"] Hello'+(' {@nickname}' if i in (1,11,14,31) else '')+'\r\n[Delay(time=0.1)]\r\n' for i in range(1,84))
             data=fake.encode("utf-8")
             for lang in ("cn","en"):
                 f=root/"source"/lang/REL
