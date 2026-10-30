@@ -1,0 +1,44 @@
+{
+  "version": "v0.45",
+  "scene": "DM-6 before battle, complete first draft",
+  "relative_story_path": "activities/act9d0/level_act9d0_06_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "path": "zh_CN/gamedata/story/activities/act9d0/level_act9d0_06_beg.txt",
+      "git_blob_sha1": "d5b1c14de71cf9e2934de501849ffd2fd678342b"
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "path": "en_US/gamedata/story/activities/act9d0/level_act9d0_06_beg.txt",
+      "git_blob_sha1": "dad011c5c2e8b82bce388b3acf3b7b65d6430b49"
+    }
+  },
+  "alignment": {
+    "cn_named": 219,
+    "en_named": 219,
+    "cn_plain": 6,
+    "en_plain": 6,
+    "dialogue_kind_sequence_identical": true,
+    "semantic_alignment_confirmed": false
+  },
+  "translation": {
+    "file": "events/darknights_memoir_dm6_before_ru_v045.json",
+    "named_lines_translated": 219,
+    "plain_lines_translated": 6,
+    "complete_first_draft": true,
+    "editorial_review_required": true
+  },
+  "translation_notes": [
+    "CN primary, EN checked for ordering and character labels. Equal dialogue kinds and counts do not prove semantic parity.",
+    "Named #50 CN says W could slam the table and break off cooperation; EN instead says 'grovelling'. RU follows CN.",
+    "Named #56 CN says Ines and enemies supposedly perished together, while EN merely says she died; RU preserves the allegation, not an independently verified death.",
+    "Named #82 CN 死一个整合运动 is colloquial/elliptical and plausibly means a single Reunion member, whereas EN says the entire Reunion Movement. RU follows contextual singular interpretation; editorial review recommended.",
+    "Named #120 CN says W will take Ines's words into account, whereas EN introduces a right to hear her; RU follows CN.",
+    "Named #138 CN refers to famed veterans recognising their opponents in face-to-face combat; EN paraphrase omits key point; RU follows CN.",
+    "Named #217 CN implies Hoederer wanted to personally act, not necessarily that he had nobody to kill (EN). RU follows CN.",
+    "Unidentified speaker ??? (named #19–42) retains speaker marker ???, with Russian sentence breaks to reflect halting delivery.",
+    "The two timestamp narration lines are normalized to 24-hour Russian time; original controls and tags are untouched.",
+    "Old ten complete first drafts and all game commands left unchanged; full original CN/EN sources not committed; no in-game testing."
+  ]
+}
