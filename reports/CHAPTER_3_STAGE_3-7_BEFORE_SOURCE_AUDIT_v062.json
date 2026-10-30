@@ -1,0 +1,44 @@
+{
+  "version": "v0.62",
+  "scene": "Main story 3-7 before battle",
+  "source_file": "obt/main/level_main_03-07_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_03-07_beg.txt",
+      "git_blob_sha1": "5d3bf7deb9bc1a286ee7f8b8f4817f6893a0eed3"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_03-07_beg.txt",
+      "git_blob_sha1": "f682ae658542d594d0bcc474c0201e86d9a22ec7"
+    }
+  },
+  "alignment": {
+    "cn_named": 55,
+    "en_named": 55,
+    "cn_en_dialogue_source_line_positions_equal": true,
+    "cn_decision_commands": 0,
+    "en_decision_commands": 0,
+    "unlabeled_noncommand_lines_cn": 0,
+    "unlabeled_noncommand_lines_en": 0,
+    "source_line_count_cn": 125,
+    "source_line_count_en": 125,
+    "non_dialogue_source_lines_equal": true,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "CN primary; EN used for speaker tags and ordinal alignment. All 55 named lines have matching positions and all non-dialogue source lines match.",
+    "CN #8 describes confidence rather than reckless behavior; RU follows CN.",
+    "CN #18 compares enemy attacks to thrown stones; EN adds sticks, absent from CN.",
+    "CN #21 calls Hoshiguma a tall Lungmen officer; RU retains this reference.",
+    "CN #37 explicitly invokes acting according to law (依法办事), unlike EN; RU retains the legal framing.",
+    "CN #48 mentions Penguin Logistics as a partner in flanking the enemy; EN omits this. RU follows CN.",
+    "CN #53 includes the game variable {@nickname}; RU preserves the exact token.",
+    "These are community archive sources. The translation is a complete first draft of 55 named lines, not a tested in-game patch."
+  ]
+}
