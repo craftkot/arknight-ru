@@ -1,0 +1,23 @@
+{
+  "version": "v0.54",
+  "stage": "3-3 before",
+  "cn_sha": "d85c4f4ad8e753c8c9a2ac57acae1398dd3c620a",
+  "en_sha": "3b828496ac7fc1fb6bfeb95456c15679314160a7",
+  "new_dialogues": 51,
+  "prior_dialogues": 2659,
+  "total_dialogues": 2710,
+  "prior_files": 48,
+  "total_files": 49,
+  "chapter3_files": 5,
+  "chapter3_dialogues": 333,
+  "next_file": "obt/main/level_main_03-03_end.txt",
+  "next_scene_source_dialogues": 92,
+  "source_cn_en_named_count_match": true,
+  "source_cn_en_dialogue_positions_match": true,
+  "editorial_review": false,
+  "game_tested": false,
+  "notes": [
+    "CN line 22 Texas means 'Oh, sorry' rather than the English exaggerated exclamation.",
+    "Safe local preview only; no game files changed."
+  ]
+}
