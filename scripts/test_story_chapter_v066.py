@@ -67,10 +67,10 @@ class Chapter38EndingV066(unittest.TestCase):
         self.assertFalse(q["in_game_test"])
     def test_safe_preview_does_not_change_commands(self):
         s=load(NEW)["files"][REL]
-        en=["[HEADER(key=\\"test\\")]\n","[PlayMusic(key=\\"test\\")]\n"]
+        en=['[HEADER(key="test")]\n','[PlayMusic(key="test")]\n']
         for i in range(1,71):
             en.append('[Character(name="char_test")]\n')
-            en.append('[name="Ch\\'en"]   EN line '+str(i)+'\n')
+            en.append('[name="Ch' + chr(39) + 'en"]   EN line ' + str(i) + '\n')
             if i%10==0: en.append("[dialog]\n")
         original="".join(en).encode("utf-8")
         patched,count=ap.patch_bytes(original,s["dialogues"])
