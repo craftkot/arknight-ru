@@ -1,0 +1,10 @@
+Arknights RU v0.33-partial — 2026-10-30
+Darknights Memoir / DM-3 before battle (act9d0/level_act9d0_03_beg.txt)
+- Added 43 Russian draft lines: unnamed narration #18–20 and named dialogue #1–40 in source order.
+- DM-3: 20/35 unnamed, 40/152 named, 60/187 total (32.1%).
+- Preserved prior 17 Russian narration lines, original CN/EN source hashes.
+- CN Git blob: 538c852f8a64981df34f7699be9f73dfe00873ea.
+- EN Git blob: 37dcf8c721efd0fa5068d18146caae45ba200b70.
+- Updated chronology, index, source audit, QA, README, and offline tests.
+- Partial scene NOT patchable, not editorially finalized, not game-tested.
+- Next: named dialogue #41 (W).
