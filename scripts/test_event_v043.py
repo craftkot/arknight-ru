@@ -58,7 +58,7 @@ class DarknightsV043(unittest.TestCase):
         self.assertEqual(len(after),len(lines))
         self.assertEqual(after[:2],lines[:2])
         self.assertEqual(after[-2:],lines[-2:])
-        self.assertEqual((len(event.extract(patched)[0],len(event.extract(patched)[1])),(102,0))
+        self.assertEqual((len(event.extract(patched)[0]),len(event.extract(patched)[1])),(102,0))
         self.assertIn("Командир наёмников-сарказов",output)
         self.assertIn("Талула?",output)
         self.assertIn("Талула",output)
