@@ -1,0 +1,23 @@
+{
+  "version": "v0.66",
+  "scene": "3-8 after battle — complete first literary draft 70/70",
+  "new_named_ru": 70,
+  "source_named_total": 70,
+  "source_named_remaining": 0,
+  "completed_story_named_ru": 3531,
+  "completed_story_files": 60,
+  "chapter3_completed_named_ru": 1154,
+  "chapter3_completed_files": 16,
+  "chapter3_stages_completed": 8,
+  "source_sha_cn": "60055bdcb79136fef9d1e728a6c53ba0187f14c1",
+  "source_sha_en": "da19cbb7090e5207621d210670e609cc407119f1",
+  "cn_en_position_alignment": true,
+  "non_dialogue_commands_preserved_by_not_modifying_source": true,
+  "source_noncommand_unnamed_lines": 0,
+  "choice_commands": 0,
+  "markup_preserved": true,
+  "included_in_complete_story_selection": true,
+  "editorial_review": false,
+  "in_game_test": false,
+  "next_file": "obt/main/level_main_04-01_beg.txt"
+}
