@@ -39,7 +39,7 @@ class BabelV048(unittest.TestCase):
             for entry in entries.values():
                 ru = entry if isinstance(entry, str) else entry["ru"]
                 self.assertTrue(isinstance(ru, str) and ru.strip())
-                self.assertFalse(any(c in ru for c in "\\r\\n\\t"))
+                self.assertFalse(any(c in ru for c in "\r\n\t"))
         self.assertEqual([d["sticker_texts"][str(i)]["source_line"] for i in range(1, 15)], STICKER_LINES)
         self.assertEqual(d["sticker_texts"]["1"]["sticker_id"], "st1")
         self.assertEqual(d["sticker_texts"]["9"]["sticker_id"], "st1")
@@ -72,9 +72,9 @@ class BabelV048(unittest.TestCase):
         self.assertEqual(m["translation_integrity"]["babel_partial_ru_text_entries"], 50)
         self.assertEqual(m["events"][1]["source_code"], "act33side")
         self.assertEqual(len(idx), 24)
-        self.assertIn("level_act33side_st01.txt\\tpartial_first_draft\\t21\\t15\\t14", idx[1])
+        self.assertIn("level_act33side_st01.txt\tpartial_first_draft\t21\t15\t14", idx[1])
         self.assertIn("level_act33side_01_beg.txt", idx[2])
-        self.assertIn("level_act33side_st02.txt", "\\n".join(idx))
+        self.assertIn("level_act33side_st02.txt", "\n".join(idx))
         self.assertIn("Babel", (ROOT / "README.md").read_text(encoding="utf-8"))
 
 if __name__ == "__main__":
