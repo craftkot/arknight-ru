@@ -1,11 +1,11 @@
-# Arknights RU — независимый русификатор (рабочая база v0.36-partial)
+# Arknights RU — независимый русификатор (рабочая база v0.37)
 
 Любительский перевод **оригинальной Arknights, Yostar Global PC**. Это **не Endfield**.
 
 ## Что уже есть
 
 - **Главы 0–2:** 2 377 сюжетных реплик, первый русский черновик (44 файла).
-- **Darknights Memoir:** 4 из 13 основных сцен, 652 строки в завершённых черновиках; DM-3 начата отдельно (ещё 141 строка (21 безымянная и 120 именных), **не завершена**, v0.36-partial). Продолжаем по хронологии Терры.
+- **Darknights Memoir:** 5 из 13 основных сцен, 839 строк в завершённых первых черновиках. DM-3 до боя завершена (152 именные + 35 безымянных реплик); далее DM-3 после боя. Продолжаем по хронологии Терры.
 - **Интерфейс:** 2 544 переведённых ключа.
 - Инструменты для сохранения команд и переменных, словари, отчёты и автоматические тесты.
 
@@ -21,9 +21,9 @@
 | `docs/`, `reports/` | заметки, проверки, журнал изменений |
 | `backlog/`, `drafts/`, `data/` | очереди непереведённого текста, промежуточные таблицы |
 
-DM-3: актуальный черновик в `events/darknights_memoir_dm3_before_partial_ru_v036.json`, аудит CN/EN — `reports/DM3_SOURCE_AUDIT_v036.json`. Предыдущая версия `events/darknights_memoir_dm3_before_partial_ru_v035.json` сохранена для сравнения. Частичный файл **не** предназначен для `apply_ru_event.py` до завершения всей сцены.
+DM-3: завершённый первый черновик в `events/darknights_memoir_dm3_before_ru_v037.json`, аудит CN/EN — `reports/DM3_SOURCE_AUDIT_v037.json`. Для локального предпросмотра пяти готовых сцен доступен `BUILD_DARKNIGHTS_DM1_DM2_DM3_BEFORE_PREVIEW_v037.bat` (без установки в игру).
 
-Архив предыдущих черновиков для воспроизводимости проверок: `events/darknights_memoir_dm3_before_partial_ru_v034.json`, `events/darknights_memoir_dm3_before_partial_ru_v032.json` и `events/darknights_memoir_dm3_before_partial_ru_v033.json`. Они не являются актуальными файлами для сборки.
+Архив предыдущих черновиков: `events/darknights_memoir_dm3_before_partial_ru_v036.json`, `events/darknights_memoir_dm3_before_partial_ru_v035.json`, `events/darknights_memoir_dm3_before_partial_ru_v034.json`, `events/darknights_memoir_dm3_before_partial_ru_v032.json` и `events/darknights_memoir_dm3_before_partial_ru_v033.json`. Они не являются актуальными файлами для сборки.
 
 ## Проверка
 
@@ -37,7 +37,7 @@ python -m unittest discover -s scripts -p 'test*.py' -v
 
 ## Предпросмотр
 
-В Windows для Darknights Memoir доступен `BUILD_DARKNIGHTS_DM1_DM2_PREVIEW_v029.bat`. Для глав 0–2 — `BUILD_CHAPTERS_0_TO_2_RU_v025.bat`.
+В Windows для Darknights Memoir доступен `BUILD_DARKNIGHTS_DM1_DM2_DM3_BEFORE_PREVIEW_v037.bat`. Для глав 0–2 — `BUILD_CHAPTERS_0_TO_2_RU_v025.bat`.
 
 Скрипты скачивают игровые сценарии CN/EN отдельно и проверяют версии оригиналов. Перевод **не устанавливается в игру автоматически**. В рабочей базе есть исторические и потенциально небезопасные варианты XUnity: не используйте файлы с меткой `UNSAFE` как готовый патч.
 

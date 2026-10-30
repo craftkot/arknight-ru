@@ -1,0 +1,11 @@
+Arknights RU v0.37 — 2026-10-30
+
+Darknights Memoir, DM-3 before battle:
+- +32 named lines (#121–152) and +14 unnamed narration lines (#22–35): 46 new Russian lines.
+- DM-3 now has a complete FIRST DRAFT: 152 named + 35 unnamed = 187/187 lines.
+- 5 of 13 event scripts complete as first drafts; 839 Russian event lines total.
+- Plot: W and Theresa discuss names and Kazdel; Kal'tsit warns W; W encounters the Doctor.
+- CN Git blob: 538c852f8a64981df34f7699be9f73dfe00873ea; EN Git blob: 37dcf8c721efd0fa5068d18146caae45ba200b70.
+- CN primary, EN cross-check; all 187 dialogue kinds align; semantic and editorial review still needed.
+- New standalone scene JSON, five-scene combined selection, safe Windows local preview, QA, chronology and regression tests.
+- No original CN/EN scripts committed. No in-game test. Next: DM-3 after battle (level_act9d0_03_end.txt).
