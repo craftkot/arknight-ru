@@ -1,0 +1,45 @@
+{
+  "version": "v0.62",
+  "scene": "Main story 3-7 before battle — opening fragment only",
+  "source_file": "obt/main/level_main_03-07_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_03-07_beg.txt",
+      "git_blob_sha1": "5d3bf7deb9bc1a286ee7f8b8f4817f6893a0eed3"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_03-07_beg.txt",
+      "git_blob_sha1": "f682ae658542d594d0bcc474c0201e86d9a22ec7"
+    }
+  },
+  "alignment": {
+    "cn_named": 55,
+    "en_named": 55,
+    "cn_en_dialogue_source_line_positions_equal": true,
+    "cn_decision_commands": 0,
+    "en_decision_commands": 0,
+    "source_line_count_cn": 125,
+    "source_line_count_en": 125,
+    "non_dialogue_source_lines_equal_after_ignoring_terminal_newline": true,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "translated_named_ordinals": "1-20",
+    "translated_source_line_range": "6-46",
+    "untranslated_named_ordinals": "21-55",
+    "unlabeled_noncommand_lines_cn": 0,
+    "unlabeled_noncommand_lines_en": 0
+  },
+  "editorial_notes": [
+    "Translated only a continuous opening fragment (20/55 named dialogue lines); the scene is NOT complete.",
+    "CN #3 says the enemy vanguard has only one person; RU does not invent additional combatants.",
+    "CN #8 says Franka does not act without confidence; EN reduces this to 'reckless'; RU follows CN.",
+    "CN #18 compares the enemy's attacks to throwing stones; EN expands to sticks and stones; RU follows CN.",
+    "CN and EN contain identical non-dialogue commands when ignoring the EN-only terminal newline; no command text is copied into the RU data.",
+    "All speaker tags, visual/audio instructions, and branching remain in upstream scripts; partial JSON cannot be used with the full-scene preview builder.",
+    "Next translation starts at named dialogue #21 (source line 48). No client test performed."
+  ]
+}
