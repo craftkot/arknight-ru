@@ -1,0 +1,56 @@
+{
+  "version": "v0.48",
+  "event": "Babel",
+  "event_code": "act33side",
+  "scene": "BB-ST-1 opening, partial",
+  "relative_story_path": "activities/act33side/level_act33side_st01.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "git_blob_sha1": "b892ff9507ab142d39a0ea18876444c3269ec055",
+      "lines": 452
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "git_blob_sha1": "359381b0e52bae2a7811211ba908aeee0288b5f1",
+      "lines": 453
+    }
+  },
+  "alignment": {
+    "cn_named": 89,
+    "en_named": 89,
+    "cn_plain": 38,
+    "en_plain": 38,
+    "cn_sticker_text": 14,
+    "en_sticker_text": 14,
+    "source_prefix_line_end": 114,
+    "prefix_text_kind_order_identical": true,
+    "full_semantic_equivalence_confirmed": false,
+    "version_notes": "The source text differs between CN/EN; EN has one extra trailing line. All 89 named and 38 untagged text entries plus 14 Sticker(text) entries were counted with a quote-aware name parser (Kal'tsit contains an apostrophe)."
+  },
+  "translation": {
+    "file": "events/babel_st01_opening_partial_ru_v048.json",
+    "named_lines": 21,
+    "plain_lines": 15,
+    "sticker_lines": 14,
+    "total_entries": 50,
+    "source_total_entries": 141,
+    "complete_scene": false,
+    "editorial_review_required": true,
+    "game_tested": false
+  },
+  "source_line_scope": {
+    "first": 1,
+    "last": 114,
+    "next": 115
+  },
+  "notes": [
+    "BB-ST-1 precedes BB-1 in the event's authored sequence; 23 main story text files exist in both mirrors (20 before/after battle, three stXX).",
+    "The initial prologue contains 14 visible poetic lines embedded in Sticker(text=...), not normal dialogue. They are translated separately; command arguments remain intact.",
+    "CN and EN agree on the initial scene boundaries and named/untagged order, but full-source semantic alignment has not been certified.",
+    "CN six heroes stepping over the Demon King's corpse differs materially from EN's paraphrase; Russian follows CN.",
+    "Do not count this as a completed scene; no Babel game patch or tested XUnity integration is provided."
+  ]
+}
