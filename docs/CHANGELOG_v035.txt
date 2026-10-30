@@ -1,0 +1,11 @@
+Arknights RU v0.35-partial — 2026-10-30
+
+Darknights Memoir, DM-3 before battle:
+- +48 named Russian lines (#53–100), +0 unnamed; cumulative 100 named + 21 unnamed = 121/187 (64.7%).
+- Four of 13 event scenes are still complete as first drafts; DM-3 is partial, not patchable.
+- Scene: Closure and Theresa discuss repeated short circuits, W meets Theresa and hears the name Rhodes Island.
+- Source CN Git blob: 538c852f8a64981df34f7699be9f73dfe00873ea.
+- Source EN Git blob: 37dcf8c721efd0fa5068d18146caae45ba200b70.
+- CN primary for meaning, EN for speaker labels and contextual comparison; no original scripts committed.
+- Terminology «Родос Айленд» remains provisional pending editorial glossary review.
+- No game client test; next: named dialogue #101.
