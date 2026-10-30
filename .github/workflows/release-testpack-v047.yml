@@ -1,0 +1,50 @@
+name: Publish Arknights RU v0.47 test data prerelease
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - events/darknights_memoir_all_ru_v047.json
+      - scripts/build_release_testpack_v047.py
+      - .github/workflows/release-testpack-v047.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check all Python regressions
+        run: python -m unittest discover -s scripts -p 'test*.py' -v
+      - name: Build ZIP and SHA256
+        run: python scripts/build_release_testpack_v047.py --out dist
+      - name: Upload Actions test-pack artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Arknights_RU_TestPack_v047
+          path: |
+            dist/Arknights_RU_TestPack_v047.zip
+            dist/Arknights_RU_TestPack_v047.sha256
+            dist/Arknights_RU_TestPack_v047_manifest.json
+      - name: Publish prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "ru-testpack-v0.47" >/dev/null 2>&1; then
+            echo "Release already exists; leaving unchanged."
+          else
+            gh release create "ru-testpack-v0.47" \
+              dist/Arknights_RU_TestPack_v047.zip \
+              dist/Arknights_RU_TestPack_v047.sha256 \
+              dist/Arknights_RU_TestPack_v047_manifest.json \
+              --title "Arknights RU v0.47 — Darknights first draft + UI preview" \
+              --notes "All 13 Darknights Memoir scripts have first-draft Russian texts (2062 lines). Includes 2544 keyed UI values and experimental XUnity literal text. DATA ONLY — NOT verified in Arknights and NOT a game patch or installer. Read README_FIRST_RU.md." \
+              --prerelease \
+              --target "$GITHUB_SHA"
+          fi
