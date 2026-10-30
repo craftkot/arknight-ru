@@ -1,0 +1,46 @@
+{
+  "version": "v0.42",
+  "event": "Darknights Memoir",
+  "scene": "DM-4 after battle / complete first draft",
+  "relative_story_path": "activities/act9d0/level_act9d0_04_end.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/activities/act9d0/level_act9d0_04_end.txt",
+      "git_blob_sha1": "144c07a31324e378d204bfd509d5f3c4e12ecac5"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/activities/act9d0/level_act9d0_04_end.txt",
+      "git_blob_sha1": "641b70cdbc5b2bbfe6bde990146ad1088c413c2d"
+    }
+  },
+  "alignment": {
+    "cn_named": 76,
+    "en_named": 76,
+    "cn_plain": 14,
+    "en_plain": 14,
+    "dialogue_kind_sequence_identical": true,
+    "semantic_alignment_confirmed": false
+  },
+  "translation": {
+    "file": "events/darknights_memoir_dm4_after_ru_v042.json",
+    "named_lines_translated": 76,
+    "plain_lines_translated": 14,
+    "remaining_named_lines": 0,
+    "remaining_plain_lines": 0,
+    "complete_first_draft": true,
+    "editorial_review_required": true
+  },
+  "translation_notes": [
+    "CN primary and EN for speaker naming and sequential check; exact semantic parity not assumed.",
+    "Named #48 CN order Oripathy then storm, EN order reversed; translation follows CN.",
+    "Named #58 CN is literally a swear-word/stage direction in parentheses; EN uses (*Swears*...).",
+    "Named #59 CN is humming, EN 'Ahahaha~!'; translation keeps humming.",
+    "Named #71 CN says the ship was not known to have fallen into Theresis's hands, with interrupted honorific; translation preserves nuance.",
+    "The unnamed #1–4 and #5–14 passages remain in their original interleaved order; technical patcher retains command lines and branches.",
+    "No full CN/EN game scripts stored, no installed client patch, full editorial review still required."
+  ]
+}
