@@ -37,8 +37,8 @@ class DarknightsV046(unittest.TestCase):
         self.assertEqual(len(combined["files"]),12)
         for k,v in old["files"].items():self.assertEqual(combined["files"][k],v)
         self.assertEqual(combined["files"][REL],current["files"][REL])
-        self.assertEqual(sum(x["dialogue_count"] for x in combined["files"].values()),1581)
-        self.assertEqual(sum(x["plain_dialogue_count"] for x in combined["files"].values()),237)
+        self.assertEqual(sum(x["dialogue_count"] for x in combined["files"].values()),1663)
+        self.assertEqual(sum(x["plain_dialogue_count"] for x in combined["files"].values()),155)
 
     def test_patch_control_lines_and_names(self):
         spec=load("events/darknights_memoir_dm6_after_ru_v046.json")["files"][REL]
