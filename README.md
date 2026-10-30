@@ -23,6 +23,8 @@
 
 DM-3: актуальный черновик в `events/darknights_memoir_dm3_before_partial_ru_v034.json`, аудит CN/EN — `reports/DM3_SOURCE_AUDIT_v034.json`. Предыдущая версия `events/darknights_memoir_dm3_before_partial_ru_v033.json` сохранена для сравнения. Частичный файл **не** предназначен для `apply_ru_event.py` до завершения всей сцены.
 
+Архив предыдущих черновиков для воспроизводимости проверок: `events/darknights_memoir_dm3_before_partial_ru_v032.json` и `events/darknights_memoir_dm3_before_partial_ru_v033.json`. Они не являются актуальными файлами для сборки.
+
 ## Проверка
 
 Установить Python 3 и выполнить из корня репозитория:
