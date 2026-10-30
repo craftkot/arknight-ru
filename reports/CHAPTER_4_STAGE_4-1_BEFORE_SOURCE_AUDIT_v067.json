@@ -1,0 +1,54 @@
+{
+  "version": "v0.67",
+  "scene": "Main story 4-1 before battle — complete first literary draft",
+  "source_file": "obt/main/level_main_04-01_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_04-01_beg.txt",
+      "git_blob_sha1": "be553a2f7ed2b086486a2cc8f2f599fe8b0fa0b0"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_04-01_beg.txt",
+      "git_blob_sha1": "9034b069d0501eb39395dd480aa2ad932e1d5ef0"
+    }
+  },
+  "alignment": {
+    "cn_named": 89,
+    "en_named": 89,
+    "cn_unnamed": 2,
+    "en_unnamed": 2,
+    "ru_named": 89,
+    "ru_unnamed": 2,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal_excluding_header_and_decision_text": true,
+    "source_line_count_cn": 182,
+    "source_line_count_en": 183,
+    "cn_en_decision_count": 4,
+    "decision_option_counts": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "cn_en_decision_values_match": true,
+    "ru_decision_options": 6,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "translated_text_ordinals": "1-91; 1-2 unnamed, 3-91 named",
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "CN primary for meaning; EN used for speaker names and structure. Source blob SHA differ because localized text differs. Non-dialogue storyboard commands match; EN adds a terminal newline.",
+    "CN unnamed source lines 3-4 give the time/weather/visibility and Rhodes Island. These are translated as ordinal entries 1-2, not silently discarded.",
+    "CN named line 22 (text ordinal 24) says the atmosphere when the Doctor returned was similar; EN instead describes Amiya looking similar. RU follows CN atmosphere.",
+    "CN named line 54 (text ordinal 56) describes an abandoned city district that escaped the Chernobog incident; EN implies cities formed after it. RU preserves CN escape/survival sense.",
+    "CN named line 61 (text ordinal 63) has Penguin Logistics asking Amiya to exchange opinions in the slums, not necessarily sensitive information as EN suggests.",
+    "CN named line 73 (text ordinal 75) is 知道 ('I know/understood'); EN says 'I won't'. RU keeps CN's acknowledgment.",
+    "CN named line 78 (text ordinal 80) likens Amiya's strength to a shell crushed into dust by pressure; RU keeps the shell metaphor.",
+    "Choice option counts and values preserved for all 4 decisions; no complete CN/EN game scripts committed. The preview is not a tested client patch."
+  ]
+}
