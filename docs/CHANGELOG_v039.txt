@@ -1,0 +1,10 @@
+Arknights RU v0.39-partial — 2026-10-30
+
+Darknights Memoir, DM-3 after battle:
+- +6 named dialogue lines (#61–66); cumulative 66/171 (named 66/160, plain 0/11).
+- Ines asks about W staying with Theresa; Hoederer asks about Theresa, Kal'tsit and the Doctor.
+- Previous 60 translations preserved verbatim; 5 completed event scripts unchanged.
+- CN primary Git blob 2c6e2acad62c3037c561946ada0764c633a8adb9; EN cross-check Git blob 9c52ccad2f1ba96dd007df147a4eece1515e2321. Both 160 named + 11 plain; dialogue-kind order identical.
+- New versioned partial JSON, source audit, QA, index, chronology, tests and README update.
+- No full CN/EN source scripts committed. Not game-tested, partial JSON not patchable.
+- Next named line #67.

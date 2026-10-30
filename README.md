@@ -1,4 +1,4 @@
-# Arknights RU — независимый русификатор (рабочая база v0.38-partial)
+# Arknights RU — независимый русификатор (рабочая база v0.39-partial)
 
 Любительский перевод **оригинальной Arknights, Yostar Global PC**. Это **не Endfield**.
 
@@ -45,4 +45,4 @@ python -m unittest discover -s scripts -p 'test*.py' -v
 
 Подробности переноса — [`MIGRATION.md`](MIGRATION.md).
 
-DM-3 после боя (незавершённый перевод): `events/darknights_memoir_dm3_after_partial_ru_v038.json`, аудит — `reports/DM3_AFTER_SOURCE_AUDIT_v038.json`. Файл нельзя использовать для сборки игрового патча. Следующая именная реплика №61.
+DM-3 после боя (незавершённый перевод): `events/darknights_memoir_dm3_after_partial_ru_v039.json` (66/171 реплик), аудит — `reports/DM3_AFTER_SOURCE_AUDIT_v039.json`. Версия v038 сохранена в архиве. Частичный JSON нельзя использовать для сборки игрового патча. Следующая именная реплика №67.
