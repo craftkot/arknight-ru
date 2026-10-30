@@ -29,7 +29,7 @@ class Chapter38EndingV066(unittest.TestCase):
         self.assertNotIn("decisions",s)
         for line in s["dialogues"].values():
             self.assertTrue(isinstance(line,str) and line.strip())
-            self.assertFalse(any(ch in line for ch in "\\r\\n\\t"))
+            self.assertFalse(any(ch in line for ch in "\r\n\t"))
             self.assertEqual(ap.quoted_tokens(line),[])
         self.assertIn("рак",s["dialogues"]["8"])
         self.assertIn("судьба",s["dialogues"]["30"])
@@ -45,7 +45,7 @@ class Chapter38EndingV066(unittest.TestCase):
         self.assertEqual(new["files"][REL],load(NEW)["files"][REL])
     def test_index_audit_qa_chronology(self):
         with (ROOT/"story/CHAPTER_3_INDEX_v066.tsv").open(encoding="utf-8") as f:
-            rows=list(csv.DictReader(f,delimiter="\\t"))
+            rows=list(csv.DictReader(f,delimiter="\t"))
         self.assertEqual(len(rows),16)
         self.assertEqual(sum(int(r["dialogues_ru_count"]) for r in rows),1154)
         self.assertEqual((rows[-1]["source_filename"],rows[-1]["dialogues_ru_count"]),("level_main_03-08_end.txt","70"))
@@ -67,11 +67,11 @@ class Chapter38EndingV066(unittest.TestCase):
         self.assertFalse(q["in_game_test"])
     def test_safe_preview_does_not_change_commands(self):
         s=load(NEW)["files"][REL]
-        en=["[HEADER(key=\\\"test\\\")]\\n","[PlayMusic(key=\\\"test\\\")]\\n"]
+        en=["[HEADER(key=\\"test\\")]\n","[PlayMusic(key=\\"test\\")]\n"]
         for i in range(1,71):
-            en.append('[Character(name="char_test")]\\n')
-            en.append('[name="Ch\\\'en"]   EN line '+str(i)+'\\n')
-            if i%10==0: en.append("[dialog]\\n")
+            en.append('[Character(name="char_test")]\n')
+            en.append('[name="Ch\\'en"]   EN line '+str(i)+'\n')
+            if i%10==0: en.append("[dialog]\n")
         original="".join(en).encode("utf-8")
         patched,count=ap.patch_bytes(original,s["dialogues"])
         self.assertEqual(count,70)
