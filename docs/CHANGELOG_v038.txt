@@ -1,0 +1,11 @@
+Arknights RU v0.38-partial — 2026-10-30
+
+Darknights Memoir, DM-3 after battle:
+- +60 named dialogue lines (#1–60), no unnamed lines yet; 60/171 total.
+- 5 of 13 event scripts complete as first drafts (839 lines); 60 partial new lines; 899 including partial.
+- Covers Hoederer and Kal'tsit discussing the departure, and Ines and Hoederer discussing their company, banner and losses.
+- CN Git blob: 2c6e2acad62c3037c561946ada0764c633a8adb9; EN Git blob: 9c52ccad2f1ba96dd007df147a4eece1515e2321.
+- CN primary, EN comparison. Divergences at named #44 and #54 documented in source audit.
+- New partial scene JSON, index, chronology, audit, QA and regression tests.
+- No CN/EN full original scripts committed; no game test; partial JSON not patchable.
+- Next: DM-3 after battle named #61.
