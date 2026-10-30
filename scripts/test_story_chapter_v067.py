@@ -33,7 +33,7 @@ class Chapter41BeforeV067(unittest.TestCase):
         self.assertEqual([len(s["decisions"][str(i)]) for i in range(1,5)],[1,1,2,2])
         for line in s["dialogues"].values():
             self.assertTrue(isinstance(line,str) and line.strip())
-            self.assertFalse(any(c in line for c in "\\r\\n\\t"))
+            self.assertFalse(any(c in line for c in "\${ch}\${ch}\${ch}"))
         self.assertEqual(s["dialogues"]["1"],"20:36 \\ Дождь \\ Видимость: 12 км")
         self.assertIn("атмосфера",s["dialogues"]["24"])
         self.assertIn("уцелеть",s["dialogues"]["56"])
@@ -66,19 +66,19 @@ class Chapter41BeforeV067(unittest.TestCase):
     def test_safe_preview_with_unnamed_lines_and_choices(self):
         d=copy.deepcopy(load(NEW))
         s=d["files"][REL]
-        lines=['[HEADER(key="test")]\\n','[PlayMusic(key="test")]\\n']
+        lines=['[HEADER(key="test")]\${ch}','[PlayMusic(key="test")]\${ch}']
         for i in range(1,92):
             speaker="" if i<=2 else ("Amiya" if i%2 else "Kal'tsit")
             tokens=" ".join(ap.quoted_tokens(s["dialogues"][str(i)]))
-            lines.append('[name="'+speaker+'"]   EN '+str(i)+' '+tokens+'\\n')
+            lines.append('[name="'+speaker+'"]   EN '+str(i)+' '+tokens+'\${ch}')
             if i in (29,41,50,84):
                 k={29:1,41:2,50:3,84:4}[i]
                 n=len(s["decisions"][str(k)])
-                lines.append('[Decision(options="'+ ';'.join('EN'+str(x) for x in range(n))+'", values="'+ ';'.join(str(x+1) for x in range(n))+'")]\\n')
-                lines.append('[Predicate(references="1")]\\n')
+                lines.append('[Decision(options="'+ ';'.join('EN'+str(x) for x in range(n))+'", values="'+ ';'.join(str(x+1) for x in range(n))+'")]\${ch}')
+                lines.append('[Predicate(references="1")]\${ch}')
             if i%11==0:
-                lines.append('[CameraShake(duration=0.5)]\\n')
-        lines.append('[Image]\\n')
+                lines.append('[CameraShake(duration=0.5)]\${ch}')
+        lines.append('[Image]\${ch}')
         original="".join(lines).encode("utf-8")
         result,count=ap.patch_bytes(original,s["dialogues"],ru_choices=s["decisions"])
         self.assertEqual(count,91)
