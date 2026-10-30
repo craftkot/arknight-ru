@@ -1,0 +1,25 @@
+{
+  "version": "v0.52",
+  "chapter": 3,
+  "stage": "3-2 before battle",
+  "cn_git_blob_sha1": "e8df9153f936ed913c8244435857c5318adb5fd5",
+  "en_git_blob_sha1": "dead4546db26bd1362dc10e680a1e45387493bc9",
+  "source_count_cn": 37,
+  "source_count_en": 37,
+  "new_ru_dialogues": 37,
+  "preserved_previous_story_files": 46,
+  "preserved_previous_dialogues": 2502,
+  "total_story_files": 47,
+  "total_story_dialogues": 2539,
+  "chapter_3_dialogues": 162,
+  "chapter_3_files": 3,
+  "stage_3_2_after_pending": true,
+  "client_test": "not performed",
+  "editorial_review": "pending",
+  "next_file": "obt/main/level_main_03-02_end.txt",
+  "notes": [
+    "Hoshiguma / Ch'en / Amiya CN and EN role order confirmed, no markup changes.",
+    "Stage 3-2 incomplete: only before-battle file translated; after-battle source has 120 named lines.",
+    "Original [HEADER(...)] Chinese stage heading remains unmodified by safe dialogue preview."
+  ]
+}
