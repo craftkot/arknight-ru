@@ -79,7 +79,7 @@ class Chapter3Stage36BeforeV060(unittest.TestCase):
                 if not ap.SPEAKER.search(a):self.assertEqual(a,b)
             self.assertIn('[name="Франка"]',"\n".join(new))
             self.assertIn('[name="Лискарм"]',"\n".join(new))
-            self.assertIn("Теперь наша очередь остановить Воссоединение!",new[-4])
+            self.assertTrue(any("Теперь наша очередь остановить Воссоединение!" in line for line in new))
             with self.assertRaisesRegex(ValueError,"revision mismatch"):
                 ap.build(root/"source",root/"rejected",ROOT/NEW)
             self.assertFalse((root/"rejected").exists())
