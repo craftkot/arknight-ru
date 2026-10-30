@@ -36,7 +36,7 @@ class Chapter3Stage37BeforeV063(unittest.TestCase):
             self.assertEqual(record["dialogues"][str(i)], partial["dialogues"][str(i)])
         for i, text in record["dialogues"].items():
             self.assertTrue(isinstance(text, str) and text.strip())
-            self.assertFalse(any(ch in text for ch in "\\r\\n\\t"))
+            self.assertFalse(any(ch in text for ch in "\r\n\t"))
             if i != "53":
                 self.assertFalse(ap.INLINE.findall(text))
         self.assertEqual(ap.INLINE.findall(record["dialogues"]["53"]), ["{@nickname}"])
@@ -56,7 +56,7 @@ class Chapter3Stage37BeforeV063(unittest.TestCase):
 
     def test_index_chronology_qa_and_audit(self):
         with (ROOT / "story/CHAPTER_3_INDEX_v063.tsv").open(encoding="utf-8") as f:
-            rows = list(csv.DictReader(f, delimiter="\\t"))
+            rows = list(csv.DictReader(f, delimiter="\t"))
         self.assertEqual(len(rows), 13)
         self.assertEqual(sum(int(r["dialogues_ru_count"]) for r in rows), 937)
         self.assertEqual((rows[-1]["source_filename"], rows[-1]["ru_status"], rows[-1]["dialogues_ru_count"]),
@@ -85,16 +85,16 @@ class Chapter3Stage37BeforeV063(unittest.TestCase):
             root = Path(tmp)
             doc = copy.deepcopy(load(NEW))
             speakers = ["Franka", "Hoshiguma", "Liskarm", "Reunion Member", "Amiya", "Texas"]
-            lines = ['[HEADER(key="test", is_skippable=true)]\\n', '[Background(image="bg_test")]\\n']
+            lines = ['[HEADER(key="test", is_skippable=true)]\n', '[Background(image="bg_test")]\n']
             for i in range(1, 56):
-                lines.append('[Character(name="char_test")]\\n')
+                lines.append('[Character(name="char_test")]\n')
                 text = "Doctor {@nickname}, scout ahead!" if i == 53 else "EN line " + str(i)
-                lines.append('[name="' + speakers[(i-1) % len(speakers)] + '"]   ' + text + '\\n')
+                lines.append('[name="' + speakers[(i-1) % len(speakers)] + '"]   ' + text + '\n')
                 if i % 5 == 0:
-                    lines.append('[Delay(time=0.1)]\\n')
+                    lines.append('[Delay(time=0.1)]\n')
                 if i % 7 == 0:
-                    lines.append('[Dialog]\\n')
-            lines.extend(['[Blocker(block=true)]\\n', '[Image]'])
+                    lines.append('[Dialog]\n')
+            lines.extend(['[Blocker(block=true)]\n', '[Image]'])
             original = "".join(lines).encode("utf-8")
             for lang in ("cn", "en"):
                 p = root / "source" / lang / REL
