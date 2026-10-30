@@ -1,0 +1,8 @@
+Arknights RU v0.32-partial — 2026-10-30
+Darknights Memoir / DM-3 before battle (act9d0/level_act9d0_03_beg.txt)
+- Added 5 short Russian draft narration lines: plain ordinals 13–17.
+- DM-3 partial progress: 17/35 unnamed, 0/152 named, 17/187 overall.
+- Source anchors unchanged: CN 538c852f8a64981df34f7699be9f73dfe00873ea; EN 37dcf8c721efd0fa5068d18146caae45ba200b70.
+- Preserved previous 12 lines unchanged. Added cross-version invariant tests and refreshed manifest, index, audit, QA and README.
+- Partial scene NOT patchable, not editorially finalized, not tested in the actual client.
+- Next: plain narration ordinal 18.
