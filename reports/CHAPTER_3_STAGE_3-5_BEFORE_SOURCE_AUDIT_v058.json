@@ -1,0 +1,50 @@
+{
+  "version": "v0.58",
+  "scene": "Main story 3-5 before battle",
+  "source_file": "obt/main/level_main_03-05_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_03-05_beg.txt",
+      "git_blob_sha1": "d4e655e1044c228cf7cd0e6a6102819416bbf68c"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "path": "en_US/gamedata/story/obt/main/level_main_03-05_beg.txt",
+      "git_blob_sha1": "aab530ba1f1af9bfa2c942e88dd5811ce6dc3994"
+    }
+  },
+  "alignment": {
+    "cn_named": 83,
+    "en_named": 83,
+    "cn_en_dialogue_source_line_positions_equal": true,
+    "cn_decision_commands": 3,
+    "en_decision_commands": 3,
+    "cn_en_decision_positions_equal": true,
+    "cn_en_choice_counts_equal": true,
+    "decision_option_counts": [
+      1,
+      3,
+      1
+    ],
+    "unlabeled_noncommand_lines_cn": 0,
+    "unlabeled_noncommand_lines_en": 0,
+    "markup_tokens_preserved": true,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "speaker_order_checked": true,
+    "source_line_count_cn": 157,
+    "source_line_count_en": 158
+  },
+  "editorial_notes": [
+    "CN is the primary meaning source; EN is used for character names and structure. The sources are different Git blobs, so they are not byte-identical.",
+    "All 83 dialogue positions and all three choice-command positions match between CN and EN. Five options translated, preserving each Predicate/values branch.",
+    "CN line 26 says the speaker does not regret killing him regardless of what he carried; RU avoids inventing a specific crime or burden.",
+    "CN #34 says 'I am too weak' while EN uses 'pathetic'; RU follows the CN assessment.",
+    "CN #61 means 'take him back' rather than EN's added 'home'; RU omits the destination.",
+    "CN #54 asks LGD not to slacken vigilance, while EN says not to panic; RU follows CN.",
+    "CN uses {@Nickname} on one line whereas EN uses {@nickname}; RU preserves the actual EN game variable spelling.",
+    "No original full CN/EN story scripts are committed. Preview builder validates Git blob revisions and only changes dialogue labels/text and declared Decision option strings.",
+    "First draft only, not verified in Yostar PC client."
+  ]
+}
