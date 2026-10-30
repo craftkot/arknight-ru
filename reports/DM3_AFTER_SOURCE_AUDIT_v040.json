@@ -1,0 +1,72 @@
+{
+  "audit_date_utc": "2026-10-30",
+  "event": "Darknights Memoir",
+  "scene": "DM-3 after battle — complete first draft v0.40",
+  "relative_story_path": "activities/act9d0/level_act9d0_03_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "branch": "master",
+      "path": "zh_CN/gamedata/story/activities/act9d0/level_act9d0_03_end.txt",
+      "git_blob_sha1": "2c6e2acad62c3037c561946ada0764c633a8adb9",
+      "physical_lines": 303,
+      "ends_with_newline": false
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "branch": "main",
+      "path": "en_US/gamedata/story/activities/act9d0/level_act9d0_03_end.txt",
+      "git_blob_sha1": "9c52ccad2f1ba96dd007df147a4eece1515e2321",
+      "physical_lines": 304,
+      "ends_with_newline": true
+    }
+  },
+  "alignment": {
+    "cn_named": 160,
+    "en_named": 160,
+    "cn_plain": 11,
+    "en_plain": 11,
+    "dialogue_kind_sequence_identical": true,
+    "semantic_alignment_confirmed": false,
+    "first_translated_named_ordinals": "1-160",
+    "first_translated_plain_ordinals": "1-11",
+    "speaker_alignment_first_60": [
+      {
+        "ordinal": 1,
+        "cn": "凯尔希",
+        "en": "Kal'tsit"
+      },
+      {
+        "ordinal": 2,
+        "cn": "赫德雷",
+        "en": "Hoederer"
+      },
+      {
+        "ordinal": 17,
+        "cn": "伊内丝",
+        "en": "Ines"
+      }
+    ]
+  },
+  "translation": {
+    "file": "events/darknights_memoir_dm3_after_ru_v040.json",
+    "named_lines_translated": 160,
+    "plain_lines_translated": 11,
+    "remaining_named_lines": 0,
+    "remaining_plain_lines": 0,
+    "complete_first_draft": true,
+    "editorial_review_required": true
+  },
+  "translation_notes": [
+    "CN primary; EN cross-check, source version pinned by blob SHA.",
+    "Named line #44: CN says the banner and possessions were left behind; EN says 'I kept it'. Translation follows CN.",
+    "Named line #54: CN is a counterfactual 'could have caught the pole'; translation follows CN.",
+    "No full original CN or EN scripts stored in this repository.",
+    "Not a game patch or verified in-client translation.",
+    "Named #61–66 translated from CN, checked against EN; existing #1–60 unchanged.",
+    "v0.40: named #67–160 and plain #1–11 added, previous #1–66 unchanged; six completed first drafts in DM.",
+    "CN #69 refers to the numerous secrets at Babel; EN shifts focus to Kal'tsit's unknowability. CN preserved.",
+    "CN #114 is a generic second-person warning about going anyway, not specifically visiting a female character; translation follows CN.",
+    "The Chinese and English narrations are structurally aligned but are not guaranteed semantically identical; full human literary revision pending."
+  ]
+}
