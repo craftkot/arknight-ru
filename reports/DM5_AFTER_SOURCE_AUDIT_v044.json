@@ -1,0 +1,44 @@
+{
+  "version": "v0.44",
+  "scene": "DM-5 after battle, complete first draft",
+  "relative_story_path": "activities/act9d0/level_act9d0_05_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/activities/act9d0/level_act9d0_05_end.txt",
+      "git_blob_sha1": "f9d28a92f2fd0e63a0eb8877120bd2516e0a198d"
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/activities/act9d0/level_act9d0_05_end.txt",
+      "git_blob_sha1": "41492c1e44eb4db0fc035dc450ca0de977f67c8f"
+    }
+  },
+  "alignment": {
+    "cn_named": 74,
+    "en_named": 74,
+    "cn_plain": 10,
+    "en_plain": 10,
+    "dialogue_kind_sequence_identical": true,
+    "semantic_alignment_confirmed": false
+  },
+  "translation": {
+    "file": "events/darknights_memoir_dm5_after_ru_v044.json",
+    "named_lines_translated": 74,
+    "plain_lines_translated": 10,
+    "complete_first_draft": true,
+    "editorial_review_required": true
+  },
+  "translation_notes": [
+    "CN primary and EN for speaker and order verification; semantic parity not assumed.",
+    "Named #56 CN stages report that Ines died, not objective confirmation of her fate; Russian wording is reported speech.",
+    "Named #61-65 depict staging a supposed attack, one Reunion caster sacrifices himself as part of fabrication; retain speaker chronology.",
+    "Named #56-57 and #65 require editorial consistency: whose body is whose is contextual.",
+    "Named #28 CN says any act may become others' leverage; EN introduces 'against someone else'. Russian follows CN.",
+    "Plain #8 CN is incitement, harm and sowing discord; EN uses 'Destruction'. Russian follows CN.",
+    "Named #9 CN refers to non-Sarkaz attitudes toward infected; preserve ambiguity until editorial review.",
+    "Old nine complete first drafts and all game commands left unchanged; full original CN/EN sources not committed; no in-game testing."
+  ]
+}
