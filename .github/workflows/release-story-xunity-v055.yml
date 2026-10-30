@@ -1,0 +1,57 @@
+name: Release story chapters 0-2 XUnity test overlay v0.55
+
+on:
+  push:
+    branches:
+      - main
+      - feature/story-0-2-xunity-test-v055
+    paths:
+      - scripts/build_story_chapters_0_2_xunity_v055.py
+      - scripts/test_story_xunity_v055.py
+      - release/README_STORY_CHAPTERS_0_2_XUNITY_v055.md
+      - .github/workflows/release-story-xunity-v055.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-story-overlay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout translation repository
+        uses: actions/checkout@v4
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run all regression tests
+        run: python -m unittest discover -s scripts -p 'test*.py' -v
+      - name: Resolve 44 pinned source scripts and build BepInEx overlay
+        run: python scripts/build_story_chapters_0_2_xunity_v055.py --out dist
+      - name: Upload verifiable test pack
+        uses: actions/upload-artifact@v4
+        with:
+          name: ArknightsRU_Story_Chapters_0-2_XUnity_TEST_v055
+          path: |
+            dist/ArknightsRU_Story_Chapters_0-2_XUnity_TEST_v055.zip
+            dist/ArknightsRU_Story_Chapters_0-2_XUnity_TEST_v055.zip.sha256
+            dist/ArknightsRU_Story_Chapters_0-2_XUnity_TEST_v055_manifest.json
+      - name: Publish GitHub prerelease after main CI succeeds
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view ru-story-xunity-v0.55 >/dev/null 2>&1; then
+            echo "Release already exists; not overwriting it."
+          else
+            gh release create ru-story-xunity-v0.55 \
+              dist/ArknightsRU_Story_Chapters_0-2_XUnity_TEST_v055.zip \
+              dist/ArknightsRU_Story_Chapters_0-2_XUnity_TEST_v055.zip.sha256 \
+              dist/ArknightsRU_Story_Chapters_0-2_XUnity_TEST_v055_manifest.json \
+              --target "$GITHUB_SHA" \
+              --title "Arknights RU v0.55: Chapter 0-2 XUnity story test" \
+              --notes "Experimental BepInEx/XUnity exact-English-to-Russian dialogue TXT overlay for the existing first drafts of main story chapters 0-2. No DLL, no Unity resource replacement, no gameplay or login modifications. Short/ambiguous keys excluded. Extract ZIP into Arknights_EN. See README in ZIP for rollback and known IL2CPP text-hook limitations." \
+              --prerelease
+          fi
