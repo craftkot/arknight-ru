@@ -1,0 +1,40 @@
+{
+  "version": "v0.57",
+  "scene": "Main story 3-4 after battle",
+  "source_file": "obt/main/level_main_03-04_end.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_03-04_end.txt",
+      "git_blob_sha1": "25ee6b4823b7622740d1bd268c1870fc0ea603b4"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "path": "en_US/gamedata/story/obt/main/level_main_03-04_end.txt",
+      "git_blob_sha1": "1ef401ec922d87566581d5d901c1146a2676a245"
+    }
+  },
+  "alignment": {
+    "cn_named": 55,
+    "en_named": 55,
+    "cn_en_dialogue_source_line_positions_equal": true,
+    "unlabeled_noncommand_lines_cn": 0,
+    "unlabeled_noncommand_lines_en": 0,
+    "markup_tokens_preserved": true,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "speaker_order_checked": true,
+    "source_line_count_cn": 157,
+    "source_line_count_en": 158
+  },
+  "editorial_notes": [
+    "The Chinese source is the primary meaning reference; English speaker names and line structure are cross-checked.",
+    "CN #12 信息点 is nonspecific tactical information/clues; EN narrows it to a designated waypoint. RU uses 'зацепки' without inventing a waypoint.",
+    "CN #46 你……这是什么？ asks what the ability is; EN substitutes 'But... look at you...'. RU follows CN.",
+    "CN #50 leaves the accusation about watching fellow people unfinished; EN adds 'in cold blood' and 'Infected'. RU preserves the interrupted thought without adding the judgment.",
+    "CN #31 names Hoshiguma's shield 般若 (Hannya); RU uses 'Хання'.",
+    "CN/EN contain 55 matching numbered [name] dialogue lines in identical source line positions; no additional unnamed spoken text.",
+    "Commands, cinematics, sounds, delays, and assets are not stored in the RU dialogue map and are preserved by the existing preview builder.",
+    "CN and EN Git blobs differ; alignment does not prove identical meaning. Not an in-game-tested patch."
+  ]
+}
