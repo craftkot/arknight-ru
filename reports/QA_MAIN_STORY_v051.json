@@ -1,0 +1,22 @@
+{
+  "version": "v0.51",
+  "title": "Main story chapter 3, stage 3-1",
+  "new_named_before": 75,
+  "new_named_after": 50,
+  "new_named_total": 125,
+  "complete_scene_files": 2,
+  "preserved_main_story_files": 44,
+  "main_story_total_files": 46,
+  "main_story_total_named": 2502,
+  "preserved_chapters_0_to_2_named": 2377,
+  "source_cn_sha_before": "1386d716004d57d6d956ef09d585223a31aba676",
+  "source_en_sha_before": "209c67832505696d425489ba3519273a0ed13881",
+  "source_cn_sha_after": "1a68fd7bd2bfa419086ed67dffd1f5a413412e82",
+  "source_en_sha_after": "4b91c18980615f42d086bc6f138fb4976bde6750",
+  "source_order": "Both CN/EN scene pairs have identical named-dialogue ordinals: 75 / 50",
+  "source_semantics": "CN primary; EN secondary; not necessarily identical",
+  "technical_checks": "Local source markup and speaker order verified; GitHub Actions regression required",
+  "client_test": "not performed",
+  "status": "first_full_draft_stage_3_1_needs_editorial_review",
+  "next_stage": "obt/main/level_main_03-02_beg.txt"
+}
