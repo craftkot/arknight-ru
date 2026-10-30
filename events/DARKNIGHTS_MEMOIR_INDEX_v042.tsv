@@ -1,0 +1,14 @@
+event	source_file	ru_translation_status	named_ru_lines	unnamed_ru_lines
+act9d0	level_act9d0_01_beg.txt	first_draft_complete	94	16
+act9d0	level_act9d0_01_end.txt	first_draft_complete	152	15
+act9d0	level_act9d0_02_beg.txt	first_draft_complete	132	5
+act9d0	level_act9d0_02_end.txt	first_draft_complete	216	22
+act9d0	level_act9d0_03_beg.txt	first_draft_complete	152	35
+act9d0	level_act9d0_03_end.txt	first_draft_complete	160	11
+act9d0	level_act9d0_04_beg.txt	first_draft_complete	154	16
+act9d0	level_act9d0_04_end.txt	first_draft_complete	76	14
+act9d0	level_act9d0_05_beg.txt	not_translated	0	0
+act9d0	level_act9d0_05_end.txt	not_translated	0	0
+act9d0	level_act9d0_06_beg.txt	not_translated	0	0
+act9d0	level_act9d0_06_end.txt	not_translated	0	0
+act9d0	level_act9d0_st01.txt	not_translated	0	0
