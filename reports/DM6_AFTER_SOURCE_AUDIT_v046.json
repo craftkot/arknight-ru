@@ -1,0 +1,43 @@
+{
+  "version": "v0.46",
+  "event": "Darknights Memoir",
+  "relative_story_path": "activities/act9d0/level_act9d0_06_end.txt",
+  "scene": "DM-6 after battle — full first draft",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "git_blob_sha1": "006e64022a8cefc2a022e4cee1a74543df4f78d1"
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "git_blob_sha1": "4c436f81fec0777ae9aead191d1a0720bd0ea13e"
+    }
+  },
+  "alignment": {
+    "cn_named": 132,
+    "en_named": 132,
+    "cn_plain": 5,
+    "en_plain": 5,
+    "dialogue_kind_sequence_identical": true,
+    "semantic_alignment_confirmed": false
+  },
+  "translation": {
+    "file": "events/darknights_memoir_dm6_after_ru_v046.json",
+    "named_lines_translated": 132,
+    "plain_lines_translated": 5,
+    "complete_first_draft": true,
+    "editorial_review_required": true
+  },
+  "notes": [
+    "CN primary; EN used for named roles and structure. All 137 dialogue kinds aligned; exact semantic parity not claimed.",
+    "Confessarius labels use Исповедник provisionally; final in-game name pending authoritative term review.",
+    "N6 CN emphasizes reward earned by blood and fire; EN says blood sweat and tears.",
+    "N30 CN does not specify return destination, EN inserts Kazdel; translation follows CN.",
+    "N63 CN describes a transmitter concealed in ruins and a tower deliberately made to look broken; translation follows CN.",
+    "N78–99 are a flashback conversation between W and Hoederer; original script commands preserved.",
+    "N121–132 children section after narrator; Waifish and Unyielding labels preserved by ordinal mapping.",
+    "No full CN/EN source scripts are stored. Not game-tested."
+  ]
+}
