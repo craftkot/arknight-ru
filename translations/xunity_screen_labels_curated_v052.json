@@ -156,7 +156,8 @@
     "Deploy": "Разместить",
     "Formation": "Формирование",
     "Formation Preset": "Шаблон отряда",
-    "Building Mode: ON": "Строительство: вкл."
+    "Building Mode: ON": "Строительство: вкл.",
+    "LV": "УР."
   },
   "notes": [
     "Exact English text only. In-game resources or sprites may not expose all labels to XUnity.",
