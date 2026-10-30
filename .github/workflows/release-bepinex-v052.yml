@@ -1,0 +1,52 @@
+name: Publish unified Arknights RU BepInEx v0.52
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/build_bepinex_unified_v052.py
+      - translations/xunity_screen_labels_curated_v052.json
+      - .github/workflows/release-bepinex-v052.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Regression and archive integrity
+        run: python -m unittest discover -s scripts -p 'test*.py' -v
+      - name: Build eight-file unified pack
+        run: python scripts/build_bepinex_unified_v052.py --out dist
+      - name: Upload ZIP for download
+        uses: actions/upload-artifact@v4
+        with:
+          name: ArknightsRU_BepInEx_Unified_v052
+          path: |
+            dist/ArknightsRU_BepInEx_Unified_v052.zip
+            dist/ArknightsRU_BepInEx_Unified_v052.zip.sha256
+            dist/ArknightsRU_BepInEx_Unified_v052_manifest.json
+      - name: Publish tested GitHub prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view ru-bepinex-v0.52 >/dev/null 2>&1; then
+            echo "Release tag already exists; not overwriting"
+          else
+            gh release create ru-bepinex-v0.52 \
+              dist/ArknightsRU_BepInEx_Unified_v052.zip \
+              dist/ArknightsRU_BepInEx_Unified_v052.zip.sha256 \
+              dist/ArknightsRU_BepInEx_Unified_v052_manifest.json \
+              --title "Arknights RU v0.52 - Unified BepInEx Text (8 categories)" \
+              --notes "Extract into Arknights_EN, then optionally run BACKUP_OLD_OVERLAYS_v052.cmd to safely move old v0.48-v0.51 experiments away from Text. Original seven user TXT files preserved. Categorized and deduplicated UI translations, audit for screenshot labels. Still experimental and NOT a verified in-game UI patch. See README inside ZIP." \
+              --prerelease \
+              --target "$GITHUB_SHA"
+          fi
