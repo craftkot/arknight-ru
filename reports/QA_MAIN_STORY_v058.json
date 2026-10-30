@@ -1,0 +1,29 @@
+{
+  "version": "v0.58",
+  "scene": "3-5 before battle",
+  "new_named_ru": 83,
+  "new_choice_options_ru": 5,
+  "prior_named_ru": 2936,
+  "total_named_ru": 3019,
+  "prior_story_files": 52,
+  "total_story_files": 53,
+  "chapter3_named_ru": 642,
+  "chapter3_files": 9,
+  "chapter3_complete_stages": 4,
+  "stage_3_5_before_named": 83,
+  "source_sha_cn": "d4e655e1044c228cf7cd0e6a6102819416bbf68c",
+  "source_sha_en": "aab530ba1f1af9bfa2c942e88dd5811ce6dc3994",
+  "cn_en_position_alignment": true,
+  "source_noncommand_unnamed_lines": 0,
+  "choice_commands": 3,
+  "choice_option_counts": [
+    1,
+    3,
+    1
+  ],
+  "markup_preserved": true,
+  "previous_52_file_entries_unchanged": true,
+  "editorial_review": false,
+  "in_game_test": false,
+  "next_file": "obt/main/level_main_03-05_end.txt"
+}

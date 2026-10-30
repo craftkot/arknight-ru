@@ -13,7 +13,8 @@ import sys
 
 SPEAKER = re.compile(r'(\[\s*name\s*=\s*)(["\'])(.*?)(\2)(\s*\])', re.I)
 INLINE = re.compile(r'\{@[\w]+\}|\{\d+(?:[^{}]*)\}|<[^>]+>')
-ALLOWED_PATH = r'obt/main/level_main_(?:00-(?:01_(?:beg|end)|02_(?:beg|end)|04_beg|06_end|07_(?:beg|end)|08_beg|09_end|10_beg|11_end)|01-(?:01_(?:beg|end)|03_(?:beg|end)|04_beg|06_beg|07_(?:beg|end)|08_beg|10_end|12_(?:beg|end))|02-(?:0[1-9]|10)_(?:beg|end)|03-01_(?:beg|end)|03-02_(?:beg|end)|03-03_(?:beg|end)|03-04_(?:beg|end))\.txt'
+DECISION = re.compile(r'(\[Decision\(options=")([^"]*)(", values=")([^"]*)("\)\])')
+ALLOWED_PATH = r'obt/main/level_main_(?:00-(?:01_(?:beg|end)|02_(?:beg|end)|04_beg|06_end|07_(?:beg|end)|08_beg|09_end|10_beg|11_end)|01-(?:01_(?:beg|end)|03_(?:beg|end)|04_beg|06_beg|07_(?:beg|end)|08_beg|10_end|12_(?:beg|end))|02-(?:0[1-9]|10)_(?:beg|end)|03-01_(?:beg|end)|03-02_(?:beg|end)|03-03_(?:beg|end)|03-04_(?:beg|end)|03-05_(?:beg|end))\.txt'
 SPEAKER_RU = {
     'Dobermann':'Доберманн', 'Amiya':'Амия', 'Ace':'Эйс', 'Reunion Member':'Боец Воссоединения', 'Reunion Suspect':'Подозреваемый в связях с Воссоединением',
     'Reunion Member A':'Боец Воссоединения А', 'Reunion Member B':'Боец Воссоединения Б',
@@ -61,7 +62,7 @@ def dialogues_in_text(raw):
     return out
 
 
-def patch_bytes(en_bytes, ru_map, localize_names=True):
+def patch_bytes(en_bytes, ru_map, localize_names=True, ru_choices=None):
     # Return a complete script with ONLY dialogue text and optionally display-speaker labels replaced.
     # Does not alter any other storyboard commands, comments, timings, asset references.
     text=en_bytes.decode('utf-8-sig')
@@ -69,9 +70,27 @@ def patch_bytes(en_bytes, ru_map, localize_names=True):
     eol='\r\n' if b'\r\n' in en_bytes else '\n'
     lines=text.splitlines(keepends=True)
     dialog_count=0
+    decision_count=0
     for index,rawline in enumerate(lines):
         body=rawline.rstrip('\r\n')
         tail=rawline[len(body):]
+        choice=DECISION.search(body)
+        if choice and ru_choices is not None:
+            decision_count+=1
+            key=str(decision_count)
+            if key not in ru_choices:
+                raise ValueError(f'Missing RU decision {decision_count}')
+            original=choice.group(2).split(';')
+            replacement=ru_choices[key]
+            if not isinstance(replacement,list) or len(original)!=len(replacement):
+                raise ValueError(f'Decision option count mismatch {key}')
+            for before,after in zip(original,replacement):
+                if not isinstance(after,str) or not after.strip() or any(c in after for c in '\r\n\t;'):
+                    raise ValueError(f'Invalid RU decision option {key}')
+                if quoted_tokens(before)!=quoted_tokens(after):
+                    raise ValueError(f'Decision markup mismatch {key}')
+            lines[index]=body[:choice.start(2)]+';'.join(replacement)+body[choice.end(2):]+tail
+            continue
         m=SPEAKER.search(body)
         if not m:
             continue
@@ -100,6 +119,8 @@ def patch_bytes(en_bytes, ru_map, localize_names=True):
         lines[index]=prefix+leading+ru+tail
     if dialog_count!=len(ru_map):
         raise ValueError(f'Dialogue count mismatch EN={dialog_count}, RU={len(ru_map)}')
+    if ru_choices is not None and decision_count!=len(ru_choices):
+        raise ValueError(f'Decision count mismatch EN={decision_count}, RU={len(ru_choices)}')
     new=''.join(lines)
     if '\r\n' in text and new.count('\r\n')!=text.count('\r\n'):
         raise ValueError('CRLF line endings lost')
@@ -124,9 +145,16 @@ def build(source_root, out_root, translations, localize_names=True):
             raise ValueError(f'Source alignment count mismatch {rel}')
         if len(dialogues_in_text(cn))!=config['dialogue_count']:
             raise ValueError(f'Source dialogue count mismatch {rel}')
+        if config.get('decisions') is not None:
+            en_choices=[m.group(2).split(';') for m in map(DECISION.search,en.decode('utf-8-sig').splitlines()) if m]
+            cn_choices=[m.group(2).split(';') for m in map(DECISION.search,cn.decode('utf-8-sig').splitlines()) if m]
+            if len(en_choices)!=len(cn_choices) or [len(x) for x in en_choices]!=[len(x) for x in cn_choices]:
+                raise ValueError(f'CN/EN decision structure mismatch {rel}')
+            if len(en_choices)!=len(config['decisions']):
+                raise ValueError(f'Decision count mismatch {rel}')
         if len(config['dialogues'])!=config['dialogue_count']:
             raise ValueError(f'RU dictionary count mismatch {rel}')
-        target,count=patch_bytes(en,config['dialogues'],localize_names)
+        target,count=patch_bytes(en,config['dialogues'],localize_names,config.get('decisions'))
         # reject accidental modification of control commands and non-dialogue lines
         orig=en.decode('utf-8-sig').splitlines()
         patched=target.decode('utf-8-sig').splitlines()
@@ -134,7 +162,11 @@ def build(source_root, out_root, translations, localize_names=True):
             raise ValueError(f'Line count changed {rel}')
         for a,b in zip(orig,patched):
             if not SPEAKER.search(a) and a!=b:
-                raise ValueError(f'Control line changed: {rel}')
+                da,db=DECISION.search(a),DECISION.search(b)
+                if config.get('decisions') is None or not da or not db or (
+                    a[:da.start(2)]+a[da.end(2):] != b[:db.start(2)]+b[db.end(2):]
+                ):
+                    raise ValueError(f'Control line changed: {rel}')
         files.append((rel,target,count,config))
     for rel,data,n,cfg in files:
         dest=out_root/'ru'/rel
