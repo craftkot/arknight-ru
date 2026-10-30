@@ -1,0 +1,9 @@
+Arknights RU v0.36-partial — 2026-10-30
+
+Darknights Memoir, DM-3 before battle:
+- +20 named Russian lines (#101–120), +0 unnamed; cumulative 120 named + 21 unnamed = 141/187 (75.4%).
+- Four of 13 event scenes completed as first drafts; DM-3 remains partial and not patchable.
+- W reflects on Theresa fixing a door; they discuss laughter and W's real name.
+- CN source Git blob: 538c852f8a64981df34f7699be9f73dfe00873ea; EN source Git blob: 37dcf8c721efd0fa5068d18146caae45ba200b70.
+- CN primary for meaning, EN for context; all 187 dialogue kinds match. No original scripts committed.
+- «Родос Айленд» remains provisional; no game client test; next named #121.
