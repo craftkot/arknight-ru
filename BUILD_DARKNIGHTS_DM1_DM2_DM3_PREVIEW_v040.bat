@@ -7,7 +7,7 @@ if errorlevel 1 (
 ) else (
   set "PY=py -3"
 )
-echo Arknights RU local preview: Darknights Memoir DM-1, DM-2 and DM-3 complete (5 scenes).
+echo Arknights RU local preview: Darknights Memoir DM-1, DM-2 and DM-3 complete (6 scenes).
 echo This does NOT install or modify Arknights.
 %PY% scripts\fetch_story_chapter.py --translations events\darknights_memoir_dm1_dm2_dm3_ru_v040.json --output source\story
 if errorlevel 1 goto fail
