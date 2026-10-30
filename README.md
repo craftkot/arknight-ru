@@ -72,3 +72,7 @@ Babel BB-ST-1 продолжен в v0.49: `events/babel_st01_opening_partial_ru
 ## Единый BepInEx-пакет UI v0.52 (экспериментальный)
 
 Для оригинальной Arknights Yostar Global PC подготовлена объединённая сборка `ArknightsRU_BepInEx_Unified_v052.zip`. Она содержит 8 распределённых по категориям TXT, проверку повторов, отчёт о покрытии интерфейса на скриншотах и безопасный скрипт переноса старых v0.48–v0.51 в резервную папку. **Исходные семь файлов пользователя не заменяются.** Инструкция `release/README_UNIFIED_BEPINEX_v052.md`. Точный перехват некоторых кнопок и графических надписей ещё не подтверждён; 2544 keyed UI-значения и полный черновик DM не являются готовыми XUnity-подстановками.
+
+## Продолжение сюжета: Babel BB-ST-1 (v0.50)
+
+`events/babel_st01_ru_v050.json` содержит полный первый черновик BB-ST-1: 89 именных, 38 строк повествования, 14 Sticker(text) и 17 кинематографических Subtitle(text) = 158 элементов. Аудит `reports/BABEL_ST01_SOURCE_AUDIT_v050.json`, индекс `events/BABEL_INDEX_v050.tsv`, хронология `chronology/CHRONOLOGY_MANIFEST_v050.json`. Следующая сцена BB-1 до боя `activities/act33side/level_act33side_01_beg.txt`. Не установленный патч и не проверенный в игре перевод.
