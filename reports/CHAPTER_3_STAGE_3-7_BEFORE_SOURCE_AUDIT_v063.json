@@ -1,0 +1,49 @@
+{
+  "version": "v0.63",
+  "scene": "Main story 3-7 before battle — complete first draft",
+  "source_file": "obt/main/level_main_03-07_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_03-07_beg.txt",
+      "git_blob_sha1": "5d3bf7deb9bc1a286ee7f8b8f4817f6893a0eed3"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_03-07_beg.txt",
+      "git_blob_sha1": "f682ae658542d594d0bcc474c0201e86d9a22ec7"
+    }
+  },
+  "alignment": {
+    "cn_named": 55,
+    "en_named": 55,
+    "cn_en_dialogue_source_line_positions_equal": true,
+    "cn_decision_commands": 0,
+    "en_decision_commands": 0,
+    "source_line_count_cn": 125,
+    "source_line_count_en": 125,
+    "non_dialogue_source_lines_equal_after_ignoring_terminal_newline": true,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "translated_named_ordinals": "1-55",
+    "previously_translated_ordinals": "1-20",
+    "newly_translated_ordinals": "21-55",
+    "newly_translated_source_line_range": "48-121",
+    "unlabeled_noncommand_lines_cn": 0,
+    "unlabeled_noncommand_lines_en": 0,
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "Completed the remaining continuous fragment: named dialogue ordinals 21–55, source lines 48–121; retained ordinals 1–20 byte-for-byte as Russian strings from v0.62.",
+    "CN #24 describes the team's intentions/objective becoming obvious (你们的目标太明显了); EN describes a target over Franka's head. RU follows CN without inventing a bounty.",
+    "CN #29 states Liskarm is not suited to assault/breakthrough battles (攻坚战); RU preserves this rather than EN's vague 'this kind of stuff'.",
+    "CN #37 explicitly frames Hoshiguma's response as lawful enforcement (依法办事); EN omits the legal qualification. RU follows CN.",
+    "CN #45 mentions people who died unjustly (枉死的人); EN asserts they died at these fighters' hands. RU does not assign unverified culpability.",
+    "CN #48 explicitly includes Penguin Logistics (企鹅物流); EN omits it. RU follows CN.",
+    "CN #53 identifies the Doctor as being from Rhodes Island and asks for scouting and protection; variable {@nickname} preserved exactly.",
+    "All 55 CN/EN named dialogue positions align. Non-dialogue commands match exactly after stripping the EN-only terminal newline. Full CN/EN script files are not redistributed.",
+    "First literary draft only; no verification in Yostar Global PC."
+  ]
+}
