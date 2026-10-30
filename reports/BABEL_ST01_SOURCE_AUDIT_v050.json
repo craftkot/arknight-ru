@@ -1,0 +1,59 @@
+{
+  "version": "v0.50",
+  "scene": "Babel BB-ST-1 complete first draft",
+  "source_file": "activities/act33side/level_act33side_st01.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/activities/act33side/level_act33side_st01.txt",
+      "git_blob_sha1": "b892ff9507ab142d39a0ea18876444c3269ec055",
+      "source_line_count": 452
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/activities/act33side/level_act33side_st01.txt",
+      "git_blob_sha1": "359381b0e52bae2a7811211ba908aeee0288b5f1",
+      "source_line_count": 453
+    }
+  },
+  "alignment": {
+    "cn_named": 89,
+    "en_named": 89,
+    "cn_plain": 38,
+    "en_plain": 38,
+    "cn_sticker_text": 14,
+    "en_sticker_text": 14,
+    "cn_subtitle_text": 17,
+    "en_subtitle_text": 17,
+    "all_text_kinds_and_source_positions_identical": true,
+    "source_version_match_v049": true,
+    "semantic_alignment_confirmed": false,
+    "source_difference": "EN has one additional trailing blank line; text-bearing line positions agree."
+  },
+  "translation": {
+    "file": "events/babel_st01_ru_v050.json",
+    "previous_text_entries": 77,
+    "new_named": 55,
+    "new_plain": 9,
+    "new_sticker": 0,
+    "new_subtitle": 17,
+    "new_text_entries": 81,
+    "total_named": 89,
+    "total_plain": 38,
+    "total_sticker": 14,
+    "total_subtitle": 17,
+    "total_text_entries": 158,
+    "complete_first_draft": true,
+    "game_tested": false
+  },
+  "editorial_notes": [
+    "CN as primary semantic source, EN for speaker names and structure.",
+    "CN/EN sources have 17 cinematic Subtitle(text=...) entries, absent from previous 141-entry count; translated separately and source lines pinned.",
+    "All preceding 77 text elements from v0.49 preserved unchanged.",
+    "Source line 235 刽子手 rendered 'палач' (EN 'deathmonger'), source line 237 name 尤莉叶/Julie rendered Жюли, final glossary review pending.",
+    "Theresa's final subtitled lines preserve chronological command order, including line 431 and 438–444.",
+    "Story file not delivered as patched installed client; translation JSON is a first editorial draft; XUnity text overlays do not apply script commands."
+  ]
+}
