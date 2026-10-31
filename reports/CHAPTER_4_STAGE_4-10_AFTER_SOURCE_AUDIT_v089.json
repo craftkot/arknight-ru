@@ -1,0 +1,49 @@
+{
+  "version": "v0.89",
+  "scene": "4-10 after battle — complete FIRST literary draft (157/157 text positions)",
+  "relative_story_path": "obt/main/level_main_04-10_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_04-10_end.txt",
+      "git_blob_sha1": "190af39edc748f963b26cb1ef510c63ea7c3f851",
+      "line_count": 367
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_04-10_end.txt",
+      "git_blob_sha1": "d160f1b33b0ea43597526e8966b854623d6b0e1e",
+      "line_count": 368
+    }
+  },
+  "alignment": {
+    "cn_named": 156,
+    "en_named": 156,
+    "cn_unnamed": 1,
+    "en_unnamed": 1,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "cn_non_dialogue_commands": 210,
+    "en_non_dialogue_commands": 210,
+    "cn_en_command_differences": [],
+    "en_terminal_newline_extra": true,
+    "cn_en_exact_bytes_equal": false,
+    "source_total_text_entries": 157,
+    "ru_complete_text_entries": 157,
+    "ru_named": 156,
+    "ru_unnamed": 1,
+    "source_choice_commands": 0,
+    "markup_tokens_preserved": true,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "Current raw master/main sources were compared byte-for-byte with pinned Git blobs on 2026-10-31; both matched.",
+    "v0.89 adds ordinals 87–157 (71 entries) without changing v0.88 ordinals 1–86.",
+    "At ordinal 109 CN instructs damaging the structure and bringing down the whole building; EN adds a motive not explicit in CN.",
+    "At ordinal 152 CN explicitly names Patriot (爱国者); EN substitutes an epithet.",
+    "Unnamed text position 147 retained as a dialogue entry with empty speaker tag.",
+    "No CN/EN script content stored in this repository; no in-client test performed."
+  ]
+}
