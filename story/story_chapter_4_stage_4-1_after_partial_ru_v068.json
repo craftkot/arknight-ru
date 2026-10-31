@@ -1,0 +1,49 @@
+{
+  "version": "v0.68",
+  "stage": "Main story chapter 4, stage 4-1 after battle; PARTIAL opening draft, NOT a complete scene",
+  "translation_source_priority": "CN primary for meaning; EN for speaker names, ordinals and commands",
+  "quality_status": "partial first literary draft; editorial review and in-client verification pending; excluded from full-scene preview",
+  "counting_note": "Source has 76 dialogue/text positions (71 named, 5 unnamed). Partial ordinals 1-23: 21 named and 2 unnamed.",
+  "files": {
+    "obt/main/level_main_04-01_end.txt": {
+      "cn_git_blob_sha1": "311a849380f0cc13048d20f1bdf052d71d6870d5",
+      "en_git_blob_sha1": "a86c16ded890cedd0be9d41be3ebdef8781f1ff5",
+      "source_dialogue_count": 76,
+      "source_named_dialogue_count": 71,
+      "source_unnamed_dialogue_count": 5,
+      "translated_dialogue_count": 23,
+      "translated_named_dialogue_count": 21,
+      "translated_unnamed_dialogue_count": 2,
+      "source_line_start": 5,
+      "source_line_end": 42,
+      "translated_ordinals_start": 1,
+      "translated_ordinals_end": 23,
+      "decisions_translated": 0,
+      "dialogues": {
+        "1": "18:03 \\ Облачно \\ Видимость: 19 км",
+        "2": "Пустыня за пределами Лунмэня \\ Объект №14",
+        "3": "…Прибыла к месту назначения.",
+        "4": "Других отклонений не обнаружено.",
+        "5": "Доклад окончен.",
+        "6": "Фростлиф… Почему ты всю дорогу хмуришься?",
+        "7": "Я просто немного беспокоюсь за Амию и остальных.",
+        "8": "Они благополучно вернулись на «Родос Айленд».",
+        "9": "Нирл и Доберманн ещё неделю назад отправились в другие районы за пределами Лунмэня.",
+        "10": "Раз отправили сразу обеих, задание, должно быть, непростое.",
+        "11": "У «Блэкстил» и «Пингвин Логистикс» тоже есть свои дела.",
+        "12": "А… Лискарм и Франка…",
+        "13": "Г-главное, что с ними всё хорошо…",
+        "14": "Тебе тоже стоит постараться.",
+        "15": "Когда Франка передала тебя под моё руководство, она сказала, что возлагает на тебя большие надежды.",
+        "16": "П-правда…?",
+        "17": "Правда, добавила: если бы ты только не была такой робкой.",
+        "18": "У-у…",
+        "19": "…Эй, не надо вдруг делать вид, будто сейчас расплачешься!",
+        "20": "Ты ведь тоже из «Блэкстил», разве нет…?",
+        "21": "Я… я не… не плачу…",
+        "22": "…",
+        "23": "…Как бы там ни было, вернёмся к заданию."
+      }
+    }
+  }
+}
