@@ -1,0 +1,59 @@
+{
+  "version": "v0.88",
+  "scene": "4-10 after battle — PARTIAL first literary draft (86/157 text positions)",
+  "relative_story_path": "obt/main/level_main_04-10_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_04-10_end.txt",
+      "git_blob_sha1": "190af39edc748f963b26cb1ef510c63ea7c3f851",
+      "line_count": 367
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_04-10_end.txt",
+      "git_blob_sha1": "d160f1b33b0ea43597526e8966b854623d6b0e1e",
+      "line_count": 368
+    }
+  },
+  "alignment": {
+    "cn_named": 156,
+    "en_named": 156,
+    "cn_unnamed": 1,
+    "en_unnamed": 1,
+    "cn_en_named_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "cn_non_dialogue_commands": 210,
+    "en_non_dialogue_commands": 210,
+    "cn_en_command_differences": [],
+    "en_terminal_newline_extra": true,
+    "cn_en_exact_bytes_equal": false,
+    "semantic_equivalence_automatically_proven": false,
+    "source_total_text_entries": 157,
+    "ru_translated_named": 86,
+    "ru_translated_unnamed": 0,
+    "ru_translated_text_entries": 86,
+    "remaining_text_entries": 71,
+    "first_translated_source_line": 6,
+    "last_translated_source_line": 192,
+    "next_untranslated_dialogue_source_line": 198,
+    "next_named_ordinal": 87,
+    "source_choice_commands": 0,
+    "markup_tokens_preserved": true
+  },
+  "notes": [
+    "CN is the primary meaning source; EN is checked for order and character names.",
+    "At ordinal 13, CN says the cold gathered across the area; EN paraphrases this as ice.",
+    "The 40th translated dialogue is Meteorite departing; no further dialogue is claimed complete.",
+    "Source commands, asset references and tags are not copied or modified. Full original CN/EN scripts are not committed.",
+    "Translation-only partial JSON: not safe for whole-scene patching; no game-client verification.",
+    "v0.88 adds ordinals 41–86 (CN/EN source lines 82–192); original 40 translations remain unchanged.",
+    "The 157 source text positions include 156 non-empty speakers and one [name=\"\"] at source line 347, ordinal 147; prior audit counted all positions as named.",
+    "CN/EN Git blob SHA unchanged; all 157 text positions and 210 non-dialogue commands match by position.",
+    "CN at ordinal 57 labels FrostNova although the character sprite points to Frostleaf; preserve the textual speaker.",
+    "CN at ordinal 66 states the squad believes in Amiya; EN recasts this as an imperative.",
+    "Partial scene remains excluded from full-story selection and is not a tested game patch."
+  ]
+}
