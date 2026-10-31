@@ -1,0 +1,1 @@
+v0.86 — 4-10 before battle: 108 named lines; 2 Decision commands (4 options), 97 source control lines aligned CN/EN. 79 complete main-story files, 4713 named + 16 unnamed lines. Source Git blobs: CN 004e9d1f063be08ee4fa7a3ef66d5abbeb574003; EN 6e72bb8320db4bb033c4a6b27c8084d1c6d9f890. First draft, no in-game validation.
