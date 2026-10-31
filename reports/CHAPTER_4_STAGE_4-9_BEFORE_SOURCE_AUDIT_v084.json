@@ -1,0 +1,56 @@
+{
+  "version": "v0.84",
+  "scene": "Main story 4-9 before battle — COMPLETE first literary draft (68/68 named dialogue positions)",
+  "source_file": "obt/main/level_main_04-09_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_04-09_beg.txt",
+      "git_blob_sha1": "b89e61bea834e926b5c3fe1efeee79f8663a775a"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_04-09_beg.txt",
+      "git_blob_sha1": "b4a5ec21cfb3f530bfc0f34447f492b385c81959"
+    }
+  },
+  "alignment": {
+    "cn_named": 68,
+    "en_named": 68,
+    "cn_unnamed": 0,
+    "en_unnamed": 0,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal_excluding_decision_text": true,
+    "non_dialogue_command_differences": [],
+    "source_line_count_cn": 159,
+    "source_line_count_en": 160,
+    "source_non_dialogue_commands_cn": 91,
+    "source_non_dialogue_commands_en": 91,
+    "cn_en_decision_count": 3,
+    "decision_option_counts": [
+      1,
+      2,
+      1
+    ],
+    "source_total_text_entries": 68,
+    "ru_complete_named": 68,
+    "ru_complete_unnamed": 0,
+    "ru_complete_text_entries": 68,
+    "remaining_text_entries": 0,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "CN/EN have 68 named dialogue positions at identical source line ordinals; 91 commands match after excluding Decision display text; EN has one extra terminal newline.",
+    "CN 解开了地区锁，开足了马力，动用一切移动手段 specifies unlocking the district and full-power propulsion, more detail than EN disconnected themselves.",
+    "CN 这个分城 refers to the separated Chernobog district, not a generic sub-city.",
+    "CN 焦臭味 indicates an acrid burnt smell without explicitly naming flesh; RU avoids the EN specificity.",
+    "CN 他的行为总有一天，是我需要面对的 refers to Amiya needing to confront Mephisto's actions; not necessarily a promise to hold him legally accountable.",
+    "CN 一十分之一的人的死 and 十分之九 explicitly describe death of one tenth used to terrorize nine tenths.",
+    "Three Decision commands: values and predicates unchanged; four displayed options translated.",
+    "No full CN/EN game scripts committed. Not an installed patch; editorial and in-client testing pending."
+  ]
+}
