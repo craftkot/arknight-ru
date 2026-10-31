@@ -66,7 +66,7 @@ class Chapter46AfterV079(unittest.TestCase):
         lines = ['[HEADER(key="title_test")]\n', '[Background(image="bg_cher_2")]\n']
         for i in range(1, 41):
             lines.append('[Character(name="char_test")]\n')
-            lines.append('[name="Amiya"]   EN dialogue ' + str(i) + '\n')
+            lines.append('[name="Wounded Operator"' + ']' + '   EN dialogue ' + str(i) + '\n' if i == 39 else '[name="Amiya"]   EN dialogue ' + str(i) + '\n')
         lines.append('[Image]\n')
         original = "".join(lines).encode("utf-8")
         patched, count = ap.patch_bytes(original, cfg["dialogues"])
@@ -78,6 +78,7 @@ class Chapter46AfterV079(unittest.TestCase):
                 self.assertEqual(x, y)
         self.assertIn(cfg["dialogues"]["37"], patched.decode())
         self.assertIn(cfg["dialogues"]["40"], patched.decode())
+        self.assertIn('[name="Раненый оперативник"]', patched.decode())
         with self.assertRaises(ValueError):
             ap.patch_bytes(original, dict(list(cfg["dialogues"].items())[:-1]))
 
