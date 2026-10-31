@@ -26,7 +26,7 @@ class Chapter51BeforeV090(unittest.TestCase):
         self.assertEqual(cfg["dialogues"]["14"], "Плеск —")
         for text in cfg["dialogues"].values():
             self.assertTrue(text.strip())
-            self.assertFalse(any(c in text for c in "\\r\\n\\t"))
+            self.assertFalse(any(c in text for c in "\r\n\t"))
 
     def test_selection_preserves_previous_80(self):
         old = load("story/story_main_selection_ru_v089.json")
@@ -48,21 +48,21 @@ class Chapter51BeforeV090(unittest.TestCase):
         self.assertEqual((a["alignment"]["cn_non_dialogue_commands"], a["alignment"]["en_non_dialogue_commands"]), (68, 68))
         self.assertTrue(a["alignment"]["cn_en_text_source_line_positions_equal"])
         idx = (ROOT / "story/CHAPTER_5_INDEX_v090.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_05-01_beg.txt\\tfirst_draft_complete\\t38\\t1\\t39", idx)
+        self.assertIn("level_main_05-01_beg.txt\tfirst_draft_complete\t38\t1\t39", idx)
 
     def test_local_preview_preserves_commands_and_bare_sound(self):
         cfg = load(NEW)["files"][REL]
         self.assertTrue(re.fullmatch(ap.ALLOWED_PATH, REL))
         self.assertEqual(ap.SPEAKER_RU["Swire"], "Свайр")
-        source = '[HEADER(key="title_test")] sample\\n' + ''.join(
-            ('*splash*—\\n' if i == 14 else '[name="Swire"]   EN line ' + str(i) + '\\n')
+        source = '[HEADER(key="title_test")] sample\n' + ''.join(
+            ('*splash*—\n' if i == 14 else '[name="Swire"]   EN line ' + str(i) + '\n')
             for i in range(1, 40)
-        ) + '[Image]\\n'
+        ) + '[Image]\n'
         patched, count = ap.patch_bytes(source.encode("utf-8"), cfg["dialogues"], include_bare=True)
         self.assertEqual(count, 39)
-        self.assertIn("Плеск —\\n", patched.decode())
+        self.assertIn("Плеск —\n", patched.decode())
         self.assertIn('[name="Свайр"]   ' + cfg["dialogues"]["1"], patched.decode())
-        self.assertIn('[Image]\\n', patched.decode())
+        self.assertIn('[Image]\n', patched.decode())
         with self.assertRaises(ValueError):
             ap.patch_bytes(source.encode("utf-8"), dict(list(cfg["dialogues"].items())[:-1]), include_bare=True)
 
