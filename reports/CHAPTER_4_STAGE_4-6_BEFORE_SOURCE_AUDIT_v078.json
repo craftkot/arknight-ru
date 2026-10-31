@@ -1,0 +1,50 @@
+{
+  "version": "v0.78",
+  "scene": "Main story 4-6 before battle — COMPLETE first literary draft (42/42 named dialogue positions)",
+  "source_file": "obt/main/level_main_04-06_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_04-06_beg.txt",
+      "git_blob_sha1": "711679f70fe5f32ed07b34c91d1ed1b05e4de590"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_04-06_beg.txt",
+      "git_blob_sha1": "0cadc0096d7d59dd8a3b93fd2bbc8404209c2160"
+    }
+  },
+  "alignment": {
+    "cn_named": 42,
+    "en_named": 42,
+    "cn_unnamed": 0,
+    "en_unnamed": 0,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "non_dialogue_command_differences": [],
+    "source_line_count_cn": 93,
+    "source_line_count_en": 94,
+    "source_non_dialogue_commands_cn": 51,
+    "source_non_dialogue_commands_en": 51,
+    "cn_en_decision_count": 0,
+    "source_total_text_entries": 42,
+    "ru_complete_named": 42,
+    "ru_complete_unnamed": 0,
+    "ru_complete_text_entries": 42,
+    "remaining_text_entries": 0,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "CN 外交频道 refers to a diplomatic communications channel; EN paraphrases it as 'news'. RU follows CN.",
+    "CN 天灾的余波 is the Catastrophe's aftereffects reaching this location, not necessarily a fresh Catastrophe after the city arrived; the following line says the district was destroyed after arriving.",
+    "CN describes loosely organized Reunion fighters lying in ambush and carrion-eating beasts occupying the dead city; EN substitutes vultures.",
+    "CN 源石生物 is generic Originium creatures; EN specifically says slugs. RU keeps the broader CN term.",
+    "Talulah's parenthetical CN 竟然是你 expresses surprise at recognizing someone, without EN's explicit expectation wording.",
+    "CN/EN line positions and all non-dialogue commands match; EN adds only a final newline. {@nickname} retained.",
+    "No full CN/EN scripts stored. Editorial review and in-client verification pending."
+  ]
+}
