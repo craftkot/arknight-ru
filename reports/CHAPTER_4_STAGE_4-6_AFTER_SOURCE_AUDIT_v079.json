@@ -1,0 +1,51 @@
+{
+  "version": "v0.79",
+  "scene": "Main story 4-6 after battle — COMPLETE first literary draft (40/40 named dialogue positions)",
+  "source_file": "obt/main/level_main_04-06_end.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_04-06_end.txt",
+      "git_blob_sha1": "b415c977314118c00eb5e30a96d9d74415d3c6a0"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_04-06_end.txt",
+      "git_blob_sha1": "d623d010b680404cdb40097260a6ccabed9fc9c8"
+    }
+  },
+  "alignment": {
+    "cn_named": 40,
+    "en_named": 40,
+    "cn_unnamed": 0,
+    "en_unnamed": 0,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "non_dialogue_command_differences": [],
+    "source_line_count_cn": 79,
+    "source_line_count_en": 80,
+    "source_non_dialogue_commands_cn": 39,
+    "source_non_dialogue_commands_en": 39,
+    "cn_en_decision_count": 0,
+    "source_total_text_entries": 40,
+    "ru_complete_named": 40,
+    "ru_complete_unnamed": 0,
+    "ru_complete_text_entries": 40,
+    "remaining_text_entries": 0,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "CN 路障 ('roadblock') is a metaphor for enemy fighters; EN similarly interprets it as roadblocks, but softens 凶残 ('fierce/ruthless').",
+    "CN 源石丛多生地段 describes Originium growth clusters in the Catastrophe zone; EN paraphrases as an Originium-dense zone. RU retains the growth imagery.",
+    "CN 健康人 explicitly distinguishes non-Infected members of LGD from the Infected Rhodes Island group; RU makes that contrast explicit.",
+    "CN 就让感染者问题的专家去处理感染者的问题 directly names specialists in Infected matters; EN generalizes to 'experts'. RU follows CN.",
+    "CN 最后一支联系上的侦察小队也收容完毕了 says the last recon team with which contact was established has been taken in; this does not establish the fate of Frostleaf, Meteorite and Jessica.",
+    "CN 皮肤红肿，全身失温，组织坏死 gives skin swelling/redness, whole-body hypothermia, and tissue necrosis; RU preserves all three.",
+    "CN/EN all 40 text positions and 39 non-dialogue commands align; EN has one terminal newline. No choices, variables, unnamed text or command differences.",
+    "No complete CN/EN scripts are committed. Editorial review and in-client verification pending."
+  ]
+}
