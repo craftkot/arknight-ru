@@ -1,0 +1,63 @@
+{
+  "version": "v0.69",
+  "scene": "Main story 4-1 after battle — COMPLETE first literary draft (76/76 text positions)",
+  "source_file": "obt/main/level_main_04-01_end.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_04-01_end.txt",
+      "git_blob_sha1": "311a849380f0cc13048d20f1bdf052d71d6870d5"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_04-01_end.txt",
+      "git_blob_sha1": "a86c16ded890cedd0be9d41be3ebdef8781f1ff5"
+    }
+  },
+  "alignment": {
+    "cn_named": 71,
+    "en_named": 71,
+    "cn_unnamed": 5,
+    "en_unnamed": 5,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal_excluding_header_and_decision_text": true,
+    "source_line_count_cn": 154,
+    "source_line_count_en": 155,
+    "cn_en_decision_count": 3,
+    "decision_option_counts": [
+      3,
+      2,
+      3
+    ],
+    "cn_en_decision_values_match": true,
+    "source_total_text_entries": 76,
+    "ru_partial_named": 0,
+    "ru_partial_unnamed": 0,
+    "ru_partial_text_entries": 0,
+    "remaining_text_entries": 0,
+    "translated_ordinals": "1–76",
+    "source_line_start": 5,
+    "source_line_end": 42,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "partial_has_decisions": false,
+    "markup_tokens_preserved": true,
+    "ru_complete_named": 71,
+    "ru_complete_unnamed": 5,
+    "ru_complete_text_entries": 76,
+    "ru_choice_commands": 3,
+    "ru_choice_options": 8
+  },
+  "editorial_notes": [
+    "Completed ordinal positions 24–76 (53 new text entries), preserving the previous 23 unchanged; includes 5 unnamed text cards in total and three choice commands with 3, 2, 3 alternatives.",
+    "CN and EN share all 76 dialogue source-line positions and 75 non-dialogue commands; the English file has an extra trailing newline. CN/EN Git blob hashes differ; semantic equivalence is not assumed.",
+    "CN ordinal 26 says 'if problems involving the Infected arise'; EN specifies 'hostile Infected'. RU follows CN and does not automatically label all Infected hostile.",
+    "CN ordinal 34 marks the second day after discovery of Facility #14 in a deserted mobile-city district. RU retains both the district and the relative date.",
+    "CN ordinal 74 says Red is currently undertaking another mission in Lungmen; EN says she will join Amiya. RU follows CN and does not assert a joint mission.",
+    "CN ordinal 62 has two speakers in one line joined by '&'; RU preserves the delimiter, and ordinals 36 and 59 preserve {@nickname}.",
+    "All source storyboard commands, Predicate references, choice values, and timing stay in the original game files; only Russian dialogue and decision options are stored here.",
+    "Source files are referenced by pinned Git blob hashes, not copied into the repository. First literary draft only; game client not tested."
+  ]
+}
