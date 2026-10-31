@@ -23,7 +23,7 @@ class Chapter41AfterV069(unittest.TestCase):
         self.assertEqual([len(s["decisions"][str(i)]) for i in range(1,4)],[3,2,3])
         for val in s["dialogues"].values():
             self.assertTrue(isinstance(val,str) and val.strip())
-            self.assertFalse(any(c in val for c in "\\r\\n\\t"))
+            self.assertFalse(any(c in val for c in "\r\n\t"))
         self.assertEqual(s["dialogues"]["32"],"18:12 \\ Облачно \\ Видимость: 19 км")
         self.assertIn("мобильного города",s["dialogues"]["34"])
         self.assertIn("{@nickname}",s["dialogues"]["36"])
@@ -59,20 +59,20 @@ class Chapter41AfterV069(unittest.TestCase):
         self.assertTrue(q["included_in_complete_story_selection"])
         self.assertFalse(q["in_game_test"])
         idx=(ROOT/"story/CHAPTER_4_INDEX_v069.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_04-01_end.txt\\tfirst_draft_complete\\t71\\t5\\t76",idx)
+        self.assertIn("level_main_04-01_end.txt\tfirst_draft_complete\t71\t5\t76",idx)
     def test_safe_preview_choices_and_unnamed(self):
         s=load(NEW)["files"][REL]
-        lines=['[HEADER(key="test")]\\n']
+        lines=['[HEADER(key="test")]\n']
         for i in range(1,77):
             speaker="" if i in (1,2,32,33,34) else "Amiya"
-            lines.append('[name="'+speaker+'"] EN '+str(i)+'\\n')
+            lines.append('[name="'+speaker+'"] EN '+str(i)+'\n')
             if i in (37,59,72):
                 k={37:1,59:2,72:3}[i]
                 n=len(s["decisions"][str(k)])
-                lines.append('[Decision(options="'+ ';'.join('EN'+str(x) for x in range(n))+'", values="'+ ';'.join(str(x+1) for x in range(n))+'")]\\n')
-                lines.append('[Predicate(references="'+ ';'.join(str(x+1) for x in range(n))+'")]\\n')
+                lines.append('[Decision(options="'+ ';'.join('EN'+str(x) for x in range(n))+'", values="'+ ';'.join(str(x+1) for x in range(n))+'")]\n')
+                lines.append('[Predicate(references="'+ ';'.join(str(x+1) for x in range(n))+'")]\n')
             if i%12==0:
-                lines.append('[CameraShake(duration=0.5)]\\n')
+                lines.append('[CameraShake(duration=0.5)]\n')
         original="".join(lines).encode("utf-8")
         out,count=ap.patch_bytes(original,s["dialogues"],ru_choices=s["decisions"])
         self.assertEqual(count,76)
