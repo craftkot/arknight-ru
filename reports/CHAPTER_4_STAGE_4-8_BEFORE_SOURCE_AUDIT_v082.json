@@ -1,0 +1,46 @@
+{
+  "version": "v0.82",
+  "scene": "4-8 before battle — COMPLETE first literary draft (70/70 named)",
+  "source_file": "obt/main/level_main_04-08_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_04-08_beg.txt",
+      "git_blob_sha1": "ec4e13901a60966766c1703324a90700a484bfac"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_04-08_beg.txt",
+      "git_blob_sha1": "87773fa0b60a4ad3eae8ef5e63bd92d19bc6b1e8"
+    }
+  },
+  "alignment": {
+    "cn_named": 70,
+    "en_named": 70,
+    "cn_unnamed": 0,
+    "en_unnamed": 0,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "source_non_dialogue_commands_cn": 76,
+    "source_non_dialogue_commands_en": 76,
+    "source_line_count_cn": 146,
+    "source_line_count_en": 147,
+    "source_total_text_entries": 70,
+    "ru_complete_named": 70,
+    "ru_complete_unnamed": 0,
+    "ru_complete_text_entries": 70,
+    "remaining_text_entries": 0,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "70 named dialogue positions and 76 non-dialogue commands align; EN has an extra terminal newline.",
+    "CN 梅菲斯特只是个添头而已 calls Mephisto an add-on, not a nobody as in EN.",
+    "CN 整合运动转移了 refers to Reunion repositioning; 污染地带 means contaminated zone.",
+    "Objects on the square are deliberately unidentified in CN; no invented explanation.",
+    "No full CN/EN scripts committed; editorial review and in-client testing pending."
+  ]
+}
