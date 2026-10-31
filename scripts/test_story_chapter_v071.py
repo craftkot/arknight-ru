@@ -33,7 +33,7 @@ class Chapter42AfterV071(unittest.TestCase):
         for line in scene["dialogues"].values():
             self.assertIsInstance(line, str)
             self.assertTrue(line.strip())
-            self.assertFalse(any(c in line for c in "\\r\\n\\t"))
+            self.assertFalse(any(c in line for c in "\r\n\t"))
         self.assertIn("граммофон", scene["dialogues"]["19"])
         self.assertIn("сестрёнка-кролик", scene["dialogues"]["45"])
         self.assertTrue(scene["dialogues"]["71"].startswith("Только"))
@@ -65,19 +65,19 @@ class Chapter42AfterV071(unittest.TestCase):
         self.assertEqual((qa["new_text_entries"], qa["completed_story_files"]), (104, 64))
         self.assertFalse(qa["in_game_test"])
         idx = (ROOT / "story/CHAPTER_4_INDEX_v071.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_04-02_end.txt\\tfirst_draft_complete\\t95\\t9\\t104", idx)
+        self.assertIn("level_main_04-02_end.txt\tfirst_draft_complete\t95\t9\t104", idx)
 
     def test_safe_preview_bare_narration_and_commands(self):
         translations = load(NEW)["files"][REL]["dialogues"]
-        lines = ['[HEADER(key="test")]\\n']
+        lines = ['[HEADER(key="test")]\n']
         for i in range(1, 105):
             if i in BARE:
-                lines.append("Original bare narration " + str(i) + "\\n")
+                lines.append("Original bare narration " + str(i) + "\n")
             else:
                 name = "Little Girl" if i in (78, 79, 85, 86, 87, 88) else ("Another Girl's Voice" if i in (80, 89) else "Amiya")
-                lines.append('[name="' + name + '"] EN ' + str(i) + '\\n')
+                lines.append('[name="' + name + '"] EN ' + str(i) + '\n')
             if i % 9 == 0:
-                lines.append('[CameraShake(duration=0.5)]\\n')
+                lines.append('[CameraShake(duration=0.5)]\n')
         source = "".join(lines).encode("utf-8")
         self.assertEqual(len(ap.dialogues_in_text(source, include_bare=True)), 104)
         self.assertEqual(len(ap.dialogues_in_text(source)), 95)
