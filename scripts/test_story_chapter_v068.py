@@ -29,8 +29,8 @@ class Chapter41AfterPartialV068(unittest.TestCase):
         for val in s["dialogues"].values():
             self.assertIsInstance(val,str)
             self.assertTrue(val.strip())
-            self.assertFalse(any(c in val for c in "\\r\\n\\t"))
-            self.assertFalse(re.search(r"\\{@\\w+\\}",val))
+            self.assertFalse(any(c in val for c in "\r\n\t"))
+            self.assertFalse(re.search(r"\{@\w+\}",val))
         self.assertIn("19 км",s["dialogues"]["1"])
         self.assertIn("Нирл",s["dialogues"]["9"])
         self.assertIn("вернёмся к заданию",s["dialogues"]["23"])
@@ -55,6 +55,6 @@ class Chapter41AfterPartialV068(unittest.TestCase):
         self.assertFalse(q["included_in_complete_story_selection"])
         self.assertFalse(q["in_game_test"])
         idx=(ROOT/"story/CHAPTER_4_INDEX_v068.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_04-01_end.txt\\tpartial_first_draft\\t21\\t2\\t23",idx)
+        self.assertIn("level_main_04-01_end.txt\tpartial_first_draft\t21\t2\t23",idx)
 if __name__=="__main__":
     unittest.main()
