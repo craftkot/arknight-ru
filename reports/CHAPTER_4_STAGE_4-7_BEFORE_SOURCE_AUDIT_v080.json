@@ -1,0 +1,56 @@
+{
+  "version": "v0.80",
+  "scene": "Main story 4-7 before battle — COMPLETE first literary draft (36/36 named dialogue positions)",
+  "source_file": "obt/main/level_main_04-07_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_04-07_beg.txt",
+      "git_blob_sha1": "52cfbf4038dcf89cc0d78c4140b04b549f03c3d2"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_04-07_beg.txt",
+      "git_blob_sha1": "0df9a31d2800a8f0b2c1be4c60bd264231b5c418"
+    }
+  },
+  "alignment": {
+    "cn_named": 36,
+    "en_named": 36,
+    "cn_unnamed": 0,
+    "en_unnamed": 0,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal_excluding_decision_text": true,
+    "non_dialogue_command_differences": [],
+    "source_line_count_cn": 71,
+    "source_line_count_en": 72,
+    "source_non_dialogue_commands_cn": 36,
+    "source_non_dialogue_commands_en": 36,
+    "cn_en_decision_count": 2,
+    "decision_option_counts": [
+      1,
+      3
+    ],
+    "source_total_text_entries": 36,
+    "ru_complete_named": 36,
+    "ru_complete_unnamed": 0,
+    "ru_complete_text_entries": 36,
+    "remaining_text_entries": 0,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "CN and EN have 36 dialogue positions at identical source line ordinals; 36 command lines match after removing Decision display options. EN adds only a terminal newline.",
+    "CN 伤口流出的血液冻成了冰渣 specifies blood from a wound frozen into ice granules; RU keeps this imagery.",
+    "CN 霜叶……杰西卡……陨星……她们，一定还…… trails off and does not explicitly say alive; RU retains unfinished thought, unlike EN.",
+    "CN 分城 identifies the separated Chernobog district; EN generically calls it the city. RU specifies the separated district.",
+    "CN 野兽露出他们的利爪 refers to claws, not EN fangs. RU retains claws.",
+    "CN 红 is Projekt Red (EN); RU uses Проект Рэд for proper-name clarity.",
+    "CN 戒指 is plural in context as EN rings; RU retains plural.",
+    "Two Decision commands preserve values and predicates; only 4 displayed options translated. {@nickname} placeholder preserved twice.",
+    "No full CN/EN scripts committed; editorial review and in-client verification pending."
+  ]
+}
