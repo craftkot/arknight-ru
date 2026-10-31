@@ -37,7 +37,7 @@ class Chapter42AfterV071(unittest.TestCase):
         self.assertIn("граммофон", scene["dialogues"]["19"])
         self.assertIn("сестрёнка-кролик", scene["dialogues"]["45"])
         self.assertTrue(scene["dialogues"]["71"].startswith("Только"))
-        self.assertIn("Чэнь", scene["dialogues"]["99"])
+        self.assertIn("Лунмэня", scene["dialogues"]["99"])
 
     def test_previous_63_scenes_unchanged(self):
         old = load("story/story_main_selection_ru_v070.json")
