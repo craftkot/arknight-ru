@@ -1,0 +1,52 @@
+{
+  "version": "v0.71",
+  "scene": "Main story 4-2 after battle — COMPLETE first literary draft (104/104 text positions)",
+  "source_file": "obt/main/level_main_04-02_end.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_04-02_end.txt",
+      "git_blob_sha1": "23e3e402e87a0c23b3bac428b01c681657630a8e"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_04-02_end.txt",
+      "git_blob_sha1": "492aa64e5659dc935c0d487755d6ae730c926422"
+    }
+  },
+  "alignment": {
+    "cn_named": 95,
+    "en_named": 95,
+    "cn_unnamed": 9,
+    "en_unnamed": 9,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal_excluding_header_and_decision_text": true,
+    "non_dialogue_command_differences": [],
+    "source_line_count_cn": 211,
+    "source_line_count_en": 212,
+    "source_non_dialogue_commands_cn": 107,
+    "source_non_dialogue_commands_en": 107,
+    "cn_en_decision_count": 0,
+    "decision_option_counts": [],
+    "source_total_text_entries": 104,
+    "ru_complete_named": 95,
+    "ru_complete_unnamed": 9,
+    "ru_complete_text_entries": 104,
+    "remaining_text_entries": 0,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "CN and EN match all 104 text ordinals and 107 non-dialogue commands. EN has an extra terminal newline.",
+    "CN calls the object 留声机 (gramophone), rendered граммофон; EN uses record player.",
+    "CN has the child call Amiya 兔姐姐 (rabbit big sister), omitted in EN; Russian retains сестрёнка-кролик.",
+    "CN uses 被剥夺了身份的人 (people deprived of identity/status), not a literal loss of personhood as a confirmed fact; the subsequent accusatory voice dehumanizes them.",
+    "CN 只有——————— is deliberately unfinished; RU does not supply the English implied then.",
+    "9 bare narrative lines have no [name] tag. The local preview patcher must explicitly support them for this scene without altering control commands.",
+    "Full authored CN/EN source scripts are not committed; hashes and editorial notes only.",
+    "First literary draft; no client validation."
+  ]
+}

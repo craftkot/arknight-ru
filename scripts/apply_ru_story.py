@@ -14,13 +14,14 @@ import sys
 SPEAKER = re.compile(r'(\[\s*name\s*=\s*)(["\'])(.*?)(\2)(\s*\])', re.I)
 INLINE = re.compile(r'\{@[\w]+\}|\{\d+(?:[^{}]*)\}|<[^>]+>')
 DECISION = re.compile(r'(\[Decision\(options=")([^"]*)(", values=")([^"]*)("\)\])')
-ALLOWED_PATH = r'obt/main/level_main_(?:00-(?:01_(?:beg|end)|02_(?:beg|end)|04_beg|06_end|07_(?:beg|end)|08_beg|09_end|10_beg|11_end)|01-(?:01_(?:beg|end)|03_(?:beg|end)|04_beg|06_beg|07_(?:beg|end)|08_beg|10_end|12_(?:beg|end))|02-(?:0[1-9]|10)_(?:beg|end)|03-01_(?:beg|end)|03-02_(?:beg|end)|03-03_(?:beg|end)|03-04_(?:beg|end)|03-05_(?:beg|end)|03-06_(?:beg|end)|03-07_(?:beg|end)|03-08_(?:beg|end)|04-01_(?:beg|end)|04-02_beg)\.txt'
+ALLOWED_PATH = r'obt/main/level_main_(?:00-(?:01_(?:beg|end)|02_(?:beg|end)|04_beg|06_end|07_(?:beg|end)|08_beg|09_end|10_beg|11_end)|01-(?:01_(?:beg|end)|03_(?:beg|end)|04_beg|06_beg|07_(?:beg|end)|08_beg|10_end|12_(?:beg|end))|02-(?:0[1-9]|10)_(?:beg|end)|03-01_(?:beg|end)|03-02_(?:beg|end)|03-03_(?:beg|end)|03-04_(?:beg|end)|03-05_(?:beg|end)|03-06_(?:beg|end)|03-07_(?:beg|end)|03-08_(?:beg|end)|04-01_(?:beg|end)|04-02_(?:beg|end))\.txt'
 SPEAKER_RU = {
     'Dobermann':'Доберманн', 'Amiya':'Амия', 'Ace':'Эйс', 'Reunion Member':'Боец Воссоединения', 'Reunion Caster':'Заклинатель Воссоединения', 'Reunion Suspect':'Подозреваемый в связях с Воссоединением',
     'Reunion Member A':'Боец Воссоединения А', 'Reunion Member B':'Боец Воссоединения Б',
     'Ursus Guard':'Военный полицейский Урсуса', 'Medic':'Медик',
     'Guard':'Боец', 'Female':'Женщина', 'Male':'Мужчина', 'Child':'Ребёнок',
     'TV Host':'Телеведущий', 'Ursus Captain':'Капитан военной полиции Урсуса',
+    'Little Girl':'Маленькая девочка', 'Another Girl\'s Voice':'Голос другой девушки',
     '???':'???', '':'', 'Civilian':'Мирный житель', 'Talulah':'Талула', 'W':'W', 'Nearl':'Нирл', 'Faust':'Фауст', 'Ch\'en':'Чэнь', 'Hoshiguma':'Хосигума', 'Kal\'tsit':'Кальцит', 'Wei Yenwu':'Вэй Яньу', 'PRTS':'PRTS', 'Broadcast':'Оповещение', 'L.G.D. Agent':'Сотрудник городской стражи', 'Infected':'Заражённый', 'Children':'Дети', 'Child':'Ребёнок', 'Misha':'Миша', 'Rioter':'Погромщик', 'Franka':'Франка', 'Liskarm':'Лискарм', 'Jessica':'Джессика', 'Meteorite':'Метеорит', 'Frostleaf':'Фростлиф', 'Exusiai':'Экзия', 'Texas':'Техас', 'Skullshatterer':'Крушитель Черепов', 'Operators':'Оперативники', 'Crownslayer':'Краунслеер', 'Mephisto':'Мефисто', 'Girl\'s Voice':'Голос девушки', 'Young Man\'s Voice':'Голос юноши', 'Boy\'s Voice':'Голос мальчика',
 }
 
@@ -49,12 +50,14 @@ def read_validated(path, expected_git_sha1):
     return raw
 
 
-def dialogues_in_text(raw):
+def dialogues_in_text(raw, include_bare=False):
     text=raw.decode('utf-8-sig')
     out=[]
     for n,line in enumerate(text.splitlines(),1):
         m=SPEAKER.search(line)
         if not m:
+            if include_bare and line.strip() and not line.lstrip().startswith(('[', '//')):
+                out.append((n, '', line.strip()))
             continue
         spoken=line[m.end():].strip()
         if spoken and not spoken.startswith('//'):
@@ -62,7 +65,7 @@ def dialogues_in_text(raw):
     return out
 
 
-def patch_bytes(en_bytes, ru_map, localize_names=True, ru_choices=None):
+def patch_bytes(en_bytes, ru_map, localize_names=True, ru_choices=None, include_bare=False):
     # Return a complete script with ONLY dialogue text and optionally display-speaker labels replaced.
     # Does not alter any other storyboard commands, comments, timings, asset references.
     text=en_bytes.decode('utf-8-sig')
@@ -93,6 +96,18 @@ def patch_bytes(en_bytes, ru_map, localize_names=True, ru_choices=None):
             continue
         m=SPEAKER.search(body)
         if not m:
+            if include_bare and body.strip() and not body.lstrip().startswith(('[', '//')):
+                dialog_count+=1
+                key=str(dialog_count)
+                if key not in ru_map:
+                    raise ValueError(f'Missing RU bare narration {dialog_count}')
+                ru=ru_map[key]
+                if not isinstance(ru,str) or not ru.strip() or any(c in ru for c in '\\r\\n\\t'):
+                    raise ValueError(f'Invalid RU bare narration {dialog_count}')
+                if quoted_tokens(body.strip())!=quoted_tokens(ru):
+                    raise ValueError(f'Markup mismatch in bare narration {dialog_count}')
+                leading=body[:len(body)-len(body.lstrip())]
+                lines[index]=leading+ru+tail
             continue
         spoken=body[m.end():].strip()
         if not spoken or spoken.startswith('//'):
@@ -141,9 +156,10 @@ def build(source_root, out_root, translations, localize_names=True):
             raise ValueError('Unexpected or unsafe story file path')
         en=read_validated(source_root/'en'/rel,config['en_git_blob_sha1'])
         cn=read_validated(source_root/'cn'/rel,config['cn_git_blob_sha1'])
-        if len(dialogues_in_text(cn))!=len(dialogues_in_text(en)):
+        include_bare = rel == 'obt/main/level_main_04-02_end.txt'
+        if len(dialogues_in_text(cn, include_bare))!=len(dialogues_in_text(en, include_bare)):
             raise ValueError(f'Source alignment count mismatch {rel}')
-        if len(dialogues_in_text(cn))!=config['dialogue_count']:
+        if len(dialogues_in_text(cn, include_bare))!=config['dialogue_count']:
             raise ValueError(f'Source dialogue count mismatch {rel}')
         if config.get('decisions') is not None:
             en_choices=[m.group(2).split(';') for m in map(DECISION.search,en.decode('utf-8-sig').splitlines()) if m]
@@ -154,7 +170,7 @@ def build(source_root, out_root, translations, localize_names=True):
                 raise ValueError(f'Decision count mismatch {rel}')
         if len(config['dialogues'])!=config['dialogue_count']:
             raise ValueError(f'RU dictionary count mismatch {rel}')
-        target,count=patch_bytes(en,config['dialogues'],localize_names,config.get('decisions'))
+        target,count=patch_bytes(en,config['dialogues'],localize_names,config.get('decisions'),include_bare=include_bare)
         # reject accidental modification of control commands and non-dialogue lines
         orig=en.decode('utf-8-sig').splitlines()
         patched=target.decode('utf-8-sig').splitlines()
@@ -162,6 +178,8 @@ def build(source_root, out_root, translations, localize_names=True):
             raise ValueError(f'Line count changed {rel}')
         for a,b in zip(orig,patched):
             if not SPEAKER.search(a) and a!=b:
+                if include_bare and a.strip() and not a.lstrip().startswith(('[', '//')):
+                    continue
                 da,db=DECISION.search(a),DECISION.search(b)
                 if config.get('decisions') is None or not da or not db or (
                     a[:da.start(2)]+a[da.end(2):] != b[:db.start(2)]+b[db.end(2):]
