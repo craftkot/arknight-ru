@@ -1,0 +1,49 @@
+{
+  "version": "v0.90",
+  "scene": "5-1 before battle — complete first literary draft",
+  "relative_story_path": "obt/main/level_main_05-01_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_05-01_beg.txt",
+      "git_blob_sha1": "20d598fa2831e101fed33ab0589e410d2cde0108",
+      "line_count": 107
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_05-01_beg.txt",
+      "git_blob_sha1": "88a970f8a856508e1d885c2178acaeea69f01109",
+      "line_count": 107
+    }
+  },
+  "alignment": {
+    "cn_named": 38,
+    "en_named": 38,
+    "cn_bare": 1,
+    "en_bare": 1,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "cn_non_dialogue_commands": 68,
+    "en_non_dialogue_commands": 68,
+    "cn_en_command_differences": [],
+    "en_terminal_newline_extra": true,
+    "cn_en_exact_bytes_equal": false,
+    "source_total_text_entries": 39,
+    "ru_complete_text_entries": 39,
+    "ru_named": 38,
+    "ru_bare": 1,
+    "source_choice_commands": 0,
+    "markup_tokens_preserved": true,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "Current CN master and EN main blobs fetched and recorded at this run; their dialogue positions and control commands agree.",
+    "Bare sound effect at source line 33 is included in the numbered dialogue map and must be patched with include_bare=True.",
+    "CN contains a censored Lungmen expletive; EN uses a phonetic Cantonese phrase; RU follows CN and retains the asterisk convention.",
+    "The initial dream mentions an old duke, Wei Yenwu, and a past sacrifice. Do not infer identities omitted from CN.",
+    "Only Russian translations and hashes are committed; no full CN/EN scripts or game files.",
+    "Local preview is not an installed or in-client verified patch."
+  ]
+}
