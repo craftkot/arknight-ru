@@ -1,0 +1,46 @@
+{
+  "version": "v0.83",
+  "scene": "4-8 after battle — COMPLETE first literary draft (67/67 named)",
+  "source_file": "obt/main/level_main_04-08_end.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_04-08_end.txt",
+      "git_blob_sha1": "427e9591d473c3d33e39690f5d970d7b6218403d"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_04-08_end.txt",
+      "git_blob_sha1": "d95d8662b81f24a6e31ed3d9c6f59474d50931bc"
+    }
+  },
+  "alignment": {
+    "cn_named": 67,
+    "en_named": 67,
+    "cn_unnamed": 0,
+    "en_unnamed": 0,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "source_non_dialogue_commands_cn": 105,
+    "source_non_dialogue_commands_en": 105,
+    "source_line_count_cn": 172,
+    "source_line_count_en": 173,
+    "source_total_text_entries": 67,
+    "ru_complete_named": 67,
+    "ru_complete_unnamed": 0,
+    "ru_complete_text_entries": 67,
+    "remaining_text_entries": 0,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "67 named dialogue positions and 105 non-dialogue commands align. EN has one additional terminal newline.",
+    "CN 她的手 uses singular hand in Amiya's request to Frostleaf; the EN plural is not followed.",
+    "CN 谁都看得出来你们根本没有机会逃出来 means the scouts had no chance to escape unaided, rather than outsiders merely doubting the rescue.",
+    "Amiya's reaction to Jessica is portrayed as sensing intense sorrow, not a confirmed clinical diagnosis.",
+    "No CN/EN source scripts committed. This is not an installed or in-client verified patch."
+  ]
+}
