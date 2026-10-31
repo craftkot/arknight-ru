@@ -20,7 +20,7 @@ class Chapter47AfterV081(unittest.TestCase):
         self.assertIn("никого не бросит",cfg["dialogues"]["27"])
         for s in cfg["dialogues"].values():
             self.assertTrue(isinstance(s,str) and s.strip())
-            self.assertFalse(any(c in s for c in "\\r\\n\\t"))
+            self.assertFalse(any(c in s for c in "\r\n\t"))
     def test_previous_scenes_unchanged(self):
         old=load("story/story_main_selection_ru_v080.json")
         new=load("story/story_main_selection_ru_v081.json")
@@ -43,14 +43,14 @@ class Chapter47AfterV081(unittest.TestCase):
         self.assertEqual((q["new_text_entries"],q["completed_story_files"]),(40,74))
         self.assertFalse(q["in_game_test"])
         idx=(ROOT/"story/CHAPTER_4_INDEX_v081.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_04-07_end.txt\\tfirst_draft_complete\\t40\\t0\\t40",idx)
+        self.assertIn("level_main_04-07_end.txt\tfirst_draft_complete\t40\t0\t40",idx)
     def test_preview_preserves_commands(self):
         cfg=load(NEW)["files"][REL]
-        lines=['[HEADER(key="title_test")]\\n','[Background(image="bg_cher_2")]\\n']
+        lines=['[HEADER(key="title_test")]\n','[Background(image="bg_cher_2")]\n']
         for i in range(1,41):
-            lines.append('[Character(name="char_test")]\\n')
-            lines.append('[name="Amiya"]   EN dialogue '+str(i)+'\\n')
-        lines.append('[Image]\\n')
+            lines.append('[Character(name="char_test")]\n')
+            lines.append('[name="Amiya"]   EN dialogue '+str(i)+'\n')
+        lines.append('[Image]\n')
         original="".join(lines).encode("utf-8")
         patched,count=ap.patch_bytes(original,cfg["dialogues"])
         self.assertEqual(count,40)
