@@ -1,0 +1,56 @@
+{
+  "version": "v0.72",
+  "scene": "Main story 4-3 before battle — COMPLETE first literary draft (50/50 named dialogue positions)",
+  "source_file": "obt/main/level_main_04-03_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_04-03_beg.txt",
+      "git_blob_sha1": "5ef1b5df788758e0310630246a2f9942e5e0fb50"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_04-03_beg.txt",
+      "git_blob_sha1": "e7429897da0f4b9f95c21ac9a84a77961a39a1d1"
+    }
+  },
+  "alignment": {
+    "cn_named": 50,
+    "en_named": 50,
+    "cn_unnamed": 0,
+    "en_unnamed": 0,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal_excluding_header_and_decision_text": true,
+    "non_dialogue_command_differences": [],
+    "source_line_count_cn": 92,
+    "source_line_count_en": 92,
+    "source_non_dialogue_commands_cn": 42,
+    "source_non_dialogue_commands_en": 42,
+    "cn_en_decision_count": 3,
+    "decision_option_counts": [
+      1,
+      2,
+      2
+    ],
+    "source_total_text_entries": 50,
+    "ru_complete_named": 50,
+    "ru_complete_unnamed": 0,
+    "ru_complete_text_entries": 50,
+    "remaining_text_entries": 0,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "CN and EN align at all 50 named-dialogue positions and all 42 non-dialogue command lines, after excluding the localized Decision option texts.",
+    "CN 嗅到气味 uses a literal scent/smell metaphor, preserved as «учуешь запах» rather than replacing it with an unmarked generic report.",
+    "CN 拖油瓶 is a harsh characterization of the Doctor as a burden, retained as «мешался бы под ногами».",
+    "CN 没有其他的选择: Amiya says she had no other choice; RU does not assert that her choice was objectively impossible.",
+    "CN ……如果导致那样的结果，也算是坚持的话 is conditional, not a confident claim that persistence caused all outcomes; RU retains conditional nuance.",
+    "Three Decision commands retain original values/predicates; only five display options are translated.",
+    "Dr.{@nickname} occurs twice; the placeholder is preserved verbatim.",
+    "Full authored CN/EN scripts are not committed. First literary draft; no in-client validation."
+  ]
+}
