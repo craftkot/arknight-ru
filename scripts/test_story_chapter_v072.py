@@ -34,7 +34,7 @@ class Chapter43BeforeV072(unittest.TestCase):
         for line in scene["dialogues"].values():
             self.assertIsInstance(line, str)
             self.assertTrue(line.strip())
-            self.assertFalse(any(c in line for c in "\\r\\n\\t"))
+            self.assertFalse(any(c in line for c in "\r\n\t"))
 
     def test_selection_preserves_previous_64(self):
         old = load("story/story_main_selection_ru_v071.json")
@@ -63,20 +63,20 @@ class Chapter43BeforeV072(unittest.TestCase):
         self.assertEqual((qa["new_text_entries"], qa["completed_story_files"]), (50, 65))
         self.assertFalse(qa["in_game_test"])
         idx = (ROOT / "story/CHAPTER_4_INDEX_v072.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_04-03_beg.txt\\tfirst_draft_complete\\t50\\t0\\t50", idx)
+        self.assertIn("level_main_04-03_beg.txt\tfirst_draft_complete\t50\t0\t50", idx)
 
     def test_safe_preview_preserves_commands_choices_and_variable(self):
         scene = load(NEW)["files"][REL]
-        lines = ['[HEADER(key="test")]\\n', '[Character(name="char_003_kalts_1")]\\n']
+        lines = ['[HEADER(key="test")]\n', '[Character(name="char_003_kalts_1")]\n']
         for i in range(1, 51):
             name = "Kal'tsit" if i <= 15 or i in (48, 49) else "Amiya"
-            lines.append('[name="' + name + '"] EN ' + ('{@nickname}' if i in (4, 12) else str(i)) + '\\n')
+            lines.append('[name="' + name + '"] EN ' + ('{@nickname}' if i in (4, 12) else str(i)) + '\n')
             if i in (5, 29, 31):
                 j = {5: 1, 29: 2, 31: 3}[i]
                 opts = {1: "She went to the slums.", 2: "Amiya has burdens.;...", 3: "You stayed true.;..."}[j]
                 vals = {1: "1", 2: "1;2", 3: "1;2"}[j]
-                lines.append('[Decision(options="' + opts + '", values="' + vals + '")]\\n')
-                lines.append('[Predicate(references="' + vals + '")]\\n')
+                lines.append('[Decision(options="' + opts + '", values="' + vals + '")]\n')
+                lines.append('[Predicate(references="' + vals + '")]\n')
         original = "".join(lines).encode("utf-8")
         patched, count = ap.patch_bytes(original, scene["dialogues"], ru_choices=scene["decisions"])
         self.assertEqual(count, 50)
