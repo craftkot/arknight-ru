@@ -123,7 +123,7 @@
     "Chinese 寒气 means cold air/coldness, not physical ice; the first 40 lines follow CN.",
     "Frostleaf stops the gathering cold current with her ice blade; Meteorite seizes the opening.",
     "Music glyphs at dialogue positions 14 and 20 retained exactly.",
-    "The 40th dialogue at source line 76 is a natural cut before Meteorite's charge; the next untranslated dialogue is ordinal 41 at source line 82.",
+    "Historical v0.87 cut: dialogue 40 at source line 76; ordinals 41–86 were subsequently translated in v0.88.",
     "Do not include this partial map in the complete-story selection or pass it to the full-scene preview generator.",
     "v0.88 adds dialogue positions 41–86 (source lines 82–192), 46 Russian lines; next ordinal 87 is at source line 198.",
     "Source has 157 dialogue positions: 156 with non-empty speaker names and one [name=\"\"] at source line 347 (ordinal 147); legacy v0.87 counted all 157 as named.",
