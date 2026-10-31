@@ -1,0 +1,45 @@
+{
+  "version": "v0.81",
+  "scene": "4-7 after battle — COMPLETE first literary draft (40/40 named)",
+  "source_file": "obt/main/level_main_04-07_end.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_04-07_end.txt",
+      "git_blob_sha1": "429bd34de75b11cdbf25c00bd7630a26b7f93470"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_04-07_end.txt",
+      "git_blob_sha1": "8e912427879d7868b826e2f06404503b1e99a0f8"
+    }
+  },
+  "alignment": {
+    "cn_named": 40,
+    "en_named": 40,
+    "cn_unnamed": 0,
+    "en_unnamed": 0,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "source_non_dialogue_commands_cn": 30,
+    "source_non_dialogue_commands_en": 30,
+    "source_line_count_cn": 70,
+    "source_line_count_en": 71,
+    "source_total_text_entries": 40,
+    "ru_complete_named": 40,
+    "ru_complete_unnamed": 0,
+    "ru_complete_text_entries": 40,
+    "remaining_text_entries": 0,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "All 40 named dialogue positions align; all 30 control commands match exactly; EN has an extra terminal newline.",
+    "CN 防护消耗品 denotes protective consumables, not specifically medication as in EN.",
+    "CN 源石丛多生地段 describes an area with Originium growth, not simply residue.",
+    "No CN/EN script redistributed; literary editing and in-client testing remain outstanding."
+  ]
+}
