@@ -1,0 +1,48 @@
+{
+  "version": "v0.91",
+  "scene": "5-1 after battle — complete first literary draft",
+  "relative_story_path": "obt/main/level_main_05-01_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_05-01_end.txt",
+      "git_blob_sha1": "6bf6e08161a4babf1c56439f7b05c0a51bd4bd77",
+      "line_count": 52
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_05-01_end.txt",
+      "git_blob_sha1": "e1616969e600141b0fedaad27012faa1080d7a2a",
+      "line_count": 52
+    }
+  },
+  "alignment": {
+    "cn_named": 25,
+    "en_named": 25,
+    "cn_bare": 2,
+    "en_bare": 2,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "cn_non_dialogue_commands": 25,
+    "en_non_dialogue_commands": 25,
+    "cn_en_command_differences": [],
+    "en_terminal_newline_extra": true,
+    "cn_en_exact_bytes_equal": false,
+    "source_total_text_entries": 27,
+    "ru_complete_text_entries": 27,
+    "ru_named": 25,
+    "ru_bare": 2,
+    "source_choice_commands": 0,
+    "markup_tokens_preserved": true,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "Current CN master and EN main blobs checked; all 27 text positions and 25 non-text commands match.",
+    "Two empty-name time/place captions at source lines 2 and 3 are numbered and translated, not silently skipped.",
+    "CN 攻坚战 is an assault on fortified positions, not necessarily a siege as in EN; CN 夺回近卫局 refers to retaking the LGD headquarters, not reassembling the LGD.",
+    "Chinese original gives the special inspection group's wartime deployment and on-site authority more explicitly than EN.",
+    "No full CN/EN script committed. Preview does not establish in-client patch compatibility."
+  ]
+}
