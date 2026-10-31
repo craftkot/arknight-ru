@@ -65,7 +65,8 @@ class Chapter41AfterV069(unittest.TestCase):
         lines=['[HEADER(key="test")]\n']
         for i in range(1,77):
             speaker="" if i in (1,2,32,33,34) else "Amiya"
-            lines.append('[name="'+speaker+'"] EN '+str(i)+'\n')
+            tokens=' {@nickname}' if i in (36,59) else ''
+            lines.append('[name="'+speaker+'"] EN '+str(i)+tokens+'\n')
             if i in (37,59,72):
                 k={37:1,59:2,72:3}[i]
                 n=len(s["decisions"][str(k)])
