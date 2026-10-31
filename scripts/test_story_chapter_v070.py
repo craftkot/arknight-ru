@@ -27,7 +27,7 @@ class Chapter42BeforeV070(unittest.TestCase):
         self.assertNotIn("decisions",s)
         for v in s["dialogues"].values():
             self.assertTrue(isinstance(v,str) and v.strip())
-            self.assertFalse(any(c in v for c in "\\r\\n\\t"))
+            self.assertFalse(any(c in v for c in "\r\n\t"))
         self.assertIn("заброшенном городе",s["dialogues"]["40"])
         self.assertIn("разведку",s["dialogues"]["35"])
         self.assertIn("нагревается",s["dialogues"]["72"])
@@ -57,15 +57,15 @@ class Chapter42BeforeV070(unittest.TestCase):
         self.assertEqual((q["new_text_entries"],q["completed_story_files"]),(80,63))
         self.assertFalse(q["in_game_test"])
         idx=(ROOT/"story/CHAPTER_4_INDEX_v070.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_04-02_beg.txt\\tfirst_draft_complete\\t80\\t0\\t80",idx)
+        self.assertIn("level_main_04-02_beg.txt\tfirst_draft_complete\t80\t0\t80",idx)
     def test_safe_preview_and_speaker_names(self):
         s=load(NEW)["files"][REL]
-        source=['[HEADER(key="test")]\\n']
+        source=['[HEADER(key="test")]\n']
         speakers=["Jessica","Meteorite","Frostleaf","Kal'tsit","Reunion Member"]
         for i in range(1,81):
-            source.append('[name="'+speakers[i%5]+'"] EN '+str(i)+'\\n')
+            source.append('[name="'+speakers[i%5]+'"] EN '+str(i)+'\n')
             if i%11==0:
-                source.append('[CameraShake(duration=0.5)]\\n')
+                source.append('[CameraShake(duration=0.5)]\n')
         original="".join(source).encode("utf-8")
         out,count=ap.patch_bytes(original,s["dialogues"])
         self.assertEqual(count,80)
