@@ -1,0 +1,49 @@
+{
+  "version": "v0.75",
+  "scene": "Main story 4-4 after battle — COMPLETE first literary draft (51/51 named dialogue positions)",
+  "source_file": "obt/main/level_main_04-04_end.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_04-04_end.txt",
+      "git_blob_sha1": "733375fbdec770566efaaefadca1b758eb56d00f"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_04-04_end.txt",
+      "git_blob_sha1": "42dadbb654c2328693c5ba0e90bb63192b6de71a"
+    }
+  },
+  "alignment": {
+    "cn_named": 51,
+    "en_named": 51,
+    "cn_unnamed": 0,
+    "en_unnamed": 0,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "non_dialogue_command_differences": [],
+    "source_line_count_cn": 95,
+    "source_line_count_en": 96,
+    "source_non_dialogue_commands_cn": 44,
+    "source_non_dialogue_commands_en": 44,
+    "cn_en_decision_count": 0,
+    "source_total_text_entries": 51,
+    "ru_complete_named": 51,
+    "ru_complete_unnamed": 0,
+    "ru_complete_text_entries": 51,
+    "remaining_text_entries": 0,
+    "exact_byte_version_identical": false,
+    "semantic_equivalence_automatically_proven": false,
+    "markup_tokens_preserved": true
+  },
+  "editorial_notes": [
+    "51 named CN/EN dialogue positions match at the same source line numbers, and all 44 non-dialogue commands match. EN has one additional terminal newline.",
+    "CN 粉尘 describes drifting dust/powder; RU does not claim a verified chemical origin.",
+    "CN 雪怪们 names the arriving Yetis; translated consistently as йети, not as an ordinary weather event.",
+    "CN 西侧那栋危楼 orders shooting the dangerous/unstable building to the west; EN adds buying time, while RU follows CN's explicit distraction goal.",
+    "CN 这个废城分城 is an interrupted warning about a separate district of the ruined city; RU preserves the incomplete sentence and the district distinction.",
+    "No complete CN/EN scripts stored; original commands remain untouched in preview. Editorial and game-client testing pending."
+  ]
+}
