@@ -21,7 +21,7 @@ class Chapter54BeforePartialV096(unittest.TestCase):
         self.assertFalse(p["progress"]["complete"])
         self.assertEqual((p["progress"]["total_ru_text_entries"], p["progress"]["remaining_text_entries"]), (20, 21))
         self.assertEqual((p["progress"]["source_lines_translated_through"], p["progress"]["first_untranslated_named_source_line"], p["progress"]["next_named_ordinal"]), (49, 50, 21))
-        self.assertTrue(all(isinstance(v, str) and v.strip() and not any(c in v for c in "\\r\\n\\t") for v in d.values()))
+        self.assertTrue(all(isinstance(v, str) and v.strip() and not any(c in v for c in "\r\n\t") for v in d.values()))
         self.assertEqual(d["20"], "Именно.")
 
     def test_cn_en_hashes_and_structure(self):
@@ -53,7 +53,7 @@ class Chapter54BeforePartialV096(unittest.TestCase):
         self.assertFalse(q["included_in_complete_story_selection"])
         self.assertFalse(q["in_game_test"])
         idx = (ROOT / "story/CHAPTER_5_INDEX_v096.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_05-04_beg.txt\\tpartial_first_draft_20_of_41\\t20\\t0\\t20", idx)
+        self.assertIn("level_main_05-04_beg.txt\tpartial_first_draft_20_of_41\t20\t0\t20", idx)
 
 if __name__ == "__main__":
     unittest.main()
