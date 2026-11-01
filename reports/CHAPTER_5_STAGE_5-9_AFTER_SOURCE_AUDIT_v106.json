@@ -1,0 +1,51 @@
+{
+  "version": "v1.06",
+  "scene": "5-9 after battle — opening 93/136 named dialogue positions; incomplete",
+  "relative_story_path": "obt/main/level_main_05-09_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_05-09_end.txt",
+      "git_blob_sha1": "ced45a6cd4fe5679c87cdd7ddae10fe051ef9465",
+      "line_count": 305
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_05-09_end.txt",
+      "git_blob_sha1": "e02b0f41bbaf69d866c1ba86b73d5f361227b6fb",
+      "line_count": 306
+    }
+  },
+  "alignment": {
+    "cn_named": 136,
+    "en_named": 136,
+    "cn_bare": 0,
+    "en_bare": 0,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "cn_non_dialogue_commands": 169,
+    "en_non_dialogue_commands": 169,
+    "cn_en_command_differences": [],
+    "en_terminal_newline_extra": true,
+    "cn_en_exact_bytes_equal": false,
+    "source_total_text_entries": 136,
+    "ru_partial_text_entries": 93,
+    "source_text_entries_remaining": 43,
+    "source_choice_commands": 0,
+    "markup_tokens_preserved_in_translated_lines": true,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "All 136 dialogue positions and 169 non-dialogue commands align between the two Git blob versions. EN differs by a final newline; named speakers and text content differ as expected.",
+    "The first 20 Russian entries correspond to source lines 6–55. Dialogue 21 is source line 57.",
+    "No game scripts or unmodified EN/CN text are copied into the repository; only an indexed Russian partial translation is added.",
+    "Editorial review and in-client testing are pending; not a completed scene or game patch.",
+    "Russian positions 21–59 added without changing 1–20; source line cut at 139, next source dialogue 144. CN corrupted character labels in positions 48/49/51/53 must not be normalized by patch tooling.",
+    "Source blob hashes verified again; CN/EN commands and source positions unchanged.",
+    "v1.06 adds ordinals 60–93, source lines 144–211; next ordinal 94 at line 226.",
+    "CN/EN match in 136 named positions and 169 non-dialogue commands; EN adds a final newline. Source blob hashes unchanged.",
+    "Only Russian dialogue entries are stored, not full game scripts. Scene remains incomplete and not tested in client."
+  ]
+}
