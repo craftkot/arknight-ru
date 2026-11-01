@@ -1,0 +1,50 @@
+{
+  "version": "v1.02",
+  "scene": "5-7 after battle — complete first literary draft (90 named, 2 unnamed captions)",
+  "relative_story_path": "obt/main/level_main_05-07_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_05-07_end.txt",
+      "git_blob_sha1": "b1ddd2da99c09995c17c717cd51855d4216cd1ef",
+      "line_count": 187
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_05-07_end.txt",
+      "git_blob_sha1": "cb5b1c86451cde4993a9a2b0dc1c1835dc3ffbfa",
+      "line_count": 187
+    }
+  },
+  "alignment": {
+    "cn_named": 90,
+    "en_named": 90,
+    "cn_bare": 2,
+    "en_bare": 2,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "cn_non_dialogue_commands": 95,
+    "en_non_dialogue_commands": 95,
+    "cn_en_command_differences": [],
+    "en_terminal_newline_extra": true,
+    "cn_en_exact_bytes_equal": false,
+    "source_total_text_entries": 92,
+    "ru_complete_text_entries": 92,
+    "source_text_entries_remaining": 0,
+    "source_choice_commands": 0,
+    "markup_tokens_preserved_in_translated_lines": true,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "editorial_notes": [
+    "CN primary for meaning, EN used for established official place names and scene structure; SHA1 pins recorded.",
+    "CN 下环 is 'lower ring', EN Ha Wan; RU follows CN 'Нижнее кольцо', needs map terminology review.",
+    "CN 太羯宫 / EN Scorpio Palace rendered «Дворец Скорпиона»; 铜钟 / Causeway Bell rendered «Козуэй-Белл» provisionally.",
+    "CN 诗小姐 means «мисс Ши», while EN says Miss S; RU follows CN.",
+    "CN 你还有很多人可以依靠 means 'you have many people you can rely on'; EN reverses direction ('counting on you'); RU follows CN.",
+    "Two nameless timestamp/location cards at entries 78–79 preserved, including backslash separator from EN timestamp.",
+    "Original source HEADER calls this 第六关（后） even though path is 05-07_end; not altered.",
+    "No original CN/EN scripts stored. Local preview only; in-client patch not verified."
+  ]
+}
