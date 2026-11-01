@@ -27,7 +27,7 @@ class Chapter53AfterV095(unittest.TestCase):
         self.assertIn("Рёв", cfg["dialogues"]["31"])
         self.assertIn("Хання", cfg["dialogues"]["12"])
         self.assertEqual(cfg["dialogues"]["95"], "И я — на вашей.")
-        self.assertTrue(all(v.strip() and not any(c in v for c in "\\r\\n\\t") for v in cfg["dialogues"].values()))
+        self.assertTrue(all(v.strip() and not any(c in v for c in "\r\n\t") for v in cfg["dialogues"].values()))
 
     def test_selection_preserves_previous_85(self):
         old = load("story/story_main_selection_ru_v094.json")
@@ -49,19 +49,19 @@ class Chapter53AfterV095(unittest.TestCase):
         self.assertEqual((a["alignment"]["cn_non_dialogue_commands"], a["alignment"]["en_non_dialogue_commands"]), (111, 111))
         self.assertTrue(a["alignment"]["cn_en_text_source_line_positions_equal"])
         idx = (ROOT / "story/CHAPTER_5_INDEX_v095.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_05-03_end.txt\\tfirst_draft_complete\\t95\\t0\\t95", idx)
+        self.assertIn("level_main_05-03_end.txt\tfirst_draft_complete\t95\t0\t95", idx)
 
     def test_preview_preserves_commands_and_names(self):
         cfg = load(NEW)["files"][REL]
         self.assertTrue(re.fullmatch(ap.ALLOWED_PATH, REL))
         self.assertEqual(ap.SPEAKER_RU["Informant"], "Осведомитель")
-        source = '[HEADER(key="title_test")] sample\\n' + ''.join(
-            ('[name="Informant"]  ' if i in (44, 45, 46) else '[name="Ch\\'en"]  ') + "EN line " + str(i) + "\\n"
+        source = '[HEADER(key="title_test")] sample\n' + ''.join(
+            ('[name="Informant"]  ' if i in (44, 45, 46) else '[name="Ch\'en"]  ') + "EN line " + str(i) + "\n"
             for i in range(1, 96)
-        ) + '[Image]\\n'
+        ) + '[Image]\n'
         patched, count = ap.patch_bytes(source.encode("utf-8"), cfg["dialogues"])
         self.assertEqual(count, 95)
-        self.assertIn('[Image]\\n', patched.decode())
+        self.assertIn('[Image]\n', patched.decode())
         self.assertIn('[name="Осведомитель"]  ' + cfg["dialogues"]["45"], patched.decode())
         self.assertIn('[name="Чэнь"]  ' + cfg["dialogues"]["1"], patched.decode())
         with self.assertRaises(ValueError):
