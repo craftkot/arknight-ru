@@ -22,7 +22,7 @@ class Chapter54AfterV098(unittest.TestCase):
         cfg = load(NEW)["files"][REL]
         self.assertEqual((cfg["dialogue_count"], cfg["named_dialogue_count"], cfg["unnamed_dialogue_count"]), (59, 51, 8))
         self.assertEqual(set(cfg["dialogues"]), {str(i) for i in range(1, 60)})
-        self.assertTrue(all(v.strip() and not any(c in v for c in "\\r\\n\\t") for v in cfg["dialogues"].values()))
+        self.assertTrue(all(v.strip() and not any(c in v for c in "\r\n\t") for v in cfg["dialogues"].values()))
         self.assertEqual(cfg["cn_git_blob_sha1"], "1cd797556e223bd17552b9f7c81231b32d1433e1")
         self.assertEqual(cfg["en_git_blob_sha1"], "8fa937063c53ac4904fb0bcf4824ab41a1d5501e")
         self.assertIn("комнату", cfg["dialogues"]["39"])
@@ -49,7 +49,7 @@ class Chapter54AfterV098(unittest.TestCase):
         self.assertEqual(manifest["next_file"], "obt/main/level_main_05-06_beg.txt")
         self.assertEqual((manifest["translation_integrity"]["main_story_files"], manifest["translation_integrity"]["main_story_named_ru_lines"]), (88, 5297))
         self.assertEqual((qa["new_text_entries"], qa["source_text_entries_remaining"], qa["completed_story_files"]), (59, 0, 88))
-        self.assertIn("level_main_05-04_end.txt\\tfirst_draft_complete\\t51\\t8\\t59", (ROOT / "story/CHAPTER_5_INDEX_v098.tsv").read_text(encoding="utf-8"))
+        self.assertIn("level_main_05-04_end.txt\tfirst_draft_complete\t51\t8\t59", (ROOT / "story/CHAPTER_5_INDEX_v098.tsv").read_text(encoding="utf-8"))
 
     def test_preview_preserves_commands_and_bare_narration(self):
         cfg = load(NEW)["files"][REL]
@@ -61,7 +61,7 @@ class Chapter54AfterV098(unittest.TestCase):
             else:
                 source_lines.append('[name="Ch\'en"]  EN line ' + str(i))
         source_lines.append('[Dialog]')
-        source = "\\n".join(source_lines) + "\\n"
+        source = "\n".join(source_lines) + "\n"
         patched, count = ap.patch_bytes(source.encode("utf-8"), cfg["dialogues"], include_bare=True)
         result = patched.decode("utf-8").splitlines()
         self.assertEqual(count, 59)
