@@ -1,0 +1,57 @@
+{
+  "version": "v1.09",
+  "scene": "5-10 before battle — partial first literary draft, named ordinals 1–98 of 247",
+  "relative_story_path": "obt/main/level_main_05-10_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_05-10_beg.txt",
+      "git_blob_sha1": "922973f06fdda4acb1ad0207ef2ae6f07e3472f1",
+      "line_count": 673
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_05-10_beg.txt",
+      "git_blob_sha1": "dbf64cfdcc8e97b720398c386000477d0da81ea8",
+      "line_count": 674
+    }
+  },
+  "alignment": {
+    "cn_named": 247,
+    "en_named": 247,
+    "cn_bare": 1,
+    "en_bare": 1,
+    "cn_en_dialogue_source_line_positions_equal": true,
+    "cn_en_bare_line_positions_equal": true,
+    "cn_bracket_commands": 425,
+    "en_bracket_commands": 425,
+    "cn_en_bracket_command_positions_equal": true,
+    "cn_en_bracket_command_text_equal": false,
+    "cn_en_non_decision_command_text_equal": true,
+    "decision_commands_differing_only_in_localized_option_text": 6,
+    "source_choice_commands": 6,
+    "source_choice_options": 10,
+    "source_predicate_commands": 9,
+    "en_terminal_newline_extra": true,
+    "source_total_text_entries_excluding_choice_options": 248,
+    "ru_partial_named_entries": 98,
+    "ru_partial_bare_entries": 0,
+    "ru_partial_choice_options": 0,
+    "remaining_named_entries": 149,
+    "remaining_bare_entries": 1,
+    "remaining_choice_options": 10,
+    "source_lines_translated_through": 284,
+    "next_named_source_line": 299,
+    "markup_preserved_in_translated_entries": true,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "CN and EN source Git blob SHA values are unchanged from v1.08; full-scene 247 named positions, 1 bare line and 425 commands previously checked.",
+    "CN/EN dialogue ordinals 52–98 match at the same source lines 139–284; next is ordinal 99 at line 299.",
+    "CN plural 他们 versus EN singular 'his pawn' in ordinal 54; CN half-inch sword draw in ordinal 59; speaker in flashback remains unknown.",
+    "One bare narration at line 523 and all 10 options across 6 Decision commands remain untranslated. Commands are not copied or modified.",
+    "Old ordinals 1–51 preserved unchanged. Literary review and actual Yostar PC client validation pending."
+  ]
+}
