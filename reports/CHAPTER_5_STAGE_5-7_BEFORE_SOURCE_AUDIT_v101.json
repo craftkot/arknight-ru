@@ -1,0 +1,49 @@
+{
+  "version": "v1.01",
+  "scene": "5-7 before battle — complete first literary draft (48 named, 0 bare)",
+  "relative_story_path": "obt/main/level_main_05-07_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_05-07_beg.txt",
+      "git_blob_sha1": "3a6877257a6f7ffac69a34236a88f27bb04dd7c4",
+      "line_count": 108
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_05-07_beg.txt",
+      "git_blob_sha1": "2c5d9cd2b6fa0acc6452f60c4fb834ef3a172436",
+      "line_count": 108
+    }
+  },
+  "alignment": {
+    "cn_named": 48,
+    "en_named": 48,
+    "cn_bare": 0,
+    "en_bare": 0,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "cn_non_dialogue_commands": 60,
+    "en_non_dialogue_commands": 60,
+    "cn_en_command_differences": [],
+    "en_terminal_newline_extra": true,
+    "cn_en_exact_bytes_equal": false,
+    "source_total_text_entries": 48,
+    "ru_complete_text_entries": 48,
+    "source_text_entries_remaining": 0,
+    "source_choice_commands": 0,
+    "markup_tokens_preserved_in_translated_lines": true,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "editorial_notes": [
+    "CN primary for meaning, EN for official names and structural alignment; Git blob SHA1 pinned.",
+    "CN says 下水 in line 68, EN gives Hua Shui; provisional RU «Хуа-Шуй» follows EN place-name rendering, flag for editorial review.",
+    "CN line 68 says two years ago, line 81 says three years ago; preserved both source references, do not silently harmonize.",
+    "CN line 98 says more people came to trust Ch'en; EN shifts agency to Ch'en trusting others. RU follows CN.",
+    "CN line 89 explicitly mentions leaving Amiya and others in the ruined city; RU retains the group, unlike shortened EN.",
+    "Original source HEADER text 第六关（后） appears in 5-7 before-battle file and is left untouched; no attempt to fix game source.",
+    "No original CN/EN scripts redistributed. Preview only, no verified in-client patch."
+  ]
+}
