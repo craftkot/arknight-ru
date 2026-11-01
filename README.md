@@ -265,3 +265,7 @@ Babel BB-ST-1 продолжен в v0.49: `events/babel_st01_opening_partial_ru
 ### Глава 5: 5-3 до боя (v0.94)
 
 Первый полный черновик `story/story_chapter_5_stage_5-3_before_ru_v094.json`: 27 именных реплик и 2 безымянные подписи. CN/EN — `reports/CHAPTER_5_STAGE_5-3_BEFORE_SOURCE_AUDIT_v094.json`; объединённая выборка `story/story_main_selection_ru_v094.json` (85 файлов, 5 110 именных и 23 безымянные строки); QA — `reports/QA_MAIN_STORY_v094.json`. Следующая сцена: `obt/main/level_main_05-03_end.txt`. Предпросмотр не проверен в клиенте.
+
+### Глава 5: 5-3 после боя (v0.95)
+
+Полный первый черновик `story/story_chapter_5_stage_5-3_after_ru_v095.json`: **95 именных реплик**. Хосигума разгоняет бойцов Воссоединения, Чэнь и Хосигума находят тяжелораненого Фала, который передаёт разведданные и просит защитить Хосигуму. CN/EN: `reports/CHAPTER_5_STAGE_5-3_AFTER_SOURCE_AUDIT_v095.json`; QA: `reports/QA_MAIN_STORY_v095.json`; индекс: `story/CHAPTER_5_INDEX_v095.tsv`. Объединённая выборка `story/story_main_selection_ru_v095.json`: **86 полных сценариев, 5 205 именных и 23 безымянные строки**. Следующая сцена: `obt/main/level_main_05-04_beg.txt`. Черновик требует вычитки и проверки непосредственно в игровом клиенте.
