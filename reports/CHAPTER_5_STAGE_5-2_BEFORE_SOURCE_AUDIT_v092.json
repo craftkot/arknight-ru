@@ -1,0 +1,50 @@
+{
+  "version": "v0.92",
+  "scene": "5-2 before battle — complete first literary draft",
+  "relative_story_path": "obt/main/level_main_05-02_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_05-02_beg.txt",
+      "git_blob_sha1": "e77cf7669234275220faaf9332bb86018f038075",
+      "line_count": 204
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_05-02_beg.txt",
+      "git_blob_sha1": "d153d256fe0081062392357b10b9b34f8d200cb2",
+      "line_count": 204
+    }
+  },
+  "alignment": {
+    "cn_named": 84,
+    "en_named": 84,
+    "cn_bare": 1,
+    "en_bare": 1,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "cn_non_dialogue_commands": 119,
+    "en_non_dialogue_commands": 119,
+    "cn_en_command_differences": [],
+    "en_terminal_newline_extra": true,
+    "cn_en_exact_bytes_equal": false,
+    "source_total_text_entries": 85,
+    "ru_complete_text_entries": 85,
+    "ru_named": 84,
+    "ru_bare": 1,
+    "source_choice_commands": 0,
+    "markup_tokens_preserved": true,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "Both source blobs pinned and checked. All 85 text positions and 119 command lines align; EN has an extra terminal newline.",
+    "The single untagged knock sound at source line 56 / dialogue ordinal 22 is translated, not omitted.",
+    "CN uses a name pun: 施 (Shi) is not Swire's surname; Russian draft retains «Ши» for the teasing address and «Свайр» for her callsign. Needs editorial consistency check.",
+    "CN 他们不会懂的 says pursuers would not understand the intelligence; EN interprets this as failing to find it. RU follows CN.",
+    "CN 接驳区域 means transfer/connection area, whereas EN says docks; RU follows CN. Geographic names Ochre/Spring City/Floria are provisional transliterations.",
+    "The source HEADER labels the scene 第二关（后） while its canonical filename ends _beg; unchanged to preserve game-script commands.",
+    "No full CN/EN script committed. This is a local preview, not a verified in-client patch."
+  ]
+}
