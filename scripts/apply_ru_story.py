@@ -14,7 +14,7 @@ import sys
 SPEAKER = re.compile(r'(\[\s*name\s*=\s*)(["\'])(.*?)(\2)(\s*\])', re.I)
 INLINE = re.compile(r'\{@[\w]+\}|\{\d+(?:[^{}]*)\}|<[^>]+>')
 DECISION = re.compile(r'(\[Decision\(options=")([^"]*)(", values=")([^"]*)("\)\])')
-ALLOWED_PATH = r'obt/main/level_main_(?:00-(?:01_(?:beg|end)|02_(?:beg|end)|04_beg|06_end|07_(?:beg|end)|08_beg|09_end|10_beg|11_end)|01-(?:01_(?:beg|end)|03_(?:beg|end)|04_beg|06_beg|07_(?:beg|end)|08_beg|10_end|12_(?:beg|end))|02-(?:0[1-9]|10)_(?:beg|end)|03-01_(?:beg|end)|03-02_(?:beg|end)|03-03_(?:beg|end)|03-04_(?:beg|end)|03-05_(?:beg|end)|03-06_(?:beg|end)|03-07_(?:beg|end)|03-08_(?:beg|end)|04-01_(?:beg|end)|04-02_(?:beg|end)|04-03_(?:beg|end)|04-04_(?:beg|end)|04-05_(?:beg|end)|04-06_(?:beg|end)|04-07_(?:beg|end)|04-08_(?:beg|end)|04-09_(?:beg|end)|04-10_(?:beg|end)|05-01_(?:beg|end)|05-02_(?:beg|end)|05-03_(?:beg|end)|05-04_(?:beg|end)|05-06_(?:beg|end)|05-07_(?:beg|end)|05-09_(?:beg|end))\.txt'
+ALLOWED_PATH = r'obt/main/level_main_(?:00-(?:01_(?:beg|end)|02_(?:beg|end)|04_beg|06_end|07_(?:beg|end)|08_beg|09_end|10_beg|11_end)|01-(?:01_(?:beg|end)|03_(?:beg|end)|04_beg|06_beg|07_(?:beg|end)|08_beg|10_end|12_(?:beg|end))|02-(?:0[1-9]|10)_(?:beg|end)|03-01_(?:beg|end)|03-02_(?:beg|end)|03-03_(?:beg|end)|03-04_(?:beg|end)|03-05_(?:beg|end)|03-06_(?:beg|end)|03-07_(?:beg|end)|03-08_(?:beg|end)|04-01_(?:beg|end)|04-02_(?:beg|end)|04-03_(?:beg|end)|04-04_(?:beg|end)|04-05_(?:beg|end)|04-06_(?:beg|end)|04-07_(?:beg|end)|04-08_(?:beg|end)|04-09_(?:beg|end)|04-10_(?:beg|end)|05-01_(?:beg|end)|05-02_(?:beg|end)|05-03_(?:beg|end)|05-04_(?:beg|end)|05-06_(?:beg|end)|05-07_(?:beg|end)|05-09_(?:beg|end)|05-10_beg)\.txt'
 SPEAKER_RU = {
     'Dobermann':'Доберманн', 'Amiya':'Амия', 'Ace':'Эйс', 'Reunion Member':'Боец Воссоединения', 'Reunion Caster':'Заклинатель Воссоединения', 'Reunion Suspect':'Подозреваемый в связях с Воссоединением',
     'Reunion Member A':'Боец Воссоединения А', 'Reunion Member B':'Боец Воссоединения Б',
@@ -22,7 +22,7 @@ SPEAKER_RU = {
     'Guard':'Боец', 'Female':'Женщина', 'Male':'Мужчина', 'Child':'Ребёнок',
     'TV Host':'Телеведущий', 'Ursus Captain':'Капитан военной полиции Урсуса',
     'Little Girl':'Маленькая девочка', 'Another Girl\'s Voice':'Голос другой девушки',
-    '???':'???', '':'', 'Civilian':'Мирный житель', 'Talulah':'Талула', 'W':'W', 'Nearl':'Нирл', 'Faust':'Фауст', 'Ch\'en':'Чэнь', 'Hoshiguma':'Хосигума', 'Radio Operator':'Радиосвязь', 'Informant':'Осведомитель', 'Swire':'Свайр', 'Kal\'tsit':'Кальцит', 'Wei Yenwu':'Вэй Яньу', 'PRTS':'PRTS', 'Broadcast':'Оповещение', 'L.G.D. Agent':'Сотрудник городской стражи', 'Infected':'Заражённый', 'Children':'Дети', 'Child':'Ребёнок', 'Misha':'Миша', 'Rioter':'Погромщик', 'Franka':'Франка', 'Liskarm':'Лискарм', 'Jessica':'Джессика', 'Meteorite':'Метеорит', 'Frostleaf':'Фростлиф', 'FrostNova':'ФростНова', 'Exusiai':'Экзия', 'Texas':'Техас', 'Skullshatterer':'Крушитель Черепов', 'Operators':'Оперативники', 'Crownslayer':'Краунслеер', 'Mephisto':'Мефисто', 'Girl\'s Voice':'Голос девушки', 'Young Man\'s Voice':'Голос юноши', 'Boy\'s Voice':'Голос мальчика',
+    '???':'???', '':'', 'Civilian':'Мирный житель', 'Talulah':'Талула', 'W':'W', 'Nearl':'Нирл', 'Faust':'Фауст', 'Ch\'en':'Чэнь', 'Hoshiguma':'Хосигума', 'Radio Operator':'Радиосвязь', 'Informant':'Осведомитель', 'Swire':'Свайр', 'Blaze':'Блейз', 'Kal\'tsit':'Кальцит', 'Wei Yenwu':'Вэй Яньу', 'PRTS':'PRTS', 'Broadcast':'Оповещение', 'L.G.D. Agent':'Сотрудник городской стражи', 'Infected':'Заражённый', 'Children':'Дети', 'Child':'Ребёнок', 'Misha':'Миша', 'Rioter':'Погромщик', 'Franka':'Франка', 'Liskarm':'Лискарм', 'Jessica':'Джессика', 'Meteorite':'Метеорит', 'Frostleaf':'Фростлиф', 'FrostNova':'ФростНова', 'Exusiai':'Экзия', 'Texas':'Техас', 'Skullshatterer':'Крушитель Черепов', 'Operators':'Оперативники', 'Crownslayer':'Краунслеер', 'Mephisto':'Мефисто', 'Girl\'s Voice':'Голос девушки', 'Young Man\'s Voice':'Голос юноши', 'Boy\'s Voice':'Голос мальчика',
 }
 
 SPEAKER_RU.update({
@@ -74,7 +74,7 @@ def dialogues_in_text(raw, include_bare=False):
     return out
 
 
-def patch_bytes(en_bytes, ru_map, localize_names=True, ru_choices=None, include_bare=False):
+def patch_bytes(en_bytes, ru_map, localize_names=True, ru_choices=None, include_bare=False, bare_by_line=None):
     # Return a complete script with ONLY dialogue text and optionally display-speaker labels replaced.
     # Does not alter any other storyboard commands, comments, timings, asset references.
     text=en_bytes.decode('utf-8-sig')
@@ -102,6 +102,17 @@ def patch_bytes(en_bytes, ru_map, localize_names=True, ru_choices=None, include_
                 if quoted_tokens(before)!=quoted_tokens(after):
                     raise ValueError(f'Decision markup mismatch {key}')
             lines[index]=body[:choice.start(2)]+';'.join(replacement)+body[choice.end(2):]+tail
+            continue
+        if bare_by_line is not None and str(index+1) in bare_by_line:
+            if not body.strip() or body.lstrip().startswith(('[', '//')):
+                raise ValueError(f'Bare narration source line is not bare: {index+1}')
+            ru=bare_by_line[str(index+1)]
+            if not isinstance(ru, str) or not ru.strip() or any(ch in ru for ch in '\r\n\t'):
+                raise ValueError(f'Invalid RU bare narration at line {index+1}')
+            if quoted_tokens(body.strip()) != quoted_tokens(ru):
+                raise ValueError(f'Bare narration markup mismatch at line {index+1}')
+            leading=body[:len(body)-len(body.lstrip())]
+            lines[index]=leading+ru+tail
             continue
         m=SPEAKER.search(body)
         if not m:
@@ -179,14 +190,16 @@ def build(source_root, out_root, translations, localize_names=True):
                 raise ValueError(f'Decision count mismatch {rel}')
         if len(config['dialogues'])!=config['dialogue_count']:
             raise ValueError(f'RU dictionary count mismatch {rel}')
-        target,count=patch_bytes(en,config['dialogues'],localize_names,config.get('decisions'),include_bare=include_bare)
+        target,count=patch_bytes(en,config['dialogues'],localize_names,config.get('decisions'),include_bare=include_bare,bare_by_line=config.get('bare_narration_by_source_line'))
         # reject accidental modification of control commands and non-dialogue lines
         orig=en.decode('utf-8-sig').splitlines()
         patched=target.decode('utf-8-sig').splitlines()
         if len(orig)!=len(patched):
             raise ValueError(f'Line count changed {rel}')
-        for a,b in zip(orig,patched):
+        for lineno,(a,b) in enumerate(zip(orig,patched),1):
             if not SPEAKER.search(a) and a!=b:
+                if str(lineno) in config.get('bare_narration_by_source_line',{}):
+                    continue
                 if include_bare and a.strip() and not a.lstrip().startswith(('[', '//')):
                     continue
                 da,db=DECISION.search(a),DECISION.search(b)
