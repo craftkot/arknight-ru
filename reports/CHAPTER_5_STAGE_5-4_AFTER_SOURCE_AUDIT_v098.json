@@ -1,0 +1,49 @@
+{
+  "version": "v0.98",
+  "scene": "5-4 after battle — complete first literary draft (51 named + 8 bare = 59 text entries)",
+  "relative_story_path": "obt/main/level_main_05-04_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_05-04_end.txt",
+      "git_blob_sha1": "1cd797556e223bd17552b9f7c81231b32d1433e1",
+      "line_count": 164
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_05-04_end.txt",
+      "git_blob_sha1": "8fa937063c53ac4904fb0bcf4824ab41a1d5501e",
+      "line_count": 165
+    }
+  },
+  "alignment": {
+    "cn_named": 51,
+    "en_named": 51,
+    "cn_bare": 8,
+    "en_bare": 8,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "cn_non_dialogue_commands": 105,
+    "en_non_dialogue_commands": 105,
+    "cn_en_command_differences": [],
+    "en_terminal_newline_extra": true,
+    "cn_en_exact_bytes_equal": false,
+    "source_total_text_entries": 59,
+    "ru_complete_text_entries": 59,
+    "source_text_entries_remaining": 0,
+    "source_choice_commands": 0,
+    "markup_tokens_preserved_in_translated_lines": true,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "editorial_notes": [
+    "CN primary, EN for alignment and official character names.",
+    "CN line 39 refers to an empty room kept for Ch'en, not a tidy bed as EN implies.",
+    "CN line 42 describes scratching her arms, rather than peeling off skin as in EN.",
+    "CN line 48 asks what Reunion is doing; EN adds an unsupported explanation involving the photo.",
+    "CN line 56 says Ch'en may have a clue; EN changes this to having much on her mind.",
+    "Four unnamed rules of childhood and four unnamed traumatic recollections preserved in ordinal sequence.",
+    "No complete CN/EN scripts redistributed; local preview is not a verified game patch."
+  ]
+}
