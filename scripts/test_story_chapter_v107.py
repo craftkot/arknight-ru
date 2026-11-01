@@ -25,7 +25,7 @@ class Chapter59AfterV107(unittest.TestCase):
         self.assertEqual((c["cn_git_blob_sha1"], c["en_git_blob_sha1"]), ("ced45a6cd4fe5679c87cdd7ddae10fe051ef9465", "e02b0f41bbaf69d866c1ba86b73d5f361227b6fb"))
         self.assertEqual((c["source_dialogue_line_numbers"]["94"], c["source_dialogue_line_numbers"]["136"]), (226, 298))
         self.assertEqual(len(c["source_dialogue_line_numbers"]), 136)
-        self.assertTrue(all(v.strip() and not any(x in v for x in "\\r\\n\\t") for v in c["dialogues"].values()))
+        self.assertTrue(all(v.strip() and not any(x in v for x in "\r\n\t") for v in c["dialogues"].values()))
         self.assertIn("внезапный удар", c["dialogues"]["106"])
 
     def test_previous_93_unchanged_and_selection(self):
@@ -50,7 +50,7 @@ class Chapter59AfterV107(unittest.TestCase):
         self.assertEqual((q["new_text_entries"], q["completed_story_files"], q["source_text_entries_remaining"]), (43, 94, 0))
         self.assertEqual((a["alignment"]["cn_named"], a["alignment"]["en_named"]), (136, 136))
         self.assertTrue(a["alignment"]["cn_en_non_dialogue_commands_equal"])
-        self.assertIn("level_main_05-09_end.txt\\tfirst_draft_complete\\t136\\t0\\t136", (ROOT / "story/CHAPTER_5_INDEX_v107.tsv").read_text(encoding="utf-8"))
+        self.assertIn("level_main_05-09_end.txt\tfirst_draft_complete\t136\t0\t136", (ROOT / "story/CHAPTER_5_INDEX_v107.tsv").read_text(encoding="utf-8"))
 
     def test_preview_preserves_commands_and_corrupted_speakers(self):
         c = load(NEW)["files"][REL]
@@ -61,7 +61,7 @@ class Chapter59AfterV107(unittest.TestCase):
             name = special.get(i, "Ch'en")
             lines.append('[name="' + name + '"]  EN line ' + str(i))
         lines.append("[Dialog]")
-        raw = "\\n".join(lines) + "\\n"
+        raw = "\n".join(lines) + "\n"
         patched, count = ap.patch_bytes(raw.encode("utf-8"), c["dialogues"])
         out = patched.decode("utf-8").splitlines()
         self.assertEqual(count, 136)
