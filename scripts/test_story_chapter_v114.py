@@ -20,7 +20,7 @@ class Chapter510AfterPartialV114(unittest.TestCase):
         self.assertEqual(set(new["source_dialogue_line_numbers"]), set(new["dialogues"]))
         self.assertEqual({k:new["dialogues"][k] for k in old["dialogues"]}, old["dialogues"])
         self.assertEqual({k:new["source_dialogue_line_numbers"][k] for k in old["source_dialogue_line_numbers"]}, old["source_dialogue_line_numbers"])
-        self.assertTrue(all(x.strip() and "\\n" not in x and "\\r" not in x for x in new["dialogues"].values()))
+        self.assertTrue(all(x.strip() and "\n" not in x and "\r" not in x for x in new["dialogues"].values()))
 
     def test_progress_and_source_specifics(self):
         d = load(NEW)
@@ -51,7 +51,7 @@ class Chapter510AfterPartialV114(unittest.TestCase):
         self.assertEqual((m["next_file"],m["next_named_ordinal"]),(REL,116))
         self.assertEqual((t["main_story_files"],t["main_story_partial_named_ru_lines"],t["main_story_text_entries_including_partial"]),(95,115,6103))
         index=(ROOT/"story/CHAPTER_5_INDEX_v114.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_05-10_end.txt\\tpartial_first_draft_115_of_150\\t115\\t0\\t115",index)
+        self.assertIn("level_main_05-10_end.txt\tpartial_first_draft_115_of_150\t115\t0\t115",index)
 
 if __name__ == "__main__":
     unittest.main()
