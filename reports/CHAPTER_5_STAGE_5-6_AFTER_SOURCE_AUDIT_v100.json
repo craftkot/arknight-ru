@@ -1,0 +1,49 @@
+{
+  "version": "v1.00",
+  "scene": "5-6 after battle — complete first literary draft (36 named, no bare)",
+  "relative_story_path": "obt/main/level_main_05-06_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_05-06_end.txt",
+      "git_blob_sha1": "3cbc5dcddaf63bef2a2f2adc9e8c63b5c8c8f470",
+      "line_count": 100
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_05-06_end.txt",
+      "git_blob_sha1": "d865c31782838546087dd83faf3d0120b880a653",
+      "line_count": 100
+    }
+  },
+  "alignment": {
+    "cn_named": 36,
+    "en_named": 36,
+    "cn_bare": 0,
+    "en_bare": 0,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "cn_non_dialogue_commands": 64,
+    "en_non_dialogue_commands": 64,
+    "cn_en_command_differences": [],
+    "en_terminal_newline_extra": true,
+    "cn_en_exact_bytes_equal": false,
+    "source_total_text_entries": 36,
+    "ru_complete_text_entries": 36,
+    "source_text_entries_remaining": 0,
+    "source_choice_commands": 0,
+    "markup_tokens_preserved_in_translated_lines": true,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "editorial_notes": [
+    "CN primary for meaning; EN for official names and structural alignment; source blob hashes pinned.",
+    "CN uses a phonetic rendering of Swarovski; RU uses «Сваровски».",
+    "CN calls the floor East Dagu Plaza L3; EN names East Paci Plaza. RU uses the established «Паси-Плаза» and retains L3.",
+    "CN describes several wardrobes of clothes left for moths; EN softens this to cobwebs. RU follows CN.",
+    "CN specifically threatens to blow up the L.G.D.; EN generalizes the threat. RU follows CN.",
+    "CN 阿发 refers to Phal; previous chapter 5 drafts use «Фал».",
+    "No complete CN/EN script redistributed. No in-client patch verification."
+  ]
+}
