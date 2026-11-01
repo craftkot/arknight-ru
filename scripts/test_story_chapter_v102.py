@@ -17,7 +17,7 @@ class Chapter57AfterV102(unittest.TestCase):
         c = load(NEW)["files"][REL]
         self.assertEqual((c["dialogue_count"],c["named_dialogue_count"],c["unnamed_dialogue_count"]),(92,90,2))
         self.assertEqual(set(c["dialogues"]),{str(i) for i in range(1,93)})
-        self.assertTrue(all(s.strip() and not any(x in s for x in "\\r\\n\\t") for s in c["dialogues"].values()))
+        self.assertTrue(all(s.strip() and not any(x in s for x in "\r\n\t") for s in c["dialogues"].values()))
         self.assertEqual(c["cn_git_blob_sha1"],"b1ddd2da99c09995c17c717cd51855d4216cd1ef")
         self.assertEqual(c["en_git_blob_sha1"],"cb5b1c86451cde4993a9a2b0dc1c1835dc3ffbfa")
         self.assertIn("опереться",c["dialogues"]["73"])
@@ -41,7 +41,7 @@ class Chapter57AfterV102(unittest.TestCase):
         self.assertEqual(m["next_file"],"obt/main/level_main_05-09_beg.txt")
         self.assertEqual((m["translation_integrity"]["main_story_files"],m["translation_integrity"]["main_story_named_ru_lines"]),(92,5525))
         self.assertEqual((q["new_text_entries"],q["source_text_entries_remaining"],q["completed_story_files"]),(92,0,92))
-        self.assertIn("level_main_05-07_end.txt\\tfirst_draft_complete\\t90\\t2\\t92",(ROOT/"story/CHAPTER_5_INDEX_v102.tsv").read_text(encoding="utf-8"))
+        self.assertIn("level_main_05-07_end.txt\tfirst_draft_complete\t90\t2\t92",(ROOT/"story/CHAPTER_5_INDEX_v102.tsv").read_text(encoding="utf-8"))
     def test_preview_commands_speakers_and_captions(self):
         c=load(NEW)["files"][REL]
         self.assertTrue(re.fullmatch(ap.ALLOWED_PATH,REL))
@@ -50,7 +50,7 @@ class Chapter57AfterV102(unittest.TestCase):
             name="" if i in (78,79) else ("Radio Operator" if 18<=i<=30 else ("???" if i in (50,65) else "Ch'en"))
             lines.append('[name="'+name+'"]  EN line '+str(i))
         lines.append("[Dialog]")
-        raw="\\n".join(lines)+"\\n"
+        raw="\n".join(lines)+"\n"
         patched,count=ap.patch_bytes(raw.encode("utf-8"),c["dialogues"])
         result=patched.decode("utf-8").splitlines()
         self.assertEqual(count,92)
