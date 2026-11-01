@@ -1,0 +1,50 @@
+{
+  "version": "v1.03",
+  "scene": "5-9 before battle — complete first literary draft (44 named, 2 unnamed captions)",
+  "relative_story_path": "obt/main/level_main_05-09_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_05-09_beg.txt",
+      "git_blob_sha1": "69e9a66b3aefa468d2dc1522aa70371199d631fa",
+      "line_count": 101
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_05-09_beg.txt",
+      "git_blob_sha1": "5a01f7285acbbb292ab87ed46bb3873650b667ec",
+      "line_count": 102
+    }
+  },
+  "alignment": {
+    "cn_named": 44,
+    "en_named": 44,
+    "cn_bare": 2,
+    "en_bare": 2,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "cn_non_dialogue_commands": 55,
+    "en_non_dialogue_commands": 55,
+    "cn_en_command_differences": [],
+    "en_terminal_newline_extra": true,
+    "cn_en_exact_bytes_equal": false,
+    "source_total_text_entries": 46,
+    "ru_complete_text_entries": 46,
+    "source_text_entries_remaining": 0,
+    "source_choice_commands": 0,
+    "markup_tokens_preserved_in_translated_lines": true,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "editorial_notes": [
+    "CN is primary; EN used for character naming and structure. Source Git blob hashes pinned.",
+    "CN line 12 says it is hard to imagine what battles the damaged Reunion troops endured; EN says they likely saw little combat. RU follows CN.",
+    "CN 先说结论吧 at dialogue 22 introduces conclusions, not a conjecture (EN).",
+    "CN at dialogue 41 says 'Welcome', while EN adds 'Good evening'; RU follows CN.",
+    "CN at dialogue 45 explicitly invites all opponents to attack together; EN is more generic. RU follows CN.",
+    "Two nameless timestamp/location captions at positions 1–2 preserved; time separator follows EN format.",
+    "Source HEADER calls this 第六关（后） despite path 05-09_beg; not changed.",
+    "Original CN/EN game scripts not stored. Local preview only; no in-client patch validation."
+  ]
+}
