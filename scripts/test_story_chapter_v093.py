@@ -26,7 +26,7 @@ class Chapter52AfterV093(unittest.TestCase):
         self.assertEqual(cfg["dialogues"]["67"], "На склад Мук-Во.")
         self.assertIn("{@nickname}", cfg["dialogues"]["11"])
         self.assertIn("{@nickname}", cfg["dialogues"]["57"])
-        self.assertTrue(all(v.strip() and not any(c in v for c in "\\r\\n\\t") for v in cfg["dialogues"].values()))
+        self.assertTrue(all(v.strip() and not any(c in v for c in "\r\n\t") for v in cfg["dialogues"].values()))
 
     def test_selection_preserves_previous_83(self):
         old = load("story/story_main_selection_ru_v092.json")
@@ -48,18 +48,18 @@ class Chapter52AfterV093(unittest.TestCase):
         self.assertEqual((a["alignment"]["cn_non_dialogue_commands"], a["alignment"]["en_non_dialogue_commands"]), (68, 68))
         self.assertTrue(a["alignment"]["cn_en_text_source_line_positions_equal"])
         idx = (ROOT / "story/CHAPTER_5_INDEX_v093.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_05-02_end.txt\\tfirst_draft_complete\\t67\\t0\\t67", idx)
+        self.assertIn("level_main_05-02_end.txt\tfirst_draft_complete\t67\t0\t67", idx)
 
     def test_preview_preserves_commands_and_inline_tokens(self):
         cfg = load(NEW)["files"][REL]
         self.assertTrue(re.fullmatch(ap.ALLOWED_PATH, REL))
-        source = '[HEADER(key="title_test")] sample\\n' + ''.join(
-            '[name="Ch\\'en"]   EN line ' + str(i) + (' {@nickname}' if i in (11, 57) else '') + '\\n'
+        source = '[HEADER(key="title_test")] sample\n' + ''.join(
+            '[name="Ch\'en"]   EN line ' + str(i) + (' {@nickname}' if i in (11, 57) else '') + '\n'
             for i in range(1, 68)
-        ) + '[Image]\\n'
+        ) + '[Image]\n'
         patched, count = ap.patch_bytes(source.encode("utf-8"), cfg["dialogues"])
         self.assertEqual(count, 67)
-        self.assertIn('[Image]\\n', patched.decode())
+        self.assertIn('[Image]\n', patched.decode())
         self.assertIn('[name="Чэнь"]   ' + cfg["dialogues"]["1"], patched.decode())
         with self.assertRaises(ValueError):
             ap.patch_bytes(source.encode("utf-8"), dict(list(cfg["dialogues"].items())[:-1]))
