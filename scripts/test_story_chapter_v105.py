@@ -18,7 +18,7 @@ class Chapter59AfterPartialV105(unittest.TestCase):
         self.assertFalse(p["progress"]["complete"])
         self.assertEqual((p["progress"]["total_ru_text_entries"], p["progress"]["remaining_text_entries"]), (59, 77))
         self.assertEqual((p["progress"]["source_lines_translated_through"], p["progress"]["first_untranslated_named_source_line"], p["progress"]["next_named_ordinal"]), (139, 144, 60))
-        self.assertTrue(all(isinstance(v, str) and v.strip() and not any(ch in v for ch in "\\r\\n\\t") for v in p["dialogues"].values()))
+        self.assertTrue(all(isinstance(v, str) and v.strip() and not any(ch in v for ch in "\r\n\t") for v in p["dialogues"].values()))
 
     def test_prior_translation_unchanged(self):
         previous = load("story/story_chapter_5_stage_5-9_after_partial_ru_v104.json")
@@ -42,7 +42,7 @@ class Chapter59AfterPartialV105(unittest.TestCase):
         self.assertEqual((q["new_text_entries"], q["partial_scene_text_entries"], q["source_text_entries_remaining"]), (39, 59, 77))
         self.assertEqual((a["alignment"]["cn_named"], a["alignment"]["en_named"]), (136, 136))
         self.assertTrue(a["alignment"]["cn_en_non_dialogue_commands_equal"])
-        self.assertIn("level_main_05-09_end.txt\\tpartial_first_draft_59_of_136\\t59\\t0\\t59", (ROOT / "story/CHAPTER_5_INDEX_v105.tsv").read_text(encoding="utf-8"))
+        self.assertIn("level_main_05-09_end.txt\tpartial_first_draft_59_of_136\t59\t0\t59", (ROOT / "story/CHAPTER_5_INDEX_v105.tsv").read_text(encoding="utf-8"))
 
 if __name__ == "__main__":
     unittest.main()
