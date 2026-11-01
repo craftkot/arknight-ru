@@ -1,0 +1,48 @@
+{
+  "version": "v0.93",
+  "scene": "5-2 after battle — complete first literary draft",
+  "relative_story_path": "obt/main/level_main_05-02_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_05-02_end.txt",
+      "git_blob_sha1": "12b57140bdc7e18cbd6f58ffe7cb49b8d38d5b5d",
+      "line_count": 135
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_05-02_end.txt",
+      "git_blob_sha1": "e12dd37761ad03a4e16dc77e84709e2a2b64662b",
+      "line_count": 136
+    }
+  },
+  "alignment": {
+    "cn_named": 67,
+    "en_named": 67,
+    "cn_bare": 0,
+    "en_bare": 0,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "cn_non_dialogue_commands": 68,
+    "en_non_dialogue_commands": 68,
+    "cn_en_command_differences": [],
+    "en_terminal_newline_extra": true,
+    "cn_en_exact_bytes_equal": false,
+    "source_total_text_entries": 67,
+    "ru_complete_text_entries": 67,
+    "ru_named": 67,
+    "ru_bare": 0,
+    "source_choice_commands": 0,
+    "markup_tokens_preserved": true,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "Both Git blob SHAs pinned. 67 named text positions and 68 non-dialogue commands align exactly; EN has one extra terminal newline.",
+    "CN indicates the operator's concern that Amiya and the Doctor are of unknown survival status; EN paraphrases as missing in action.",
+    "CN distinguishes Ch'en's confidential prior orders from her public explanation to Hoshiguma; the RU draft retains this.",
+    "CN calls the destination 木禾仓库; EN Muk Wo Warehouse; Russian uses Мук-Во, consistent with previous scene.",
+    "No original full CN/EN script is committed. Preview is not an installed or tested game patch."
+  ]
+}
