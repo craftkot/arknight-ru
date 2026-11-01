@@ -1,0 +1,49 @@
+{
+  "version": "v0.99",
+  "scene": "5-6 before battle — complete first literary draft (54 named; no bare)",
+  "relative_story_path": "obt/main/level_main_05-06_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_05-06_beg.txt",
+      "git_blob_sha1": "2671e34a7bfc23ec744fbb871919ea65dd8d9dac",
+      "line_count": 147
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_05-06_beg.txt",
+      "git_blob_sha1": "2f41636c370d8051f5b528c6de3918e08b3f6c41",
+      "line_count": 148
+    }
+  },
+  "alignment": {
+    "cn_named": 54,
+    "en_named": 54,
+    "cn_bare": 0,
+    "en_bare": 0,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "cn_non_dialogue_commands": 93,
+    "en_non_dialogue_commands": 93,
+    "cn_en_command_differences": [],
+    "en_terminal_newline_extra": true,
+    "cn_en_exact_bytes_equal": false,
+    "source_total_text_entries": 54,
+    "ru_complete_text_entries": 54,
+    "source_text_entries_remaining": 0,
+    "source_choice_commands": 0,
+    "markup_tokens_preserved_in_translated_lines": true,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "editorial_notes": [
+    "CN primary for meaning; EN for official names and structure. Source blob hashes recorded.",
+    "CN 大古广场 (Dagu Plaza) is officially named Paci Plaza in EN; Russian draft uses «Паси-Плаза» consistently.",
+    "CN officer answers 'Yes sir' in English, EN adapts to 'Yes ma'am'; RU uses neutral «Есть!» to avoid an unsupported gender/title choice.",
+    "CN specifies a rope descent from the top floor, which is retained instead of EN's shortened description.",
+    "CN says the attackers emerge from upper floors, not necessarily the roof; Russian keeps «с верхних этажей».",
+    "CN has censored Ursus and Lungmen expletives; their nature is indicated without inventing profanity.",
+    "No complete CN/EN script redistributed; preview is not a verified client patch."
+  ]
+}
