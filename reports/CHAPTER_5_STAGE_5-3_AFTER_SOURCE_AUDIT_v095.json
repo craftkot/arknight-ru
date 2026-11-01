@@ -1,0 +1,47 @@
+{
+  "version": "v0.95",
+  "scene": "5-3 after battle — complete first literary draft",
+  "relative_story_path": "obt/main/level_main_05-03_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_05-03_end.txt",
+      "git_blob_sha1": "75172bb631b20d4f3497228bfb4e0033c332fc52",
+      "line_count": 206
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_05-03_end.txt",
+      "git_blob_sha1": "6f6259b98075841bf0e37a1c14afc2bf9baf5c7c",
+      "line_count": 207
+    }
+  },
+  "alignment": {
+    "cn_named": 95,
+    "en_named": 95,
+    "cn_bare": 0,
+    "en_bare": 0,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "cn_non_dialogue_commands": 111,
+    "en_non_dialogue_commands": 111,
+    "cn_en_command_differences": [],
+    "en_terminal_newline_extra": true,
+    "cn_en_exact_bytes_equal": false,
+    "source_total_text_entries": 95,
+    "ru_complete_text_entries": 95,
+    "ru_named": 95,
+    "ru_bare": 0,
+    "source_choice_commands": 0,
+    "markup_tokens_preserved": true,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "CN and EN 95 named positions and 111 commands align exactly; EN has one extra terminal newline.",
+    "CN is primary for the depiction of Hoshiguma's roar, the informant's plea, and Ch'en's affirmation that Phal belongs to Lungmen; EN is used for names and structural verification.",
+    "CN 鬼姐 is rendered «сестра Они», 中水三杰 as «трое героев Чун-Шуй», and 般若 as «Хання». Literary editorial review pending.",
+    "No full CN/EN script is committed. Local preview does not demonstrate in-client support."
+  ]
+}
