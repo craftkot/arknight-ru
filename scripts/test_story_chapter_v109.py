@@ -22,7 +22,7 @@ class Chapter510BeforePartialV109(unittest.TestCase):
         self.assertEqual((p["progress"]["named_ru_lines"], p["progress"]["next_named_ordinal"]), (98, 99))
         self.assertEqual((p["progress"]["source_lines_translated_through"], p["progress"]["first_untranslated_named_source_line"]), (284, 299))
         self.assertEqual((p["source_dialogue_line_numbers"]["52"], p["source_dialogue_line_numbers"]["98"]), (139, 284))
-        self.assertTrue(all(v.strip() and not any(x in v for x in "\\r\\n\\t") for v in p["dialogues"].values()))
+        self.assertTrue(all(v.strip() and not any(x in v for x in "\r\n\t") for v in p["dialogues"].values()))
 
     def test_previous_translation_preserved_and_cn_meaning(self):
         prev, cur = load(OLD), load(NEW)
@@ -56,7 +56,7 @@ class Chapter510BeforePartialV109(unittest.TestCase):
         self.assertFalse(q["included_in_complete_story_selection"])
         self.assertFalse(q["in_game_test"])
         idx = (ROOT / "story/CHAPTER_5_INDEX_v109.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_05-10_beg.txt\\tpartial_first_draft_98_of_247\\t98\\t0\\t98", idx)
+        self.assertIn("level_main_05-10_beg.txt\tpartial_first_draft_98_of_247\t98\t0\t98", idx)
 
 if __name__ == "__main__":
     unittest.main()
