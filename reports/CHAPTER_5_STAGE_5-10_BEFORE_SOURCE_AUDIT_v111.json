@@ -1,0 +1,57 @@
+{
+  "version": "v1.11",
+  "scene": "5-10 before battle — complete first literary draft",
+  "relative_story_path": "obt/main/level_main_05-10_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_05-10_beg.txt",
+      "git_blob_sha1": "922973f06fdda4acb1ad0207ef2ae6f07e3472f1",
+      "line_count": 673
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_05-10_beg.txt",
+      "git_blob_sha1": "dbf64cfdcc8e97b720398c386000477d0da81ea8",
+      "line_count": 674
+    }
+  },
+  "alignment": {
+    "cn_tagged": 247,
+    "en_tagged": 247,
+    "cn_nonempty_speaker": 245,
+    "en_nonempty_speaker": 245,
+    "cn_empty_speaker": 2,
+    "en_empty_speaker": 2,
+    "cn_bare": 1,
+    "en_bare": 1,
+    "cn_en_tagged_positions_equal": true,
+    "cn_en_bare_positions_equal": true,
+    "cn_bracket_commands": 425,
+    "en_bracket_commands": 425,
+    "cn_en_command_positions_equal": true,
+    "cn_en_non_decision_command_text_equal": true,
+    "decision_commands_differing_only_in_localized_options": 6,
+    "source_choice_commands": 6,
+    "source_choice_options": 10,
+    "source_predicate_commands": 9,
+    "en_terminal_newline_extra": true,
+    "ru_tagged_entries": 247,
+    "ru_bare_entries": 1,
+    "ru_choice_options": 10,
+    "source_total_text_entries_excluding_choices": 248,
+    "ru_total_text_entries_excluding_choices": 248,
+    "markup_preserved": true,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "All 247 tagged dialogue positions, bare narration at line 523 and 425 commands align between pinned CN and EN Git blobs.",
+    "Six Decision commands differ in localized options only, at source lines 528, 629, 643, 648, 666, 668; ten RU choices retain values and Predicate branches.",
+    "Two [name=\"\"] captions at lines 524 and 525 are counted in 247 tagged lines but are not spoken character lines.",
+    "CN line 525 identifies a named aircraft Bad Guy, EN labels a call sign. CN line 597 contrasts Mephisto's control of ordinary people with FrostNova; EN introduces pawns. CN line 664 states the next hard battle will begin.",
+    "Previously translated 157 entries are unchanged; source CN/EN scripts are not redistributed.",
+    "Local preview is not an in-client game patch; literary review and game testing pending."
+  ]
+}
