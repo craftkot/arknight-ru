@@ -1,0 +1,47 @@
+{
+  "version": "v0.94",
+  "scene": "5-3 before battle — complete first literary draft",
+  "relative_story_path": "obt/main/level_main_05-03_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_05-03_beg.txt",
+      "git_blob_sha1": "bbe0b6e49e57146f9d221d6e968783735aae2dfc",
+      "line_count": 64
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_05-03_beg.txt",
+      "git_blob_sha1": "5a36a518ae389f9604f22ca7e3a5bd5a8f4f5211",
+      "line_count": 65
+    }
+  },
+  "alignment": {
+    "cn_named": 27,
+    "en_named": 27,
+    "cn_bare": 2,
+    "en_bare": 2,
+    "cn_en_text_source_line_positions_equal": true,
+    "cn_en_non_dialogue_commands_equal": true,
+    "cn_non_dialogue_commands": 35,
+    "en_non_dialogue_commands": 35,
+    "cn_en_command_differences": [],
+    "en_terminal_newline_extra": true,
+    "cn_en_exact_bytes_equal": false,
+    "source_total_text_entries": 29,
+    "ru_complete_text_entries": 29,
+    "ru_named": 27,
+    "ru_bare": 2,
+    "source_choice_commands": 0,
+    "markup_tokens_preserved": true,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "CN/EN 29 text positions and 35 command lines align. Source HEADER remains Chinese in both CN/EN; not altered.",
+    "CN 阿发 and EN Phal rendered Фал; 三窗仔 / Sam Cheong Chai rendered Сам-Чхёнг-Чай. Cross-check: https://arknights.wiki.gg/wiki/5-3/Story",
+    "CN text position 28 says 'only three minutes'; EN says 'It's all I'm going to need', altering the meaning. RU follows CN.",
+    "Two [name=\"\"] captions are counted as text. No full original script committed; preview is not an installed game patch."
+  ]
+}
