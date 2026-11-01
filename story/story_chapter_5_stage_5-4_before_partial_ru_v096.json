@@ -1,0 +1,63 @@
+{
+  "version": "v0.96-partial",
+  "stage": "Main story chapter 5, stage 5-4 before battle",
+  "status": "PARTIAL_FIRST_LITERARY_DRAFT; SCENE_NOT_COMPLETE; NOT_PATCHABLE; NOT_GAME_TESTED",
+  "translation_source_priority": "CN primary for meaning; EN for speaker names and structural alignment",
+  "source_file": "obt/main/level_main_05-04_beg.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_path": "zh_CN/gamedata/story/obt/main/level_main_05-04_beg.txt",
+    "cn_git_blob_sha1": "54a9f0ea3102c4a0918bee64fed05f5131f97cfd",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_path": "en_US/gamedata/story/obt/main/level_main_05-04_beg.txt",
+    "en_git_blob_sha1": "8a998d4848d426c07ad88b17a1fb84379257f4f8",
+    "cn_named_total": 41,
+    "en_named_total": 41,
+    "cn_unnamed_total": 0,
+    "en_unnamed_total": 0,
+    "cn_line_count": 106,
+    "en_line_count": 107
+  },
+  "progress": {
+    "named_ru_lines": 20,
+    "unnamed_ru_lines": 0,
+    "total_ru_text_entries": 20,
+    "source_total_text_entries": 41,
+    "remaining_text_entries": 21,
+    "source_lines_translated_through": 49,
+    "first_untranslated_named_source_line": 50,
+    "next_named_ordinal": 21,
+    "complete": false
+  },
+  "dialogues": {
+    "1": "Хосигума?",
+    "2": "А?",
+    "3": "Ты плохо выглядишь.",
+    "4": "Со мной всё в порядке. Просто задумалась.",
+    "5": "…Не думала, что его тоже втянут в это.",
+    "6": "Ничего. Ты же меня знаешь. Что было, то прошло. Как говорят в Лунмэне, такова судьба.",
+    "7": "И в Хигаси верят в судьбу?",
+    "8": "После всего, что я пережила, даже если раньше не верила, теперь пришлось смириться.",
+    "9": "Донесение точное?",
+    "10": "Без сомнений. Именно это место указано в донесении.",
+    "11": "Наша цель — те бойцы Воссоединения, что там крадутся?",
+    "12": "Похоже, нас они не заметили. Даже не знают, что Гвардия Лунмэня полностью взяла их в кольцо.",
+    "13": "Кажется, они что-то сооружают по периметру квартала.",
+    "14": "Если я не ошибаюсь, это один из центральных узлов, связывающих опорные пункты Воссоединения.",
+    "15": "Уничтожив здешнее оборудование связи, мы нанесём серьёзный удар по противнику во всём районе.",
+    "16": "Это повысит наши шансы при решающем контрнаступлении на штаб Гвардии Лунмэня.",
+    "17": "Как скажешь.",
+    "18": "Кроме того, меня беспокоят подробности из донесения.",
+    "19": "Ты о том, что Воссоединение действует здесь не только ради создания укреплённого опорного пункта?",
+    "20": "Именно."
+  },
+  "editorial_notes": [
+    "Continuous opening dialogue positions 1–20, source lines 7–49. Natural cut before the quoted intelligence report at dialogue 21.",
+    "CN 东国 is rendered Хигаси (Higashi); CN 命 refers to fate, not a literal legal verdict.",
+    "CN specifies communications transmission/receiving equipment and a final counterattack on the L.G.D. headquarters; EN broadly says communication facility and one step closer.",
+    "The 41 text positions and 65 non-dialogue commands align CN/EN; EN has one additional terminal newline.",
+    "Do not include this partial map in complete-story selection or use it as a full-scene game patch."
+  ]
+}
