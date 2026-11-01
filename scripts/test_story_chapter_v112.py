@@ -25,7 +25,7 @@ class Chapter510AfterPartialV112(unittest.TestCase):
     def test_markup_and_no_fake_complete_scene(self):
         c = load(NEW)
         self.assertIn("{@nickname}", c["dialogues"]["42"])
-        self.assertTrue(all(v.strip() and not any(ch in v for ch in "\\r\\n\\t") for v in c["dialogues"].values()))
+        self.assertTrue(all(v.strip() and "\r" not in v and "\n" not in v and "\t" not in v for v in c["dialogues"].values()))
         sel = load("story/story_main_selection_ru_v111.json")
         self.assertEqual(len(sel["files"]), 95)
         self.assertNotIn(REL, sel["files"])
@@ -44,7 +44,7 @@ class Chapter510AfterPartialV112(unittest.TestCase):
         self.assertEqual((m["translation_integrity"]["main_story_files"], m["translation_integrity"]["main_story_partial_named_ru_lines"]), (95, 45))
         self.assertEqual(m["translation_integrity"]["main_story_text_entries_including_partial"], 6033)
         idx = (ROOT / "story/CHAPTER_5_INDEX_v112.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_05-10_end.txt\\tpartial_first_draft_45_of_150\\t45\\t0\\t45", idx)
+        self.assertIn("level_main_05-10_end.txt\tpartial_first_draft_45_of_150\t45\t0\t45", idx)
 
 if __name__ == "__main__":
     unittest.main()
