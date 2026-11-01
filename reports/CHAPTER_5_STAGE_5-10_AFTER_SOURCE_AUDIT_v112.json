@@ -1,0 +1,46 @@
+{
+  "version": "v1.12",
+  "scene": "5-10 after battle — PARTIAL first literary draft (ordinals 1–45 of 150)",
+  "relative_story_path": "obt/main/level_main_05-10_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+      "git_blob_sha1": "7f4138c8b615b4965c98c08f08bff695d37555c5",
+      "line_count": 415
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_05-10_end.txt",
+      "git_blob_sha1": "a26bb1d24231785c98762193454268f5f8fbf081",
+      "line_count": 416
+    }
+  },
+  "alignment": {
+    "cn_tagged": 150,
+    "en_tagged": 150,
+    "cn_nonempty_speaker": 150,
+    "en_nonempty_speaker": 150,
+    "cn_empty_speaker": 0,
+    "en_empty_speaker": 0,
+    "cn_bracket_commands": 265,
+    "en_bracket_commands": 265,
+    "cn_en_tagged_positions_equal": true,
+    "cn_en_command_positions_equal": true,
+    "cn_en_command_text_equal": true,
+    "source_choice_commands": 0,
+    "source_bare_text_lines": 0,
+    "en_terminal_newline_extra": true,
+    "ru_tagged_entries": 45,
+    "ru_remaining_entries": 105,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "CN and EN versions agree in line ordering and all 265 bracket commands; the EN file contains an additional terminal newline.",
+    "Russian translation is a contiguous opening fragment of 45 named lines; ordinals 46–150 are not translated.",
+    "CN differences checked at source lines 22, 41, 63, 97, 111 and 112. Name tags, placeholders and all command/branch structure are left in source files.",
+    "This is an ordinal-only draft, not an installed or tested game patch."
+  ]
+}
