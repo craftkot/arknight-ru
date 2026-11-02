@@ -32,5 +32,5 @@ class Chapter604BeforeV128(unittest.TestCase):
         self.assertEqual((q["scene_ru_named"],q["scene_remaining_named"],q["included_in_complete_story_selection"]),(7,140,False))
         self.assertEqual(m["next_file"],"obt/main/level_main_06-04_beg.txt")
         idx=(ROOT/"story/CHAPTER_6_INDEX_v128.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_06-04_beg.txt\\tpartial_first_draft_7_of_147\t7\t0\t7",idx)
+        self.assertIn("level_main_06-04_beg.txt\tpartial_first_draft_7_of_147\t7\t0\t7",idx)
 if __name__=="__main__": unittest.main()
