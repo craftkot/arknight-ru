@@ -19,7 +19,7 @@ class Chapter605AfterV138(unittest.TestCase):
         self.assertEqual((p["next_text_ordinal"], p["next_source_line"], p["source_lines_translated_through"]), (51, 115, 113))
         self.assertEqual(d["source_dialogue_line_numbers"]["50"], 113)
         self.assertEqual(d["decisions"], {})
-        self.assertTrue(all(s.strip() and "\\n" not in s and not any(0x4e00 <= ord(c) <= 0x9fff for c in s) for s in d["dialogues"].values()))
+        self.assertTrue(all(s.strip() and "\n" not in s and not any(0x4e00 <= ord(c) <= 0x9fff for c in s) for s in d["dialogues"].values()))
         self.assertIn("100800-00200-rct211-93001", d["dialogues"]["35"])
 
     def test_pins_and_source_alignment(self):
@@ -39,7 +39,7 @@ class Chapter605AfterV138(unittest.TestCase):
         self.assertEqual((q["scene_ru_named"], q["scene_ru_unnamed"], q["scene_remaining_named"], q["included_in_complete_story_selection"]), (46, 4, 63, False))
         self.assertEqual((m["next_file"], m["partial_scene_next_text_ordinal"], m["partial_scene_next_source_line"]), (SCENE, 51, 115))
         idx = (ROOT / "story/CHAPTER_6_INDEX_v138.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_06-05_end.txt\\tpartial_first_draft_50_of_113\\t46\\t4\\t50", idx)
+        self.assertIn("level_main_06-05_end.txt\tpartial_first_draft_50_of_113\t46\t4\t50", idx)
 
     def test_prior_selection_unchanged(self):
         s = load("story/story_main_selection_ru_v137.json")
