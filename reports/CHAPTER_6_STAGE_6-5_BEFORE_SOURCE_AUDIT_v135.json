@@ -1,0 +1,58 @@
+{
+  "version": "v1.35",
+  "scene": "6-5 before battle — PARTIAL first literary draft 48/110",
+  "relative_story_path": "obt/main/level_main_06-05_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_06-05_beg.txt",
+      "git_blob_sha1": "21dbb955fd9e12151a8754930dae6c6e348b1fc2",
+      "line_count": 219
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_06-05_beg.txt",
+      "git_blob_sha1": "aedc8fd8cfa764ecccdcadfd81260cdd27c4fa0e",
+      "line_count": 220
+    }
+  },
+  "alignment": {
+    "cn_tagged": 110,
+    "en_tagged": 110,
+    "cn_plain": 0,
+    "en_plain": 0,
+    "cn_non_decision_commands": 109,
+    "en_non_decision_commands": 109,
+    "cn_en_tagged_positions_equal": true,
+    "cn_en_plain_positions_equal": true,
+    "cn_en_command_positions_equal": true,
+    "cn_en_non_decision_command_text_equal": true,
+    "source_choice_commands": 0,
+    "source_choice_options": 0,
+    "en_terminal_newline_extra": true,
+    "ru_tagged_entries": 48,
+    "ru_plain_entries": 0,
+    "ru_remaining_entries": 62
+  },
+  "cn_primary_decisions": [
+    {
+      "ordinal": 8,
+      "source_line": 22,
+      "note": "饥渴 means hungry and thirsty; EN only mentions thirst."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 73,
+      "note": "CN: all residents in half a block disappeared; avoid EN's potentially ambiguous 'half the residents'."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 81,
+      "note": "CN explicitly says traces of washing/flushing; EN 'cleaning residue' is less specific."
+    }
+  ],
+  "version_comparison": "CN/EN have identical 219 nonempty lines, dialogue and command positions, and exact command text; EN adds one trailing empty line. Narrative language differs as expected.",
+  "qa": "Unreviewed first literary draft; 48 continuous ordinals; no source scripts distributed; not tested in client."
+}
