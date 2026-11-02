@@ -11,7 +11,7 @@
     "https://arknights.wiki.gg/wiki/A_Walk_in_the_Dust"
   ],
   "translation_integrity": {
-    "main_story_named_ru_lines": 6653,
+    "main_story_named_ru_lines": 6689,
     "main_story_files": 103,
     "ui_keyed_ru": 2544,
     "darknights_named_ru_lines": 1902,
@@ -39,7 +39,7 @@
     "main_story_chapter_3_stages_completed": 8,
     "main_story_chapter_3_partial_named_ru_lines": 0,
     "main_story_chapter_3_partial_files": 0,
-    "main_story_named_ru_lines_including_partial": 6653,
+    "main_story_named_ru_lines_including_partial": 6689,
     "main_story_chapter_4_named_ru_lines": 1338,
     "main_story_chapter_4_unnamed_ru_lines": 17,
     "main_story_chapter_4_files": 20,
@@ -66,8 +66,8 @@
     "main_story_chapter_6_partial_unnamed_ru_lines": 0,
     "main_story_chapter_6_partial_files": 0,
     "main_story_chapter_6_partial_text_entries": 0,
-    "main_story_chapter_6_named_ru_lines": 450,
-    "main_story_chapter_6_unnamed_ru_lines": 44
+    "main_story_chapter_6_named_ru_lines": 486,
+    "main_story_chapter_6_unnamed_ru_lines": 46
   },
   "next_file": "obt/main/level_main_06-04_beg.txt",
   "events": [

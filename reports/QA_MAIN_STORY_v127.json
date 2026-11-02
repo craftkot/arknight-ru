@@ -11,8 +11,8 @@
   "scene_remaining_named": 0,
   "scene_remaining_unnamed": 0,
   "completed_story_files": 103,
-  "completed_story_named_ru": 6653,
-  "completed_story_unnamed_ru": 124,
+  "completed_story_named_ru": 6689,
+  "completed_story_unnamed_ru": 88,
   "completed_story_text_entries": 6777,
   "partial_scene_files": 0,
   "partial_scene_text_entries": 0,
@@ -27,5 +27,8 @@
   "included_in_complete_story_selection": true,
   "editorial_review": false,
   "in_game_test": false,
-  "next_file": "obt/main/level_main_06-04_beg.txt"
+  "next_file": "obt/main/level_main_06-04_beg.txt",
+  "selection_dialogue_entries_counted": 6776,
+  "selection_vs_historical_manifest_delta": 1,
+  "count_reconciliation_note": "Historical selection v124 contains 6705 dialogue entries while v126 manifest reports 6706 text entries. New 71-entry scene yields 6776 selection dialogues versus inherited manifest total 6777. The one-entry historical discrepancy remains unresolved; do not infer that a missing scene was translated."
 }
