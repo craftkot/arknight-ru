@@ -14,7 +14,7 @@ class Chapter603AfterV126(unittest.TestCase):
         self.assertEqual({k:d["dialogues"][k] for k in prev["dialogues"]},prev["dialogues"])
         self.assertEqual({k:d["source_dialogue_line_numbers"][k] for k in prev["source_dialogue_line_numbers"]},prev["source_dialogue_line_numbers"])
         self.assertEqual([d["source_dialogue_line_numbers"][str(i)] for i in range(27,39)],[92,93,95,97,99,101,102,104,106,108,109,111])
-        self.assertTrue(all(s.strip() and "\\n" not in s and "\\t" not in s for s in d["dialogues"].values()))
+        self.assertTrue(all(s.strip() and "\n" not in s and "\t" not in s for s in d["dialogues"].values()))
     def test_progress_and_source_invariants(self):
         d=load("story/story_chapter_6_stage_6-3_after_partial_ru_v126.json")
         self.assertEqual((d["progress"]["named_ru_lines"],d["progress"]["unnamed_ru_lines"],d["progress"]["remaining_text_entries"]),(36,2,33))
@@ -31,7 +31,7 @@ class Chapter603AfterV126(unittest.TestCase):
         self.assertEqual((q["scene_ru_named"],q["scene_ru_unnamed"],q["scene_remaining_named"],q["scene_remaining_unnamed"]),(36,2,32,1))
         self.assertFalse(q["included_in_complete_story_selection"])
         idx=(ROOT/"story/CHAPTER_6_INDEX_v126.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_06-03_end.txt\\tpartial_first_draft_38_of_71\\t36\\t2\\t38",idx)
+        self.assertIn("level_main_06-03_end.txt\tpartial_first_draft_38_of_71\t36\t2\t38",idx)
     def test_complete_selection_not_modified(self):
         s=load("story/story_main_selection_ru_v124.json")
         self.assertEqual(len(s["files"]),102)
