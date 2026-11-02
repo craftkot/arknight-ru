@@ -1,0 +1,52 @@
+{
+  "version": "v1.22",
+  "scene": "6-2 after battle — first literary draft complete 46/46",
+  "relative_story_path": "obt/main/level_main_06-02_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_06-02_end.txt",
+      "git_blob_sha1": "2d7aed80762850fa8ba84a4e711294ad28244b4b",
+      "line_count": 101
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_06-02_end.txt",
+      "git_blob_sha1": "edcabd5e8e38861a9888cc9580c3aa6cf00424a6",
+      "line_count": 102
+    }
+  },
+  "alignment": {
+    "cn_tagged": 46,
+    "en_tagged": 46,
+    "cn_plain": 0,
+    "en_plain": 0,
+    "cn_non_decision_commands": 53,
+    "en_non_decision_commands": 53,
+    "cn_en_tagged_positions_equal": true,
+    "cn_en_plain_positions_equal": true,
+    "cn_en_command_positions_equal": true,
+    "cn_en_non_decision_command_text_equal": true,
+    "source_choice_commands": 2,
+    "source_choice_options": 2,
+    "cn_en_decision_positions_equal": true,
+    "cn_en_decision_values_equal": true,
+    "cn_en_decision_options_differ_by_language": true,
+    "en_terminal_newline_extra": true,
+    "ru_tagged_entries": 46,
+    "ru_plain_entries": 0,
+    "ru_choice_options": 2,
+    "ru_remaining_entries": 0,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "CN Blaze states she no longer believes her own claim that beating a Reunion member does not make them non-comrades; EN explicitly declares they are not on the same side. RU follows CN's self-doubt.",
+    "CN line 56 says Mephisto's herd is fighting its own members; EN says killing their own. RU avoids claiming deaths not explicit in CN.",
+    "CN Ch'en receives physiological signals but no scheduled reports and no distress signal; all three distinctions retained.",
+    "CN Swire first refers to a possibly defecting informant with 他 (he), while Ch'en subsequently uses 她 (she); RU preserves the shift in gender.",
+    "Two single-option Decision commands retain their original values and predicate references in upstream source. Only the displayed choice labels are translated here.",
+    "Source game scripts and command syntax are not copied into the repository; the Russian JSON is a separately maintained first literary draft, not a validated client patch."
+  ]
+}
