@@ -1,0 +1,45 @@
+{
+  "version": "v1.25",
+  "scene": "6-3 after battle — partial first literary draft 26/71",
+  "relative_story_path": "obt/main/level_main_06-03_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_06-03_end.txt",
+      "git_blob_sha1": "051c88071492555fa8678a174411fc228e81a1e6",
+      "line_count": 176
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_06-03_end.txt",
+      "git_blob_sha1": "08d87f3b76129c54ba28bf56ddbfcc61d87ca26e",
+      "line_count": 177
+    }
+  },
+  "alignment": {
+    "cn_tagged": 68,
+    "en_tagged": 68,
+    "cn_plain": 3,
+    "en_plain": 3,
+    "cn_non_decision_commands": 105,
+    "en_non_decision_commands": 105,
+    "cn_en_tagged_positions_equal": true,
+    "cn_en_plain_positions_equal": true,
+    "cn_en_command_positions_equal": true,
+    "cn_en_non_decision_command_text_equal": true,
+    "source_choice_commands": 0,
+    "source_choice_options": 0,
+    "en_terminal_newline_extra": true,
+    "ru_tagged_entries": 24,
+    "ru_plain_entries": 2,
+    "ru_remaining_entries": 45,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "CN primary, EN checked against each of the first 26 text positions; source line mapping preserved.",
+    "No CN/EN original scripts are committed.",
+    "This is a partial first literary draft, not a complete scene or game patch."
+  ]
+}
