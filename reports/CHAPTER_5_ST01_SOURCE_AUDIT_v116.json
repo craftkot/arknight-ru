@@ -1,0 +1,48 @@
+{
+  "version": "v1.16",
+  "scene": "5-ST-1 — first literary draft complete",
+  "relative_story_path": "obt/main/level_st_05-01.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_st_05-01.txt",
+      "git_blob_sha1": "f3c8c8c19702ca4ad0ca96ba9a5c89bcc62d4ad1",
+      "line_count": 230
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_st_05-01.txt",
+      "git_blob_sha1": "f1bce8b8d9dd6a335925464dfbc59862376f0f36",
+      "line_count": 231
+    }
+  },
+  "alignment": {
+    "cn_tagged": 107,
+    "en_tagged": 107,
+    "cn_nonempty_speaker": 103,
+    "en_nonempty_speaker": 103,
+    "cn_empty_speaker": 4,
+    "en_empty_speaker": 4,
+    "cn_non_decision_commands": 117,
+    "en_non_decision_commands": 117,
+    "cn_en_tagged_positions_equal": true,
+    "cn_en_command_positions_equal": true,
+    "cn_en_non_decision_command_text_equal": true,
+    "source_choice_commands": 6,
+    "source_choice_options": 10,
+    "cn_en_decision_value_alignment": true,
+    "en_terminal_newline_extra": true,
+    "ru_tagged_entries": 107,
+    "ru_choice_options": 10,
+    "ru_remaining_entries": 0,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "CN/EN Git blob hashes recorded from the live source repositories. All 107 text positions, 6 Decision positions, 10 decision values, and 117 other commands align.",
+    "Chinese CN choice 3 at source line 49 refers to Reunion being most agitated, whereas EN calls them vulnerable; Russian follows CN.",
+    "The source script is not included; this file stores Russian-only text, source ordinals, and the decision values.",
+    "Full first draft, not editorially approved or game-client tested."
+  ]
+}
