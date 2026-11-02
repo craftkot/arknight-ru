@@ -13,7 +13,7 @@ class Chapter603AfterV125(unittest.TestCase):
         self.assertEqual(list(d["source_dialogue_line_numbers"].values()),sorted(d["source_dialogue_line_numbers"].values()))
         self.assertEqual((d["source_dialogue_line_numbers"]["1"],d["source_dialogue_line_numbers"]["11"],d["source_dialogue_line_numbers"]["26"]),(4,28,86))
         self.assertEqual((d["progress"]["named_ru_lines"],d["progress"]["unnamed_ru_lines"],d["progress"]["remaining_text_entries"],d["progress"]["complete"]),(24,2,45,False))
-        self.assertTrue(all(s.strip() and "\\n" not in s for s in d["dialogues"].values()))
+        self.assertTrue(all(s.strip() and "\n" not in s for s in d["dialogues"].values()))
     def test_source_hashes_and_structure(self):
         d=load("story/story_chapter_6_stage_6-3_after_partial_ru_v125.json")
         a=load("reports/CHAPTER_6_STAGE_6-3_AFTER_SOURCE_AUDIT_v125.json")
@@ -33,5 +33,5 @@ class Chapter603AfterV125(unittest.TestCase):
         self.assertEqual((q["scene_ru_named"],q["scene_ru_unnamed"],q["included_in_complete_story_selection"]),(24,2,False))
         self.assertEqual(m["next_file"],"obt/main/level_main_06-03_end.txt")
         idx=(ROOT/"story/CHAPTER_6_INDEX_v125.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_06-03_end.txt\\tpartial_first_draft_26_of_71\\t24\\t2\\t26",idx)
+        self.assertIn("level_main_06-03_end.txt\tpartial_first_draft_26_of_71\t24\t2\t26",idx)
 if __name__=="__main__": unittest.main()
