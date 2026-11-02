@@ -1,0 +1,54 @@
+{
+  "version": "v1.23",
+  "scene": "6-3 before battle — PARTIAL literary draft 36/92",
+  "relative_story_path": "obt/main/level_main_06-03_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_06-03_beg.txt",
+      "git_blob_sha1": "761a61b650186ed88476602440936d8d1e7116d3",
+      "line_count": 221
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_06-03_beg.txt",
+      "git_blob_sha1": "328738b032366a56e2b270e8b8e77ac8fbc92ea3",
+      "line_count": 222
+    }
+  },
+  "alignment": {
+    "cn_tagged": 92,
+    "en_tagged": 92,
+    "cn_plain": 0,
+    "en_plain": 0,
+    "cn_non_decision_commands": 128,
+    "en_non_decision_commands": 128,
+    "cn_en_tagged_positions_equal": true,
+    "cn_en_plain_positions_equal": true,
+    "cn_en_command_positions_equal": true,
+    "cn_en_non_decision_command_text_equal": true,
+    "source_choice_commands": 1,
+    "source_choice_options": 1,
+    "cn_en_decision_positions_equal": true,
+    "cn_en_decision_values_equal": true,
+    "cn_en_decision_options_differ_by_language": true,
+    "en_terminal_newline_extra": true,
+    "ru_tagged_entries": 36,
+    "ru_plain_entries": 0,
+    "ru_choice_options": 0,
+    "ru_remaining_entries": 56,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "First 36 contiguous named dialogue positions translated from CN lines 8–72; 56 named dialogue positions remain. The Decision at line 213 is outside this fragment and is not translated.",
+    "CN calls Reunion fighters 同胞 (compatriots/fellow people who want to survive), whereas EN calls them like-minded individuals. RU retains survival rather than ideological alignment.",
+    "CN says Faust and Mephisto agreed to seek the truth themselves (要自己去看到真相); EN reduces this to looking at facts. RU follows CN.",
+    "CN refers to Mephisto's herd as 牧群, and to FrostNova's 雪怪 as Yetis; RU uses стадо and йети pending full glossary review.",
+    "CN describes infection catalysis (催化他们的感染) and the bodily vitality/seed metaphor; RU does not present the Herd as ordinary soldiers.",
+    "The final text position in this fragment precedes the visual-only transformation sequence; no source commands or source scripts are copied into this translation file.",
+    "Source command positions and exact non-Decision commands match between CN and EN. The sole Decision at line 213 has language-specific option text; values are unchanged.",
+    "Literary first draft only. No editor review, patch validation, or in-game verification."
+  ]
+}
