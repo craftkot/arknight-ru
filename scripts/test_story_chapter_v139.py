@@ -14,7 +14,7 @@ class Chapter605AfterV139(unittest.TestCase):
         self.assertEqual((d["progress"]["named_ru_lines"],d["progress"]["unnamed_ru_lines"],d["progress"]["remaining_text_entries"],d["progress"]["complete"]),(109,4,0,True))
         self.assertEqual(d["source_dialogue_line_numbers"]["113"],227)
         self.assertEqual(d["decisions"],{})
-        self.assertTrue(all(x.strip() and "\\n" not in x and not any(0x4e00<=ord(c)<=0x9fff for c in x) for x in d["dialogues"].values()))
+        self.assertTrue(all(x.strip() and "\n" not in x and not any(0x4e00<=ord(c)<=0x9fff for c in x) for x in d["dialogues"].values()))
     def test_previous_50_preserved(self):
         old=load("story/story_chapter_6_stage_6-5_after_partial_ru_v138.json")["dialogues"]
         new=load("story/story_chapter_6_stage_6-5_after_ru_v139.json")["dialogues"]
@@ -38,6 +38,6 @@ class Chapter605AfterV139(unittest.TestCase):
         self.assertEqual((m["translation_integrity"]["main_story_files"],m["translation_integrity"]["main_story_partial_files"]),(107,0))
         self.assertEqual((q["completed_story_text_entries"],q["selection_vs_historical_manifest_delta"]),(7208,1))
         idx=(ROOT/"story/CHAPTER_6_INDEX_v139.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_06-05_end.txt\\tfirst_draft_complete\\t109\\t4\\t113",idx)
+        self.assertIn("level_main_06-05_end.txt\tfirst_draft_complete\t109\t4\t113",idx)
 if __name__=="__main__":
     unittest.main()
