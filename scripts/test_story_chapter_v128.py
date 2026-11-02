@@ -12,7 +12,7 @@ class Chapter604BeforeV128(unittest.TestCase):
         self.assertEqual(list(d["dialogues"]),[str(i) for i in range(1,8)])
         self.assertEqual(list(d["source_dialogue_line_numbers"].values()),[6,7,8,9,11,15,16])
         self.assertEqual((d["progress"]["total_ru_text_entries"],d["progress"]["remaining_text_entries"],d["progress"]["complete"]),(7,140,False))
-        self.assertTrue(all(s.strip() and not re.search(r"[\\u4e00-\\u9fff\\r\\n]",s) for s in d["dialogues"].values()))
+        self.assertTrue(all(s.strip() and not re.search(r"[\u4e00-\u9fff\r\n]",s) for s in d["dialogues"].values()))
     def test_source_audit(self):
         d=load("story/story_chapter_6_stage_6-4_before_partial_ru_v128.json")
         a=load("reports/CHAPTER_6_STAGE_6-4_BEFORE_SOURCE_AUDIT_v128.json")
@@ -32,5 +32,5 @@ class Chapter604BeforeV128(unittest.TestCase):
         self.assertEqual((q["scene_ru_named"],q["scene_remaining_named"],q["included_in_complete_story_selection"]),(7,140,False))
         self.assertEqual(m["next_file"],"obt/main/level_main_06-04_beg.txt")
         idx=(ROOT/"story/CHAPTER_6_INDEX_v128.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_06-04_beg.txt\\tpartial_first_draft_7_of_147\\t7\\t0\\t7",idx)
+        self.assertIn("level_main_06-04_beg.txt\\tpartial_first_draft_7_of_147\t7\t0\t7",idx)
 if __name__=="__main__": unittest.main()
