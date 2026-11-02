@@ -37,6 +37,8 @@ class Chapter603AfterV127(unittest.TestCase):
         q=load("reports/QA_MAIN_STORY_v127.json")
         self.assertEqual((m["translation_integrity"]["main_story_files"],m["translation_integrity"]["main_story_partial_files"]),(103,0))
         self.assertEqual(m["translation_integrity"]["main_story_text_entries_including_unnamed"],6777)
+        self.assertEqual((m["translation_integrity"]["main_story_named_ru_lines"],q["completed_story_named_ru"],q["completed_story_unnamed_ru"]),(6689,6689,88))
+        self.assertEqual((q["selection_dialogue_entries_counted"],q["selection_vs_historical_manifest_delta"]),(6776,1))
         self.assertEqual((q["scene_ru_named"],q["scene_ru_unnamed"],q["included_in_complete_story_selection"]),(68,3,True))
         self.assertEqual(m["next_file"],"obt/main/level_main_06-04_beg.txt")
         idx=(ROOT/"story/CHAPTER_6_INDEX_v127.tsv").read_text(encoding="utf-8")
