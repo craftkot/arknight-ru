@@ -1,0 +1,53 @@
+{
+  "version": "v1.17",
+  "scene": "6-1 before battle — partial first draft (46/87)",
+  "relative_story_path": "obt/main/level_main_06-01_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_06-01_beg.txt",
+      "git_blob_sha1": "b6e2676b8f7caa0a932b762d1ab2ea888631fd48",
+      "line_count": 249
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_06-01_beg.txt",
+      "git_blob_sha1": "2e727fd428c47cce434faf62442c24aaa5a1c7d1",
+      "line_count": 250
+    }
+  },
+  "alignment": {
+    "cn_tagged": 70,
+    "en_tagged": 70,
+    "cn_plain": 17,
+    "en_plain": 17,
+    "cn_non_decision_commands": 161,
+    "en_non_decision_commands": 161,
+    "cn_en_tagged_positions_equal": true,
+    "cn_en_plain_positions_equal": true,
+    "cn_en_command_positions_equal": true,
+    "cn_en_non_decision_command_text_equal": true,
+    "source_choice_commands": 1,
+    "source_choice_options": 1,
+    "cn_en_decision_value_alignment": true,
+    "cn_en_decision_options_differ_by_language": true,
+    "en_terminal_newline_extra": true,
+    "ru_tagged_entries": 30,
+    "ru_plain_entries": 16,
+    "ru_choice_options": 1,
+    "ru_remaining_entries": 41,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "Continuous opening text entries 1–46, source lines 6–125. The next text entry is the 09:20 scene caption at line 133; remaining 41 entries are not translated.",
+    "CN is the meaning source; EN is used for speaker-name alignment and command structure. Source text is not included in this repository.",
+    "CN uses 实在法 (positive law) in the historical citation; EN generalizes to law. Russian preserves the legal distinction.",
+    "CN 铜钟 refers to a Copper Bell location near an exit; EN calls it the Commandery Exit. Geographic label needs editorial verification.",
+    "CN 外围保障小队 describes perimeter-support squads, not necessarily dedicated overwatch units.",
+    "CN 跟不上我指挥 means the squads cannot keep up with Mephisto's orders; it is not simply a communications outage.",
+    "The first choice at source line 19 preserves value 1 and the FrostNova exclamation. All unknown speakers remain unnamed in the game source.",
+    "Literary first draft only; no game-client test or complete-scene preview."
+  ]
+}
