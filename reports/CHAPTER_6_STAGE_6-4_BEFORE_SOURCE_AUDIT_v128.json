@@ -1,0 +1,55 @@
+{
+  "version": "v1.28",
+  "scene": "6-4 before battle — partial first literary draft 7/147",
+  "relative_story_path": "obt/main/level_main_06-04_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_06-04_beg.txt",
+      "git_blob_sha1": "fe138c6fa548b611ab94ebe47ffcd187a7e78395",
+      "line_count": 355
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_06-04_beg.txt",
+      "git_blob_sha1": "c601ac112ced250feebd529a2bb07dd02021b4ae",
+      "line_count": 356
+    }
+  },
+  "alignment": {
+    "cn_tagged": 147,
+    "en_tagged": 147,
+    "cn_plain": 0,
+    "en_plain": 0,
+    "cn_non_decision_commands": 207,
+    "en_non_decision_commands": 207,
+    "cn_en_tagged_positions_equal": true,
+    "cn_en_plain_positions_equal": true,
+    "cn_en_command_positions_equal": true,
+    "cn_en_non_decision_command_text_equal": true,
+    "source_choice_commands": 0,
+    "source_choice_options": 0,
+    "en_terminal_newline_extra": true,
+    "ru_tagged_entries": 7,
+    "ru_plain_entries": 0,
+    "ru_remaining_entries": 140,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "first_ru_source_lines": [
+    6,
+    7,
+    8,
+    9,
+    11,
+    15,
+    16
+  ],
+  "notes": [
+    "CN and EN Git blob SHAs recorded. Content alignment verified for 147 named dialogue positions and 207 non-dialogue commands.",
+    "No source scripts committed; only seven Russian dialogue entries.",
+    "EN scene title HEADER is Chinese despite English dialogue; unchanged source command.",
+    "Scene incomplete; source line 18, dialogue ordinal 8 is next."
+  ]
+}
