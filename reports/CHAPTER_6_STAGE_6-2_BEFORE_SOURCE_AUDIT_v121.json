@@ -1,0 +1,53 @@
+{
+  "version": "v1.21",
+  "scene": "6-2 before battle — first literary draft complete 98/98",
+  "relative_story_path": "obt/main/level_main_06-02_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_06-02_beg.txt",
+      "git_blob_sha1": "6c530f2a1bd469c55c251ffaea62b853d890750e",
+      "line_count": 207
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_06-02_beg.txt",
+      "git_blob_sha1": "16e60bbfbfe612487c1bf6d2386cfdb21ad3dc9a",
+      "line_count": 208
+    }
+  },
+  "alignment": {
+    "cn_tagged": 72,
+    "en_tagged": 72,
+    "cn_plain": 26,
+    "en_plain": 26,
+    "cn_non_decision_commands": 107,
+    "en_non_decision_commands": 107,
+    "cn_en_tagged_positions_equal": true,
+    "cn_en_plain_positions_equal": true,
+    "cn_en_command_positions_equal": true,
+    "cn_en_non_decision_command_text_equal": true,
+    "source_choice_commands": 2,
+    "source_choice_options": 4,
+    "cn_en_decision_positions_equal": true,
+    "cn_en_decision_values_equal": true,
+    "cn_en_decision_options_differ_by_language": true,
+    "en_terminal_newline_extra": true,
+    "ru_tagged_entries": 72,
+    "ru_plain_entries": 26,
+    "ru_choice_options": 4,
+    "ru_remaining_entries": 0,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "CN source at line 17 explicitly mentions 'the fourth April' (第四个四月) while EN omits this detail. RU retains an intentionally provisional literal phrase pending context review.",
+    "Rosmontis describes Scout as white ceramic tiles (白色的瓷砖), not an EN porcelain doll; RU follows CN.",
+    "GreyThroat's disputed utterance is a statement of not knowing how much the Infected suffer in CN, rather than the more accusatory EN wording.",
+    "CN line 119 describes Ace's beard as hard, whereas EN calls it manly; RU follows CN.",
+    "The second Decision command has one displayed option but three values in both source languages; preserve source data and flag for game-side QA.",
+    "All commands, original speaker tags, predicate references and branching remain in separately fetched upstream scripts; this JSON stores only translated text and choice labels.",
+    "Full first literary draft only: not editorially reviewed and not tested in Yostar Global PC."
+  ]
+}
