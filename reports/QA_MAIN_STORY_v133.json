@@ -1,0 +1,34 @@
+{
+  "version": "v1.33",
+  "scene": "6-4 after battle",
+  "source_file": "obt/main/level_main_06-04_end.txt",
+  "scene_ru_named": 34,
+  "scene_ru_unnamed": 0,
+  "scene_total_named": 61,
+  "scene_remaining_named": 27,
+  "scene_complete": false,
+  "source_cn_sha": "b99c61e654c013f0c7533a6028c755db823d7847",
+  "source_en_sha": "afb27390867f90608de65f8966fd1c8b6abd5f60",
+  "source_alignment_checked": true,
+  "source_non_text_commands": 43,
+  "source_decisions": 0,
+  "includes_untagged_text": false,
+  "included_in_complete_story_selection": false,
+  "complete_story_selection_file": "story/story_main_selection_ru_v132.json",
+  "next_text_ordinal": 35,
+  "next_source_line": 56,
+  "checks": {
+    "consecutive_ordinals": true,
+    "source_line_numbers_strictly_increasing": true,
+    "no_cn_characters_in_ru": true,
+    "no_empty_ru_dialogues": true,
+    "non_text_command_alignment": true,
+    "full_scene_complete": false
+  },
+  "editorial_flags": [
+    "Crownslayer transliteration pending term review",
+    "Infected identity politics wording pending term review",
+    "Historical manifest/selection discrepancy of one entry remains unresolved"
+  ],
+  "game_client_tested": false
+}
