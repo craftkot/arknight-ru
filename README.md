@@ -438,3 +438,7 @@ Babel BB-ST-1 продолжен в v0.49: `events/babel_st01_opening_partial_ru
 ## Основной сюжет 6-5 до боя (v1.37)
 
 Полный первый русский черновик: `story/story_chapter_6_stage_6-5_before_ru_v137.json` (110 именных реплик, 23 новые). Объединённая выборка 106 сцен: `story/story_main_selection_ru_v137.json` (7 094 фактические позиции). Аудит CN/EN: `reports/CHAPTER_6_STAGE_6-5_BEFORE_SOURCE_AUDIT_v137.json`, QA: `reports/QA_MAIN_STORY_v137.json`. Исходные игровые файлы в репозиторий не включены. Перевод не проходил редактуру и не проверялся в Yostar Global PC.
+
+## Основной сюжет: 6-5 после боя — частичный черновик v1.38
+
+`story/story_chapter_6_stage_6-5_after_partial_ru_v138.json`: первые **50/113** текстовых позиций (46 именных и 4 безымянных), исходные строки CN 5–113. Осталось 63 именных реплики, следующая — текстовая позиция №51, исходная строка CN 115. CN Git blob `61a567f9864898a98c913b4b1e169e0bcc7e93b7`, EN `4a4e8cc4004b1b268529eb33923a3e26d3014049`; 109 именных, 4 безымянных и 118 нетекстовых команд структурно совпадают, EN добавляет конечный перенос. Аудит `reports/CHAPTER_6_STAGE_6-5_AFTER_SOURCE_AUDIT_v138.json`, QA `reports/QA_MAIN_STORY_v138.json`, индекс `story/CHAPTER_6_INDEX_v138.tsv`, хронология `chronology/CHRONOLOGY_MANIFEST_v138.json`. Завершённая выборка остаётся v1.37 (106 сцен, 7094 фактических позиции). **Сцена не завершена, перевод не вычитан и не проверен в клиенте.**
