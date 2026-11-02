@@ -1,0 +1,53 @@
+{
+  "version": "v1.19",
+  "scene": "6-1 after battle — partial first draft 57/138",
+  "relative_story_path": "obt/main/level_main_06-01_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_06-01_end.txt",
+      "git_blob_sha1": "59437f1fe11a9e0712229888e232fa5f86f7caf9",
+      "line_count": 313
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_06-01_end.txt",
+      "git_blob_sha1": "db3d5de405ada39426d8a936ea0308dd9e140576",
+      "line_count": 314
+    }
+  },
+  "alignment": {
+    "cn_tagged": 138,
+    "en_tagged": 138,
+    "cn_plain": 0,
+    "en_plain": 0,
+    "cn_non_decision_commands": 166,
+    "en_non_decision_commands": 166,
+    "cn_en_tagged_positions_equal": true,
+    "cn_en_plain_positions_equal": true,
+    "cn_en_command_positions_equal": true,
+    "cn_en_non_decision_command_text_equal": true,
+    "source_choice_commands": 9,
+    "source_choice_options": 21,
+    "cn_en_decision_value_alignment": true,
+    "cn_en_decision_options_differ_by_language": true,
+    "en_terminal_newline_extra": true,
+    "ru_tagged_entries": 57,
+    "ru_plain_entries": 0,
+    "ru_choice_options": 6,
+    "ru_remaining_entries": 81,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "First contiguous 57 dialogue positions translated from CN source lines 11–135; remainder 81 positions untranslated. No raw CN/EN story files included.",
+    "CN 高温气流: superheated airflow, not simply fire. CN 胸腔: chest cavity, not diaphragm as in EN.",
+    "CN 对了，乌萨斯人，刚才那不叫动手。那是顺手。 is a pun contrasting 'acting' with 'doing something in passing'; EN omits the distinction.",
+    "CN 撕掉你半张脸 explicitly threatens to tear off half GreyThroat's face; EN changes this to 'tear out your throat'. RU follows CN.",
+    "CN muffles Amiya's speech while Blaze squeezes her; EN clarifies the intended 'can't breathe'. RU keeps broken speech without copying the garbled characters.",
+    "GreyThroat name transcribed as Грейтроут; external Russian wiki uses this name. This does not prove the entire project glossary is aligned.",
+    "First Decision line 50 and second line 130 preserve values 1;2;3, including all three translated choices each. All Predicate/visual commands stay in original source and are not embedded in translation JSON.",
+    "No full-scene preview or game-client verification; first literary draft only."
+  ]
+}
