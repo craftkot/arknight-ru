@@ -1,0 +1,53 @@
+{
+  "version": "v1.24",
+  "scene": "6-3 before battle — first literary draft complete 92/92",
+  "relative_story_path": "obt/main/level_main_06-03_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_06-03_beg.txt",
+      "git_blob_sha1": "761a61b650186ed88476602440936d8d1e7116d3",
+      "line_count": 221
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_06-03_beg.txt",
+      "git_blob_sha1": "328738b032366a56e2b270e8b8e77ac8fbc92ea3",
+      "line_count": 222
+    }
+  },
+  "alignment": {
+    "cn_tagged": 92,
+    "en_tagged": 92,
+    "cn_plain": 0,
+    "en_plain": 0,
+    "cn_non_decision_commands": 128,
+    "en_non_decision_commands": 128,
+    "cn_en_tagged_positions_equal": true,
+    "cn_en_plain_positions_equal": true,
+    "cn_en_command_positions_equal": true,
+    "cn_en_non_decision_command_text_equal": true,
+    "source_choice_commands": 1,
+    "source_choice_options": 1,
+    "cn_en_decision_positions_equal": true,
+    "cn_en_decision_values_equal": true,
+    "cn_en_decision_options_differ_by_language": true,
+    "en_terminal_newline_extra": true,
+    "ru_tagged_entries": 92,
+    "ru_plain_entries": 0,
+    "ru_choice_options": 1,
+    "ru_remaining_entries": 0,
+    "semantic_equivalence_automatically_proven": false
+  },
+  "notes": [
+    "All 92 named dialogue positions aligned by exact CN/EN source line; 128 other commands match in position and text; one localized Decision at line 213 retains value 1.",
+    "36 previous Russian positions preserved verbatim; 56 new Russian positions added (ordinals 37–92, CN lines 99–218).",
+    "CN line 102 refers to not speaking about others behind their backs, unlike EN's more generic accusation.",
+    "CN line 169 specifies a thrown Originium projectile; EN omits projectile detail.",
+    "CN lines 185–187 contain a parallel moral question and universal no-harm principle, not EN's added vicious-cycle claim.",
+    "EN has one additional terminal newline; Git blob SHA hashes differ and match audited versions.",
+    "Only Russian text and metadata are stored; no full CN/EN script is copied. Not editorially reviewed or game-tested."
+  ]
+}
