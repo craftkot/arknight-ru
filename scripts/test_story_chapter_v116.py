@@ -58,7 +58,7 @@ class Chapter5ExtraST01V116(unittest.TestCase):
         self.assertEqual(s["files"][REL]["dialogues"], d["dialogues"])
         self.assertEqual(s["files"][REL]["decisions"], d["decisions"])
         index = (ROOT / "story/CHAPTER_5_INDEX_v116.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_st_05-01.txt\\tfirst_draft_complete\\t103\\t4\\t107", index)
+        self.assertIn("level_st_05-01.txt\tfirst_draft_complete\t103\t4\t107", index)
 
 if __name__ == "__main__":
     unittest.main()
