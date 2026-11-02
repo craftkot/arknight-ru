@@ -1,0 +1,88 @@
+{
+  "version": "v1.39",
+  "scene": "6-5 after battle — COMPLETE first literary draft 113/113",
+  "relative_story_path": "obt/main/level_main_06-05_end.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_06-05_end.txt",
+      "git_blob_sha1": "61a567f9864898a98c913b4b1e169e0bcc7e93b7",
+      "line_count": 231
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_06-05_end.txt",
+      "git_blob_sha1": "4a4e8cc4004b1b268529eb33923a3e26d3014049",
+      "line_count": 232
+    }
+  },
+  "alignment": {
+    "cn_tagged": 109,
+    "en_tagged": 109,
+    "cn_plain": 4,
+    "en_plain": 4,
+    "cn_non_decision_commands": 118,
+    "en_non_decision_commands": 118,
+    "cn_en_tagged_positions_equal": true,
+    "cn_en_plain_positions_equal": true,
+    "cn_en_command_positions_equal": true,
+    "cn_en_non_decision_command_text_equal": true,
+    "source_choice_commands": 0,
+    "source_choice_options": 0,
+    "en_terminal_newline_extra": true,
+    "ru_tagged_entries": 109,
+    "ru_plain_entries": 4,
+    "ru_remaining_entries": 0
+  },
+  "cn_primary_decisions": [
+    {
+      "text_ordinal": 4,
+      "source_line": 11,
+      "note": "CN ends with an unfinished clause (什么也没看见就), so the Russian retains the interruption; EN omits the unfinished ending."
+    },
+    {
+      "text_ordinal": 12,
+      "source_line": 28,
+      "note": "CN explicitly refers to a smell (这个味道), not an identified substance."
+    },
+    {
+      "text_ordinal": 23,
+      "source_line": 47,
+      "note": "CN asks why the position is exposed despite thick fog; no invented enemy method."
+    },
+    {
+      "text_ordinal": 29,
+      "source_line": 72,
+      "note": "CN 给我接 refers to placing a telephone connection; EN 'Bring her to me' is ambiguous."
+    },
+    {
+      "text_ordinal": 35,
+      "source_line": 83,
+      "note": "Exact telephone number 100800-00200-rct211-93001 preserved."
+    },
+    {
+      "text_ordinal": 50,
+      "source_line": 113,
+      "note": "CN frames the division of responsibility as Wei Yenwu's wishes, not an independently verified decree."
+    },
+    {
+      "text_ordinal": 56,
+      "source_line": 124,
+      "note": "CN says the demolition of the slums is already decided; EN flattens the decision."
+    },
+    {
+      "text_ordinal": 74,
+      "source_line": 154,
+      "note": "CN distinguishes Infected civilians from Reunion: the public fear both."
+    },
+    {
+      "text_ordinal": 113,
+      "source_line": 227,
+      "note": "CN 控制住他 orders restraint/capture, not necessarily violence."
+    }
+  ],
+  "version_comparison": "CN/EN have 231 corresponding nonempty lines: 109 tagged dialogue, 4 untagged narrative, 118 identical command lines. EN has one extra terminal newline. Names and meaning may differ; CN is primary.",
+  "qa": "All 113 consecutive text positions translated: 109 tagged, 4 untagged, CN lines 5–227. Source 118 command lines aligned CN/EN; no choices. No game-client test or editorial review."
+}
