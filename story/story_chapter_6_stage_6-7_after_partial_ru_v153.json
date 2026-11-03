@@ -1,0 +1,593 @@
+{
+  "version": "v1.53",
+  "stage": "Main story 6-7 after battle — partial first draft",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_main_06-07_end.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "cfe057eda6a91062e09bc3741aafd1d2f304e17c",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "f5933688f975a21edd46febcb4ffd9728d0adf3e",
+    "cn_en_text_positions_match": true,
+    "cn_text_total": 115,
+    "en_text_total": 115,
+    "cn_command_total": 158,
+    "en_command_total": 158,
+    "cn_decision_total": 3,
+    "en_decision_total": 3,
+    "version_difference": "CN/EN blobs unchanged from v1.52. Structure and 25 dialogue positions align; EN uses Nesti for 大熊 (Big Bear), so the Russian draft follows CN. Choice at CN line 178 retains value/predicate 1."
+  },
+  "progress": {
+    "translated": 90,
+    "total": 115,
+    "remaining": 25,
+    "next_ordinal": 91,
+    "next_source_line": 227,
+    "complete": false
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 6,
+      "speaker_ru": "Блейз",
+      "text_ru": "Ха… ха…"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 8,
+      "speaker_ru": "Амия",
+      "text_ru": "Блейз!"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 10,
+      "speaker_ru": "Блейз",
+      "text_ru": "Я в порядке! А они… действительно кое-что умеют."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 11,
+      "speaker_ru": "Блейз",
+      "text_ru": "Вы там не замёрзли?"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 13,
+      "speaker_ru": "Амия",
+      "text_ru": "Только ты могла нагреть воздух вокруг нас настолько, чтобы остановить её ледяной поток. Благодаря тебе мы почти не пострадали."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 15,
+      "speaker_ru": "Блейз",
+      "text_ru": "Пустяки."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 17,
+      "speaker_ru": "Блейз",
+      "text_ru": "Эй, ледяная, почему ты не применяешь смертельные Искусства?"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 20,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Кхе, кхе…"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 22,
+      "speaker_ru": "Блейз",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 23,
+      "speaker_ru": "Блейз",
+      "text_ru": "Теперь понятно."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 25,
+      "speaker_ru": "Амия",
+      "text_ru": "…ФростНова… в каком же она состоянии…"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 27,
+      "speaker_ru": "Блейз",
+      "text_ru": "Так её зовут ФростНова?"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 29,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Кхе… прикройте… меня…"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 31,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "Сестра…"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 33,
+      "speaker_ru": "Блейз",
+      "text_ru": "Уходим, Амия. По дороге могут встретиться другие бойцы Воссоединения. Есть раненые? Я помогу."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 35,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Думаете, так просто отступить?"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 37,
+      "speaker_ru": "Блейз",
+      "text_ru": "Вот тебе совет: прекрати сражаться, белая крольчиха."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 38,
+      "speaker_ru": "Блейз",
+      "text_ru": "Если продолжишь через силу применять Искусства, очень скоро умрёшь. Твоя сила буквально высасывает из тебя жизнь."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 39,
+      "speaker_ru": "Блейз",
+      "text_ru": "Или можешь отправиться на Родос. По крайней мере, мы знаем, как продлить тебе жизнь."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 41,
+      "speaker_ru": "ФростНова",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 42,
+      "speaker_ru": "ФростНова",
+      "text_ru": "…Что за вид, будто ты кого-то жалеешь? Кому нужна ваша жалость?"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 44,
+      "speaker_ru": "Блейз",
+      "text_ru": "Я похожа на человека, который тебя жалеет? Ты сильная, и я тебя уважаю."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 46,
+      "speaker_ru": "ФростНова",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 47,
+      "speaker_ru": "ФростНова",
+      "text_ru": "С какой стати я должна позволять вам уйти?"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 49,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Кхе… кхе-кхе…"
+    },
+    {
+      "ordinal": 26,
+      "source_line": 56,
+      "speaker_ru": "Блейз",
+      "text_ru": "Доктор {@nickname}, скорее уходи! Не смотри на неё!"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 58,
+      "speaker_ru": "Метеорит",
+      "text_ru": "Со стороны внешних руин к нам приближаются бойцы Воссоединения!"
+    },
+    {
+      "ordinal": 28,
+      "source_line": 64,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Не уйдёте."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 66,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "Сестра, место, где ты стоишь, слишком опасно! Не применяй это!"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 68,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Нельзя позволить им уйти!"
+    },
+    {
+      "ordinal": 31,
+      "source_line": 69,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Никто не знает, что Родос сделает с нашими товарищами в Лунмэне!"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 71,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Перепад температур растёт… структура… становится хрупкой!"
+    },
+    {
+      "ordinal": 33,
+      "source_line": 72,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Кхе, кхе… Замерзай!"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 73,
+      "speaker_ru": "ФростНова",
+      "text_ru": "…♪…"
+    },
+    {
+      "ordinal": 35,
+      "source_line": 74,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Кхе…!"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 80,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "Получается…"
+    },
+    {
+      "ordinal": 37,
+      "source_line": 83,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "Заложенный нами оригиний изменил структуру нижних слоёв. Земля уже начала крениться!"
+    },
+    {
+      "ordinal": 38,
+      "source_line": 84,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "Сестра, там, где ты стоишь, слишком опасно! Хватайся за меня!"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 86,
+      "speaker_ru": "ФростНова",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 88,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "Сестра?!"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 94,
+      "speaker_ru": "Метеорит",
+      "text_ru": "…Блейз, слышишь?"
+    },
+    {
+      "ordinal": 42,
+      "source_line": 96,
+      "speaker_ru": "Блейз",
+      "text_ru": "А?"
+    },
+    {
+      "ordinal": 43,
+      "source_line": 98,
+      "speaker_ru": "Метеорит",
+      "text_ru": "Это треск разрушающихся зданий?"
+    },
+    {
+      "ordinal": 44,
+      "source_line": 100,
+      "speaker_ru": "Блейз",
+      "text_ru": "А-а…"
+    },
+    {
+      "ordinal": 45,
+      "source_line": 102,
+      "speaker_ru": "Амия",
+      "text_ru": "Заложенный оригиний, поглощение тепла, перепад температур…"
+    },
+    {
+      "ordinal": 46,
+      "source_line": 103,
+      "speaker_ru": "Амия",
+      "text_ru": "Треснувшие стены зданий… Неужели Искусства ФростНовы можно использовать и так…?"
+    },
+    {
+      "ordinal": 47,
+      "source_line": 105,
+      "speaker_ru": "Блейз",
+      "text_ru": "Плохо дело!"
+    },
+    {
+      "ordinal": 48,
+      "source_line": 115,
+      "speaker_ru": "Блейз",
+      "text_ru": "Этот участок земли деформируется!"
+    },
+    {
+      "ordinal": 49,
+      "source_line": 117,
+      "speaker_ru": "Метеорит",
+      "text_ru": "Воссоединение и на такое способно?"
+    },
+    {
+      "ordinal": 50,
+      "source_line": 119,
+      "speaker_ru": "Блейз",
+      "text_ru": "Не знаю, но… весь район проседает!"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 121,
+      "speaker_ru": "Амия",
+      "text_ru": "Бегите! Найдите устойчивую площадку! Земля здесь вот-вот провалится!"
+    },
+    {
+      "ordinal": 52,
+      "source_line": 127,
+      "speaker_ru": "Джессика",
+      "text_ru": "…Доктор?"
+    },
+    {
+      "ordinal": 53,
+      "source_line": 128,
+      "speaker_ru": "Джессика",
+      "text_ru": "Доктор, земля под вами… трескается?"
+    },
+    {
+      "ordinal": 54,
+      "source_line": 130,
+      "speaker_ru": "Блейз",
+      "text_ru": "Вот чёрт."
+    },
+    {
+      "ordinal": 55,
+      "source_line": 131,
+      "speaker_ru": "Блейз",
+      "text_ru": "Доктор {@nickname}, прыгайте сюда!"
+    },
+    {
+      "ordinal": 56,
+      "source_line": 138,
+      "speaker_ru": "Амия",
+      "text_ru": "Доктор!"
+    },
+    {
+      "ordinal": 57,
+      "source_line": 140,
+      "speaker_ru": "Блейз",
+      "text_ru": "Амия, не подходи! Доктор {@nickname}, сначала ухватитесь за тот фонарный столб!"
+    },
+    {
+      "ordinal": 58,
+      "source_line": 142,
+      "speaker_ru": "Амия",
+      "text_ru": "Сначала спасите Доктора!"
+    },
+    {
+      "ordinal": 59,
+      "source_line": 144,
+      "speaker_ru": "Блейз",
+      "text_ru": "Земля слишком быстро раскалывается и кренится! Я не дотянусь!"
+    },
+    {
+      "ordinal": 60,
+      "source_line": 146,
+      "speaker_ru": "Амия",
+      "text_ru": "Тогда я сама!!"
+    },
+    {
+      "ordinal": 61,
+      "source_line": 148,
+      "speaker_ru": "Блейз",
+      "text_ru": "Нельзя!"
+    },
+    {
+      "ordinal": 62,
+      "source_line": 150,
+      "speaker_ru": "Амия",
+      "text_ru": "Что ты сказала?.."
+    },
+    {
+      "ordinal": 63,
+      "source_line": 156,
+      "speaker_ru": "Амия",
+      "text_ru": "Доктор!!"
+    },
+    {
+      "ordinal": 64,
+      "source_line": 158,
+      "speaker_ru": "Метеорит",
+      "text_ru": "Окружающие здания уже не выдерживают собственного веса и рушатся!"
+    },
+    {
+      "ordinal": 65,
+      "source_line": 160,
+      "speaker_ru": "Блейз",
+      "text_ru": "Метеорит, лови!"
+    },
+    {
+      "ordinal": 66,
+      "source_line": 162,
+      "speaker_ru": "Метеорит",
+      "text_ru": "Хорошо, я уведу Амию!"
+    },
+    {
+      "ordinal": 67,
+      "source_line": 165,
+      "speaker_ru": "Амия",
+      "text_ru": "Отпусти меня!"
+    },
+    {
+      "ordinal": 68,
+      "source_line": 167,
+      "speaker_ru": "Блейз",
+      "text_ru": "Амия, уходи! Я помогу Доктору! Поверь в мои способности оперативника Родоса!"
+    },
+    {
+      "ordinal": 69,
+      "source_line": 169,
+      "speaker_ru": "Амия",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 70,
+      "source_line": 171,
+      "speaker_ru": "Блейз",
+      "text_ru": "Цыц… Похоже, без крови всё-таки не обойдётся."
+    },
+    {
+      "ordinal": 71,
+      "source_line": 173,
+      "speaker_ru": "Блейз",
+      "text_ru": "Доктор, я направлю потоки воздуха и создам перепад давления, чтобы замедлить ваше падение и оттолкнуть окружающие обломки зданий. Не волнуйтесь, они вас не раздавят!"
+    },
+    {
+      "ordinal": 72,
+      "source_line": 174,
+      "speaker_ru": "Блейз",
+      "text_ru": "Не бойтесь! Ни в коем случае не бойтесь!"
+    },
+    {
+      "ordinal": 73,
+      "source_line": 175,
+      "speaker_ru": "Блейз",
+      "text_ru": "…До скорого!"
+    },
+    {
+      "ordinal": 74,
+      "source_line": 195,
+      "speaker_ru": "Блейз",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 75,
+      "source_line": 197,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 76,
+      "source_line": 199,
+      "speaker_ru": "Блейз",
+      "text_ru": "Что такое? Где ФростНова?"
+    },
+    {
+      "ordinal": 77,
+      "source_line": 200,
+      "speaker_ru": "Блейз",
+      "text_ru": "…Ваш командир тоже провалилась вниз?"
+    },
+    {
+      "ordinal": 78,
+      "source_line": 202,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "…Да."
+    },
+    {
+      "ordinal": 79,
+      "source_line": 203,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "Может, перестанем сражаться?"
+    },
+    {
+      "ordinal": 80,
+      "source_line": 205,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "Эй, крольчиха с Родоса, как насчёт временного перемирия? По правде говоря, мы с самого начала не особенно хотели с вами драться."
+    },
+    {
+      "ordinal": 81,
+      "source_line": 207,
+      "speaker_ru": "Амия",
+      "text_ru": "Но вы ведь…"
+    },
+    {
+      "ordinal": 82,
+      "source_line": 209,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "Мефисто сказал нашей старшей, что ты убила Алекса. Поэтому она очень тревожилась о том, что вы предпримете дальше."
+    },
+    {
+      "ordinal": 83,
+      "source_line": 211,
+      "speaker_ru": "Амия",
+      "text_ru": "…Кто такой Алекс?"
+    },
+    {
+      "ordinal": 84,
+      "source_line": 213,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "Крушитель Черепов."
+    },
+    {
+      "ordinal": 85,
+      "source_line": 215,
+      "speaker_ru": "Амия",
+      "text_ru": "Простите. Это правда: Крушителя Черепов убила я."
+    },
+    {
+      "ordinal": 86,
+      "source_line": 217,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "…Эх."
+    },
+    {
+      "ordinal": 87,
+      "source_line": 219,
+      "speaker_ru": "Амия",
+      "text_ru": "Заражённые вообще не должны враждовать друг с другом. Простите."
+    },
+    {
+      "ordinal": 88,
+      "source_line": 221,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "За что извиняться? Вы ведь тогда сражались друг с другом?"
+    },
+    {
+      "ordinal": 89,
+      "source_line": 223,
+      "speaker_ru": "Амия",
+      "text_ru": "Да."
+    },
+    {
+      "ordinal": 90,
+      "source_line": 225,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "Тогда объявим перемирие. Большой Медведь, что скажешь?"
+    }
+  ],
+  "qa": {
+    "verified_source_ordinals": "1-90",
+    "new_source_lines": "162-225",
+    "decision_commands_in_new_range": [
+      {
+        "source_line": 178,
+        "options_ru": [
+          "До скорого."
+        ],
+        "values": [
+          "1"
+        ],
+        "predicate_references": [
+          "1"
+        ]
+      }
+    ],
+    "editorial_review": false,
+    "game_test": false,
+    "full_source_files_committed": false
+  }
+}
