@@ -1,0 +1,171 @@
+{
+  "version": "v1.44",
+  "stage": "Main story 6-6 after battle — partial first draft",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_main_06-06_end.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "a5ffdacb477a4dccefb79894ca8a0f5ad9188368",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "89ecbe4ba5afe6a94f7a80fad30e3d4fdb785156",
+    "cn_dialogue_total": 96,
+    "en_dialogue_total": 96,
+    "cn_lines": 208,
+    "en_lines": 209,
+    "cn_en_dialogue_positions_match": true,
+    "cn_en_command_count_match": true,
+    "source_command_count": 112,
+    "source_decision_count": 1,
+    "source_versions": "same structural positions; EN has an additional final newline"
+  },
+  "progress": {
+    "translated": 22,
+    "total": 96,
+    "remaining": 74,
+    "next_ordinal": 23,
+    "next_source_line": 58,
+    "complete": false
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 18,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 19,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Он перестал плакать."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 21,
+      "speaker_ru": "Боец Воссоединения",
+      "text_ru": "Взгляд у него такой, будто мозг совсем отключился."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 22,
+      "speaker_ru": "Боец Воссоединения",
+      "text_ru": "Его мне не жалко. А вот Фауста жалко. Он спас мне жизнь и был хорошим командиром."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 24,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Фауст поручил нам позаботиться о Мефисто… Это был его последний приказ. Мы его выполним."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 26,
+      "speaker_ru": "Боец Воссоединения",
+      "text_ru": "А мне-то какое дело?"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 28,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Если выйдете из города вместе с нами, у вас будет больше шансов выжить."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 30,
+      "speaker_ru": "Боец Воссоединения",
+      "text_ru": "…Ладно. Тогда пошли."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 31,
+      "speaker_ru": "Боец Воссоединения",
+      "text_ru": "Куда вы его поведёте?"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 33,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Фауст говорил, что не хочет, чтобы мы возвращали его в Чернобог."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 34,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "…Но куда ещё ему идти?"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 36,
+      "speaker_ru": "Боец Воссоединения",
+      "text_ru": "Давно вы с Фаустом?"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 38,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Ха… Вообще-то поначалу это он был с нами, а не мы с ним."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 39,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Четыре-пять лет назад Фауст почти не разбирался в тактике и неважно стрелял из арбалета. Всему этому мы его научили."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 40,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Он без конца учился и тренировался, состязался со Снежными чудовищами, занимался вместе с бойцами Патриота. И становился всё сильнее…"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 41,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Его учили и Патриот, и ФростНова. Он стал нашим командиром. Мы редко называли его так, но он по праву им был."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 43,
+      "speaker_ru": "Боец Воссоединения",
+      "text_ru": "…Повезло вам."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 45,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Что бы ни творил Мефисто, Фауст никогда не заставлял нас что-либо делать против воли."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 46,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Стрелки, больше не берегите разрывные болты."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 48,
+      "speaker_ru": "Боец Воссоединения",
+      "text_ru": "Разве эти болты не пригодятся нам потом против Гвардии Лунмэня?"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 50,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Фауст всегда настаивал, чтобы мы так чтили погибших товарищей."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 51,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "«Выразить уважение — не значит потратить впустую»."
+    }
+  ],
+  "notes": [
+    "CN primary, EN used for names and context.",
+    "The first continuous segment ends before scene transition at source line 52.",
+    "No original CN/EN dialogue is included. Non-text commands are retained by preview tooling from source files, not reproduced here.",
+    "Source decision occurs later and is not translated in this partial draft."
+  ]
+}
