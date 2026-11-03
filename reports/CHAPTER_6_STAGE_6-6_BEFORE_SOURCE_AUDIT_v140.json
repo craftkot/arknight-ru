@@ -1,0 +1,83 @@
+{
+  "version": "v1.40",
+  "scene": "6-6 before battle — PARTIAL first literary draft 53/152",
+  "relative_story_path": "obt/main/level_main_06-06_beg.txt",
+  "sources": {
+    "cn": {
+      "repo": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_06-06_beg.txt",
+      "git_blob_sha1": "d9b97caa573a9fb012a391f09a7541506a372eae",
+      "line_count": 296
+    },
+    "en": {
+      "repo": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_06-06_beg.txt",
+      "git_blob_sha1": "cd1b3f1efa9dd935320740521f6d200ec91b2da5",
+      "line_count": 297
+    }
+  },
+  "alignment": {
+    "cn_tagged": 150,
+    "en_tagged": 150,
+    "cn_plain": 2,
+    "en_plain": 2,
+    "cn_non_decision_commands": 139,
+    "en_non_decision_commands": 139,
+    "cn_en_tagged_positions_equal": true,
+    "cn_en_plain_positions_equal": true,
+    "cn_en_command_positions_equal": true,
+    "cn_en_non_decision_command_text_equal": true,
+    "source_choice_commands": 5,
+    "source_choice_options": 9,
+    "cn_en_choice_positions_and_values_equal": true,
+    "en_terminal_newline_extra": true,
+    "ru_tagged_entries": 53,
+    "ru_plain_entries": 0,
+    "ru_remaining_entries": 99,
+    "ru_choice_options": 9
+  },
+  "scope": {
+    "first_text_ordinal": 1,
+    "last_text_ordinal": 53,
+    "first_cn_line": 10,
+    "last_cn_line": 111,
+    "next_text_ordinal": 54,
+    "next_cn_line": 118,
+    "complete": false
+  },
+  "cn_primary_decisions": [
+    {
+      "text_ordinal": 5,
+      "source_line": 16,
+      "note": "第一任务 is each operator's primary mission; not an invented additional command."
+    },
+    {
+      "text_ordinal": 16,
+      "source_line": 36,
+      "note": "收了 is rendered cautiously as neutralizing/disposing of the rooftop opponent; no extra character identity invented."
+    },
+    {
+      "text_ordinal": 31,
+      "source_line": 63,
+      "note": "因地制宜 is a wordplay answered by 谁是地; Russian uses «местные условия» in both lines."
+    },
+    {
+      "text_ordinal": 45,
+      "source_line": 97,
+      "note": "The literal shortest-distance explanation and the jump from the high point are both retained."
+    },
+    {
+      "text_ordinal": 50,
+      "source_line": 106,
+      "note": "牧群 is a herd; no unsupported number or species added."
+    }
+  ],
+  "source_version_note": "CN and EN share 150 named, 2 untagged text positions, 139 identical non-decision commands, 5 choices with matching value sequences. EN has one extra final newline. Exact Git blob hashes pinned above.",
+  "limitations": [
+    "Partial scene only; no claim of completion.",
+    "No original CN/EN script redistributed.",
+    "Not editorially reviewed or tested in Yostar Global PC."
+  ]
+}
