@@ -1,0 +1,374 @@
+{
+  "version": "v1.45",
+  "stage": "Main story 6-6 after battle — partial first draft",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_main_06-06_end.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "a5ffdacb477a4dccefb79894ca8a0f5ad9188368",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "89ecbe4ba5afe6a94f7a80fad30e3d4fdb785156",
+    "cn_dialogue_total": 96,
+    "en_dialogue_total": 96,
+    "cn_lines": 208,
+    "en_lines": 209,
+    "cn_en_dialogue_positions_match": true,
+    "cn_en_command_count_match": true,
+    "source_command_count": 112,
+    "source_decision_count": 1,
+    "source_versions": "same structural positions; EN has an additional final newline"
+  },
+  "progress": {
+    "translated": 53,
+    "total": 96,
+    "remaining": 43,
+    "next_ordinal": 54,
+    "next_source_line": 121,
+    "complete": false
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 18,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 19,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Он перестал плакать."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 21,
+      "speaker_ru": "Боец Воссоединения",
+      "text_ru": "Взгляд у него такой, будто мозг совсем отключился."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 22,
+      "speaker_ru": "Боец Воссоединения",
+      "text_ru": "Его мне не жалко. А вот Фауста жалко. Он спас мне жизнь и был хорошим командиром."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 24,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Фауст поручил нам позаботиться о Мефисто… Это был его последний приказ. Мы его выполним."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 26,
+      "speaker_ru": "Боец Воссоединения",
+      "text_ru": "А мне-то какое дело?"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 28,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Если выйдете из города вместе с нами, у вас будет больше шансов выжить."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 30,
+      "speaker_ru": "Боец Воссоединения",
+      "text_ru": "…Ладно. Тогда пошли."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 31,
+      "speaker_ru": "Боец Воссоединения",
+      "text_ru": "Куда вы его поведёте?"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 33,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Фауст говорил, что не хочет, чтобы мы возвращали его в Чернобог."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 34,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "…Но куда ещё ему идти?"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 36,
+      "speaker_ru": "Боец Воссоединения",
+      "text_ru": "Давно вы с Фаустом?"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 38,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Ха… Вообще-то поначалу это он был с нами, а не мы с ним."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 39,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Четыре-пять лет назад Фауст почти не разбирался в тактике и неважно стрелял из арбалета. Всему этому мы его научили."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 40,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Он без конца учился и тренировался, состязался со Снежными чудовищами, занимался вместе с бойцами Патриота. И становился всё сильнее…"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 41,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Его учили и Патриот, и ФростНова. Он стал нашим командиром. Мы редко называли его так, но он по праву им был."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 43,
+      "speaker_ru": "Боец Воссоединения",
+      "text_ru": "…Повезло вам."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 45,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Что бы ни творил Мефисто, Фауст никогда не заставлял нас что-либо делать против воли."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 46,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Стрелки, больше не берегите разрывные болты."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 48,
+      "speaker_ru": "Боец Воссоединения",
+      "text_ru": "Разве эти болты не пригодятся нам потом против Гвардии Лунмэня?"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 50,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "Фауст всегда настаивал, чтобы мы так чтили погибших товарищей."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 51,
+      "speaker_ru": "Фантомный арбалетчик",
+      "text_ru": "«Выразить уважение — не значит потратить впустую»."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 58,
+      "speaker_ru": "Амия",
+      "text_ru": "ГрейТрот?"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 60,
+      "speaker_ru": "ГрейТрот",
+      "text_ru": "Он…"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 62,
+      "speaker_ru": "Амия",
+      "text_ru": "Если я правильно помню, он был арбалетчиком из отряда Мефисто — ещё одним командиром Воссоединения."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 63,
+      "speaker_ru": "Амия",
+      "text_ru": "…Ты его знала?"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 65,
+      "speaker_ru": "ГрейТрот",
+      "text_ru": "Не знаю. Не знаю, можно ли сказать, что мы с ним… были знакомы."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 70,
+      "speaker_ru": "Амия",
+      "text_ru": "Да."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 71,
+      "speaker_ru": "Амия",
+      "text_ru": "Так уж устроен Родос… По большей части всё именно так."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 73,
+      "speaker_ru": "Амия",
+      "text_ru": "Но даже если мы можем сделать совсем немного, мы всё равно это сделаем."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 74,
+      "speaker_ru": "Амия",
+      "text_ru": "Обязательно сделаем."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 77,
+      "speaker_ru": "Амия",
+      "text_ru": "Доктор, вы вспоминаете прошлое?"
+    },
+    {
+      "ordinal": 33,
+      "source_line": 78,
+      "speaker_ru": "Амия",
+      "text_ru": "Думаете о том, сколько раз вам уже доводилось видеть смерть?"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 79,
+      "speaker_ru": "Амия",
+      "text_ru": "Я не могу угадать, о чём вы думаете, и не хочу напрямую читать ваши мысли."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 80,
+      "speaker_ru": "Амия",
+      "text_ru": "Потому что… надеюсь, однажды вы сами мне об этом расскажете."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 83,
+      "speaker_ru": "Амия",
+      "text_ru": "…Наши оперативники сделали очень многое."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 84,
+      "speaker_ru": "Амия",
+      "text_ru": "Смерть оставляет более глубокий след, чем спасение. Каждую смерть трудно забыть."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 85,
+      "speaker_ru": "Амия",
+      "text_ru": "Но я точно знаю: без усилий наших оперативников мы увидели бы куда больше смертей."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 86,
+      "speaker_ru": "Амия",
+      "text_ru": "Ещё больше, и больше, и больше смертей…"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 89,
+      "speaker_ru": "ГрейТрот",
+      "text_ru": "Раньше я думала, что Родос сражается ради заражённых."
+    },
+    {
+      "ordinal": 41,
+      "source_line": 90,
+      "speaker_ru": "ГрейТрот",
+      "text_ru": "Но теперь все, кто погибает от наших рук, — тоже заражённые."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 91,
+      "speaker_ru": "ГрейТрот",
+      "text_ru": "Амия…"
+    },
+    {
+      "ordinal": 43,
+      "source_line": 92,
+      "speaker_ru": "ГрейТрот",
+      "text_ru": "Ради чего сражается Родос?"
+    },
+    {
+      "ordinal": 44,
+      "source_line": 98,
+      "speaker_ru": "Блейз",
+      "text_ru": "Ты решила спросить об этом именно сейчас?"
+    },
+    {
+      "ordinal": 45,
+      "source_line": 100,
+      "speaker_ru": "Амия",
+      "text_ru": "Блейз."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 102,
+      "speaker_ru": "Блейз",
+      "text_ru": "…Говори."
+    },
+    {
+      "ordinal": 47,
+      "source_line": 104,
+      "speaker_ru": "Амия",
+      "text_ru": "Я и сама часто задаю себе этот вопрос."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 105,
+      "speaker_ru": "Амия",
+      "text_ru": "Каждый день на наших глазах умирают и заражённые, и обычные люди."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 106,
+      "speaker_ru": "Амия",
+      "text_ru": "…Мы не можем и не должны ограничиваться тем, чтобы «предотвратить одну смерть». Для этой земли этого недостаточно."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 107,
+      "speaker_ru": "Амия",
+      "text_ru": "Как сейчас… как в битве, в которой мы участвуем."
+    },
+    {
+      "ordinal": 51,
+      "source_line": 108,
+      "speaker_ru": "Амия",
+      "text_ru": "Людей по обе стороны убивают не просто арбалет, не одно заклинание… не взрыв и не рана."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 110,
+      "speaker_ru": "Амия",
+      "text_ru": "Мы должны победить то, что породило всё это: ненависть обычных людей к заражённым и заражённых к обычным людям — причины, по которым они убивают друг друга."
+    },
+    {
+      "ordinal": 53,
+      "source_line": 111,
+      "speaker_ru": "Амия",
+      "text_ru": "Мы должны искоренить почву, на которой растёт ненависть. И лекарствами, и своими поступками."
+    }
+  ],
+  "notes": [
+    "CN primary; EN checked for names, structure and context.",
+    "CN/EN source Git blob hashes unchanged from v1.44; 96 dialogue positions, 112 non-text commands, one decision.",
+    "CN at line 77 asks whether Doctor recalls the past, unlike the broader EN question.",
+    "Decision at CN line 66 translated as three options; original branching values preserved.",
+    "Continuous segment ends at CN line 111, before the next scene transition.",
+    "Partial draft; no editorial or in-client verification; source scripts are not redistributed."
+  ],
+  "decision_options": [
+    {
+      "source_line": 66,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "Похоже, Родос и правда мало что может сделать.",
+        "……",
+        "Неужели нам вообще удавалось спасти хоть кого-то из заражённых?"
+      ]
+    }
+  ]
+}
