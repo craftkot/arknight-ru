@@ -1,0 +1,417 @@
+{
+  "version": "v1.56",
+  "stage": "Main story 6-8 before battle — partial first draft",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_main_06-08_beg.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "198a8387a3748041f6f9063348fd61552c8c4cf2",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "bf2271985bc64d1b87d338d2f0409e304ee97e60",
+    "cn_en_named_positions_match": true,
+    "cn_named_positions": 117,
+    "en_named_positions": 117,
+    "version_difference": "CN/EN Git blob SHA unchanged from v1.55; 117 named positions align. CN is primary; EN cross-check. Full command and unnamed-text audit pending."
+  },
+  "progress": {
+    "translated": 64,
+    "total": 117,
+    "remaining": 53,
+    "next_ordinal": 65,
+    "next_source_line": 127,
+    "complete": false,
+    "unit": "named dialogue lines only; unnamed text not yet audited"
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 6,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Выдвигаемся."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 8,
+      "speaker_ru": "Сотрудник Управления охраны Лунмэня",
+      "text_ru": "Но мы совсем не знаем планировки этого места. Боюсь… заражённые могут выступить против нас."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 10,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Не волнуйся. Я хорошо знаю этот район. Выполняйте мои приказы."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 12,
+      "speaker_ru": "Сотрудник Управления охраны Лунмэня",
+      "text_ru": "Есть, сэр!"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 13,
+      "speaker_ru": "Сотрудник Управления охраны Лунмэня",
+      "text_ru": "Сэр Чэнь, плохие новости. По сообщениям с разных участков, движение Воссоединения вновь стало организованным, словно у них появился новый командир!"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 14,
+      "speaker_ru": "Сотрудник Управления охраны Лунмэня",
+      "text_ru": "Они… сменили каналы связи и обновили шифрование. Мы больше не можем отслеживать их переговоры!"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 16,
+      "speaker_ru": "Чэнь",
+      "text_ru": "…Неужели они соединились с отрядами в трущобах?"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 17,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Невозможно. Мне уже сообщили, что Родос разобрался с ситуацией в трущобах. Именно поэтому нас не смогли зажать с двух сторон."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 18,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Странно…"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 20,
+      "speaker_ru": "Свайр",
+      "text_ru": "Чэнь, я уже готова…"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 23,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Вызов по связи?"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 24,
+      "speaker_ru": "Чэнь",
+      "text_ru": "«Мисс», не могла бы ты подождать меня в стороне?"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 26,
+      "speaker_ru": "Свайр",
+      "text_ru": "Как тебе каждый раз удаётся оказываться занятой именно тогда, когда мне нужно с тобой поговорить?"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 27,
+      "speaker_ru": "Свайр",
+      "text_ru": "Твой осведомитель вышел на связь?"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 29,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Иди уже. В следующий раз куплю тебе рыбных шариков."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 31,
+      "speaker_ru": "Свайр",
+      "text_ru": "Ты меня за ребёнка держишь?"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 38,
+      "speaker_ru": "Чэнь",
+      "text_ru": "…Это Чэнь."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 40,
+      "speaker_ru": "???",
+      "text_ru": "Из нижних уровней трущоб прибыл ещё один отряд Воссоединения."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 41,
+      "speaker_ru": "???",
+      "text_ru": "Это заражённые, которых называют отрядом снежных чудовищ. Похоже, они способны разрушать здания и городскую инфраструктуру."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 42,
+      "speaker_ru": "???",
+      "text_ru": "Будь предельно осторожна."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 44,
+      "speaker_ru": "Чэнь",
+      "text_ru": "…Поняла."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 45,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Only-1, в трущобах действуют специальные подразделения Лунмэня. Пока мы не можем их остановить. Береги себя."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 47,
+      "speaker_ru": "???",
+      "text_ru": "Хорошо."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 49,
+      "speaker_ru": "Чэнь",
+      "text_ru": "…Only-1, почему ты не вышла на связь в назначенное время?"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 51,
+      "speaker_ru": "???",
+      "text_ru": "Мне нужно было кое-что обдумать."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 52,
+      "speaker_ru": "???",
+      "text_ru": "Теперь я во всём разобралась. Поручаю Лунмэнь тебе."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 54,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Что? Я не понимаю, о чём ты."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 56,
+      "speaker_ru": "???",
+      "text_ru": "Я уже давно не принадлежу этому месту."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 58,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Only-1!"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 60,
+      "speaker_ru": "???",
+      "text_ru": "Я уведу с собой часть заражённых Лунмэня. Управление охраны не способно их защитить, а городу до них нет дела."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 61,
+      "speaker_ru": "???",
+      "text_ru": "И даже если ты хочешь иного, этот город не станет таким, каким ты желаешь его видеть."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 63,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Девять! Выполняй приказ!"
+    },
+    {
+      "ordinal": 33,
+      "source_line": 65,
+      "speaker_ru": "Девять",
+      "text_ru": "…Уже три года я не служу в Управлении охраны."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 66,
+      "speaker_ru": "Девять",
+      "text_ru": "К тому же раньше это я должна была отдавать приказы тебе."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 68,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Девять…!"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 70,
+      "speaker_ru": "Девять",
+      "text_ru": "Кажется, я уже видела те специальные подразделения, о которых ты говоришь."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 71,
+      "speaker_ru": "Девять",
+      "text_ru": "Я слишком хорошо думала о Лунмэне. Прощай, Чэнь."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 72,
+      "speaker_ru": "Девять",
+      "text_ru": "И ещё: не вздумай проверять канализационную систему."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 80,
+      "speaker_ru": "Чэнь",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 81,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Я слишком громко говорила?"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 83,
+      "speaker_ru": "Свайр",
+      "text_ru": "Ещё как! По-моему, тебя слышала вся улица."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 85,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Но до тебя мне всё равно далеко."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 87,
+      "speaker_ru": "Свайр",
+      "text_ru": "Эй, Чэнь, подойди сюда."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 90,
+      "speaker_ru": "Чэнь",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 45,
+      "source_line": 92,
+      "speaker_ru": "Свайр",
+      "text_ru": "Садись."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 94,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Неужели мисс Свайр решила присесть прямо у дороги, не заботясь о приличиях и не боясь испачкать юбку?"
+    },
+    {
+      "ordinal": 47,
+      "source_line": 96,
+      "speaker_ru": "Свайр",
+      "text_ru": "Да какая разница! С чего ты вообще взяла, что меня такое волнует?"
+    },
+    {
+      "ordinal": 48,
+      "source_line": 97,
+      "speaker_ru": "Свайр",
+      "text_ru": "…Я собираюсь ещё раз позвонить той канализационной крысе."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 98,
+      "speaker_ru": "Свайр",
+      "text_ru": "Я здесь бываю редко, но уверена: эти специальные подразделения творят что-то ужасное."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 100,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Ты встречалась с Линем из трущоб?"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 102,
+      "speaker_ru": "Свайр",
+      "text_ru": "Да. Очень добрый старик. Куда приятнее моего дедушки."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 104,
+      "speaker_ru": "Чэнь",
+      "text_ru": "…А ведь он — «Крысиный король»."
+    },
+    {
+      "ordinal": 53,
+      "source_line": 106,
+      "speaker_ru": "Свайр",
+      "text_ru": "Да они все такие, эти люди. Но он и правда хороший человек."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 107,
+      "speaker_ru": "Свайр",
+      "text_ru": "Никогда бы не подумала, что Юйся станет такой. Раньше она была робкой, застенчивой девочкой и всё время пряталась за твоей спиной."
+    },
+    {
+      "ordinal": 55,
+      "source_line": 109,
+      "speaker_ru": "Чэнь",
+      "text_ru": "А по-моему, она не изменилась. Просто… взяла на себя ответственность. Возможно, ту, которую ей вовсе не следовало нести."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 111,
+      "speaker_ru": "Свайр",
+      "text_ru": "Даже если ты ей об этом скажешь, ничего не изменится. Нас уже поставили в безвыходное положение."
+    },
+    {
+      "ordinal": 57,
+      "source_line": 113,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Я и сама не понимаю, что происходит между ней и её отцом. Но она не из тех, кто способен действовать настолько хладнокровно."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 115,
+      "speaker_ru": "Свайр",
+      "text_ru": "Поэтому я и хочу позвонить ещё раз."
+    },
+    {
+      "ordinal": 59,
+      "source_line": 117,
+      "speaker_ru": "Чэнь",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 60,
+      "source_line": 118,
+      "speaker_ru": "Чэнь",
+      "text_ru": "Возможно, сообщение, которое я только что получила, нам поможет."
+    },
+    {
+      "ordinal": 61,
+      "source_line": 120,
+      "speaker_ru": "Свайр",
+      "text_ru": "Что там сказали?"
+    },
+    {
+      "ordinal": 62,
+      "source_line": 122,
+      "speaker_ru": "Чэнь",
+      "text_ru": "В трущобы вошёл отряд Воссоединения с особыми способностями. Похоже, он даже может командовать остальными силами Воссоединения."
+    },
+    {
+      "ordinal": 63,
+      "source_line": 123,
+      "speaker_ru": "Чэнь",
+      "text_ru": "До сих пор об этом знала только я. Теперь знаем мы обе."
+    },
+    {
+      "ordinal": 64,
+      "source_line": 125,
+      "speaker_ru": "Свайр",
+      "text_ru": "И что ты собираешься делать?"
+    }
+  ],
+  "qa": {
+    "verified": "64 consecutive named positions (1–64), source line ordinals 36–64 checked against CN and EN; original source scripts not committed.",
+    "limitations": "Partial first draft. Unnamed text, all commands, branching and in-game behavior not fully audited; no editorial review."
+  }
+}
