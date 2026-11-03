@@ -1,0 +1,25 @@
+{
+  "version": "v1.43",
+  "source_file": "obt/main/level_main_06-06_beg.txt",
+  "cn_blob": "d9b97caa573a9fb012a391f09a7541506a372eae",
+  "en_blob": "cd1b3f1efa9dd935320740521f6d200ec91b2da5",
+  "alignment": {
+    "cn_named": 150,
+    "en_named": 150,
+    "cn_unnamed": 2,
+    "en_unnamed": 2,
+    "non_text_commands": 139,
+    "decisions": 5,
+    "decision_options": 9,
+    "structure_matches": true,
+    "en_extra_final_newline": true
+  },
+  "translated_this_change": {
+    "named": 40,
+    "unnamed": 2,
+    "ordinals": "111–152",
+    "cn_lines": "228–292"
+  },
+  "status": "complete first draft; requires literary editing and in-game testing",
+  "cn_en_discrepancy": "CN at line 275 says the speaker does not want to be hurt by others; EN instead says not to get anyone hurt. Russian follows CN."
+}
