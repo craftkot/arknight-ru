@@ -1,0 +1,386 @@
+{
+  "version": "v1.61",
+  "stage": "Main story 6-9 after battle",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_main_06-09_end.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "ff213f0a92ac216e8c9a1a8066b563724ed2ce9c",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "4e2a11deddd5e00efd20e3b64bc77381fa6eb519",
+    "version_difference": "CN and EN differ linguistically; all 120 named dialogue positions and ordering align; positions 1–60 translated and compared. Full command audit pending."
+  },
+  "progress": {
+    "translated": 60,
+    "total": 120,
+    "remaining": 60,
+    "next_ordinal": 61,
+    "next_source_line": 123,
+    "complete": false,
+    "unit": "named dialogue"
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 6,
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Ха, ха… Вот это да!"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 8,
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Мы отбросили этих типов в чёрных плащах! А вы — уходите, пока есть возможность!"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 10,
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Спасибо!"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 12,
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Не благодарите. Если силы ещё остались, лучше помогите нам сражаться!"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 14,
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Видел, как тот спустился с четвёртого этажа на тросе и пронёсся прямо над моей головой? Если бы я не заморозил его оружие Ориджинием сестрицы из моего рюкзака, мне бы конец!"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 15,
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Вот это сила! Прямо как те люди с саблями и в противогазах из Урсуса. Нет, может, даже сильнее!"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 17,
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Ты чуть не погиб, а сам радуешься! Те бойцы в масках и с саблями были внутренней стражей императора Урсуса! И тогда мы случайно наткнулись всего на пятерых!"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 18,
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "А сейчас ты хоть сосчитать можешь, сколько здесь этих плащей?"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 20,
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Значит, мы стали сильнее, чем раньше?"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 22,
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Не время шутить. Их боевые навыки и снаряжение требуют промышленной поддержки целого города-государства… а то и нескольких."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 23,
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Без помощи других отрядов мы бы их даже оттеснить не смогли, не говоря уже о потерях в их рядах!"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 25,
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Я просто… просто думаю, что неплохо постарался."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 27,
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Но теперь ситуация явно вышла из-под нашего контроля… Долго мы не продержимся!"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 29,
+      "speaker_cn": "雪怪小队成员C",
+      "text_ru": "Тихо!"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 31,
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Прибыли по приказу."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 33,
+      "speaker_cn": "雪怪小队成员C",
+      "text_ru": "Сестрица, это… бойцы Фауста."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 35,
+      "speaker_cn": "霜星",
+      "text_ru": "Кхе-кхе… Я вас помню."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 37,
+      "speaker_cn": "幻影弩手",
+      "text_ru": "…ФростНова. Мы получили твоё сообщение и…"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 44,
+      "speaker_cn": "霜星",
+      "text_ru": "Почему Мефисто с вами? Что с ним случилось?"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 45,
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Похоже, Мефисто пережил… сильное душевное потрясение."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 46,
+      "speaker_cn": "霜星",
+      "text_ru": "Он? Душевное потрясение?"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 47,
+      "speaker_cn": "霜星",
+      "text_ru": "Постой, а где Фауст?"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 48,
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Фауст остался за пределами трущоб, чтобы мы и остальные отряды смогли благополучно отступить."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 49,
+      "speaker_cn": "霜星",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 50,
+      "speaker_cn": "霜星",
+      "text_ru": "В такой ситуации выжить почти невозможно."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 51,
+      "speaker_cn": "霜星",
+      "text_ru": "Фауст был хорошим бойцом."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 57,
+      "speaker_cn": "幻影弩手",
+      "text_ru": "ФростНова, если позволишь, мы хотели бы сражаться вместе со снежными чудовищами."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 59,
+      "speaker_cn": "霜星",
+      "text_ru": "Хорошо. Мы должны помочь оставшимся товарищам выбраться отсюда живыми."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 60,
+      "speaker_cn": "霜星",
+      "text_ru": "Займите снайперские позиции и ждите приказа. В предстоящем бою нам обязательно понадобится ваша поддержка. Мы не знаем, когда враг снова нападёт."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 62,
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Есть!"
+    },
+    {
+      "ordinal": 31,
+      "source_line": 64,
+      "speaker_cn": "霜星",
+      "text_ru": "Передайте всем отрядам наши координаты! Пусть немедленно отступают через эту точку. Мы обеспечим безопасность пути!"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 65,
+      "speaker_cn": "霜星",
+      "text_ru": "Продолжайте эвакуацию людей."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 67,
+      "speaker_cn": "雪怪小队成员C",
+      "text_ru": "Понял!"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 73,
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Они совсем как солдаты Урсуса: им плевать и на местность, и на людей вокруг?"
+    },
+    {
+      "ordinal": 35,
+      "source_line": 75,
+      "speaker_cn": "雪怪小队成员",
+      "text_ru": "По-моему, нет. Урсусские военные даже корабельные орудия в верхнем городе применяли!"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 77,
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Я знал, что они безжалостны, но чтобы до такой степени?"
+    },
+    {
+      "ordinal": 37,
+      "source_line": 79,
+      "speaker_cn": "雪怪小队成员",
+      "text_ru": "Мы сами с этим столкнулись."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 80,
+      "speaker_cn": "雪怪小队成员",
+      "text_ru": "А эти люди в дождевиках и правда другие."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 81,
+      "speaker_cn": "雪怪小队成员",
+      "text_ru": "Для них мирные жители — не помеха, а такие же цели. Они не могут отличить заражённых от незаражённых и не знают, не переоделись ли мы в обычных горожан."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 82,
+      "speaker_cn": "雪怪小队成员",
+      "text_ru": "Урсусским солдатам было просто плевать, а эти не щадят вообще никого!"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 84,
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Беженцев столько, что порядок почти невозможно удержать! Умеет же ФростНова подкинуть нам задачку!"
+    },
+    {
+      "ordinal": 42,
+      "source_line": 86,
+      "speaker_cn": "雪怪小队成员",
+      "text_ru": "Сестрица никогда не бросит людей умирать. И неважно, состоят они в Воссоединении или нет."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 87,
+      "speaker_cn": "雪怪小队成员",
+      "text_ru": "Мы ведь пришли в Лунмэнь сражаться. А теперь только и делаем, что спасаем людей. Странно выходит."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 89,
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Какое там сражаться! Всё уже кончено. Не приди вы на помощь, мы бы тут все погибли!"
+    },
+    {
+      "ordinal": 45,
+      "source_line": 91,
+      "speaker_cn": "雪怪小队成员",
+      "text_ru": "Всё настолько плохо? И вы правда только на нас рассчитываете?"
+    },
+    {
+      "ordinal": 46,
+      "source_line": 93,
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Не говори так, будто ты великий герой… Раньше вы казались мне страшными, а теперь — прямо уличные комедианты."
+    },
+    {
+      "ordinal": 47,
+      "source_line": 95,
+      "speaker_cn": "雪怪小队成员",
+      "text_ru": "Ты нас неправильно понял. Просто мы мало с кем разговаривали. Не такие уж мы и страшные."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 97,
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Да хватит о том, кто на кого рассчитывает! Разве мы не вместе с вами держим оборону?"
+    },
+    {
+      "ordinal": 49,
+      "source_line": 99,
+      "speaker_cn": "雪怪小队成员",
+      "text_ru": "И верно! Брат, давай удержим эту позицию вместе!"
+    },
+    {
+      "ordinal": 50,
+      "source_line": 105,
+      "speaker_cn": "霜星",
+      "text_ru": "Что случилось?"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 107,
+      "speaker_cn": "雪怪小队成员",
+      "text_ru": "Мы… нашли здесь местных жителей. Они оказались заперты внутри."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 108,
+      "speaker_cn": "雪怪小队成员",
+      "text_ru": "Мать с дочерью. Мы хотели оборудовать здесь огневую точку, но не знаем, как с ними объясниться… Кажется, я их напугал."
+    },
+    {
+      "ordinal": 53,
+      "source_line": 110,
+      "speaker_cn": "霜星",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 54,
+      "source_line": 112,
+      "speaker_cn": "龙门市民",
+      "text_ru": "(На местном языке)!"
+    },
+    {
+      "ordinal": 55,
+      "source_line": 113,
+      "speaker_cn": "龙门市民",
+      "text_ru": "(На местном языке)… (На местном языке)…!"
+    },
+    {
+      "ordinal": 56,
+      "source_line": 115,
+      "speaker_cn": "霜星",
+      "text_ru": "…Это твоя дочь, верно?"
+    },
+    {
+      "ordinal": 57,
+      "source_line": 117,
+      "speaker_cn": "儿童",
+      "text_ru": "Уа… уа…!"
+    },
+    {
+      "ordinal": 58,
+      "source_line": 119,
+      "speaker_cn": "霜星",
+      "text_ru": "Какой здоровый ребёнок."
+    },
+    {
+      "ordinal": 59,
+      "source_line": 120,
+      "speaker_cn": "霜星",
+      "text_ru": "Ну-ну, не бойся. Не плачь, мама рядом."
+    },
+    {
+      "ordinal": 60,
+      "source_line": 121,
+      "speaker_cn": "霜星",
+      "text_ru": "Мама здесь."
+    }
+  ]
+}
