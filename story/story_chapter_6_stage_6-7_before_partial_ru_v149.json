@@ -1,0 +1,470 @@
+{
+  "version": "v1.49",
+  "stage": "Main story 6-7 before battle — partial first draft",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_main_06-07_beg.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "5e2061bb4c2290c0ba05bed39fa06582ef99e89f",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "ac7b8db1fd5734a494675abbc535166ffec957b6",
+    "cn_en_text_positions_match": true,
+    "cn_en_command_count_match": true,
+    "cn_text_total": 99,
+    "en_text_total": 99,
+    "cn_named_dialogue_total": 92,
+    "en_named_dialogue_total": 92,
+    "cn_narration_total": 7,
+    "en_narration_total": 7,
+    "cn_command_total": 147,
+    "en_command_total": 147,
+    "cn_decision_total": 3,
+    "en_decision_total": 3,
+    "version_difference": "EN has one extra terminal newline; no positional differences"
+  },
+  "progress": {
+    "translated": 68,
+    "total": 99,
+    "remaining": 31,
+    "next_ordinal": 69,
+    "next_source_line": 161,
+    "complete": false
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 9,
+      "kind": "narration",
+      "text_ru": "9:00 утра. Погода: пасмурно."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 10,
+      "kind": "narration",
+      "text_ru": "За 14 часов до боя за крышу здания Управления охраны Лунмэня."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 11,
+      "kind": "narration",
+      "text_ru": "Высота 300 метров над руинами района №14 Чернобога. Воздушное судно «Плохой парень»."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 12,
+      "kind": "narration",
+      "text_ru": "Цель задания: соединиться со спасательной группой Родоса и эвакуировать разведотряд."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 13,
+      "kind": "narration",
+      "text_ru": "Состав группы:"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 14,
+      "kind": "narration",
+      "text_ru": "«Плохой парень» с пилотом; элитный оперативник Родоса Блейз и её отряд."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 15,
+      "kind": "narration",
+      "text_ru": "Всего четырнадцать человек."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 23,
+      "speaker_ru": "Пилот",
+      "text_ru": "Мы на месте! Амия и остальные где-то поблизости!"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 24,
+      "speaker_ru": "Пилот",
+      "text_ru": "Ты уверена, что стоило оставить отряд за городом? Здесь нас только двое, а внизу ты вообще останешься одна!"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 26,
+      "speaker_ru": "???",
+      "text_ru": "Да брось. Пусть лучше задержат преследователей из Воссоединения и заодно расчистят площадку. От них там будет больше пользы, чем в бою здесь."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 28,
+      "speaker_ru": "Пилот",
+      "text_ru": "Ладно. Местность сложная, ближе я тебя не доставлю."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 30,
+      "speaker_ru": "???",
+      "text_ru": "Этого хватит."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 32,
+      "speaker_ru": "Пилот",
+      "text_ru": "…Может, хотя бы спустить тебе трос?"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 34,
+      "speaker_ru": "???",
+      "text_ru": "Нет. Ты хоть раз видел, чтобы я пользовалась тросом?"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 36,
+      "speaker_ru": "Пилот",
+      "text_ru": "Опять собираешься безрассудствовать?!"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 38,
+      "speaker_ru": "???",
+      "text_ru": "А? Что такое? В чём безрассудство?"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 40,
+      "speaker_ru": "Пилот",
+      "text_ru": "Каждый раз, когда мы летим на задание вместе… От твоих выходок у меня сердце замирает, даже когда я просто смотрю из кабины."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 41,
+      "speaker_ru": "Пилот",
+      "text_ru": "Я уже почти привык, но это не отменяет того, что ты каждый раз вытворяешь что-нибудь безумное!"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 43,
+      "speaker_ru": "???",
+      "text_ru": "Значит, мы с моим отрядом и с тобой отлично понимаем друг друга!"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 45,
+      "speaker_ru": "Пилот",
+      "text_ru": "Какое ещё взаимопонимание?! В прошлый раз вы разнесли чужое поселение, засыпали водохранилище и вдобавок взорвали шахту!"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 46,
+      "speaker_ru": "Пилот",
+      "text_ru": "Все свои безумные затеи оставляй на земле. Только не тащи их на борт моей малышки!"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 48,
+      "speaker_ru": "???",
+      "text_ru": "Ладно-ладно, поняла. «Плохой парень», да? Мог бы хоть немного подумать над названием!"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 50,
+      "speaker_ru": "Пилот",
+      "text_ru": "Да спрыгивай уже!"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 56,
+      "speaker_ru": "Пилот",
+      "text_ru": "Похоже, противник нас заметил. Блейз, дальше сама."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 59,
+      "speaker_ru": "Блейз",
+      "text_ru": "Хорошо."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 61,
+      "speaker_ru": "Пилот",
+      "text_ru": "Буду ждать вас у выхода из разрушенного города. Только побыстрее!"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 62,
+      "speaker_ru": "Пилот",
+      "text_ru": "А, кто-то выходит на связь."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 65,
+      "speaker_ru": "???",
+      "text_ru": "ЭЙ!!"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 67,
+      "speaker_ru": "Пилот",
+      "text_ru": "…Я тебя слышу! Не ори так!"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 69,
+      "speaker_ru": "???",
+      "text_ru": "А, здравствуйте, оперативники Родоса! Я из Управления охраны Лунмэня. Уже встретилась с вашей группой у выхода из разрушенного города!"
+    },
+    {
+      "ordinal": 31,
+      "source_line": 71,
+      "speaker_ru": "Блейз",
+      "text_ru": "Разве Управление охраны не отступило? Что вы опять задумали?"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 73,
+      "speaker_ru": "???",
+      "text_ru": "Я совсем не такая, как эта Чэнь! Поверьте, я здесь, чтобы помочь."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 75,
+      "speaker_ru": "Пилот",
+      "text_ru": "Как к вам обращаться?"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 77,
+      "speaker_ru": "???",
+      "text_ru": "Не стоит церемониться. Зовите меня по позывному: офицер Свайр!"
+    },
+    {
+      "ordinal": 35,
+      "source_line": 79,
+      "speaker_ru": "Пилот",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 80,
+      "speaker_ru": "Пилот",
+      "text_ru": "Так это же ваша фамилия?!"
+    },
+    {
+      "ordinal": 37,
+      "source_line": 81,
+      "speaker_ru": "Пилот",
+      "text_ru": "Блейз, разберись с этим, пожалуйста. Я не умею общаться с чиновниками…"
+    },
+    {
+      "ordinal": 38,
+      "source_line": 82,
+      "speaker_ru": "Пилот",
+      "text_ru": "…Блейз?"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 84,
+      "speaker_ru": "Блейз",
+      "text_ru": "А я, думаешь, умею?"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 86,
+      "speaker_ru": "Пилот",
+      "text_ru": "Вернись! Не прыгай!"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 88,
+      "speaker_ru": "Блейз",
+      "text_ru": "Ты же сам только что велел мне спрыгивать! Дальше сам разберёшься. Верю в тебя! (Воздушный поцелуй.)"
+    },
+    {
+      "ordinal": 42,
+      "source_line": 90,
+      "speaker_ru": "Пилот",
+      "text_ru": "Да засунь ты свой воздушный поцелуй куда подальше!!"
+    },
+    {
+      "ordinal": 43,
+      "source_line": 99,
+      "speaker_ru": "Фростлиф",
+      "text_ru": "Ха… ха…"
+    },
+    {
+      "ordinal": 44,
+      "source_line": 101,
+      "speaker_ru": "Метеорит",
+      "text_ru": "…С ней всё в порядке?"
+    },
+    {
+      "ordinal": 45,
+      "source_line": 103,
+      "speaker_ru": "Амия",
+      "text_ru": "Да, серьёзной опасности уже нет. Только температура тела всё ещё немного низкая."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 105,
+      "speaker_ru": "Фростлиф",
+      "text_ru": "Она у меня… всегда низкая. Я в порядке, дайте мне…"
+    },
+    {
+      "ordinal": 47,
+      "source_line": 107,
+      "speaker_ru": "Амия",
+      "text_ru": "Фростлиф… не торопись. Сейчас твоя температура всё же ниже обычной."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 108,
+      "speaker_ru": "Амия",
+      "text_ru": "Доктор, передайте мне, пожалуйста, бинт."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 113,
+      "speaker_ru": "Фростлиф",
+      "text_ru": "Говорю же, со мной всё хорошо. Метеорит ранена гораздо сильнее."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 115,
+      "speaker_ru": "Метеорит",
+      "text_ru": "Ничего страшного. Я всё-таки сарказ. За тебя я переживаю больше."
+    },
+    {
+      "ordinal": 51,
+      "source_line": 117,
+      "speaker_ru": "Амия",
+      "text_ru": "Джессика, что делает отряд снежных чудовищ?"
+    },
+    {
+      "ordinal": 52,
+      "source_line": 119,
+      "speaker_ru": "Джессика",
+      "text_ru": "О-они приближаются к нашей позиции! Осталось около пятисот метров!"
+    },
+    {
+      "ordinal": 53,
+      "source_line": 121,
+      "speaker_ru": "Амия",
+      "text_ru": "Завалы ещё не расчистили?"
+    },
+    {
+      "ordinal": 54,
+      "source_line": 123,
+      "speaker_ru": "Оперативник Родоса",
+      "text_ru": "Нужно ещё как минимум пятнадцать минут! У обрушившихся здесь зданий сложная конструкция, мы не рискуем просто взорвать завалы."
+    },
+    {
+      "ordinal": 55,
+      "source_line": 125,
+      "speaker_ru": "Амия",
+      "text_ru": "…Метеорит, приготовься к бою. Нам придётся ещё немного удерживать оборону."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 127,
+      "speaker_ru": "Метеорит",
+      "text_ru": "Поняла. У вас есть запас арбалетных болтов?"
+    },
+    {
+      "ordinal": 57,
+      "source_line": 129,
+      "speaker_ru": "Амия",
+      "text_ru": "Да, сейчас попрошу сотрудников снабжения принести тебе…"
+    },
+    {
+      "ordinal": 58,
+      "source_line": 132,
+      "speaker_ru": "???",
+      "text_ru": "Амия, ты на связи?"
+    },
+    {
+      "ordinal": 59,
+      "source_line": 134,
+      "speaker_ru": "Амия",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 60,
+      "source_line": 136,
+      "speaker_ru": "Джессика",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 61,
+      "source_line": 139,
+      "speaker_ru": "Оперативник Родоса",
+      "text_ru": "…Э-э."
+    },
+    {
+      "ordinal": 62,
+      "source_line": 141,
+      "speaker_ru": "Амия",
+      "text_ru": "У кого-то канал связи всё это время оставался открытым?"
+    },
+    {
+      "ordinal": 63,
+      "source_line": 144,
+      "speaker_ru": "???",
+      "text_ru": "Это канал только для элитных оперативников. Я могу сама подключиться к нему со своей стороны."
+    },
+    {
+      "ordinal": 64,
+      "source_line": 146,
+      "speaker_ru": "Джессика",
+      "text_ru": "Этот голос…?"
+    },
+    {
+      "ordinal": 65,
+      "source_line": 148,
+      "speaker_ru": "Фростлиф",
+      "text_ru": "Всё пропало. Неужели прислали её."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 150,
+      "speaker_ru": "Джессика",
+      "text_ru": "Простите… а кого?"
+    },
+    {
+      "ordinal": 67,
+      "source_line": 156,
+      "speaker_ru": "Фростлиф",
+      "text_ru": "Оперативницу по имени Блейз. Она способна разнести всё вокруг, да ещё и заставить всех поблизости взмокнуть от пота."
+    },
+    {
+      "ordinal": 68,
+      "source_line": 159,
+      "speaker_ru": "Блейз",
+      "text_ru": "Именно, это я! Хотя последнее замечание не совсем верное."
+    }
+  ],
+  "qa_notes": [
+    "Translated continuous CN text positions 1–42 inclusive; 7 untagged narration lines and 35 named dialogue lines.",
+    "EN checked for context, speakers and ordering; Chinese source controls meaning.",
+    "The scene contains 3 Decision commands outside the translated fragment. No decisions translated yet; preserve source commands and branches when building preview.",
+    "No CN/EN full script stored. This JSON is a partial localization draft, not a playable patch.",
+    "v1.49: appended positions 43–68 (CN lines 99–159); two Decision commands at CN lines 110 and 153, translated options retained in decisions_ru, not counted as dialogue positions."
+  ],
+  "decisions_ru": [
+    {
+      "source_line": 110,
+      "values": "1",
+      "options_ru": [
+        "Хорошо."
+      ]
+    },
+    {
+      "source_line": 153,
+      "values": "1;2;3",
+      "options_ru": [
+        "Да кто же эта оперативница и почему она так возбуждена?",
+        "……",
+        "Она действительно сможет изменить ситуацию?"
+      ]
+    }
+  ]
+}
