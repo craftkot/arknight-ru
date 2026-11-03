@@ -1,0 +1,224 @@
+{
+  "version": "v1.51",
+  "stage": "Main story 6-7 after battle — partial first draft",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_main_06-07_end.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "cfe057eda6a91062e09bc3741aafd1d2f304e17c",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "f5933688f975a21edd46febcb4ffd9728d0adf3e",
+    "cn_en_text_positions_match": true,
+    "cn_text_total": 115,
+    "en_text_total": 115,
+    "cn_command_total": 158,
+    "en_command_total": 158,
+    "cn_decision_total": 3,
+    "en_decision_total": 3,
+    "version_difference": "Text positions and commands checked by counts; dialogue translations checked against CN with EN as reference; no in-game test."
+  },
+  "progress": {
+    "translated": 32,
+    "total": 115,
+    "remaining": 83,
+    "next_ordinal": 33,
+    "next_source_line": 72,
+    "complete": false
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 6,
+      "speaker_ru": "Блейз",
+      "text_ru": "Ха… ха…"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 8,
+      "speaker_ru": "Амия",
+      "text_ru": "Блейз!"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 10,
+      "speaker_ru": "Блейз",
+      "text_ru": "Я в порядке! А они… действительно кое-что умеют."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 11,
+      "speaker_ru": "Блейз",
+      "text_ru": "Вы там не замёрзли?"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 13,
+      "speaker_ru": "Амия",
+      "text_ru": "Только ты могла нагреть воздух вокруг нас настолько, чтобы остановить её ледяной поток. Благодаря тебе мы почти не пострадали."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 15,
+      "speaker_ru": "Блейз",
+      "text_ru": "Пустяки."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 17,
+      "speaker_ru": "Блейз",
+      "text_ru": "Эй, ледяная, почему ты не применяешь смертельные Искусства?"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 20,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Кхе, кхе…"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 22,
+      "speaker_ru": "Блейз",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 23,
+      "speaker_ru": "Блейз",
+      "text_ru": "Теперь понятно."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 25,
+      "speaker_ru": "Амия",
+      "text_ru": "…ФростНова… в каком же она состоянии…"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 27,
+      "speaker_ru": "Блейз",
+      "text_ru": "Так её зовут ФростНова?"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 29,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Кхе… прикройте… меня…"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 31,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "Сестра…"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 33,
+      "speaker_ru": "Блейз",
+      "text_ru": "Уходим, Амия. По дороге могут встретиться другие бойцы Воссоединения. Есть раненые? Я помогу."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 35,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Думаете, так просто отступить?"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 37,
+      "speaker_ru": "Блейз",
+      "text_ru": "Вот тебе совет: прекрати сражаться, белая крольчиха."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 38,
+      "speaker_ru": "Блейз",
+      "text_ru": "Если продолжишь через силу применять Искусства, очень скоро умрёшь. Твоя сила буквально высасывает из тебя жизнь."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 39,
+      "speaker_ru": "Блейз",
+      "text_ru": "Или можешь отправиться на Родос. По крайней мере, мы знаем, как продлить тебе жизнь."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 41,
+      "speaker_ru": "ФростНова",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 42,
+      "speaker_ru": "ФростНова",
+      "text_ru": "…Что за вид, будто ты кого-то жалеешь? Кому нужна ваша жалость?"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 44,
+      "speaker_ru": "Блейз",
+      "text_ru": "Я похожа на человека, который тебя жалеет? Ты сильная, и я тебя уважаю."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 46,
+      "speaker_ru": "ФростНова",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 47,
+      "speaker_ru": "ФростНова",
+      "text_ru": "С какой стати я должна позволять вам уйти?"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 49,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Кхе… кхе-кхе…"
+    },
+    {
+      "ordinal": 26,
+      "source_line": 56,
+      "speaker_ru": "Блейз",
+      "text_ru": "Доктор {@nickname}, скорее уходи! Не смотри на неё!"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 58,
+      "speaker_ru": "Метеорит",
+      "text_ru": "Со стороны внешних руин к нам приближаются бойцы Воссоединения!"
+    },
+    {
+      "ordinal": 28,
+      "source_line": 64,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Не уйдёте."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 66,
+      "speaker_ru": "Боец отряда снежных чудовищ",
+      "text_ru": "Сестра, место, где ты стоишь, слишком опасно! Не применяй это!"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 68,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Нельзя позволить им уйти!"
+    },
+    {
+      "ordinal": 31,
+      "source_line": 69,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Никто не знает, что Родос сделает с нашими товарищами в Лунмэне!"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 71,
+      "speaker_ru": "ФростНова",
+      "text_ru": "Перепад температур растёт… структура… становится хрупкой!"
+    }
+  ]
+}
