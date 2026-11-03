@@ -17,11 +17,12 @@
   },
   "progress": {
     "translated": 35,
-    "total": 122,
-    "remaining": 87,
+    "total": 117,
+    "remaining": 82,
     "next_ordinal": 36,
     "next_source_line": 70,
-    "complete": false
+    "complete": false,
+    "unit": "named dialogue lines only; unnamed text not yet audited"
   },
   "dialogues": [
     {
@@ -237,6 +238,6 @@
   ],
   "qa": {
     "verified": "35 consecutive named lines aligned by ordinal and line number in CN/EN; no source text committed",
-    "limitations": "Five unnamed/other text positions are outside this partial segment; command and decision integrity require full-scene audit. First draft only."
+    "limitations": "Named dialogue count 117. Unnamed text, commands and choices not yet fully audited; first draft only."
   }
 }
