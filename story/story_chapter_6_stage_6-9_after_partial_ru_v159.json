@@ -1,0 +1,146 @@
+{
+  "version": "v1.59",
+  "stage": "Main story 6-9 after battle",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_main_06-09_end.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "ff213f0a92ac216e8c9a1a8066b563724ed2ce9c",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "4e2a11deddd5e00efd20e3b64bc77381fa6eb519",
+    "version_difference": "CN and EN have distinct language blobs; first 20 dialogue positions checked in both."
+  },
+  "progress": {
+    "translated": 20,
+    "total": 120,
+    "remaining": 100,
+    "next_ordinal": 21,
+    "next_source_line": 46,
+    "complete": false,
+    "unit": "named dialogue"
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 6,
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Ха, ха… Вот это да!"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 8,
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Мы отбросили этих типов в чёрных плащах! А вы — уходите, пока есть возможность!"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 10,
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Спасибо!"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 12,
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Не благодарите. Если силы ещё остались, лучше помогите нам сражаться!"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 14,
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Видел, как тот спустился с четвёртого этажа на тросе и пронёсся прямо над моей головой? Если бы я не заморозил его оружие Ориджинием сестрицы из моего рюкзака, мне бы конец!"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 15,
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Вот это сила! Прямо как те люди с саблями и в противогазах из Урсуса. Нет, может, даже сильнее!"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 17,
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Ты чуть не погиб, а сам радуешься! Те бойцы в масках и с саблями были внутренней стражей императора Урсуса! И тогда мы случайно наткнулись всего на пятерых!"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 18,
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "А сейчас ты хоть сосчитать можешь, сколько здесь этих плащей?"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 20,
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Значит, мы стали сильнее, чем раньше?"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 22,
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Не время шутить. Их боевые навыки и снаряжение требуют промышленной поддержки целого города-государства… а то и нескольких."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 23,
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Без помощи других отрядов мы бы их даже оттеснить не смогли, не говоря уже о потерях в их рядах!"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 25,
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Я просто… просто думаю, что неплохо постарался."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 27,
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Но теперь ситуация явно вышла из-под нашего контроля… Долго мы не продержимся!"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 29,
+      "speaker_cn": "雪怪小队成员C",
+      "text_ru": "Тихо!"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 31,
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Прибыли по приказу."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 33,
+      "speaker_cn": "雪怪小队成员C",
+      "text_ru": "Сестрица, это… бойцы Фауста."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 35,
+      "speaker_cn": "霜星",
+      "text_ru": "Кхе-кхе… Я вас помню."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 37,
+      "speaker_cn": "幻影弩手",
+      "text_ru": "…ФростНова. Мы получили твоё сообщение и…"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 44,
+      "speaker_cn": "霜星",
+      "text_ru": "Почему Мефисто с вами? Что с ним случилось?"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 45,
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Похоже, Мефисто пережил… сильное душевное потрясение."
+    }
+  ]
+}
