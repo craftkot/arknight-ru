@@ -1,0 +1,196 @@
+{
+  "version": "v1.66",
+  "stage": "Main story 6-10 before battle",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_main_06-10_beg.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "8a5d4c711491343324dc29b668e30d972724bba5",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "448f0d022a8c992d15badbf3e2c2e85a5d70c83e",
+    "version_difference": "First 25 text positions and physical line positions align. First 5 lines are unnamed child's voice; EN and CN text differ linguistically but correspond in meaning. Whole-scene structural audit pending."
+  },
+  "progress": {
+    "translated": 25,
+    "total": 104,
+    "remaining": 79,
+    "next_ordinal": 26,
+    "next_source_line": 50,
+    "complete": false,
+    "unit": "text entries (named and unnamed)"
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 5,
+      "kind": "unnamed",
+      "text_ru": "У-у… У-у…"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 6,
+      "kind": "unnamed",
+      "text_ru": "Я так хочу есть!"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 7,
+      "kind": "unnamed",
+      "text_ru": "А где папа? Куда он ушёл?"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 8,
+      "kind": "unnamed",
+      "text_ru": "Без папы нельзя… Хочу к папе! Папа!"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 9,
+      "kind": "unnamed",
+      "text_ru": "Папа обязательно придёт за мной!"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 11,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "…!"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 12,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Ребёнок?"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 14,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Группы Blaze-4 и Amiya-1, докладывает Серая Глотка. В трущобах, среди развалин дома № 10 на Четвёртой улице, обнаружен выживший ребёнок. Заражённый."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_cn": "孩童",
+      "text_ru": "У-у…"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 22,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "…Здравствуй."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 24,
+      "kind": "named",
+      "speaker_cn": "孩童",
+      "text_ru": "Т-ты кто?"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_cn": "孩童",
+      "text_ru": "Ты из Лунмэня?"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "…Я не причиню тебе вреда. Я плохо говорю по-урсусски. Я не враг."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_cn": "孩童",
+      "text_ru": "Что ты говоришь?"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 32,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Пойдём со мной. Здесь опасно."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 34,
+      "kind": "named",
+      "speaker_cn": "孩童",
+      "text_ru": "Дядя велел мне оставаться здесь и никуда не уходить…"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 36,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "…Но я могу отвести тебя к папе."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "孩童",
+      "text_ru": "Правда?"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 40,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Правда."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 41,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Эй, тот, кто прячется у меня за спиной. Выходи."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Ты…"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 44,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Ты не из тех людей."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Ты… ты с Родоса?"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Малыш, отойди подальше. Не приближайся."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 48,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Брось оружие и сдавайся."
+    }
+  ]
+}
