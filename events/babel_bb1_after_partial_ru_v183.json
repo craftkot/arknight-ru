@@ -1,0 +1,194 @@
+{
+  "version": "v1.83",
+  "event": "Babel",
+  "scene": "BB-1 after battle",
+  "source_file": "activities/act33side/level_act33side_01_end.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED; COMMAND_AUDIT_PENDING",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "a59625a88e99e5cedbb0294024c10f8f1e034ccf",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "c855ab87f929d7c2b906e95494a7c560536c3019",
+    "version_difference": "CN and EN line positions 1–92 align; English phrasing sometimes paraphrases CN (e.g. line 92); RU follows CN. Full-file source version alignment and command audit pending."
+  },
+  "opening_text": [
+    {
+      "source_line": 11,
+      "text_ru": "Осень 1031 года"
+    },
+    {
+      "source_line": 12,
+      "text_ru": "Каздельский регион, мобильный город Каздель"
+    }
+  ],
+  "progress": {
+    "translated_dialogue_and_narration": 20,
+    "translated_opening_text": 2,
+    "complete": false,
+    "next_source_line": 93
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_cn": "好运",
+      "speaker_ru": "Везунчик",
+      "text_ru": "Пропустите, пропустите… Дайте пройти!"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "不耐烦的平民",
+      "speaker_ru": "Раздражённый горожанин",
+      "text_ru": "Не толкайся! Хочешь место получше? Меняю своё на кусок высокочистого ориджиния из шахт."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_cn": "不耐烦的平民",
+      "speaker_ru": "Раздражённый горожанин",
+      "text_ru": "Эй, ты ещё и листовку у меня выхватил! Уф, от тебя кровью за версту несёт…"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 53,
+      "kind": "named",
+      "speaker_cn": "好运",
+      "speaker_ru": "Везунчик",
+      "text_ru": "Когда обыскиваешь дома мертвецов, без этого не обойтись. Лин… го… нес. Так ведь называется место на этой листовке?"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 54,
+      "kind": "named",
+      "speaker_cn": "好运",
+      "speaker_ru": "Везунчик",
+      "text_ru": "А что такое Лингонес?"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_cn": "不耐烦的平民",
+      "speaker_ru": "Раздражённый горожанин",
+      "text_ru": "Галлия."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_cn": "好运",
+      "speaker_ru": "Везунчик",
+      "text_ru": "А-а. А где находится Галлия?"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 60,
+      "kind": "named",
+      "speaker_cn": "不耐烦的平民",
+      "speaker_ru": "Раздражённый горожанин",
+      "text_ru": "Откуда мне, *сарказское ругательство*, знать, где эта Галлия?!"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 62,
+      "kind": "named",
+      "speaker_cn": "好运",
+      "speaker_ru": "Везунчик",
+      "text_ru": "Цыц, чего разорался?"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 64,
+      "kind": "named",
+      "speaker_cn": "不耐烦的平民",
+      "speaker_ru": "Раздражённый горожанин",
+      "text_ru": "Тише ты! Обе Их Высочества и важные особы королевских дворов сейчас совещаются в зале. Говорят, собираются навести порядок в городе. Не заметил, что в последние дни на улицах стало больше стражи?"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "不耐烦的平民",
+      "speaker_ru": "Раздражённый горожанин",
+      "text_ru": "Так что поосторожнее!"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_cn": "好运",
+      "speaker_ru": "Везунчик",
+      "text_ru": "Эх… Душно сегодня."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "speaker_ru": "Терезис",
+      "text_ru": "Всё сказано."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 81,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "speaker_ru": "Терезис",
+      "text_ru": "Военная комиссия сменит Военный совет и будет помогать королю сарказов Терезии принимать решения по военным и государственным делам Казделя."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 82,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "speaker_ru": "Терезис",
+      "text_ru": "Отныне единственным официальным органом управления Казделем станет Военная комиссия. Никто больше не вправе отдавать сарказам приказы от имени королевских дворов."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 83,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "speaker_ru": "Терезис",
+      "text_ru": "Все вы заранее получили текст постановления. Итак, владыки королевских дворов, всё ещё привязанные к названию «Военный совет»…"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 84,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "speaker_ru": "Терезис",
+      "text_ru": "Отныне Военная комиссия Казделя станет последним и вечным оплотом сарказов и принесёт нашему народу новый порядок."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 86,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "speaker_ru": "Терезия",
+      "text_ru": "Есть ещё вопросы?"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_cn": "女妖",
+      "speaker_ru": "Банши",
+      "text_ru": "Ваше Высочество… Сегодня вы выглядите ещё более измученной, чем вчера."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 92,
+      "kind": "named",
+      "speaker_cn": "女妖",
+      "speaker_ru": "Банши",
+      "text_ru": "Берегите себя. Сколько бы военных комиссий у нас ни было…"
+    }
+  ]
+}
