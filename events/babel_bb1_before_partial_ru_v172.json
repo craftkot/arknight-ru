@@ -1,0 +1,304 @@
+{
+  "version": "v1.72",
+  "event": "Babel",
+  "scene": "BB-1 before battle",
+  "source_file": "activities/act33side/level_act33side_01_beg.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "3424a930fd41318e23802c4c9595f419f4e75b84",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "6ac18628687f629a104d8b17c3d37b07a550cf6c",
+    "version_difference": "CN and EN distinct language blobs; dialogue/narration positions align through line 119; commands and branching require full audit."
+  },
+  "progress": {
+    "translated_dialogue_and_narration": 38,
+    "complete": false,
+    "next_source_line": 120
+  },
+  "stickers": [
+    {
+      "source_line": 11,
+      "id": "st1",
+      "text_ru": "Шестьдесят четыре года назад"
+    },
+    {
+      "source_line": 12,
+      "id": "st2",
+      "text_ru": "Осень 1030 года"
+    }
+  ],
+  "unnamed_opening": {
+    "source_line": 17,
+    "text_ru": "Каздель, Рынок Шрамов"
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 27,
+      "kind": "named",
+      "speaker_cn": "负伤的雇佣兵",
+      "text_ru": "Береги жетон на шее как зеницу ока! Ты моя драгоценная собственность, раб!"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_cn": "负伤的雇佣兵",
+      "text_ru": "Понял меня?! *Сарказские ругательства* Надеюсь, ты хоть чего-нибудь стоишь."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 35,
+      "kind": "named",
+      "speaker_cn": "胆怯的奴隶",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 37,
+      "kind": "named",
+      "speaker_cn": "负伤的雇佣兵",
+      "text_ru": "Стой здесь и не двигайся. Это ты проверяешь товар?"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 42,
+      "kind": "unnamed",
+      "text_ru": "Торговец рабами лишь мельком взглянул на молчаливого невольника за спиной наёмника и слегка покачал головой."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "奴隶商人",
+      "text_ru": "Откуда товар?"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_cn": "负伤的雇佣兵",
+      "text_ru": "По дороге он чуть не умер от жажды. Я вытащил его прямо из когтей раздира."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "胆怯的奴隶",
+      "text_ru": "Я… из Казделя… Я могу найти кого-нибудь…"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_cn": "奴隶商人",
+      "text_ru": "Нам плевать, откуда ты, раб. Если кто-нибудь придёт тебя выкупить, можешь хоть сказать, что ты из Хигаси."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 50,
+      "kind": "named",
+      "speaker_cn": "奴隶商人",
+      "text_ru": "Я лишь проверяю, не тянется ли за тобой хвост. Эти наёмники вечно действуют не подумав."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 52,
+      "kind": "named",
+      "speaker_cn": "负伤的雇佣兵",
+      "text_ru": "Ручаюсь, товар чистый."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 54,
+      "kind": "named",
+      "speaker_cn": "奴隶商人",
+      "text_ru": "Надеюсь, ты не врёшь. Деньги или обмен?"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_cn": "负伤的雇佣兵",
+      "text_ru": "До того дня, когда я смогу потратить деньги, могу и не дожить. Лучше дай мне хорошее оружие."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_cn": "奴隶商人",
+      "text_ru": "Как скажешь. Он едва тянет на второй сорт. Дам за него два свежевыкованных клинка."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 62,
+      "kind": "named",
+      "speaker_cn": "负伤的雇佣兵",
+      "text_ru": "…Посмотри на мой товар повнимательнее!"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 64,
+      "kind": "named",
+      "speaker_cn": "奴隶商人",
+      "text_ru": "Хоть наряди второсортный товар в дорогие одежды, второсортным он и останется. Не устраивает цена — проваливай."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "奴隶商人",
+      "text_ru": "И убери свой клинок…"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 66,
+      "kind": "named",
+      "speaker_cn": "奴隶商人",
+      "text_ru": "Это Рынок Шрамов."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_cn": "负伤的雇佣兵",
+      "text_ru": "…Может, накинешь ещё? Я прибыл с границы Лейтании. У меня есть сведения из первых рук о междоусобице в центральных землях…"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "奴隶商人",
+      "text_ru": "Дам совет: раз уж пришёл сюда, научись держать язык за зубами."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 74,
+      "kind": "named",
+      "speaker_cn": "奴隶商人",
+      "text_ru": "Хвастаешься сведениями из первых рук, за которые другие готовы платить? Догадываешься, чем это для тебя кончится?"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 75,
+      "kind": "named",
+      "speaker_cn": "奴隶商人",
+      "text_ru": "Оставляй товар и проваливай. За тобой очередь."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_cn": "负伤的雇佣兵",
+      "text_ru": "Ух…"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 79,
+      "kind": "named",
+      "speaker_cn": "奴隶商人",
+      "text_ru": "Недоволен? Сходи в бар и напейся фирменного пойла нашего босса, Шрамоглазого. Хех, нет денег — не беда: там примут твоё оружие в залог, наёмник."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 81,
+      "kind": "named",
+      "speaker_cn": "负伤的雇佣兵",
+      "text_ru": "И ещё… Где у вас берут заказы на награды? Я приехал сюда за большими деньгами."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 83,
+      "kind": "named",
+      "speaker_cn": "奴隶商人",
+      "text_ru": "В баре тебе охотно расскажут."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 85,
+      "kind": "named",
+      "speaker_cn": "负伤的雇佣兵",
+      "text_ru": "*Сарказское ругательство*."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 95,
+      "kind": "unnamed",
+      "text_ru": "Наёмник оглядел парящее поселение, укрытое в огромной подземной полости под Казделем."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 96,
+      "kind": "unnamed",
+      "text_ru": "Среди стонов рабов снизу доносились приглушённые взрывы орижиневой пыли и гул бурлящей лавы."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 97,
+      "kind": "unnamed",
+      "text_ru": "Взглянув на опасную тропу, он вспомнил, как с риском для жизни добирался сюда с поверхности, и невольно содрогнулся."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 107,
+      "kind": "named",
+      "speaker_cn": "负伤的雇佣兵",
+      "text_ru": "Сколько же людей… набилось в этот глубокий ров?"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 109,
+      "kind": "named",
+      "speaker_cn": "奴隶商人",
+      "text_ru": "Столько, что, прыгнув туда, не разобьёшься. Добро пожаловать на Рынок Шрамов, новичок. Тебе здесь понравится."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 111,
+      "kind": "named",
+      "speaker_cn": "负伤的雇佣兵",
+      "text_ru": "…А там что? Почему столько народу?"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 113,
+      "kind": "named",
+      "speaker_cn": "奴隶商人",
+      "text_ru": "Наверняка опять пожаловала какая-нибудь важная шишка."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 114,
+      "kind": "named",
+      "speaker_cn": "奴隶商人",
+      "text_ru": "Ты ведь хотел «заработать большие деньги»? Вот и иди. А я не собираюсь совать нос в чужие дела."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 116,
+      "kind": "unnamed",
+      "text_ru": "Наёмник смутно различил белую фигуру, мелькнувшую среди беспорядочных серых улиц."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 117,
+      "kind": "unnamed",
+      "text_ru": "Белая одежда? В Казделе такое увидишь нечасто."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 119,
+      "kind": "named",
+      "speaker_cn": "负伤的雇佣兵",
+      "text_ru": "…"
+    }
+  ],
+  "notes": [
+    "No original CN/EN script copied.",
+    "Continuous text translation through source line 119; scene remains partial.",
+    "Terms Рынок Шрамов and Шрамоглазый are provisional."
+  ]
+}
