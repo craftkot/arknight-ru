@@ -1,0 +1,336 @@
+{
+  "version": "v1.67",
+  "stage": "Main story 6-10 before battle",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_main_06-10_beg.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "8a5d4c711491343324dc29b668e30d972724bba5",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "448f0d022a8c992d15badbf3e2c2e85a5d70c83e",
+    "version_difference": "CN/EN first 45 text positions align by physical source line; 20 newly translated entries at lines 50–98. CN primary, EN names/structure cross-check. Whole-scene structural audit pending."
+  },
+  "progress": {
+    "translated": 45,
+    "total": 104,
+    "remaining": 59,
+    "next_ordinal": 46,
+    "next_source_line": 100,
+    "complete": false,
+    "unit": "text entries (named and unnamed)"
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 5,
+      "kind": "unnamed",
+      "text_ru": "У-у… У-у…"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 6,
+      "kind": "unnamed",
+      "text_ru": "Я так хочу есть!"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 7,
+      "kind": "unnamed",
+      "text_ru": "А где папа? Куда он ушёл?"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 8,
+      "kind": "unnamed",
+      "text_ru": "Без папы нельзя… Хочу к папе! Папа!"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 9,
+      "kind": "unnamed",
+      "text_ru": "Папа обязательно придёт за мной!"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 11,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "…!"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 12,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Ребёнок?"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 14,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Группы Blaze-4 и Amiya-1, докладывает Серая Глотка. В трущобах, среди развалин дома № 10 на Четвёртой улице, обнаружен выживший ребёнок. Заражённый."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_cn": "孩童",
+      "text_ru": "У-у…"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 22,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "…Здравствуй."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 24,
+      "kind": "named",
+      "speaker_cn": "孩童",
+      "text_ru": "Т-ты кто?"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_cn": "孩童",
+      "text_ru": "Ты из Лунмэня?"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "…Я не причиню тебе вреда. Я плохо говорю по-урсусски. Я не враг."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_cn": "孩童",
+      "text_ru": "Что ты говоришь?"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 32,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Пойдём со мной. Здесь опасно."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 34,
+      "kind": "named",
+      "speaker_cn": "孩童",
+      "text_ru": "Дядя велел мне оставаться здесь и никуда не уходить…"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 36,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "…Но я могу отвести тебя к папе."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "孩童",
+      "text_ru": "Правда?"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 40,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Правда."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 41,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Эй, тот, кто прячется у меня за спиной. Выходи."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Ты…"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 44,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Ты не из тех людей."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Ты… ты с Родоса?"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Малыш, отойди подальше. Не приближайся."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 48,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Брось оружие и сдавайся."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 50,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "А?"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Разве ты пришла не помочь нам?"
+    },
+    {
+      "ordinal": 28,
+      "source_line": 52,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Родос! Ты хоть знаешь, что здесь скрывается?"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 53,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Мы с таким трудом устроили засаду… Если не выманим их и не убьём, они убьют нас!"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 55,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Вы использовали ребёнка как приманку. Уж лучше бы вас убили."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 57,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "…О чём ты вообще думаешь? Считаешь, что нашей смертью всё закончится?"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Даже если нас убьют, детей они не пощадят. Они никого не пощадят!"
+    },
+    {
+      "ordinal": 33,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Если бы всё было так просто, мы охотно отдали бы жизни, лишь бы не делать детей приманкой!"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 60,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Мы ведь даже не напали на тебя!"
+    },
+    {
+      "ordinal": 35,
+      "source_line": 62,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Кто способен на такое… Ты о людях в чёрных дождевиках?"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 64,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Ты их видела! Как ты можешь не понимать? Они хотят истребить всех до единого!"
+    },
+    {
+      "ordinal": 37,
+      "source_line": 66,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Это не оправдание. Когда я вас обезврежу, попрошу предоставить вам защиту."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "И кто тебе поверит?! Попадёт в человека болт из твоего арбалета — и он уже мёртв. Какая тут защита?"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 70,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Пока что — защита ваших жизней."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Хватит болтать! Сначала прикончим её, а потом устроим засаду заново!"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Мы уже слышали приказ о сборе и знаем место отхода! Если погибнем здесь, как посмотрим в глаза нашим товарищам — родителям этих детей, погибшим, защищая их?!"
+    },
+    {
+      "ordinal": 42,
+      "source_line": 75,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "…Малыш, спрячься подальше!"
+    },
+    {
+      "ordinal": 43,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Ух…"
+    },
+    {
+      "ordinal": 44,
+      "source_line": 95,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Я ещё жива?"
+    },
+    {
+      "ordinal": 45,
+      "source_line": 98,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "А как иначе? Думаешь, умереть было бы лучше?"
+    }
+  ]
+}
