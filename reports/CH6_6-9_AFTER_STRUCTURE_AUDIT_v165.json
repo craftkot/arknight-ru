@@ -1,0 +1,48 @@
+{
+  "version": "v1.65",
+  "scene": "obt/main/level_main_06-09_end.txt",
+  "scope": "Structural audit of CN/EN source and v1.64 named-dialogue translation; not an editorial or in-game validation",
+  "source": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_06-09_end.txt",
+      "git_blob_sha": "ff213f0a92ac216e8c9a1a8066b563724ed2ce9c"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "path": "en_US/gamedata/story/obt/main/level_main_06-09_end.txt",
+      "git_blob_sha": "4e2a11deddd5e00efd20e3b64bc77381fa6eb519"
+    },
+    "ru": {
+      "path": "story/story_chapter_6_stage_6-9_after_named_ru_v164.json",
+      "git_blob_sha": "587c867a61d0a3dca2ddf31efdac24672a1027a9"
+    }
+  },
+  "results": {
+    "cn_physical_lines": 255,
+    "en_physical_lines": 256,
+    "physical_line_difference": "One extra empty line in EN; nonempty structure aligns",
+    "named_dialogues_cn": 120,
+    "named_dialogues_en": 120,
+    "named_dialogues_ru": 120,
+    "ordinal_source_line_mismatches": 0,
+    "missing_or_empty_ru_entries": 0,
+    "cn_en_named_line_classification_mismatches": 0,
+    "unnamed_plain_text_lines_cn": 0,
+    "unnamed_plain_text_lines_en": 0,
+    "non_dialogue_commands_cn": 135,
+    "non_dialogue_commands_en": 135,
+    "command_differences": 0,
+    "lines_with_angle_or_curly_markup_cn": 0,
+    "lines_with_angle_or_curly_markup_en": 0,
+    "explicit_choice_or_branch_commands_found": 0
+  },
+  "status": "SOURCE_STRUCTURE_ALIGNED; NAMED_TRANSLATION_COMPLETE; EDITORIAL_REVIEW_PENDING; IN_GAME_TEST_PENDING",
+  "caveats": [
+    "The RU JSON contains named dialogue records, not a full reconstructed playable script. The 135 commands must be retained from a verified original during preview or patch construction.",
+    "Command identity across CN/EN does not establish that any local preview preserves commands correctly.",
+    "The scene is complete only as a first draft of named dialogue. Semantic CN→RU review and client integration remain unverified.",
+    "Chronology manifest v1.25 and README v1.40 are historically stale; do not use their counts to overwrite later v1.64 story files."
+  ],
+  "next": "Select next scene from up-to-date repository scene inventory; do not assume chronology/CHRONOLOGY_MANIFEST_v125.json next_file is current."
+}
