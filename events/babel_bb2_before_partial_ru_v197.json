@@ -23,7 +23,7 @@
       "text_ru": "Осень 1068 года"
     },
     {
-      "source_line": 19,
+      "source_line": 18,
       "text_ru": "Лейтаньен, округ Вассерланд"
     }
   ],
@@ -35,7 +35,7 @@
   "dialogues": [
     {
       "ordinal": 1,
-      "source_line": 27,
+      "source_line": 26,
       "kind": "named",
       "speaker_cn": "和蔼的文官",
       "speaker_ru": "Приветливый чиновник",
@@ -43,7 +43,7 @@
     },
     {
       "ordinal": 2,
-      "source_line": 29,
+      "source_line": 28,
       "kind": "named",
       "speaker_cn": "拉特兰修士",
       "speaker_ru": "Латеранский монах",
@@ -51,7 +51,7 @@
     },
     {
       "ordinal": 3,
-      "source_line": 31,
+      "source_line": 30,
       "kind": "named",
       "speaker_cn": "和蔼的文官",
       "speaker_ru": "Приветливый чиновник",
@@ -59,7 +59,7 @@
     },
     {
       "ordinal": 4,
-      "source_line": 32,
+      "source_line": 31,
       "kind": "named",
       "speaker_cn": "和蔼的文官",
       "speaker_ru": "Приветливый чиновник",
@@ -67,7 +67,7 @@
     },
     {
       "ordinal": 5,
-      "source_line": 33,
+      "source_line": 32,
       "kind": "named",
       "speaker_cn": "和蔼的文官",
       "speaker_ru": "Приветливый чиновник",
@@ -75,7 +75,7 @@
     },
     {
       "ordinal": 6,
-      "source_line": 34,
+      "source_line": 33,
       "kind": "named",
       "speaker_cn": "和蔼的文官",
       "speaker_ru": "Приветливый чиновник",
@@ -83,7 +83,7 @@
     },
     {
       "ordinal": 7,
-      "source_line": 35,
+      "source_line": 34,
       "kind": "named",
       "speaker_cn": "和蔼的文官",
       "speaker_ru": "Приветливый чиновник",
@@ -91,7 +91,7 @@
     },
     {
       "ordinal": 8,
-      "source_line": 36,
+      "source_line": 35,
       "kind": "named",
       "speaker_cn": "和蔼的文官",
       "speaker_ru": "Приветливый чиновник",
@@ -99,7 +99,7 @@
     },
     {
       "ordinal": 9,
-      "source_line": 37,
+      "source_line": 36,
       "kind": "named",
       "speaker_cn": "和蔼的文官",
       "speaker_ru": "Приветливый чиновник",
@@ -107,7 +107,7 @@
     },
     {
       "ordinal": 10,
-      "source_line": 39,
+      "source_line": 38,
       "kind": "named",
       "speaker_cn": "拉特兰修士",
       "speaker_ru": "Латеранский монах",
@@ -115,7 +115,7 @@
     },
     {
       "ordinal": 11,
-      "source_line": 41,
+      "source_line": 40,
       "kind": "named",
       "speaker_cn": "和蔼的文官",
       "speaker_ru": "Приветливый чиновник",
@@ -123,7 +123,7 @@
     },
     {
       "ordinal": 12,
-      "source_line": 43,
+      "source_line": 42,
       "kind": "named",
       "speaker_cn": "拉特兰修士",
       "speaker_ru": "Латеранский монах",
@@ -131,7 +131,7 @@
     },
     {
       "ordinal": 13,
-      "source_line": 44,
+      "source_line": 43,
       "kind": "named",
       "speaker_cn": "拉特兰修士",
       "speaker_ru": "Латеранский монах",
@@ -139,7 +139,7 @@
     },
     {
       "ordinal": 14,
-      "source_line": 45,
+      "source_line": 44,
       "kind": "named",
       "speaker_cn": "拉特兰修士",
       "speaker_ru": "Латеранский монах",
@@ -147,7 +147,7 @@
     },
     {
       "ordinal": 15,
-      "source_line": 47,
+      "source_line": 46,
       "kind": "named",
       "speaker_cn": "和蔼的文官",
       "speaker_ru": "Приветливый чиновник",
@@ -155,7 +155,7 @@
     },
     {
       "ordinal": 16,
-      "source_line": 48,
+      "source_line": 47,
       "kind": "named",
       "speaker_cn": "和蔼的文官",
       "speaker_ru": "Приветливый чиновник",
@@ -163,7 +163,7 @@
     },
     {
       "ordinal": 17,
-      "source_line": 60,
+      "source_line": 58,
       "kind": "named",
       "speaker_cn": "传令官",
       "speaker_ru": "Гонец",
@@ -171,7 +171,7 @@
     },
     {
       "ordinal": 18,
-      "source_line": 62,
+      "source_line": 60,
       "kind": "named",
       "speaker_cn": "和蔼的文官",
       "speaker_ru": "Приветливый чиновник",
@@ -179,7 +179,7 @@
     },
     {
       "ordinal": 19,
-      "source_line": 63,
+      "source_line": 61,
       "kind": "named",
       "speaker_cn": "和蔼的文官",
       "speaker_ru": "Приветливый чиновник",
