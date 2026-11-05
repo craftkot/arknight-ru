@@ -1,0 +1,174 @@
+{
+  "version": "v2.05",
+  "event": "Babel",
+  "scene": "BB-2 after battle",
+  "source_file": "activities/act33side/level_act33side_02_end.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED; COMMAND_AUDIT_PENDING",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "1e9f2bad05355516d8978d40feb0d5978711fe49",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "85bc1b1abdde7ad664ccae4106c2dc326d220e06",
+    "version_difference": "Different CN/EN blob hashes; first 22 textual positions agree in ordering and speakers. CN primary; EN cross-check. No original source scripts committed."
+  },
+  "progress": {
+    "translated_dialogue_and_narration": 22,
+    "complete": false
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_ru": "Терезис",
+      "text_ru": "Рядом с колеёй, оставленной этим военным кораблём, мы кажемся такими крошечными."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 18,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Да. Поразительная боевая машина."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Пожиратели падали ценой огромных потерь остановили корабль стеной из собственной плоти. Даже вопли банши, способные разорвать сознание, лишь заставили противника покинуть мостик и отступить в командный центр на нижних палубах…"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 21,
+      "kind": "named",
+      "speaker_ru": "Терезис",
+      "text_ru": "Если бы не Катастрофа впереди и опасный рельеф этого ущелья…"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "У нас действительно осталось совсем мало времени."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 25,
+      "kind": "named",
+      "speaker_ru": "Терезис",
+      "text_ru": "Казделю необходимо оружие не хуже этого — а лучше такое, что превзойдёт даже их воображение."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 27,
+      "kind": "named",
+      "speaker_ru": "Терезис",
+      "text_ru": "Все наши попытки до сих пор оканчивались неудачей…"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Разве сто с лишним лет назад кто-нибудь верил, что нам удастся превратить Каздель в мобильный город? Следуя привычным правилам, мы не сумеем догнать эти страны."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Перевёртыши только что передали весть: военные корабли, виднеющиеся на горизонте, начали сбавлять ход."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 32,
+      "kind": "named",
+      "speaker_ru": "Терезис",
+      "text_ru": "Они отказались от преследования?"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 34,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Нет. Курфюрст приказал продолжать погоню, но командование флота распорядилось снизить скорость."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 35,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Они боятся Катастрофы и сложной местности. Этот корабль перед нами — наглядное предостережение."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 37,
+      "kind": "named",
+      "speaker_ru": "Терезис",
+      "text_ru": "Значит, при нынешней скорости к вечеру наступит время решающего сражения."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 39,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…Этого достаточно. Мы выиграли достаточно времени."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 41,
+      "kind": "unnamed",
+      "text_ru": "Терезия оглянулась на две бури, постепенно сплетавшиеся над пустошью, и попыталась разглядеть следы огромного города."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 42,
+      "kind": "unnamed",
+      "text_ru": "Напрасно. Где теперь Каздель? Продолжает ли он двигаться сквозь бурю? В порядке ли жители, укрывшиеся в убежищах?"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Две бури сходятся. Путь назад полностью отрезан. Решающего боя не избежать, что бы мы ни… Терезис?"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_ru": "Терезис",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Никогда бы не подумала, что ты можешь отвлечься посреди поля боя."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 53,
+      "kind": "named",
+      "speaker_ru": "Терезис",
+      "text_ru": "…Что это?"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 55,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…?"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Это…"
+    }
+  ]
+}
