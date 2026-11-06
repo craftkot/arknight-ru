@@ -1,0 +1,195 @@
+{
+  "version": "v2.30",
+  "event": "Babel",
+  "scene": "BB-3 after battle",
+  "source_file": "activities/act33side/level_act33side_03_end.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_03_end.txt",
+    "cn_git_blob_sha1": "da543002ff835f53b1b060c46a339044a6acac63",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_03_end.txt",
+    "en_git_blob_sha1": "47495db2e6c9acdb00f4dde12d3057e69b28c0b4",
+    "version_difference": "CN/EN line positions and speaker order agree for lines 10–94. CN line 39 explicitly suggests using an alley; EN is less specific. CN line 94 describes finding the teacher amid raised dust; EN implies he is lying down. RU follows CN. Different Git blob SHA values reflect language-localized source files, not proof of a version mismatch."
+  },
+  "progress": {
+    "translated_text_positions": 25,
+    "complete": false,
+    "last_source_line": 94,
+    "next_source_line": null
+  },
+  "command_preservation": "Text-only translation overlay; no source game commands, timing, tags, branching or assets copied or changed.",
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 10,
+      "kind": "unnamed",
+      "text_ru": "Регион Каздель, мобильный город Каздель."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 14,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Пропустите меня!"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_ru": "Солдат королевского двора сарказов",
+      "text_ru": "Дальше проход закрыт."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Что там случилось?"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 27,
+      "kind": "named",
+      "speaker_ru": "Солдат королевского двора сарказов",
+      "text_ru": "Ты из «Бабеля»?"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…Я… я не из «Бабеля»."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 34,
+      "kind": "named",
+      "speaker_ru": "Солдат королевского двора сарказов",
+      "text_ru": "Тогда тебя это не касается."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 36,
+      "kind": "unnamed",
+      "text_ru": "Солдаты королевского двора встали стеной, не давая Одде пройти."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 37,
+      "kind": "unnamed",
+      "text_ru": "Но среди людей, в панике расходившихся по улице, он заметил несколько знакомых заплаканных лиц."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 39,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Это же те ученики…? Эти дома… Если обойти через переулок, я, наверное, смогу туда попасть!"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Скажите, пожалуйста, что там всё-таки произошло?"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_ru": "Равнодушный горожанин",
+      "text_ru": "Прямо на улице одного человека забили до смерти. Тот, кто это сделал, тоже погиб. Хочешь поглазеть?"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_ru": "Возмущённый горожанин",
+      "text_ru": "Опять «Бабель»! Не понимаю, чего вообще добивается Её Высочество…"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 60,
+      "kind": "named",
+      "speaker_ru": "Равнодушный горожанин",
+      "text_ru": "…Закрой рот! Прояви уважение к Её Высочеству! Кто, по-твоему, дал тебе еду, одежду и крышу над головой?!"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_ru": "Осторожный горожанин",
+      "text_ru": "Тс-с…"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_ru": "Возмущённый горожанин",
+      "text_ru": "Да всё просто: учитель взял и забил до смерти отца собственного ученика!"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 74,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Учитель? Как такое возможно…"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_ru": "Возмущённый горожанин",
+      "text_ru": "Отец того ребёнка всего-то пару раз его обругал! А учитель сам наговорил детям всякого, чему их учить нельзя!"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Всё было не так…"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 85,
+      "kind": "named",
+      "speaker_ru": "Насмешливый горожанин",
+      "text_ru": "Ты тоже за «Бабель» заступаешься? Вот до чего они довели молодёжь…"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 88,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_ru": "Насмешливый горожанин",
+      "text_ru": "Эй, ты куда пошёл?"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 93,
+      "kind": "unnamed",
+      "text_ru": "Одда протиснулся сквозь толпу на улице и увидел несколько знакомых лиц среди лежавших на земле."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 94,
+      "kind": "unnamed",
+      "text_ru": "С трудом добравшись до места, где началась суматоха, он наконец разглядел в поднявшейся пыли того самого «учителя»."
+    }
+  ]
+}
