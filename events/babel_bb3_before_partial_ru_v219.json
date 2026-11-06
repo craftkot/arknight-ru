@@ -1,0 +1,168 @@
+{
+  "version": "v2.19",
+  "event": "Babel",
+  "scene": "BB-3 before battle",
+  "source_file": "activities/act33side/level_act33side_03_beg.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_03_beg.txt",
+    "cn_git_blob_sha1": "3551ec9987dc3d93a0a4dc789f26a80e3a8ce240",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_03_beg.txt",
+    "en_git_blob_sha1": "7e041d79ba2e7bee22e6cf8b389f91e74a7fcc45",
+    "version_difference": "CN/EN line positions and command types agree for lines 1–64; text is language-specific. CN calls Goodluck greedy; EN softens to motivated. CN describes a paid killing; EN euphemizes it. Russian follows CN."
+  },
+  "progress": {
+    "translated_text_positions": 22,
+    "complete": false,
+    "last_source_line": 64,
+    "next_source_line": 69
+  },
+  "command_preservation": "Translation-only overlay; original commands remain external. Sticker 11–12 and Subtitle 22–28,36 retain source layout/position parameters and must be patched only in text arguments.",
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 11,
+      "kind": "sticker",
+      "text_ru": "Восемь лет назад"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 12,
+      "kind": "sticker",
+      "text_ru": "Лето 1086 года"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 17,
+      "kind": "unnamed",
+      "text_ru": "Регион Каздель, жилой квартал мобильного города Каздель."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 22,
+      "kind": "subtitle",
+      "text_ru": "Ученики, помните, о чём мы договорились перед уроком? Хорошо. Отвечайте негромко и никому не рассказывайте о наших занятиях."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 23,
+      "kind": "subtitle",
+      "text_ru": "Последние несколько месяцев учитель Рэй Танка рассказывал вам нашу историю. А я всё думал, чему же научить вас на своём последнем уроке."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 24,
+      "kind": "subtitle",
+      "text_ru": "Математике? Языкам? Выращиванию урожая? Или изготовлению оружия?"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 25,
+      "kind": "subtitle",
+      "text_ru": "Но я понял одно: чему бы я вас ни научил, это не изменит нашу жизнь по-настоящему. Мы слишком долго молча жили в отчаянии."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 26,
+      "kind": "subtitle",
+      "text_ru": "Война восемнадцатилетней давности так и не закончилась. Флот Лейтаньена, словно призрак, преследует тех, кто пережил ту войну."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 27,
+      "kind": "subtitle",
+      "text_ru": "Многие умерли в отчаянии — от страха перед войной и перед чёрными камнями, которых на их телах становилось всё больше."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 28,
+      "kind": "subtitle",
+      "text_ru": "Но инстинкт неизменно заставляет нас искать способ одолеть отчаяние."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 36,
+      "kind": "subtitle",
+      "text_ru": "Кто-то объявил войну отчаянию и чужеземцам, принёсшим нам страдания, но всякий раз разбивался о непреодолимую реальность…"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_ru": "Удача",
+      "text_ru": "…Я пришёл посмотреть заказы."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_ru": "Шрамоглаз",
+      "text_ru": "Из всех наёмников, которых я встречал, ты один из самых жадных, Удача. Копишь на поместье в Колумбии?"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 46,
+      "kind": "named",
+      "speaker_ru": "Шрамоглаз",
+      "text_ru": "Уже то, что ты жив, — удача. Ха, если судить по тому, как долго ты продержался, своё имя ты действительно заслужил."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 48,
+      "kind": "named",
+      "speaker_ru": "Удача",
+      "text_ru": "Слышал, появилось несколько крупных заказов. Есть что-нибудь хорошо оплачиваемое?"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 50,
+      "kind": "named",
+      "speaker_ru": "Шрамоглаз",
+      "text_ru": "Сейчас обстановка напряжённая. В городе за всем следят, и те, кто взялся за предыдущие заказы, плохо кончили."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_ru": "Шрамоглаз",
+      "text_ru": "…Дело связано с «Бабелем». Точно хочешь взяться?"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 53,
+      "kind": "named",
+      "speaker_ru": "Удача",
+      "text_ru": "Возьмусь. Мне всегда везёт."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 55,
+      "kind": "named",
+      "speaker_ru": "Шрамоглаз",
+      "text_ru": "Тогда слушай. В городе есть учитель, который каждый день защищает чужеземцев из «Бабеля». Кто-то заплатит за его смерть."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 57,
+      "kind": "named",
+      "speaker_ru": "Удача",
+      "text_ru": "…Хорошо."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_ru": "Шрамоглаз",
+      "text_ru": "Посмотрим, чем ты ещё сумеешь меня удивить."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 64,
+      "kind": "named",
+      "speaker_ru": "Шрамоглаз",
+      "text_ru": "Надеюсь, сегодня твоё везение не закончится, приятель."
+    }
+  ]
+}
