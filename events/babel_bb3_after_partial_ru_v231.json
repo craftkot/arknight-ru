@@ -1,0 +1,347 @@
+{
+  "version": "v2.31",
+  "event": "Babel",
+  "scene": "BB-3 after battle",
+  "source_file": "activities/act33side/level_act33side_03_end.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_03_end.txt",
+    "cn_git_blob_sha1": "da543002ff835f53b1b060c46a339044a6acac63",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_03_end.txt",
+    "en_git_blob_sha1": "47495db2e6c9acdb00f4dde12d3057e69b28c0b4",
+    "version_difference": "CN and EN Git blob SHA verified unchanged. Added positions 102–164 align by order and kind. At CN 111 the teacher points to the child; CN 121 describes spreading dust, while EN uses a chain-reaction metaphor. RU follows CN."
+  },
+  "progress": {
+    "translated_text_positions": 48,
+    "complete": false,
+    "last_source_line": 164,
+    "next_source_line": 171
+  },
+  "command_preservation": "Text-only translation overlay; no source game commands, timing, tags, branching or assets copied or changed.",
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 10,
+      "kind": "unnamed",
+      "text_ru": "Регион Каздель, мобильный город Каздель."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 14,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Пропустите меня!"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_ru": "Солдат королевского двора сарказов",
+      "text_ru": "Дальше проход закрыт."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Что там случилось?"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 27,
+      "kind": "named",
+      "speaker_ru": "Солдат королевского двора сарказов",
+      "text_ru": "Ты из «Бабеля»?"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…Я… я не из «Бабеля»."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 34,
+      "kind": "named",
+      "speaker_ru": "Солдат королевского двора сарказов",
+      "text_ru": "Тогда тебя это не касается."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 36,
+      "kind": "unnamed",
+      "text_ru": "Солдаты королевского двора встали стеной, не давая Одде пройти."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 37,
+      "kind": "unnamed",
+      "text_ru": "Но среди людей, в панике расходившихся по улице, он заметил несколько знакомых заплаканных лиц."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 39,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Это же те ученики…? Эти дома… Если обойти через переулок, я, наверное, смогу туда попасть!"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Скажите, пожалуйста, что там всё-таки произошло?"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_ru": "Равнодушный горожанин",
+      "text_ru": "Прямо на улице одного человека забили до смерти. Тот, кто это сделал, тоже погиб. Хочешь поглазеть?"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_ru": "Возмущённый горожанин",
+      "text_ru": "Опять «Бабель»! Не понимаю, чего вообще добивается Её Высочество…"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 60,
+      "kind": "named",
+      "speaker_ru": "Равнодушный горожанин",
+      "text_ru": "…Закрой рот! Прояви уважение к Её Высочеству! Кто, по-твоему, дал тебе еду, одежду и крышу над головой?!"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_ru": "Осторожный горожанин",
+      "text_ru": "Тс-с…"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_ru": "Возмущённый горожанин",
+      "text_ru": "Да всё просто: учитель взял и забил до смерти отца собственного ученика!"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 74,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Учитель? Как такое возможно…"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_ru": "Возмущённый горожанин",
+      "text_ru": "Отец того ребёнка всего-то пару раз его обругал! А учитель сам наговорил детям всякого, чему их учить нельзя!"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Всё было не так…"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 85,
+      "kind": "named",
+      "speaker_ru": "Насмешливый горожанин",
+      "text_ru": "Ты тоже за «Бабель» заступаешься? Вот до чего они довели молодёжь…"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 88,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_ru": "Насмешливый горожанин",
+      "text_ru": "Эй, ты куда пошёл?"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 93,
+      "kind": "unnamed",
+      "text_ru": "Одда протиснулся сквозь толпу на улице и увидел несколько знакомых лиц среди лежавших на земле."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 94,
+      "kind": "unnamed",
+      "text_ru": "С трудом добравшись до места, где началась суматоха, он наконец разглядел в поднявшейся пыли того самого «учителя»."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 102,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Учитель! Что здесь произошло?"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 106,
+      "kind": "named",
+      "speaker_ru": "Учитель",
+      "text_ru": "Я… правда не хотел… причинить вред… его отцу…"
+    },
+    {
+      "ordinal": 28,
+      "source_line": 108,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Я отведу вас к врачу!"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 110,
+      "kind": "named",
+      "speaker_ru": "Учитель",
+      "text_ru": "Нет… там… спаси его…"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 111,
+      "kind": "unnamed",
+      "text_ru": "Умирающий указал в сторону, куда всё это время смотрел. Одда увидел раненого ребёнка, плакавшего рядом с неподвижным телом отца."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 113,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 118,
+      "kind": "unnamed",
+      "text_ru": "С раненым ребёнком на руках Одда пробирался по охваченным огнём улицам и постепенно, по обрывкам разговоров в толпе, восстановил картину случившегося."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 119,
+      "kind": "unnamed",
+      "text_ru": "Вспыливший учитель случайно убил разъярённого отца. Затем на него набросилась разгневанная толпа, и он упал в уличную пыль."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 120,
+      "kind": "unnamed",
+      "text_ru": "Мирные жители, «Бабель», наёмники и, возможно, даже Военная комиссия — в происходящее втягивалось всё больше людей."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 121,
+      "kind": "unnamed",
+      "text_ru": "Пыль, поднявшаяся там, распространялась из одного уголка города в другой…"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 122,
+      "kind": "unnamed",
+      "text_ru": "Лишь когда неизвестный артиллерийский огонь разрушил внешнюю стену представительства «Бабеля», войска королевского двора наконец подавили беспорядки, вызвавшие столь широкий резонанс."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 123,
+      "kind": "unnamed",
+      "text_ru": "Всё началось с несчастного случая и закончилось артиллерийским снарядом. «Бабель» понёс самые тяжёлые потери со времён войны восемнадцатилетней давности."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 133,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Не вынуждай меня применять силу. Ребёнок ранен, ему нужен врач."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 138,
+      "kind": "named",
+      "speaker_ru": "Молчаливый наёмник",
+      "text_ru": "Ты на чьей стороне? «Бабеля»? Военной комиссии?"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 140,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Ни на чьей! Я просто хочу отвести его к врачу. Пропусти!"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 142,
+      "kind": "named",
+      "speaker_ru": "Ослабевший ребёнок",
+      "text_ru": "Мой папа…"
+    },
+    {
+      "ordinal": 42,
+      "source_line": 144,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Уже слишком поздно… Прости."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 146,
+      "kind": "named",
+      "speaker_ru": "Молчаливый наёмник",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 44,
+      "source_line": 147,
+      "kind": "named",
+      "speaker_ru": "Молчаливый наёмник",
+      "text_ru": "Иди. Но не доверяй чужакам так легко… сарказ. Сейчас вокруг полный хаос."
+    },
+    {
+      "ordinal": 45,
+      "source_line": 149,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Спасибо…"
+    },
+    {
+      "ordinal": 46,
+      "source_line": 152,
+      "kind": "unnamed",
+      "text_ru": "Одда молча нёс ребёнка дальше. Дыхание малыша постепенно слабело."
+    },
+    {
+      "ordinal": 47,
+      "source_line": 153,
+      "kind": "unnamed",
+      "text_ru": "Пробираясь по улице, Одда будто почувствовал, как кто-то задел его плечом, но никого не увидел."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 164,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…Мне показалось?"
+    }
+  ]
+}
