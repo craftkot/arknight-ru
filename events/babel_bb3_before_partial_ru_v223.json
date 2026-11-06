@@ -1,0 +1,645 @@
+{
+  "version": "v2.23",
+  "event": "Babel",
+  "scene": "BB-3 before battle",
+  "source_file": "activities/act33side/level_act33side_03_beg.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_03_beg.txt",
+    "cn_git_blob_sha1": "3551ec9987dc3d93a0a4dc789f26a80e3a8ce240",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_03_beg.txt",
+    "en_git_blob_sha1": "7e041d79ba2e7bee22e6cf8b389f91e74a7fcc45",
+    "version_difference": "CN and EN blob hashes unchanged; 12 text positions at CN lines 217–261 checked against EN. CN 250 describes a life fading like dust, EN expands to Kazdel; RU follows CN. CN 251 explicitly uses Goodluck's name as wordplay."
+  },
+  "progress": {
+    "translated_text_positions": 95,
+    "complete": false,
+    "last_source_line": 261,
+    "next_source_line": 266
+  },
+  "command_preservation": "Text-only overlay through CN line 261; all commands, effects, animations and branching remain in the external original.",
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 11,
+      "kind": "sticker",
+      "text_ru": "Восемь лет назад"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 12,
+      "kind": "sticker",
+      "text_ru": "Лето 1086 года"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 17,
+      "kind": "unnamed",
+      "text_ru": "Регион Каздель, жилой квартал мобильного города Каздель."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 22,
+      "kind": "subtitle",
+      "text_ru": "Ученики, помните, о чём мы договорились перед уроком? Хорошо. Отвечайте негромко и никому не рассказывайте о наших занятиях."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 23,
+      "kind": "subtitle",
+      "text_ru": "Последние несколько месяцев учитель Рэй Танка рассказывал вам нашу историю. А я всё думал, чему же научить вас на своём последнем уроке."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 24,
+      "kind": "subtitle",
+      "text_ru": "Математике? Языкам? Выращиванию урожая? Или изготовлению оружия?"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 25,
+      "kind": "subtitle",
+      "text_ru": "Но я понял одно: чему бы я вас ни научил, это не изменит нашу жизнь по-настоящему. Мы слишком долго молча жили в отчаянии."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 26,
+      "kind": "subtitle",
+      "text_ru": "Война восемнадцатилетней давности так и не закончилась. Флот Лейтаньена, словно призрак, преследует тех, кто пережил ту войну."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 27,
+      "kind": "subtitle",
+      "text_ru": "Многие умерли в отчаянии — от страха перед войной и перед чёрными камнями, которых на их телах становилось всё больше."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 28,
+      "kind": "subtitle",
+      "text_ru": "Но инстинкт неизменно заставляет нас искать способ одолеть отчаяние."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 36,
+      "kind": "subtitle",
+      "text_ru": "Кто-то объявил войну отчаянию и чужеземцам, принёсшим нам страдания, но всякий раз разбивался о непреодолимую реальность…"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_ru": "Удача",
+      "text_ru": "…Я пришёл посмотреть заказы."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_ru": "Шрамоглаз",
+      "text_ru": "Из всех наёмников, которых я встречал, ты один из самых жадных, Удача. Копишь на поместье в Колумбии?"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 46,
+      "kind": "named",
+      "speaker_ru": "Шрамоглаз",
+      "text_ru": "Уже то, что ты жив, — удача. Ха, если судить по тому, как долго ты продержался, своё имя ты действительно заслужил."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 48,
+      "kind": "named",
+      "speaker_ru": "Удача",
+      "text_ru": "Слышал, появилось несколько крупных заказов. Есть что-нибудь хорошо оплачиваемое?"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 50,
+      "kind": "named",
+      "speaker_ru": "Шрамоглаз",
+      "text_ru": "Сейчас обстановка напряжённая. В городе за всем следят, и те, кто взялся за предыдущие заказы, плохо кончили."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_ru": "Шрамоглаз",
+      "text_ru": "…Дело связано с «Бабелем». Точно хочешь взяться?"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 53,
+      "kind": "named",
+      "speaker_ru": "Удача",
+      "text_ru": "Возьмусь. Мне всегда везёт."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 55,
+      "kind": "named",
+      "speaker_ru": "Шрамоглаз",
+      "text_ru": "Тогда слушай. В городе есть учитель, который каждый день защищает чужеземцев из «Бабеля». Кто-то заплатит за его смерть."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 57,
+      "kind": "named",
+      "speaker_ru": "Удача",
+      "text_ru": "…Хорошо."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_ru": "Шрамоглаз",
+      "text_ru": "Посмотрим, чем ты ещё сумеешь меня удивить."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 64,
+      "kind": "named",
+      "speaker_ru": "Шрамоглаз",
+      "text_ru": "Надеюсь, сегодня твоё везение не закончится, приятель."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 69,
+      "kind": "unnamed",
+      "text_ru": "Каздель, мобильный город в регионе Каздель."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 72,
+      "kind": "unnamed",
+      "text_ru": "Удача давно сюда не возвращался."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 73,
+      "kind": "unnamed",
+      "text_ru": "Город сильно изменился: люди приезжали и уезжали. Слова «Бабель» и «Военная комиссия» были ему знакомы, но люди то и дело ожесточённо спорили о вещах, в которых он совершенно не разбирался."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 74,
+      "kind": "unnamed",
+      "text_ru": "Он не понимал, о чём тут спорить: ведь все они сарказы."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 75,
+      "kind": "unnamed",
+      "text_ru": "Он достал фотографию и ещё раз взглянул на цель. Молодой человек с довольно мягкими чертами лица. Треугольный знак на его одежде казался до боли знакомым."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 76,
+      "kind": "unnamed",
+      "text_ru": "Учитель. Выступает в защиту чужеземцев из «Бабеля». Подстрекает к сопротивлению Военной комиссии."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 77,
+      "kind": "unnamed",
+      "text_ru": "Не повезло тебе. Сегодня твоя жизнь оборвётся."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 82,
+      "kind": "named",
+      "speaker_ru": "Удача",
+      "text_ru": "По следам выходит, что он должен быть где-то поблизости."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 86,
+      "kind": "named",
+      "speaker_ru": "Удача",
+      "text_ru": "Постойте… Почему именно здесь?.."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 88,
+      "kind": "unnamed",
+      "text_ru": "Хотя он давно не бывал здесь, он прекрасно помнил: это его дом."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 89,
+      "kind": "unnamed",
+      "text_ru": "И дом Одды."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_ru": "Удача",
+      "text_ru": "Одда, тебе не стоило в это вмешиваться…"
+    },
+    {
+      "ordinal": 35,
+      "source_line": 98,
+      "kind": "subtitle",
+      "text_ru": "После бесчисленных поражений от сил, которым мы не могли противостоять, мы научились молча мириться с отчаянием."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 99,
+      "kind": "subtitle",
+      "text_ru": "Но нам необходимо убедить себя, что отчаяние возникло не по нашей вине. Мы ищем его причину в том, что видим вокруг."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 100,
+      "kind": "subtitle",
+      "text_ru": "И в нашу эпоху виновник всех бед будто бы очевиден — «Бабель»."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 101,
+      "kind": "subtitle",
+      "text_ru": "Это «Бабель» привёл к нам чужих врагов. Лекарства «Бабеля» ускорили развитие орипатии. Его школы лишили нас воли к сопротивлению…"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 102,
+      "kind": "subtitle",
+      "text_ru": "«Бабель» одурманил Короля сарказов, пытаясь заставить нас отказаться от кровной мести чужеземцам. «Бабель» — источник нашего отчаяния."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 103,
+      "kind": "subtitle",
+      "text_ru": "Вижу, некоторые из вас кивают. Наверняка родители говорили вам то же самое? Люди, погрязшие в отчаянии, часто принимают пугающие слухи за истину."
+    },
+    {
+      "ordinal": 41,
+      "source_line": 104,
+      "kind": "subtitle",
+      "text_ru": "Но так ли это? Разве до появления чужеземцев в Казделе мы жили лучше?"
+    },
+    {
+      "ordinal": 42,
+      "source_line": 105,
+      "kind": "subtitle",
+      "text_ru": "Не позволяйте никому обмануть вас. Думайте, наблюдайте и находите собственные ответы."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 106,
+      "kind": "subtitle",
+      "text_ru": "Да, покинуть Каздель трудно. За его пределами полно опасностей; даже добраться целыми до границы соседней страны непросто."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 107,
+      "kind": "subtitle",
+      "text_ru": "И всё же я уеду отсюда — в Лейтаньен, Колумбию, Казимеж, куда угодно, лишь бы найти способ изменить нашу жизнь…"
+    },
+    {
+      "ordinal": 45,
+      "source_line": 108,
+      "kind": "subtitle",
+      "text_ru": "А потом вернусь и научу этому вас — всех детей сарказов."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 109,
+      "kind": "subtitle",
+      "text_ru": "Вы спрашиваете, что станет с «Бабелем»? Будущее «Бабеля» будет…"
+    },
+    {
+      "ordinal": 47,
+      "source_line": 116,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "—!"
+    },
+    {
+      "ordinal": 48,
+      "source_line": 117,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Прячьтесь. Ни звука."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 123,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Ты… кого-то ищешь?"
+    },
+    {
+      "ordinal": 50,
+      "source_line": 128,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "…Кажется, я ошиблась дверью."
+    },
+    {
+      "ordinal": 51,
+      "source_line": 130,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…Вам нужна помощь? Я хорошо знаю эти места."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 132,
+      "kind": "unnamed",
+      "text_ru": "Он улыбается. В его взгляде нет ни тени паники."
+    },
+    {
+      "ordinal": 53,
+      "source_line": 133,
+      "kind": "unnamed",
+      "text_ru": "Аскалон быстро оглядывает скромно обставленную комнату и сразу всё понимает."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 139,
+      "kind": "named",
+      "speaker_ru": "Задумчивый ребёнок",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 55,
+      "source_line": 149,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Ты живёшь здесь один?"
+    },
+    {
+      "ordinal": 56,
+      "source_line": 151,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Да…"
+    },
+    {
+      "ordinal": 57,
+      "source_line": 153,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Я из «Бабеля». Меня зовут Аскалон."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 155,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…!"
+    },
+    {
+      "ordinal": 59,
+      "source_line": 157,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Спасибо, что приютил его. Но вам придётся уйти отсюда."
+    },
+    {
+      "ordinal": 60,
+      "source_line": 158,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Будьте осторожны. В последнее время здесь неспокойно."
+    },
+    {
+      "ordinal": 61,
+      "source_line": 165,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 62,
+      "source_line": 167,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Тебе пора уходить. Ты и сам слышал: похоже, кто-то уже заметил вас."
+    },
+    {
+      "ordinal": 63,
+      "source_line": 168,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "И дело не только в Военной комиссии. До этого к нам столько раз приходили наёмники, искали ссоры…"
+    },
+    {
+      "ordinal": 64,
+      "source_line": 173,
+      "kind": "named",
+      "speaker_ru": "Учитель",
+      "text_ru": "Знаю, Одда. Я и так очень благодарен тебе за то, что ты тайком предоставил нам свой дом для занятий."
+    },
+    {
+      "ordinal": 65,
+      "source_line": 174,
+      "kind": "named",
+      "speaker_ru": "Учитель",
+      "text_ru": "А дети…"
+    },
+    {
+      "ordinal": 66,
+      "source_line": 176,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Я провожу их домой, не волнуйся. Через пару дней, когда всё утихнет, вы сможете снова заниматься здесь."
+    },
+    {
+      "ordinal": 67,
+      "source_line": 178,
+      "kind": "named",
+      "speaker_ru": "Учитель",
+      "text_ru": "Не нужно, Одда. Как я уже говорил, я собираюсь уехать."
+    },
+    {
+      "ordinal": 68,
+      "source_line": 179,
+      "kind": "named",
+      "speaker_ru": "Учитель",
+      "text_ru": "Я и так слишком долго откладывал отъезд, чтобы закончить занятия с этими детьми. Теперь мне предстоит побывать ещё во многих местах."
+    },
+    {
+      "ordinal": 69,
+      "source_line": 181,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…Хорошо. Да, чуть не забыл: возьми картошку."
+    },
+    {
+      "ordinal": 70,
+      "source_line": 182,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Дети знают, в каком ты положении, и понемногу собрали для тебя всё, что смогли."
+    },
+    {
+      "ordinal": 71,
+      "source_line": 184,
+      "kind": "named",
+      "speaker_ru": "Учитель",
+      "text_ru": "Спасибо вам… Спасибо…"
+    },
+    {
+      "ordinal": 72,
+      "source_line": 186,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Это мне нужно вас благодарить. Большое спасибо. Я многому научился на ваших уроках."
+    },
+    {
+      "ordinal": 73,
+      "source_line": 188,
+      "kind": "named",
+      "speaker_ru": "Учитель",
+      "text_ru": "В последние годы Каздель быстро отстраивается, но знания и взгляды людей не поспевают за темпами его развития."
+    },
+    {
+      "ordinal": 74,
+      "source_line": 189,
+      "kind": "named",
+      "speaker_ru": "Учитель",
+      "text_ru": "Если мы не изменим положение дел, наша собственная сила рано или поздно нас погубит."
+    },
+    {
+      "ordinal": 75,
+      "source_line": 190,
+      "kind": "named",
+      "speaker_ru": "Учитель",
+      "text_ru": "Взять хотя бы нынешние распри в городе. Сарказы не должны жить так."
+    },
+    {
+      "ordinal": 76,
+      "source_line": 191,
+      "kind": "named",
+      "speaker_ru": "Учитель",
+      "text_ru": "…Но я пока не нашёл способа всё изменить. Зато уверен: ответ не в Казделе."
+    },
+    {
+      "ordinal": 77,
+      "source_line": 192,
+      "kind": "named",
+      "speaker_ru": "Учитель",
+      "text_ru": "Прощай, Одда."
+    },
+    {
+      "ordinal": 78,
+      "source_line": 194,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Прощайте… Счастливого пути."
+    },
+    {
+      "ordinal": 79,
+      "source_line": 202,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 80,
+      "source_line": 204,
+      "kind": "unnamed",
+      "text_ru": "Одда смотрит вслед Учителю, скрывшемуся за углом, и всё не заходит в дом."
+    },
+    {
+      "ordinal": 81,
+      "source_line": 205,
+      "kind": "unnamed",
+      "text_ru": "Он и сам не помнит, когда привык каждый день сидеть у порога. Он ждёт, всё ждёт, что один человек вернётся."
+    },
+    {
+      "ordinal": 82,
+      "source_line": 206,
+      "kind": "unnamed",
+      "text_ru": "Ветер поднимает пыль с улицы, а пыль вызывает слёзы. Но не видно даже тени."
+    },
+    {
+      "ordinal": 83,
+      "source_line": 207,
+      "kind": "unnamed",
+      "text_ru": "Он тихонько закрывает дверь."
+    },
+    {
+      "ordinal": 84,
+      "source_line": 217,
+      "kind": "named",
+      "speaker_ru": "Удача",
+      "text_ru": "Одда…"
+    },
+    {
+      "ordinal": 85,
+      "source_line": 219,
+      "kind": "unnamed",
+      "text_ru": "Удача увидел, как цель вышла из дома. А следом заметил знакомую фигуру, которую не видел уже очень давно."
+    },
+    {
+      "ordinal": 86,
+      "source_line": 220,
+      "kind": "unnamed",
+      "text_ru": "Нож в его руке вдруг стал невыносимо тяжёлым. На мгновение он застыл, не в силах пошевелиться."
+    },
+    {
+      "ordinal": 87,
+      "source_line": 222,
+      "kind": "named",
+      "speaker_ru": "Удача",
+      "text_ru": "Одда… Прости… Я даже не знал, когда вы…"
+    },
+    {
+      "ordinal": 88,
+      "source_line": 223,
+      "kind": "named",
+      "speaker_ru": "Удача",
+      "text_ru": "Из меня вышел никудышный отец… Но…"
+    },
+    {
+      "ordinal": 89,
+      "source_line": 225,
+      "kind": "unnamed",
+      "text_ru": "Он крепче сжал рукоять ножа."
+    },
+    {
+      "ordinal": 90,
+      "source_line": 226,
+      "kind": "unnamed",
+      "text_ru": "Он знал лишь один способ заработать Одде на лучшее будущее."
+    },
+    {
+      "ordinal": 91,
+      "source_line": 247,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "…Ещё один."
+    },
+    {
+      "ordinal": 92,
+      "source_line": 249,
+      "kind": "unnamed",
+      "text_ru": "Дым скользнул над телом на углу улицы, стирая следы его существования."
+    },
+    {
+      "ordinal": 93,
+      "source_line": 250,
+      "kind": "unnamed",
+      "text_ru": "Беззвучно, в полной тишине. Жизнь угасла, словно пылинка упала на землю, никем не замеченная."
+    },
+    {
+      "ordinal": 94,
+      "source_line": 251,
+      "kind": "unnamed",
+      "text_ru": "Смерть наконец настигла человека, чья удача иссякла."
+    },
+    {
+      "ordinal": 95,
+      "source_line": 261,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "И долго ты ещё собираешься прятаться? Или решил напасть на меня прямо сейчас… Манфред?"
+    }
+  ]
+}
