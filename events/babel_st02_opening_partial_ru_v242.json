@@ -1,0 +1,315 @@
+{
+  "version": "v2.42",
+  "event": "Babel",
+  "scene": "BB-ST-2 (opening and landship preparation fragment)",
+  "source_file": "activities/act33side/level_act33side_st02.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_st02.txt",
+    "cn_git_blob_sha1": "db29b67dbd1a3b2586cbd88a3733d58c734e2c6d",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_st02.txt",
+    "en_git_blob_sha1": "463f505f56923b7534e2f235d30ce44c1c8123ec",
+    "version_difference": "CN/EN source Git blob hashes unchanged from v2.41. New positions 58–110 align in speaker and text-command sequence. Notable semantic difference: CN line 93 requires confirming package safety, while EN mentions assessing risk level; Russian follows CN. CN line 94 refers to a covert agent involved with the missing engineer; EN similarly indicates an agent."
+  },
+  "progress": {
+    "translated_text_positions": 42,
+    "complete": false,
+    "last_source_line": 110,
+    "next_source_line": null
+  },
+  "command_preservation": "Text-only overlay. Original commands, branches, assets and timing are not reproduced or modified.",
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 13,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Я приготовила для тебя подарок, {@nickname}."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 14,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Что ты слышишь?"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "Это…"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 18,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Помнишь? Это поляризация, возникшая при рождении AMa-10. Ты говорил, что различил мелодию в её волновой форме. Разумеется, я добавила кое-что от себя."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Я изменила направление орбитальной решётки далёких планет, чтобы уловить разные отголоски. Гармонию я извлекла из нейтринного эха угасающих звёзд, а инструментовку — из гравитационных складок, оставленных кораблём при прохождении через звёздные врата."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Ах… Я так и знала, что тебе понравится, {@nickname}."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 22,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "Пение Вселенной… Даже сейчас оно по-прежнему невероятно прекрасно."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "Но этим ты нарушила правила, которые мы сами установили, Пристесс. Эти сооружения должны были вечно следовать заданным траекториям."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 25,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Звёзды тускнеют. Разве в этом мире ещё остались какие-то правила?"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Скоро и здесь воцарится тишина, словно нас никогда не существовало."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Прогуляйся со мной, пока всё не стихло."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 31,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Я надеюсь… мы ещё увидим будущее этого мира своими глазами, вместе, {@nickname}."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 37,
+      "kind": "sticker",
+      "text_ru": "«Да… Я буду ждать тебя в том мире»."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 48,
+      "kind": "sticker",
+      "text_ru": "Четыре года назад"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 49,
+      "kind": "sticker",
+      "text_ru": "Лето 1090 года"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 54,
+      "kind": "unnamed",
+      "text_ru": "Регион Каздель. Корабль «Родос-Айленд», штаб «Бабеля»."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Фух! Наконец-то закончила переделывать электропроводку. Теперь она должна выдержать удар. Наверное…"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Кальцит посмела заставить меня работать сорок восемь часов подряд… Когда всё закончится, обязательно пожалуюсь на неё Её Высочеству!"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "Вошёл в зону связи корабля. Сигнал чёткий. Миниатюрные базовые станции, которые ты спрятала, отлично работают, Клозур."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Ещё бы! Даже Её Высочество не видела такой полезной штуковины!"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 69,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "Их «исследование» уже закончилось?"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "От энергетических всплесков во время прошлых попыток «Родос-Айленд» чуть не заглох. Я всё ещё укрепляю корабль перед следующим ударом."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Мне пришлось немало потрудиться, чтобы скрыть всё, что здесь происходит. Если шпионы Военной комиссии заметят хоть какую-нибудь брешь…"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 78,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Не беспокойся. Я уже устранила все цели поблизости. Просто сосредоточься на подготовке."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 79,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Скаут, докладывай."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "Задание по проникновению выполнено. Сейчас передаю сведения «Бабелю»."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 81,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Что происходит в городе?"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 82,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "За последние годы почти ничего не изменилось. Катастроф было мало, город почти не перемещался."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 83,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "Откровенно говоря, положение у нас незавидное. Если Военная комиссия продолжит сужать пространство для наших действий…"
+    },
+    {
+      "ordinal": 31,
+      "source_line": 84,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Доверься Её Высочеству и доктору Кальцит."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 85,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "…Верно. Они так долго готовились к сегодняшнему эксперименту именно ради того, чтобы переломить ситуацию."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 87,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Кстати, Скаут, ты забрал оборудование, которое хранилось у меня дома?"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 89,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "Я уже передал его курьеру, который доставит груз в «Бабель»."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Отлично! С секретным оружием, которое мы с Кальцит сделали вместе, мы точно справимся с этой странной системой управления кораблём."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 93,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Я встречу курьера, проверю, что груз в безопасности, и только потом доставлю его на корабль."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Мы всё ещё ищем тайного агента, причастного к исчезновению инженера. Угроза кораблю пока не устранена полностью."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 103,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Госпожа Клозур, я принёс ещё материалов, как вы просили. Они такие тяжёлые!"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 105,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Спасибо, Одда! Хм… Похоже, я смогу добавить ещё несколько мер защиты для Её Высочества и Кальцит."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 106,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Поставлю ещё одну резервную линию. Только бы на этот раз обошлось без неожиданностей…"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 108,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Госпожа Клозур, вам ещё с чем-нибудь помочь?"
+    },
+    {
+      "ordinal": 42,
+      "source_line": 110,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Одда, скорее уходи вместе с остальными в безопасную зону. Следующий удар… ожидается примерно через тридцать минут."
+    }
+  ]
+}
