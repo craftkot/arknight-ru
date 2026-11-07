@@ -11,7 +11,7 @@
     "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
     "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_st02.txt",
     "en_git_blob_sha1": "463f505f56923b7534e2f235d30ce44c1c8123ec",
-    "version_difference": "CN/EN Git blob SHAs unchanged. Source lines 224–264 align as 9 named and 15 unnamed text positions. CN describes PRTS permission read/write at line 238; EN generalizes to access detection. RU follows CN."
+    "version_difference": "CN/EN Git blob SHAs unchanged. Source lines 224–264 align as 8 named and 16 unnamed text positions. CN describes PRTS permission read/write at line 238; EN generalizes to access detection. RU follows CN."
   },
   "progress": {
     "translated_text_positions": 117,
