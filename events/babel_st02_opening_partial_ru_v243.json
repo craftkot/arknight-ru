@@ -1,0 +1,507 @@
+{
+  "version": "v2.43",
+  "event": "Babel",
+  "scene": "BB-ST-2 (opening, preparation and Kal'tsit–Theresa conversation fragment)",
+  "source_file": "activities/act33side/level_act33side_st02.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_st02.txt",
+    "cn_git_blob_sha1": "db29b67dbd1a3b2586cbd88a3733d58c734e2c6d",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_st02.txt",
+    "en_git_blob_sha1": "463f505f56923b7534e2f235d30ce44c1c8123ec",
+    "version_difference": "CN/EN Git blobs unchanged from v2.42. Positions 118–180 align by source line and command class. EN calls the anticipated awakening 'resurrection', while CN says 'awakening'; Russian follows CN. CN says 'secret modifications and investigations', not necessarily multiple completed experiments."
+  },
+  "progress": {
+    "translated_text_positions": 70,
+    "complete": false,
+    "last_source_line": 180,
+    "next_source_line": 185
+  },
+  "command_preservation": "Text-only overlay. Original commands, branches, assets and timing are not reproduced or modified.",
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 13,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Я приготовила для тебя подарок, {@nickname}."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 14,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Что ты слышишь?"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "Это…"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 18,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Помнишь? Это поляризация, возникшая при рождении AMa-10. Ты говорил, что различил мелодию в её волновой форме. Разумеется, я добавила кое-что от себя."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Я изменила направление орбитальной решётки далёких планет, чтобы уловить разные отголоски. Гармонию я извлекла из нейтринного эха угасающих звёзд, а инструментовку — из гравитационных складок, оставленных кораблём при прохождении через звёздные врата."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Ах… Я так и знала, что тебе понравится, {@nickname}."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 22,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "Пение Вселенной… Даже сейчас оно по-прежнему невероятно прекрасно."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "Но этим ты нарушила правила, которые мы сами установили, Пристесс. Эти сооружения должны были вечно следовать заданным траекториям."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 25,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Звёзды тускнеют. Разве в этом мире ещё остались какие-то правила?"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Скоро и здесь воцарится тишина, словно нас никогда не существовало."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Прогуляйся со мной, пока всё не стихло."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 31,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Я надеюсь… мы ещё увидим будущее этого мира своими глазами, вместе, {@nickname}."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 37,
+      "kind": "sticker",
+      "text_ru": "«Да… Я буду ждать тебя в том мире»."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 48,
+      "kind": "sticker",
+      "text_ru": "Четыре года назад"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 49,
+      "kind": "sticker",
+      "text_ru": "Лето 1090 года"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 54,
+      "kind": "unnamed",
+      "text_ru": "Регион Каздель. Корабль «Родос-Айленд», штаб «Бабеля»."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Фух! Наконец-то закончила переделывать электропроводку. Теперь она должна выдержать удар. Наверное…"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Кальцит посмела заставить меня работать сорок восемь часов подряд… Когда всё закончится, обязательно пожалуюсь на неё Её Высочеству!"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "Вошёл в зону связи корабля. Сигнал чёткий. Миниатюрные базовые станции, которые ты спрятала, отлично работают, Клозур."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Ещё бы! Даже Её Высочество не видела такой полезной штуковины!"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 69,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "Их «исследование» уже закончилось?"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "От энергетических всплесков во время прошлых попыток «Родос-Айленд» чуть не заглох. Я всё ещё укрепляю корабль перед следующим ударом."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Мне пришлось немало потрудиться, чтобы скрыть всё, что здесь происходит. Если шпионы Военной комиссии заметят хоть какую-нибудь брешь…"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 78,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Не беспокойся. Я уже устранила все цели поблизости. Просто сосредоточься на подготовке."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 79,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Скаут, докладывай."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "Задание по проникновению выполнено. Сейчас передаю сведения «Бабелю»."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 81,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Что происходит в городе?"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 82,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "За последние годы почти ничего не изменилось. Катастроф было мало, город почти не перемещался."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 83,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "Откровенно говоря, положение у нас незавидное. Если Военная комиссия продолжит сужать пространство для наших действий…"
+    },
+    {
+      "ordinal": 31,
+      "source_line": 84,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Доверься Её Высочеству и доктору Кальцит."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 85,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "…Верно. Они так долго готовились к сегодняшнему эксперименту именно ради того, чтобы переломить ситуацию."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 87,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Кстати, Скаут, ты забрал оборудование, которое хранилось у меня дома?"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 89,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "Я уже передал его курьеру, который доставит груз в «Бабель»."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Отлично! С секретным оружием, которое мы с Кальцит сделали вместе, мы точно справимся с этой странной системой управления кораблём."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 93,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Я встречу курьера, проверю, что груз в безопасности, и только потом доставлю его на корабль."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Мы всё ещё ищем тайного агента, причастного к исчезновению инженера. Угроза кораблю пока не устранена полностью."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 103,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Госпожа Клозур, я принёс ещё материалов, как вы просили. Они такие тяжёлые!"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 105,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Спасибо, Одда! Хм… Похоже, я смогу добавить ещё несколько мер защиты для Её Высочества и Кальцит."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 106,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Поставлю ещё одну резервную линию. Только бы на этот раз обошлось без неожиданностей…"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 108,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Госпожа Клозур, вам ещё с чем-нибудь помочь?"
+    },
+    {
+      "ordinal": 42,
+      "source_line": 110,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Одда, скорее уходи вместе с остальными в безопасную зону. Следующий удар… ожидается примерно через тридцать минут."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 118,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Ну вот, теперь всё готово."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 119,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Хм, даже любопытно… Зачем Кальцит и Её Высочество тайно переделывали энергетические и защитные модули? И ради какого загадочного эксперимента проводили все эти странные исследования?"
+    },
+    {
+      "ordinal": 45,
+      "source_line": 131,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Никто не знает об оригиниуме больше, чем он."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 133,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 47,
+      "source_line": 135,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Если мы хотим избавить людей от страданий, порождённых оригиниумом…"
+    },
+    {
+      "ordinal": 48,
+      "source_line": 136,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Он подходит для этого лучше всех."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 138,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Должна признать, ты всегда приносишь вести, в которые даже Владыке демонов трудно сразу поверить…"
+    },
+    {
+      "ordinal": 50,
+      "source_line": 140,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Эти устройства и правда ещё работают?.. Ты по-прежнему уверена, что он пробудится?"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 141,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Подавляющее большинство форм жизни Терры не выдержало бы разрушительного воздействия столь долгого времени."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 143,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 53,
+      "source_line": 145,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Нынешняя Терра, несомненно, чудо. Как и ты, Терезия."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 146,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Но когда-то в их глазах даже целая звёздная система, обращающаяся вокруг Солнца, казалась ничтожно малой."
+    },
+    {
+      "ordinal": 55,
+      "source_line": 148,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…Ты сейчас немного напряжена. И тревожишься, и беспокоишься."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 149,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Есть что-то ещё, что не даёт тебе покоя?"
+    },
+    {
+      "ordinal": 57,
+      "source_line": 151,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "…Есть."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 152,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Но я… не могу об этом сказать."
+    },
+    {
+      "ordinal": 59,
+      "source_line": 154,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Ничего страшного! Прости, не стоило тебя отвлекать. Сосредоточься. Я это чувствую."
+    },
+    {
+      "ordinal": 60,
+      "source_line": 156,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 61,
+      "source_line": 157,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "«Кальцит»… Ты ведь любишь это имя?"
+    },
+    {
+      "ordinal": 62,
+      "source_line": 159,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 63,
+      "source_line": 161,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Я… почти всё остальное о тех временах уже забыла."
+    },
+    {
+      "ordinal": 64,
+      "source_line": 163,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Но одно я помню: в далёком-далёком прошлом кто-то подарил мне это имя —"
+    },
+    {
+      "ordinal": 65,
+      "source_line": 164,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "«Кальцит»."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 165,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Тогда мы виделись в последний раз."
+    },
+    {
+      "ordinal": 67,
+      "source_line": 171,
+      "kind": "sticker",
+      "text_ru": "«Кальцит… У меня осталось мало времени."
+    },
+    {
+      "ordinal": 68,
+      "source_line": 174,
+      "kind": "sticker",
+      "text_ru": "«Ищи следы жизни, ищи надежду и будущее."
+    },
+    {
+      "ordinal": 69,
+      "source_line": 177,
+      "kind": "sticker",
+      "text_ru": "«Кальцит… Найди ответы сама."
+    },
+    {
+      "ordinal": 70,
+      "source_line": 180,
+      "kind": "sticker",
+      "text_ru": "«Найди себя»."
+    }
+  ]
+}
