@@ -1,0 +1,2215 @@
+{
+  "version": "v2.53",
+  "event": "Babel",
+  "scene": "BB-ST-2 (after awakening: Theresa, Kal'tsit and Ascalon; partial)",
+  "source_file": "activities/act33side/level_act33side_st02.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_st02.txt",
+    "cn_git_blob_sha1": "db29b67dbd1a3b2586cbd88a3733d58c734e2c6d",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_st02.txt",
+    "en_git_blob_sha1": "463f505f56923b7534e2f235d30ce44c1c8123ec",
+    "version_difference": "CN/EN Git blobs unchanged; 30 new named positions at CN 605–666 aligned by source line and speaker. CN 607 explicitly says the Doctor's body is not fully recovered, a detail omitted in EN; RU follows CN. Partial first draft; no game-client validation."
+  },
+  "progress": {
+    "translated_text_positions": 321,
+    "complete": false,
+    "last_source_line": 666,
+    "next_source_line": 668
+  },
+  "command_preservation": "Text-only overlay. Original commands, branches, assets and timing are not reproduced or modified.",
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 13,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Я приготовила для тебя подарок, {@nickname}."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 14,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Что ты слышишь?"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "Это…"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 18,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Помнишь? Это поляризация, возникшая при рождении AMa-10. Ты говорил, что различил мелодию в её волновой форме. Разумеется, я добавила кое-что от себя."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Я изменила направление орбитальной решётки далёких планет, чтобы уловить разные отголоски. Гармонию я извлекла из нейтринного эха угасающих звёзд, а инструментовку — из гравитационных складок, оставленных кораблём при прохождении через звёздные врата."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Ах… Я так и знала, что тебе понравится, {@nickname}."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 22,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "Пение Вселенной… Даже сейчас оно по-прежнему невероятно прекрасно."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "Но этим ты нарушила правила, которые мы сами установили, Пристесс. Эти сооружения должны были вечно следовать заданным траекториям."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 25,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Звёзды тускнеют. Разве в этом мире ещё остались какие-то правила?"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Скоро и здесь воцарится тишина, словно нас никогда не существовало."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Прогуляйся со мной, пока всё не стихло."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 31,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Я надеюсь… мы ещё увидим будущее этого мира своими глазами, вместе, {@nickname}."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 37,
+      "kind": "sticker",
+      "text_ru": "«Да… Я буду ждать тебя в том мире»."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 48,
+      "kind": "sticker",
+      "text_ru": "Четыре года назад"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 49,
+      "kind": "sticker",
+      "text_ru": "Лето 1090 года"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 54,
+      "kind": "unnamed",
+      "text_ru": "Регион Каздель. Корабль «Родос-Айленд», штаб «Бабеля»."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Фух! Наконец-то закончила переделывать электропроводку. Теперь она должна выдержать удар. Наверное…"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Кальцит посмела заставить меня работать сорок восемь часов подряд… Когда всё закончится, обязательно пожалуюсь на неё Её Высочеству!"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "Вошёл в зону связи корабля. Сигнал чёткий. Миниатюрные базовые станции, которые ты спрятала, отлично работают, Клозур."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Ещё бы! Даже Её Высочество не видела такой полезной штуковины!"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 69,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "Их «исследование» уже закончилось?"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "От энергетических всплесков во время прошлых попыток «Родос-Айленд» чуть не заглох. Я всё ещё укрепляю корабль перед следующим ударом."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Мне пришлось немало потрудиться, чтобы скрыть всё, что здесь происходит. Если шпионы Военной комиссии заметят хоть какую-нибудь брешь…"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 78,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Не беспокойся. Я уже устранила все цели поблизости. Просто сосредоточься на подготовке."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 79,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Скаут, докладывай."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "Задание по проникновению выполнено. Сейчас передаю сведения «Бабелю»."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 81,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Что происходит в городе?"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 82,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "За последние годы почти ничего не изменилось. Катастроф было мало, город почти не перемещался."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 83,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "Откровенно говоря, положение у нас незавидное. Если Военная комиссия продолжит сужать пространство для наших действий…"
+    },
+    {
+      "ordinal": 31,
+      "source_line": 84,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Доверься Её Высочеству и доктору Кальцит."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 85,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "…Верно. Они так долго готовились к сегодняшнему эксперименту именно ради того, чтобы переломить ситуацию."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 87,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Кстати, Скаут, ты забрал оборудование, которое хранилось у меня дома?"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 89,
+      "kind": "named",
+      "speaker_ru": "Скаут",
+      "text_ru": "Я уже передал его курьеру, который доставит груз в «Бабель»."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Отлично! С секретным оружием, которое мы с Кальцит сделали вместе, мы точно справимся с этой странной системой управления кораблём."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 93,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Я встречу курьера, проверю, что груз в безопасности, и только потом доставлю его на корабль."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Мы всё ещё ищем тайного агента, причастного к исчезновению инженера. Угроза кораблю пока не устранена полностью."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 103,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Госпожа Клозур, я принёс ещё материалов, как вы просили. Они такие тяжёлые!"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 105,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Спасибо, Одда! Хм… Похоже, я смогу добавить ещё несколько мер защиты для Её Высочества и Кальцит."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 106,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Поставлю ещё одну резервную линию. Только бы на этот раз обошлось без неожиданностей…"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 108,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Госпожа Клозур, вам ещё с чем-нибудь помочь?"
+    },
+    {
+      "ordinal": 42,
+      "source_line": 110,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Одда, скорее уходи вместе с остальными в безопасную зону. Следующий удар… ожидается примерно через тридцать минут."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 118,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Ну вот, теперь всё готово."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 119,
+      "kind": "named",
+      "speaker_ru": "Клозур",
+      "text_ru": "Хм, даже любопытно… Зачем Кальцит и Её Высочество тайно переделывали энергетические и защитные модули? И ради какого загадочного эксперимента проводили все эти странные исследования?"
+    },
+    {
+      "ordinal": 45,
+      "source_line": 131,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Никто не знает об оригиниуме больше, чем он."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 133,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 47,
+      "source_line": 135,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Если мы хотим избавить людей от страданий, порождённых оригиниумом…"
+    },
+    {
+      "ordinal": 48,
+      "source_line": 136,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Он подходит для этого лучше всех."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 138,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Должна признать, ты всегда приносишь вести, в которые даже Владыке демонов трудно сразу поверить…"
+    },
+    {
+      "ordinal": 50,
+      "source_line": 140,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Эти устройства и правда ещё работают?.. Ты по-прежнему уверена, что он пробудится?"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 141,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Подавляющее большинство форм жизни Терры не выдержало бы разрушительного воздействия столь долгого времени."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 143,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 53,
+      "source_line": 145,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Нынешняя Терра, несомненно, чудо. Как и ты, Терезия."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 146,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Но когда-то в их глазах даже целая звёздная система, обращающаяся вокруг Солнца, казалась ничтожно малой."
+    },
+    {
+      "ordinal": 55,
+      "source_line": 148,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…Ты сейчас немного напряжена. И тревожишься, и беспокоишься."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 149,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Есть что-то ещё, что не даёт тебе покоя?"
+    },
+    {
+      "ordinal": 57,
+      "source_line": 151,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "…Есть."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 152,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Но я… не могу об этом сказать."
+    },
+    {
+      "ordinal": 59,
+      "source_line": 154,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Ничего страшного! Прости, не стоило тебя отвлекать. Сосредоточься. Я это чувствую."
+    },
+    {
+      "ordinal": 60,
+      "source_line": 156,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 61,
+      "source_line": 157,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "«Кальцит»… Ты ведь любишь это имя?"
+    },
+    {
+      "ordinal": 62,
+      "source_line": 159,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 63,
+      "source_line": 161,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Я… почти всё остальное о тех временах уже забыла."
+    },
+    {
+      "ordinal": 64,
+      "source_line": 163,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Но одно я помню: в далёком-далёком прошлом кто-то подарил мне это имя —"
+    },
+    {
+      "ordinal": 65,
+      "source_line": 164,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "«Кальцит»."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 165,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Тогда мы виделись в последний раз."
+    },
+    {
+      "ordinal": 67,
+      "source_line": 171,
+      "kind": "sticker",
+      "text_ru": "«Кальцит… У меня осталось мало времени."
+    },
+    {
+      "ordinal": 68,
+      "source_line": 174,
+      "kind": "sticker",
+      "text_ru": "«Ищи следы жизни, ищи надежду и будущее."
+    },
+    {
+      "ordinal": 69,
+      "source_line": 177,
+      "kind": "sticker",
+      "text_ru": "«Кальцит… Найди ответы сама."
+    },
+    {
+      "ordinal": 70,
+      "source_line": 180,
+      "kind": "sticker",
+      "text_ru": "«Найди себя»."
+    },
+    {
+      "ordinal": 71,
+      "source_line": 185,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Тогда зачем же колебаться, Кальцит?"
+    },
+    {
+      "ordinal": 72,
+      "source_line": 186,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Я знаю. Просто…"
+    },
+    {
+      "ordinal": 73,
+      "source_line": 187,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "…Меня не покидает предчувствие… тревога или, скорее, предположение."
+    },
+    {
+      "ordinal": 74,
+      "source_line": 188,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Когда-то, на заре этой земли, когда жизнь лишь начинала зарождаться, здесь произошло нечто, чего уже никогда не изменить."
+    },
+    {
+      "ordinal": 75,
+      "source_line": 189,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Но что именно — мне неизвестно."
+    },
+    {
+      "ordinal": 76,
+      "source_line": 190,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Если даже доктор Кальцит готова довериться этому человеку, мне совершенно не о чем беспокоиться."
+    },
+    {
+      "ordinal": 77,
+      "source_line": 191,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "К тому же, зная твою осторожность, я уверена: ты давно предусмотрела все меры на случай непредвиденного. Мне никогда не приходилось за это тревожиться."
+    },
+    {
+      "ordinal": 78,
+      "source_line": 192,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "К сожалению, Терезия…"
+    },
+    {
+      "ordinal": 79,
+      "source_line": 193,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Именно в этом случае, сколько бы запасных планов я ни подготовила, у меня нет твёрдой уверенности."
+    },
+    {
+      "ordinal": 80,
+      "source_line": 194,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "…Терезия, я не могу обещать, что всегда сумею принять самое разумное решение."
+    },
+    {
+      "ordinal": 81,
+      "source_line": 195,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "И на этот раз… я хочу поверить."
+    },
+    {
+      "ordinal": 82,
+      "source_line": 196,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Тогда поступай так, как считаешь нужным. Я останусь здесь, рядом с тобой."
+    },
+    {
+      "ordinal": 83,
+      "source_line": 198,
+      "kind": "unnamed",
+      "text_ru": "Рука Кальцит уже коснулась двери, безмолвствовавшей неведомо сколько веков."
+    },
+    {
+      "ordinal": 84,
+      "source_line": 199,
+      "kind": "unnamed",
+      "text_ru": "«Родос-Айленд» вновь содрогнулся."
+    },
+    {
+      "ordinal": 85,
+      "source_line": 201,
+      "kind": "unnamed",
+      "text_ru": "Дверь поддалась."
+    },
+    {
+      "ordinal": 86,
+      "source_line": 204,
+      "kind": "subtitle",
+      "text_ru": "«Оригиниум станет маяком, вобравшим в себя наследие нашей цивилизации…"
+    },
+    {
+      "ordinal": 87,
+      "source_line": 205,
+      "kind": "subtitle",
+      "text_ru": "«Если однажды иные формы жизни во Вселенной вернутся в свой погибший дом в поисках выхода,"
+    },
+    {
+      "ordinal": 88,
+      "source_line": 206,
+      "kind": "subtitle",
+      "text_ru": "«они увидят…"
+    },
+    {
+      "ordinal": 89,
+      "source_line": 207,
+      "kind": "subtitle",
+      "text_ru": "«что мы знали величие,"
+    },
+    {
+      "ordinal": 90,
+      "source_line": 208,
+      "kind": "subtitle",
+      "text_ru": "«что мы сопротивлялись,"
+    },
+    {
+      "ordinal": 91,
+      "source_line": 209,
+      "kind": "subtitle",
+      "text_ru": "«что здесь мы обрели покой."
+    },
+    {
+      "ordinal": 92,
+      "source_line": 210,
+      "kind": "subtitle",
+      "text_ru": "«И перед гибелью мы оставили тем, кто придёт после нас, дар —"
+    },
+    {
+      "ordinal": 93,
+      "source_line": 211,
+      "kind": "subtitle",
+      "text_ru": "«— надежду»."
+    },
+    {
+      "ordinal": 94,
+      "source_line": 224,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(на неизвестном языке) Здесь…"
+    },
+    {
+      "ordinal": 95,
+      "source_line": 225,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(на неизвестном языке) Время… уже… пришло?"
+    },
+    {
+      "ordinal": 96,
+      "source_line": 233,
+      "kind": "unnamed",
+      "text_ru": "Предупреждение: активирован неизвестный источник энергии."
+    },
+    {
+      "ordinal": 97,
+      "source_line": 238,
+      "kind": "unnamed",
+      "text_ru": "Предупреждение: выполняется чтение и запись прав доступа PRTS…"
+    },
+    {
+      "ordinal": 98,
+      "source_line": 243,
+      "kind": "unnamed",
+      "text_ru": "Предупреждение: чтение прав доступа PRTS —"
+    },
+    {
+      "ordinal": 99,
+      "source_line": 244,
+      "kind": "unnamed",
+      "text_ru": "Права доступа PRTS сброшены. Полномочия администратора подтверждены."
+    },
+    {
+      "ordinal": 100,
+      "source_line": 245,
+      "kind": "unnamed",
+      "text_ru": "Все частотные диапазоны модуля связи открыты. Разгон приёмного модуля связи завершён."
+    },
+    {
+      "ordinal": 101,
+      "source_line": 247,
+      "kind": "unnamed",
+      "text_ru": "Поиск: Хранитель… Сигнал отсутствует."
+    },
+    {
+      "ordinal": 102,
+      "source_line": 248,
+      "kind": "unnamed",
+      "text_ru": "Поиск: Лазурное древо… Сигнал отсутствует."
+    },
+    {
+      "ordinal": 103,
+      "source_line": 249,
+      "kind": "unnamed",
+      "text_ru": "Поиск: Небесная опора… Сигнал отсутствует."
+    },
+    {
+      "ordinal": 104,
+      "source_line": 250,
+      "kind": "unnamed",
+      "text_ru": "Поиск: (неизвестные помехи)… Сигнал отсутствует."
+    },
+    {
+      "ordinal": 105,
+      "source_line": 251,
+      "kind": "unnamed",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 106,
+      "source_line": 252,
+      "kind": "unnamed",
+      "text_ru": "Поиск завершён. Сигналов ни в одном частотном диапазоне не обнаружено."
+    },
+    {
+      "ordinal": 107,
+      "source_line": 253,
+      "kind": "unnamed",
+      "text_ru": "Повторить попытку —"
+    },
+    {
+      "ordinal": 108,
+      "source_line": 254,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(на неизвестном языке) Нет… ответа…"
+    },
+    {
+      "ordinal": 109,
+      "source_line": 255,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(на неизвестном языке) Только… я…"
+    },
+    {
+      "ordinal": 110,
+      "source_line": 256,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(на неизвестном языке) Сколько… времени прошло?"
+    },
+    {
+      "ordinal": 111,
+      "source_line": 258,
+      "kind": "unnamed",
+      "text_ru": "Поиск в файлах журнала процессов…"
+    },
+    {
+      "ordinal": 112,
+      "source_line": 259,
+      "kind": "unnamed",
+      "text_ru": "Последнее обновление: четыре миллиона семьсот пятьдесят пять тысяч девятьсот пятьдесят четыре дня назад."
+    },
+    {
+      "ordinal": 113,
+      "source_line": 260,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 114,
+      "source_line": 261,
+      "kind": "unnamed",
+      "text_ru": "Обнаружены серьёзные отклонения жизненных показателей. Автоматическая загрузка модуля восстановления."
+    },
+    {
+      "ordinal": 115,
+      "source_line": 262,
+      "kind": "unnamed",
+      "text_ru": "Восстановление —"
+    },
+    {
+      "ordinal": 116,
+      "source_line": 263,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(на неизвестном языке) Я… проснулся слишком рано… или… слишком поздно?"
+    },
+    {
+      "ordinal": 117,
+      "source_line": 264,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(на неизвестном языке) На какой стадии… находится оригиниум?"
+    },
+    {
+      "ordinal": 118,
+      "source_line": 266,
+      "kind": "unnamed",
+      "text_ru": "Поиск в архиве данных о проверках оригиниума… Нет ответа."
+    },
+    {
+      "ordinal": 119,
+      "source_line": 268,
+      "kind": "unnamed",
+      "text_ru": "Модуль проверки оригиниума отключён."
+    },
+    {
+      "ordinal": 120,
+      "source_line": 269,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 121,
+      "source_line": 270,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(Неизвестный язык) «Терра»…"
+    },
+    {
+      "ordinal": 122,
+      "source_line": 271,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(Неизвестный язык) Зачем хранить… столько… избыточной информации…"
+    },
+    {
+      "ordinal": 123,
+      "source_line": 272,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(Неизвестный язык) Этого… нет в базе данных… Новый язык?"
+    },
+    {
+      "ordinal": 124,
+      "source_line": 273,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(Неизвестный язык) Цивилизация… уже зародилась…?"
+    },
+    {
+      "ordinal": 125,
+      "source_line": 274,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(Неизвестный язык) Остался… только… я… А она? Пристесс, моя…"
+    },
+    {
+      "ordinal": 126,
+      "source_line": 275,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "(Неизвестный язык) Я могу ответить на твои вопросы. Эти сведения я раньше сама сохранила в PRTS."
+    },
+    {
+      "ordinal": 127,
+      "source_line": 276,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(Неизвестный язык) …Ты?"
+    },
+    {
+      "ordinal": 128,
+      "source_line": 277,
+      "kind": "unnamed",
+      "text_ru": "Во взгляде человека, оставшегося в прошлом, промелькнули незнакомое чувство, недоумение и… настороженность."
+    },
+    {
+      "ordinal": 129,
+      "source_line": 278,
+      "kind": "unnamed",
+      "text_ru": "Кальцит сразу заметила этот взгляд человека в саркофаге."
+    },
+    {
+      "ordinal": 130,
+      "source_line": 279,
+      "kind": "unnamed",
+      "text_ru": "А Терезия заметила, как напряглась Кальцит."
+    },
+    {
+      "ordinal": 131,
+      "source_line": 280,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(Неизвестный язык) Подожди…"
+    },
+    {
+      "ordinal": 132,
+      "source_line": 281,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 133,
+      "source_line": 282,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 134,
+      "source_line": 283,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(Неизвестный язык) Хотя ты так сильно изменилась…"
+    },
+    {
+      "ordinal": 135,
+      "source_line": 284,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 136,
+      "source_line": 285,
+      "kind": "unnamed",
+      "text_ru": "Казалось, только что пробудившийся человек увидел в саркофаге короткий сон."
+    },
+    {
+      "ordinal": 137,
+      "source_line": 286,
+      "kind": "unnamed",
+      "text_ru": "Существо, с которым он простился перед сном, и после пробуждения по-прежнему находилось рядом."
+    },
+    {
+      "ordinal": 138,
+      "source_line": 287,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(Неизвестный язык) …Ты не ушла."
+    },
+    {
+      "ordinal": 139,
+      "source_line": 288,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "(Неизвестный язык) Нет… С тех пор как я покинула это место, и до того дня, когда вновь предстала перед тобой…"
+    },
+    {
+      "ordinal": 140,
+      "source_line": 289,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "(Неизвестный язык) Я прошла сквозь более чем десять тысяч лет."
+    },
+    {
+      "ordinal": 141,
+      "source_line": 290,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "(Неизвестный язык) Но я так и не забыла вопрос, который ты мне оставил…"
+    },
+    {
+      "ordinal": 142,
+      "source_line": 291,
+      "kind": "unnamed",
+      "text_ru": "Кальцит ждала с тревогой. Ей нужно было убедиться…"
+    },
+    {
+      "ordinal": 143,
+      "source_line": 292,
+      "kind": "unnamed",
+      "text_ru": "Убедиться, что с тем, на кого она возлагала надежду, не произошло ничего ужасного."
+    },
+    {
+      "ordinal": 144,
+      "source_line": 293,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 145,
+      "source_line": 294,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(Неизвестный язык) Это был… не вопрос. Это было… моё пожелание…"
+    },
+    {
+      "ordinal": 146,
+      "source_line": 295,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(Неизвестный язык) Так ты… уже нашла смысл собственной жизни?"
+    },
+    {
+      "ordinal": 147,
+      "source_line": 299,
+      "kind": "subtitle",
+      "text_ru": "«Кальцит…»"
+    },
+    {
+      "ordinal": 148,
+      "source_line": 313,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "(на неизвестном языке) Искать смысл продолжения жизни — путь, по которому мне ещё предстоит идти."
+    },
+    {
+      "ordinal": 149,
+      "source_line": 314,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "(на неизвестном языке) Ты ведь помнишь…"
+    },
+    {
+      "ordinal": 150,
+      "source_line": 319,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(на неизвестном языке) Помню… Для меня наше прощание словно было вчера, но в то же время кажется бесконечно далёким…"
+    },
+    {
+      "ordinal": 151,
+      "source_line": 320,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(на неизвестном языке) А для тебя…"
+    },
+    {
+      "ordinal": 152,
+      "source_line": 322,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "(на неизвестном языке) Я ни на миг не забывала, сколько ты для меня сделал."
+    },
+    {
+      "ordinal": 153,
+      "source_line": 323,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "(на неизвестном языке) Помимо самой жизни, ты подарил мне ещё одну бесценную вещь — свободу, Dr.{@nickname}."
+    },
+    {
+      "ordinal": 154,
+      "source_line": 325,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "(на неизвестном языке) Лучше… зови меня просто Доктором, Кальцит."
+    },
+    {
+      "ordinal": 155,
+      "source_line": 326,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "(на неизвестном языке) Сначала дай мне… выбраться…"
+    },
+    {
+      "ordinal": 156,
+      "source_line": 328,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "(на неизвестном языке) Ты ещё очень слаб. Я могу помочь тебе —"
+    },
+    {
+      "ordinal": 157,
+      "source_line": 330,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "(на неизвестном языке) Не нужно…"
+    },
+    {
+      "ordinal": 158,
+      "source_line": 331,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "(на неизвестном языке) Кальцит, у меня… слишком много вопросов."
+    },
+    {
+      "ordinal": 159,
+      "source_line": 332,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "(на неизвестном языке) Что стало с оригиниумом?.. Я не нашёл никаких записей."
+    },
+    {
+      "ordinal": 160,
+      "source_line": 334,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 161,
+      "source_line": 335,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "(на неизвестном языке) Оригиниум по-прежнему растёт на землях снаружи."
+    },
+    {
+      "ordinal": 162,
+      "source_line": 337,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "(на неизвестном языке) Значит, я проснулся слишком рано."
+    },
+    {
+      "ordinal": 163,
+      "source_line": 339,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 164,
+      "source_line": 341,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "(на неизвестном языке) Тебе пришлось многое пережить, Кальцит."
+    },
+    {
+      "ordinal": 165,
+      "source_line": 342,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "(на неизвестном языке) Я вижу это по твоим глазам. Тебе нужна моя помощь? Поэтому ты меня разбудила?"
+    },
+    {
+      "ordinal": 166,
+      "source_line": 344,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "(на неизвестном языке) Помощь нужна нам."
+    },
+    {
+      "ordinal": 167,
+      "source_line": 346,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "(на неизвестном языке) А, тот «демон»?"
+    },
+    {
+      "ordinal": 168,
+      "source_line": 347,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "(на неизвестном языке) Глядя на твою подругу за спиной, я вижу не только то, что оригиниум существует в неожиданной для меня форме…"
+    },
+    {
+      "ordinal": 169,
+      "source_line": 348,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "(на неизвестном языке) У неё ещё и есть… да, «Сохранение цивилизации»."
+    },
+    {
+      "ordinal": 170,
+      "source_line": 350,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "(на неизвестном языке) Путь развития нынешней цивилизации очень… сложен."
+    },
+    {
+      "ordinal": 171,
+      "source_line": 352,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "(на неизвестном языке) Имя… Есть ли в их цивилизации подобные обозначения отдельных существ?"
+    },
+    {
+      "ordinal": 172,
+      "source_line": 354,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Терезия."
+    },
+    {
+      "ordinal": 173,
+      "source_line": 356,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Те… ре… зия…"
+    },
+    {
+      "ordinal": 174,
+      "source_line": 359,
+      "kind": "unnamed",
+      "text_ru": "Пробудившийся подошёл к Терезии, протянул обе руки вперёд и раскрыл ладони."
+    },
+    {
+      "ordinal": 175,
+      "source_line": 368,
+      "kind": "unnamed",
+      "text_ru": "Терезия протянула руки и бережно взяла в ладони руки человека из прошлого."
+    },
+    {
+      "ordinal": 176,
+      "source_line": 369,
+      "kind": "unnamed",
+      "text_ru": "Доктор почувствовал тепло."
+    },
+    {
+      "ordinal": 177,
+      "source_line": 370,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Да, Терезия."
+    },
+    {
+      "ordinal": 178,
+      "source_line": 371,
+      "kind": "unnamed",
+      "text_ru": "Две цивилизации соприкоснулись. Но в глазах человека из прошлого Терезия увидела печаль."
+    },
+    {
+      "ordinal": 179,
+      "source_line": 372,
+      "kind": "unnamed",
+      "text_ru": "А сама она не ощущала тепла его рук."
+    },
+    {
+      "ordinal": 180,
+      "source_line": 373,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Оригиниум… и ты… едины."
+    },
+    {
+      "ordinal": 181,
+      "source_line": 374,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…Ты знаешь наш язык?"
+    },
+    {
+      "ordinal": 182,
+      "source_line": 375,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Я… изучил его… по записям. Это… несложно."
+    },
+    {
+      "ordinal": 183,
+      "source_line": 376,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Невероятно! А я как раз хотела выучить ваш язык. Кальцит сказала…"
+    },
+    {
+      "ordinal": 184,
+      "source_line": 377,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Мой мир… утрачен. Язык прошлого… должен остаться в прошлом."
+    },
+    {
+      "ordinal": 185,
+      "source_line": 378,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Мне… любопытно узнать о вас. Ты обнаружила… и даже вошла в «Сохранение цивилизации»."
+    },
+    {
+      "ordinal": 186,
+      "source_line": 379,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Я хотел бы… спросить тебя…"
+    },
+    {
+      "ordinal": 187,
+      "source_line": 380,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Обо всём, что касается вашей цивилизации."
+    },
+    {
+      "ordinal": 188,
+      "source_line": 381,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Только так я смогу отыскать следы… моего прежнего мира."
+    },
+    {
+      "ordinal": 189,
+      "source_line": 382,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…Я понимаю."
+    },
+    {
+      "ordinal": 190,
+      "source_line": 383,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Хм… «Доктор», правильно? Простите мою дерзость, но, пожалуйста, не отпускайте мои руки."
+    },
+    {
+      "ordinal": 191,
+      "source_line": 384,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Я покажу вам…"
+    },
+    {
+      "ordinal": 192,
+      "source_line": 385,
+      "kind": "unnamed",
+      "text_ru": "Доктор невольно залюбовался глазами существа, похожего на демона."
+    },
+    {
+      "ordinal": 193,
+      "source_line": 386,
+      "kind": "unnamed",
+      "text_ru": "В глазах этого демона человек, потерявший свой мир, увидел…"
+    },
+    {
+      "ordinal": 194,
+      "source_line": 388,
+      "kind": "unnamed",
+      "text_ru": "Жизнь."
+    },
+    {
+      "ordinal": 195,
+      "source_line": 400,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Цивилизация рождается из инстинктов живых существ, из борьбы, в которой выживают наиболее приспособленные."
+    },
+    {
+      "ordinal": 196,
+      "source_line": 401,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Сильные пожирают слабых. Так возникает круговорот выживания."
+    },
+    {
+      "ordinal": 197,
+      "source_line": 406,
+      "kind": "named",
+      "speaker_ru": "Вьючное животное",
+      "text_ru": "(Слабый жалобный крик)"
+    },
+    {
+      "ordinal": 198,
+      "source_line": 409,
+      "kind": "unnamed",
+      "text_ru": "Провалившееся под лёд вьючное животное вытолкнуло детёныша головой из воды на поверхность льда."
+    },
+    {
+      "ordinal": 199,
+      "source_line": 410,
+      "kind": "unnamed",
+      "text_ru": "Детёныш, пошатываясь, побрёл по льду к охотникам, поджидавшим его вдали с приготовленной приманкой."
+    },
+    {
+      "ordinal": 200,
+      "source_line": 415,
+      "kind": "named",
+      "speaker_ru": "Охотник из Кьерага",
+      "text_ru": "Он идёт сюда. Приготовьтесь."
+    },
+    {
+      "ordinal": 201,
+      "source_line": 421,
+      "kind": "unnamed",
+      "text_ru": "Охотник успел схватить голодного детёныша прежде, чем лёд под ними треснул."
+    },
+    {
+      "ordinal": 202,
+      "source_line": 423,
+      "kind": "named",
+      "speaker_ru": "Охотник из Кьерага",
+      "text_ru": "Хорошо, хоть одного удалось спасти."
+    },
+    {
+      "ordinal": 203,
+      "source_line": 428,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Бунт. Именно бунт против инстинкта выживания стал толчком к развитию нашей цивилизации."
+    },
+    {
+      "ordinal": 204,
+      "source_line": 434,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "А любопытство — любопытство, за которое мы готовы отдать жизнь, — стало ступенью, по которой наша цивилизация движется вперёд."
+    },
+    {
+      "ordinal": 205,
+      "source_line": 437,
+      "kind": "unnamed",
+      "text_ru": "Первопроходец, гнавшийся за падающей звездой, продолжает брести вперёд, неся на спине тело погибшего товарища."
+    },
+    {
+      "ordinal": 206,
+      "source_line": 441,
+      "kind": "named",
+      "speaker_ru": "Измождённый первопроходец",
+      "text_ru": "Ха… ха… *колумбийское ругательство*! Ну почему ты не мог продержаться ещё хотя бы один день?!"
+    },
+    {
+      "ordinal": 207,
+      "source_line": 442,
+      "kind": "named",
+      "speaker_ru": "Измождённый первопроходец",
+      "text_ru": "В газетах же писали, что это разбился летательный аппарат супругов Райт, а не метеор! Но ты всё равно не успокоился, пока не решил увидеть всё своими глазами!"
+    },
+    {
+      "ordinal": 208,
+      "source_line": 443,
+      "kind": "named",
+      "speaker_ru": "Измождённый первопроходец",
+      "text_ru": "Всего лишь неудачники, рухнувшие с неба… Ради чего здесь стоило рисковать жизнью?"
+    },
+    {
+      "ordinal": 209,
+      "source_line": 444,
+      "kind": "named",
+      "speaker_ru": "Измождённый первопроходец",
+      "text_ru": "Ради камней, упавших на землю? Что ты вообще хотел мне доказать?"
+    },
+    {
+      "ordinal": 210,
+      "source_line": 451,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Однажды в Чёрной короне я тоже видела, как солнце поглотила тьма, окутавшая всю землю."
+    },
+    {
+      "ordinal": 211,
+      "source_line": 452,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Но даже в самые безнадёжные времена находились те, кто пытался зажечь свет."
+    },
+    {
+      "ordinal": 212,
+      "source_line": 459,
+      "kind": "named",
+      "speaker_ru": "Любопытный архозавр",
+      "text_ru": "Всё ещё темно! Солнце и правда умерло!"
+    },
+    {
+      "ordinal": 213,
+      "source_line": 461,
+      "kind": "named",
+      "speaker_ru": "Отважный архозавр",
+      "text_ru": "Эх, солнце уже слишком долго мертво… Надо его спасать! Если оно не оживёт, как же мы решим, у кого хвост толще?"
+    },
+    {
+      "ordinal": 214,
+      "source_line": 463,
+      "kind": "named",
+      "speaker_ru": "Любопытный архозавр",
+      "text_ru": "А как его спасти?"
+    },
+    {
+      "ordinal": 215,
+      "source_line": 465,
+      "kind": "named",
+      "speaker_ru": "Отважный архозавр",
+      "text_ru": "Заберёмся на самую высокую гору, поднимем факел и снова зажжём солнце."
+    },
+    {
+      "ordinal": 216,
+      "source_line": 467,
+      "kind": "named",
+      "speaker_ru": "Любопытный архозавр",
+      "text_ru": "А если рука устанет?"
+    },
+    {
+      "ordinal": 217,
+      "source_line": 469,
+      "kind": "named",
+      "speaker_ru": "Отважный архозавр",
+      "text_ru": "Хм… Тогда построим мою статую, и пусть она держит факел вместо меня."
+    },
+    {
+      "ordinal": 218,
+      "source_line": 471,
+      "kind": "named",
+      "speaker_ru": "Любопытный архозавр",
+      "text_ru": "Отличная идея! А рядом поставим мою статую с ещё одним факелом. Если твой погаснет, мой сможет зажечь его снова!"
+    },
+    {
+      "ordinal": 219,
+      "source_line": 482,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Огонь приносит свет, а свет ведёт нас к надежде."
+    },
+    {
+      "ordinal": 220,
+      "source_line": 483,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "И мои соплеменники тоже считают смерть ещё одним воплощением надежды."
+    },
+    {
+      "ordinal": 221,
+      "source_line": 484,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Когда тело угасает, слиться с городом в пламени Печи душ — честь, которой удостаиваются лишь достойнейшие уважения."
+    },
+    {
+      "ordinal": 222,
+      "source_line": 485,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Они прорастают кристаллами оригиниума и становятся частью Казделя."
+    },
+    {
+      "ordinal": 223,
+      "source_line": 486,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Новорождённые дети будут расти среди оседающей пыли, слушать голоса множества душ и идти дальше, неся на себе бремя страданий."
+    },
+    {
+      "ordinal": 224,
+      "source_line": 491,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Невежество и прогресс переплелись… Всё повторяется вновь и вновь, извилистым, бесконечным кругом…"
+    },
+    {
+      "ordinal": 225,
+      "source_line": 492,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Как же это… прекрасно."
+    },
+    {
+      "ordinal": 226,
+      "source_line": 493,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "…Как же это пробуждает воспоминания."
+    },
+    {
+      "ordinal": 227,
+      "source_line": 494,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Вы… Похоже, Терра снова встала на верный путь… вступила в эпоху просвещения."
+    },
+    {
+      "ordinal": 228,
+      "source_line": 496,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Но что считать «невежеством»? И как доказать, что «просвещение» — это прогресс?"
+    },
+    {
+      "ordinal": 229,
+      "source_line": 497,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "На мой взгляд, всё это — части нашей цивилизации."
+    },
+    {
+      "ordinal": 230,
+      "source_line": 499,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Но те, кого ты мне показала… Большинство из них совсем не похожи… на ваш народ."
+    },
+    {
+      "ordinal": 231,
+      "source_line": 501,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "И завоеватели, и покорённые за время развития цивилизации оставили на этой земле неизгладимый след…"
+    },
+    {
+      "ordinal": 232,
+      "source_line": 503,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Я твёрдо верю: ради выживания все разногласия в конце концов будут преодолены, а все народы сольются воедино."
+    },
+    {
+      "ordinal": 233,
+      "source_line": 504,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "В будущем, которое я вижу, вся эта земля станет единым целым."
+    },
+    {
+      "ordinal": 234,
+      "source_line": 506,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "…Воодушевляющая вера… Достойная восхищения."
+    },
+    {
+      "ordinal": 235,
+      "source_line": 507,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Я чувствую, что ты… любишь эту землю."
+    },
+    {
+      "ordinal": 236,
+      "source_line": 508,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Несмотря на дискриминацию, войны и бедствия… Твоя любовь давно вышла за пределы отдельного человека или народа."
+    },
+    {
+      "ordinal": 237,
+      "source_line": 509,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Но если ты… шагнёшь за пределы возможностей цивилизации, к которой принадлежишь… никто не сможет понять твою любовь."
+    },
+    {
+      "ordinal": 238,
+      "source_line": 510,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Напротив… они возненавидят тебя."
+    },
+    {
+      "ordinal": 239,
+      "source_line": 512,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 240,
+      "source_line": 514,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Ты понимаешь, через что придётся пройти… чтобы достичь будущего, о котором мечтаешь?"
+    },
+    {
+      "ordinal": 241,
+      "source_line": 516,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Если другого пути нет, я с радостью приму его."
+    },
+    {
+      "ordinal": 242,
+      "source_line": 518,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "…Терезия. Жительница Терры."
+    },
+    {
+      "ordinal": 243,
+      "source_line": 519,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Теперь понятно, почему Кальцит тебе доверяет. Она рискнула разбудить меня, потому что хочет помочь тебе."
+    },
+    {
+      "ordinal": 244,
+      "source_line": 520,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Да. На исходе каждой эпохи всегда находятся люди, которые пытаются переломить ход событий."
+    },
+    {
+      "ordinal": 245,
+      "source_line": 521,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Но чаще всего такие истории заканчиваются печально."
+    },
+    {
+      "ordinal": 246,
+      "source_line": 523,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 247,
+      "source_line": 525,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Но я искренне восхищаюсь тобой. В этом нет ни капли лжи."
+    },
+    {
+      "ordinal": 248,
+      "source_line": 526,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Ведь в некотором смысле ты очень похожа на людей, которых я когда-то хорошо знал."
+    },
+    {
+      "ordinal": 249,
+      "source_line": 527,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Мне уже никогда не встретиться с ними вновь…"
+    },
+    {
+      "ordinal": 250,
+      "source_line": 528,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 251,
+      "source_line": 529,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "…Наверное, мне ещё нужно время, чтобы собраться с мыслями."
+    },
+    {
+      "ordinal": 252,
+      "source_line": 530,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Но ничего. Думаю, сперва мне стоит… выслушать вас."
+    },
+    {
+      "ordinal": 253,
+      "source_line": 531,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Что вы хотите, чтобы я сделал?"
+    },
+    {
+      "ordinal": 254,
+      "source_line": 543,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Доктор. Тебе нужно отдохнуть."
+    },
+    {
+      "ordinal": 255,
+      "source_line": 545,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Ничего страшного."
+    },
+    {
+      "ordinal": 256,
+      "source_line": 546,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Кальцит, она преподнесла мне немало сюрпризов, но ещё больше поставила передо мной трудностей."
+    },
+    {
+      "ordinal": 257,
+      "source_line": 547,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Прости… Я хотел сказать «загадок»."
+    },
+    {
+      "ordinal": 258,
+      "source_line": 548,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Я ещё не до конца освоил язык сарказов."
+    },
+    {
+      "ordinal": 259,
+      "source_line": 549,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Она показала мне многое, чего я совсем не ожидал увидеть. Ты ведь тоже… многое в ней открыла?"
+    },
+    {
+      "ordinal": 260,
+      "source_line": 551,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Я была её врагом, затем узнала её, поняла её мечту и прониклась уважением к ответственности, которую она несёт…"
+    },
+    {
+      "ordinal": 261,
+      "source_line": 552,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Чёрная корона поделилась с Терезией многовековой историей и знаниями, которые хранила. Постепенно Терезия обрела дальновидность, недоступную другим."
+    },
+    {
+      "ordinal": 262,
+      "source_line": 553,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Думаю, возможно, это наш лучший шанс. Вместе с ней, вместе с «Бабелем», вместе с Террой."
+    },
+    {
+      "ordinal": 263,
+      "source_line": 555,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "«Вместе с Террой»."
+    },
+    {
+      "ordinal": 264,
+      "source_line": 556,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Теперь ты стала Кальцит, принадлежащей «этой земле»."
+    },
+    {
+      "ordinal": 265,
+      "source_line": 558,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Я надеюсь, что и ты пойдёшь с нами."
+    },
+    {
+      "ordinal": 266,
+      "source_line": 560,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Хм…"
+    },
+    {
+      "ordinal": 267,
+      "source_line": 561,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Я завидую тебе и верю тебе, Кальцит."
+    },
+    {
+      "ordinal": 268,
+      "source_line": 562,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Но я всего лишь исследователь. Возможно, моя помощь окажется не такой значительной, как вы надеетесь."
+    },
+    {
+      "ordinal": 269,
+      "source_line": 565,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Орипатия, Катастрофы… Бедствия, перед которыми мы бессильны, принесли этой земле множество страданий. И при этом почти все технологии Терры основаны на оригиниуме."
+    },
+    {
+      "ordinal": 270,
+      "source_line": 566,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Борьба за источники энергии, дискриминация заражённых, войны и межрасовая вражда всё сильнее разрывают эту землю на части…"
+    },
+    {
+      "ordinal": 271,
+      "source_line": 568,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Мы пытались что-то изменить, но почти ничего не добились… Потому что ничего не знаем об оригиниуме. Ничего не знаем об этой земле."
+    },
+    {
+      "ordinal": 272,
+      "source_line": 569,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Что произошло с небом и океаном? Откуда взялись древние руины? Как… появились мы сами?"
+    },
+    {
+      "ordinal": 273,
+      "source_line": 571,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Мы надеемся, что ты поможешь нам найти ответы."
+    },
+    {
+      "ordinal": 274,
+      "source_line": 573,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "…Думаю, кое-чем из этого Кальцит уже поделилась с тобой."
+    },
+    {
+      "ordinal": 275,
+      "source_line": 574,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Но что касается оригиниума… К сожалению, сейчас я не могу дать ответы. Во всяком случае, не на все вопросы."
+    },
+    {
+      "ordinal": 276,
+      "source_line": 575,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Когда я пробудился, то попытался прочитать журналы о ходе развития оригиниума, но, как ни странно, ничего не нашёл."
+    },
+    {
+      "ordinal": 277,
+      "source_line": 576,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "А то, что ты показала мне о нынешней Терре, лишь породило ещё больше вопросов."
+    },
+    {
+      "ordinal": 278,
+      "source_line": 577,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Нынешнее развитие оригиниума… не вполне соответствует тому, что я представлял. Мне нужно время."
+    },
+    {
+      "ordinal": 279,
+      "source_line": 578,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Мне нужно самому исследовать нынешнюю Терру и понять, как именно оригиниум повлиял на культуру, жизнь и окружающую среду."
+    },
+    {
+      "ordinal": 280,
+      "source_line": 579,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "На это могут уйти годы, а то и больше… И даже после огромных усилий вы, возможно, получите ответ, который лишит вас надежды."
+    },
+    {
+      "ordinal": 281,
+      "source_line": 580,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Когда-то я дал одному человеку обещание. Теперь мне кажется, что всё, что осталось мне — или ей, — это… сожаление."
+    },
+    {
+      "ordinal": 282,
+      "source_line": 581,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Поэтому я не стану разбрасываться обещаниями, Кальцит. Прости…"
+    },
+    {
+      "ordinal": 283,
+      "source_line": 583,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Тогда мы будем ждать."
+    },
+    {
+      "ordinal": 284,
+      "source_line": 584,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Каким бы ни оказался твой ответ, «Бабель» продержится до дня твоего возвращения, Доктор."
+    },
+    {
+      "ordinal": 285,
+      "source_line": 586,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "…Спасибо."
+    },
+    {
+      "ordinal": 286,
+      "source_line": 587,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "И ещё… Прости… Я немного… проголодался."
+    },
+    {
+      "ordinal": 287,
+      "source_line": 588,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Я увидел через PRTS, что на корабле есть временная столовая…"
+    },
+    {
+      "ordinal": 288,
+      "source_line": 590,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Да, есть. Правда, там может быть немного беспорядочно. Может, я провожу тебя…"
+    },
+    {
+      "ordinal": 289,
+      "source_line": 592,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Нет, спасибо, Терезия."
+    },
+    {
+      "ordinal": 290,
+      "source_line": 593,
+      "kind": "named",
+      "speaker_ru": "Доктор",
+      "text_ru": "Для меня это место тоже имеет особое значение. Позволь мне пройти туда самому… не спеша."
+    },
+    {
+      "ordinal": 291,
+      "source_line": 595,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…Хорошо. Будь осторожен, Доктор."
+    },
+    {
+      "ordinal": 292,
+      "source_line": 605,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 293,
+      "source_line": 607,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Пробуждение далось Доктору нелегко. Его организм ещё не полностью восстановился. Но он быстро приспосабливается — гораздо быстрее, чем я ожидала."
+    },
+    {
+      "ordinal": 294,
+      "source_line": 608,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Доктор сказал, что хочет узнать о Терре всё."
+    },
+    {
+      "ordinal": 295,
+      "source_line": 610,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "И учится он тоже очень быстро."
+    },
+    {
+      "ordinal": 296,
+      "source_line": 611,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Если бы дети учились так же быстро, как Доктор, возможно, они смогли бы освоить больше языков и побывать в самых разных уголках Терры."
+    },
+    {
+      "ordinal": 297,
+      "source_line": 613,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Терезия, тебе стоит вернуться к остальным. Наверняка осталось немало дел «Бабеля», которые нельзя решить без личного решения председателя…"
+    },
+    {
+      "ordinal": 298,
+      "source_line": 615,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 299,
+      "source_line": 617,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "Терезия?"
+    },
+    {
+      "ordinal": 300,
+      "source_line": 619,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…Кальцит, я кое о чём задумалась. Возможно, я зря тревожусь, но хочу поделиться с тобой."
+    },
+    {
+      "ordinal": 301,
+      "source_line": 620,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Кажется, Доктор очень удивлён тем, какой стала Терра."
+    },
+    {
+      "ordinal": 302,
+      "source_line": 622,
+      "kind": "named",
+      "speaker_ru": "Кальцит",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 303,
+      "source_line": 624,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Ты говорила, что никто не знает об оригиниуме больше, чем он. И сам Доктор сказал, что развитие оригиниума… «не совсем соответствует ожиданиям»."
+    },
+    {
+      "ordinal": 304,
+      "source_line": 626,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Тогда каким должен был быть оригиниум? Какой должна была быть эта земля?"
+    },
+    {
+      "ordinal": 305,
+      "source_line": 627,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…Какими должны были быть сарказ?"
+    },
+    {
+      "ordinal": 306,
+      "source_line": 639,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Доктор уже готов отправляться?"
+    },
+    {
+      "ordinal": 307,
+      "source_line": 641,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Да. Он запросил транспорт, немного оружия для самообороны — и больше ничего не взял."
+    },
+    {
+      "ordinal": 308,
+      "source_line": 642,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Он сказал, что сможет обходить районы боевых действий."
+    },
+    {
+      "ordinal": 309,
+      "source_line": 644,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Понятно. Пусть всё будет так, как пожелал Доктор."
+    },
+    {
+      "ordinal": 310,
+      "source_line": 646,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Ваше Высочество, я хочу последовать за ним. Его происхождение слишком… Я ему не доверяю."
+    },
+    {
+      "ordinal": 311,
+      "source_line": 648,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…Аскалон, ты когда-нибудь покидала Каздель?"
+    },
+    {
+      "ordinal": 312,
+      "source_line": 650,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Покидала? Если считать, как в детстве я погналась за добычей и выбежала за пределы наших угодий, то да."
+    },
+    {
+      "ordinal": 313,
+      "source_line": 652,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Это не считается."
+    },
+    {
+      "ordinal": 314,
+      "source_line": 653,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Отправляйся за Доктором. Защищай его, но не мешай ему."
+    },
+    {
+      "ordinal": 315,
+      "source_line": 655,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Я буду внимательно следить за Доктором…"
+    },
+    {
+      "ordinal": 316,
+      "source_line": 657,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Нет, Аскалон, не напрягайся. Я вовсе не прошу тебя следить за ним."
+    },
+    {
+      "ordinal": 317,
+      "source_line": 658,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Я хочу, чтобы ты увидела, как живут люди за пределами нашей родины. Это прекрасная возможность."
+    },
+    {
+      "ordinal": 318,
+      "source_line": 660,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "Как живут?"
+    },
+    {
+      "ordinal": 319,
+      "source_line": 662,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "За пределами нашей родины война и страдания — вовсе не повседневная норма. Вкусная еда, одежда, искусство, культура… У нас могло бы быть так много всего."
+    },
+    {
+      "ordinal": 320,
+      "source_line": 664,
+      "kind": "named",
+      "speaker_ru": "Аскалон",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 321,
+      "source_line": 666,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Многие из нас это знают, но ещё больше людей предпочитают закрывать на это глаза. Ведь чаще всего у нас просто нет выбора."
+    }
+  ]
+}
