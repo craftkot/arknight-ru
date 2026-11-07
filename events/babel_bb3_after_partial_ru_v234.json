@@ -1,0 +1,839 @@
+{
+  "version": "v2.34",
+  "event": "Babel",
+  "scene": "BB-3 after battle",
+  "source_file": "activities/act33side/level_act33side_03_end.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_03_end.txt",
+    "cn_git_blob_sha1": "da543002ff835f53b1b060c46a339044a6acac63",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_03_end.txt",
+    "en_git_blob_sha1": "47495db2e6c9acdb00f4dde12d3057e69b28c0b4",
+    "version_difference": "CN/EN Git blobs unchanged. Lines 274–315 aligned by index and named dialogue kind. CN line 305 says the son will represent the Court's stance, without EN's explicit future qualification; RU follows CN."
+  },
+  "progress": {
+    "translated_text_positions": 119,
+    "complete": false,
+    "last_source_line": 315,
+    "next_source_line": 316
+  },
+  "command_preservation": "Text-only translation overlay; no source game commands, timing, tags, branching or assets copied or changed.",
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 10,
+      "kind": "unnamed",
+      "text_ru": "Регион Каздель, мобильный город Каздель."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 14,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Пропустите меня!"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_ru": "Солдат королевского двора сарказов",
+      "text_ru": "Дальше проход закрыт."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Что там случилось?"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 27,
+      "kind": "named",
+      "speaker_ru": "Солдат королевского двора сарказов",
+      "text_ru": "Ты из «Бабеля»?"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…Я… я не из «Бабеля»."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 34,
+      "kind": "named",
+      "speaker_ru": "Солдат королевского двора сарказов",
+      "text_ru": "Тогда тебя это не касается."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 36,
+      "kind": "unnamed",
+      "text_ru": "Солдаты королевского двора встали стеной, не давая Одде пройти."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 37,
+      "kind": "unnamed",
+      "text_ru": "Но среди людей, в панике расходившихся по улице, он заметил несколько знакомых заплаканных лиц."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 39,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Это же те ученики…? Эти дома… Если обойти через переулок, я, наверное, смогу туда попасть!"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Скажите, пожалуйста, что там всё-таки произошло?"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_ru": "Равнодушный горожанин",
+      "text_ru": "Прямо на улице одного человека забили до смерти. Тот, кто это сделал, тоже погиб. Хочешь поглазеть?"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_ru": "Возмущённый горожанин",
+      "text_ru": "Опять «Бабель»! Не понимаю, чего вообще добивается Её Высочество…"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 60,
+      "kind": "named",
+      "speaker_ru": "Равнодушный горожанин",
+      "text_ru": "…Закрой рот! Прояви уважение к Её Высочеству! Кто, по-твоему, дал тебе еду, одежду и крышу над головой?!"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_ru": "Осторожный горожанин",
+      "text_ru": "Тс-с…"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_ru": "Возмущённый горожанин",
+      "text_ru": "Да всё просто: учитель взял и забил до смерти отца собственного ученика!"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 74,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Учитель? Как такое возможно…"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_ru": "Возмущённый горожанин",
+      "text_ru": "Отец того ребёнка всего-то пару раз его обругал! А учитель сам наговорил детям всякого, чему их учить нельзя!"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Всё было не так…"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 85,
+      "kind": "named",
+      "speaker_ru": "Насмешливый горожанин",
+      "text_ru": "Ты тоже за «Бабель» заступаешься? Вот до чего они довели молодёжь…"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 88,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_ru": "Насмешливый горожанин",
+      "text_ru": "Эй, ты куда пошёл?"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 93,
+      "kind": "unnamed",
+      "text_ru": "Одда протиснулся сквозь толпу на улице и увидел несколько знакомых лиц среди лежавших на земле."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 94,
+      "kind": "unnamed",
+      "text_ru": "С трудом добравшись до места, где началась суматоха, он наконец разглядел в поднявшейся пыли того самого «учителя»."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 102,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Учитель! Что здесь произошло?"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 106,
+      "kind": "named",
+      "speaker_ru": "Учитель",
+      "text_ru": "Я… правда не хотел… причинить вред… его отцу…"
+    },
+    {
+      "ordinal": 28,
+      "source_line": 108,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Я отведу вас к врачу!"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 110,
+      "kind": "named",
+      "speaker_ru": "Учитель",
+      "text_ru": "Нет… там… спаси его…"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 111,
+      "kind": "unnamed",
+      "text_ru": "Умирающий указал в сторону, куда всё это время смотрел. Одда увидел раненого ребёнка, плакавшего рядом с неподвижным телом отца."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 113,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 118,
+      "kind": "unnamed",
+      "text_ru": "С раненым ребёнком на руках Одда пробирался по охваченным огнём улицам и постепенно, по обрывкам разговоров в толпе, восстановил картину случившегося."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 119,
+      "kind": "unnamed",
+      "text_ru": "Вспыливший учитель случайно убил разъярённого отца. Затем на него набросилась разгневанная толпа, и он упал в уличную пыль."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 120,
+      "kind": "unnamed",
+      "text_ru": "Мирные жители, «Бабель», наёмники и, возможно, даже Военная комиссия — в происходящее втягивалось всё больше людей."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 121,
+      "kind": "unnamed",
+      "text_ru": "Пыль, поднявшаяся там, распространялась из одного уголка города в другой…"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 122,
+      "kind": "unnamed",
+      "text_ru": "Лишь когда неизвестный артиллерийский огонь разрушил внешнюю стену представительства «Бабеля», войска королевского двора наконец подавили беспорядки, вызвавшие столь широкий резонанс."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 123,
+      "kind": "unnamed",
+      "text_ru": "Всё началось с несчастного случая и закончилось артиллерийским снарядом. «Бабель» понёс самые тяжёлые потери со времён войны восемнадцатилетней давности."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 133,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Не вынуждай меня применять силу. Ребёнок ранен, ему нужен врач."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 138,
+      "kind": "named",
+      "speaker_ru": "Молчаливый наёмник",
+      "text_ru": "Ты на чьей стороне? «Бабеля»? Военной комиссии?"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 140,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Ни на чьей! Я просто хочу отвести его к врачу. Пропусти!"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 142,
+      "kind": "named",
+      "speaker_ru": "Ослабевший ребёнок",
+      "text_ru": "Мой папа…"
+    },
+    {
+      "ordinal": 42,
+      "source_line": 144,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Уже слишком поздно… Прости."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 146,
+      "kind": "named",
+      "speaker_ru": "Молчаливый наёмник",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 44,
+      "source_line": 147,
+      "kind": "named",
+      "speaker_ru": "Молчаливый наёмник",
+      "text_ru": "Иди. Но не доверяй чужакам так легко… сарказ. Сейчас вокруг полный хаос."
+    },
+    {
+      "ordinal": 45,
+      "source_line": 149,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Спасибо…"
+    },
+    {
+      "ordinal": 46,
+      "source_line": 152,
+      "kind": "unnamed",
+      "text_ru": "Одда молча нёс ребёнка дальше. Дыхание малыша постепенно слабело."
+    },
+    {
+      "ordinal": 47,
+      "source_line": 153,
+      "kind": "unnamed",
+      "text_ru": "Пробираясь по улице, Одда будто почувствовал, как кто-то задел его плечом, но никого не увидел."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 164,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…Мне показалось?"
+    },
+    {
+      "ordinal": 49,
+      "source_line": 171,
+      "kind": "named",
+      "speaker_ru": "Участник «Бабеля»",
+      "text_ru": "Стой! Не подходи ближе, внутри ещё есть больные."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 173,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Этому ребёнку срочно нужна помощь! Прямо сейчас!"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 175,
+      "kind": "named",
+      "speaker_ru": "Участник «Бабеля»",
+      "text_ru": "Но… в такое время вы всё ещё готовы приводить к нам больных?"
+    },
+    {
+      "ordinal": 52,
+      "source_line": 176,
+      "kind": "named",
+      "speaker_ru": "Участник «Бабеля»",
+      "text_ru": "Ладно, передай его мне. Перед уходом постараюсь оставить вам побольше лекарств."
+    },
+    {
+      "ordinal": 53,
+      "source_line": 178,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Уходом?"
+    },
+    {
+      "ordinal": 54,
+      "source_line": 180,
+      "kind": "named",
+      "speaker_ru": "Участник «Бабеля»",
+      "text_ru": "Так решила Её Высочество. Но мы все понимаем: на самом деле Каздель больше нам не рад."
+    },
+    {
+      "ordinal": 55,
+      "source_line": 182,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "И куда вы пойдёте? За город? В пустошах так опасно… Тебе не страшно?"
+    },
+    {
+      "ordinal": 56,
+      "source_line": 184,
+      "kind": "named",
+      "speaker_ru": "Участник «Бабеля»",
+      "text_ru": "…Страшно."
+    },
+    {
+      "ordinal": 57,
+      "source_line": 185,
+      "kind": "named",
+      "speaker_ru": "Участник «Бабеля»",
+      "text_ru": "Но если этот город больше не принимает нас, мы уважаем его решение."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 187,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 59,
+      "source_line": 189,
+      "kind": "named",
+      "speaker_ru": "Одда",
+      "text_ru": "Я хочу остаться в «Бабеле» и помогать. Могу ухаживать за больными или помогать вам с охраной."
+    },
+    {
+      "ordinal": 60,
+      "source_line": 198,
+      "kind": "named",
+      "speaker_ru": "Равнодушный солдат королевского двора",
+      "text_ru": "Так это он стал причиной беспорядков? Он вообще выживет?"
+    },
+    {
+      "ordinal": 61,
+      "source_line": 200,
+      "kind": "named",
+      "speaker_ru": "Уставший солдат королевского двора",
+      "text_ru": "Потерял слишком много крови. Похоже, его уже не спасти."
+    },
+    {
+      "ordinal": 62,
+      "source_line": 202,
+      "kind": "named",
+      "speaker_ru": "Равнодушный солдат королевского двора",
+      "text_ru": "Тогда зачем мы до сих пор здесь стоим?"
+    },
+    {
+      "ordinal": 63,
+      "source_line": 204,
+      "kind": "named",
+      "speaker_ru": "Уставший солдат королевского двора",
+      "text_ru": "Делай, что велел генерал, и поменьше вопросов. Кто бы подумал, что из такого пустяка разгорится дело, по которому обоим высочествам придётся высказаться."
+    },
+    {
+      "ordinal": 64,
+      "source_line": 206,
+      "kind": "named",
+      "speaker_ru": "«Учитель»",
+      "text_ru": "Ух…"
+    },
+    {
+      "ordinal": 65,
+      "source_line": 208,
+      "kind": "named",
+      "speaker_ru": "Уставший солдат королевского двора",
+      "text_ru": "Он что, пытается с нами заговорить? Здесь ведь больше никого нет."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 210,
+      "kind": "named",
+      "speaker_ru": "Равнодушный солдат королевского двора",
+      "text_ru": "Предсмертные видения, наверное. Такому преступнику банши уж точно не станет петь погребальную песнь."
+    },
+    {
+      "ordinal": 67,
+      "source_line": 215,
+      "kind": "named",
+      "speaker_ru": "«Учитель»",
+      "text_ru": "Здесь… опасно…"
+    },
+    {
+      "ordinal": 68,
+      "source_line": 216,
+      "kind": "named",
+      "speaker_ru": "«Учитель»",
+      "text_ru": "Ты… уходи."
+    },
+    {
+      "ordinal": 69,
+      "source_line": 221,
+      "kind": "named",
+      "speaker_ru": "Юная банши",
+      "text_ru": "Не бойся. Они не способны разглядеть меня сквозь мои чары и не смогут меня поймать."
+    },
+    {
+      "ordinal": 70,
+      "source_line": 223,
+      "kind": "named",
+      "speaker_ru": "«Учитель»",
+      "text_ru": "Ты… кто?"
+    },
+    {
+      "ordinal": 71,
+      "source_line": 225,
+      "kind": "named",
+      "speaker_ru": "Юная банши",
+      "text_ru": "Ученица."
+    },
+    {
+      "ordinal": 72,
+      "source_line": 226,
+      "kind": "named",
+      "speaker_ru": "Юная банши",
+      "text_ru": "Я пришла издалека по следам матери. Надеялась найти ответы на свои вопросы в этом странствующем городе и получить наставление от обоих высочеств."
+    },
+    {
+      "ordinal": 73,
+      "source_line": 228,
+      "kind": "named",
+      "speaker_ru": "«Учитель»",
+      "text_ru": "Ты… нашла… ответы?"
+    },
+    {
+      "ordinal": 74,
+      "source_line": 230,
+      "kind": "named",
+      "speaker_ru": "Юная банши",
+      "text_ru": "Возможно, я пришла не вовремя. Сейчас этот город ещё не может дать мне ответов."
+    },
+    {
+      "ordinal": 75,
+      "source_line": 231,
+      "kind": "named",
+      "speaker_ru": "Юная банши",
+      "text_ru": "Но я нашла тебя. Идеалы и убеждения, которые ты отстаивал, меня очень заинтересовали."
+    },
+    {
+      "ordinal": 76,
+      "source_line": 232,
+      "kind": "named",
+      "speaker_ru": "Юная банши",
+      "text_ru": "Когда ты преподавал детям в подвале, я всё время оставалась рядом, узнавая больше об этом городе и «Бабеле»."
+    },
+    {
+      "ordinal": 77,
+      "source_line": 233,
+      "kind": "named",
+      "speaker_ru": "Юная банши",
+      "text_ru": "Конечно, никто меня не замечал… кроме Аскалон."
+    },
+    {
+      "ordinal": 78,
+      "source_line": 235,
+      "kind": "named",
+      "speaker_ru": "«Учитель»",
+      "text_ru": "Тот… ребёнок…"
+    },
+    {
+      "ordinal": 79,
+      "source_line": 237,
+      "kind": "named",
+      "speaker_ru": "Юная банши",
+      "text_ru": "Его защитили и доставили в «Бабель», где ему окажут помощь."
+    },
+    {
+      "ordinal": 80,
+      "source_line": 238,
+      "kind": "named",
+      "speaker_ru": "Юная банши",
+      "text_ru": "А о том, чем закончилась твоя собственная жизнь, ты сожалеешь?"
+    },
+    {
+      "ordinal": 81,
+      "source_line": 240,
+      "kind": "named",
+      "speaker_ru": "«Учитель»",
+      "text_ru": "Нет… ребёнок… заступился за меня…"
+    },
+    {
+      "ordinal": 82,
+      "source_line": 241,
+      "kind": "named",
+      "speaker_ru": "«Учитель»",
+      "text_ru": "Ребёнок… понял… что я хотел… изменить…"
+    },
+    {
+      "ordinal": 83,
+      "source_line": 242,
+      "kind": "named",
+      "speaker_ru": "«Учитель»",
+      "text_ru": "Но… я виноват перед ним… я причинил боль его отцу…"
+    },
+    {
+      "ordinal": 84,
+      "source_line": 244,
+      "kind": "named",
+      "speaker_ru": "Юная банши",
+      "text_ru": "Мне жаль тебя. Ты не желал этой трагедии, но судьба жестоко над тобой посмеялась."
+    },
+    {
+      "ordinal": 85,
+      "source_line": 246,
+      "kind": "named",
+      "speaker_ru": "«Учитель»",
+      "text_ru": "Я слышу… плач…"
+    },
+    {
+      "ordinal": 86,
+      "source_line": 248,
+      "kind": "named",
+      "speaker_ru": "Юная банши",
+      "text_ru": "Это погребальная песнь. С того берега она зовёт угасающий свет твоей души."
+    },
+    {
+      "ordinal": 87,
+      "source_line": 249,
+      "kind": "named",
+      "speaker_ru": "Юная банши",
+      "text_ru": "Не бойся и не медли. Души примут тебя, а моя песня будет сопровождать тебя на другой берег."
+    },
+    {
+      "ordinal": 88,
+      "source_line": 251,
+      "kind": "named",
+      "speaker_ru": "«Учитель»",
+      "text_ru": "Спасибо…"
+    },
+    {
+      "ordinal": 89,
+      "source_line": 256,
+      "kind": "unnamed",
+      "text_ru": "Пение юной банши успокоило смятенные мысли умирающего."
+    },
+    {
+      "ordinal": 90,
+      "source_line": 257,
+      "kind": "unnamed",
+      "text_ru": "Нежная песня разлилась по переполненным улицам, отзываясь эхом в разных концах города. Другие банши подхватили скорбную мелодию юной соплеменницы и вплели в неё свои голоса."
+    },
+    {
+      "ordinal": 91,
+      "source_line": 258,
+      "kind": "unnamed",
+      "text_ru": "Тихая погребальная песнь провожала из жизни одного самого обычного сарказа."
+    },
+    {
+      "ordinal": 92,
+      "source_line": 261,
+      "kind": "unnamed",
+      "text_ru": "«На уроке ты не договорил о будущем „Бабеля“. Что ты хотел сказать дальше?»"
+    },
+    {
+      "ordinal": 93,
+      "source_line": 262,
+      "kind": "unnamed",
+      "text_ru": "«Я думаю… „Бабель“ обречён погибнуть. Но надежда — нет»."
+    },
+    {
+      "ordinal": 94,
+      "source_line": 274,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Песня… Ещё один сарказ погиб в этой смуте…"
+    },
+    {
+      "ordinal": 95,
+      "source_line": 275,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "В этом городе больше нет места «Бабелю». Я уведу наших людей отсюда."
+    },
+    {
+      "ordinal": 96,
+      "source_line": 277,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "Нет, Терезия, мы все любим и почитаем вас…"
+    },
+    {
+      "ordinal": 97,
+      "source_line": 279,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…Я знаю. Но у «Бабеля» нет другого выхода."
+    },
+    {
+      "ordinal": 98,
+      "source_line": 281,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "Но если вы уйдёте… это…"
+    },
+    {
+      "ordinal": 99,
+      "source_line": 283,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Мой народ уже сделал выбор. Ни я, ни Терезис не сможем изменить его решение."
+    },
+    {
+      "ordinal": 100,
+      "source_line": 284,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Мы ещё не вправе отказываться от надежды. Но сейчас лучше всего избежать столкновения."
+    },
+    {
+      "ordinal": 101,
+      "source_line": 286,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "…Ненависть поглотит нас, словно бурный поток."
+    },
+    {
+      "ordinal": 102,
+      "source_line": 288,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "Вы всегда это знали… Терезия, наш герой, наш король."
+    },
+    {
+      "ordinal": 103,
+      "source_line": 289,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "Мягкими просьбами и неторопливыми реформами не убедить сарказов, которых сюда привёл подъём Казделя."
+    },
+    {
+      "ordinal": 104,
+      "source_line": 291,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…Ламарлен, я…"
+    },
+    {
+      "ordinal": 105,
+      "source_line": 293,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "Возможно, мои слова ранят вас, Терезия."
+    },
+    {
+      "ordinal": 106,
+      "source_line": 294,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "Рим Биллитон, Саргон, даже Колумбия… Вы открыли перед нами их двери и добились того, что сарказы смогли смотреть некоторым из их жителей в глаза на равных…"
+    },
+    {
+      "ordinal": 107,
+      "source_line": 295,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "За прошедшие полвека Терра пережила такой стремительный технический переворот, какого не знала за предыдущие тысячелетия."
+    },
+    {
+      "ordinal": 108,
+      "source_line": 297,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 109,
+      "source_line": 299,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "…Но мы всё равно движемся слишком медленно. Невероятные перемены, которые вы принесли Казделю, пока остаются лишь переменами — они ещё не дали плодов."
+    },
+    {
+      "ordinal": 110,
+      "source_line": 300,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "Хотя и я верю, что весна, когда они созреют, уже близка."
+    },
+    {
+      "ordinal": 111,
+      "source_line": 302,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Ламарлен, такова теперь позиция двора банши?"
+    },
+    {
+      "ordinal": 112,
+      "source_line": 304,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "Сегодня я всего лишь мать, провожающая сына в дальний путь, Терезия."
+    },
+    {
+      "ordinal": 113,
+      "source_line": 305,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "Я уважаю его решение. И именно он будет представлять позицию нашего двора."
+    },
+    {
+      "ordinal": 114,
+      "source_line": 307,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "Но… не сейчас."
+    },
+    {
+      "ordinal": 115,
+      "source_line": 309,
+      "kind": "named",
+      "speaker_ru": "Терезия",
+      "text_ru": "Я вижу, как сильно ты его любишь… Ты словно остановила для себя время."
+    },
+    {
+      "ordinal": 116,
+      "source_line": 311,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "Эйфанир — моё чудо. И ему суждено стать чудом для всех банши."
+    },
+    {
+      "ordinal": 117,
+      "source_line": 313,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "С самого его рождения мне не хотелось стареть вместе с уходящими годами."
+    },
+    {
+      "ordinal": 118,
+      "source_line": 314,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "Сейчас я прекраснее всего. Я хочу, чтобы в его памяти… я навсегда осталась такой."
+    },
+    {
+      "ordinal": 119,
+      "source_line": 315,
+      "kind": "named",
+      "speaker_ru": "Ламарлен",
+      "text_ru": "Разумеется, неизменна лишь моя внешность. Когда-нибудь и моя жизнь подойдёт к концу."
+    }
+  ]
+}
