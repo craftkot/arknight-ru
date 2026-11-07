@@ -19,7 +19,7 @@
     "last_source_line": 589,
     "next_source_line": null
   },
-  "command_preservation": "Text-only overlay: all 211 CN text positions (148 named, 39 unnamed, 20 subtitles, 2 text stickers, 2 multiline dialogues included in named count). Commands are not reproduced or altered; no in-game verification.",
+  "command_preservation": "Text-only overlay: all 211 CN text positions (148 ordinary named dialogues, 2 multiline named dialogues, 39 unnamed narration lines, 20 subtitles, 2 text stickers). Commands are not reproduced or altered; no in-game verification.",
   "dialogues": [
     {
       "ordinal": 1,
