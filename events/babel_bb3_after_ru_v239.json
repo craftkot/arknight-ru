@@ -14,9 +14,9 @@
     "version_difference": "CN/EN blob versions unchanged. CN uses separate Sticker st1/st2 commands at 480–481, while EN combines both texts in a single multi-line st1 sticker. Russian overlay records both CN sticker texts separately; engine command mapping requires QA. CN 510 describes farewells among people and with the city, EN interprets as two peoples of one blood. CN final letter describes a legacy capable of overturning the world the recipients live in; EN softens this and omits explicit world distinction. CN letter is addressed personally to Theresa, EN renders 'For Theresa's eyes only'. CN/EN blobs unchanged."
   },
   "progress": {
-    "translated_text_positions": 227,
+    "translated_text_positions": 228,
     "complete": true,
-    "last_source_line": 530,
+    "last_source_line": 531,
     "next_source_line": null
   },
   "command_preservation": "Text-only translation overlay; no source game commands, timing, tags, branching or assets copied or changed.",
@@ -1563,7 +1563,13 @@
       "ordinal": 227,
       "source_line": 530,
       "kind": "unnamed",
-      "text_ru": "Считаю своим долгом обсудить это с тобой. — Кальцит"
+      "text_ru": "Считаю своим долгом обсудить это с тобой."
+    },
+    {
+      "ordinal": 228,
+      "source_line": 531,
+      "kind": "unnamed",
+      "text_ru": "— Кальцит"
     }
   ]
 }
