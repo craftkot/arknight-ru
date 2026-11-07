@@ -1,0 +1,140 @@
+{
+  "version": "v2.41",
+  "event": "Babel",
+  "scene": "BB-ST-2 (opening fragment)",
+  "source_file": "activities/act33side/level_act33side_st02.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_st02.txt",
+    "cn_git_blob_sha1": "db29b67dbd1a3b2586cbd88a3733d58c734e2c6d",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_st02.txt",
+    "en_git_blob_sha1": "463f505f56923b7534e2f235d30ce44c1c8123ec",
+    "version_difference": "CN and EN align at translated text positions and command types; semantic differences: CN says melody in waveform, EN rhythm; CN orbital array described as distant-planet array, EN planetary track array. Russian follows CN."
+  },
+  "progress": {
+    "translated_text_positions": 17,
+    "complete": false,
+    "last_source_line": 54,
+    "next_source_line": 58
+  },
+  "command_preservation": "Text-only overlay. Original commands, branches, assets and timing are not reproduced or modified.",
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 13,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Я приготовила для тебя подарок, {@nickname}."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 14,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Что ты слышишь?"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "Это…"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 18,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Помнишь? Это поляризация, возникшая при рождении AMa-10. Ты говорил, что различил мелодию в её волновой форме. Разумеется, я добавила кое-что от себя."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Я изменила направление орбитальной решётки далёких планет, чтобы уловить разные отголоски. Гармонию я извлекла из нейтринного эха угасающих звёзд, а инструментовку — из гравитационных складок, оставленных кораблём при прохождении через звёздные врата."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Ах… Я так и знала, что тебе понравится, {@nickname}."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 22,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "Пение Вселенной… Даже сейчас оно по-прежнему невероятно прекрасно."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "Но этим ты нарушила правила, которые мы сами установили, Пристесс. Эти сооружения должны были вечно следовать заданным траекториям."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 25,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Звёзды тускнеют. Разве в этом мире ещё остались какие-то правила?"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Скоро и здесь воцарится тишина, словно нас никогда не существовало."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_ru": "???",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Прогуляйся со мной, пока всё не стихло."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 31,
+      "kind": "named",
+      "speaker_ru": "Пристесс",
+      "text_ru": "Я надеюсь… мы ещё увидим будущее этого мира своими глазами, вместе, {@nickname}."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 37,
+      "kind": "sticker",
+      "text_ru": "«Да… Я буду ждать тебя в том мире»."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 48,
+      "kind": "sticker",
+      "text_ru": "Четыре года назад"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 49,
+      "kind": "sticker",
+      "text_ru": "Лето 1090 года"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 54,
+      "kind": "unnamed",
+      "text_ru": "Регион Каздель. Корабль «Родос-Айленд», штаб «Бабеля»."
+    }
+  ]
+}
