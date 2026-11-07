@@ -1,0 +1,168 @@
+{
+  "version": "v2.55",
+  "event": "Babel",
+  "scene": "BB-1 before battle (Scar Market opening; partial)",
+  "source_file": "activities/act33side/level_act33side_01_beg.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_01_beg.txt",
+    "cn_git_blob_sha1": "3424a930fd41318e23802c4c9595f419f4e75b84",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_01_beg.txt",
+    "en_git_blob_sha1": "6ac18628687f629a104d8b17c3d37b07a550cf6c",
+    "version_difference": "CN and EN aligned for 21 opening text positions; CN 45 states rescue from mangler claws, while EN adds a motivation of fetching a good price; RU follows CN. CN 50 uses 'tail' metaphor; preserved in RU."
+  },
+  "progress": {
+    "translated_text_positions": 21,
+    "complete": false,
+    "last_source_line": 66,
+    "next_source_line": 71
+  },
+  "command_preservation": "Text-only overlay; original game commands, timing, branching and assets are not modified or reproduced.",
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 11,
+      "kind": "sticker",
+      "text_ru": "Шестьдесят четыре года назад"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 12,
+      "kind": "sticker",
+      "text_ru": "Осень 1030 года"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 17,
+      "kind": "plain",
+      "text_ru": "Каздель, Рынок Шрамов"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 27,
+      "kind": "named",
+      "speaker_ru": "Раненый наёмник",
+      "text_ru": "Береги жетон на шее как зеницу ока! Ты моя ценная собственность, раб!"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_ru": "Раненый наёмник",
+      "text_ru": "Понял?! *Ругательство на языке сарказ* Надеюсь, ты хоть чего-то стоишь."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 35,
+      "kind": "named",
+      "speaker_ru": "Робкий раб",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 37,
+      "kind": "named",
+      "speaker_ru": "Раненый наёмник",
+      "text_ru": "Стой здесь и не двигайся. Это ты проверяешь товар?"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 42,
+      "kind": "plain",
+      "text_ru": "Торговец рабами лишь мельком взглянул на молчаливого раба за спиной наёмника и слегка покачал головой."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_ru": "Торговец рабами",
+      "text_ru": "Откуда товар?"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_ru": "Раненый наёмник",
+      "text_ru": "По дороге он чуть не умер от жажды. Я вырвал его из когтей раздирателя."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_ru": "Робкий раб",
+      "text_ru": "Я… из Казделя… Я могу найти кого-нибудь…"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_ru": "Торговец рабами",
+      "text_ru": "Нам всё равно, откуда ты, раб. Если найдётся тот, кто тебя выкупит, можешь хоть утверждать, что ты из Хигаси."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 50,
+      "kind": "named",
+      "speaker_ru": "Торговец рабами",
+      "text_ru": "Я лишь проверяю, нет ли за тобой «хвоста». Эти наёмники вечно действуют без оглядки."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 52,
+      "kind": "named",
+      "speaker_ru": "Раненый наёмник",
+      "text_ru": "Ручаюсь, товар чистый."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 54,
+      "kind": "named",
+      "speaker_ru": "Торговец рабами",
+      "text_ru": "Надеюсь, ты не врёшь. Деньги или обмен?"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_ru": "Раненый наёмник",
+      "text_ru": "До того, как я успею потратить деньги, меня прикончат. Лучше дай хорошее оружие."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_ru": "Торговец рабами",
+      "text_ru": "Как пожелаешь. Он едва тянет на второй сорт. Дам за него два свежевыкованных клинка."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 62,
+      "kind": "named",
+      "speaker_ru": "Раненый наёмник",
+      "text_ru": "…Да присмотрись ты к моему товару получше!"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 64,
+      "kind": "named",
+      "speaker_ru": "Торговец рабами",
+      "text_ru": "Наряди товар второго сорта хоть в лучшие одежды — вторым сортом он и останется. Не нравится цена — проваливай."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_ru": "Торговец рабами",
+      "text_ru": "И убери свой клинок…"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 66,
+      "kind": "named",
+      "speaker_ru": "Торговец рабами",
+      "text_ru": "Здесь Рынок Шрамов."
+    }
+  ]
+}
