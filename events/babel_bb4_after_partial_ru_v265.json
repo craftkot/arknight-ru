@@ -1,0 +1,169 @@
+{
+  "version": "v2.65",
+  "event": "Babel",
+  "scene": "BB-4 after battle",
+  "source_file": "activities/act33side/level_act33side_04_end.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED; COMMAND_AUDIT_PENDING",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "941fe43c5cfdb7ff014cb93270df983646aebde0",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "47d157fb89cc176f398691ea1fea6d3dc9b29e11",
+    "version_difference": "CN and EN line positions and speakers agree for source lines 10–44; minor localization differences, CN primary. Commands are not embedded in overlay; full audit pending."
+  },
+  "progress": {
+    "translated_text_positions": 21,
+    "complete": false,
+    "last_source_line": 44,
+    "next_source_line": 46
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 10,
+      "kind": "unnamed",
+      "text_ru": "Осень 1091 года."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 11,
+      "kind": "unnamed",
+      "text_ru": "Каздель. Главный корабль «Родос Айленд» организации «Бабель»."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 15,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Клозур, как продвигается работа?"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Я не хочу, чтобы система управления кораблём снова вышла из-под контроля."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 21,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Ну… ха-ха, раз уж ты спросила, возникли кое-какие небольшие сложности."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 22,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Даже с твоими подсказками многие способы шифрования программ PRTS обычному человеку просто не понять. Мой дешифратор пока не полностью с ними совместим."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Похоже, мы не успеем полностью отключить систему до прибытия Доктора на борт."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 25,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Попробуй ещё раз."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Если уверенности всё равно не будет, готовь запасной план… Полностью отключим энергоснабжение корабля."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Можешь на меня положиться!"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Но… похоже, ты ещё многое скрываешь, Кальцит."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Никогда не видела, чтобы кто-то заставлял тебя так нервничать."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 32,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…Это неважно, Клозур."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 33,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Важно, чтобы с кораблём ничего не случилось."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 35,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Хм, судя по отчёту Аскалон, Доктор — обычный человек. Да ещё и добряк, который таскает на спине бедную маленькую крольчиху и странствует с ней где попало."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 36,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Разве нам нужно так его опасаться?"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Угроза исходит не от Доктора."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 40,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Тогда от чего?"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 42,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Тебе пока незачем это знать."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ради безопасности Доктора и членов «Бабеля» удали запись о его прибытии на корабль."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 44,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Пока Доктор и Терезия не придут к решению, остальным не нужно знать о его существовании."
+    }
+  ]
+}
