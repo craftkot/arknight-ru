@@ -1,0 +1,811 @@
+{
+  "version": "v2.59",
+  "event": "Babel",
+  "scene": "BB-4 before battle",
+  "source_file": "activities/act33side/level_act33side_04_beg.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED; COMMAND_AUDIT_PENDING",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "4220cb1578e3ca9b3fd871fd897678ab73da980c",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "f3b6505bb0d4ea9a61f279efa7e92103920b5647",
+    "version_difference": "CN and EN blobs match the recorded v2.58 versions; lines 261–310 aligned by source line and speaker. CN 296 says 'on the land' rather than naming Terra; RU follows CN. Commands and full branching audit pending."
+  },
+  "progress": {
+    "translated_text_positions": 115,
+    "complete": false,
+    "last_source_line": 310,
+    "next_source_line": 312
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 12,
+      "kind": "unnamed",
+      "text_ru": "Кальцит:"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 13,
+      "kind": "unnamed",
+      "text_ru": "Я получил твоё письмо. Надеюсь, у тебя и у всех в «Бабеле» всё хорошо."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 14,
+      "kind": "unnamed",
+      "text_ru": "Хочу рассказать тебе кое-что. Два месяца назад я спас девочку по имени Амия из каравана, потерпевшего крушение."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 15,
+      "kind": "unnamed",
+      "text_ru": "К сожалению, её родители погибли, а сама она заразилась орипатией."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 16,
+      "kind": "unnamed",
+      "text_ru": "Я собирался устроить её в безопасном месте и продолжить путь, но здесь больных орипатией, оставшихся без семьи, запирают в транспорте и увозят в безлюдную пустошь. Поэтому мне пришлось взять её с собой."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 17,
+      "kind": "unnamed",
+      "text_ru": "Так по воле случая она стала моей спутницей."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 18,
+      "kind": "unnamed",
+      "text_ru": "Ты даже представить не можешь, как я растерялся и запаниковал, когда пришлось заботиться о ней…"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 19,
+      "kind": "unnamed",
+      "text_ru": "К счастью, к нам присоединилась женщина, называющая себя Сэвидж. С её помощью мне действительно стало легче."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 28,
+      "kind": "unnamed",
+      "text_ru": "В лунном свете из «песчаного холма» показалась тёмная фигура."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 33,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "(Осторожно приближается)"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 34,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "(Угрожающе шипит)"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 41,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Эй! А ну прочь!"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 42,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Не подходи к нам!"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_cn": "巨大的沙地兽",
+      "text_ru": "(Возбуждённо скребёт когтями)"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 53,
+      "kind": "named",
+      "speaker_cn": "幼小的沙地兽",
+      "text_ru": "(Недоумённо высовывает голову)"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 57,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Кажется, от твоих угроз они только сильнее раззадорились, Амия."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 62,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Не бойтесь, Доктор, я с ними справлюсь!"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Мама с папой учили меня прогонять песчаных зверей. Нужно только подражать голосу их заклятого врага."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Чик-чирик…"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 70,
+      "kind": "named",
+      "speaker_cn": "巨大的沙地兽",
+      "text_ru": "(Озадаченно замирает)"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 74,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Н-нет, кажется, не так. Может, «фью-фью»…?"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 79,
+      "kind": "named",
+      "speaker_cn": "幼小的沙地兽",
+      "text_ru": "(Недоумённо склоняет голову набок)"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 83,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Опять не то… У-у, как же надо?"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 85,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Ау-у? Гу-гу? Ко-ко…?"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 90,
+      "kind": "named",
+      "speaker_cn": "巨大的沙地兽",
+      "text_ru": "(В недоумении машет хвостом)"
+    },
+    {
+      "ordinal": 26,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "У-у… Похоже, всё не то…"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 96,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Ничего страшного, Амия. Давай я попробую."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 98,
+      "kind": "unnamed",
+      "text_ru": "Доктор сложил большой и указательный пальцы кольцом и издал странный, протяжный свист."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 104,
+      "kind": "named",
+      "speaker_cn": "巨大的沙地兽",
+      "text_ru": "(В испуге поднимается на лапы)"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 106,
+      "kind": "named",
+      "speaker_cn": "幼小的沙地兽",
+      "text_ru": "(Тревожно оглядывается)"
+    },
+    {
+      "ordinal": 31,
+      "source_line": 111,
+      "kind": "named",
+      "speaker_cn": "巨大的沙地兽",
+      "text_ru": "(Поспешно роет нору)"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 116,
+      "kind": "named",
+      "speaker_cn": "幼小的沙地兽",
+      "text_ru": "(Медленно следует за ним)"
+    },
+    {
+      "ordinal": 33,
+      "source_line": 120,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Доктор, как здорово! Совсем как настоящий!"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 121,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Я тоже попробую!"
+    },
+    {
+      "ordinal": 35,
+      "source_line": 126,
+      "kind": "unnamed",
+      "text_ru": "Амия сложила маленькую ладонь у губ, но так сильно прижала её, что лишь с трудом, покраснев от усилия, сумела издать резкий свист."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 128,
+      "kind": "unnamed",
+      "text_ru": "В пустынной степи раздались два свиста, словно перекликаясь друг с другом. Вскоре песчаные звери пригнулись, поджали хвосты и скрылись под землёй."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 129,
+      "kind": "unnamed",
+      "text_ru": "Свист постепенно стих, уступив место звонкому детскому смеху."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 130,
+      "kind": "unnamed",
+      "text_ru": "Затем смех тоже угас. После короткой тишины послышался тихий вздох."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 132,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Амия, подойди ко мне."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 133,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Песчаные звери уже убежали. Почему ты всё ещё хмуришься?"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 138,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…Мама и папа столько раз меня учили, а я так ничего и не запомнила… Я обещала защитить вас, Доктор, но и этого не смогла…"
+    },
+    {
+      "ordinal": 42,
+      "source_line": 139,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "У вас ведь всё ещё ранена рука… Она до сих пор не зажила."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 141,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Всё хорошо, Амия. Рука уже не болит. К тому же, разве ты не помнишь?"
+    },
+    {
+      "ordinal": 44,
+      "source_line": 142,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Это ведь ты научила меня подражать тому звуку."
+    },
+    {
+      "ordinal": 45,
+      "source_line": 144,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "А? Разве я вас учила?"
+    },
+    {
+      "ordinal": 46,
+      "source_line": 146,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Вот видишь? Я же говорил: если совсем не спать, голова начинает хуже соображать, и в конце концов многое забываешь."
+    },
+    {
+      "ordinal": 47,
+      "source_line": 148,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Я… я не хочу спать."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 149,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…Мне страшно. Боюсь, что во сне снова увижу то, что тогда случилось."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 151,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Но ты ведь рассказывала, что иногда тебе снятся мама и папа."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 153,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Ум…"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 155,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Амия, до прибытия транспорта ещё есть время. Поспи немного."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 157,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Угу…"
+    },
+    {
+      "ordinal": 53,
+      "source_line": 158,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Доктор, можно я сяду поближе?.."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 160,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Когда проснусь… я хочу первым делом увидеть… вас, Доктор."
+    },
+    {
+      "ordinal": 55,
+      "source_line": 162,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Конечно. А в благодарность за то, что ты ждёшь со мной сестрёнку Сэвидж, хочешь, я расскажу тебе ещё несколько историй?"
+    },
+    {
+      "ordinal": 56,
+      "source_line": 169,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Давным-давно жила одна выдающаяся учёная…"
+    },
+    {
+      "ordinal": 57,
+      "source_line": 170,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Её родине угрожала страшная беда. Чтобы защитить свой дом и близких, ей пришлось принять трудное решение…"
+    },
+    {
+      "ordinal": 58,
+      "source_line": 172,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Хр-р…"
+    },
+    {
+      "ordinal": 59,
+      "source_line": 185,
+      "kind": "named",
+      "speaker_cn": "暴行",
+      "text_ru": "Доктор, я нашла новый транспорт! Теперь мы сможем быстрее добраться до следующего медпун—"
+    },
+    {
+      "ordinal": 60,
+      "source_line": 188,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "(Шёпотом) Тс-с, она уснула."
+    },
+    {
+      "ordinal": 61,
+      "source_line": 199,
+      "kind": "unnamed",
+      "text_ru": "Кальцит, я рад: куда ни посмотри, на этой земле повсюду видны следы жизни."
+    },
+    {
+      "ordinal": 62,
+      "source_line": 200,
+      "kind": "unnamed",
+      "text_ru": "Этот мир мне незнаком, но временами кажется удивительно родным. Я вспоминаю легенды, которыми зачитывался в детстве: древние, но всё ещё способные унести моё воображение далеко-далеко."
+    },
+    {
+      "ordinal": 63,
+      "source_line": 201,
+      "kind": "unnamed",
+      "text_ru": "Гигантские машины, которые в тех старых историях грохотали среди шахт и пыли, теперь вновь возвышаются на этой земле."
+    },
+    {
+      "ordinal": 64,
+      "source_line": 202,
+      "kind": "unnamed",
+      "text_ru": "Выходит, истории действительно могут стать явью, а действительность перед нашими глазами однажды тоже превратится в историю."
+    },
+    {
+      "ordinal": 65,
+      "source_line": 207,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Амия, хватит выглядывать из-за угла. Иди сюда."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 214,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Доктор, вы рисуете? Я вам не мешаю?"
+    },
+    {
+      "ordinal": 67,
+      "source_line": 216,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Конечно нет."
+    },
+    {
+      "ordinal": 68,
+      "source_line": 221,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Посмотри. Ну как? Похоже получилось?"
+    },
+    {
+      "ordinal": 69,
+      "source_line": 223,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Это же вагонетка, на которой мы только что вместе ехали!"
+    },
+    {
+      "ordinal": 70,
+      "source_line": 225,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Да. Я зарисовал в блокноте многое из того, что с нами случилось в пути."
+    },
+    {
+      "ordinal": 71,
+      "source_line": 227,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Доктор, вы раньше водили такие вагонетки? Вы ехали так быстро, что даже многие опытные шахтёры не смогли бы с вами сравниться."
+    },
+    {
+      "ordinal": 72,
+      "source_line": 229,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Раньше… я видел немало удивительных машин. Например, похожую на яйцевую капсулу оригиниумного слизня, только гораздо больше. Однажды я управлял ею в одиночку…"
+    },
+    {
+      "ordinal": 73,
+      "source_line": 230,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…и пересёк узкий мостик между звёздами."
+    },
+    {
+      "ordinal": 74,
+      "source_line": 232,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Мостик между звёздами? Ночью и так темно, а там, наверное, совсем-совсем темно! Это ведь опасно?"
+    },
+    {
+      "ordinal": 75,
+      "source_line": 234,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Нет. По обе стороны мостика стоят проводники. Они одалживают у старых звёзд светящиеся облака и делают из них круглые зеркала."
+    },
+    {
+      "ordinal": 76,
+      "source_line": 235,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Если идти по дороге, которую отражают зеркала, мы сможем…"
+    },
+    {
+      "ordinal": 77,
+      "source_line": 237,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Сможем?.."
+    },
+    {
+      "ordinal": 78,
+      "source_line": 239,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "На другом конце мостика увидеть шпили, то появляющиеся, то исчезающие в приливах атмосферы, и цветочные венки на лбах звёзд."
+    },
+    {
+      "ordinal": 79,
+      "source_line": 240,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Когда мы приземлимся на один из этих венков, ты увидишь огромный парк развлечений. Он предназначен только для таких хороших детей, как ты."
+    },
+    {
+      "ordinal": 80,
+      "source_line": 242,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Парк развлечений? Я читала о таком в сказках… Там много детей."
+    },
+    {
+      "ordinal": 81,
+      "source_line": 244,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "А ты хотела бы поиграть с другими детьми?"
+    },
+    {
+      "ordinal": 82,
+      "source_line": 246,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Нет, я… Я не хочу играть с ними. Я хочу играть только с вами, Доктор."
+    },
+    {
+      "ordinal": 83,
+      "source_line": 248,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "В будущем ты познакомишься со многими новыми друзьями."
+    },
+    {
+      "ordinal": 84,
+      "source_line": 250,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Но это ведь потом…"
+    },
+    {
+      "ordinal": 85,
+      "source_line": 252,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Кстати, Доктор, а какая из всех машин, которыми вы управляли, была самой-самой удивительной?"
+    },
+    {
+      "ordinal": 86,
+      "source_line": 254,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Самая удивительная… Да, была одна. На ней я проделал путь длиною в целую эпоху… Очень, очень долгий."
+    },
+    {
+      "ordinal": 87,
+      "source_line": 256,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "А с вами кто-нибудь был?"
+    },
+    {
+      "ordinal": 88,
+      "source_line": 258,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Когда-то был. Но потом я остался один."
+    },
+    {
+      "ordinal": 89,
+      "source_line": 259,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Но ничего страшного. Я уснул. И спал очень долго."
+    },
+    {
+      "ordinal": 90,
+      "source_line": 261,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "В следующий раз возьмите меня с собой, Доктор! Я всегда смогу быть рядом, и вам больше не придётся спать от скуки."
+    },
+    {
+      "ordinal": 91,
+      "source_line": 263,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Хе-хе."
+    },
+    {
+      "ordinal": 92,
+      "source_line": 265,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Доктор, почему вы смеётесь?"
+    },
+    {
+      "ordinal": 93,
+      "source_line": 267,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Это очень серьёзное обещание. Ты хорошо подумала?"
+    },
+    {
+      "ordinal": 94,
+      "source_line": 268,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Амия, у тебя ведь будет собственный путь, собственные пейзажи, собственное будущее… Ты действительно хочешь всегда оставаться со мной?"
+    },
+    {
+      "ordinal": 95,
+      "source_line": 270,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Но все говорят… что у людей, на теле которых растут камни, нет будущего."
+    },
+    {
+      "ordinal": 96,
+      "source_line": 271,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Поэтому… я смогу всегда быть рядом с вами, Доктор…"
+    },
+    {
+      "ordinal": 97,
+      "source_line": 273,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 98,
+      "source_line": 274,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "У нас будет будущее, Амия."
+    },
+    {
+      "ordinal": 99,
+      "source_line": 282,
+      "kind": "named",
+      "speaker_cn": "暴行",
+      "text_ru": "Амия всё ещё плохо себя чувствует?"
+    },
+    {
+      "ordinal": 100,
+      "source_line": 284,
+      "kind": "named",
+      "speaker_cn": "暴行",
+      "text_ru": "Хм… Жар ещё немного держится. Возможно, из-за сильных переживаний возникли осложнения орипатии. А лекарства от неё в этих краях трудно найти."
+    },
+    {
+      "ordinal": 101,
+      "source_line": 285,
+      "kind": "named",
+      "speaker_cn": "暴行",
+      "text_ru": "Днём она делает вид, что всё в порядке, а по ночам её мучают кошмары. Бедная девочка…"
+    },
+    {
+      "ordinal": 102,
+      "source_line": 286,
+      "kind": "named",
+      "speaker_cn": "暴行",
+      "text_ru": "Эх… Все, кто выжил после той аварии, заразились. Без исключения."
+    },
+    {
+      "ordinal": 103,
+      "source_line": 288,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Как быстро развивается орипатия у детей её возраста?"
+    },
+    {
+      "ordinal": 104,
+      "source_line": 290,
+      "kind": "named",
+      "speaker_cn": "暴行",
+      "text_ru": "У всех по-разному. У кого-то тело разрушается уже на следующий день после острого приступа, а кто-то мучается больше десяти лет, прежде чем умереть."
+    },
+    {
+      "ordinal": 105,
+      "source_line": 292,
+      "kind": "named",
+      "speaker_cn": "暴行",
+      "text_ru": "Но конец у всех предрешён…"
+    },
+    {
+      "ordinal": 106,
+      "source_line": 294,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Орипатия… Неужели во всём этом мире нет никого, кто мог бы полностью её вылечить?"
+    },
+    {
+      "ordinal": 107,
+      "source_line": 296,
+      "kind": "named",
+      "speaker_cn": "暴行",
+      "text_ru": "«В мире»? А, ты имеешь в виду на всей земле… Говоришь прямо как старый учёный. Не знала, что ты умеешь шутить."
+    },
+    {
+      "ordinal": 108,
+      "source_line": 298,
+      "kind": "named",
+      "speaker_cn": "暴行",
+      "text_ru": "…Постой. Ты ведь всерьёз?"
+    },
+    {
+      "ordinal": 109,
+      "source_line": 300,
+      "kind": "named",
+      "speaker_cn": "暴行",
+      "text_ru": "К сожалению… это невозможно."
+    },
+    {
+      "ordinal": 110,
+      "source_line": 302,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Нет. Мне нужно, чтобы это стало возможным."
+    },
+    {
+      "ordinal": 111,
+      "source_line": 303,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Несколько сотен лет назад вы ведь тоже не могли представить себе передвижные города, верно?"
+    },
+    {
+      "ordinal": 112,
+      "source_line": 304,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Я найду способ, прежде чем её болезнь усугубится. Будет трудно, но это не значит, что задача неразрешима."
+    },
+    {
+      "ordinal": 113,
+      "source_line": 306,
+      "kind": "named",
+      "speaker_cn": "暴行",
+      "text_ru": "Скажи такое любому жителю Рим Биллитона — он решит, что ты над ним издеваешься."
+    },
+    {
+      "ordinal": 114,
+      "source_line": 308,
+      "kind": "named",
+      "speaker_cn": "暴行",
+      "text_ru": "Эх… За эти дни ты не раз меня удивлял. И всё же почему-то хочется тебе верить."
+    },
+    {
+      "ordinal": 115,
+      "source_line": 310,
+      "kind": "named",
+      "speaker_cn": "暴行",
+      "text_ru": "Неужели в этом и состоит обаяние умных людей?"
+    }
+  ]
+}
