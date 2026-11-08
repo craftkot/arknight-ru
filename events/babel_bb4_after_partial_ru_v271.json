@@ -1,0 +1,1407 @@
+{
+  "version": "v2.71",
+  "event": "Babel",
+  "scene": "BB-4 after battle",
+  "source_file": "activities/act33side/level_act33side_04_end.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED; COMMAND_AUDIT_PENDING",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "941fe43c5cfdb7ff014cb93270df983646aebde0",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "47d157fb89cc176f398691ea1fea6d3dc9b29e11",
+    "version_difference": "CN and EN blob SHA verified unchanged. 35 text positions aligned at source lines 358–400 (named and unnamed). CN is primary; EN used to verify speaker order and context. Original source commands and visual effects remain upstream; full command audit pending."
+  },
+  "progress": {
+    "translated_text_positions": 200,
+    "complete": false,
+    "last_source_line": 400,
+    "next_source_line": 411
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 10,
+      "kind": "unnamed",
+      "text_ru": "Осень 1091 года."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 11,
+      "kind": "unnamed",
+      "text_ru": "Каздель. Главный корабль «Родос Айленд» организации «Бабель»."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 15,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Клозур, как продвигается работа?"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Я не хочу, чтобы система управления кораблём снова вышла из-под контроля."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 21,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Ну… ха-ха, раз уж ты спросила, возникли кое-какие небольшие сложности."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 22,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Даже с твоими подсказками многие способы шифрования программ PRTS обычному человеку просто не понять. Мой дешифратор пока не полностью с ними совместим."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Похоже, мы не успеем полностью отключить систему до прибытия Доктора на борт."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 25,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Попробуй ещё раз."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Если уверенности всё равно не будет, готовь запасной план… Полностью отключим энергоснабжение корабля."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Можешь на меня положиться!"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Но… похоже, ты ещё многое скрываешь, Кальцит."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Никогда не видела, чтобы кто-то заставлял тебя так нервничать."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 32,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…Это неважно, Клозур."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 33,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Важно, чтобы с кораблём ничего не случилось."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 35,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Хм, судя по отчёту Аскалон, Доктор — обычный человек. Да ещё и добряк, который таскает на спине бедную маленькую крольчиху и странствует с ней где попало."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 36,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Разве нам нужно так его опасаться?"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Угроза исходит не от Доктора."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 40,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Тогда от чего?"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 42,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Тебе пока незачем это знать."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ради безопасности Доктора и членов «Бабеля» удали запись о его прибытии на корабль."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 44,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Пока Доктор и Терезия не придут к решению, остальным не нужно знать о его существовании."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 46,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Ладно, ладно, постараюсь ещё усерднее…"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Но ты явно беспокоишься о Докторе и при этом так настороженно к нему относишься…"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 48,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "А-а! Может, у Доктора на тебя есть какой-нибудь компромат?!"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 50,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Даже не пытайся расследовать. Ничего не найдёшь."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 52,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Э-э… Зачем же так серьёзно?"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 54,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "И ещё… Что удалось выяснить о происхождении спасённой девочки?"
+    },
+    {
+      "ordinal": 28,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Вывод прежний."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 57,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Я неоднократно сверила все документы, связанные с Рим Биллитоном того времени, а ещё попросила Скаута и наших осведомителей в Военной комиссии всё проверить."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "С происхождением Амии всё в порядке."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Её родители действительно погибли при нападении на колонну, перевозившую для нас модуль лазерной добычи. Нападение на них было чистой случайностью."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 60,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Никто не знал, что они везут груз, связанный с сарказами. Военная комиссия тоже не устраивала это нападение намеренно."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 61,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Скорее всего, именно тогда она и заразилась орипатией. Если бы не Доктор… вероятно, остаток жизни она провела бы в страданиях в Рим Биллитоне."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Когда девочка поднимется на корабль, я лично займусь её обследованием и планом лечения."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Ты всё ещё не доверяешь этой девочке?"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Я беспокоюсь о ней."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Она слишком мала и после заражения орипатией так и не получила должного лечения."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 70,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "А-а, вот в каком смысле «беспокоишься»."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Я не хочу, чтобы доброта Доктора стала причиной промедления с её лечением. И ещё…"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…Терезия сказала бы, что эта девочка добрая и имеет право сама выбирать своё будущее."
+    },
+    {
+      "ordinal": 41,
+      "source_line": 82,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Амия, Амия."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 83,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…Так спать хочется… Я… где я?"
+    },
+    {
+      "ordinal": 43,
+      "source_line": 84,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Доктор… Доктор?"
+    },
+    {
+      "ordinal": 44,
+      "source_line": 85,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Доктор здесь, рядом."
+    },
+    {
+      "ordinal": 45,
+      "source_line": 86,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Соня, просыпайся. Ты уже почти дома."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 87,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Дома?"
+    },
+    {
+      "ordinal": 47,
+      "source_line": 88,
+      "kind": "unnamed",
+      "text_ru": "Сквозь сон Амия чувствует, как тёплые пальцы касаются её щеки."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 89,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Щекотно! Ха-ха, не щекочи меня за шею."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 90,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Ай!"
+    },
+    {
+      "ordinal": 50,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Т-ты кто?"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 92,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Терезия. Меня зовут Терезия."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 93,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Терезия… Доктор мне о тебе рассказывал…"
+    },
+    {
+      "ordinal": 53,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "О? И что же Доктор обо мне говорил?"
+    },
+    {
+      "ordinal": 54,
+      "source_line": 95,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "М-м… Забыла… Но я тогда ела такой вкусный морковный торт…"
+    },
+    {
+      "ordinal": 55,
+      "source_line": 96,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Наверное, Терезия должна быть… душистой… сладкой… и очень тёплой."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 97,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "А сейчас? Я такая, какой ты меня представляла?"
+    },
+    {
+      "ordinal": 57,
+      "source_line": 98,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Угу… Тоже душистая… сладкая… тёплая… Только морковкой не пахнет…"
+    },
+    {
+      "ordinal": 58,
+      "source_line": 99,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Хе-хе, похоже, ты ещё не совсем проснулась."
+    },
+    {
+      "ordinal": 59,
+      "source_line": 100,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Маленькая Амия, хочешь отправиться домой вместе с нами?"
+    },
+    {
+      "ordinal": 60,
+      "source_line": 101,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Домой… угу… хорошо…"
+    },
+    {
+      "ordinal": 61,
+      "source_line": 111,
+      "kind": "unnamed",
+      "text_ru": "Каздель. У главного корабля «Родос Айленд» организации «Бабель»."
+    },
+    {
+      "ordinal": 62,
+      "source_line": 117,
+      "kind": "unnamed",
+      "text_ru": "Маленькая каутус крепко спит на руках у Терезии, обвив её шею руками."
+    },
+    {
+      "ordinal": 63,
+      "source_line": 118,
+      "kind": "unnamed",
+      "text_ru": "Терезия нежно похлопывает Амию по спине и поворачивается к стоящему рядом Доктору, который выглядит немного уставшим."
+    },
+    {
+      "ordinal": 64,
+      "source_line": 120,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Спасибо, что специально сошла с корабля, чтобы встретить нас… Терезия."
+    },
+    {
+      "ordinal": 65,
+      "source_line": 122,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Выходит, даже ты знаешь не всё на свете, Доктор."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 123,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "По крайней мере, тебе ещё многому предстоит научиться в уходе за детьми."
+    },
+    {
+      "ordinal": 67,
+      "source_line": 125,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Безусловно."
+    },
+    {
+      "ordinal": 68,
+      "source_line": 127,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ты очень изменился с тех пор, как ушёл, Доктор. Как прошло путешествие?"
+    },
+    {
+      "ordinal": 69,
+      "source_line": 129,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Я многое увидел и многому научился… На этой земле столько интересного."
+    },
+    {
+      "ordinal": 70,
+      "source_line": 130,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "И ещё я встретил Амию… То, что мне удалось спасти её во время той катастрофы, — настоящее чудо."
+    },
+    {
+      "ordinal": 71,
+      "source_line": 132,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Амия… Она даже милее, чем ты описывал в письмах. Бедная девочка, но в каком-то смысле ей повезло."
+    },
+    {
+      "ordinal": 72,
+      "source_line": 134,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Её болезнь неизбежно прогрессирует. Мне нужно было привезти её сюда на лечение."
+    },
+    {
+      "ordinal": 73,
+      "source_line": 135,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "А пока меня не было, как дела у «Бабеля»?.."
+    },
+    {
+      "ordinal": 74,
+      "source_line": 137,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Не всё шло гладко. Мы столкнулись со многими трудностями, но решать их все прямо сейчас необязательно."
+    },
+    {
+      "ordinal": 75,
+      "source_line": 139,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "После такого долгого пути вы наверняка устали. Сперва отдохните."
+    },
+    {
+      "ordinal": 76,
+      "source_line": 141,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Большое спасибо, Терезия."
+    },
+    {
+      "ordinal": 77,
+      "source_line": 142,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Амия, мы дома."
+    },
+    {
+      "ordinal": 78,
+      "source_line": 147,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "М-м… Доктор, ты меня зовёшь?.. Я что, уснула?"
+    },
+    {
+      "ordinal": 79,
+      "source_line": 151,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "О, маленькая Амия, ты проснулась."
+    },
+    {
+      "ordinal": 80,
+      "source_line": 153,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Амия, может, спустишься? Терезия устанет, если будет всё время держать тебя на руках."
+    },
+    {
+      "ordinal": 81,
+      "source_line": 157,
+      "kind": "unnamed",
+      "text_ru": "Амия послушно кивает, спрыгивает с рук Терезии и, встав на землю, несколько раз подпрыгивает."
+    },
+    {
+      "ordinal": 82,
+      "source_line": 164,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Амия, можно я возьму тебя за руку?"
+    },
+    {
+      "ordinal": 83,
+      "source_line": 166,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Доктор?.."
+    },
+    {
+      "ordinal": 84,
+      "source_line": 168,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Конечно. Терезия — моя подруга, ей можно доверять. Теперь она тоже долго будет рядом с тобой."
+    },
+    {
+      "ordinal": 85,
+      "source_line": 170,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Угу…"
+    },
+    {
+      "ordinal": 86,
+      "source_line": 175,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Это и есть «Бабель»?"
+    },
+    {
+      "ordinal": 87,
+      "source_line": 177,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Да."
+    },
+    {
+      "ordinal": 88,
+      "source_line": 179,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Какой огромный… Даже больше тех горнодобывающих участков… Значит, раньше Доктор жил в таком месте."
+    },
+    {
+      "ordinal": 89,
+      "source_line": 181,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Я прожил здесь очень… очень долго, Амия."
+    },
+    {
+      "ordinal": 90,
+      "source_line": 183,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Это дом Доктора?"
+    },
+    {
+      "ordinal": 91,
+      "source_line": 185,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 92,
+      "source_line": 187,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Верно, Амия. Это дом, в котором Доктор прожил очень долго. Правда, Доктор?"
+    },
+    {
+      "ordinal": 93,
+      "source_line": 189,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Да."
+    },
+    {
+      "ordinal": 94,
+      "source_line": 191,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Отныне это будет и твой дом. Позволишь нам вместе с Доктором заботиться о тебе?"
+    },
+    {
+      "ordinal": 95,
+      "source_line": 193,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Хорошо… Где Доктор, там и я."
+    },
+    {
+      "ordinal": 96,
+      "source_line": 206,
+      "kind": "unnamed",
+      "text_ru": "Они ступают на подъёмную платформу, и перед ними медленно возникает эмблема «Бабеля»."
+    },
+    {
+      "ordinal": 97,
+      "source_line": 207,
+      "kind": "unnamed",
+      "text_ru": "Тяжёлая дверь медленно открывается, словно приветствуя их прибытие."
+    },
+    {
+      "ordinal": 98,
+      "source_line": 208,
+      "kind": "unnamed",
+      "text_ru": "Почувствовав робость Амии, Терезия осторожно кладёт руку ей на плечо."
+    },
+    {
+      "ordinal": 99,
+      "source_line": 209,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "А что… за этой дверью?"
+    },
+    {
+      "ordinal": 100,
+      "source_line": 210,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "За ней — все те, кто рад встретить Амию и Доктора."
+    },
+    {
+      "ordinal": 101,
+      "source_line": 211,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Ты не сомневаешься, Терезия? Ты официально принимаешь и меня, и этого ребёнка."
+    },
+    {
+      "ordinal": 102,
+      "source_line": 212,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "В чём тут сомневаться? Я рада, что «Бабель» может стать домом для стольких людей."
+    },
+    {
+      "ordinal": 103,
+      "source_line": 213,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Правда, многие здесь ещё не знают тебя. Боюсь, ближайшие несколько дней у тебя будут очень хлопотными."
+    },
+    {
+      "ordinal": 104,
+      "source_line": 214,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "В каком качестве мне следует предстать перед ними?"
+    },
+    {
+      "ordinal": 105,
+      "source_line": 215,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Непростой вопрос. Но думаю, сперва тебе стоит поговорить с Кальцит. Она всё это время тебя ждала."
+    },
+    {
+      "ordinal": 106,
+      "source_line": 216,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 107,
+      "source_line": 217,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Доктор, расскажи Кальцит о своих тревогах, сомнениях и тайнах, которые прячешь глубоко в сердце."
+    },
+    {
+      "ordinal": 108,
+      "source_line": 218,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Иначе ей будет очень больно."
+    },
+    {
+      "ordinal": 109,
+      "source_line": 219,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Ты ведь могла бы…"
+    },
+    {
+      "ordinal": 110,
+      "source_line": 220,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Если ты действительно хочешь, чтобы «Владычица демонов» раскрыла мысли, о которых ты не желаешь говорить, я сделаю это. Но я чувствую: ты всё ещё колеблешься."
+    },
+    {
+      "ordinal": 111,
+      "source_line": 221,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Пойдём, Амия, Доктор. Давайте встретимся с ней."
+    },
+    {
+      "ordinal": 112,
+      "source_line": 233,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Амия. Ты ведь Амия, верно?"
+    },
+    {
+      "ordinal": 113,
+      "source_line": 235,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Угу…"
+    },
+    {
+      "ordinal": 114,
+      "source_line": 237,
+      "kind": "unnamed",
+      "text_ru": "Кальцит присела на корточки, достала из кармана заранее приготовленную конфету и протянула её девочке."
+    },
+    {
+      "ordinal": 115,
+      "source_line": 240,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Амия, спасибо, что оберегала Доктора на протяжении всего пути."
+    },
+    {
+      "ordinal": 116,
+      "source_line": 242,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Спасибо… доктор Кальцит."
+    },
+    {
+      "ordinal": 117,
+      "source_line": 244,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Можешь пойти к госпоже Терезии? Нам нужно провести несколько обследований."
+    },
+    {
+      "ordinal": 118,
+      "source_line": 246,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Обследования… Это будет больно?"
+    },
+    {
+      "ordinal": 119,
+      "source_line": 248,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Будет больно. Но я знаю, что ты стойкая девочка: Доктор уже написал мне об этом."
+    },
+    {
+      "ordinal": 120,
+      "source_line": 250,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Доктор будет рядом со мной?"
+    },
+    {
+      "ordinal": 121,
+      "source_line": 252,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Конечно. Но сначала Доктору нужно кое-что сделать."
+    },
+    {
+      "ordinal": 122,
+      "source_line": 254,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 123,
+      "source_line": 257,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Всё хорошо, Амия. Подожди меня немного в палате, я скоро к тебе приду."
+    },
+    {
+      "ordinal": 124,
+      "source_line": 261,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…Хорошо."
+    },
+    {
+      "ordinal": 125,
+      "source_line": 267,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Доктор, позже тебе тоже придётся пройти полное обследование."
+    },
+    {
+      "ordinal": 126,
+      "source_line": 270,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Хорошо."
+    },
+    {
+      "ordinal": 127,
+      "source_line": 272,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…Доктор."
+    },
+    {
+      "ordinal": 128,
+      "source_line": 274,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Да?"
+    },
+    {
+      "ordinal": 129,
+      "source_line": 276,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ты собираешься снова уехать?"
+    },
+    {
+      "ordinal": 130,
+      "source_line": 278,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Нет. Думаю, этого путешествия мне уже достаточно."
+    },
+    {
+      "ordinal": 131,
+      "source_line": 280,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Если ты окончательно решил, я уважаю твой выбор."
+    },
+    {
+      "ordinal": 132,
+      "source_line": 281,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "По крайней мере, тебе небезразлично здоровье Амии… хотя прежде вас ничто не связывало."
+    },
+    {
+      "ordinal": 133,
+      "source_line": 283,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Эти новые жизни по своей сути ничем не отличаются от нас."
+    },
+    {
+      "ordinal": 134,
+      "source_line": 285,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…Я рада."
+    },
+    {
+      "ordinal": 135,
+      "source_line": 286,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ты всё-таки выбрал надежду."
+    },
+    {
+      "ordinal": 136,
+      "source_line": 288,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "С возвращением, Dr.{@nickname}."
+    },
+    {
+      "ordinal": 137,
+      "source_line": 302,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Как Амия?"
+    },
+    {
+      "ordinal": 138,
+      "source_line": 304,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Содержание оригиния в её крови по-прежнему очень высокое. Действующих ингибиторов пока совершенно недостаточно, чтобы держать болезнь под контролем."
+    },
+    {
+      "ordinal": 139,
+      "source_line": 305,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Нужно разработать препараты нового поколения… Мне понадобятся ресурсы и время."
+    },
+    {
+      "ordinal": 140,
+      "source_line": 307,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Все ресурсы «Бабеля» всегда были в твоём распоряжении, Доктор. Мы с радостью предоставим тебе все наши нынешние исследования орипатии."
+    },
+    {
+      "ordinal": 141,
+      "source_line": 309,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…А что я могу сделать для тебя и Кальцит взамен?"
+    },
+    {
+      "ordinal": 142,
+      "source_line": 311,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Это не обмен. Помощь каждому больному орипатией по мере наших сил — одна из целей, ради которых был создан «Бабель»."
+    },
+    {
+      "ordinal": 143,
+      "source_line": 312,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "С того самого дня, когда Кальцит пробудила тебя, я верила, что ты поможешь всем нам — так же, как помогаешь Амии."
+    },
+    {
+      "ordinal": 144,
+      "source_line": 314,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Спасибо."
+    },
+    {
+      "ordinal": 145,
+      "source_line": 316,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Доктор, возможно, теперь у меня наконец появилась возможность задать тебе тот вопрос."
+    },
+    {
+      "ordinal": 146,
+      "source_line": 317,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Что ты думаешь об этой земле?"
+    },
+    {
+      "ordinal": 147,
+      "source_line": 319,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Думаю, я пока не вправе её судить."
+    },
+    {
+      "ordinal": 148,
+      "source_line": 320,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Цивилизации нельзя делить на высшие и низшие. Нынешняя цивилизация Терры тоже прошла долгий и трудный путь, прежде чем стать такой, какая она есть."
+    },
+    {
+      "ordinal": 149,
+      "source_line": 321,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "А оригиний сыграл со всеми живыми существами поистине жестокую шутку…"
+    },
+    {
+      "ordinal": 150,
+      "source_line": 323,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Помню, ты говорил, что нынешний оригиний не соответствует первоначальному замыслу."
+    },
+    {
+      "ordinal": 151,
+      "source_line": 325,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "По моим первоначальным ожиданиям, он не должен был приносить столько страданий."
+    },
+    {
+      "ordinal": 152,
+      "source_line": 327,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "(Бормочет что-то во сне.)"
+    },
+    {
+      "ordinal": 153,
+      "source_line": 329,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Я чувствую, что ты скрываешь какие-то тайны. Но и то непостижимое для меня… сострадание в глубине твоего сердца совершенно искренне."
+    },
+    {
+      "ordinal": 154,
+      "source_line": 331,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Я хочу исправить эту ошибку, но сейчас ничего не могу сделать…"
+    },
+    {
+      "ordinal": 155,
+      "source_line": 332,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "К тому же пути развития цивилизаций во многом схожи. Как бы люди ни боролись, как бы ярко ни вспыхивал их свет в отдельные мгновения… конец, боюсь, вполне предсказуем."
+    },
+    {
+      "ordinal": 156,
+      "source_line": 334,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Но Кальцит говорила, что даже в последние дни вы не теряли надежды."
+    },
+    {
+      "ordinal": 157,
+      "source_line": 336,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "В те последние годы у меня тоже было много друзей. Они сталкивались с трудностями, которые тебе трудно даже представить, и хранили… не меньшую решимость и надежду, чем вы."
+    },
+    {
+      "ordinal": 158,
+      "source_line": 337,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Но все они без исключения потерпели поражение и исчезли."
+    },
+    {
+      "ordinal": 159,
+      "source_line": 339,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 160,
+      "source_line": 341,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Терезия. Мы знакомы не так давно. Я хочу понять: откуда у тебя уверенность, позволяющая делать всё это?"
+    },
+    {
+      "ordinal": 161,
+      "source_line": 342,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "На какой исход рассчитывает «Бабель», идя на уступки Военной комиссии?"
+    },
+    {
+      "ordinal": 162,
+      "source_line": 344,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 163,
+      "source_line": 346,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Доктор, я хочу кое-что тебе показать."
+    },
+    {
+      "ordinal": 164,
+      "source_line": 347,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Рано или поздно нам придётся обратиться к тебе за ответами об оригинии. Именно поэтому Кальцит тебя пробудила."
+    },
+    {
+      "ordinal": 165,
+      "source_line": 348,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Надеюсь, ты придёшь посмотреть… чего мне удалось добиться за это недолгое время."
+    },
+    {
+      "ordinal": 166,
+      "source_line": 358,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Мы почти пришли…"
+    },
+    {
+      "ordinal": 167,
+      "source_line": 359,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Вокруг одна пустошь. Даже для мест, где часто случаются Катастрофы, здешние условия чрезвычайно суровы. И всё же Клозур нашла время поддерживать эту тропу — опасную тропу…"
+    },
+    {
+      "ordinal": 168,
+      "source_line": 360,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Развилка среди скоплений оригиния… Терезия, у тебя секретов не меньше, чем у меня."
+    },
+    {
+      "ordinal": 169,
+      "source_line": 361,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ну так я же «Владычица демонов»."
+    },
+    {
+      "ordinal": 170,
+      "source_line": 362,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Доктор, прошу никому не рассказывать о том, что сейчас увидишь."
+    },
+    {
+      "ordinal": 171,
+      "source_line": 371,
+      "kind": "unnamed",
+      "text_ru": "После долгого пути по пустоши, усеянной кристаллами оригиния, перед путниками открылся маленький цветник."
+    },
+    {
+      "ordinal": 172,
+      "source_line": 372,
+      "kind": "unnamed",
+      "text_ru": "В самом сердце Катастрофы, посреди разрушения, на безымянной равнине, которой не отыскать ни в закатном зареве, ни под звёздным небом."
+    },
+    {
+      "ordinal": 173,
+      "source_line": 373,
+      "kind": "unnamed",
+      "text_ru": "Россыпь крошечных белых цветов очерчивала укромный уголок, отгороженный от окружающего мира. Здешней тишины не касалась дикость пустоши; даже ветер стал мягче."
+    },
+    {
+      "ordinal": 174,
+      "source_line": 374,
+      "kind": "unnamed",
+      "text_ru": "Словно забытая временем оранжерея, сохранившая безупречный облик далёкого прошлого."
+    },
+    {
+      "ordinal": 175,
+      "source_line": 375,
+      "kind": "unnamed",
+      "text_ru": "Словно в тот миг, когда люди впервые похитили у богов огонь и осветили им уголок бескрайнего ночного неба."
+    },
+    {
+      "ordinal": 176,
+      "source_line": 376,
+      "kind": "unnamed",
+      "text_ru": "Терезия бережно взяла в ладони чисто-белый цветок."
+    },
+    {
+      "ordinal": 177,
+      "source_line": 377,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Вот до чего дошли мои исследования оригиния — и исследования «Бабеля»."
+    },
+    {
+      "ordinal": 178,
+      "source_line": 378,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Цветы…?"
+    },
+    {
+      "ordinal": 179,
+      "source_line": 379,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Нет. «Оригиний»."
+    },
+    {
+      "ordinal": 180,
+      "source_line": 380,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "—"
+    },
+    {
+      "ordinal": 181,
+      "source_line": 381,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ты ведь понимаешь: эти цветы распустились не благодаря искусствам оригиния."
+    },
+    {
+      "ordinal": 182,
+      "source_line": 382,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Информация, заключённая в оригинии… Обращение процесса внутреннего поглощения вселенной…"
+    },
+    {
+      "ordinal": 183,
+      "source_line": 383,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Ваши исследования оригиния уже достигли такого уровня? Когда вы успели…"
+    },
+    {
+      "ordinal": 184,
+      "source_line": 384,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Сарказы понимают оригиний лучше всех остальных народов. И всё же наши знания — лишь верхушка айсберга по сравнению со всем, что он собой представляет."
+    },
+    {
+      "ordinal": 185,
+      "source_line": 385,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Даже с помощью Кальцит, исследуя саму природу оригиния и отдавая этому все силы, мы сумели лишь превратить кусочек активного оригиния размером с ладонь вот в это…"
+    },
+    {
+      "ordinal": 186,
+      "source_line": 386,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "В маленький цветник."
+    },
+    {
+      "ordinal": 187,
+      "source_line": 387,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "В надежду."
+    },
+    {
+      "ordinal": 188,
+      "source_line": 388,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Этот крошечный белый цветок — всего лишь плод моих скромных усилий. Я хочу попросить тебя о помощи, Доктор."
+    },
+    {
+      "ordinal": 189,
+      "source_line": 389,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Я хочу увидеть, как море цветов хлынет через утёсы и долины Казделя и однажды покроет всю землю."
+    },
+    {
+      "ordinal": 190,
+      "source_line": 390,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 191,
+      "source_line": 391,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "…Ради такого будущего стоит рискнуть."
+    },
+    {
+      "ordinal": 192,
+      "source_line": 392,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Доктор, ты сам видишь: Каздель уже очень давно увяз в трясине войны."
+    },
+    {
+      "ordinal": 193,
+      "source_line": 393,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Пока что я хочу воспользоваться этой силой оригиния, чтобы создать в Казделе дом, куда не смогут вторгнуться враги. Чтобы люди могли жить и трудиться в мире, а не считать поле боя своим домом."
+    },
+    {
+      "ordinal": 194,
+      "source_line": 394,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "А в более отдалённом будущем… Если однажды мы научимся полностью управлять оригинием, изменится сам облик земли."
+    },
+    {
+      "ordinal": 195,
+      "source_line": 395,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Представь, что во время Катастрофы с неба падают не кристаллы оригиния, а мягкие пушистые облака."
+    },
+    {
+      "ordinal": 196,
+      "source_line": 396,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Что на телах заражённых больше не растут камни…"
+    },
+    {
+      "ordinal": 197,
+      "source_line": 397,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Наверное, никто и не осмелится мечтать о такой нелепице…"
+    },
+    {
+      "ordinal": 198,
+      "source_line": 398,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Для сарказа ты действительно необычная, Терезия."
+    },
+    {
+      "ordinal": 199,
+      "source_line": 399,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Цветы, покрывающие всю землю…"
+    },
+    {
+      "ordinal": 200,
+      "source_line": 400,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Какая же это была бы картина, полная жизни."
+    }
+  ]
+}
