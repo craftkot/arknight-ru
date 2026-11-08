@@ -1,0 +1,302 @@
+{
+  "version": "v2.66",
+  "event": "Babel",
+  "scene": "BB-4 after battle",
+  "source_file": "activities/act33side/level_act33side_04_end.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED; COMMAND_AUDIT_PENDING",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "941fe43c5cfdb7ff014cb93270df983646aebde0",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "47d157fb89cc176f398691ea1fea6d3dc9b29e11",
+    "version_difference": "CN and EN speaker/position alignment confirmed for lines 46–73; EN simplifies the Rim Billiton record verification at line 57 and the deliberate-attack distinction at line 60; CN primary. Source blob SHAs unchanged. Non-text commands preserved in upstream scripts; overlay contains dialogue only."
+  },
+  "progress": {
+    "translated_text_positions": 40,
+    "complete": false,
+    "last_source_line": 73,
+    "next_source_line": 83
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 10,
+      "kind": "unnamed",
+      "text_ru": "Осень 1091 года."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 11,
+      "kind": "unnamed",
+      "text_ru": "Каздель. Главный корабль «Родос Айленд» организации «Бабель»."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 15,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Клозур, как продвигается работа?"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Я не хочу, чтобы система управления кораблём снова вышла из-под контроля."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 21,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Ну… ха-ха, раз уж ты спросила, возникли кое-какие небольшие сложности."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 22,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Даже с твоими подсказками многие способы шифрования программ PRTS обычному человеку просто не понять. Мой дешифратор пока не полностью с ними совместим."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Похоже, мы не успеем полностью отключить систему до прибытия Доктора на борт."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 25,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Попробуй ещё раз."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Если уверенности всё равно не будет, готовь запасной план… Полностью отключим энергоснабжение корабля."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Можешь на меня положиться!"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Но… похоже, ты ещё многое скрываешь, Кальцит."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Никогда не видела, чтобы кто-то заставлял тебя так нервничать."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 32,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…Это неважно, Клозур."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 33,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Важно, чтобы с кораблём ничего не случилось."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 35,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Хм, судя по отчёту Аскалон, Доктор — обычный человек. Да ещё и добряк, который таскает на спине бедную маленькую крольчиху и странствует с ней где попало."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 36,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Разве нам нужно так его опасаться?"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Угроза исходит не от Доктора."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 40,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Тогда от чего?"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 42,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Тебе пока незачем это знать."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ради безопасности Доктора и членов «Бабеля» удали запись о его прибытии на корабль."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 44,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Пока Доктор и Терезия не придут к решению, остальным не нужно знать о его существовании."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 46,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Ладно, ладно, постараюсь ещё усерднее…"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Но ты явно беспокоишься о Докторе и при этом так настороженно к нему относишься…"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 48,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "А-а! Может, у Доктора на тебя есть какой-нибудь компромат?!"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 50,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Даже не пытайся расследовать. Ничего не найдёшь."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 52,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Э-э… Зачем же так серьёзно?"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 54,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "И ещё… Что удалось выяснить о происхождении спасённой девочки?"
+    },
+    {
+      "ordinal": 28,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Вывод прежний."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 57,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Я неоднократно сверила все документы, связанные с Рим Биллитоном того времени, а ещё попросила Скаута и наших осведомителей в Военной комиссии всё проверить."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "С происхождением Амии всё в порядке."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Её родители действительно погибли при нападении на колонну, перевозившую для нас модуль лазерной добычи. Нападение на них было чистой случайностью."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 60,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Никто не знал, что они везут груз, связанный с сарказами. Военная комиссия тоже не устраивала это нападение намеренно."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 61,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Скорее всего, именно тогда она и заразилась орипатией. Если бы не Доктор… вероятно, остаток жизни она провела бы в страданиях в Рим Биллитоне."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Когда девочка поднимется на корабль, я лично займусь её обследованием и планом лечения."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Ты всё ещё не доверяешь этой девочке?"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Я беспокоюсь о ней."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Она слишком мала и после заражения орипатией так и не получила должного лечения."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 70,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "А-а, вот в каком смысле «беспокоишься»."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Я не хочу, чтобы доброта Доктора стала причиной промедления с её лечением. И ещё…"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…Терезия сказала бы, что эта девочка добрая и имеет право сама выбирать своё будущее."
+    }
+  ]
+}
