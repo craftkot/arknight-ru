@@ -1,0 +1,370 @@
+{
+  "version": "v2.85",
+  "event": "Babel",
+  "scene": "BB-5 after battle",
+  "source_file": "activities/act33side/level_act33side_05_end.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED; COMMAND_AUDIT_PENDING",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "d4e5838642cc3fbbdde33845e7c9f5589ff7ed9f",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "79f13f0c6c5ef210541d16146b799f06a89fb688",
+    "version_difference": "CN 450 lines vs EN 451 lines (line splitting or trailing newline not yet audited). Lines 87–160 align by position and scene commands; EN adds <i> emphasis at 108 absent from CN. CN meaning prioritized; global line-count discrepancy pending."
+  },
+  "progress": {
+    "translated_text_positions": 51,
+    "complete": false,
+    "last_source_line": 160,
+    "next_source_line": 161
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 9,
+      "kind": "narration",
+      "text_ru": "Зима 1092 года."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 10,
+      "kind": "narration",
+      "text_ru": "Каздель, приграничная зона боевых действий."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_cn": "受伤的士兵",
+      "text_ru": "Эти обезумевшие опухолевые звери… Они что, мигрируют? Проклятье, они не только рассеяли передовой отряд… Те, кто не успел уйти с дороги, все…"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 21,
+      "kind": "named",
+      "speaker_cn": "受伤的士兵",
+      "text_ru": "А ещё солдаты «Бабеля» действуют слаженно, даже не переговариваясь… В разведданных об этом ни слова!"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Сейчас нас должно беспокоить не это."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_cn": "厄尔苏拉",
+      "text_ru": "Теперь я старшая по званию. Прикажите выжившим немедленно собраться и вернуться в строй. Эти припасы жизненно важны. Без них нам придётся тяжело этой зимой."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_cn": "沉着的士兵",
+      "text_ru": "…Есть, командир. Мы ведь начали операцию раньше срока, а всё равно что-то пошло не так. Может, наш осведомитель у них…"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 32,
+      "kind": "named",
+      "speaker_cn": "厄尔苏拉",
+      "text_ru": "Сведения осведомителя были верны. Нас задержали наёмники, помогавшие перевозить припасы: они потребовали больше денег прямо на месте. Я уже разобралась с ними."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 34,
+      "kind": "named",
+      "speaker_cn": "厄尔苏拉",
+      "text_ru": "Вот почему я ненавижу наёмников."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 36,
+      "kind": "named",
+      "speaker_cn": "受伤的士兵",
+      "text_ru": "Столько совпадений…"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "厄尔苏拉",
+      "text_ru": "Когда совпадения повторяются одно за другим, это уже не совпадения. В последнее время мы и так понесли слишком много необъяснимых потерь."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 39,
+      "kind": "named",
+      "speaker_cn": "厄尔苏拉",
+      "text_ru": "Сосредоточьтесь. Люди «Бабеля» наверняка ещё…"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 41,
+      "kind": "named",
+      "speaker_cn": "受伤的士兵",
+      "text_ru": "Подождите, помо…"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 52,
+      "kind": "narration",
+      "text_ru": "Белая вспышка пронзила голову солдата. За частым топотом копыт опухолевых зверей они даже не могли определить, откуда нанесли удар."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 56,
+      "kind": "subtitle",
+      "text_ru": "«Это первое предупреждение. Оставьте припасы и уходите. Мы не станем на вас нападать»."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 59,
+      "kind": "narration",
+      "text_ru": "Без всякого предупреждения в голове Эрсулы прозвучал холодный, хриплый голос."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 61,
+      "kind": "named",
+      "speaker_cn": "沉着的士兵",
+      "text_ru": "Он… мёртв. *Сарказское ругательство* Нам нужно отступать, командир! Вы слышали этот голос?"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "厄尔苏拉",
+      "text_ru": "Хм… Они просто блефуют. Держитесь за мной и двигайтесь скрытно!"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "厄尔苏拉",
+      "text_ru": "Никому не отставать и не действовать в одиночку! Хотите выжить — держитесь вместе! Мы обязаны доставить эти припасы!"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_cn": "厄尔苏拉",
+      "text_ru": "А передовой отряд… Теперь им придётся позаботиться о себе самим."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 74,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Они начали отходить. Как и ожидалось, захватить все припасы одним ударом будет непросто."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 77,
+      "kind": "subtitle",
+      "text_ru": "«Не нужно спешить. Действуйте по плану Доктора. Председатель сказала: главная задача — свести потери к минимуму»."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Я понимаю, госпожа Мантра."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 87,
+      "kind": "narration",
+      "text_ru": "Губы Мантры были сомкнуты, но Скаут отчётливо слышал её голос у себя в голове."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 88,
+      "kind": "narration",
+      "text_ru": "Возможно, среди бойцов тайных операций «Бабеля» не найти лучшего координатора. Но Скаут был уверен: для врагов она станет тенью, медленно разъедающей рассудок."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 90,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "Передовой отряд противника удалось разделить стаей зверей. Уцелевшие бежали в тот лес."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "Враг действовал спонтанно — должно быть, понял, что мы расшифровали его переговорные коды. Но план окружения всё равно сработал безупречно."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 92,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "Остальное оставим Аскалон."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Аскалон не потерпит неудачу."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 96,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "И мы тоже."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 98,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Ха-ха, верно. Отдохните немного, госпожа Мантра. Такое «общение» даётся вам нелегко."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 99,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "За дальнейший план не беспокойтесь. У нас есть Доктор."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 108,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "Проклятье, кто командовал этой операцией?.. Опять этот злой дух? Да кто он вообще такой, этот командир? Ублюдок из какого королевского двора?!"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 109,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "Если он так поступил с нами, однажды поступит так и с вами! Какой смысл служить такому человеку?!"
+    },
+    {
+      "ordinal": 35,
+      "source_line": 110,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "Я выберусь отсюда живым —"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 112,
+      "kind": "narration",
+      "text_ru": "Наёмник услышал дыхание в темноте неподалёку и без колебаний рубанул мечом."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 114,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "Попался!"
+    },
+    {
+      "ordinal": 38,
+      "source_line": 127,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "Тс-с…"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 129,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "Ха, ты и сам тяжело ранен. Думаешь, сумеешь убить меня и остаться в живых?"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 130,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "Прочь с дороги! Иначе я убью тебя, даже если это будет стоить мне жизни!"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 132,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "Ты не заберёшь вещи Марселя. Он должен вернуться домой."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 134,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "Дом? Кха-кха… кха…"
+    },
+    {
+      "ordinal": 43,
+      "source_line": 135,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "Наш дом… Каздель! Это вы… предали Каздель…"
+    },
+    {
+      "ordinal": 44,
+      "source_line": 140,
+      "kind": "narration",
+      "text_ru": "Наёмник снова и снова наносил удары мечом по Одде, а тот из последних сил поднимал молот, чтобы защититься."
+    },
+    {
+      "ordinal": 45,
+      "source_line": 141,
+      "kind": "narration",
+      "text_ru": "Движения наёмника становились всё медленнее, а дыхание — всё слабее."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 146,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "«Бабель»… сборище… дураков…"
+    },
+    {
+      "ordinal": 47,
+      "source_line": 148,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "…Разве не Военная комиссия предала Каздель?"
+    },
+    {
+      "ordinal": 48,
+      "source_line": 155,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Успокойся. Он уже мёртв."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 156,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "В следующий раз действуй решительнее, Одда. Тогда и ранений будет меньше."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 158,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "Весь отряд погиб… Они заслуживали более достойной смерти, а не мучений от страха…"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 160,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Не жалей врагов. По крайней мере сейчас. Забирай Марселя, наше задание выполнено."
+    }
+  ]
+}
