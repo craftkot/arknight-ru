@@ -34,7 +34,7 @@ class BabelBB7BeforeV305(unittest.TestCase):
         for item in self.doc["dialogues"]:
             kinds[item["kind"]] = kinds.get(item["kind"], 0) + 1
             self.assertTrue(item["text_ru"].strip())
-            self.assertFalse(re.search(r"[\\u3400-\\u9fff]", item["text_ru"]))
+            self.assertFalse(re.search(r"[\u3400-\u9fff]", item["text_ru"]))
             self.assertNotIn(chr(10), item["text_ru"])
             self.assertNotIn(chr(13), item["text_ru"])
         self.assertEqual(kinds, {"named":32, "subtitle":8})
