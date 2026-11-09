@@ -1,0 +1,25 @@
+Arknights RU — Babel changelog v3.03
+Date: 2026-11-09
+
+Babel BB-6 after battle:
+- Added text positions 81–120 of 178 (CN/EN source lines 219–336).
+- 28 named dialogue entries, 3 narration entries, 7 subtitles and 2 Sticker(text) entries.
+- Cumulative partial progress: 120/178; next position 121 at CN line 337.
+- CN source blob: 56a05581ddc4364646998f6169cce72797f6834d.
+- EN Yostar source blob: 0b839585231d08e1980894b6b1d98a9861c23759.
+- CN/EN mirrors: 178 text positions and 314 control-command positions/types align; EN has one extra terminal newline.
+- Selected 40 positions align by line, text type, speaker tag and markup.
+- CN line 298 literally means “preservation/survival of civilization”; EN Yostar uses the proper name Civilight Eterna. Russian project spelling «Сивилайт Этерна» retained.
+- Theresa rendered «Терезия» following Chinese/Japanese pronunciation; Russian community wiki title «Тереза» is noted for editorial consistency review.
+- Ace rendered «Эйс» from the Latin-script source name.
+- Color markup preserved in subtitle line 235 and Sticker(text) lines 308 and 311.
+- Previous 80 translated positions are unchanged.
+- No full source scripts or game files committed.
+- First draft only; no editorial review or Yostar Global PC in-game validation.
+
+References:
+- https://github.com/Kengxxiao/ArknightsGameData/blob/master/zh_CN/gamedata/story/activities/act33side/level_act33side_06_end.txt
+- https://github.com/Kengxxiao/ArknightsGameData_YoStar/blob/main/en_US/gamedata/story/activities/act33side/level_act33side_06_end.txt
+- https://arknights.wiki.gg/wiki/Theresa
+- https://arknights.wiki.gg/ru/wiki/Тереза
+- https://arknights.wiki.gg/ru/wiki/Civilight_Eterna
