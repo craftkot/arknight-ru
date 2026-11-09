@@ -66,7 +66,7 @@ class BabelBB6V294(unittest.TestCase):
         self.assertEqual(self.manifest["partial_scene_next_source_line"], 263)
         self.assertEqual(self.manifest["active_translation_track"], "terra_chronology_event_order")
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
-        self.assertIn("Babel: 87/258", readme)
+        self.assertIn("BB-6 до боя: 87/258", readme)
 
 if __name__ == "__main__":
     unittest.main()
