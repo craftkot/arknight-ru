@@ -43,8 +43,8 @@ class BabelBB6V297(unittest.TestCase):
             kinds[x["kind"]] = kinds.get(x["kind"], 0) + 1
             self.assertTrue(x["text_ru"].strip())
             self.assertFalse(any(0x3400 <= ord(c) <= 0x9fff for c in x["text_ru"]))
-            self.assertNotIn("\n", x["text_ru"])
-            self.assertNotIn("\r", x["text_ru"])
+            self.assertNotIn(chr(10), x["text_ru"])
+            self.assertNotIn(chr(13), x["text_ru"])
         self.assertEqual(kinds, {"named":148,"multiline":11,"narration":16})
         self.assertEqual(new[10]["speaker_cn"], "萨卡兹雇佣兵")
         self.assertEqual(new[10]["text_ru"], "Эй, стой! Не подходи к Заражённым. Джули сама с ними разберётся.")
@@ -71,7 +71,8 @@ class BabelBB6V297(unittest.TestCase):
         self.assertEqual(self.qa["scene_ru_text_entries"], 175)
         self.assertEqual(self.qa["scene_remaining_text_entries"], 83)
         self.assertTrue(self.qa["previous_144_entries_unchanged"])
-        self.assertIn("level_act33side_06_beg.txt\\tpartial_first_draft\\t148\\t11\\t16\\t0\\t0\\t175", self.index)
+        index_row = next(line for line in self.index.splitlines() if "level_act33side_06_beg.txt" in line)
+        self.assertEqual(index_row.split(chr(9))[:9], ["act33side", "level_act33side_06_beg.txt", "partial_first_draft", "148", "11", "16", "0", "0", "175"])
         self.assertEqual(self.manifest["partial_scene_next_text_ordinal"], 176)
         self.assertEqual(self.manifest["partial_scene_next_source_line"], 556)
         self.assertEqual(self.manifest["translation_integrity"]["babel_partial_ru_text_entries"], 175)
@@ -80,7 +81,7 @@ class BabelBB6V297(unittest.TestCase):
         self.assertIn("BB-6 до боя: 144/258", self.readme)
         self.assertIn("Julie / 尤莉叶", self.terms)
         self.assertIn("Suppressant / 抑制剂", self.terms)
-        self.assertIn("尤莉叶\\tJulie\\tДжули", self.review)
+        self.assertTrue(any(row[:3] == ["尤莉叶", "Julie", "Джули"] for row in (line.split(chr(9)) for line in self.review.splitlines())))
 
 if __name__ == "__main__":
     unittest.main()
