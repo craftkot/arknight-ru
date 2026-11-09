@@ -1,0 +1,1389 @@
+{
+  "version": "v2.91",
+  "event": "Babel",
+  "scene": "BB-5 after battle",
+  "source_file": "activities/act33side/level_act33side_05_end.txt",
+  "status": "FIRST_DRAFT_COMPLETE; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED; FULL_COMMAND_AUDIT_PENDING",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "d4e5838642cc3fbbdde33845e7c9f5589ff7ed9f",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "79f13f0c6c5ef210541d16146b799f06a89fb688",
+    "version_difference": "CN 450 vs EN 451 physical lines (global one-line discrepancy not resolved); CN/EN lines 417–450 align by line number and command sequence. Last text at line 445; lines 446–450 contain closing commands."
+  },
+  "progress": {
+    "translated_text_positions": 197,
+    "complete": true,
+    "last_source_line": 445,
+    "next_source_line": null
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 9,
+      "kind": "narration",
+      "text_ru": "Зима 1092 года."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 10,
+      "kind": "narration",
+      "text_ru": "Каздель, приграничная зона боевых действий."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_cn": "受伤的士兵",
+      "text_ru": "Эти обезумевшие опухолевые звери… Они что, мигрируют? Проклятье, они не только рассеяли передовой отряд… Те, кто не успел уйти с дороги, все…"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 21,
+      "kind": "named",
+      "speaker_cn": "受伤的士兵",
+      "text_ru": "А ещё солдаты «Бабеля» действуют слаженно, даже не переговариваясь… В разведданных об этом ни слова!"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Сейчас нас должно беспокоить не это."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_cn": "厄尔苏拉",
+      "text_ru": "Теперь я старшая по званию. Прикажите выжившим немедленно собраться и вернуться в строй. Эти припасы жизненно важны. Без них нам придётся тяжело этой зимой."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_cn": "沉着的士兵",
+      "text_ru": "…Есть, командир. Мы ведь начали операцию раньше срока, а всё равно что-то пошло не так. Может, наш осведомитель у них…"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 32,
+      "kind": "named",
+      "speaker_cn": "厄尔苏拉",
+      "text_ru": "Сведения осведомителя были верны. Нас задержали наёмники, помогавшие перевозить припасы: они потребовали больше денег прямо на месте. Я уже разобралась с ними."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 34,
+      "kind": "named",
+      "speaker_cn": "厄尔苏拉",
+      "text_ru": "Вот почему я ненавижу наёмников."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 36,
+      "kind": "named",
+      "speaker_cn": "受伤的士兵",
+      "text_ru": "Столько совпадений…"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "厄尔苏拉",
+      "text_ru": "Когда совпадения повторяются одно за другим, это уже не совпадения. В последнее время мы и так понесли слишком много необъяснимых потерь."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 39,
+      "kind": "named",
+      "speaker_cn": "厄尔苏拉",
+      "text_ru": "Сосредоточьтесь. Люди «Бабеля» наверняка ещё…"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 41,
+      "kind": "named",
+      "speaker_cn": "受伤的士兵",
+      "text_ru": "Подождите, помо…"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 52,
+      "kind": "narration",
+      "text_ru": "Белая вспышка пронзила голову солдата. За частым топотом копыт опухолевых зверей они даже не могли определить, откуда нанесли удар."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 56,
+      "kind": "subtitle",
+      "text_ru": "«Это первое предупреждение. Оставьте припасы и уходите. Мы не станем на вас нападать»."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 59,
+      "kind": "narration",
+      "text_ru": "Без всякого предупреждения в голове Эрсулы прозвучал холодный, хриплый голос."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 61,
+      "kind": "named",
+      "speaker_cn": "沉着的士兵",
+      "text_ru": "Он… мёртв. *Сарказское ругательство* Нам нужно отступать, командир! Вы слышали этот голос?"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "厄尔苏拉",
+      "text_ru": "Хм… Они просто блефуют. Держитесь за мной и двигайтесь скрытно!"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "厄尔苏拉",
+      "text_ru": "Никому не отставать и не действовать в одиночку! Хотите выжить — держитесь вместе! Мы обязаны доставить эти припасы!"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_cn": "厄尔苏拉",
+      "text_ru": "А передовой отряд… Теперь им придётся позаботиться о себе самим."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 74,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Они начали отходить. Как и ожидалось, захватить все припасы одним ударом будет непросто."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 77,
+      "kind": "subtitle",
+      "text_ru": "«Не нужно спешить. Действуйте по плану Доктора. Председатель сказала: главная задача — свести потери к минимуму»."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Я понимаю, госпожа Мантра."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 87,
+      "kind": "narration",
+      "text_ru": "Губы Мантры были сомкнуты, но Скаут отчётливо слышал её голос у себя в голове."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 88,
+      "kind": "narration",
+      "text_ru": "Возможно, среди бойцов тайных операций «Бабеля» не найти лучшего координатора. Но Скаут был уверен: для врагов она станет тенью, медленно разъедающей рассудок."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 90,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "Передовой отряд противника удалось разделить стаей зверей. Уцелевшие бежали в тот лес."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "Враг действовал спонтанно — должно быть, понял, что мы расшифровали его переговорные коды. Но план окружения всё равно сработал безупречно."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 92,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "Остальное оставим Аскалон."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Аскалон не потерпит неудачу."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 96,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "И мы тоже."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 98,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Ха-ха, верно. Отдохните немного, госпожа Мантра. Такое «общение» даётся вам нелегко."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 99,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "За дальнейший план не беспокойтесь. У нас есть Доктор."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 108,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "Проклятье, кто командовал этой операцией?.. Опять этот злой дух? Да кто он вообще такой, этот командир? Ублюдок из какого королевского двора?!"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 109,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "Если он так поступил с нами, однажды поступит так и с вами! Какой смысл служить такому человеку?!"
+    },
+    {
+      "ordinal": 35,
+      "source_line": 110,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "Я выберусь отсюда живым —"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 112,
+      "kind": "narration",
+      "text_ru": "Наёмник услышал дыхание в темноте неподалёку и без колебаний рубанул мечом."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 114,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "Попался!"
+    },
+    {
+      "ordinal": 38,
+      "source_line": 127,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "Тс-с…"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 129,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "Ха, ты и сам тяжело ранен. Думаешь, сумеешь убить меня и остаться в живых?"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 130,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "Прочь с дороги! Иначе я убью тебя, даже если это будет стоить мне жизни!"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 132,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "Ты не заберёшь вещи Марселя. Он должен вернуться домой."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 134,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "Дом? Кха-кха… кха…"
+    },
+    {
+      "ordinal": 43,
+      "source_line": 135,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "Наш дом… Каздель! Это вы… предали Каздель…"
+    },
+    {
+      "ordinal": 44,
+      "source_line": 140,
+      "kind": "narration",
+      "text_ru": "Наёмник снова и снова наносил удары мечом по Одде, а тот из последних сил поднимал молот, чтобы защититься."
+    },
+    {
+      "ordinal": 45,
+      "source_line": 141,
+      "kind": "narration",
+      "text_ru": "Движения наёмника становились всё медленнее, а дыхание — всё слабее."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 146,
+      "kind": "named",
+      "speaker_cn": "濒死的雇佣兵",
+      "text_ru": "«Бабель»… сборище… дураков…"
+    },
+    {
+      "ordinal": 47,
+      "source_line": 148,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "…Разве не Военная комиссия предала Каздель?"
+    },
+    {
+      "ordinal": 48,
+      "source_line": 155,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Успокойся. Он уже мёртв."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 156,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "В следующий раз действуй решительнее, Одда. Тогда и ранений будет меньше."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 158,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "Весь отряд погиб… Они заслуживали более достойной смерти, а не мучений от страха…"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 160,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Не жалей врагов. По крайней мере сейчас. Забирай Марселя, наше задание выполнено."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 162,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "Ты… помнишь его имя?"
+    },
+    {
+      "ordinal": 53,
+      "source_line": 164,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Я помню каждого, кто был в «Бабеле». Живых и мёртвых. Тех, чьи имена известны, и тех, кто остался безымянным."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 166,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "Я мог его спасти… Просто мне так трудно… без колебаний поднимать оружие на своих соплеменников."
+    },
+    {
+      "ordinal": 55,
+      "source_line": 168,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Даже ради мести за Марселя?"
+    },
+    {
+      "ordinal": 56,
+      "source_line": 170,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 57,
+      "source_line": 172,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Твой отец погиб во время тогдашних беспорядков в городе, верно? Ты думал о том, чтобы отомстить за него?"
+    },
+    {
+      "ordinal": 58,
+      "source_line": 174,
+      "kind": "narration",
+      "text_ru": "Одда глубоко вздохнул."
+    },
+    {
+      "ordinal": 59,
+      "source_line": 176,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "Я ненавижу тех, кто его убил. Но месть ничего не изменит."
+    },
+    {
+      "ordinal": 60,
+      "source_line": 178,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Классическое рассуждение. Справедливое, разумное, проникнутое гуманизмом."
+    },
+    {
+      "ordinal": 61,
+      "source_line": 179,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "А если твой враг — хладнокровный палач, по локоть в крови?"
+    },
+    {
+      "ordinal": 62,
+      "source_line": 180,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Ты скажешь, что убил его ради справедливости и своих убеждений, без малейшей ненависти?"
+    },
+    {
+      "ordinal": 63,
+      "source_line": 182,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "Я… не уверен."
+    },
+    {
+      "ordinal": 64,
+      "source_line": 183,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "Госпожа Аскалон, вы бы пожалели, если бы убили наёмника, угрожавшего «Бабелю»?"
+    },
+    {
+      "ordinal": 65,
+      "source_line": 185,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Нет."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 187,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "…Тогда и я не стану жалеть."
+    },
+    {
+      "ordinal": 67,
+      "source_line": 189,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "Даже если мне придётся…"
+    },
+    {
+      "ordinal": 68,
+      "source_line": 191,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 69,
+      "source_line": 193,
+      "kind": "named",
+      "speaker_cn": "奥达",
+      "text_ru": "Простите, госпожа Аскалон! Я опять сам не заметил, как начал нести чепуху. Я ведь не настолько важен…"
+    },
+    {
+      "ordinal": 70,
+      "source_line": 195,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Нет. Для Её Высочества важен каждый человек в «Бабеле»."
+    },
+    {
+      "ordinal": 71,
+      "source_line": 196,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Пора возвращаться."
+    },
+    {
+      "ordinal": 72,
+      "source_line": 210,
+      "kind": "narration",
+      "text_ru": "Каздель. Главный корабль «Родос-Айленд» организации «Бабель»."
+    },
+    {
+      "ordinal": 73,
+      "source_line": 214,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Зачем ты пришёл?"
+    },
+    {
+      "ordinal": 74,
+      "source_line": 215,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Я уже тысячу раз повторял: предать Её Высочество я решил сам."
+    },
+    {
+      "ordinal": 75,
+      "source_line": 216,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Военная комиссия тут ни при чём. Я не был подосланным ею шпионом."
+    },
+    {
+      "ordinal": 76,
+      "source_line": 217,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Если собираетесь казнить меня по военным законам, покончите с этим быстро."
+    },
+    {
+      "ordinal": 77,
+      "source_line": 222,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "…Я пришёл не допрашивать тебя."
+    },
+    {
+      "ordinal": 78,
+      "source_line": 223,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Принёс кувшин вина."
+    },
+    {
+      "ordinal": 79,
+      "source_line": 225,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Мне не нужно."
+    },
+    {
+      "ordinal": 80,
+      "source_line": 227,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Уверен? Это фруктовое вино из Виктории, а не дешёвое пойло домашней выделки."
+    },
+    {
+      "ordinal": 81,
+      "source_line": 229,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "…Так зачем ты всё-таки пришёл?"
+    },
+    {
+      "ordinal": 82,
+      "source_line": 231,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Вспомнить старые времена."
+    },
+    {
+      "ordinal": 83,
+      "source_line": 233,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Нам не о чем говорить."
+    },
+    {
+      "ordinal": 84,
+      "source_line": 235,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Скаут не рассказал мне всей истории. Аскалон тоже ничего не скажет, хотя знает, что мы знакомы."
+    },
+    {
+      "ordinal": 85,
+      "source_line": 236,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Но я могу предположить, почему ты хотел убить Доктора."
+    },
+    {
+      "ordinal": 86,
+      "source_line": 238,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 87,
+      "source_line": 239,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Хм. Ну попробуй угадать."
+    },
+    {
+      "ordinal": 88,
+      "source_line": 241,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Ты не из тех сарказов, кто не умеет проигрывать. Ты ненавидишь Доктора лишь за то, что он чужак."
+    },
+    {
+      "ordinal": 89,
+      "source_line": 242,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Все надеются, что однажды «Бабель» и Военная комиссия смогут примириться. А ты считаешь, что Кальцит и Доктор не залечили раскол, а только растравили рану."
+    },
+    {
+      "ordinal": 90,
+      "source_line": 244,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Раз уж понял, почему до сих пор не убрался?"
+    },
+    {
+      "ordinal": 91,
+      "source_line": 246,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Я тоже чужак. И всё же до сих пор сражаюсь за сарказов."
+    },
+    {
+      "ordinal": 92,
+      "source_line": 248,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Ты…"
+    },
+    {
+      "ordinal": 93,
+      "source_line": 249,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 94,
+      "source_line": 250,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Вино."
+    },
+    {
+      "ordinal": 95,
+      "source_line": 255,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Военная фуражка?"
+    },
+    {
+      "ordinal": 96,
+      "source_line": 257,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Сам виноват, что не принёс ещё и стакан. Откуда в тюрьме бокалы?"
+    },
+    {
+      "ordinal": 97,
+      "source_line": 258,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Глоть… А-а."
+    },
+    {
+      "ordinal": 98,
+      "source_line": 259,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "А что стало с остальными из твоего прежнего отряда?"
+    },
+    {
+      "ordinal": 99,
+      "source_line": 260,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Дай вспомнить: копейщик, заклинатель, ты со щитом, ещё медик и снайпер?"
+    },
+    {
+      "ordinal": 100,
+      "source_line": 262,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Черепное Копьё, Белый Дым, Серое Солнце, Стросс, Орех, госпожа Кун и Травка."
+    },
+    {
+      "ordinal": 101,
+      "source_line": 264,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Значит, того лучника звали Травкой."
+    },
+    {
+      "ordinal": 102,
+      "source_line": 266,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Он погиб. Хватит держать на него зло."
+    },
+    {
+      "ordinal": 103,
+      "source_line": 268,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Все они были отличными бойцами."
+    },
+    {
+      "ordinal": 104,
+      "source_line": 270,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Если когда-нибудь мне доведётся обучать молодых бойцов, я воспитаю их такими же."
+    },
+    {
+      "ordinal": 105,
+      "source_line": 271,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Бескорыстными, честными, храбрыми. Такими, кто осмотрительно выбирает, во что верить, но потом отдаёт себя этому без остатка."
+    },
+    {
+      "ordinal": 106,
+      "source_line": 273,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Хех. Слишком сентиментально."
+    },
+    {
+      "ordinal": 107,
+      "source_line": 275,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Неужели сарказы настолько ненавидят чужаков в «Бабеле»?"
+    },
+    {
+      "ordinal": 108,
+      "source_line": 277,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Таким дуракам, как ты, готовым отдать жизнь за Её Высочество Терезию, этого не понять."
+    },
+    {
+      "ordinal": 109,
+      "source_line": 278,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Может, «Бабель» и правда кое-что меняет. Но толку мало: перемены затрагивают слишком немногих и происходят слишком медленно."
+    },
+    {
+      "ordinal": 110,
+      "source_line": 279,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "А ведь Её Высочество могла бы не тратить время, когда ей связывают руки."
+    },
+    {
+      "ordinal": 111,
+      "source_line": 281,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Доктор очень помог председателю Терезии."
+    },
+    {
+      "ordinal": 112,
+      "source_line": 283,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "…В каком качестве?"
+    },
+    {
+      "ordinal": 113,
+      "source_line": 284,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Исследователя? Или военного командира?"
+    },
+    {
+      "ordinal": 114,
+      "source_line": 286,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "И в том и в другом."
+    },
+    {
+      "ordinal": 115,
+      "source_line": 288,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Даже несмотря на то, сколько сарказов он погубил? Чем больше таких людей, тем дольше будет тянуться война."
+    },
+    {
+      "ordinal": 116,
+      "source_line": 289,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Её Высочество великая правительница. Она поколениями решала проблемы с едой, одеждой и жильём, а теперь взялась и за орипатию."
+    },
+    {
+      "ordinal": 117,
+      "source_line": 290,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "А что происходит сейчас? Мы воюем с Военной комиссией. Воюем со своими. Это совсем не то, к чему стремилась Её Высочество."
+    },
+    {
+      "ordinal": 118,
+      "source_line": 291,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "О, чуть не забыл. Ты ведь «наёмник», но не «сарказский наёмник»."
+    },
+    {
+      "ordinal": 119,
+      "source_line": 293,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "…Верно."
+    },
+    {
+      "ordinal": 120,
+      "source_line": 294,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Я пришёл в «Бабель» вместе с остальными. Ввязался во всё это лишь потому, что большинство в нашем отряде были сарказами."
+    },
+    {
+      "ordinal": 121,
+      "source_line": 295,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Кстати, Белый Дым тоже погибла."
+    },
+    {
+      "ordinal": 122,
+      "source_line": 297,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Зачем ты вдруг о ней заговорил?"
+    },
+    {
+      "ordinal": 123,
+      "source_line": 299,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Я думал, между вами что-то намечалось."
+    },
+    {
+      "ordinal": 124,
+      "source_line": 301,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Она уже мертва."
+    },
+    {
+      "ordinal": 125,
+      "source_line": 303,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Она умерла на глазах у председателя Терезии."
+    },
+    {
+      "ordinal": 126,
+      "source_line": 305,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "…Чёрт. Проклятье. Теперь я ей даже немного завидую. Как это случилось?"
+    },
+    {
+      "ordinal": 127,
+      "source_line": 307,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Мы попали в засаду. До конца продержались только мы двое. Ей оторвало ногу ловушкой с Искусствами, и я тащил её по грязи."
+    },
+    {
+      "ordinal": 128,
+      "source_line": 308,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Потом мы встретили председателя Терезию. Точнее, сначала встретили Доктора."
+    },
+    {
+      "ordinal": 129,
+      "source_line": 310,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Того злого духа… Тьфу. Он ещё и сам выходит на поле боя?"
+    },
+    {
+      "ordinal": 130,
+      "source_line": 312,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Не поверишь, но издали я принял Доктора за латеранского монаха."
+    },
+    {
+      "ordinal": 131,
+      "source_line": 314,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "А?"
+    },
+    {
+      "ordinal": 132,
+      "source_line": 316,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Он молился под чёрным капюшоном. Рядом с сияющей председателем."
+    },
+    {
+      "ordinal": 133,
+      "source_line": 317,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Без коленопреклонений и обрядов. Он просто спокойно смотрел вдаль вместе с председателем Терезией."
+    },
+    {
+      "ordinal": 134,
+      "source_line": 318,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Доктор, тот самый злой дух, о котором ты говоришь, Dr.{@nickname}, вовсе не бессердечный призрак."
+    },
+    {
+      "ordinal": 135,
+      "source_line": 319,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Его разрывают противоречия, он одиноко блуждает в поисках пути, но всё равно выбирает… приносить «Бабелю» победы."
+    },
+    {
+      "ordinal": 136,
+      "source_line": 321,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Так ты пришёл меня переубеждать? Думаешь, возьмёшь меня на жалость?!"
+    },
+    {
+      "ordinal": 137,
+      "source_line": 323,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Пошёл вон! И вино своё забери! За кого ты меня принимаешь—"
+    },
+    {
+      "ordinal": 138,
+      "source_line": 325,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 139,
+      "source_line": 327,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "…Нет. Ты не настолько наивен. Не стал бы так меня унижать."
+    },
+    {
+      "ordinal": 140,
+      "source_line": 328,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Решение уже принято?"
+    },
+    {
+      "ordinal": 141,
+      "source_line": 330,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Да."
+    },
+    {
+      "ordinal": 142,
+      "source_line": 332,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Смертной казни мне не избежать, верно?"
+    },
+    {
+      "ordinal": 143,
+      "source_line": 334,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Вообще-то Доктор и председатель Терезия ещё сомневаются. Но доктор Кальцит и большинство бойцов, участвовавших в операции, не хотят оставлять тебя в живых."
+    },
+    {
+      "ordinal": 144,
+      "source_line": 336,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "А ты?"
+    },
+    {
+      "ordinal": 145,
+      "source_line": 338,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Из-за твоего предательства мы косвенно потеряли десятки бойцов, брат."
+    },
+    {
+      "ordinal": 146,
+      "source_line": 339,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "На этот раз я согласен с доктором Кальцит."
+    },
+    {
+      "ordinal": 147,
+      "source_line": 341,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "…Ц-ц. Налей ещё."
+    },
+    {
+      "ordinal": 148,
+      "source_line": 343,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Ты только что опрокинул последние капли."
+    },
+    {
+      "ordinal": 149,
+      "source_line": 345,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Ты сам это сделаешь?"
+    },
+    {
+      "ordinal": 150,
+      "source_line": 347,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Я. Не стоит мучить Скаута этим выбором: с виду он суров, а сердце у него мягкое. И передавать тебя кому-то другому я не хочу."
+    },
+    {
+      "ordinal": 151,
+      "source_line": 348,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Брат, я всё это говорю лишь затем, чтобы ты знал: пусть недавно ты и совершил глупость…"
+    },
+    {
+      "ordinal": 152,
+      "source_line": 349,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "«Бабель» запомнит твоё имя. Мы продолжим сражаться, помня твоё предупреждение и упрёки."
+    },
+    {
+      "ordinal": 153,
+      "source_line": 351,
+      "kind": "named",
+      "speaker_cn": "萨卡兹谋反者",
+      "text_ru": "Хех. Подбери поскорее несколько толковых новичков и обучи их. С твоим добрым сердцем ты и сам долго не протянешь."
+    },
+    {
+      "ordinal": 154,
+      "source_line": 353,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "И то верно."
+    },
+    {
+      "ordinal": 155,
+      "source_line": 354,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Что ж, увидимся снова в тот день, когда вы, сарказы, сможете спокойно жить на этой земле."
+    },
+    {
+      "ordinal": 156,
+      "source_line": 365,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Казнили группу предателей и шпионов. Шпионов королевских дворов. У них внутри клана и без того хватает неприятностей."
+    },
+    {
+      "ordinal": 157,
+      "source_line": 367,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Хорошая работа. Что с отрядом, вошедшим в зону боевых действий?"
+    },
+    {
+      "ordinal": 158,
+      "source_line": 369,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Разведчики выяснили: после нападения на позиции «Бабеля» они перекрыли основные пути выхода из гор."
+    },
+    {
+      "ordinal": 159,
+      "source_line": 371,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Генерал такого приказа не отдавал. Это чьи-то приближённые из королевских дворов?.. Нет, может, заговор одной из семей Сиракузы?"
+    },
+    {
+      "ordinal": 160,
+      "source_line": 373,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Вряд ли. По свидетельствам очевидцев, их колдовство не выдаёт характерных признаков какой-либо родословной, а переговоры почти не шифруются. Сборная солянка, а не войско."
+    },
+    {
+      "ordinal": 161,
+      "source_line": 374,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "…Позволю себе заметить, командир: этот отряд нам не подчиняется, но сейчас он запер «Бабель» в зоне Катастрофы."
+    },
+    {
+      "ordinal": 162,
+      "source_line": 375,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Разве для нас это не к лучшему?"
+    },
+    {
+      "ordinal": 163,
+      "source_line": 377,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "…А что думают остальные командиры и предводители наёмников?"
+    },
+    {
+      "ordinal": 164,
+      "source_line": 379,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Предпочитают наблюдать со стороны. Врагу остаётся либо сдаться, либо погибнуть от Катастрофы и рук головорезов."
+    },
+    {
+      "ordinal": 165,
+      "source_line": 380,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Командир, не забивайте себе голову."
+    },
+    {
+      "ordinal": 166,
+      "source_line": 381,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Вы приказали вывести войска из долины и оставили им путь к отступлению. Большего милосердия и не проявишь. Я вами восхищаюсь."
+    },
+    {
+      "ordinal": 167,
+      "source_line": 382,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Может, и кто-то из моей семьи оказался под той Катастрофой. А я не стал об этом мучиться."
+    },
+    {
+      "ordinal": 168,
+      "source_line": 384,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "…Тебе всё равно?"
+    },
+    {
+      "ordinal": 169,
+      "source_line": 386,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Стараюсь, чтобы было всё равно."
+    },
+    {
+      "ordinal": 170,
+      "source_line": 395,
+      "kind": "narration",
+      "text_ru": "Регион Каздель. Главный корабль «Родос-Айленд» организации «Бабель»."
+    },
+    {
+      "ordinal": 171,
+      "source_line": 400,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Я опоздал."
+    },
+    {
+      "ordinal": 172,
+      "source_line": 402,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "…Ну что?"
+    },
+    {
+      "ordinal": 173,
+      "source_line": 405,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "Не нужно пересказывать всё сначала. Эйса вызвали в последний момент. Пусть действует по указаниям Мантры."
+    },
+    {
+      "ordinal": 174,
+      "source_line": 406,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "Продолжайте. Время не ждёт."
+    },
+    {
+      "ordinal": 175,
+      "source_line": 408,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Случилось что-то срочное?"
+    },
+    {
+      "ordinal": 176,
+      "source_line": 410,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "(Кивает.)"
+    },
+    {
+      "ordinal": 177,
+      "source_line": 412,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Тогда продолжу."
+    },
+    {
+      "ordinal": 178,
+      "source_line": 413,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "В зоне действия Катастрофы находятся более двух с половиной тысяч человек из «Бабеля». В основном медики, заражённые мирные жители, пленные и раненые наёмники."
+    },
+    {
+      "ordinal": 179,
+      "source_line": 414,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Масштаб Катастрофы оказался больше, чем предсказывали вестники Катастроф. По нынешним оценкам она затронет пять сторожевых постов, три стратегические дороги и временный медицинский пункт, устроенный в заброшенном городе."
+    },
+    {
+      "ordinal": 180,
+      "source_line": 415,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Они почти достигли границы зоны Катастрофы, но наёмники отрезали путь к отступлению."
+    },
+    {
+      "ordinal": 181,
+      "source_line": 417,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Оставить медиков, раненых и мирных жителей в зоне Катастрофы на верную смерть?"
+    },
+    {
+      "ordinal": 182,
+      "source_line": 418,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Неужели Манфред дошёл до такого безумия?"
+    },
+    {
+      "ordinal": 183,
+      "source_line": 420,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Это на него не похоже. Три небольших отряда Военной комиссии уже покинули лес. Они даже намеренно оставили одно ущелье открытым как гуманитарный коридор."
+    },
+    {
+      "ordinal": 184,
+      "source_line": 422,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "…На отвесных скалах стоят заклинатели Военной комиссии. Стоит им заметить вооружённый отряд, как они уничтожат его прямо в ущелье."
+    },
+    {
+      "ordinal": 185,
+      "source_line": 423,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "Во всяком случае, Военная комиссия не скрывает ни своих передвижений, ни намерений. Всё это мы предвидели."
+    },
+    {
+      "ordinal": 186,
+      "source_line": 424,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "Но эти наёмники возникли внезапно и напали на опорные пункты. Они взорвали важные дороги и мосты, а ещё загрязнили несколько горных источников воды взрывчаткой с оригиниумом. В их действиях не видно никакой цели."
+    },
+    {
+      "ordinal": 187,
+      "source_line": 426,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Кто их нанял?"
+    },
+    {
+      "ordinal": 188,
+      "source_line": 428,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Выясняем. Но судя по тем немногим сведениям, что у нас есть, скорее всего, они… действуют без нанимателя."
+    },
+    {
+      "ordinal": 189,
+      "source_line": 429,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Может, ими движет слепая месть. Может, это отчаянная попытка выжить после того, как Терезис их бросил. Или их подстрекает другая страна. Возможно всё."
+    },
+    {
+      "ordinal": 190,
+      "source_line": 435,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Неважно. Я найду их главаря, допрошу и убью."
+    },
+    {
+      "ordinal": 191,
+      "source_line": 436,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Без главаря наёмники, у которых нет цели, превратятся в неорганизованную толпу."
+    },
+    {
+      "ordinal": 192,
+      "source_line": 437,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "А вы спасайте людей. Встретимся на опорном пункте."
+    },
+    {
+      "ordinal": 193,
+      "source_line": 439,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Тогда оставляю их тебе."
+    },
+    {
+      "ordinal": 194,
+      "source_line": 440,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "И ещё передам слова Её Высочества: эта операция не является частью «кампании»."
+    },
+    {
+      "ordinal": 195,
+      "source_line": 442,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "Нам даже стоит вздохнуть с облегчением."
+    },
+    {
+      "ordinal": 196,
+      "source_line": 443,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "На поле боя, где противостояние всё больше заходит в тупик, у враждующих сторон вновь появилась возможность действовать сообща ради одной цели…"
+    },
+    {
+      "ordinal": 197,
+      "source_line": 445,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "Спасти жизни людей из-под удара Катастрофы."
+    }
+  ]
+}
