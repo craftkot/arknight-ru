@@ -1,0 +1,61 @@
+{
+  "version": "v1.70",
+  "scope": "Main story chapter 6 status reconciliation against current main; no new main-story text translated in this run.",
+  "completed_story_files": 111,
+  "completed_story_named_ru": 7569,
+  "completed_story_unnamed_ru": 101,
+  "completed_story_text_entries": 7670,
+  "selection_files": 111,
+  "selection_dialogue_entries_counted": 7669,
+  "selection_vs_historical_manifest_delta": 1,
+  "partial_scene_files": 3,
+  "partial_scene_named_ru": 317,
+  "partial_scene_unnamed_ru": 5,
+  "partial_scene_text_entries": 322,
+  "all_story_text_entries_including_partial": 7992,
+  "chapter_6_complete_files": 14,
+  "chapter_6_complete_named_ru": 1366,
+  "chapter_6_complete_unnamed_ru": 59,
+  "chapter_6_partial_files": 3,
+  "chapter_6_partial_named_ru": 317,
+  "chapter_6_partial_unnamed_ru": 5,
+  "chapter_6_partial_text_entries": 322,
+  "chapter_6_complete_text_entries": 1425,
+  "chapter_6_text_entries_including_partial": 1747,
+  "partial_scenes": [
+    {
+      "source_file": "obt/main/level_main_06-08_beg.txt",
+      "status": "named_only_partial",
+      "named_ru": 117,
+      "unnamed_ru": 0,
+      "included_in_selection": false
+    },
+    {
+      "source_file": "obt/main/level_main_06-09_end.txt",
+      "status": "named_only_partial",
+      "named_ru": 120,
+      "unnamed_ru": 0,
+      "included_in_selection": false
+    },
+    {
+      "source_file": "obt/main/level_main_06-10_beg.txt",
+      "status": "partial_first_draft",
+      "named_ru": 80,
+      "unnamed_ru": 5,
+      "total_ru": 85,
+      "source_total_text_positions": 104,
+      "included_in_selection": false,
+      "source_sha_cn": "8a5d4c711491343324dc29b668e30d972724bba5",
+      "source_sha_en": "448f0d022a8c992d15badbf3e2c2e85a5d70c83e"
+    }
+  ],
+  "stale_open_pr": {
+    "number": 149,
+    "title": "Arknights RU v1.70: finish 6-10 before battle first draft",
+    "status": "open; not merged; branch 183 commits behind main; no workflow run found",
+    "note": "The 104-position draft is not counted as main content until refreshed, CI-checked and merged."
+  },
+  "editorial_review": false,
+  "in_game_test": false,
+  "note": "Inherited historical-vs-selection discrepancy of one entry retained; no silent reconciliation."
+}
