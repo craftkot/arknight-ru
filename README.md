@@ -17,7 +17,7 @@
 
 ## Babel BB-6 до боя — v2.96 (частичный первый черновик)
 
-`events/babel_bb6_before_partial_ru_v296.json`: **144/258** текстовых позиций. В этом обновлении добавлены 30 позиций №115–144 (CN строки 332–448): 24 именные, 2 продолжения `multiline`, 4 повествовательные; предыдущие 114 сохранены. Следующая позиция №145, CN строка 469. CN Git blob `0fa57f8b2c4647c06bce0ba73008798d340a781c`, EN Git blob `47a63283cb5d1c42e205f6bcebbf1e9cc134ac03`; все 258 текстовых позиций и 512 типов команд выровнены. В строке 445 CN «戴尔».家, EN `'...del. Home.'`; перевод следует CN: «Дейл». Дом. CN-параметры `isCopy=true` в строках 372/374 сохранены в аудите. QA `reports/QA_BABEL_v296.json`, аудит `reports/BABEL_BB6_BEFORE_SOURCE_AUDIT_v296.json`, индекс `events/BABEL_INDEX_v296.tsv`, хронология `chronology/CHRONOLOGY_MANIFEST_v296.json`. Это частичный черновик, не вычитанный и не проверенный в Yostar Global PC.
+`events/babel_bb6_before_partial_ru_v296.json`: **144/258** текстовых позиций. В этом обновлении добавлены 30 позиций №115–144 (CN строки 332–448): 24 именные, 2 продолжения `multiline`, 4 повествовательные; предыдущие 114 сохранены. Следующая позиция №145, CN строка 469. CN Git blob `0fa57f8b2c4647c06bce0ba73008798d340a781c`, EN Git blob `47a63283cb5d1c42e205f6bcebbf1e9cc134ac03`; все 258 текстовых позиций и 512 типов команд выровнены. В строке 445 CN “戴尔”.家, EN `'...del. Home.'`; перевод следует CN: «Дейл». Дом. CN-параметры `isCopy=true` в строках 372/374 сохранены в аудите. QA `reports/QA_BABEL_v296.json`, аудит `reports/BABEL_BB6_BEFORE_SOURCE_AUDIT_v296.json`, индекс `events/BABEL_INDEX_v296.tsv`, хронология `chronology/CHRONOLOGY_MANIFEST_v296.json`. Это частичный черновик, не вычитанный и не проверенный в Yostar Global PC.
 
 ## Где искать
 
