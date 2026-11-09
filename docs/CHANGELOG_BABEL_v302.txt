@@ -1,0 +1,21 @@
+Arknights RU — Babel changelog v3.02
+Date: 2026-11-09
+
+Babel BB-6 after battle:
+- Added text positions 41–80 of 178 (CN/EN source lines 129–218).
+- 35 named dialogue entries, 2 narration entries, 3 subtitles.
+- Cumulative partial progress: 80/178; next position 81 at CN line 219.
+- CN source blob: 56a05581ddc4364646998f6169cce72797f6834d.
+- EN Yostar source blob: 0b839585231d08e1980894b6b1d98a9861c23759.
+- CN/EN: 178 text positions and 314 control-command positions/types align; EN has one extra terminal newline.
+- CN line 129 contains more nuance than EN; Russian follows the CN meaning.
+- Carried-forward position 40 corrected from «Рим-Биллион» to «Рим Биллитон» using the Russian Arknights Wiki; v3.01 remains unchanged.
+- Added provisional community-wiki terminology: Клоужер, Ручейный зверь, Вьючный зверь, Рим Биллитон, Каздель, Катастрофа.
+- No full source scripts or game files committed.
+- First draft only; no editorial review or Yostar Global PC in-game validation.
+
+References:
+- https://arknights.wiki.gg/ru/wiki/Closure
+- https://arknights.wiki.gg/ru/wiki/Beckbeast
+- https://arknights.wiki.gg/ru/wiki/Burdenbeast
+- https://arknights.wiki.gg/ru/wiki/Rim_Billiton
