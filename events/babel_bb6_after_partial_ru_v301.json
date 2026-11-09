@@ -1,0 +1,422 @@
+{
+  "version": "v3.01",
+  "event": "Babel",
+  "scene": "Babel BB-6 after battle",
+  "source_file": "activities/act33side/level_act33side_06_end.txt",
+  "status": "partial_first_draft",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "56a05581ddc4364646998f6169cce72797f6834d",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "0b839585231d08e1980894b6b1d98a9861c23759",
+    "version_difference": "CN 492 vs EN 493 physical lines; EN has one extra terminal newline. All 178 text positions and 314 control-command positions/types align. Selected 40 positions and their speaker tags align line-for-line; CN is the primary semantic source.",
+    "cn_line_count": 492,
+    "en_line_count": 493,
+    "cn_text_total": 178,
+    "en_text_total": 178,
+    "cn_named_total": 132,
+    "en_named_total": 132,
+    "cn_multiline_total": 0,
+    "en_multiline_total": 0,
+    "cn_narration_total": 23,
+    "en_narration_total": 23,
+    "cn_subtitle_total": 20,
+    "en_subtitle_total": 20,
+    "cn_sticker_total": 3,
+    "en_sticker_total": 3,
+    "cn_control_command_total": 314,
+    "en_control_command_total": 314,
+    "cn_decision_total": 0,
+    "en_decision_total": 0,
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_06_end.txt",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_06_end.txt"
+  },
+  "progress": {
+    "translated_text_positions": 40,
+    "total_source_text_positions": 178,
+    "remaining_text_positions": 138,
+    "complete": false,
+    "last_source_line": 128,
+    "next_source_line": 129,
+    "next_text_ordinal": 41,
+    "next_text_source_line": 129,
+    "translated_kind_counts": {
+      "named": 30,
+      "multiline": 0,
+      "narration": 9,
+      "subtitle": 1,
+      "sticker": 0
+    },
+    "remaining_kind_counts": {
+      "named": 102,
+      "multiline": 0,
+      "narration": 14,
+      "subtitle": 19,
+      "sticker": 3
+    }
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 11,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 12,
+      "kind": "narration",
+      "text_ru": "Кристалл Ориджиниума спокойно лежал на лабораторном столе, отливая под светом оранжево-жёлтым."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 13,
+      "kind": "narration",
+      "text_ru": "На вид он был чистым, прекрасным и безвредным."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Жрица… Что же мы натворили?.."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_cn": "暴行",
+      "text_ru": "К сожалению… это невозможно."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 35,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Доктор… Мне… больно…"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 44,
+      "kind": "named",
+      "speaker_cn": "垂死的感染者",
+      "text_ru": "Спаси…бо… вам…"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 56,
+      "kind": "narration",
+      "text_ru": "Человек за лабораторным столом поднял кристалл Ориджиниума и вонзил его себе в руку."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 61,
+      "kind": "narration",
+      "text_ru": "Худая рука была залита кровью, но, кроме новой кровавой раны, ничего не произошло."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 62,
+      "kind": "narration",
+      "text_ru": "Боль постепенно становилась отчётливее."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 63,
+      "kind": "narration",
+      "text_ru": "Но это была не боль от заражения Ориджиниумом."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 64,
+      "kind": "narration",
+      "text_ru": "Приборы тоже ясно показывали: никаких признаков слияния клеток с Ориджиниумом нет."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 66,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Ориджиниум меня не заражает."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Разве мы когда-нибудь думали, что эта боль будет такой?"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "А ты как бы оценил нынешнее положение этого мира?.."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "(На неизвестном языке) «Ориджиниум»."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "(На неизвестном языке) Единственный огонь, который мы передаём дальше…"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 81,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 82,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "(Ровное дыхание)"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 85,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Подействовало."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 87,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Препарат действует в несколько раз эффективнее прежних подавителей. Концентрация кристаллов Ориджиниума в крови Амии тоже заметно снизилась."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 89,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Но…"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Пока это лишь экспериментальный образец. Я ещё не нашёл способа наладить его массовое производство на Терре."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 93,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Доктор!"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 95,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Я знаю, что ты ставишь опыты на собственном теле… но выглядишь ты и правда неважно."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 97,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Всего лишь исследование крови."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 98,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Ориджиниум не может меня заразить. Ещё на этапе энергетического проекта для этого предусмотрели защитный механизм. Возможно, это свойство поможет смягчить симптомы орипатии."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 99,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "И ещё Терезия. Она не такая, как ты. «Сивилайт Этерна» — вовсе не могущественная магия. Опираясь на бесчисленные знания, передававшиеся из поколения в поколение, она создала самую фундаментальную форму Искусств Ориджиниума."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 100,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Возможно, с её помощью мы сможем разработать ещё более совершенное лекарство от орипатии, пригодное для массового производства…"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 102,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Сейчас меня гораздо больше беспокоит твоё состояние, Доктор."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 104,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Ничего страшного."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 105,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Раз Ориджиниум уже придал вам облик, почти неотличимый от нашего, значит, можно найти способ изготовить сыворотку, не прибегая к моему телу…"
+    },
+    {
+      "ordinal": 33,
+      "source_line": 106,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Какими бы сложными ни были нынешние проблемы, стоит «Бабелю» разработать эффективное лекарство от орипатии — и оно поможет поддержать наших сарказов… нет…"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 107,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Тогда «Бабель» поддержат бесчисленные люди по всей Терре."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 108,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "И тогда мы сможем—"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 116,
+      "kind": "subtitle",
+      "text_ru": "<color=#000000>Спокойно, счастливо и безмятежно ждать, пока Ориджиниум взрастит будущее, которому не будет конца.</color>"
+    },
+    {
+      "ordinal": 37,
+      "source_line": 123,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Нет, послушай меня."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 125,
+      "kind": "narration",
+      "text_ru": "Кальцит резко схватила Доктора за запястье."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 126,
+      "kind": "narration",
+      "text_ru": "Она невольно заметила, насколько тоньше стало запястье Доктора."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 128,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "С тех пор как ты побывал в Рим-Биллионе и до самой гражданской войны сарказов ты ни на миг не позволял себе расслабиться."
+    }
+  ],
+  "source_alignment": {
+    "cn_en_text_positions_match": true,
+    "cn_en_text_type_sequence_match": true,
+    "cn_en_text_position_count": 178,
+    "cn_en_control_command_positions_match": true,
+    "cn_en_control_command_type_sequence_match": true,
+    "cn_control_command_count": 314,
+    "en_control_command_count": 314,
+    "cn_en_control_command_tag_sequence_match": true,
+    "cn_en_decision_positions_and_values_match": true,
+    "decision_count": 0,
+    "en_extra_terminal_newline": true,
+    "segment_source_lines": [
+      11,
+      12,
+      13,
+      16,
+      26,
+      35,
+      44,
+      56,
+      61,
+      62,
+      63,
+      64,
+      66,
+      67,
+      68,
+      72,
+      73,
+      81,
+      82,
+      85,
+      87,
+      89,
+      91,
+      93,
+      95,
+      97,
+      98,
+      99,
+      100,
+      102,
+      104,
+      105,
+      106,
+      107,
+      108,
+      116,
+      123,
+      125,
+      126,
+      128
+    ],
+    "segment_ordinals": [
+      1,
+      40
+    ],
+    "segment_new_text_positions": 40,
+    "segment_new_named": 30,
+    "segment_new_multiline": 0,
+    "segment_new_narration": 9,
+    "segment_new_subtitle": 1,
+    "segment_new_sticker": 0,
+    "segment_cn_en_line_alignment": true,
+    "segment_cn_en_text_type_alignment": true,
+    "segment_cn_en_speaker_tags_align": true,
+    "segment_cn_en_subtitle_markup_alignment": true,
+    "command_and_tag_content_in_source_not_modified": true,
+    "game_behavior_verified": false,
+    "scene_complete": false,
+    "next_ordinal": 41,
+    "next_text_source_line": 129,
+    "speaker_tag_mapping": {
+      "博士": "Doctor",
+      "暴行": "Savage",
+      "阿米娅": "Amiya",
+      "垂死的感染者": "Dying Infected",
+      "凯尔希": "Kal'tsit"
+    }
+  },
+  "translation_notes": [
+    "CN is the primary source for meaning; the EN Yostar mirror is used to cross-check names, text-position order and structure.",
+    "The source contains 178 text positions, not 175: 132 named lines, 23 narration lines, 20 Subtitle(text) entries and 3 Sticker(text) entries. Sticker duration/block commands without text are control commands, not text positions.",
+    "The first 40 text positions (CN/EN lines 11–128) align line-for-line and by type; all five speaker tags map to the EN speaker names.",
+    "Project terminology was followed: Ориджиниум, орипатия, подавители and Сивилайт Этерна. Priestess is rendered «Жрица», matching the Russian community wiki; retain as provisional until editorial terminology review.",
+    "No source commands, speaker tags, timing parameters, branches or formatting are copied into the translation overlay or modified. The original subtitle color markup is preserved.",
+    "The scene remains partial: next text position 41 is at source line 129. No literary review or Yostar Global PC in-game validation has been performed.",
+    "No full CN/EN scenario text or game files are included in the repository."
+  ]
+}
