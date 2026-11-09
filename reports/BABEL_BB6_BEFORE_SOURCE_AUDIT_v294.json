@@ -1,0 +1,78 @@
+{
+  "version": "v2.94",
+  "scene": "Babel BB-6 before battle",
+  "source_file": "activities/act33side/level_act33side_06_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "path": "zh_CN/gamedata/story/activities/act33side/level_act33side_06_beg.txt",
+      "ref": "master",
+      "git_blob_sha1": "0fa57f8b2c4647c06bce0ba73008798d340a781c",
+      "line_count": 770
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "path": "en_US/gamedata/story/activities/act33side/level_act33side_06_beg.txt",
+      "ref": "main",
+      "git_blob_sha1": "47a63283cb5d1c42e205f6bcebbf1e9cc134ac03",
+      "line_count": 771
+    }
+  },
+  "full_scene_counts": {
+    "text_positions": 258,
+    "named": 209,
+    "multiline": 11,
+    "narration": 36,
+    "subtitle": 2,
+    "sticker": 0,
+    "control_commands": 512,
+    "decisions": 0
+  },
+  "alignment": {
+    "cn_en_text_positions_match": true,
+    "cn_en_text_type_sequence_match": true,
+    "cn_en_control_command_positions_match": true,
+    "cn_en_control_command_type_sequence_match": true,
+    "cn_en_exact_control_command_text_match": false,
+    "cn_only_command_parameter_differences": [
+      {
+        "source_line": 372,
+        "command_type": "charslot",
+        "difference": "CN includes isCopy=true; EN omits it"
+      },
+      {
+        "source_line": 374,
+        "command_type": "charslot",
+        "difference": "CN includes isCopy=true; EN omits it"
+      }
+    ],
+    "en_extra_terminal_newline": true,
+    "semantic_command_execution_verified": false
+  },
+  "translated_segment": {
+    "previous_positions": 57,
+    "previous_57_preserved": true,
+    "new_ordinals": [
+      58,
+      87
+    ],
+    "new_source_lines": [
+      166,
+      253
+    ],
+    "new_text_positions": 30,
+    "new_named": 24,
+    "new_multiline": 2,
+    "new_narration": 4,
+    "next_ordinal": 88,
+    "next_text_source_line": 263,
+    "physical_next_source_line": 254
+  },
+  "notes": [
+    "CN is the primary source; EN is used for name and structural cross-check.",
+    "All 258 text positions align by source line and type across CN/EN.",
+    "The 512 control-command positions and types align; two CN-only isCopy=true attributes at lines 372 and 374 are recorded. Original scripts are not modified.",
+    "No decision branches occur in this scene.",
+    "Full CN/EN scripts are not included in the repository."
+  ]
+}
