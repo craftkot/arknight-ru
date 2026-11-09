@@ -1,0 +1,129 @@
+{
+  "version": "v2.98",
+  "scene": "Babel BB-6 before battle",
+  "source_file": "activities/act33side/level_act33side_06_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "path": "zh_CN/gamedata/story/activities/act33side/level_act33side_06_beg.txt",
+      "ref": "master",
+      "git_blob_sha1": "0fa57f8b2c4647c06bce0ba73008798d340a781c",
+      "line_count": 770
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "path": "en_US/gamedata/story/activities/act33side/level_act33side_06_beg.txt",
+      "ref": "main",
+      "git_blob_sha1": "47a63283cb5d1c42e205f6bcebbf1e9cc134ac03",
+      "line_count": 771
+    }
+  },
+  "full_scene_counts": {
+    "text_positions": 258,
+    "named": 209,
+    "multiline": 11,
+    "narration": 36,
+    "subtitle": 2,
+    "sticker": 0,
+    "control_commands": 512,
+    "decisions": 0
+  },
+  "alignment": {
+    "cn_en_text_positions_match": true,
+    "cn_en_text_type_sequence_match": true,
+    "cn_en_control_command_positions_match": true,
+    "cn_en_control_command_type_sequence_match": true,
+    "cn_en_exact_control_command_text_match": false,
+    "cn_only_command_parameter_differences": [
+      {
+        "source_line": 372,
+        "command_type": "charslot",
+        "difference": "CN includes isCopy=true; EN omits it"
+      },
+      {
+        "source_line": 374,
+        "command_type": "charslot",
+        "difference": "CN includes isCopy=true; EN omits it"
+      }
+    ],
+    "cn_en_content_differences": [
+      {
+        "source_line": 445,
+        "cn_rendering": "“戴尔”.家",
+        "en_rendering": "'...del. Home.'",
+        "ru_rendering": "«Дейл». Дом.",
+        "note": "Russian follows the Chinese primary source; the EN mirror has an ellipsis and a truncated lowercase fragment."
+      }
+    ],
+    "en_extra_terminal_newline": true,
+    "semantic_command_execution_verified": false,
+    "selected_segment_cn_en_line_alignment": true,
+    "selected_segment_text_positions": 23,
+    "selected_segment_speaker_tags_align": true
+  },
+  "translated_segment": {
+    "previous_positions": 175,
+    "previous_175_preserved": true,
+    "new_ordinals": [
+      176,
+      198
+    ],
+    "new_source_lines": [
+      556,
+      559,
+      561,
+      562,
+      565,
+      567,
+      569,
+      571,
+      573,
+      574,
+      576,
+      577,
+      579,
+      581,
+      583,
+      584,
+      586,
+      587,
+      589,
+      592,
+      593,
+      594,
+      598
+    ],
+    "new_text_positions": 23,
+    "new_named": 13,
+    "new_multiline": 0,
+    "new_narration": 10,
+    "new_subtitle": 0,
+    "new_sticker": 0,
+    "next_ordinal": 199,
+    "next_text_source_line": 601,
+    "physical_next_source_line": 599,
+    "command_and_tag_content_in_source_not_modified": true,
+    "game_behavior_verified": false,
+    "cn_en_selected_positions": 23,
+    "cn_en_selected_lines_match": true,
+    "cn_en_selected_speaker_tags_match": true,
+    "speaker_tag_mapping": {
+      "垂死的感染者": "Dying Infected",
+      "特蕾西娅": "Theresa"
+    }
+  },
+  "notes": [
+    "CN is the primary source; EN is used for name, terminology, and structural cross-check.",
+    "Full-scene CN/EN text positions (258) and control-command positions (512) and their type sequences align.",
+    "CN-only isCopy=true parameters at source lines 372 and 374 remain documented and unchanged.",
+    "The source-content difference at line 445 remains documented; the Russian draft follows CN.",
+    "In this segment, all 31 text positions align line-for-line in CN and EN. Julie (尤莉叶) is rendered «Джули» following the EN name.",
+    "抑制剂 / suppressants is provisionally translated as «подавители»; terminology remains open to later editorial review.",
+    "No original CN/EN scripts or source game files are included in the repository.",
+    "The new Russian entries are a partial first draft, not editorially reviewed and not verified in Yostar Global PC.",
+    "v2.98 adds 23 text positions (ordinals 176–198; CN/EN lines 556–598): 13 named and 10 narration entries.",
+    "Selected CN/EN positions align by line and type; localized speaker tags map Dying Infected and Theresa correctly.",
+    "魔王 is provisionally rendered «Король Бабеля», following EN King of Babel; requires editorial review.",
+    "Next text position is ordinal 199 at CN line 601. The scene remains partial and has not been tested in Yostar Global PC."
+  ]
+}
