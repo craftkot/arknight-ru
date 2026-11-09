@@ -12,7 +12,7 @@ act33side	level_act33side_04_end.txt	first_draft_complete	197	0	17	2	0	216	941fe
 act33side	level_act33side_05_beg.txt	first_draft_complete	220	0	33	0	8	261	55db783c28213b76c58a4348d5cf07c3105f5ba2	2a3c94ddbee30c8ea0d2f42088249bd64b468b91
 act33side	level_act33side_05_end.txt	first_draft_complete	183	0	12	0	2	197	d4e5838642cc3fbbdde33845e7c9f5589ff7ed9f	79f13f0c6c5ef210541d16146b799f06a89fb688
 act33side	level_act33side_06_beg.txt	first_draft_complete	209	11	36	0	2	258	0fa57f8b2c4647c06bce0ba73008798d340a781c	47a63283cb5d1c42e205f6bcebbf1e9cc134ac03
-act33side	level_act33side_06_end.txt	not_started	0	0	0	0	0	0		
+act33side	level_act33side_06_end.txt	partial_first_draft	30	0	9	0	1	40	56a05581ddc4364646998f6169cce72797f6834d	0b839585231d08e1980894b6b1d98a9861c23759
 act33side	level_act33side_07_beg.txt	not_started	0	0	0	0	0	0		
 act33side	level_act33side_07_end.txt	not_started	0	0	0	0	0	0		
 act33side	level_act33side_08_beg.txt	not_started	0	0	0	0	0	0		
@@ -22,4 +22,3 @@ act33side	level_act33side_09_end.txt	not_started	0	0	0	0	0	0
 act33side	level_act33side_10_beg.txt	not_started	0	0	0	0	0	0		
 act33side	level_act33side_10_end.txt	not_started	0	0	0	0	0	0		
 act33side	level_act33side_st03.txt	not_started	0	0	0	0	0	0
-act33side	level_act33side_06_end.txt	partial_first_draft	30	0	9	0	1	40	56a05581ddc4364646998f6169cce72797f6834d	0b839585231d08e1980894b6b1d98a9861c23759
