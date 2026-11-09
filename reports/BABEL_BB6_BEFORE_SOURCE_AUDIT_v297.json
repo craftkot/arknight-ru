@@ -1,0 +1,126 @@
+{
+  "version": "v2.97",
+  "scene": "Babel BB-6 before battle",
+  "source_file": "activities/act33side/level_act33side_06_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "path": "zh_CN/gamedata/story/activities/act33side/level_act33side_06_beg.txt",
+      "ref": "master",
+      "git_blob_sha1": "0fa57f8b2c4647c06bce0ba73008798d340a781c",
+      "line_count": 770
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "path": "en_US/gamedata/story/activities/act33side/level_act33side_06_beg.txt",
+      "ref": "main",
+      "git_blob_sha1": "47a63283cb5d1c42e205f6bcebbf1e9cc134ac03",
+      "line_count": 771
+    }
+  },
+  "full_scene_counts": {
+    "text_positions": 258,
+    "named": 209,
+    "multiline": 11,
+    "narration": 36,
+    "subtitle": 2,
+    "sticker": 0,
+    "control_commands": 512,
+    "decisions": 0
+  },
+  "alignment": {
+    "cn_en_text_positions_match": true,
+    "cn_en_text_type_sequence_match": true,
+    "cn_en_control_command_positions_match": true,
+    "cn_en_control_command_type_sequence_match": true,
+    "cn_en_exact_control_command_text_match": false,
+    "cn_only_command_parameter_differences": [
+      {
+        "source_line": 372,
+        "command_type": "charslot",
+        "difference": "CN includes isCopy=true; EN omits it"
+      },
+      {
+        "source_line": 374,
+        "command_type": "charslot",
+        "difference": "CN includes isCopy=true; EN omits it"
+      }
+    ],
+    "cn_en_content_differences": [
+      {
+        "source_line": 445,
+        "cn_rendering": "“戴尔”.家",
+        "en_rendering": "'...del. Home.'",
+        "ru_rendering": "«Дейл». Дом.",
+        "note": "Russian follows the Chinese primary source; the EN mirror has an ellipsis and a truncated lowercase fragment."
+      }
+    ],
+    "en_extra_terminal_newline": true,
+    "semantic_command_execution_verified": false,
+    "selected_segment_cn_en_line_alignment": true,
+    "selected_segment_text_positions": 31,
+    "selected_segment_speaker_tags_align": true
+  },
+  "translated_segment": {
+    "previous_positions": 144,
+    "previous_144_preserved": true,
+    "new_ordinals": [
+      145,
+      175
+    ],
+    "new_source_lines": [
+      469,
+      470,
+      476,
+      477,
+      479,
+      481,
+      483,
+      485,
+      486,
+      491,
+      500,
+      507,
+      508,
+      510,
+      512,
+      514,
+      516,
+      518,
+      520,
+      522,
+      524,
+      526,
+      528,
+      529,
+      531,
+      540,
+      541,
+      543,
+      550,
+      551,
+      553
+    ],
+    "new_text_positions": 31,
+    "new_named": 31,
+    "new_multiline": 0,
+    "new_narration": 0,
+    "new_subtitle": 0,
+    "new_sticker": 0,
+    "next_ordinal": 176,
+    "next_text_source_line": 556,
+    "physical_next_source_line": 554,
+    "command_and_tag_content_in_source_not_modified": true,
+    "game_behavior_verified": false
+  },
+  "notes": [
+    "CN is the primary source; EN is used for name, terminology, and structural cross-check.",
+    "Full-scene CN/EN text positions (258) and control-command positions (512) and their type sequences align.",
+    "CN-only isCopy=true parameters at source lines 372 and 374 remain documented and unchanged.",
+    "The source-content difference at line 445 remains documented; the Russian draft follows CN.",
+    "In this segment, all 31 text positions align line-for-line in CN and EN. Julie (尤莉叶) is rendered «Джули» following the EN name.",
+    "抑制剂 / suppressants is provisionally translated as «подавители»; terminology remains open to later editorial review.",
+    "No original CN/EN scripts or source game files are included in the repository.",
+    "The new Russian entries are a partial first draft, not editorially reviewed and not verified in Yostar Global PC."
+  ]
+}
