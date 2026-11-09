@@ -40,8 +40,8 @@ class BabelBB6V296(unittest.TestCase):
             kinds[x["kind"]] = kinds.get(x["kind"], 0) + 1
             self.assertTrue(x["text_ru"].strip())
             self.assertFalse(any(0x4e00 <= ord(c) <= 0x9fff for c in x["text_ru"]))
-            self.assertNotIn("\\n", x["text_ru"])
-            self.assertNotIn("\\r", x["text_ru"])
+            self.assertNotIn("\n", x["text_ru"])
+            self.assertNotIn("\r", x["text_ru"])
         self.assertEqual(kinds, {"named":117,"multiline":11,"narration":16})
         self.assertEqual(new[21]["source_tag_attributes"], {"end": True})
 
@@ -64,7 +64,7 @@ class BabelBB6V296(unittest.TestCase):
         self.assertEqual(self.qa["new_total_ru_text_entries"], 30)
         self.assertEqual(self.qa["scene_ru_text_entries"], 144)
         self.assertTrue(self.qa["previous_114_entries_unchanged"])
-        self.assertIn("level_act33side_06_beg.txt\\tpartial_first_draft\\t117\\t11\\t16\\t0\\t0\\t144", self.index)
+        self.assertIn("level_act33side_06_beg.txt\tpartial_first_draft\t117\t11\t16\t0\t0\t144", self.index)
         self.assertEqual(self.manifest["partial_scene_next_text_ordinal"], 145)
         self.assertEqual(self.manifest["partial_scene_next_source_line"], 469)
         self.assertEqual(self.manifest["translation_integrity"]["babel_partial_ru_text_entries"], 144)
