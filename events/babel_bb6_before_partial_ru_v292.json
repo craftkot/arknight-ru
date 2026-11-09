@@ -1,0 +1,189 @@
+{
+  "version": "v2.92",
+  "event": "Babel",
+  "scene": "BB-6 before battle",
+  "source_file": "activities/act33side/level_act33side_06_beg.txt",
+  "status": "PARTIAL_FIRST_DRAFT; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "0fa57f8b2c4647c06bce0ba73008798d340a781c",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "47a63283cb5d1c42e205f6bcebbf1e9cc134ac03",
+    "version_difference": "CN 770 vs EN 771 physical lines; positions 1-89 structurally aligned, global difference not audited"
+  },
+  "progress": {
+    "translated_text_positions": 24,
+    "complete": false,
+    "last_source_line": 89,
+    "next_source_line": 101
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_cn": "萨卡兹平民",
+      "text_ru": "Впереди! Смотрите, что впереди!"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 17,
+      "kind": "named",
+      "speaker_cn": "萨卡兹平民",
+      "text_ru": "Мост… его взорвали? Как нам теперь перебраться?"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 18,
+      "kind": "named",
+      "speaker_cn": "萨卡兹平民",
+      "text_ru": "У нас… у нас есть другой путь? Мы столько шли, а облако Катастрофы всё ещё прямо над нами…"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_cn": "萨卡兹平民",
+      "text_ru": "С нами раненые и дети… Мы… мы больше не можем идти…"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Проклятье! В лесу и на лугах повсюду кристаллы оригиния. Они… они уже начинают светиться."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 30,
+      "kind": "multiline",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Эта взрывчатка, пришедшая в активное состояние, убьёт нас раньше, чем разразится Катастрофа…"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 31,
+      "kind": "multiline",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Кхе."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 32,
+      "kind": "multiline",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Нам нужно немедленно…"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 34,
+      "kind": "multiline",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Кхе-кхе…"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 36,
+      "kind": "multiline",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Кхе-кхе-кхе…"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 37,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "…Нет, нет, больше нельзя медлить. В воздухе сплошные частицы оригиния, *сарказское ругательство*."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Уже семь-восемь дней без поставок лекарств… Раненые в отряде… инфекция… Проклятье!"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Ч-что это за звук?"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 57,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Помощь от «Бабеля» ещё не пришла? Нет? Тогда пусть разведчики продолжают искать дорогу! Пока не найдут — пусть не возвращаются!"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Тьфу! Облако Катастрофы уже сформировалось. Какая *сарказское ругательство* часть напала на медицинский пункт?! Даже «Шрамоглазый» не настолько безумен!"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Все сзади, не отставайте! Мы уже не успеем выйти из зоны Катастрофы. Придётся найти несколько чистых пещер и укрыться! Ни следа оригиния внутри — ни малейшего!"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 60,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "…Проклятье! Даже раненых не пощадили. Терезис, ну и мразь же ты…"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_cn": "萨卡兹孩子",
+      "text_ru": "Мама… больно… нога болит…"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 74,
+      "kind": "named",
+      "speaker_cn": "萨卡兹平民",
+      "text_ru": "Не… не плачь, малыш. Потерпи ещё немного, и мы вернёмся домой…"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 76,
+      "kind": "multiline",
+      "speaker_cn": "萨卡兹孩子",
+      "text_ru": "Нет… нет…"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 77,
+      "kind": "multiline",
+      "speaker_cn": "萨卡兹孩子",
+      "text_ru": "А-а-а! Больно… больно…"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 87,
+      "kind": "narration",
+      "text_ru": "Детский плач."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 88,
+      "kind": "narration",
+      "text_ru": "Звуки заговора, смерти и отчаянной борьбы за жизнь."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 89,
+      "kind": "narration",
+      "text_ru": "Катастрофа безжалостна: она лишь поглощает ветер и снег, взращивая бурю."
+    }
+  ]
+}
