@@ -1,0 +1,1121 @@
+{
+  "version": "v2.96",
+  "event": "Babel",
+  "scene": "BB-6 before battle",
+  "source_file": "activities/act33side/level_act33side_06_beg.txt",
+  "status": "PARTIAL_FIRST_DRAFT; SOURCE_POSITION_AND_COMMAND_ALIGNMENT_VERIFIED; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "0fa57f8b2c4647c06bce0ba73008798d340a781c",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "47a63283cb5d1c42e205f6bcebbf1e9cc134ac03",
+    "version_difference": "CN 770 vs EN 771 physical lines; EN has one extra terminal newline. All 258 text positions and 512 control-command positions/types align. CN commands at lines 372 and 374 include isCopy=true, omitted in EN; CN is primary. At text position/source line 445, CN reads “戴尔”.家 while EN renders '...del. Home.'; Russian follows CN as «Дейл». Дом. No decision branches in this scene.",
+    "cn_line_count": 770,
+    "en_line_count": 771,
+    "cn_text_total": 258,
+    "en_text_total": 258,
+    "cn_named_total": 209,
+    "en_named_total": 209,
+    "cn_multiline_total": 11,
+    "en_multiline_total": 11,
+    "cn_narration_total": 36,
+    "en_narration_total": 36,
+    "cn_subtitle_total": 2,
+    "en_subtitle_total": 2,
+    "cn_sticker_total": 0,
+    "en_sticker_total": 0,
+    "cn_control_command_total": 512,
+    "en_control_command_total": 512,
+    "cn_decision_total": 0,
+    "en_decision_total": 0
+  },
+  "progress": {
+    "translated_text_positions": 144,
+    "total_source_text_positions": 258,
+    "remaining_text_positions": 114,
+    "complete": false,
+    "last_source_line": 448,
+    "next_source_line": 449,
+    "next_text_ordinal": 145,
+    "next_text_source_line": 469,
+    "translated_kind_counts": {
+      "named": 117,
+      "multiline": 11,
+      "narration": 16,
+      "subtitle": 0,
+      "sticker": 0
+    },
+    "remaining_kind_counts": {
+      "named": 92,
+      "multiline": 0,
+      "narration": 20,
+      "subtitle": 2,
+      "sticker": 0
+    }
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_cn": "萨卡兹平民",
+      "text_ru": "Впереди! Смотрите, что впереди!"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 17,
+      "kind": "named",
+      "speaker_cn": "萨卡兹平民",
+      "text_ru": "Мост… его взорвали? Как нам теперь перебраться?"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 18,
+      "kind": "named",
+      "speaker_cn": "萨卡兹平民",
+      "text_ru": "У нас… у нас есть другой путь? Мы столько шли, а облако Катастрофы всё ещё прямо над нами…"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_cn": "萨卡兹平民",
+      "text_ru": "С нами раненые и дети… Мы… мы больше не можем идти…"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Проклятье! В лесу и на лугах повсюду кристаллы оригиния. Они… они уже начинают светиться."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 30,
+      "kind": "multiline",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Эта взрывчатка, пришедшая в активное состояние, убьёт нас раньше, чем разразится Катастрофа…"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 31,
+      "kind": "multiline",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Кхе."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 32,
+      "kind": "multiline",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Нам нужно немедленно…"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 34,
+      "kind": "multiline",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Кхе-кхе…"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 36,
+      "kind": "multiline",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Кхе-кхе-кхе…"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 37,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "…Нет, нет, больше нельзя медлить. В воздухе сплошные частицы оригиния, *сарказское ругательство*."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Уже семь-восемь дней без поставок лекарств… Раненые в отряде… инфекция… Проклятье!"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Ч-что это за звук?"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 57,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Помощь от «Бабеля» ещё не пришла? Нет? Тогда пусть разведчики продолжают искать дорогу! Пока не найдут — пусть не возвращаются!"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Тьфу! Облако Катастрофы уже сформировалось. Какая *сарказское ругательство* часть напала на медицинский пункт?! Даже «Шрамоглазый» не настолько безумен!"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Все сзади, не отставайте! Мы уже не успеем выйти из зоны Катастрофы. Придётся найти несколько чистых пещер и укрыться! Ни следа оригиния внутри — ни малейшего!"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 60,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "…Проклятье! Даже раненых не пощадили. Терезис, ну и мразь же ты…"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_cn": "萨卡兹孩子",
+      "text_ru": "Мама… больно… нога болит…"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 74,
+      "kind": "named",
+      "speaker_cn": "萨卡兹平民",
+      "text_ru": "Не… не плачь, малыш. Потерпи ещё немного, и мы вернёмся домой…"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 76,
+      "kind": "multiline",
+      "speaker_cn": "萨卡兹孩子",
+      "text_ru": "Нет… нет…"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 77,
+      "kind": "multiline",
+      "speaker_cn": "萨卡兹孩子",
+      "text_ru": "А-а-а! Больно… больно…"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 87,
+      "kind": "narration",
+      "text_ru": "Детский плач."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 88,
+      "kind": "narration",
+      "text_ru": "Звуки заговора, смерти и отчаянной борьбы за жизнь."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 89,
+      "kind": "narration",
+      "text_ru": "Катастрофа безжалостна: она лишь поглощает ветер и снег, взращивая бурю."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 101,
+      "kind": "narration",
+      "text_ru": "На далёком утёсе виднеются несколько человеческих фигур."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 102,
+      "kind": "narration",
+      "text_ru": "Среди сурового ветра и снега женщина у края обрыва молча смотрит вдаль."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 103,
+      "kind": "narration",
+      "text_ru": "Безжалостная Катастрофа, вражеские солдаты на ключевых путях, разбегающиеся звери, раненые и мирные жители, которым некуда бежать."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 104,
+      "kind": "narration",
+      "text_ru": "Жизни отзываются эхом в пустой долине и достигают слуха Мантры. Это…"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 105,
+      "kind": "narration",
+      "text_ru": "…детский плач."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 108,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "…Я слышу."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 109,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "Плачут дети."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 114,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Начинается снегопад. Дела плохи."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 116,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "Две тысячи триста тринадцать человек."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 117,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "Все подтверждены."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 119,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "…Местоположение и показатели жизнедеятельности — всё внесено."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 124,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Потерь меньше, чем мы ожидали, но нужно спешить."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 125,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Мантра, видеть твои Искусства вблизи — по-прежнему поразительное зрелище."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 127,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "(Скромно кивает в ответ.)"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 129,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Та джалль из отдела кадров так и не подобрала тебе нескольких толковых связистов?"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 131,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "(Слегка прикрывает глаза.)"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 133,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Жаль."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 134,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "…Данные отправлены всем оперативным группам."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 136,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "На северо-востоке. Семь километров. Пещера."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 137,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "Дети там."
+    },
+    {
+      "ordinal": 45,
+      "source_line": 139,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Но разведывательные беспилотники Военной комиссии уже обнаружили нас."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 140,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Я останусь. А ты иди."
+    },
+    {
+      "ordinal": 47,
+      "source_line": 142,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "(Хмурится.)"
+    },
+    {
+      "ordinal": 48,
+      "source_line": 144,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "На такой местности они не рискнут вступить в открытый бой с моим отрядом."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 145,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Не волнуйся. Просто поздороваюсь. Если ими командует Манфред, попробую взять его живым."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 147,
+      "kind": "named",
+      "speaker_cn": "Mantra",
+      "text_ru": "Не рискуй зря…"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 153,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Коллеги, это я."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 154,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Простите, что задержался. Операция в строительном районе CA завершена."
+    },
+    {
+      "ordinal": 53,
+      "source_line": 155,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Продолжайте действовать по первоначальному плану Мантры. Я помогу с другого направления. Главное — спасти раненых и мирных жителей."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 158,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Вовремя появляешься, Доктор."
+    },
+    {
+      "ordinal": 55,
+      "source_line": 160,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Спасибо. Мизери отвлекает внимание Военной комиссии, но ему понадобятся помощники."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 162,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Тогда как раз кстати?"
+    },
+    {
+      "ordinal": 57,
+      "source_line": 164,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Именно так, Эйс."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 166,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Жду приказа."
+    },
+    {
+      "ordinal": 59,
+      "source_line": 168,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "И ещё…"
+    },
+    {
+      "ordinal": 60,
+      "source_line": 169,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Терезия направится прямо в пострадавший медицинский пункт в центре, чтобы не допустить новых потерь."
+    },
+    {
+      "ordinal": 61,
+      "source_line": 170,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Если с отрядами всё будет в порядке… встретимся там."
+    },
+    {
+      "ordinal": 62,
+      "source_line": 191,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Взрыв! Это взрыв!"
+    },
+    {
+      "ordinal": 63,
+      "source_line": 192,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Не паникуйте! Отойдите от светящейся земли! Назад! Подземный оригиний активируется—"
+    },
+    {
+      "ordinal": 64,
+      "source_line": 193,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "*сарказское ругательство* Не успеваем—"
+    },
+    {
+      "ordinal": 65,
+      "source_line": 196,
+      "kind": "narration",
+      "text_ru": "Под промёрзшей землёй пробуждается огненное зарево, а в метели вспыхивают искры Катастрофы."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 197,
+      "kind": "narration",
+      "text_ru": "Каждый вдох даётся с невыносимой тяжестью, словно абстрактное понятие «Терра» давит на каждую отдельную жизнь."
+    },
+    {
+      "ordinal": 67,
+      "source_line": 217,
+      "kind": "narration",
+      "text_ru": "И это давление в одно мгновение исчезает без следа."
+    },
+    {
+      "ordinal": 68,
+      "source_line": 218,
+      "kind": "narration",
+      "text_ru": "Но увиденное заставляет невольно глубоко вдохнуть."
+    },
+    {
+      "ordinal": 69,
+      "source_line": 221,
+      "kind": "multiline",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Ха-а—"
+    },
+    {
+      "ordinal": 70,
+      "source_line": 222,
+      "kind": "multiline",
+      "speaker_cn": "巴别塔成员",
+      "source_tag_attributes": {
+        "end": true
+      },
+      "text_ru": "Взрывы… почему они прекратились?"
+    },
+    {
+      "ordinal": 71,
+      "source_line": 223,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Снежинки… Они что, застыли прямо в воздухе?"
+    },
+    {
+      "ordinal": 72,
+      "source_line": 230,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "Сейчас снежные кристаллы почти неотличимы от кристаллов оригиния. Если быть достаточно внимательным, ими можно управлять."
+    },
+    {
+      "ordinal": 73,
+      "source_line": 232,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "В-вы…"
+    },
+    {
+      "ordinal": 74,
+      "source_line": 234,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "Точно управлять каждой снежинкой по отдельности крайне сложно. Но в среде с высокой концентрацией оригиния остановить целую метель, напротив, не должно быть трудно."
+    },
+    {
+      "ordinal": 75,
+      "source_line": 235,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "Эйдан, ты совсем не слушал на занятиях."
+    },
+    {
+      "ordinal": 76,
+      "source_line": 237,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Учи… учитель! Вы пришли! Вы…"
+    },
+    {
+      "ordinal": 77,
+      "source_line": 239,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "Я продержусь десять минут."
+    },
+    {
+      "ordinal": 78,
+      "source_line": 240,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "Отступайте к лугам внизу долины и идите на юг. Скаут укажет вам путь."
+    },
+    {
+      "ordinal": 79,
+      "source_line": 241,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "И ещё: чему я тебя учила? При передвижении в среде с высокой концентрацией оригиния есть множество способов экстренной защиты. А ты не сделал ничего."
+    },
+    {
+      "ordinal": 80,
+      "source_line": 243,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Я—"
+    },
+    {
+      "ordinal": 81,
+      "source_line": 245,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "Постой… в твоём отряде даже есть люди с острой орипатией! Это никуда не годится!"
+    },
+    {
+      "ordinal": 82,
+      "source_line": 246,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "Лови шприц! Я дам вам ещё десять минут на отдых на месте. Я что-нибудь придумаю!"
+    },
+    {
+      "ordinal": 83,
+      "source_line": 248,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Учитель, но вы—"
+    },
+    {
+      "ordinal": 84,
+      "source_line": 250,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "Шевелитесь, пока Катастрофа не сформировалась окончательно! Пока я ещё могу удерживать её за горло, здесь, по крайней мере, безопасно!"
+    },
+    {
+      "ordinal": 85,
+      "source_line": 251,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "—И ещё."
+    },
+    {
+      "ordinal": 86,
+      "source_line": 252,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "Я сейчас одновременно использую несколько видов Искусств. К каким школам относится каждое из них — до конца недели хочу увидеть доклады на моём столе. От всех вас."
+    },
+    {
+      "ordinal": 87,
+      "source_line": 253,
+      "kind": "named",
+      "speaker_cn": "Pith",
+      "text_ru": "…Так что возвращайтесь живыми, ясно?!"
+    },
+    {
+      "ordinal": 88,
+      "source_line": 263,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵A",
+      "text_ru": "…Это я. Манфред до сих пор не отдал чётких приказов?"
+    },
+    {
+      "ordinal": 89,
+      "source_line": 264,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵A",
+      "text_ru": "Что он вообще творит, а?"
+    },
+    {
+      "ordinal": 90,
+      "source_line": 265,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵A",
+      "text_ru": "Невозможно! Кто-то из высокопоставленных членов Королевского двора? Среди беженцев и войск «Бабеля»? Эй, проверьте!"
+    },
+    {
+      "ordinal": 91,
+      "source_line": 267,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵B",
+      "text_ru": "Что тут проверять? Чушь какая-то. Наверняка Манфред просто придумал предлог."
+    },
+    {
+      "ordinal": 92,
+      "source_line": 268,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵B",
+      "text_ru": "Даже если такой человек там есть, он уже считается пленником «Бабеля», верно? Спасать пленных из-под Катастрофы мы не договаривались."
+    },
+    {
+      "ordinal": 93,
+      "source_line": 270,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵A",
+      "text_ru": "И всё равно придётся выполнять приказ. Проклятье… Эй, пусть отряд «Шипы» проверит наши блокпосты…"
+    },
+    {
+      "ordinal": 94,
+      "source_line": 272,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵B",
+      "text_ru": "Ладно, ладно… Алло? Говорит восемьдесят шестой, говорит восемьдесят шестой…"
+    },
+    {
+      "ordinal": 95,
+      "source_line": 277,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵B",
+      "text_ru": "Не отвечают? Куда все делись? Смена караула ещё не наступила."
+    },
+    {
+      "ordinal": 96,
+      "source_line": 278,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵B",
+      "text_ru": "…Погодите."
+    },
+    {
+      "ordinal": 97,
+      "source_line": 279,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵B",
+      "text_ru": "Вам не кажется, что стало слишком тихо?"
+    },
+    {
+      "ordinal": 98,
+      "source_line": 280,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵B",
+      "text_ru": "Ещё недавно кричали пернатые звери…"
+    },
+    {
+      "ordinal": 99,
+      "source_line": 282,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵A",
+      "text_ru": "Наверное, все звери попрятались от Катастрофы."
+    },
+    {
+      "ordinal": 100,
+      "source_line": 283,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵A",
+      "text_ru": "По прогнозу, через пять часов Катастрофа полностью накроет это место. Как они смеют отлынивать сейчас?"
+    },
+    {
+      "ordinal": 101,
+      "source_line": 284,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵A",
+      "text_ru": "Где расписание? Дай сюда."
+    },
+    {
+      "ordinal": 102,
+      "source_line": 285,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵A",
+      "text_ru": "Я сказал, дай сюда—"
+    },
+    {
+      "ordinal": 103,
+      "source_line": 288,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵A",
+      "text_ru": "Эй, эй… Где… где все?"
+    },
+    {
+      "ordinal": 104,
+      "source_line": 290,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵A",
+      "text_ru": "Эй! Говорит восемьдесят шестой отряд! Кто-нибудь слышит? Есть кто живой? Что происходит? Кто-ни—"
+    },
+    {
+      "ordinal": 105,
+      "source_line": 292,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Есть."
+    },
+    {
+      "ordinal": 106,
+      "source_line": 295,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "—"
+    },
+    {
+      "ordinal": 107,
+      "source_line": 303,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Фух."
+    },
+    {
+      "ordinal": 108,
+      "source_line": 307,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Три отряда пока что замолчали. Тревогу не подняли, путь безопасен."
+    },
+    {
+      "ordinal": 109,
+      "source_line": 308,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Бойцы, двигайтесь по следующим координатам. Медики, выводите раненых по оставленным мной меткам."
+    },
+    {
+      "ordinal": 110,
+      "source_line": 309,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "…Мне нужно ещё кое-что проверить."
+    },
+    {
+      "ordinal": 111,
+      "source_line": 314,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 112,
+      "source_line": 315,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Это действительно частота Военной комиссии. Но они разведчики, а не бесхозные наёмники, напавшие на наши позиции."
+    },
+    {
+      "ordinal": 113,
+      "source_line": 316,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "В задании у них значится «Красная клубника». Они лишь проверяли пути отхода мирных жителей… Ха, Манфред даже солгал им, будто здесь находится «важная особа из Королевского двора»."
+    },
+    {
+      "ordinal": 114,
+      "source_line": 317,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Хм. Похоже, остальное придётся поручить Аскалон."
+    },
+    {
+      "ordinal": 115,
+      "source_line": 332,
+      "kind": "named",
+      "speaker_cn": "神秘的雇佣兵",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 116,
+      "source_line": 333,
+      "kind": "named",
+      "speaker_cn": "神秘的雇佣兵",
+      "text_ru": "«Бабель»."
+    },
+    {
+      "ordinal": 117,
+      "source_line": 334,
+      "kind": "named",
+      "speaker_cn": "神秘的雇佣兵",
+      "text_ru": "Ты — моя смерть?"
+    },
+    {
+      "ordinal": 118,
+      "source_line": 338,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "…Это ты руководил нападением на базу «Бабеля». Кто отдал тебе приказ?"
+    },
+    {
+      "ordinal": 119,
+      "source_line": 339,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Там были только врачи и заражённые мирные жители—"
+    },
+    {
+      "ordinal": 120,
+      "source_line": 363,
+      "kind": "narration",
+      "text_ru": "Не успела она договорить, как клинок уже настиг её."
+    },
+    {
+      "ordinal": 121,
+      "source_line": 364,
+      "kind": "narration",
+      "text_ru": "Аскалон почувствовала что-то неладное."
+    },
+    {
+      "ordinal": 122,
+      "source_line": 365,
+      "kind": "narration",
+      "text_ru": "Но она быстро собралась. Да, насилие. Умением разговорить собеседника она похвастаться не могла."
+    },
+    {
+      "ordinal": 123,
+      "source_line": 367,
+      "kind": "narration",
+      "text_ru": "Клинок, спрятанный в рукаве, уже обнажён."
+    },
+    {
+      "ordinal": 124,
+      "source_line": 387,
+      "kind": "named",
+      "speaker_cn": "神秘的雇佣兵",
+      "text_ru": "Кх…"
+    },
+    {
+      "ordinal": 125,
+      "source_line": 393,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Да кто ты такой—"
+    },
+    {
+      "ordinal": 126,
+      "source_line": 398,
+      "kind": "named",
+      "speaker_cn": "神秘的雇佣兵",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 127,
+      "source_line": 402,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "—!"
+    },
+    {
+      "ordinal": 128,
+      "source_line": 418,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Тц… Взрывчатка?.. Псих."
+    },
+    {
+      "ordinal": 129,
+      "source_line": 419,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Ты уже ничего не можешь сделать, так почему бы не…"
+    },
+    {
+      "ordinal": 130,
+      "source_line": 421,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 131,
+      "source_line": 426,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "…Это я. Только что закончила."
+    },
+    {
+      "ordinal": 132,
+      "source_line": 428,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Он сгорел дотла. Прости, живым его взять не удалось."
+    },
+    {
+      "ordinal": 133,
+      "source_line": 429,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Хм, что-то не так."
+    },
+    {
+      "ordinal": 134,
+      "source_line": 431,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Он сразу узнал во мне человека из «Бабеля» и, едва мы обменялись ударами, понял, что ему меня не одолеть. Поэтому он предпочёл подорвать себя."
+    },
+    {
+      "ordinal": 135,
+      "source_line": 432,
+      "kind": "multiline",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Слишком уж решительно. Либо передо мной закалённый в боях шпион, либо…"
+    },
+    {
+      "ordinal": 136,
+      "source_line": 434,
+      "kind": "multiline",
+      "speaker_cn": "阿斯卡纶",
+      "source_tag_attributes": {
+        "end": true
+      },
+      "text_ru": "Постой."
+    },
+    {
+      "ordinal": 137,
+      "source_line": 439,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Я нашла при нём сумку. Хм, она цела — похоже, я только что срезала её с него."
+    },
+    {
+      "ordinal": 138,
+      "source_line": 440,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Внутри… нарукавный знак «Бабеля» и медаль Военной комиссии."
+    },
+    {
+      "ordinal": 139,
+      "source_line": 441,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Для наёмника служить сразу двум сторонам — не редкость."
+    },
+    {
+      "ordinal": 140,
+      "source_line": 443,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "И ещё клочок бумаги. Возможно, часть личных записей."
+    },
+    {
+      "ordinal": 141,
+      "source_line": 444,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Ничего важного. Разобрать удалось только одно слово."
+    },
+    {
+      "ordinal": 142,
+      "source_line": 445,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "«Дейл». Дом."
+    },
+    {
+      "ordinal": 143,
+      "source_line": 447,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 144,
+      "source_line": 448,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Забудь. Это ничего не значит."
+    }
+  ],
+  "source_alignment": {
+    "cn_en_text_positions_match": true,
+    "cn_en_text_type_sequence_match": true,
+    "cn_en_text_position_count": 258,
+    "cn_en_control_command_positions_match": true,
+    "cn_en_control_command_type_sequence_match": true,
+    "cn_control_command_count": 512,
+    "en_control_command_count": 512,
+    "cn_en_exact_control_command_text_match": false,
+    "cn_en_exact_control_command_differences": [
+      {
+        "source_line": 372,
+        "command_type": "charslot",
+        "difference": "CN includes isCopy=true; EN omits it"
+      },
+      {
+        "source_line": 374,
+        "command_type": "charslot",
+        "difference": "CN includes isCopy=true; EN omits it"
+      }
+    ],
+    "cn_en_decision_positions_and_values_match": true,
+    "decision_count": 0,
+    "en_extra_terminal_newline": true,
+    "previous_57_entries_preserved": true,
+    "segment_source_lines": [
+      332,
+      448
+    ],
+    "segment_new_text_positions": 30,
+    "segment_new_named": 24,
+    "segment_new_multiline": 2,
+    "segment_new_narration": 4,
+    "command_and_tag_content_in_source_not_modified": true,
+    "game_behavior_verified": false,
+    "previous_87_entries_preserved": true,
+    "segment_new_subtitle": 0,
+    "segment_new_sticker": 0,
+    "previous_114_entries_preserved": true,
+    "next_ordinal": 145,
+    "next_text_source_line": 469,
+    "physical_next_source_line": 449,
+    "cn_en_content_differences": [
+      {
+        "source_line": 445,
+        "cn_rendering": "“戴尔”.家",
+        "en_rendering": "'...del. Home.'",
+        "ru_rendering": "«Дейл». Дом.",
+        "note": "CN is primary; English mirror includes an ellipsis and a truncated lowercase fragment."
+      }
+    ]
+  },
+  "translation_notes": [
+    "v2.94 adds text positions 58–87 (CN source lines 166–253).",
+    "Four narration lines and two multiline continuation lines remain separate entries; source line 222 retains the multiline end=true attribute.",
+    "CN is primary. Full-scene CN/EN text positions and control-command positions/types align; CN-only isCopy=true parameters at lines 372 and 374 are recorded in the source audit.",
+    "No decision branches occur in this scene. Original control commands are not copied into this overlay.",
+    "v2.95 adds 27 named positions (ordinals 88–114; CN lines 263–317), covering Sarkaz mercenaries and Scout. First draft, not editorially reviewed.",
+    "v2.96 adds text positions 115–144 (CN source lines 332–448): Ascalon's encounter with a mysterious mercenary, the attacker's self-detonation, and the pouch clue.",
+    "The two new multiline positions are preserved separately; ordinal 136 retains source_tag_attributes.end=true.",
+    "At CN line 445, CN reads “戴尔”.家 while EN renders '...del. Home.'; the Russian draft follows CN as «Дейл». Дом. This source-content difference is documented.",
+    "No source commands, tags, branches, or original game files are copied into the overlay."
+  ]
+}
