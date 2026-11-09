@@ -99,6 +99,8 @@ class BabelBB6AfterV303(unittest.TestCase):
         self.assertEqual(self.qa["babel_partial_files"], 1)
         self.assertEqual(self.qa["babel_not_started_files"], 9)
         self.assertEqual(self.qa["babel_ru_text_entries_including_partial"], 3140)
+        self.assertTrue(self.qa["previous_entries_preserved"])
+        self.assertEqual((self.qa["babel_partial_named_ru_lines"], self.qa["babel_partial_plain_ru_lines"], self.qa["babel_partial_sticker_ru_lines"], self.qa["babel_partial_subtitle_ru_lines"]), (93,14,2,11))
         self.assertEqual(self.manifest["next_file"], "activities/act33side/level_act33side_06_end.txt")
         self.assertEqual(self.manifest["partial_scene_next_text_ordinal"], 121)
         self.assertEqual(self.manifest["partial_scene_next_source_line"], 337)
