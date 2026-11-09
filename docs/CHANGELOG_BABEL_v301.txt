@@ -1,0 +1,14 @@
+Arknights RU — Babel changelog v3.01
+Date: 2026-11-09
+
+Babel BB-6 after battle:
+- Added the first continuous segment, text positions 1–40 of 178.
+- 30 named dialogue entries, 9 narration entries, 1 subtitle.
+- Next position: ordinal 41, CN/EN source line 129.
+- CN source blob: 56a05581ddc4364646998f6169cce72797f6834d.
+- EN Yostar source blob: 0b839585231d08e1980894b6b1d98a9861c23759.
+- CN/EN: 178 text positions and 314 control-command positions/types align; EN has one extra terminal newline.
+- Corrected the initial 175-position estimate: three visible Sticker(text) entries are text positions; duration/block-only Sticker entries are control commands.
+- Added provisional Russian rendering «Жрица» for Priestess to the terminology files, based on the Russian community Arknights wiki.
+- No full source scripts or game files committed.
+- First draft only; no editorial review or Yostar Global PC in-game validation.
