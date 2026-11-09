@@ -1,0 +1,160 @@
+{
+  "version": "v3.00",
+  "scene": "Babel BB-6 before battle",
+  "source_file": "activities/act33side/level_act33side_06_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "path": "zh_CN/gamedata/story/activities/act33side/level_act33side_06_beg.txt",
+      "ref": "master",
+      "git_blob_sha1": "0fa57f8b2c4647c06bce0ba73008798d340a781c",
+      "line_count": 770,
+      "url": "https://github.com/Kengxxiao/ArknightsGameData/blob/master/zh_CN/gamedata/story/activities/act33side/level_act33side_06_beg.txt"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "path": "en_US/gamedata/story/activities/act33side/level_act33side_06_beg.txt",
+      "ref": "main",
+      "git_blob_sha1": "47a63283cb5d1c42e205f6bcebbf1e9cc134ac03",
+      "line_count": 771,
+      "url": "https://github.com/Kengxxiao/ArknightsGameData_YoStar/blob/main/en_US/gamedata/story/activities/act33side/level_act33side_06_beg.txt"
+    }
+  },
+  "full_scene_counts": {
+    "text_positions": 258,
+    "named": 209,
+    "multiline": 11,
+    "narration": 36,
+    "subtitle": 2,
+    "sticker": 0,
+    "control_commands": 512,
+    "decisions": 0
+  },
+  "alignment": {
+    "cn_en_text_positions_match": true,
+    "cn_en_text_type_sequence_match": true,
+    "cn_en_control_command_positions_match": true,
+    "cn_en_control_command_type_sequence_match": true,
+    "cn_en_exact_control_command_text_match": false,
+    "cn_only_command_parameter_differences": [
+      {
+        "source_line": 372,
+        "command_type": "charslot",
+        "difference": "CN includes isCopy=true; EN omits it"
+      },
+      {
+        "source_line": 374,
+        "command_type": "charslot",
+        "difference": "CN includes isCopy=true; EN omits it"
+      }
+    ],
+    "cn_en_content_differences": [
+      {
+        "source_line": 445,
+        "cn_rendering": "“戴尔”.家",
+        "en_rendering": "'...del. Home.'",
+        "ru_rendering": "«Дейл». Дом.",
+        "note": "Russian follows the Chinese primary source; the EN mirror has an ellipsis and a truncated lowercase fragment."
+      }
+    ],
+    "en_extra_terminal_newline": true,
+    "semantic_command_execution_verified": false,
+    "cn_en_decision_positions_and_values_match": true,
+    "decision_count": 0,
+    "selected_segment_cn_en_line_alignment": true,
+    "selected_segment_text_positions": 30,
+    "selected_segment_speaker_tags_align": true,
+    "segment_source_lines": [
+      695,
+      763
+    ],
+    "segment_new_text_positions": 30,
+    "segment_new_named": 23,
+    "segment_new_multiline": 0,
+    "segment_new_narration": 5,
+    "segment_new_subtitle": 2,
+    "segment_cn_en_line_alignment": true,
+    "segment_cn_en_speaker_tags_align": true,
+    "segment_cn_en_subtitle_markup_alignment": true,
+    "previous_228_entries_preserved": true,
+    "scene_complete": true,
+    "next_ordinal": null,
+    "next_text_source_line": null
+  },
+  "translated_segment": {
+    "previous_positions": 228,
+    "previous_228_preserved": true,
+    "new_ordinals": [
+      229,
+      258
+    ],
+    "new_source_lines": [
+      695,
+      697,
+      699,
+      704,
+      705,
+      707,
+      709,
+      711,
+      712,
+      714,
+      716,
+      717,
+      718,
+      726,
+      731,
+      739,
+      741,
+      743,
+      745,
+      746,
+      750,
+      751,
+      752,
+      755,
+      756,
+      758,
+      760,
+      761,
+      762,
+      763
+    ],
+    "new_text_positions": 30,
+    "new_named": 23,
+    "new_multiline": 0,
+    "new_narration": 5,
+    "new_subtitle": 2,
+    "new_sticker": 0,
+    "cn_en_selected_positions": 30,
+    "cn_en_selected_lines_match": true,
+    "cn_en_selected_speaker_tags_match": true,
+    "cn_en_subtitle_markup_match": true,
+    "command_and_tag_content_in_source_not_modified": true,
+    "game_behavior_verified": false,
+    "next_ordinal": null,
+    "next_text_source_line": null,
+    "scene_complete": true,
+    "speaker_tag_mapping": {
+      "博士": "Doctor",
+      "凯尔希": "Kal'tsit",
+      "特蕾西娅": "Theresa"
+    }
+  },
+  "notes": [
+    "CN is the primary source; EN is used for names, terminology and structural cross-check.",
+    "Full-scene CN/EN text positions (258) and control-command positions (512) and their type sequences align.",
+    "CN-only isCopy=true parameters at source lines 372 and 374 remain documented and unchanged.",
+    "The source-content difference at line 445 remains documented; the Russian draft follows CN.",
+    "v2.99 adds positions 199–228 (CN/EN lines 601–693): 25 named dialogue entries and 5 narration entries.",
+    "Selected CN/EN text positions align line-for-line and by type; all localized speaker tags map to the corresponding EN characters.",
+    "The report at lines 662–666 preserves the Chinese multi-paragraph quotation structure; King of Babel remains a provisional Russian title.",
+    "The scene remains partial: next ordinal 229 is at CN line 695. No editorial review or Yostar Global PC test has been performed.",
+    "No original CN/EN scripts or source game files are included in the repository.",
+    "v3.00 adds the final 30 positions (229–258; CN/EN lines 695–763): 23 named, 5 narration and 2 subtitle entries. The previous 228 entries are preserved.",
+    "The subtitle's <color=#000000> markup at source line 731 is retained; no command, branch or tag structure is added to the translation overlay.",
+    "The EN mirror renders 魔王 as King of Sarkaz at source lines 712 and 750; Russian uses «Король Сарказов».",
+    "The EN mirror renders 文明的存续 as Civilight Eterna at line 756; Russian «Сивилайт Этерна» is provisional, based on EN and Japanese シヴィライト・エテルナ.",
+    "BB-6 before battle is complete as a first draft (258/258). Next author-order scene: activities/act33side/level_act33side_06_end.txt. No editorial review or in-game test."
+  ]
+}
