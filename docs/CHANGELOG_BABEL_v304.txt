@@ -1,0 +1,23 @@
+Arknights RU — Babel changelog v3.04
+Date: 2026-11-09
+
+Babel BB-6 after battle:
+- Added final text positions 121–178 of 178 (CN/EN source lines 337–486).
+- 39 named dialogue entries, 9 narration entries, 9 subtitles and 1 Sticker(text) entry.
+- Scene first draft complete: 178/178 text positions.
+- CN source blob: 56a05581ddc4364646998f6169cce72797f6834d.
+- EN Yostar source blob: 0b839585231d08e1980894b6b1d98a9861c23759.
+- Full CN/EN source alignment: 178 text positions and 314 control-command positions/types; EN has one extra terminal newline.
+- Selected 58 positions align by line, text type, speaker tag and markup.
+- Civilight Eterna is rendered «Сивилайт Этерна»; 魔王 in this context is rendered «Король Сарказов».
+- Color markup preserved in subtitle positions 126 and 175–177 and Sticker(text) position 178.
+- Previous 120 translated positions are unchanged.
+- Babel status: 14/23 complete first drafts (3,198 entries); next author-order scene is BB-7 before battle.
+- No full source scripts or game files committed.
+- First draft only; no editorial review or Yostar Global PC in-game validation.
+
+References:
+- https://github.com/Kengxxiao/ArknightsGameData/blob/master/zh_CN/gamedata/story/activities/act33side/level_act33side_06_end.txt
+- https://github.com/Kengxxiao/ArknightsGameData_YoStar/blob/main/en_US/gamedata/story/activities/act33side/level_act33side_06_end.txt
+- https://arknights.wiki.gg/wiki/Theresa
+- https://arknights.wiki.gg/ru/wiki/Civilight_Eterna
