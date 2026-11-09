@@ -1100,7 +1100,7 @@
     "cn_en_content_differences": [
       {
         "source_line": 445,
-        "cn_rendering": "«戴尔».家",
+        "cn_rendering": "“戴尔”.家",
         "en_rendering": "'...del. Home.'",
         "ru_rendering": "«Дейл». Дом.",
         "note": "CN is primary; English mirror includes an ellipsis and a truncated lowercase fragment."
