@@ -43,8 +43,8 @@ class BabelBB6V297(unittest.TestCase):
             kinds[x["kind"]] = kinds.get(x["kind"], 0) + 1
             self.assertTrue(x["text_ru"].strip())
             self.assertFalse(any(0x3400 <= ord(c) <= 0x9fff for c in x["text_ru"]))
-            self.assertNotIn("\\n", x["text_ru"])
-            self.assertNotIn("\\r", x["text_ru"])
+            self.assertNotIn("\n", x["text_ru"])
+            self.assertNotIn("\r", x["text_ru"])
         self.assertEqual(kinds, {"named":148,"multiline":11,"narration":16})
         self.assertEqual(new[10]["speaker_cn"], "萨卡兹雇佣兵")
         self.assertEqual(new[10]["text_ru"], "Эй, стой! Не подходи к Заражённым. Джули сама с ними разберётся.")
