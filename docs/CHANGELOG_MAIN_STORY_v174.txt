@@ -1,0 +1,11 @@
+# Main story v1.74 / chronology v3.34
+
+- Completed the main-story 6-10 after-battle first draft: 205/205 named dialogue positions.
+- CN source: Kengxxiao/ArknightsGameData, blob bb62801e39e1b96789067cd5ed25aa567e06896f; EN Yostar source: Kengxxiao/ArknightsGameData_YoStar, blob e9f0401e0c5a790c4ea0b37f3cf7a970eb4a879d.
+- CN has 357 physical lines and no final newline; EN has 358 due to one additional terminal newline. All 205 text positions align by physical line and order; all 152 command lines match exactly in names, parameters, order and position.
+- Localized HEADER title 第四关（后） as “Этап 4 (после боя)”.
+- CN remains primary for meaning. Recorded material CN/EN divergences include ordinals 4, 49, 71, 94, 111, 115, 121, 164, 177 and 189; ordinal 121 follows CN “Почему?” rather than EN “What?”.
+- Updated the main-story selection, chapter-6 index, QA, chronology manifest, README and project glossary.
+- Current main-story first-draft count: 115 scenes; 8,216 positions in the historical manifest and 8,215 in the merged selection (the inherited one-entry delta remains explicit).
+- Next author-order scene: 6-11 before battle, 180 named positions. CN/EN blobs: 0986ac67e9b36541dc93f82e53dd687780015d60 / 92b2237c92178fb888e2c6928c6bae6b2a45a0e8.
+- Literary review and Yostar Global PC in-game validation remain pending. Local preview is not a verified game patch.
