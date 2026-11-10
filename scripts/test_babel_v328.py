@@ -55,8 +55,8 @@ class BabelBB10BeforeV328(unittest.TestCase):
         for entry in self.doc["dialogues"]:
             self.assertTrue(entry["text_ru"].strip())
             self.assertFalse(any(0x3400 <= ord(ch) <= 0x9fff for ch in entry["text_ru"]))
-            self.assertNotIn("\\n", entry["text_ru"])
-            self.assertNotIn("\\r", entry["text_ru"])
+            self.assertNotIn(chr(10), entry["text_ru"])
+            self.assertNotIn(chr(13), entry["text_ru"])
         self.assertEqual(self.doc["dialogues"][33]["text_ru"].count("{@nickname}"), 1)
         self.assertEqual(self.doc["dialogues"][42]["text_ru"].count("{@nickname}"), 1)
 
