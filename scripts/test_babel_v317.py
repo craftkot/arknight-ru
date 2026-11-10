@@ -56,7 +56,7 @@ class BabelBB8BeforeV317(unittest.TestCase):
         self.assertEqual(by[93]["speaker_cn"], "博士")
         self.assertEqual(by[94]["speaker_cn"], "凯尔希")
         self.assertEqual(by[111]["speaker_cn"], "特蕾西娅")
-        self.assertIn("калечить себя", by[83]["text_ru"])
+        self.assertIn("себя калечить", by[83]["text_ru"])
         self.assertIn("Короля Сарказов", by[84]["text_ru"])
         self.assertIn("зал совета", by[106]["text_ru"])
         self.assertIn("вместе с луной", by[106]["text_ru"])
