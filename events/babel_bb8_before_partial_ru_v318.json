@@ -1,0 +1,1260 @@
+{
+  "version": "v3.18",
+  "event": "Babel",
+  "scene": "Babel BB-8 before battle — partial first draft",
+  "source_file": "activities/act33side/level_act33side_08_beg.txt",
+  "status": "partial_first_draft",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "61daf6c0beeecfb442fd84a7dad26ea1110dac5b",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "cbf456ffc623a5865f193132fb076857ec2e6c1a",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_08_beg.txt",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_08_beg.txt",
+    "cn_line_count": 594,
+    "en_line_count": 594,
+    "cn_text_total": 200,
+    "en_text_total": 200,
+    "cn_named_total": 158,
+    "en_named_total": 158,
+    "cn_multiline_total": 2,
+    "en_multiline_total": 2,
+    "cn_narration_total": 40,
+    "en_narration_total": 40,
+    "cn_subtitle_total": 0,
+    "en_subtitle_total": 0,
+    "cn_sticker_total": 0,
+    "en_sticker_total": 0,
+    "cn_control_command_total": 394,
+    "en_control_command_total": 394,
+    "cn_decision_total": 0,
+    "en_decision_total": 0,
+    "en_extra_terminal_newline": true,
+    "version_difference": "CN and EN have 594 logical lines, 200 aligned text positions (158 named, 40 narration, two multiline) and 394 control-command lines. Speaker tags align after mapping Chinese names to EN. Two control commands differ: at CN/EN source lines 435 and 459, CN includes isCopy=true while EN omits it; preserve the CN attribute. The two multiline payloads at source lines 477 and 480 contain CN sound effects/text differing from EN's English onomatopoeia. Meaning differences at ordinals 19, 21, 27 and 39 are documented; Russian follows CN."
+  },
+  "progress": {
+    "translated_text_positions": 160,
+    "total_source_text_positions": 200,
+    "remaining_text_positions": 40,
+    "complete": false,
+    "last_source_line": 465,
+    "next_source_line": 467,
+    "next_text_ordinal": 161,
+    "next_text_source_line": 467,
+    "translated_kind_counts": {
+      "named": 131,
+      "multiline": 0,
+      "narration": 29,
+      "subtitle": 0,
+      "sticker": 0
+    },
+    "remaining_kind_counts": {
+      "named": 27,
+      "multiline": 2,
+      "narration": 11,
+      "subtitle": 0,
+      "sticker": 0
+    }
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 13,
+      "kind": "narration",
+      "text_ru": "Весна 1094 года."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 14,
+      "kind": "narration",
+      "text_ru": "Каздель. Главный корабль Бабеля — «Родос Айленд»."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Аскалон, я знала, что ты придёшь."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 24,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "…Осталась только я."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Да."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "За эти годы из всех, кого я знала и с кем могла перекинуться парой слов, в живых осталась только ты."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 31,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Твоё задание на этот раз…"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 33,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Ты ведь уже знаешь: тебе предстоит отправиться в Лондиниум."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 35,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Честно говоря, мне немного не по себе. Мне уже доводилось работать под прикрытием, но…"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 36,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "На самом деле я впервые покидаю Каздель."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Аскалон, я слышала, ты несколько месяцев провела в разъездах?"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 40,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Но поездка в Викторию — совсем другое дело."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 41,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Тебе предстоит внедриться в отряд наёмников Терезиса и в подходящий момент поднять мятеж."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "…И правда ли убийство Терезиса решит наши проблемы?"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Нет. Военная комиссия больше не зависит от какого-то одного сильного лидера. Именно этого и добивается Терезис."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 46,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Поэтому твоя задача — в нужный момент спровоцировать беспорядки и посеять подозрения среди викторианских герцогов. Пусть они сделают грязную работу за тебя."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Лондиниум — сердце Виктории. Им некуда бежать. Там падёт вся Военная комиссия."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "А потом вы сможете хорошенько поколотить весь двор нахцереров и захватить Каздель, да?"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Но, Джули, тебе стоит…"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 53,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Да брось! Я и раньше работала под прикрытием, но обмануть одновременно Терезиса и викторианцев… Я ведь почти не встречала Фелинов!"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 55,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Я даже специально подтянула викторианский язык…"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 57,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "…Я не об этом."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Ладно, держи."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 61,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "…Что это? Моя старая одежда?"
+    },
+    {
+      "ordinal": 26,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "На подкладке вышито моё имя… Это Её Высочество?"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Её Высочество хотела передать её тебе лично, но я не хочу, чтобы вы встречались."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 66,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Я… не хочу, чтобы Её Высочество страдала."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 70,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Ты понимаешь, что я имела в виду. Ты должна понимать: в этом плане все мы — расходные пешки."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Её Высочество прекрасно это знает. Она хотела лично проводить каждого из вас, но тогда ночами не смогла бы сомкнуть глаз."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Поэтому я солгала ей. Сказала, что вы ушли раньше срока."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Прости, Джули. Возможно, ты тоже хотела в последний раз увидеть Её Высочество."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 79,
+      "kind": "narration",
+      "text_ru": "Джули не ответила. Она молча провела пальцами по имени, вышитому льняной нитью на одежде, ощущая его шероховатость."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 80,
+      "kind": "narration",
+      "text_ru": "«Джули»."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 81,
+      "kind": "narration",
+      "text_ru": "Она вспомнила, как Её Высочество проводила для них уроки."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 82,
+      "kind": "narration",
+      "text_ru": "Убивать ей привычнее, чем учиться в классе. На уроках она ничего не понимала и постоянно клевала носом, но где-то в глубине души знала: Её Высочество говорит только правильные вещи."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 83,
+      "kind": "narration",
+      "text_ru": "Поэтому она никогда не задавала вопросов."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 86,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "…Кто бы не хотел увидеть Её Высочество в последний раз? Но мне приятно, что меня провожаешь именно ты. За эти годы я и у тебя многому научилась."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 88,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "А. Ты ведь не считаешь, что сама подходишь для этого задания лучше меня?"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 90,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Нет."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 92,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "На собрании тебя и правда предлагали отправить, но мы все решили, что тебе лучше остаться в Казделе, рядом с Её Высочеством."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 93,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "А я и так никому не нужна, так что первой предложила…"
+    },
+    {
+      "ordinal": 44,
+      "source_line": 95,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "…Можешь вступить в отряд Скаута. Помнится, ты уже подала заявку."
+    },
+    {
+      "ordinal": 45,
+      "source_line": 97,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Я хотела как следует поучиться у того героя, а потом ещё раз тебя победить."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 98,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Мы с тобой дерёмся примерно в одном стиле. Я ведь так и не успела выиграть у тебя достаточно раз — обидно уезжать."
+    },
+    {
+      "ordinal": 47,
+      "source_line": 100,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Хм. Не будь я накануне отъезда, ни за что не стала бы тебе об этом говорить."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 102,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Ты… ещё что-нибудь хотела сказать?"
+    },
+    {
+      "ordinal": 49,
+      "source_line": 104,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Больше нет. Не думала, что мой первый отъезд из родных краёв окажется последним. И уж точно не думала, что провожать меня будет молчаливый глава убийц, всегда стоящий рядом с Королём Сарказов."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 106,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Аскалон, не лги мне. Ответь честно."
+    },
+    {
+      "ordinal": 51,
+      "source_line": 107,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Как там, за пределами Казделя?"
+    },
+    {
+      "ordinal": 52,
+      "source_line": 109,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 53,
+      "source_line": 112,
+      "kind": "narration",
+      "text_ru": "Аскалон не ответила. Похоже, Джули и сама не ждала ответа."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 113,
+      "kind": "narration",
+      "text_ru": "Джули лишь медленно поднялась и так же медленно ушла."
+    },
+    {
+      "ordinal": 55,
+      "source_line": 114,
+      "kind": "narration",
+      "text_ru": "Её неторопливый силуэт словно говорил, что она просто вышла за кувшином хорошего вина."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 115,
+      "kind": "narration",
+      "text_ru": "Аскалон продолжала смотреть ей вслед, пока та не скрылась вдали."
+    },
+    {
+      "ordinal": 57,
+      "source_line": 116,
+      "kind": "narration",
+      "text_ru": "Внезапно Джули стала ей почти незнакомой — словно Аскалон перестала узнавать собственную тень и своё другое «я»."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 127,
+      "kind": "narration",
+      "text_ru": "Три месяца спустя."
+    },
+    {
+      "ordinal": 59,
+      "source_line": 128,
+      "kind": "narration",
+      "text_ru": "Виктория. Деревня на окраине Лондиниума."
+    },
+    {
+      "ordinal": 60,
+      "source_line": 133,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Выходи. Прятаться бесполезно."
+    },
+    {
+      "ordinal": 61,
+      "source_line": 134,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "В городе мы получили сведения: в Каздель направляется отряд, собирающийся там действовать. Полагаю, это вы?"
+    },
+    {
+      "ordinal": 62,
+      "source_line": 136,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Все остальные дороги из деревни мы перекрыли. Даже не мечтай прорваться через меня."
+    },
+    {
+      "ordinal": 63,
+      "source_line": 160,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "—"
+    },
+    {
+      "ordinal": 64,
+      "source_line": 162,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Ну вот, попался."
+    },
+    {
+      "ordinal": 65,
+      "source_line": 163,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "С такими ранами тебе, пожалуй, не одолеть даже крепкого обычного человека."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 165,
+      "kind": "narration",
+      "text_ru": "Она брезгливо встряхнула клинком, стряхивая с него капли крови."
+    },
+    {
+      "ordinal": 67,
+      "source_line": 167,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Всё ещё надеешься, что сообщники придут тебе на помощь?"
+    },
+    {
+      "ordinal": 68,
+      "source_line": 169,
+      "kind": "named",
+      "speaker_cn": "神秘的刺客",
+      "text_ru": "…Остальные мертвы?"
+    },
+    {
+      "ordinal": 69,
+      "source_line": 171,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Всех перебила."
+    },
+    {
+      "ordinal": 70,
+      "source_line": 173,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Все твои сообщники мертвы, а ты, похоже, даже вздохнул с облегчением. С чего бы?"
+    },
+    {
+      "ordinal": 71,
+      "source_line": 175,
+      "kind": "named",
+      "speaker_cn": "神秘的刺客",
+      "text_ru": "Смерть — избавление… сородич."
+    },
+    {
+      "ordinal": 72,
+      "source_line": 177,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 73,
+      "source_line": 179,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Кто вы такие?"
+    },
+    {
+      "ordinal": 74,
+      "source_line": 181,
+      "kind": "named",
+      "speaker_cn": "神秘的刺客",
+      "text_ru": "Неважно."
+    },
+    {
+      "ordinal": 75,
+      "source_line": 196,
+      "kind": "named",
+      "speaker_cn": "神秘的刺客",
+      "text_ru": "Ух… кх…"
+    },
+    {
+      "ordinal": 76,
+      "source_line": 197,
+      "kind": "named",
+      "speaker_cn": "神秘的刺客",
+      "text_ru": "Клинок у тебя точный. Кх…"
+    },
+    {
+      "ordinal": 77,
+      "source_line": 200,
+      "kind": "narration",
+      "text_ru": "Она услышала облегчённый смех убийцы, оказавшегося под её клинком."
+    },
+    {
+      "ordinal": 78,
+      "source_line": 201,
+      "kind": "narration",
+      "text_ru": "Лишь когда лежавший на земле убийца перестал дышать, Джули сняла с него маску."
+    },
+    {
+      "ordinal": 79,
+      "source_line": 202,
+      "kind": "narration",
+      "text_ru": "Джули застыла. Она долго всматривалась, пока наконец не догадалась по изуродованному родимому пятну у уголка глаза сарказа, кто он такой."
+    },
+    {
+      "ordinal": 80,
+      "source_line": 203,
+      "kind": "narration",
+      "text_ru": "Его портрет когда-то ходил по рукам в иллюстрированном сборнике историй Рынка шрамов."
+    },
+    {
+      "ordinal": 81,
+      "source_line": 204,
+      "kind": "narration",
+      "text_ru": "Его знали под множеством прозвищ, но настоящее имя никому не было известно. Он действовал так давно, что успел стать байкой, которую наёмники пересказывали за выпивкой, похваляясь и перебрасываясь шуточками."
+    },
+    {
+      "ordinal": 82,
+      "source_line": 205,
+      "kind": "narration",
+      "text_ru": "Но оба рога, служившие знаком его крови и личности, уже давно срубили под корень. Клинок оставил на его голове неизгладимый след."
+    },
+    {
+      "ordinal": 83,
+      "source_line": 207,
+      "speaker_cn": "尤莉叶",
+      "kind": "named",
+      "text_ru": "Эти смертники, скрывающие лица… Они все, как и ты, так любят себя калечить?"
+    },
+    {
+      "ordinal": 84,
+      "source_line": 208,
+      "speaker_cn": "尤莉叶",
+      "kind": "named",
+      "text_ru": "Неужели вам пришлось так изувечить себя, чтобы набраться смелости убить Её Высочество? Вы подняли клинок на «Короля Сарказов» или на одного из «Шести героев»?"
+    },
+    {
+      "ordinal": 85,
+      "source_line": 210,
+      "speaker_cn": "尤莉叶",
+      "kind": "named",
+      "text_ru": "…Ладно, неважно. Судя по всему, вы никогда по-настоящему не встречались с Её Высочеством Терезией."
+    },
+    {
+      "ordinal": 86,
+      "source_line": 212,
+      "speaker_cn": "尤莉叶",
+      "kind": "named",
+      "text_ru": "Спокойно закройте глаза. Я огнём сотру ваши лица. Пусть вы превратитесь в дурно пахнущий уголь, но это всё же лучше, чем остаться в памяти людей грешниками."
+    },
+    {
+      "ordinal": 87,
+      "source_line": 213,
+      "speaker_cn": "尤莉叶",
+      "kind": "named",
+      "text_ru": "Вы уже не сможете вернуться в Каздель. Это единственное, чем я могу вам помочь… Похоже, мы с вами не так уж отличаемся."
+    },
+    {
+      "ordinal": 88,
+      "source_line": 215,
+      "speaker_cn": "尤莉叶",
+      "kind": "named",
+      "text_ru": "Ха. Мне тоже не вернуться."
+    },
+    {
+      "ordinal": 89,
+      "source_line": 225,
+      "kind": "narration",
+      "text_ru": "Джули и её спутники сложили тела убийц в одну кучу, подожгли их все до одного, а затем направились в сторону Лондиниума."
+    },
+    {
+      "ordinal": 90,
+      "source_line": 226,
+      "kind": "narration",
+      "text_ru": "Пламя потрескивало у неё за спиной. Джули вдруг подумала: Горнило Казделя звучит совсем иначе."
+    },
+    {
+      "ordinal": 91,
+      "source_line": 227,
+      "kind": "narration",
+      "text_ru": "Как же оно звучало?.. В детстве она слышала этот звук постоянно."
+    },
+    {
+      "ordinal": 92,
+      "source_line": 228,
+      "speaker_cn": "尤莉叶",
+      "kind": "named",
+      "text_ru": "…Не помню."
+    },
+    {
+      "ordinal": 93,
+      "source_line": 238,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "Кальцит."
+    },
+    {
+      "ordinal": 94,
+      "source_line": 244,
+      "speaker_cn": "凯尔希",
+      "kind": "named",
+      "text_ru": "Элитные подразделения уже заняли все ключевые стратегические позиции."
+    },
+    {
+      "ordinal": 95,
+      "source_line": 247,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "Хорошо. Слушайте внимательно. Мы действительно уступаем Военной комиссии в военной мощи. Осада Казделя изначально была невыполнимой операцией."
+    },
+    {
+      "ordinal": 96,
+      "source_line": 248,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "Но из-за ультиматума герцога Кавендиша Терезис отправился в Лондиниум раньше срока."
+    },
+    {
+      "ordinal": 97,
+      "source_line": 249,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "Сейчас в Казделе остались лишь некоторые члены Королевского двора Военной комиссии. Терезис практически оставил этот город."
+    },
+    {
+      "ordinal": 98,
+      "source_line": 260,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "Это неизбежно вызовет смятение среди жителей Казделя и солдат, оставшихся в городе."
+    },
+    {
+      "ordinal": 99,
+      "source_line": 261,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "Когда знамя Военной комиссии будет спущено, Её Высочество Терезия объявит, что Военная комиссия бросила Каздель, и провозгласит освобождение Казделя силами Бабеля."
+    },
+    {
+      "ordinal": 100,
+      "source_line": 273,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "Боевые действия развернутся на отдельных участках, а не по всему фронту. Мы должны наносить точные удары и действовать быстро."
+    },
+    {
+      "ordinal": 101,
+      "source_line": 274,
+      "speaker_cn": "凯尔希",
+      "kind": "named",
+      "text_ru": "Именно из-за разницы в силах для этой операции по захвату города пришлось задействовать почти всех вооружённых бойцов, которые ещё подчиняются приказам Бабеля."
+    },
+    {
+      "ordinal": 102,
+      "source_line": 286,
+      "speaker_cn": "凯尔希",
+      "kind": "named",
+      "text_ru": "Поэтому оборона нашего корабля будет относительно слабой."
+    },
+    {
+      "ordinal": 103,
+      "source_line": 287,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "Поэтому Её Высочество Терезия останется на борту. Мы всё же оставим достаточно сил для охраны корабля; командовать ими буду лично я."
+    },
+    {
+      "ordinal": 104,
+      "source_line": 288,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "Лишь после того, как вы откроете ворота Казделя и обеспечите безопасность дороги к Горнилу, Её Высочество как можно скорее присоединится к основным силам."
+    },
+    {
+      "ordinal": 105,
+      "source_line": 289,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "На захват города отводится шесть часов. Иначе Военная комиссия успеет организовать мощную контратаку, и тогда наши уязвимые подразделения Бабеля окажутся в опасности."
+    },
+    {
+      "ordinal": 106,
+      "source_line": 290,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "К тому времени, когда косые лучи заходящего солнца осветят Горнило, Бабель захватит Горнило и зал совета, а знамя Бабеля поднимется вместе с луной."
+    },
+    {
+      "ordinal": 107,
+      "source_line": 291,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "И тогда—"
+    },
+    {
+      "ordinal": 108,
+      "source_line": 301,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "— объявление о прекращении огня разнесётся по всему Казделю."
+    },
+    {
+      "ordinal": 109,
+      "source_line": 302,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "Я верю, что вы справитесь."
+    },
+    {
+      "ordinal": 110,
+      "source_line": 308,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "…Фух."
+    },
+    {
+      "ordinal": 111,
+      "source_line": 314,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "Прекрасная расстановка сил, Доктор."
+    },
+    {
+      "ordinal": 112,
+      "source_line": 316,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "Но только что я говорил всё это лишь для поднятия боевого духа. Опытные бойцы и Кальцит наверняка это заметили."
+    },
+    {
+      "ordinal": 113,
+      "source_line": 317,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "Потери Бабеля будут велики."
+    },
+    {
+      "ordinal": 114,
+      "source_line": 319,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "Терезису несвойственно оставлять такую крупную брешь."
+    },
+    {
+      "ordinal": 115,
+      "source_line": 321,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "…Но я верю тебе, Доктор. Верю, что, заплатив эту цену, мы действительно сможем вернуть Каздель."
+    },
+    {
+      "ordinal": 116,
+      "source_line": 322,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "Терезис отправится в Лондиниум, чтобы завладеть силой, которой так жаждет. Если наши предположения верны, после того как он разорвёт империю на части, его взгляд вновь обратится к этому городу."
+    },
+    {
+      "ordinal": 117,
+      "source_line": 324,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "…Неужели на этой земле не может существовать двух Казделей?"
+    },
+    {
+      "ordinal": 118,
+      "source_line": 326,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "Возможно. Но если разделить собранные нами силы надвое, мы уже не сможем отразить следующее вторжение извне."
+    },
+    {
+      "ordinal": 119,
+      "source_line": 327,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "К тому же город можно отстроить заново, но сарказам за тысячи лет так и не удалось по-настоящему объединиться."
+    },
+    {
+      "ordinal": 120,
+      "source_line": 328,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "Даже Военной комиссии в итоге не удалось собрать все уцелевшие Королевские дворы."
+    },
+    {
+      "ordinal": 121,
+      "source_line": 330,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 122,
+      "source_line": 332,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "Ты ведь думаешь, изменилось бы что-нибудь, если бы корону возложили на Терезиса?"
+    },
+    {
+      "ordinal": 123,
+      "source_line": 334,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "Нет, ничего бы не изменилось. Сарказы, что стекались сюда из разных краёв, устав от войн и желая лишь прокормиться, всё равно объединились бы и выступили против своего «Короля Сарказов»."
+    },
+    {
+      "ordinal": 124,
+      "source_line": 335,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "«Объединиться»… Какое простое и в то же время немыслимое понятие."
+    },
+    {
+      "ordinal": 125,
+      "source_line": 337,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "…И правда."
+    },
+    {
+      "ordinal": 126,
+      "source_line": 339,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "По приблизительным подсчётам Кальцит, сарказы, живущие сейчас в этом городе, составляют, пожалуй, лишь тридцать–сорок процентов всех сарказов Терры."
+    },
+    {
+      "ordinal": 127,
+      "source_line": 340,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "Объединение под знаменем ненависти эффективно, но недолговечно. Объединение под знаменем мира позволяет говорить о развитии и будущем."
+    },
+    {
+      "ordinal": 128,
+      "source_line": 342,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "Дело не в том, что Терезис не понимает всего этого, и не в том, что сарказы не способны усвоить эту мысль… Но война всё равно разгорелась."
+    },
+    {
+      "ordinal": 129,
+      "source_line": 343,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "Доктор… Даже если мы вернём Каздель, наша война ведь не закончится так просто, верно?"
+    },
+    {
+      "ordinal": 130,
+      "source_line": 345,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "Но, возможно, пока этого достаточно."
+    },
+    {
+      "ordinal": 131,
+      "source_line": 347,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 132,
+      "source_line": 349,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "После нашей победы я хотела бы пригласить тебя осмотреть тот город."
+    },
+    {
+      "ordinal": 133,
+      "source_line": 350,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "Там мой дом, дом многих членов Бабеля… и, более того, дом Кальцит."
+    },
+    {
+      "ordinal": 134,
+      "source_line": 352,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "Ты так долго сражался за Бабель, но так и не ступил на землю нашей родины, о которой мы столько говорили. Выходит, я поступила с тобой слишком хитро, Доктор."
+    },
+    {
+      "ordinal": 135,
+      "source_line": 354,
+      "speaker_cn": "特蕾西娅",
+      "kind": "named",
+      "text_ru": "Посмотри, какой свет и тепло Горнило приносит Казделю. Этот город построен на боли, а мы так жадно мечтаем о спокойном завтрашнем дне."
+    },
+    {
+      "ordinal": 136,
+      "source_line": 356,
+      "speaker_cn": "博士",
+      "kind": "named",
+      "text_ru": "…Хорошо."
+    },
+    {
+      "ordinal": 137,
+      "source_line": 366,
+      "speaker_cn": null,
+      "kind": "narration",
+      "text_ru": "Окраина заброшенного городка в Казделе."
+    },
+    {
+      "ordinal": 138,
+      "source_line": 369,
+      "speaker_cn": "阿斯卡纶",
+      "kind": "named",
+      "text_ru": "Одда, как обстановка в городе?"
+    },
+    {
+      "ordinal": 139,
+      "source_line": 375,
+      "speaker_cn": "奥达",
+      "kind": "named",
+      "text_ru": "Мы всё ещё преследуем оставшихся наёмников! Почти все они укрылись в заброшенных зданиях. Боюсь, чтобы выкурить их оттуда, понадобится время."
+    },
+    {
+      "ordinal": 140,
+      "source_line": 377,
+      "speaker_cn": "阿斯卡纶",
+      "kind": "named",
+      "text_ru": "Не действуй опрометчиво. Следи за временем и не забывай наставления Доктора."
+    },
+    {
+      "ordinal": 141,
+      "source_line": 378,
+      "speaker_cn": "阿斯卡纶",
+      "kind": "named",
+      "text_ru": "Наша задача — зачистить фланги, а затем как можно скорее соединиться с основными силами на передовой."
+    },
+    {
+      "ordinal": 142,
+      "source_line": 380,
+      "speaker_cn": "奥达",
+      "kind": "named",
+      "text_ru": "Знаю. Если бы Доктор заранее не предусмотрел такой вариант, мы вполне могли угодить в их засаду."
+    },
+    {
+      "ordinal": 143,
+      "source_line": 382,
+      "speaker_cn": "奥达",
+      "kind": "named",
+      "text_ru": "Но… тут что-то не так. Этот город явно находится на пути Катастрофы. Почему же эти наёмники рискнули устроить засаду именно здесь?"
+    },
+    {
+      "ordinal": 144,
+      "source_line": 384,
+      "speaker_cn": "阿斯卡纶",
+      "kind": "named",
+      "text_ru": "Я и сама это выясняю."
+    },
+    {
+      "ordinal": 145,
+      "source_line": 387,
+      "speaker_cn": "奥达",
+      "kind": "named",
+      "text_ru": "Госпожа Аскалон, если мы найдём их главаря, возможно, появятся зацепки."
+    },
+    {
+      "ordinal": 146,
+      "source_line": 389,
+      "speaker_cn": "阿斯卡纶",
+      "kind": "named",
+      "text_ru": "Поняла. Берегите себя."
+    },
+    {
+      "ordinal": 147,
+      "source_line": 400,
+      "speaker_cn": null,
+      "kind": "narration",
+      "text_ru": "Катастрофа. Яростные потоки ветра обрушиваются на Аскалон."
+    },
+    {
+      "ordinal": 148,
+      "source_line": 401,
+      "speaker_cn": null,
+      "kind": "narration",
+      "text_ru": "Глухие взрывы, едва доносящиеся с горизонта, на миг приводят её в замешательство, словно напоминая ей —"
+    },
+    {
+      "ordinal": 149,
+      "source_line": 403,
+      "speaker_cn": "？？？",
+      "kind": "named",
+      "text_ru": "Нам суждено идти этой дорогой."
+    },
+    {
+      "ordinal": 150,
+      "source_line": 417,
+      "speaker_cn": "阿斯卡纶",
+      "kind": "named",
+      "text_ru": "…Это ты."
+    },
+    {
+      "ordinal": 151,
+      "source_line": 424,
+      "speaker_cn": "“疤眼”",
+      "kind": "named",
+      "text_ru": "Давно не виделись."
+    },
+    {
+      "ordinal": 152,
+      "source_line": 425,
+      "speaker_cn": "“疤眼”",
+      "kind": "named",
+      "text_ru": "Ты заметно повзрослела, Аскалон. Похоже, за последние несколько лет поле боя тебя здорово закалило."
+    },
+    {
+      "ordinal": 153,
+      "source_line": 427,
+      "speaker_cn": "阿斯卡纶",
+      "kind": "named",
+      "text_ru": "Я думала, вы уже давно последовали за ним и прячетесь в Лондиниуме, боясь показаться."
+    },
+    {
+      "ordinal": 154,
+      "source_line": 429,
+      "speaker_cn": "“疤眼”",
+      "kind": "named",
+      "text_ru": "Последовать за регентом? Ха-ха, ты ошибаешься, Аскалон."
+    },
+    {
+      "ordinal": 155,
+      "source_line": 430,
+      "speaker_cn": "“疤眼”",
+      "kind": "named",
+      "text_ru": "Наёмники никому не «следуют». Нас интересует только выгода."
+    },
+    {
+      "ordinal": 156,
+      "source_line": 431,
+      "speaker_cn": "“疤眼”",
+      "kind": "named",
+      "text_ru": "А в Казделе с выгодой связано лишь насилие. И нам повезло: мы умеем безошибочно чуять его запах."
+    },
+    {
+      "ordinal": 157,
+      "source_line": 432,
+      "speaker_cn": "“疤眼”",
+      "kind": "named",
+      "text_ru": "Разумеется, я помогаю всем заранее оценивать перспективы этого заказа — и, конечно, делаю это самым «подходящим» образом. Ведь Рынок шрамов никогда не берётся за убыточные дела—"
+    },
+    {
+      "ordinal": 158,
+      "source_line": 462,
+      "speaker_cn": null,
+      "kind": "narration",
+      "text_ru": "В тот миг, когда клинок из рукава Аскалон устремился к спине великана, его рука уже преградила ей путь."
+    },
+    {
+      "ordinal": 159,
+      "source_line": 463,
+      "speaker_cn": null,
+      "kind": "narration",
+      "text_ru": "Казалось, его рука находилась там с самого начала и ни разу не сдвинулась."
+    },
+    {
+      "ordinal": 160,
+      "source_line": 465,
+      "speaker_cn": "阿斯卡纶",
+      "kind": "named",
+      "text_ru": "Если он рассчитывает, что ты лично сможешь нас остановить, то это, боюсь, пустые фантазии."
+    }
+  ],
+  "source_alignment": {
+    "cn_en_text_positions_match": true,
+    "cn_en_text_type_sequence_match": true,
+    "cn_en_text_position_count": 200,
+    "cn_en_control_command_positions_match": true,
+    "cn_en_control_command_type_sequence_match": true,
+    "cn_control_command_count": 394,
+    "en_control_command_count": 394,
+    "cn_en_control_command_tag_sequence_match": true,
+    "cn_en_decision_positions_and_values_match": true,
+    "decision_count": 0,
+    "en_extra_terminal_newline": true,
+    "cn_en_control_command_lines_match_exactly": false,
+    "cn_en_control_command_difference_count": 2,
+    "cn_en_speaker_tags_align": true,
+    "documented_control_command_differences": [
+      {
+        "command_ordinal": 278,
+        "source_line": 435,
+        "cn": "[charslot(slot = \"l\", name = \"avg_4132_ascln_1#4$1\", posfrom=\"1200,0\", posto=\"400,0\", afrom = 0, ato = 1, duration=0.1, isblock=true,isCopy=true)]",
+        "en": "[charslot(slot = \"l\", name = \"avg_4132_ascln_1#4$1\", posfrom=\"1200,0\", posto=\"400,0\", afrom = 0, ato = 1, duration=0.1, isblock=true)]"
+      },
+      {
+        "command_ordinal": 302,
+        "source_line": 459,
+        "cn": "[charslot(slot = \"l\", name = \"avg_4132_ascln_1#4$1\", posfrom=\"340,0\", posto=\"600,0\", afrom=1, ato=0, duration=0.5, isblock=true,isCopy=true)]",
+        "en": "[charslot(slot = \"l\", name = \"avg_4132_ascln_1#4$1\", posfrom=\"340,0\", posto=\"600,0\", afrom=1, ato=0, duration=0.5, isblock=true)]"
+      }
+    ],
+    "segment_source_lines": [
+      330,
+      332,
+      334,
+      335,
+      337,
+      339,
+      340,
+      342,
+      343,
+      345,
+      347,
+      349,
+      350,
+      352,
+      354,
+      356,
+      366,
+      369,
+      375,
+      377,
+      378,
+      380,
+      382,
+      384,
+      387,
+      389,
+      400,
+      401,
+      403,
+      417,
+      424,
+      425,
+      427,
+      429,
+      430,
+      431,
+      432,
+      462,
+      463,
+      465
+    ],
+    "segment_cn_en_line_alignment": true,
+    "segment_cn_en_text_type_alignment": true,
+    "segment_cn_en_speaker_tags_align": true,
+    "segment_cn_en_markup_alignment": false,
+    "segment_cn_en_control_commands_match_exactly": false,
+    "segment_ordinals": [
+      121,
+      160
+    ],
+    "segment_new_text_positions": 40,
+    "scene_complete": false,
+    "game_behavior_verified": false,
+    "full_translated_prefix_markup_alignment": false,
+    "segment_cn_en_control_command_difference_count": 2,
+    "segment_cn_en_control_command_difference_source_lines": [
+      435,
+      459
+    ]
+  },
+  "notes": [
+    "This v3.18 update adds text positions 121–160 (CN physical lines 330–465); the previous 120 translated positions are preserved unchanged.",
+    "CN is the primary semantic source. EN Yostar is used to cross-check speaker names, text types, line mapping, markup and structure.",
+    "The segment contains 35 named dialogue entries and five narration entries. No multiline payload, subtitle, sticker or choice occurs in this segment.",
+    "CN and EN text positions, types and mapped speaker tags align for positions 121–160.",
+    "Two CN control commands at physical source lines 435 and 459 include isCopy=true, which EN omits. Both differences fall inside the v3.18 segment; preserve the CN attributes when constructing a game script.",
+    "At ordinal 157 (source line 432), CN emphasizes 适当 with quotation marks while EN uses italic markup around suitable; Russian follows CN quotation emphasis.",
+    "Meaning differences at ordinals 123, 134, 135, 145, 153 and 157 are documented; Russian follows CN, with the established glossary mapping for 魔王.",
+    "The full scene remains partial: 160/200 text positions translated; 40 remain, including two multiline payloads at source lines 477 and 480.",
+    "No full CN/EN source scripts or game files are committed. No literary review or Yostar Global PC in-game validation has been performed."
+  ]
+}
