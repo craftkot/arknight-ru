@@ -12,7 +12,7 @@
 
 ## Текущий хронологический статус
 
-Порядок работы: Darknights Memoir → Babel → основная история. BB-7 до боя (`events/babel_bb7_before_ru_v310.json`) и после боя (`events/babel_bb7_after_ru_v314.json`) завершены как первые черновики: 222/222 и 149/149 позиций. BB-8 до боя (`events/babel_bb8_before_ru_v319.json`) завершена на 200/200. BB-8 после боя (`events/babel_bb8_after_partial_ru_v321.json`) начата: 80/241; следующая позиция — №81, CN строка 329. Индекс — `events/BABEL_INDEX_v320.tsv`, сверка CN/EN — `reports/BABEL_BB8_AFTER_SOURCE_AUDIT_v320.json`. Исходные CN/EN сценарии в репозитории не хранятся. Локальный предпросмотр не является игровым патчем.
+Порядок работы: Darknights Memoir → Babel → основная история. BB-7 до боя (`events/babel_bb7_before_ru_v310.json`) и после боя (`events/babel_bb7_after_ru_v314.json`) завершены как первые черновики: 222/222 и 149/149 позиций. BB-8 до боя (`events/babel_bb8_before_ru_v319.json`) завершена на 200/200. BB-8 после боя (`events/babel_bb8_after_partial_ru_v321.json`) начата: 80/241; следующая позиция — №81, CN строка 329. Индекс — `events/BABEL_INDEX_v321.tsv`, сверка CN/EN — `reports/BABEL_BB8_AFTER_SOURCE_AUDIT_v321.json`. Исходные CN/EN сценарии в репозитории не хранятся. Локальный предпросмотр не является игровым патчем.
 
 
 ## Babel BB-8 после боя — v3.21 (частичный первый черновик)
