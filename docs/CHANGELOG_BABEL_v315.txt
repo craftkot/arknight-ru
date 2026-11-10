@@ -1,0 +1,29 @@
+Arknights RU — Babel v3.15
+================================
+
+Сцена: Babel BB-8 до боя
+Исходник: activities/act33side/level_act33side_08_beg.txt
+
+Добавлено:
+- Первые 40 из 200 текстовых позиций.
+- 33 именные реплики и 7 повествовательных строк.
+- Следующая позиция: №41, CN строка 90.
+- Сцена остаётся частичной; 160 позиций не переведены.
+
+Источники:
+- CN: Kengxxiao/ArknightsGameData, master
+  Git blob: 61daf6c0beeecfb442fd84a7dad26ea1110dac5b
+- EN: Kengxxiao/ArknightsGameData_YoStar, main
+  Git blob: cbf456ffc623a5865f193132fb076857ec2e6c1a
+
+Сверка:
+- 594 логические строки в каждом зеркале; EN имеет один дополнительный конечный перевод строки.
+- 200 текстовых позиций: 158 именных, 40 повествовательных, 2 multiline.
+- 394 управляющие строки; две команды CN at source lines 435 and 459 include isCopy=true, which EN omits. The CN attributes are documented and must be preserved.
+- All mapped speaker tags align.
+- Meaning differences at positions 19, 21, 27 and 39 are documented; Russian follows CN.
+- No complete CN/EN scripts or game data are committed.
+
+Progress:
+- Babel: 16 complete first drafts (3,569 entries), one partial scene (40 entries), six not started.
+- No literary review or Yostar Global PC in-game validation.
