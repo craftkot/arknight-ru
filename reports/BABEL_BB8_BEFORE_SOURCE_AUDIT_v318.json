@@ -1,0 +1,339 @@
+{
+  "version": "v3.18",
+  "scene": "Babel BB-8 before battle",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_08_beg.txt",
+    "cn_git_blob_sha1": "61daf6c0beeecfb442fd84a7dad26ea1110dac5b",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_08_beg.txt",
+    "en_git_blob_sha1": "cbf456ffc623a5865f193132fb076857ec2e6c1a",
+    "cn_logical_line_count": 594,
+    "en_logical_line_count": 594,
+    "en_extra_terminal_newline": true
+  },
+  "source_totals": {
+    "cn_text_positions": 200,
+    "en_text_positions": 200,
+    "cn_named": 158,
+    "en_named": 158,
+    "cn_multiline": 2,
+    "en_multiline": 2,
+    "cn_narration": 40,
+    "en_narration": 40,
+    "cn_subtitle": 0,
+    "en_subtitle": 0,
+    "cn_sticker": 0,
+    "en_sticker": 0,
+    "cn_control_commands": 394,
+    "en_control_commands": 394,
+    "cn_decisions": 0,
+    "en_decisions": 0
+  },
+  "alignment": {
+    "text_positions_match": true,
+    "text_type_sequence_match": true,
+    "speaker_tags_match": true,
+    "control_command_positions_match": true,
+    "control_command_type_sequence_match": true,
+    "control_command_lines_match_exactly": false,
+    "control_command_difference_count": 2,
+    "control_command_tag_sequence_match": true,
+    "decision_positions_and_values_match": true,
+    "logical_line_alignment": true,
+    "terminal_newline_only_difference": true
+  },
+  "speaker_tag_map_cn_to_en": {
+    "尤莉叶": "Julie",
+    "阿斯卡纶": "Ascalon",
+    "？？？": "???",
+    "神秘的刺客": "Mysterious Assassin",
+    "博士": "Doctor",
+    "凯尔希": "Kal'tsit",
+    "特蕾西娅": "Theresa",
+    "奥达": "Odda",
+    "“疤眼”": "Scareye"
+  },
+  "segment": {
+    "ordinals": [
+      121,
+      160
+    ],
+    "source_lines": [
+      330,
+      332,
+      334,
+      335,
+      337,
+      339,
+      340,
+      342,
+      343,
+      345,
+      347,
+      349,
+      350,
+      352,
+      354,
+      356,
+      366,
+      369,
+      375,
+      377,
+      378,
+      380,
+      382,
+      384,
+      387,
+      389,
+      400,
+      401,
+      403,
+      417,
+      424,
+      425,
+      427,
+      429,
+      430,
+      431,
+      432,
+      462,
+      463,
+      465
+    ],
+    "text_positions": 40,
+    "named": 35,
+    "multiline": 0,
+    "narration": 5,
+    "subtitles": 0,
+    "stickers": 0,
+    "next_ordinal": 161,
+    "next_source_line": 467,
+    "cn_en_line_alignment": true,
+    "cn_en_text_type_alignment": true,
+    "cn_en_speaker_tags_align": true,
+    "cn_en_markup_alignment": false,
+    "cn_en_control_commands_match_exactly": false,
+    "cn_en_control_command_difference_source_lines": [
+      435,
+      459
+    ]
+  },
+  "documented_markup_differences": [
+    {
+      "ordinal": 157,
+      "source_line": 432,
+      "cn": "CN places quotation marks around «适当»; there is no corresponding HTML emphasis tag.",
+      "en": "EN uses <i>suitable</i> (italic markup) rather than quotation marks.",
+      "resolution": "Russian retains CN's quoted emphasis («подходящим»); the EN-only italic tag is not copied."
+    }
+  ],
+  "documented_meaning_differences": [
+    {
+      "ordinal": 19,
+      "source_line": 49,
+      "cn": "CN says «占领卡兹戴尔» (occupy Kazdel).",
+      "en": "EN says «take back Kazdel» (retake Kazdel).",
+      "resolution": "Russian follows the more literal CN wording with «захватить Каздель»."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 53,
+      "cn": "CN says Julie has hardly met any Felines.",
+      "en": "EN adds «who can do that», which is not present in CN.",
+      "resolution": "Russian follows CN and does not add the English qualification."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 65,
+      "cn": "CN says Ascalon does not want Julie and Her Highness to meet; it gives no explicit time qualifier.",
+      "en": "EN adds «at this moment».",
+      "resolution": "Russian follows CN and omits the added time qualifier."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 86,
+      "cn": "CN says Julie appreciates Ascalon coming to see her off.",
+      "en": "EN reframes the line as not minding that Ascalon gives her the clothes.",
+      "resolution": "Russian follows CN's farewell meaning."
+    },
+    {
+      "ordinal": 57,
+      "source_line": 116,
+      "cn": "CN compares Julie's unfamiliarity to not recognizing a shadow and another self.",
+      "en": "EN replaces the image with an unfamiliar reflection in a mirror.",
+      "resolution": "Russian keeps the CN image of a shadow and another self."
+    },
+    {
+      "ordinal": 61,
+      "source_line": 134,
+      "cn": "CN says the group is preparing to operate in Kazdel.",
+      "en": "EN says the squad is heading off to Kazdel.",
+      "resolution": "Russian follows CN's wording about operating in Kazdel."
+    },
+    {
+      "ordinal": 65,
+      "source_line": 163,
+      "cn": "CN says the wounded assassin might not beat even a sturdy ordinary person.",
+      "en": "EN narrows this to a civilian.",
+      "resolution": "Russian follows the broader CN wording."
+    },
+    {
+      "ordinal": 69,
+      "source_line": 171,
+      "cn": "CN literally says Julie killed them all.",
+      "en": "EN uses the idiom 'As a doornail'.",
+      "resolution": "Russian follows CN: «Всех перебила»."
+    },
+    {
+      "ordinal": 71,
+      "source_line": 175,
+      "cn": "CN uses 同胞, meaning compatriot or fellow member of the same people.",
+      "en": "EN uses 'my friend'.",
+      "resolution": "Russian uses «сородич», following the CN kinship meaning."
+    },
+    {
+      "ordinal": 77,
+      "source_line": 200,
+      "cn": "CN explicitly characterizes the assassin's laughter as the laughter of release or relief.",
+      "en": "EN says only that the assassin laughs.",
+      "resolution": "Russian preserves the relief nuance present in CN."
+    },
+    {
+      "ordinal": 80,
+      "source_line": 203,
+      "cn": "CN says his portrait circulated in an illustrated album of anecdotes.",
+      "en": "EN calls it the Scar Market's book of bounties.",
+      "resolution": "Russian follows the CN image of an illustrated collection of stories."
+    },
+    {
+      "ordinal": 83,
+      "source_line": 207,
+      "cn": "CN asks whether the masked death-soldiers, like the wounded assassin, enjoy self-mutilation (自残); it does not specifically mention cutting off horns.",
+      "en": "EN narrows the question to whether they like chopping their horns off.",
+      "resolution": "Russian follows the broader CN wording: «калечить себя»."
+    },
+    {
+      "ordinal": 84,
+      "source_line": 208,
+      "cn": "CN uses «魔王» (Demon King) alongside «六英雄» (Six Heroes).",
+      "en": "EN renders the title as «King of Sarkaz».",
+      "resolution": "Russian uses the established project glossary form «Король Сарказов» for this title; the term mapping is documented."
+    },
+    {
+      "ordinal": 89,
+      "source_line": 225,
+      "cn": "CN says Julie and her companions pile the assassins' corpses together and set them all alight.",
+      "en": "EN adds the image of a «grisly pyramid».",
+      "resolution": "Russian follows CN and does not add a pyramid."
+    },
+    {
+      "ordinal": 97,
+      "source_line": 249,
+      "cn": "CN says only some Royal Court members of the Military Commission remain stationed in Kazdel; Theresis has almost abandoned the city.",
+      "en": "EN expands this to Royal Court factions aligned with the Military Commission overseeing the city.",
+      "resolution": "Russian follows the narrower CN statement."
+    },
+    {
+      "ordinal": 103,
+      "source_line": 287,
+      "cn": "CN says Theresa will remain aboard the ship and that a suitable force will guard it under the Doctor's command.",
+      "en": "EN adds that Theresa remains aboard «to balance the situation».",
+      "resolution": "Russian omits the added rationale and follows CN."
+    },
+    {
+      "ordinal": 106,
+      "source_line": 290,
+      "cn": "CN names the «议事厅» (council chamber) and uses singular «月亮» (moon).",
+      "en": "EN calls it the Royal Court's chamber and uses plural «moons».",
+      "resolution": "Russian follows CN: «зал совета» and singular «луна»."
+    },
+    {
+      "ordinal": 123,
+      "source_line": 334,
+      "cn": "CN quotes «魔王» (Demon King) when describing the Sarkaz rising against their ruler.",
+      "en": "EN renders the title as «their King» without the same quoted title.",
+      "resolution": "Russian follows the CN quoted title using the established project glossary form «Король Сарказов»."
+    },
+    {
+      "ordinal": 134,
+      "source_line": 352,
+      "cn": "CN says the situation makes Theresa seem too cunning or sly toward the Doctor because he has fought for Babel without ever setting foot in the homeland they speak of.",
+      "en": "EN reframes the thought as Theresa not having been a very good host in their arrangement.",
+      "resolution": "Russian follows CN's self-characterization: «я поступила с тобой слишком хитро»."
+    },
+    {
+      "ordinal": 135,
+      "source_line": 354,
+      "cn": "CN invites the Doctor to witness the light and heat the Soul Furnace brings to Kazdel, then says the city is built on pain and they greedily want a stable tomorrow.",
+      "en": "EN adds the explanatory link «you might see why» and describes their desire as a peaceful tomorrow.",
+      "resolution": "Russian follows CN's direct invitation and its image of a stable tomorrow."
+    },
+    {
+      "ordinal": 145,
+      "source_line": 387,
+      "cn": "CN says finding the mercenaries' leader may provide a clue.",
+      "en": "EN adds that Odda cannot guarantee the leader will have the answers they need.",
+      "resolution": "Russian follows CN and does not add the English reservation."
+    },
+    {
+      "ordinal": 153,
+      "source_line": 427,
+      "cn": "CN says Ascalon thought they had followed the Regent and were hiding in Londinium, afraid to show themselves.",
+      "en": "EN adds the explicit simile «like a coward».",
+      "resolution": "Russian follows CN and omits the added insult."
+    },
+    {
+      "ordinal": 157,
+      "source_line": 432,
+      "cn": "CN says Scareye helps everyone assess the prospects of this order in an «appropriate» manner, then says the Scar Market never does loss-making business.",
+      "en": "EN expands the wording to a list of jobs and says the Scar Market never makes wrong investment decisions; it also uses italic markup for suitable.",
+      "resolution": "Russian follows CN's singular order and loss-making-business wording; CN quotation emphasis is retained."
+    }
+  ],
+  "documented_control_command_differences": [
+    {
+      "source_line": 435,
+      "cn": "[charslot(slot = \"l\", name = \"avg_4132_ascln_1#4$1\", posfrom=\"1200,0\", posto=\"400,0\", afrom = 0, ato = 1, duration=0.1, isblock=true,isCopy=true)]",
+      "en": "[charslot(slot = \"l\", name = \"avg_4132_ascln_1#4$1\", posfrom=\"1200,0\", posto=\"400,0\", afrom = 0, ato = 1, duration=0.1, isblock=true)]",
+      "resolution": "Preserve the CN isCopy=true attribute; CN is primary."
+    },
+    {
+      "source_line": 459,
+      "cn": "[charslot(slot = \"l\", name = \"avg_4132_ascln_1#4$1\", posfrom=\"340,0\", posto=\"600,0\", afrom=1, ato=0, duration=0.5, isblock=true,isCopy=true)]",
+      "en": "[charslot(slot = \"l\", name = \"avg_4132_ascln_1#4$1\", posfrom=\"340,0\", posto=\"600,0\", afrom=1, ato=0, duration=0.5, isblock=true)]",
+      "resolution": "Preserve the CN isCopy=true attribute; CN is primary."
+    }
+  ],
+  "documented_multiline_text_differences": [
+    {
+      "ordinal": 165,
+      "source_line": 477,
+      "cn_payload": "滋——呃——阿斯卡纶小姐，镇上——",
+      "en_payload": "*Bzzzzz*—Ugh—Ascalon, the town—",
+      "resolution": "The speaker and multiline tag align; the localized payloads differ as expected. Translate these positions in their later ordinal segment."
+    },
+    {
+      "ordinal": 166,
+      "source_line": 480,
+      "cn_payload": "滋——还有埋伏！",
+      "en_payload": "*Bzzzz*—Another ambush!",
+      "resolution": "The speaker and multiline tag align; the localized payloads differ as expected. Translate these positions in their later ordinal segment."
+    }
+  ],
+  "notes": [
+    "Full source: 594 CN logical lines; EN has 595 split lines because of one additional terminal newline. Both contain 200 text positions (158 named, 40 narration, two multiline) and 394 control commands.",
+    "CN and EN text positions, types and mapped speaker tags align throughout. EN has one additional terminal newline.",
+    "Two CN commands at lines 435 and 459 include isCopy=true, which EN omits; preserve the CN attributes. Both differences fall within the v3.18 segment.",
+    "At ordinal 157 (source line 432), CN quotation emphasis around 适当 differs from EN italic markup around suitable; Russian retains CN quotation emphasis.",
+    "Multiline positions 165 and 166 are at physical source lines 477 and 480. They remain untranslated.",
+    "This update translates positions 121–160, source lines 330–465; the previous 120 positions are unchanged.",
+    "New semantic differences at ordinals 123, 134, 135, 145, 153 and 157 are documented; Russian follows CN, with the established glossary mapping for 魔王.",
+    "No complete CN/EN source scripts or game data are stored in the repository.",
+    "The scene remains partial at 160/200; no literary review or Yostar Global PC in-game validation has been performed."
+  ],
+  "scene_complete": false,
+  "game_behavior_verified": false
+}
