@@ -50,10 +50,10 @@ class TestMainStory612AfterV178(unittest.TestCase):
         self.assertTrue(AUDIT["decision_values_and_predicate_references_match"])
 
     def test_placeholders_and_no_untranslated_cjk(self):
-        text = "\\n".join(x["text_ru"] for x in TRANSLATION["dialogues"])
-        text += "\\n" + "\\n".join(y for d in TRANSLATION["decision_options_ru"] for y in d["options_ru"])
+        text = "\n".join(x["text_ru"] for x in TRANSLATION["dialogues"])
+        text += "\n" + "\n".join(y for d in TRANSLATION["decision_options_ru"] for y in d["options_ru"])
         self.assertEqual(text.count("{@nickname}"), 2)
-        self.assertIsNone(re.search(r"[\\u3400-\\u9fff]", text))
+        self.assertIsNone(re.search(r"[\u3400-\u9fff]", text))
         self.assertFalse(any(not x["text_ru"].strip() for x in TRANSLATION["dialogues"]))
 
     def test_selection_contains_scene_and_counts(self):
@@ -67,9 +67,9 @@ class TestMainStory612AfterV178(unittest.TestCase):
         self.assertEqual(SELECTION["summary"]["total_dialogue_entries"], 8558)
 
     def test_chapter_index_and_chronology(self):
-        rows = [line for line in INDEX.splitlines() if line.startswith("level_main_06-12_end.txt\\t")]
+        rows = [line for line in INDEX.splitlines() if line.startswith("level_main_06-12_end.txt\t")]
         self.assertEqual(len(rows), 1)
-        self.assertIn("first_draft_complete\\t163\\t0\\t163", rows[0])
+        self.assertIn("first_draft_complete\t163\t0\t163", rows[0])
         self.assertEqual(MANIFEST["version"], "v3.38")
         self.assertEqual(MANIFEST["next_file"], "obt/main/level_main_06-13_beg.txt")
         self.assertEqual(MANIFEST["translation_integrity"]["main_story_files"], 117)
