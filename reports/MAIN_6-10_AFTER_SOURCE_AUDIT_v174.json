@@ -60,7 +60,7 @@
     {
       "ordinal": 49,
       "cn": "CN asks whether Sergei repented while being killed; EN calls it a heartfelt confession.",
-      "decision": "RU follows CN: 'исповедовался перед тобой?'."
+      "decision": "RU follows CN: 'Когда ты убивала Сергея, он раскаялся?' rather than EN's more specific 'heartfelt confession'."
     },
     {
       "ordinal": 71,
