@@ -1,0 +1,1238 @@
+{
+  "version": "v1.78",
+  "stage": "Main story 6-12 after battle",
+  "status": "COMPLETE_FIRST_DRAFT; STRUCTURAL_AUDIT_PASSED; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_main_06-12_end.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "68639fdcc567ae79289307d5c9a9a7faf64e10a4",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "d3aa2303aea8ec614f3fde6c9a739211a0971e73",
+    "version_difference": "CN has 316 physical lines; EN has 317 because of one extra terminal newline. All 163 named dialogue positions and 153 command lines align by physical line. Six language-specific Decision option payloads differ; values and Predicate references match exactly. CN is primary for meaning; EN Yostar is the name and structure cross-check."
+  },
+  "progress": {
+    "translated": 163,
+    "total": 163,
+    "remaining": 0,
+    "next_ordinal": null,
+    "next_source_line": null,
+    "complete": true,
+    "unit": "named dialogue positions; Decision option payloads tracked separately"
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 6,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Йети… Неужели йети…"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 7,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "…Как же жаль. И правда, все они погибли здесь, в Лунмэне. У заражённых стало на одну надежду и одну легенду меньше."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 8,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Уходим скорее. Люди из Управления охраны уже близко."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 10,
+      "kind": "named",
+      "speaker_cn": "九",
+      "text_ru": "Знаю."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 12,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "…У тебя какой-то странный взгляд."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 13,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Честно говоря, я всё время подозревал, что ты работаешь на Лунмэнь под прикрытием."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 15,
+      "kind": "named",
+      "speaker_cn": "九",
+      "text_ru": "А теперь?"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 17,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Всё равно никто бы мне не поверил."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_cn": "九",
+      "text_ru": "Настоящая шпионка убила бы тебя, чтобы ты не разболтал лишнего."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 21,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Меня, если честно, не пугает, что ты можешь меня убить. Посмотри, что стало с Лунмэнем. Даже если ты из Лунмэня, тебе уже не вернуться."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 22,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Тебе там пришлось бы ещё хуже, чем нам."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 24,
+      "kind": "named",
+      "speaker_cn": "九",
+      "text_ru": "…Вот поэтому я и не шпионка. Теперь я уже никто."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "Что ты делаешь? О, цветы распускаются?"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 27,
+      "kind": "named",
+      "speaker_cn": "整合运动成员",
+      "text_ru": "О-о, это твоё Искусство? Красиво."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_cn": "九",
+      "text_ru": "Кто-то ведь должен выразить им хоть немного уважения."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 36,
+      "kind": "named",
+      "speaker_cn": "监察司",
+      "text_ru": "Ну и копуши… Сколько же времени вы на это потратили."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "По-моему, всё прошло отлично. За то, что за один день вы уничтожили всех бойцов Воссоединения в Лунмэне, я ставлю высший балл."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 40,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Вэй Яньу — человек выдающийся."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 42,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Тайхэ, ты слышал тот слух?"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 44,
+      "kind": "named",
+      "speaker_cn": "监察司",
+      "text_ru": "Ты о происхождении Вэй Яньу?"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 46,
+      "kind": "named",
+      "speaker_cn": "太合",
+      "text_ru": "Не стоит обсуждать дела вышестоящих."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 48,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Прошу прощения. Но как мастерство чёрных дождевиков соотносится с нынешней Императорской гвардией?"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 50,
+      "kind": "named",
+      "speaker_cn": "监察司",
+      "text_ru": "Хм. Ты слишком высокого мнения о них. Не спорю, у них есть выдающиеся способности…"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 52,
+      "kind": "named",
+      "speaker_cn": "太合",
+      "text_ru": "Берегись!"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 54,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Ах вы мерзавцы!!"
+    },
+    {
+      "ordinal": 26,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_cn": "监察司",
+      "text_ru": "— Заражённый?"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Кх!"
+    },
+    {
+      "ordinal": 28,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "— Проволока?!"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 69,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Ты ведь не собираешься меня по-настоящему убивать, верно? Ты мог бы применить Искусства."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Я слышала, что мужчины, которые используют проволоку как оружие, все до единого психопаты."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Да, такое о нас говорят…"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 75,
+      "kind": "named",
+      "speaker_cn": "监察司",
+      "text_ru": "Заражённая, не мешай исполнению служебных обязанностей. Смотри, как бы я не расправился и с тобой."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Если на поле боя убивают вооружённых людей без опознавательных знаков, тут уж некого винить, верно?"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 79,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Мы, в свою очередь, можем обвинить тебя в связях с Воссоединением."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 84,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "У вас нет полномочий расследовать дела моего партнёра."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 86,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Но нам уже известно, что в порту Лунмэня стоит корабль, принадлежащий «специалисту по борьбе с заражением», суперинтендант Чэнь. И это единственная причина, по которой госпожа Блейз до сих пор не пострадала."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 88,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "И долго ещё вы собираетесь смотреть? Сколько раз ещё будете оценивать, как жители Лунмэня рискуют жизнью?"
+    },
+    {
+      "ordinal": 38,
+      "source_line": 90,
+      "kind": "named",
+      "speaker_cn": "监察司",
+      "text_ru": "Следи за тоном. Оценку способности Лунмэня контролировать риски мы проводим именно потому, что дорожим вами."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 92,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Тогда прошу прощения. Скажу иначе."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Ну как вам наш фарс, господа? Получили удовольствие?"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 96,
+      "kind": "named",
+      "speaker_cn": "监察司",
+      "text_ru": "Ц."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 98,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Блейз, хватит. Эти трое высокопоставленных господ — не те, кому нам с тобой следует прислуживать. Да и люди в дождевиках, похоже, им не спутники."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 100,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Прошу прощения, госпожа Блейз. Надеюсь, я не доставил вам неудобств."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 102,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "…Ты довольно вежлив. Но мне очень не нравится твой тон."
+    },
+    {
+      "ordinal": 45,
+      "source_line": 104,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "У тебя настоящий яньский акцент."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 105,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Ты и правда многое унаследовала от отца. Только теперь ты всего лишь заражённая. Путь перед тобой будет трудным и коротким."
+    },
+    {
+      "ordinal": 47,
+      "source_line": 107,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "…Ты…?"
+    },
+    {
+      "ordinal": 48,
+      "source_line": 109,
+      "kind": "named",
+      "speaker_cn": "太合",
+      "text_ru": "Идём."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 111,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "До встречи, госпожа Блейз, суперинтендант Чэнь."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 114,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Постой! Что ты сейчас сказал о моём отце?!"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 115,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Стой!"
+    },
+    {
+      "ordinal": 52,
+      "source_line": 117,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Блейз!"
+    },
+    {
+      "ordinal": 53,
+      "source_line": 119,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 54,
+      "source_line": 121,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Не забывай о задании!"
+    },
+    {
+      "ordinal": 55,
+      "source_line": 123,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Знаю."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 125,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Офицер Чэнь."
+    },
+    {
+      "ordinal": 57,
+      "source_line": 127,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Мы не обнаружили следов командиров противника."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 129,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Кого именно?"
+    },
+    {
+      "ordinal": 59,
+      "source_line": 131,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Нам известен только Мефисто."
+    },
+    {
+      "ordinal": 60,
+      "source_line": 133,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Дальнейшую погоню мы, «Родос Айленд», возьмём на себя."
+    },
+    {
+      "ordinal": 61,
+      "source_line": 135,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Не торопитесь. По сути, сражение уже закончилось."
+    },
+    {
+      "ordinal": 62,
+      "source_line": 137,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Но за все его злодеяния… он должен заплатить."
+    },
+    {
+      "ordinal": 63,
+      "source_line": 139,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Тогда полагаюсь на вас."
+    },
+    {
+      "ordinal": 64,
+      "source_line": 140,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Тогда разойдёмся. Мне нужно лично кое в чём убедиться."
+    },
+    {
+      "ordinal": 65,
+      "source_line": 142,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Эй, офицер Управления охраны."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 144,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Что такое?"
+    },
+    {
+      "ordinal": 67,
+      "source_line": 146,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "…Спасибо за помощь."
+    },
+    {
+      "ordinal": 68,
+      "source_line": 147,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Больше ничего."
+    },
+    {
+      "ordinal": 69,
+      "source_line": 149,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Хм, взаимно."
+    },
+    {
+      "ordinal": 70,
+      "source_line": 155,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Почему ты решила действовать именно в тот момент? Блейз… ты не из тех, кто допускает ошибки в такие минуты."
+    },
+    {
+      "ordinal": 71,
+      "source_line": 157,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Во-первых, я и правда разозлилась…"
+    },
+    {
+      "ordinal": 72,
+      "source_line": 158,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Во-вторых, я сразу поняла, что та офицерша из Управления охраны, Чэнь, тоже вот-вот взорвётся."
+    },
+    {
+      "ordinal": 73,
+      "source_line": 160,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Мы ведь не могли понять, у какой из двух сторон больше права голоса."
+    },
+    {
+      "ordinal": 74,
+      "source_line": 162,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Вот я и выбрала ту, которая мне больше по душе."
+    },
+    {
+      "ordinal": 75,
+      "source_line": 163,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Извини. Больше не повторится."
+    },
+    {
+      "ordinal": 76,
+      "source_line": 165,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…Нет, Блейз. Это я должна так говорить. Я хочу сказать: «Больше не повторится»."
+    },
+    {
+      "ordinal": 77,
+      "source_line": 166,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Но я не смею так говорить. Не смею… не смею этого обещать."
+    },
+    {
+      "ordinal": 78,
+      "source_line": 167,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Йети…"
+    },
+    {
+      "ordinal": 79,
+      "source_line": 169,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 80,
+      "source_line": 170,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Глупая зайка."
+    },
+    {
+      "ordinal": 81,
+      "source_line": 172,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Эй, не трепли мне волосы — я так не вырасту…"
+    },
+    {
+      "ordinal": 82,
+      "source_line": 173,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…Только не слишком долго."
+    },
+    {
+      "ordinal": 83,
+      "source_line": 175,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Знаю, знаю."
+    },
+    {
+      "ordinal": 84,
+      "source_line": 180,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Как себя чувствуешь?"
+    },
+    {
+      "ordinal": 85,
+      "source_line": 186,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Просто проходила мимо."
+    },
+    {
+      "ordinal": 86,
+      "source_line": 187,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ваши эмоции заметно колеблются. Похоже, в руинах Чернобога вы успели сблизиться с этим отрядом Воссоединения сильнее, чем я предполагала."
+    },
+    {
+      "ordinal": 87,
+      "source_line": 188,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Насколько я могу судить, командир этого отряда в сражении не участвовал."
+    },
+    {
+      "ordinal": 88,
+      "source_line": 191,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Лунмэнь больше не станет следить за заражёнными. Но взгляд «Родоса Айленд» охватывает куда больше, чем один город."
+    },
+    {
+      "ordinal": 89,
+      "source_line": 192,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Лунмэнь не станет вмешиваться в то, что произойдёт дальше. И вы тоже можете отказаться от участия."
+    },
+    {
+      "ordinal": 90,
+      "source_line": 193,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…Но вы всё равно вмешаетесь. Будь то заражённый под кодовым именем «Мефисто» или заражённая под кодовым именем «ФростНова»."
+    },
+    {
+      "ordinal": 91,
+      "source_line": 196,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "У меня свои дела."
+    },
+    {
+      "ordinal": 92,
+      "source_line": 197,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "И ещё, Доктор {@nickname}…"
+    },
+    {
+      "ordinal": 93,
+      "source_line": 198,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Не смотри на меня так."
+    },
+    {
+      "ordinal": 94,
+      "source_line": 201,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Но между нами с тобой доверие не нужно."
+    },
+    {
+      "ordinal": 95,
+      "source_line": 202,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Тебе нужно заслужить доверие операторов «Родоса Айленд», а не моё."
+    },
+    {
+      "ordinal": 96,
+      "source_line": 203,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "— Я слишком хорошо тебя знаю, поэтому не стану тебе доверять. Так же, как и ты в прошлом не доверял мне."
+    },
+    {
+      "ordinal": 97,
+      "source_line": 206,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 98,
+      "source_line": 207,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Да."
+    },
+    {
+      "ordinal": 99,
+      "source_line": 208,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 100,
+      "source_line": 209,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Я оговорилась. Не обращай внимания на мои предыдущие слова."
+    },
+    {
+      "ordinal": 101,
+      "source_line": 210,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Будь осторожен в дальнейших действиях. Только по-настоящему опасный командир способен обучить отряд заражённых, который сражается насмерть, не отступая ни на шаг."
+    },
+    {
+      "ordinal": 102,
+      "source_line": 211,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Разумеется, решать вам, хотите ли вы увидеть всё до конца."
+    },
+    {
+      "ordinal": 103,
+      "source_line": 212,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "И поберегите силы. Позже времени на отдых может не остаться."
+    },
+    {
+      "ordinal": 104,
+      "source_line": 215,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Всё не так просто. По крайней мере, я так считаю."
+    },
+    {
+      "ordinal": 105,
+      "source_line": 216,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Доктор {@nickname}, теперь только тебе решать, возьмёшь ли ты на себя ответственность за «Родос Айленд»…"
+    },
+    {
+      "ordinal": 106,
+      "source_line": 217,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…«Станешь ли ты человеком, достойным доверия операторов „Родоса Айленд“»."
+    },
+    {
+      "ordinal": 107,
+      "source_line": 224,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "А, госпожа ФростНова, вы очнулись…"
+    },
+    {
+      "ordinal": 108,
+      "source_line": 225,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "…Не спешите! Я помогу вам."
+    },
+    {
+      "ordinal": 109,
+      "source_line": 227,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Всё в порядке. Не нужно… так церемониться."
+    },
+    {
+      "ordinal": 110,
+      "source_line": 229,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "—"
+    },
+    {
+      "ordinal": 111,
+      "source_line": 230,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Куда вы собрались? Вам нельзя возвращаться."
+    },
+    {
+      "ordinal": 112,
+      "source_line": 232,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 113,
+      "source_line": 233,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Значит, мои братья и сёстры…"
+    },
+    {
+      "ordinal": 114,
+      "source_line": 235,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "…Но вам нельзя возвращаться!"
+    },
+    {
+      "ordinal": 115,
+      "source_line": 236,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Они ведь ради вас…"
+    },
+    {
+      "ordinal": 116,
+      "source_line": 238,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Не смей оскорблять мой отряд!"
+    },
+    {
+      "ordinal": 117,
+      "source_line": 240,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Ах!"
+    },
+    {
+      "ordinal": 118,
+      "source_line": 242,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Они и правда… кх, заботились обо мне."
+    },
+    {
+      "ordinal": 119,
+      "source_line": 243,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Но они героически отдали жизни ради всех заражённых!"
+    },
+    {
+      "ordinal": 120,
+      "source_line": 244,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "В своём последнем бою они сражались, чтобы выжило как можно больше наших сородичей, а не ради жизни одного человека!"
+    },
+    {
+      "ordinal": 121,
+      "source_line": 245,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Кх… Кх-кх… Кх…"
+    },
+    {
+      "ordinal": 122,
+      "source_line": 246,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Кх… Ах… Ух…"
+    },
+    {
+      "ordinal": 123,
+      "source_line": 248,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Госпожа ФростНова, вы…"
+    },
+    {
+      "ordinal": 124,
+      "source_line": 250,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Ты невольно назвал меня госпожой, потому что я теперь кажусь тебе слабой?"
+    },
+    {
+      "ordinal": 125,
+      "source_line": 252,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "…!"
+    },
+    {
+      "ordinal": 126,
+      "source_line": 253,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Простите!"
+    },
+    {
+      "ordinal": 127,
+      "source_line": 254,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Просто они и правда доверили тебя нам."
+    },
+    {
+      "ordinal": 128,
+      "source_line": 256,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Но я потеряла их, так и не успев выполнить обещанное им."
+    },
+    {
+      "ordinal": 129,
+      "source_line": 257,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "У меня даже не осталось возможности отплатить им."
+    },
+    {
+      "ordinal": 130,
+      "source_line": 259,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "ФростНова…"
+    },
+    {
+      "ordinal": 131,
+      "source_line": 261,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…Тот, у стены."
+    },
+    {
+      "ordinal": 132,
+      "source_line": 262,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Мефисто."
+    },
+    {
+      "ordinal": 133,
+      "source_line": 263,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Он всё ещё не пришёл в себя?"
+    },
+    {
+      "ordinal": 134,
+      "source_line": 265,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Не знаем. Он всё время такой: ничего не говорит и ничего не делает."
+    },
+    {
+      "ordinal": 135,
+      "source_line": 267,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 136,
+      "source_line": 268,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Отвезите его обратно. Этого достаточно."
+    },
+    {
+      "ordinal": 137,
+      "source_line": 270,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Понял. Фух, а я уж думал…"
+    },
+    {
+      "ordinal": 138,
+      "source_line": 272,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Что ты думал?"
+    },
+    {
+      "ordinal": 139,
+      "source_line": 274,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Что ты его убьёшь."
+    },
+    {
+      "ordinal": 140,
+      "source_line": 276,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Мне уже не нужно делать это самой. Кажется, я догадалась, что произошло за пределами трущоб."
+    },
+    {
+      "ordinal": 141,
+      "source_line": 277,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Такой взгляд бывает лишь у человека, потерявшего всякую надежду."
+    },
+    {
+      "ordinal": 142,
+      "source_line": 279,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "А…?"
+    },
+    {
+      "ordinal": 143,
+      "source_line": 281,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…И ещё… иногда…"
+    },
+    {
+      "ordinal": 144,
+      "source_line": 282,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Я вдруг вспоминаю, как три-четыре года назад он изо всех сил пытался научиться петь."
+    },
+    {
+      "ordinal": 145,
+      "source_line": 284,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Он умеет петь? Но Фауст говорил, что у него с голосом…"
+    },
+    {
+      "ordinal": 146,
+      "source_line": 286,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Он старался."
+    },
+    {
+      "ordinal": 147,
+      "source_line": 287,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Как и мы, заражённые: пусть в конце концов орипатия и отнимет у нас жизнь…"
+    },
+    {
+      "ordinal": 148,
+      "source_line": 288,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…мы всё равно изо всех сил стараемся жить."
+    },
+    {
+      "ordinal": 149,
+      "source_line": 289,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Пусть оставшаяся ему жизнь и дальше будет для него наказанием."
+    },
+    {
+      "ordinal": 150,
+      "source_line": 291,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Скажи, Призрачный арбалетчик, «Родос Айленд» участвовал в недавнем сражении?"
+    },
+    {
+      "ordinal": 151,
+      "source_line": 293,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Вы имеете в виду…?"
+    },
+    {
+      "ordinal": 152,
+      "source_line": 294,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "…Нет. Насколько я знаю, нет. Они не сражались с йети."
+    },
+    {
+      "ordinal": 153,
+      "source_line": 296,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…Какая наивность."
+    },
+    {
+      "ordinal": 154,
+      "source_line": 298,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Вы и правда останетесь?"
+    },
+    {
+      "ordinal": 155,
+      "source_line": 299,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Они могут и не продолжить преследование, ФростНова. Не тратьте здесь остаток жизни."
+    },
+    {
+      "ordinal": 156,
+      "source_line": 301,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "В руинах я познакомилась с несколькими людьми. И теперь хочу увидеть их ещё раз."
+    },
+    {
+      "ordinal": 157,
+      "source_line": 302,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "В конце концов, я дала им обещание."
+    },
+    {
+      "ordinal": 158,
+      "source_line": 303,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "И я знаю, что они обязательно придут."
+    },
+    {
+      "ordinal": 159,
+      "source_line": 305,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "ФростНова…"
+    },
+    {
+      "ordinal": 160,
+      "source_line": 309,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Иди, товарищ."
+    },
+    {
+      "ordinal": 161,
+      "source_line": 310,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "В этом сражении Воссоединение потерпело поражение. Возможно, Воссоединение и правда ошибалось."
+    },
+    {
+      "ordinal": 162,
+      "source_line": 311,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Но вы ещё нет. У вас всё ещё есть выбор и возможность поступить иначе."
+    },
+    {
+      "ordinal": 163,
+      "source_line": 312,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Иди. Не оглядывайся."
+    }
+  ],
+  "decision_options_ru": [
+    {
+      "source_line": 181,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "Это ты.",
+        "…",
+        "Что тебе нужно?"
+      ]
+    },
+    {
+      "source_line": 189,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Ты хочешь сказать…"
+      ]
+    },
+    {
+      "source_line": 194,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Куда ты направляешься?"
+      ]
+    },
+    {
+      "source_line": 199,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "Хватит ходить вокруг да около.",
+        "…",
+        "Амия сказала, что «Родосу Айленд» нужны доверительные отношения."
+      ]
+    },
+    {
+      "source_line": 204,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "Откуда мне знать, что было раньше?",
+        "В прошлом?",
+        "Что я могу сделать сейчас?"
+      ]
+    },
+    {
+      "source_line": 213,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Битва за Лунмэнь уже закончилась."
+      ]
+    }
+  ],
+  "header_title_ru": "Этап 2 (после боя)",
+  "translation_revision": "v1.78",
+  "notes_v178": "Complete first Russian draft: 163/163 named dialogue positions and all 12 options across six Decision commands. No unnamed text positions. The 153 non-dialogue command lines, all six Predicate references and all Decision values are preserved. CN is primary; EN Yostar is used to cross-check names and structure. The two Dr.{@nickname} placeholders are retained. The source HEADER is 第二关（后） and is rendered as «Этап 2 (после боя)». No full CN/EN scripts are stored. Literary review and Yostar Global PC validation remain pending."
+}
