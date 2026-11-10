@@ -27,8 +27,8 @@
     "en_subtitle": 0,
     "cn_sticker": 0,
     "en_sticker": 0,
-    "cn_control_commands": 360,
-    "en_control_commands": 360,
+    "cn_control_commands": 235,
+    "en_control_commands": 235,
     "decisions": 0
   },
   "alignment": {
@@ -128,7 +128,7 @@
   ],
   "notes": [
     "CN is the primary semantic source. EN Yostar is used for names, structure and formatting cross-checks.",
-    "All 360 control-command lines match exactly; no source commands or branching syntax are included in the translation overlay.",
+    "All 235 control-command lines match exactly; no source commands or branching syntax are included in the translation overlay.",
     "No complete CN/EN script or game data is stored in this repository.",
     "The translation is a partial first draft only. Literary review and Yostar Global PC validation have not been performed."
   ]
