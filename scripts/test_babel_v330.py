@@ -52,7 +52,10 @@ class BabelST03V330(unittest.TestCase):
         self.assertEqual(by[119]["text_ru"], "…{@nickname}.")
         self.assertIn("открытый замысел", by[104]["text_ru"])
         self.assertIn("невозможно избежать", by[104]["text_ru"])
-        self.assertIn("Амией", by[86]["text_ru"])\n        self.assertIn("не смогу выпить столько", by[35]["text_ru"])\n        self.assertIn("я рада нашей встрече", by[111]["text_ru"])\n        self.assertEqual(by[112]["text_ru"], "Мне тоже приятно встретиться с тобой, Терезия.")
+        self.assertIn("Амией", by[86]["text_ru"])
+        self.assertIn("не смогу выпить столько", by[35]["text_ru"])
+        self.assertIn("я рада нашей встрече", by[111]["text_ru"])
+        self.assertEqual(by[112]["text_ru"], "Мне тоже приятно встретиться с тобой, Терезия.")
 
     def test_source_hashes_and_structural_alignment(self):
         s, a = self.doc["source"], self.doc["source_alignment"]
