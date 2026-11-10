@@ -35,9 +35,9 @@ class BabelBB8AfterV320(unittest.TestCase):
     def test_translation_text_is_clean(self):
         for entry in self.doc["dialogues"]:
             self.assertTrue(entry["text_ru"].strip())
-            self.assertFalse(re.search(r"[\\u3400-\\u9fff]", entry["text_ru"]))
-            self.assertNotIn("\\n", entry["text_ru"])
-            self.assertNotIn("\\r", entry["text_ru"])
+            self.assertFalse(any(0x3400 <= ord(ch) <= 0x9fff for ch in entry["text_ru"]))
+            self.assertNotIn(chr(10), entry["text_ru"])
+            self.assertNotIn(chr(13), entry["text_ru"])
             self.assertEqual(entry["text_ru"].count("«"), entry["text_ru"].count("»"))
 
     def test_speakers_and_cn_primary_choices(self):
