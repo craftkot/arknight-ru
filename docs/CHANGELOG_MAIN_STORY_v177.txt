@@ -1,0 +1,21 @@
+Arknights RU — main story changelog v1.77
+Date: 2026-11-10
+Base main: 09b17146ce84893ee851a8d836804565190e0bc8
+
+Completed first draft: obt/main/level_main_06-11_beg.txt, 180/180 named positions.
+Added 60 Russian dialogue entries (#121–180, source lines 238–363).
+Preserved the previous 120 entries and all three Decision option payloads from v1.76.
+Preserved all three Predicate references and the original 187 command lines.
+
+CN blob: 0986ac67e9b36541dc93f82e53dd687780015d60
+EN Yostar blob: 92b2237c92178fb888e2c6928c6bae6b2a45a0e8
+180/180 named positions and 187/187 command lines align by physical position.
+No full CN/EN scripts were added.
+
+Main story: 116 complete first drafts; no partial scenes.
+Chapter 6: 19 complete files / 2,151 text positions.
+Combined selection: 116 files / 8,395 dialogue entries.
+Historical manifest: 8,396 entries; inherited one-entry difference retained.
+Next source: obt/main/level_main_06-12_end.txt (163 named positions).
+
+First draft only; no literary review or Yostar Global PC in-game validation.

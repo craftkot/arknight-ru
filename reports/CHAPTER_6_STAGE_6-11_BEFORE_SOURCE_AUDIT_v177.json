@@ -1,0 +1,212 @@
+{
+  "version": "v1.77",
+  "scope": "Complete first Russian draft of all 180 named positions in main-story source file level_main_06-11_beg.txt. The final 60 dialogue positions are new in v1.77; the first 120 and all three Decision option payloads are retained from v1.76.",
+  "source": {
+    "file": "obt/main/level_main_06-11_beg.txt",
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "0986ac67e9b36541dc93f82e53dd687780015d60",
+    "cn_physical_lines": 367,
+    "cn_final_newline": false,
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "92b2237c92178fb888e2c6928c6bae6b2a45a0e8",
+    "en_physical_lines": 368,
+    "en_final_newline": true,
+    "full_source_scripts_stored": false
+  },
+  "alignment": {
+    "cn_text_positions": 180,
+    "en_text_positions": 180,
+    "named_positions": 180,
+    "unnamed_positions": 0,
+    "text_line_numbers_match": true,
+    "command_lines_cn": 187,
+    "command_lines_en": 187,
+    "command_line_numbers_match": true,
+    "command_names_and_parameters_match_after_decision_option_normalization": true,
+    "command_counts_cn": {
+      "HEADER": 1,
+      "Dialog": 12,
+      "Character": 131,
+      "Blocker": 21,
+      "Background": 9,
+      "PlayMusic": 1,
+      "playsound": 3,
+      "Delay": 2,
+      "Decision": 3,
+      "Predicate": 3,
+      "Image": 1
+    },
+    "command_counts_en": {
+      "HEADER": 1,
+      "Dialog": 12,
+      "Character": 131,
+      "Blocker": 21,
+      "Background": 9,
+      "PlayMusic": 1,
+      "playsound": 3,
+      "Delay": 2,
+      "Decision": 3,
+      "Predicate": 3,
+      "Image": 1
+    },
+    "decision_commands": 3,
+    "decision_option_total": 3,
+    "predicate_branches": 3,
+    "decision_values_and_predicate_references_match": true,
+    "decision_option_payloads_differ_by_language": true,
+    "full_file_command_mismatches": [],
+    "translated_range": {
+      "first_ordinal": 1,
+      "last_ordinal": 180,
+      "source_line_start": 9,
+      "source_line_end": 363,
+      "translated_positions": 180,
+      "remaining_positions": 0,
+      "newly_translated_positions": 60,
+      "new_range_first_ordinal": 121,
+      "new_range_last_ordinal": 180,
+      "new_range_source_line_start": 238,
+      "new_range_source_line_end": 363,
+      "command_lines_cn": 187,
+      "command_lines_en": 187,
+      "command_counts_cn": {
+        "HEADER": 1,
+        "Dialog": 12,
+        "Character": 131,
+        "Blocker": 21,
+        "Background": 9,
+        "PlayMusic": 1,
+        "playsound": 3,
+        "Delay": 2,
+        "Decision": 3,
+        "Predicate": 3,
+        "Image": 1
+      },
+      "command_counts_en": {
+        "HEADER": 1,
+        "Dialog": 12,
+        "Character": 131,
+        "Blocker": 21,
+        "Background": 9,
+        "PlayMusic": 1,
+        "playsound": 3,
+        "Delay": 2,
+        "Decision": 3,
+        "Predicate": 3,
+        "Image": 1
+      },
+      "decision_commands": 3,
+      "predicate_branches": 3,
+      "placeholder_count_cn": 0,
+      "placeholder_count_en": 0,
+      "placeholder_count_ru": 0,
+      "inline_markup_tags": 0,
+      "empty_ru_entries": 0,
+      "untranslated_cjk_in_ru": 0,
+      "decision_options_translated": 3,
+      "decision_option_source_lines": [
+        236,
+        240,
+        246
+      ]
+    },
+    "decision_options_ru": [
+      {
+        "source_line": 236,
+        "values": [
+          "1"
+        ],
+        "options_ru": [
+          "Не хочешь смотреть?"
+        ]
+      },
+      {
+        "source_line": 240,
+        "values": [
+          "1"
+        ],
+        "options_ru": [
+          "Но, как тогда, в руинах Чернобога…"
+        ]
+      },
+      {
+        "source_line": 246,
+        "values": [
+          "1"
+        ],
+        "options_ru": [
+          "Вместе."
+        ]
+      }
+    ]
+  },
+  "cn_en_semantic_notes": [
+    {
+      "ordinal": 127,
+      "cn": "原来叫大姊……不是因为年龄才这么叫？",
+      "en": "So we don't call her Big Sister because she's older than us...?",
+      "ru": "Так мы зовём её старшей сестрой… не из-за возраста? Почему я только сейчас об этом узнал.",
+      "note": "Russian retains the CN question about the reason for the title."
+    },
+    {
+      "ordinal": 130,
+      "cn": "我是不是少分你面包了还是没把汤匀给你了",
+      "en": "When you cried out for food, did I feed you or not?",
+      "ru": "Эй, чего огрызаешься? С двух глотков уже опьянел? Когда ты голодал, я разве давал тебе меньше хлеба или не делился супом?!",
+      "note": "CN explicitly mentions bread and sharing soup; EN generalizes the line."
+    },
+    {
+      "ordinal": 131,
+      "cn": "这个是这个，那个是……那个！",
+      "en": "That was then, this is... now!",
+      "ru": "Это одно, а то… совсем другое!",
+      "note": "Russian preserves the fumbling CN contrast rather than importing the EN time contrast."
+    },
+    {
+      "ordinal": 135,
+      "cn": "她看上去量不错，胡闹起来也一定很带劲",
+      "en": "She looked like she'd be able to hold her liquor. She looked like a real good time.",
+      "ru": "Жаль. Похоже, она умеет пить, а уж как умеет веселиться — с ней точно не соскучишься.",
+      "note": "Russian keeps the CN implication of drinking capacity and rowdy fun."
+    },
+    {
+      "ordinal": 142,
+      "cn": "大熊",
+      "en": "Nesti",
+      "ru": "Нести (speaker-name mapping)",
+      "note": "CN literally says «Большой Медведь»; EN Yostar identifies the character as Nesti. The project glossary records Nesti → Нести."
+    },
+    {
+      "ordinal": 166,
+      "cn": "*龙门粗口*",
+      "en": "*Lungmen profanity*",
+      "ru": "*ругательство на лунмэньском*",
+      "note": "The script contains a profanity placeholder; no actual swear word is invented."
+    },
+    {
+      "ordinal": 176,
+      "cn": "乌萨斯最伟大的战士博卓卡斯替；乌萨斯最冷的梦魇",
+      "en": "Buldrokkas'tee, Ursus's greatest soldier; its coldest nightmare",
+      "ru": "Пусть увидят, на что способен отряд, обученный величайшим воином Урсуса — Булдроккас'ти — и ведомый самым ледяным кошмаром Урсуса!",
+      "note": "Russian follows CN's parallel construction and uses the Russian community spelling Булдроккас'ти."
+    },
+    {
+      "ordinal": 179,
+      "cn": "大熊",
+      "en": "Nesti",
+      "ru": "Нести",
+      "note": "The name mapping follows EN Yostar and the project glossary; CN uses the literal nickname 大熊."
+    }
+  ],
+  "header_title": {
+    "cn": "第二关（后）",
+    "en": "第二关（后）",
+    "translation_ru": "Этап 2 (после боя)",
+    "note": "The HEADER payload is identical in CN and EN but appears to conflict with the filename suffix _beg. It is retained literally and not used to reorder the scene."
+  },
+  "editorial_review": false,
+  "in_game_test": false,
+  "note": "Complete first draft of all 180 named positions. The first 120 entries are unchanged from v1.76; the final 60 are newly translated from CN with EN used for names and structure. All three Decision option payloads were translated in v1.76 and are preserved. All 187 command lines match CN and EN by line, name and parameters after normalizing the three language-specific Decision strings. No full CN/EN scripts were committed. Literary review and Yostar Global PC validation have not been performed."
+}
