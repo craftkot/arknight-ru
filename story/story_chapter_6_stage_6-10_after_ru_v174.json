@@ -367,7 +367,7 @@
       "source_line": 106,
       "kind": "named",
       "speaker_cn": "凯尔希",
-      "text_ru": "Когда ты убивала Сергея, он исповедовался перед тобой?"
+      "text_ru": "Когда ты убивала Сергея, он раскаялся?"
     },
     {
       "ordinal": 50,
@@ -689,7 +689,7 @@
       "source_line": 182,
       "kind": "named",
       "speaker_cn": "凯尔希",
-      "text_ru": "Я похожа на заклинателя? Хотя заражённой я и правда являюсь…"
+      "text_ru": "Я похожа на заклинателя? Хотя в том, что я заражена, ты не ошиблась…"
     },
     {
       "ordinal": 96,
@@ -724,7 +724,7 @@
       "source_line": 189,
       "kind": "named",
       "speaker_cn": "凯尔希",
-      "text_ru": "Похоже, на тебя саму туман не действует. Ты видишь сквозь него."
+      "text_ru": "Похоже, туман не мешает тебе видеть. Ты всё видишь."
     },
     {
       "ordinal": 101,
@@ -1137,7 +1137,7 @@
       "source_line": 281,
       "kind": "named",
       "speaker_cn": "凯尔希",
-      "text_ru": "Урсус зачистил весь институт и истребил то редкое и драгоценное сострадание, которое было присуще учёным. Настоящий предатель — сама ненасытная Империя."
+      "text_ru": "Урсус зачистил весь институт, уничтожив то редкое и драгоценное сострадание, которое было присуще учёным."
     },
     {
       "ordinal": 160,
@@ -1277,7 +1277,7 @@
       "source_line": 307,
       "kind": "named",
       "speaker_cn": "凯尔希",
-      "text_ru": "Найди путь, который действительно способен изменить этот мир… если именно этого ты хочешь."
+      "text_ru": "Найди путь, который действительно способен изменить эту землю… если именно этого ты хочешь."
     },
     {
       "ordinal": 180,
@@ -1463,5 +1463,5 @@
     }
   ],
   "header_title_ru": "Этап 4 (после боя)",
-  "notes_v174": "Complete first draft: 205/205 named dialogue positions. All source line numbers and speakers were mapped from the current CN file; EN Yostar was used to cross-check names and structure. 152 command lines are unchanged. Key CN-primary choices include the smoke-organ description, the Ursus-raised monster metaphor, the distinction between killing the falling debris and Crownslayer, and the 'real idealist' wording. No full CN/EN source script is included. Literary review and Yostar Global PC validation remain pending. Editorial pass before PR: restored parenthetical internal-monologue formatting in ordinals 1–6; corrected CN-primary 'Why?' at ordinal 121 (EN says 'What?'); clarified 'spine' as 'позвоночник' and refined several long sentences. Ordinal 189 retains the future tense in CN 会成为 ('will become'), rather than following the past-tense phrasing of EN."
+  "notes_v174": "Complete first draft: 205/205 named dialogue positions. All source line numbers and speakers were mapped from the current CN file; EN Yostar was used to cross-check names and structure. 152 command lines are unchanged. Key CN-primary choices include the smoke-organ description, the Ursus-raised monster metaphor, the distinction between killing the falling debris and Crownslayer, and the 'real idealist' wording. No full CN/EN source script is included. Literary review and Yostar Global PC validation remain pending. Editorial pass before PR: restored parenthetical internal-monologue formatting in ordinals 1–6; corrected CN-primary 'Why?' at ordinal 121 (EN says 'What?'); clarified 'spine' as 'позвоночник' and refined several long sentences. Ordinal 189 retains the future tense in CN 会成为 ('will become'), rather than following the past-tense phrasing of EN. Additional CN-primary wording refinements: ordinal 49 uses 'раскаялся' for 忏悔; ordinal 95 is phrased idiomatically; ordinal 100 clarifies that the mist does not affect Kal'tsit's opponent; ordinal 179 keeps CN 这片大地 as 'эта земля'."
 }
