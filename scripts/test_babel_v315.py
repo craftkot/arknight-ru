@@ -93,7 +93,7 @@ class BabelBB8BeforeV315(unittest.TestCase):
     def test_audit_source_differences(self):
         self.assertEqual([x["ordinal"] for x in self.audit["documented_meaning_differences"]],[19,21,27,39])
         self.assertEqual([x["source_line"] for x in self.audit["documented_control_command_differences"]],[435,459])
-        self.assertEqual([x["source_line"] for x in self.audit["documented_multiline_text_differences"]],[313,316])
+        self.assertEqual([x["source_line"] for x in self.audit["documented_multiline_text_differences"]],[477,480])
         self.assertEqual(self.audit["segment"]["ordinals"],[1,40])
         self.assertEqual(self.audit["segment"]["next_ordinal"],41)
         self.assertEqual(self.audit["segment"]["next_source_line"],90)
