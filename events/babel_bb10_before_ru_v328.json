@@ -1,0 +1,584 @@
+{
+  "version": "v3.28",
+  "event": "Babel",
+  "scene": "Babel BB-10 before battle — complete first draft",
+  "source_file": "activities/act33side/level_act33side_10_beg.txt",
+  "status": "first_draft_complete",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "e3564145cb5548b9c4654692d27458cf64eb231f",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "6385255d6d3d911024ee8800c882cf2bb3781be7",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_10_beg.txt",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_10_beg.txt",
+    "cn_line_count": 156,
+    "en_line_count": 157,
+    "cn_text_total": 56,
+    "en_text_total": 56,
+    "cn_named_total": 39,
+    "en_named_total": 39,
+    "cn_narration_total": 16,
+    "en_narration_total": 16,
+    "cn_multiline_total": 0,
+    "en_multiline_total": 0,
+    "cn_sticker_total": 0,
+    "en_sticker_total": 0,
+    "cn_subtitle_total": 1,
+    "en_subtitle_total": 1,
+    "cn_decision_total": 0,
+    "en_decision_total": 0,
+    "cn_control_command_total": 100,
+    "en_control_command_total": 100,
+    "en_extra_terminal_newline": true,
+    "version_difference": "CN has 156 physical lines and EN has 157 because EN has one additional terminal newline. Both contain 56 text-bearing positions at identical physical lines and with the same type sequence: 39 named, 16 narration, one Subtitle. The 100 non-text control commands match exactly. The Subtitle line also aligns after normalizing its localized text payload; its <color=#000000> markup is preserved. CN is primary for meaning; EN Yostar is used for names and structural cross-check."
+  },
+  "source_alignment": {
+    "cn_en_text_positions_match": true,
+    "cn_en_text_type_sequence_match": true,
+    "cn_en_source_line_positions_match": true,
+    "cn_en_speaker_tag_positions_align": true,
+    "cn_en_nontext_control_commands_match_exactly": true,
+    "cn_en_nontext_control_command_count": 100,
+    "segment_ordinals": [
+      1,
+      56
+    ],
+    "segment_source_lines": [
+      11,
+      12,
+      13,
+      16,
+      17,
+      19,
+      23,
+      24,
+      25,
+      27,
+      29,
+      30,
+      31,
+      33,
+      35,
+      37,
+      38,
+      40,
+      42,
+      43,
+      44,
+      46,
+      48,
+      49,
+      51,
+      53,
+      55,
+      56,
+      57,
+      59,
+      61,
+      63,
+      64,
+      66,
+      68,
+      72,
+      73,
+      74,
+      77,
+      78,
+      79,
+      80,
+      81,
+      105,
+      106,
+      107,
+      108,
+      116,
+      117,
+      118,
+      119,
+      120,
+      132,
+      140,
+      141,
+      144
+    ],
+    "segment_cn_en_line_alignment": true,
+    "segment_cn_en_text_type_alignment": true,
+    "segment_cn_en_speaker_tag_positions_align": true,
+    "segment_cn_en_markup_alignment": true,
+    "segment_cn_en_control_commands_match_exactly": true,
+    "segment_cn_en_control_command_difference_source_lines": [],
+    "scene_complete": true,
+    "game_behavior_verified": false
+  },
+  "progress": {
+    "translated_text_positions": 56,
+    "total_source_text_positions": 56,
+    "remaining_text_positions": 0,
+    "complete": true,
+    "last_source_line": 144,
+    "next_source_line": null,
+    "next_text_ordinal": null,
+    "next_text_source_line": null,
+    "translated_kind_counts": {
+      "named": 39,
+      "multiline": 0,
+      "narration": 16,
+      "sticker": 0,
+      "subtitle": 1,
+      "decision": 0
+    },
+    "remaining_kind_counts": {
+      "named": 0,
+      "multiline": 0,
+      "narration": 0,
+      "sticker": 0,
+      "subtitle": 0,
+      "decision": 0
+    }
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 11,
+      "kind": "narration",
+      "text_ru": "Терезия с облегчением убедилась, что Амия уснула."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 12,
+      "kind": "narration",
+      "text_ru": "Амия не увидела предательства Доктора и не увидела последней печали Терезии."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 13,
+      "kind": "narration",
+      "text_ru": "Пока Терезия устраняла последнего убийцу в кабинете Спикера, чёрная корона наконец благополучно перешла в руки Амии."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Всё хорошо, Амия. Всё хорошо…"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 17,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Всё уже закончилось."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 19,
+      "kind": "narration",
+      "text_ru": "Она не взглянула на того, кто застыл на месте, лишь мягко похлопала ребёнка у себя на руках по спине и поцеловала её в нежную щёку."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 24,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Терезия. Я не могу отказаться от возможности, добытой ценой бесчисленных жизней и десяти тысяч лет."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 25,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Я не могу позволить вам нарушить замысел ориджиниума. Не могу позволить тебе… превратить эту землю в прекрасный, но мимолётный сон."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 27,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Значит, поэтому ты причинил боль Амии."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Раз Король Сарказов уже увидел мои воспоминания, дальше говорить не о чем."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 31,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Ты ненавидишь меня?"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 33,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ты причинил боль Амии, а теперь собираешься причинить боль Кальцит и воинам, которые тебе доверяют."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 35,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Неужели так ты относишься к тем, кто живёт сейчас?"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 37,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Я сделаю всё возможное, чтобы они не погибли в предстоящем конфликте. Это тоже обещал мне Терезис."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "При одном условии… ты должна умереть."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 40,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "…Доктор, ты пришёл ко мне из-за чувства вины?"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 42,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "По сравнению с тем, что я сделал, чувство вины… слишком мало весит."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Мы приняли слишком много решений в эпоху, которую даже Кальцит плохо знает."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 44,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Я просто…"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 46,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Когда Амия вырастет, если она будет помнить меня, если спросит обо мне, скажешь ли ты ей правду… о том, как я ушла?"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 48,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Нет."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Я помогу им найти иной способ жить."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Найти последний мирный миг до того, как ориджиниум уничтожит Терру?"
+    },
+    {
+      "ordinal": 26,
+      "source_line": 53,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Прости. Этого уже не изменить."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 55,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ты знаешь, что всё это бесполезно… и всё же хочешь вылечить болезнь Амии."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Даже если в недалёком будущем её семья, родина, а также все люди и всё, с чем вы успеете связать себя, превратятся в застывший ориджиниум."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 57,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "И всё же ты не можешь смотреть, как страдает ребёнок перед тобой."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Это твоя искренность. Твоя чистота. Твоя природа."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 61,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "И всё-таки… я рада, Доктор."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 64,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Я рада, что тот ты, которому доверяет Кальцит и который сам готов довериться нам, действительно существует."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 66,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ты… создатель ориджиниума… {@nickname}. Ты — яд, разрушающий всё, и в то же время можешь стать противоядием от всего."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Что?"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 72,
+      "kind": "narration",
+      "text_ru": "Увидев, как Терезия с трудом поднялась и протянула к нему руки, Доктор инстинктивно захотел отступить."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 73,
+      "kind": "narration",
+      "text_ru": "Но тело Доктора не двигалось ни на йоту. Он понял, что печаль в нём оказалась сильнее рассудка, за который он изо всех сил цеплялся."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 74,
+      "kind": "narration",
+      "text_ru": "Ему оставалось лишь позволить Терезии прикоснуться к лицу под маской."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ты плачешь, Доктор…"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 78,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Да, ты именно такой. Ты знаешь, насколько хрупок, знаешь, что даже сейчас я представляю для тебя смертельную угрозу… и всё же пришёл."
+    },
+    {
+      "ordinal": 41,
+      "source_line": 79,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "И всё же я… готова тебе верить."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Верить в того, кем ты был прежде."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 81,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Верить в того {@nickname}, который принёс нам дождь, росу и солнечный свет."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 105,
+      "kind": "narration",
+      "text_ru": "Это лицо одновременно знакомо и незнакомо. Терезия хорошо знала его черты."
+    },
+    {
+      "ordinal": 45,
+      "source_line": 106,
+      "kind": "narration",
+      "text_ru": "Но прежде ей ни разу не удавалось так ясно разглядеть эмоции на нём."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 107,
+      "kind": "narration",
+      "text_ru": "Она улыбнулась и протянула палец — и картина перед ней разорвалась, словно полотно."
+    },
+    {
+      "ordinal": 47,
+      "source_line": 108,
+      "kind": "narration",
+      "text_ru": "Затем она медленно вытянула нить, ослабшую у разрыва. Остатки картины распускались, а воспоминания Доктора продолжали рассеиваться."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 116,
+      "kind": "narration",
+      "text_ru": "Не оглядываясь, Терезия продолжала погружаться всё глубже, разбирая каждую частицу памяти, из которой состояла душа Доктора, на спутанные белые нити."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 117,
+      "kind": "narration",
+      "text_ru": "Словно в ту давнюю ночь, когда маленькая Терезия сама училась шить рядом с Терезисом."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 118,
+      "kind": "narration",
+      "text_ru": "Воспоминания рассеялись почти без остатка, и от души остался лишь последний осколок."
+    },
+    {
+      "ordinal": 51,
+      "source_line": 119,
+      "kind": "narration",
+      "text_ru": "В самом конце воспоминания стоял силуэт. Терезии он казался одновременно знакомым и незнакомым."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 120,
+      "kind": "narration",
+      "text_ru": "Это был Доктор. И в то же время — не Доктор."
+    },
+    {
+      "ordinal": 53,
+      "source_line": 132,
+      "kind": "subtitle",
+      "text_ru": "<color=#000000>Что ты со мной делаешь, Терезия?</color>"
+    },
+    {
+      "ordinal": 54,
+      "source_line": 140,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Хотя всё уже подходит к концу, мне вдруг захотелось оставить тебе одну загадку. Не сердись на меня, Доктор."
+    },
+    {
+      "ordinal": 55,
+      "source_line": 141,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Я скажу тебе…"
+    },
+    {
+      "ordinal": 56,
+      "source_line": 144,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "«Найди себя»."
+    }
+  ],
+  "semantic_differences": [
+    {
+      "ordinal": 8,
+      "source_line": 24,
+      "cn_summary": "亿万生命 denotes an immense or countless number of lives; 万年时间 is ten thousand years.",
+      "en_summary": "EN uses 'millions of lives' and 'myriads of years'.",
+      "ru_summary": "Использовано «бесчисленных жизней и десяти тысяч лет», чтобы не сужать масштаб CN до английского 'millions'.",
+      "resolution": "CN is primary; EN is a scale cross-check."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 25,
+      "cn_summary": "源石的规划 refers to the plan/design associated with Originium; CN says the Doctor cannot allow it to be broken through or overturned.",
+      "en_summary": "EN paraphrases this as ruining the plan for Originium.",
+      "ru_summary": "Передано как «нарушить замысел ориджиниума»; формулировка сохраняет смысл плана, не добавляя отдельного названия проекта.",
+      "resolution": "CN is primary; EN confirms the planning/plan sense."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 30,
+      "cn_summary": "魔王 is the title used for the King of Sarkaz in this context.",
+      "en_summary": "EN explicitly identifies the figure as the King of Sarkaz.",
+      "ru_summary": "Использован закреплённый в глоссарии титул «Король Сарказов».",
+      "resolution": "CN title and scene context align with EN."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 37,
+      "cn_summary": "CN explicitly promises to do everything possible so they do not die in the coming conflict.",
+      "en_summary": "EN generalizes this as ensuring their safety.",
+      "ru_summary": "Сохранена более точная формулировка CN: «чтобы они не погибли в предстоящем конфликте».",
+      "resolution": "CN is primary; EN is broader."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 56,
+      "cn_summary": "不变的源石 describes the people and things becoming fixed/unchanging Originium.",
+      "en_summary": "EN renders the result as 'the same hunks of Originium'.",
+      "ru_summary": "Использовано «превратятся в застывший ориджиниум», чтобы сохранить образ необратимого превращения без добавления отсутствующих в CN деталей.",
+      "resolution": "CN is primary; EN confirms the Originium transformation."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 73,
+      "cn_summary": "CN repeats 博士 in the second clause and says his sorrow surpasses the rationality he is forcing himself to maintain.",
+      "en_summary": "EN smooths the repeated subject and condenses the sentence.",
+      "ru_summary": "Повтор субъекта устранён ради естественного русского синтаксиса; причинно-следственная связь и противопоставление печали и удерживаемой рациональности сохранены.",
+      "resolution": "Meaning follows CN; sentence is normalized for Russian readability."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 140,
+      "cn_summary": "卖个关子 is an idiom about withholding the point or leaving someone in suspense.",
+      "en_summary": "EN uses 'leaving you a surprise'.",
+      "ru_summary": "Передано как «оставить тебе одну загадку», что ближе к идиоматическому смыслу CN.",
+      "resolution": "CN idiom is primary; EN provides the conversational context."
+    }
+  ],
+  "editorial_review": false,
+  "in_game_test": false,
+  "game_behavior_verified": false,
+  "limitations": [
+    "All 56 text-bearing positions are translated as a first draft; literary review has not been performed.",
+    "The scene has not been validated in the Yostar Global PC client.",
+    "This is not a verified game patch."
+  ]
+}
