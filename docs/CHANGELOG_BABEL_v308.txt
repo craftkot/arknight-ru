@@ -1,0 +1,13 @@
+# Babel v3.08 — BB-7 before battle, positions 121–160
+
+- Added 40 text positions (ordinals 121–160; source lines 304–346): 32 named dialogue entries and 8 narration entries.
+- Preserved all previous 120 translated positions unchanged.
+- Updated cumulative progress to 160/222; 62 positions remain.
+- Next position: ordinal 161, source line 347.
+- CN source: Kengxxiao/ArknightsGameData, blob `605fede5533907ce926d038129da2abb2af57af7`.
+- EN Yostar source: Kengxxiao/ArknightsGameData_YoStar, blob `63c0f520b4f0de80ea34b4dd0afbbc4cb2df9f5b`.
+- Both mirrors: 434 logical lines, 222 text positions, 212 control-command lines; all 212 control-command lines match exactly. EN has one terminal newline absent from CN.
+- Documented CN/EN differences: ordinal 123 (quotation vs italics), ordinal 126 (CN statue of Theresa vs EN statue of Theresis), ordinal 127 (CN statement vs EN rhetorical question), ordinal 138 (CN scare quotes), ordinal 140 (CN statement vs EN question), ordinal 156 (EN italic emphasis).
+- CN remains primary for meaning; EN is used for names, structure and formatting cross-checks.
+- No complete source scripts or game files are stored in this repository.
+- Partial first draft only. No literary review or Yostar Global PC in-game validation.
