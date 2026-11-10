@@ -60,6 +60,7 @@ class BabelBB9BeforeV326(unittest.TestCase):
         self.assertIn("Парового рыцаря", by[92]["text_ru"])
         self.assertIn("магами Шпилей", by[95]["text_ru"])
         self.assertIn("арбалетных болтов", by[98]["text_ru"])
+        self.assertIn("у всех на виду", by[92]["text_ru"])
         self.assertEqual(by[106]["text_ru"], "……")
         self.assertFalse(self.doc["editorial_review"])
         self.assertFalse(self.doc["in_game_test"])
@@ -108,6 +109,8 @@ class BabelBB9BeforeV326(unittest.TestCase):
         self.assertIn("v3.26", self.readme)
         self.assertIn("BB-9 после боя", self.readme)
         self.assertIn("Liens / 镰须 — Лиэнс", self.terms)
+        self.assertIn("Laqeramaline / 菈玛莲 — Лакерамалин", self.terms)
+        self.assertIn("Aefanyl / 哀珐尼尔 — Эфанил", self.terms)
         self.assertTrue(self.audit["scene_complete"])
         self.assertEqual(self.audit["segment"]["ordinals"], [1, 106])
 
