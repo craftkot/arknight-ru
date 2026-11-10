@@ -1,0 +1,458 @@
+{
+  "version": "v3.11",
+  "event": "Babel",
+  "scene": "Babel BB-7 after battle — partial first draft",
+  "source_file": "activities/act33side/level_act33side_07_end.txt",
+  "status": "partial_first_draft",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "684c483e02f057552465a48707968e1566b74e6a",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "4f340479e37a5ef752b0341fe7aefb3a16d8f817",
+    "version_difference": "The CN and EN mirrors contain 384 logical lines each; EN has one additional terminal newline. Both contain 149 aligned text positions (125 named, 24 narration) and 360 control-command lines. The 360 command lines match exactly. At ordinal 8, CN describes the Sarkaz warriors as having risen from the civil war, while EN calls them redeployed; Russian follows CN. At ordinal 11, CN leaves Manfred's first clause unfinished, while EN adds an explicit 'I understand'; Russian follows CN without adding it. At ordinal 21, CN uses a term for divisions or estrangement, while EN says prejudices; Russian follows CN. At ordinal 22, CN places quotation marks around the terms for glory and respect, while EN has no matching quotation marks; Russian preserves CN punctuation.",
+    "cn_line_count": 384,
+    "en_line_count": 384,
+    "cn_text_total": 149,
+    "en_text_total": 149,
+    "cn_named_total": 125,
+    "en_named_total": 125,
+    "cn_multiline_total": 0,
+    "en_multiline_total": 0,
+    "cn_narration_total": 24,
+    "en_narration_total": 24,
+    "cn_subtitle_total": 0,
+    "en_subtitle_total": 0,
+    "cn_sticker_total": 0,
+    "en_sticker_total": 0,
+    "cn_control_command_total": 360,
+    "en_control_command_total": 360,
+    "cn_decision_total": 0,
+    "en_decision_total": 0,
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_07_end.txt",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_07_end.txt",
+    "en_extra_terminal_newline": true
+  },
+  "progress": {
+    "translated_text_positions": 40,
+    "total_source_text_positions": 149,
+    "remaining_text_positions": 109,
+    "complete": false,
+    "last_source_line": 121,
+    "next_source_line": 125,
+    "next_text_ordinal": 41,
+    "next_text_source_line": 125,
+    "translated_kind_counts": {
+      "named": 37,
+      "multiline": 0,
+      "narration": 3,
+      "subtitle": 0,
+      "sticker": 0
+    },
+    "remaining_kind_counts": {
+      "named": 88,
+      "multiline": 0,
+      "narration": 21,
+      "subtitle": 0,
+      "sticker": 0
+    }
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 11,
+      "kind": "narration",
+      "text_ru": "Начало 1094 года"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 12,
+      "kind": "narration",
+      "text_ru": "Регион Каздель. Передвижной город Каздель."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Подождите, генерал!"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 25,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Ты слишком нетерпелив."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 27,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Но! Посланник того герцога чуть ли не собирался плюнуть на вас—"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Мы получили то, что хотели?"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 31,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Мы и правда получили право пользоваться частью промышленного района и проходить через границу… Но разве ради этого нужно было терпеть такое унижение?"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 32,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Викторианские герцоги помыкают вами, обращаются с сарказами как с покорными зверями. Воины, сумевшие подняться после гражданской войны, ждали совсем не такого, генерал!"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 34,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Разве не этого мы и добивались?"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 36,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Разве мы хотели, чтобы Виктория с самого начала сочла сарказов своим главным врагом, а затем объединилась против нас?"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Это тоже часть вашего замысла… Я понимаю, зачем нужно показывать врагу свою слабость, но…"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 40,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Но многие из наших считают, что в этом нет ни капли чести—"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 42,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Разве я обещал им славу?"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Есть ли у сарказов честь в глазах викторианцев?"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Манфред, в последнее время ты слишком нетерпелив."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "…Достоинство очень важно, Манфред."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 50,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Ты заступаешься за своих воинов, и за это тебя уважают. В обычное время я, возможно, похвалил бы тебя."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 52,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Но чем мы заняты сейчас? Готовимся похитить сердце целой страны."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 53,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Готовимся сокрушить величайшую империю на этой земле."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 54,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Их разобщённость делает их уязвимыми, а сарказы тем временем изголодались."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 55,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Значит, нужны нам были вовсе не «слава» и не «уважение»."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 57,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "…Понимаю."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Как продвигается подготовка нашей армии?"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 61,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Всё готово к выступлению. Наши соотечественники, отправленные вперёд, встретят нас в Лондиниуме."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 62,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Срок, к которому герцог Кавендиш потребовал нам прибыть, уже близок. Мы можем выступить в любой момент."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 64,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Хорошо."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Тогда выступаем. Уничтожим Викторию."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Вы всё это время стояли на посту?"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 82,
+      "kind": "named",
+      "speaker_cn": "军事委员会卫士",
+      "text_ru": "Да, сэр."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 84,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 85,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Отойдите пока. Я хочу побыть один."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 89,
+      "kind": "named",
+      "speaker_cn": "军事委员会卫士",
+      "text_ru": "Есть, господин."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 97,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 35,
+      "source_line": 103,
+      "kind": "narration",
+      "text_ru": "Когда стража ушла, Манфред достал бокал, который отставил в сторону."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 110,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Выпьешь?"
+    },
+    {
+      "ordinal": 37,
+      "source_line": 116,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Ты ведь раньше никогда не пил."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 118,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "И сейчас не пью."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 119,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Но генерал велел мне изучить викторианский «этикет», чтобы подготовиться к предстоящему заданию."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 121,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Только недавно я узнал, что эти аристократы подают к одной трапезе сразу несколько сортов вина, и каждому сорту полагается свой бокал."
+    }
+  ],
+  "source_alignment": {
+    "cn_en_text_positions_match": true,
+    "cn_en_text_type_sequence_match": true,
+    "cn_en_text_position_count": 149,
+    "cn_en_control_command_positions_match": true,
+    "cn_en_control_command_type_sequence_match": true,
+    "cn_control_command_count": 360,
+    "en_control_command_count": 360,
+    "cn_en_control_command_tag_sequence_match": true,
+    "cn_en_decision_positions_and_values_match": true,
+    "decision_count": 0,
+    "en_extra_terminal_newline": true,
+    "segment_source_lines": [
+      11,
+      12,
+      23,
+      25,
+      27,
+      29,
+      31,
+      32,
+      34,
+      36,
+      38,
+      40,
+      42,
+      43,
+      45,
+      47,
+      49,
+      50,
+      52,
+      53,
+      54,
+      55,
+      57,
+      59,
+      61,
+      62,
+      64,
+      65,
+      80,
+      82,
+      84,
+      85,
+      89,
+      97,
+      103,
+      110,
+      116,
+      118,
+      119,
+      121
+    ],
+    "segment_cn_en_line_alignment": true,
+    "segment_cn_en_text_type_alignment": true,
+    "segment_cn_en_speaker_tags_align": true,
+    "segment_cn_en_markup_alignment": false,
+    "segment_cn_en_markup_alignment_except_documented_difference": true,
+    "segment_ordinals": [
+      1,
+      40
+    ],
+    "segment_new_text_positions": 40,
+    "documented_source_markup_differences": [
+      {
+        "ordinal": 22,
+        "source_line": 55,
+        "cn": "Quotation marks around the terms for glory and respect.",
+        "en": "No matching quotation marks.",
+        "ru": "«слава» and «уважение»",
+        "resolution": "Russian preserves the CN quotation marks; no English emphasis is introduced."
+      }
+    ],
+    "documented_source_meaning_differences": [
+      {
+        "ordinal": 8,
+        "source_line": 32,
+        "cn": "The Sarkaz warriors are described as having risen from the civil war.",
+        "en": "The soldiers are described as redeployed from the civil war.",
+        "ru": "Воины, сумевшие подняться после гражданской войны...",
+        "resolution": "Russian follows the CN image rather than the narrower EN wording."
+      },
+      {
+        "ordinal": 11,
+        "source_line": 38,
+        "cn": "Manfred begins an unfinished clause before acknowledging the need to appear weak.",
+        "en": "EN adds an explicit acknowledgement equivalent to 'I understand'.",
+        "ru": "Это тоже часть вашего замысла… Я понимаю, зачем нужно показывать врагу свою слабость, но…",
+        "resolution": "Russian follows CN and does not add the extra EN clause."
+      },
+      {
+        "ordinal": 21,
+        "source_line": 54,
+        "cn": "A term describing divisions, estrangement or barriers among the Victorians.",
+        "en": "The EN mirror narrows this to prejudices.",
+        "ru": "Их разобщённость делает их уязвимыми...",
+        "resolution": "Russian follows the broader CN meaning."
+      }
+    ],
+    "cn_en_physical_line_counts_match": true,
+    "scene_complete": false,
+    "game_behavior_verified": false,
+    "cn_en_control_command_lines_match_exactly": true
+  },
+  "notes": [
+    "This update translates the opening continuous segment, ordinals 1–40, from source lines 11–121. It contains 37 named dialogue positions and three narration positions.",
+    "The opening establishes early 1094 in the nomadic city of Kazdel, then follows Manfred's report to Theresis about negotiations with a Victorian duke and the preparations to depart for Londinium.",
+    "The segment then moves to Manfred dismissing the Military Commission guards and speaking with Ascalon about the Victorian etiquette he has been ordered to learn.",
+    "CN is primary for meaning; EN Yostar is used to cross-check character names, scene structure and formatting.",
+    "At ordinal 8, Russian follows the CN description of Sarkaz warriors emerging from the civil war rather than EN's redeployment wording.",
+    "At ordinal 11, Russian does not add the explicit acknowledgement present in EN because it is absent from CN.",
+    "At ordinal 21, Russian uses «разобщённость» for the broader CN term; EN's «prejudices» is narrower.",
+    "At ordinal 22, Russian preserves the quotation marks around the two terms in CN; EN has no corresponding quotation marks.",
+    "The source files contain 149 aligned text positions and 360 identical control-command lines. EN has one extra terminal newline only.",
+    "The next untranslated text position is ordinal 41 at source line 125. The scene remains incomplete; no literary review or Yostar Global PC in-game test has been performed.",
+    "No full CN/EN source scripts or game files are committed."
+  ]
+}
