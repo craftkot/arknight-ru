@@ -1,0 +1,12 @@
+# Babel v3.29 — BB-10 after battle
+
+- Complete first Russian draft: 252/252 text-bearing positions.
+- Breakdown: 191 named, 2 multiline, 40 narration, 1 Sticker text, 18 Subtitle.
+- A second Sticker command at source line 552 has no text payload and remains an unchanged control command.
+- CN source blob: 1d8756b3595f75c6e641592afed3d6b84b744085
+- EN Yostar source blob: 50ee3958ac9d053b0707cf39edb00d1d831686d7
+- All 252 text positions align by physical line and type; 304 non-text control commands match exactly after normalization.
+- CN has 556 physical lines without a terminal newline; EN has 557 due to one extra terminal newline.
+- Terminology update: Soul Furnace -> Печь душ; Pith -> Пит; Myriad Souls -> бесчисленные души.
+- Babel: 22/23 complete first drafts, 4,511 text entries; BB-ST-3 remains unstarted.
+- Literary review and Yostar Global PC in-game validation have not been performed. This is not a verified game patch.
