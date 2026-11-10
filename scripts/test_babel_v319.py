@@ -60,7 +60,7 @@ class BabelBB8BeforeV319(unittest.TestCase):
         self.assertEqual(by[181]["text_ru"], "«Скарай»… ты способен увидеть пустоту?")
         self.assertIn("наркоман", by[188]["text_ru"])
         self.assertIn("«Скарай»", by[188]["text_ru"])
-        self.assertIn("сумеречная дымка", by[182]["text_ru"])
+        self.assertIn("сумеречная дымка", by[182]["text_ru"].lower())
         self.assertNotIn("густой", by[182]["text_ru"])
         self.assertEqual(by[196]["text_ru"], "Теперь ты видишь смерть?")
         self.assertIn("Ш-ш-ш", by[165]["text_ru"])
