@@ -98,6 +98,8 @@ class BabelBB8AfterV321(unittest.TestCase):
         self.assertEqual(self.manifest["translation_integrity"]["babel_ru_text_entries_including_partial"], 3849)
         self.assertIn("BB-8 после боя", self.readme)
         self.assertIn("v3.21", self.readme)
+        self.assertIn("events/BABEL_INDEX_v321.tsv", self.readme)
+        self.assertIn("reports/BABEL_BB8_AFTER_SOURCE_AUDIT_v321.json", self.readme)
         self.assertIn("ассасин Бабеля", self.terms)
         self.assertFalse(self.audit["scene_complete"])
         self.assertFalse(self.audit["game_behavior_verified"])
