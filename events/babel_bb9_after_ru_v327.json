@@ -1,0 +1,807 @@
+{
+  "version": "v3.27",
+  "event": "Babel",
+  "scene": "Babel BB-9 after battle — complete first draft",
+  "source_file": "activities/act33side/level_act33side_09_end.txt",
+  "status": "first_draft_complete",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "c460e2a6c30a8ec4ce306ccbb8eed3f37899eec2",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "006b4ed34bf39a9bd32539c5cf779b707dbc87c7",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_09_end.txt",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_09_end.txt",
+    "cn_line_count": 176,
+    "en_line_count": 177,
+    "cn_text_total": 87,
+    "en_text_total": 87,
+    "cn_named_total": 53,
+    "en_named_total": 53,
+    "cn_narration_total": 34,
+    "en_narration_total": 34,
+    "cn_multiline_total": 0,
+    "en_multiline_total": 0,
+    "cn_sticker_total": 0,
+    "en_sticker_total": 0,
+    "cn_subtitle_total": 0,
+    "en_subtitle_total": 0,
+    "cn_decision_total": 0,
+    "en_decision_total": 0,
+    "cn_control_command_total": 89,
+    "en_control_command_total": 89,
+    "en_extra_terminal_newline": true,
+    "version_difference": "CN has 176 physical lines; EN has 177 because of one additional terminal newline. Both contain 87 text-bearing positions (53 named, 34 narration) at identical physical source lines and with the same type sequence. The 89 non-text control-command lines match exactly. Speaker labels are localized. No inline markup tags occur in text payloads. CN is primary for meaning; EN is used to cross-check names, structure and context."
+  },
+  "source_alignment": {
+    "cn_en_text_positions_match": true,
+    "cn_en_text_type_sequence_match": true,
+    "cn_en_source_line_positions_match": true,
+    "cn_en_speaker_tag_positions_align": true,
+    "cn_en_nontext_control_commands_match_exactly": true,
+    "cn_en_nontext_control_command_count": 89,
+    "segment_ordinals": [
+      1,
+      87
+    ],
+    "segment_source_lines": [
+      11,
+      12,
+      13,
+      16,
+      17,
+      18,
+      20,
+      21,
+      23,
+      24,
+      25,
+      27,
+      28,
+      29,
+      33,
+      35,
+      36,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      56,
+      57,
+      58,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      77,
+      78,
+      81,
+      82,
+      83,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      145,
+      146,
+      150,
+      152,
+      153,
+      155,
+      157,
+      159,
+      160,
+      161,
+      166,
+      167,
+      169
+    ],
+    "segment_cn_en_line_alignment": true,
+    "segment_cn_en_text_type_alignment": true,
+    "segment_cn_en_speaker_tag_positions_align": true,
+    "segment_cn_en_markup_alignment": true,
+    "segment_cn_en_control_commands_match_exactly": true,
+    "segment_cn_en_control_command_difference_source_lines": [],
+    "scene_complete": true,
+    "game_behavior_verified": false
+  },
+  "progress": {
+    "translated_text_positions": 87,
+    "total_source_text_positions": 87,
+    "remaining_text_positions": 0,
+    "complete": true,
+    "last_source_line": 169,
+    "next_source_line": null,
+    "next_text_ordinal": null,
+    "next_text_source_line": null,
+    "translated_kind_counts": {
+      "named": 53,
+      "multiline": 0,
+      "narration": 34,
+      "sticker": 0,
+      "subtitle": 0,
+      "decision": 0
+    },
+    "remaining_kind_counts": {
+      "named": 0,
+      "multiline": 0,
+      "narration": 0,
+      "sticker": 0,
+      "subtitle": 0,
+      "decision": 0
+    }
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 11,
+      "kind": "narration",
+      "text_ru": "Последнее, что помнила Амия, — как она спала внутри чёрного пузыря."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 12,
+      "kind": "narration",
+      "text_ru": "Терезия бережно держала окружавший Амию пузырь."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 13,
+      "kind": "narration",
+      "text_ru": "И рассказывала ей сказку, которую та слышала уже много раз…"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "В Пустыне Отчаяния обитают ужасные тени. Они преследуют маленького тряпичного человечка, который не перестаёт искать надежду."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 17,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Тени в чёрных плащах — древнейшее эхо отчаяния и скорби."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 18,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Стоит им схватить тебя — и ты уже никогда не сможешь от них скрыться."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "В пустыне тряпичный человечек встретил короля, с ног до головы увешанного чистым золотом и драгоценными камнями. Король пообещал ему несметные богатства, если тот вернётся тем же путём, каким пришёл."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 21,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Но, сколько бы король ни тянул его назад, тряпичный человечек оставил соблазнительные драгоценности и продолжил путь."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Но вскоре —"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 24,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Тени в чёрных плащах настигли его. Они бросались на него снова и снова, без конца и края…"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 25,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "«Бах, бах, бах»…"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 27,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ему оставалось лишь выхватить длинное копьё, сделанное из иглы и нитей, и сражаться с чёрными тенями. Наконец он отбил их острые когти и сумел продолжить бегство…"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Он бежал, пока не добрался до широкой реки, сложенной из слёз. Не было ни лодки, ни даже ряски — тряпичному человечку оставалось только переплыть её…"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Но стоило слезам коснуться его, как он стал всё тяжелее и тяжелее, пока не пошёл ко дну —"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 33,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Он потерпел неудачу."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 35,
+      "kind": "narration",
+      "text_ru": "Неужели так и закончилась сказка? Амия не хотела в это верить."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 36,
+      "kind": "narration",
+      "text_ru": "А вдруг госпожа Терезия просто ошиблась, когда читала?"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 37,
+      "kind": "narration",
+      "text_ru": "Она отчаянно хотела, чтобы госпожа Терезия изменила концовку…"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 39,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Госпожа Терезия…"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 41,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "…Я здесь."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Мы… можем спасти тряпичного человечка?"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ты хочешь его спасти?"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Да, я… очень-очень хочу…"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 56,
+      "kind": "narration",
+      "text_ru": "Звуки стихли."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 57,
+      "kind": "narration",
+      "text_ru": "Пузырь, заслонявший Амии обзор, начал рассеиваться."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 58,
+      "kind": "narration",
+      "text_ru": "Очертания Терезии перед её глазами становились всё яснее и яснее —"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 67,
+      "kind": "narration",
+      "text_ru": "Краем глаза она заметила, как из-под чёрных фигур, лежавших на полу, проступает багровая кровь."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 68,
+      "kind": "narration",
+      "text_ru": "Эти люди… кто они? Когда они появились? Почему лежат на полу?"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 69,
+      "kind": "narration",
+      "text_ru": "У Амии было столько вопросов к госпоже Терезии. Она изо всех сил пыталась широко раскрыть глаза…"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 70,
+      "kind": "narration",
+      "text_ru": "Она увидела белое платье, испачканное алым. Увидела… покрасневшие уголки глаз Терезии."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 71,
+      "kind": "narration",
+      "text_ru": "С госпожой Терезией всё в порядке?"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 72,
+      "kind": "narration",
+      "text_ru": "Амия хотела спросить, какие раны получила госпожа Терезия."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 73,
+      "kind": "narration",
+      "text_ru": "Но не могла произнести ни звука."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "…Амия, всё хорошо."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 78,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Я здесь. Злодеи из твоих сказок пока побеждены."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 81,
+      "kind": "narration",
+      "text_ru": "Что случилось с госпожой Терезией?"
+    },
+    {
+      "ordinal": 37,
+      "source_line": 82,
+      "kind": "narration",
+      "text_ru": "Амия хотела стереть усталость с лица госпожи Терезии."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 83,
+      "kind": "narration",
+      "text_ru": "Но она не могла поднять руки."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 93,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Прости, я не могу изменить концовку этой сказки."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Но ты можешь, Амия…"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 95,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Тебе предстоит пройти по трудному пути. Как и тряпичному человечку, который пытался пересечь реку слёз."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 96,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Всё, чем я могу тебе помочь, — подарить тебе эту чёрную корону."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 97,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Десять тысяч лет мой народ из-за ограниченности своего исторического взгляда неправильно использовал эту корону."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 98,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Её осквернили, сковали узами. Но так быть не должно было."
+    },
+    {
+      "ordinal": 45,
+      "source_line": 99,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Если мы хотим разрушить проклятие, бросить вызов самой судьбе… мне нужна твоя помощь."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 100,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Хочешь переписать концовку?"
+    },
+    {
+      "ordinal": 47,
+      "source_line": 101,
+      "kind": "narration",
+      "text_ru": "Амия хотела ответить: «Хочу», но не могла вымолвить ни слова."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 102,
+      "kind": "narration",
+      "text_ru": "Она торопливо закивала: может быть, хотя бы так ей удастся помочь госпоже Терезии…"
+    },
+    {
+      "ordinal": 49,
+      "source_line": 103,
+      "kind": "narration",
+      "text_ru": "Сможет спасти её —"
+    },
+    {
+      "ordinal": 50,
+      "source_line": 104,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Сил у меня осталось немного, но их хватит, чтобы передать тебе права доступа к короне."
+    },
+    {
+      "ordinal": 51,
+      "source_line": 105,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Я запечатала большую часть её областей, чтобы бескрайний поток информации не спутал твои мысли."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 106,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 53,
+      "source_line": 107,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Амия… прости, что возлагаю на тебя тяжесть этой короны."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 108,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Я думала… что смогу быть рядом с тобой ещё очень-очень долго. Смотреть, как ты растёшь, быть рядом, когда ты смело примешь уход родителей, дождаться, когда ты сама сможешь ответить на мой вопрос —"
+    },
+    {
+      "ordinal": 55,
+      "source_line": 109,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Готова ли ты продолжить мой путь…"
+    },
+    {
+      "ordinal": 56,
+      "source_line": 110,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Но нам всегда не хватает времени, Амия."
+    },
+    {
+      "ordinal": 57,
+      "source_line": 111,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Теперь я эгоистично перекладываю на тебя бремя, которое несла сама…"
+    },
+    {
+      "ordinal": 58,
+      "source_line": 112,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Прости меня, дитя —"
+    },
+    {
+      "ordinal": 59,
+      "source_line": 120,
+      "kind": "narration",
+      "text_ru": "Амия попыталась закричать, но не могла ни открыть рот, ни пошевелить конечностями."
+    },
+    {
+      "ordinal": 60,
+      "source_line": 121,
+      "kind": "narration",
+      "text_ru": "Чёрный клинок словно пронзил ей грудь."
+    },
+    {
+      "ordinal": 61,
+      "source_line": 122,
+      "kind": "narration",
+      "text_ru": "Она должна была почувствовать боль. Но клинок оставил после себя —"
+    },
+    {
+      "ordinal": 62,
+      "source_line": 123,
+      "kind": "narration",
+      "text_ru": "Только тепло. Тепло, полное надежды."
+    },
+    {
+      "ordinal": 63,
+      "source_line": 124,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Амия, это и надежда, и боль."
+    },
+    {
+      "ordinal": 64,
+      "source_line": 125,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ты будешь сомневаться и теряться."
+    },
+    {
+      "ordinal": 65,
+      "source_line": 126,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Но прошу, доверься доктору Кальцит. Она всегда будет рядом с тобой."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 127,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Она поможет тебе исследовать тайну сохранения жизни и вновь приблизиться к ней."
+    },
+    {
+      "ordinal": 67,
+      "source_line": 128,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ты справишься, правда, Амия…?"
+    },
+    {
+      "ordinal": 68,
+      "source_line": 129,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ты всегда была такой сильной девочкой, что даже я не переставала тобой восхищаться."
+    },
+    {
+      "ordinal": 69,
+      "source_line": 130,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Вздох…"
+    },
+    {
+      "ordinal": 70,
+      "source_line": 131,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Я так устала."
+    },
+    {
+      "ordinal": 71,
+      "source_line": 132,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Спасибо тебе, Амия. Все эти дни именно ты дарила мне радость."
+    },
+    {
+      "ordinal": 72,
+      "source_line": 133,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "А теперь немного отдохни. Спи…"
+    },
+    {
+      "ordinal": 73,
+      "source_line": 134,
+      "kind": "narration",
+      "text_ru": "Спи спокойно."
+    },
+    {
+      "ordinal": 74,
+      "source_line": 135,
+      "kind": "narration",
+      "text_ru": "Я всегда буду с тобой."
+    },
+    {
+      "ordinal": 75,
+      "source_line": 145,
+      "kind": "narration",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 76,
+      "source_line": 146,
+      "kind": "narration",
+      "text_ru": "Терезия услышала знакомый голос."
+    },
+    {
+      "ordinal": 77,
+      "source_line": 150,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Амия!"
+    },
+    {
+      "ordinal": 78,
+      "source_line": 152,
+      "kind": "narration",
+      "text_ru": "Терезия даже не подняла головы, чтобы взглянуть на вошедшего."
+    },
+    {
+      "ordinal": 79,
+      "source_line": 153,
+      "kind": "narration",
+      "text_ru": "Корона отделилась от неё и вновь собралась. А её дыхание становилось всё слабее."
+    },
+    {
+      "ordinal": 80,
+      "source_line": 155,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "…Доктор. Зачем ты пришёл сюда?"
+    },
+    {
+      "ordinal": 81,
+      "source_line": 157,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 82,
+      "source_line": 159,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Я почувствовала… твои эмоции. Увидела… твоё прошлое."
+    },
+    {
+      "ordinal": 83,
+      "source_line": 160,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ты мог остаться в другом месте и просто дождаться моей смерти. Ты ведь знаешь: на этот раз я не стану ни бежать, ни отступать."
+    },
+    {
+      "ordinal": 84,
+      "source_line": 161,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ты пришёл за Амией? Или ради…"
+    },
+    {
+      "ordinal": 85,
+      "source_line": 166,
+      "kind": "narration",
+      "text_ru": "Терезии уже не нужно было слышать его ответ."
+    },
+    {
+      "ordinal": 86,
+      "source_line": 167,
+      "kind": "narration",
+      "text_ru": "За спиной у этого человека из теней, словно прилив, всё прибывали убийцы и устремлялись к Терезии —"
+    },
+    {
+      "ordinal": 87,
+      "source_line": 169,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Значит, вот твой ответ, Доктор…"
+    }
+  ],
+  "semantic_differences": [
+    {
+      "ordinal": 13,
+      "source_line": 28,
+      "cn_summary": "浮萍 denotes duckweed/floating plants; CN says there is neither a boat nor floating vegetation.",
+      "en_summary": "EN generalizes this as 'weeds'.",
+      "ru_summary": "Передано как «ни лодки, ни даже ряски», сохраняя конкретный образ CN.",
+      "resolution": "CN is primary; EN confirms the crossing context."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 97,
+      "cn_summary": "历史的局限性 points to the limitations of the people's historical outlook/conditions.",
+      "en_summary": "EN paraphrases this as limitations imposed by history.",
+      "ru_summary": "Передано как «ограниченность исторического взгляда», без добавления отдельной причины.",
+      "resolution": "Russian follows the CN idea while using natural Russian."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 104,
+      "cn_summary": "权限 means authority/permissions/access rights to the crown.",
+      "en_summary": "EN says 'permission', which is less explicit about access authority.",
+      "ru_summary": "Использовано «права доступа к короне», чтобы передать смысл полномочий, а не обычного разрешения.",
+      "resolution": "CN is primary; EN cross-checks the transfer."
+    },
+    {
+      "ordinal": 51,
+      "source_line": 105,
+      "cn_summary": "大部分区域 means most of its regions/areas have been sealed.",
+      "en_summary": "EN paraphrases this as sealing most of it away.",
+      "ru_summary": "Сохранён образ запечатанных областей короны; бескрайний поток информации остаётся отдельной частью фразы.",
+      "resolution": "Russian follows the more specific CN image."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 127,
+      "cn_summary": "存续的秘密 is the secret of continued existence/survival.",
+      "en_summary": "EN renders it as 'secrets of survival'.",
+      "ru_summary": "Передано как «тайна сохранения жизни»; формулировка остаётся рабочей до общей редакторской сверки термина 存续.",
+      "resolution": "CN is primary; EN confirms the survival sense."
+    },
+    {
+      "ordinal": 79,
+      "source_line": 153,
+      "cn_summary": "王冠抽离，又重聚 describes the crown being pulled away and gathering/re-forming again.",
+      "en_summary": "EN interprets the crown as leaving Theresa and finding another.",
+      "ru_summary": "Перевод сохраняет последовательность CN: корона отделяется и вновь собирается.",
+      "resolution": "CN is primary for the physical image; the surrounding scene supplies the transfer context."
+    }
+  ],
+  "editorial_review": false,
+  "in_game_test": false,
+  "game_behavior_verified": false,
+  "limitations": [
+    "All 87 text-bearing positions are translated, but the first draft has not undergone literary review.",
+    "The scene has not been validated in the Yostar Global PC client.",
+    "This is not a verified game patch."
+  ]
+}
