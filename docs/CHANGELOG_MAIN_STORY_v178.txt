@@ -1,0 +1,21 @@
+Arknights RU — main story changelog v1.78
+Date: 2026-11-10
+Base main: 6340a89a48e815f013591b44bbf3929c50f5fcb9
+
+Completed first draft: obt/main/level_main_06-12_end.txt, 163/163 named positions.
+Translated all 12 option payloads across six Decision commands; preserved six Predicate references and all values.
+No unnamed text positions. Preserved both {@nickname} placeholders.
+
+CN blob: 68639fdcc567ae79289307d5c9a9a7faf64e10a4
+EN Yostar blob: d3aa2303aea8ec614f3fde6c9a739211a0971e73
+CN: 316 physical lines; EN: 317 (one additional terminal newline).
+163/163 named positions and 153/153 command lines align by physical position.
+No full CN/EN scripts were added.
+
+Main story: 117 complete first drafts; 8,559 historical text positions / 8,558 combined-selection entries; inherited delta 1 retained.
+Chapter 6: 20 complete files / 2,314 text positions.
+Next source: obt/main/level_main_06-13_beg.txt (41 named positions).
+CN blob: c25a51a7073b79d4578a35389bd95735703f7d4a
+EN Yostar blob: 3374be807ba84ba5249d9212788b16281b8a432a
+
+First draft only; no literary review or Yostar Global PC in-game validation.
