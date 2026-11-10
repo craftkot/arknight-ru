@@ -57,7 +57,7 @@ class BabelBB7BeforeV307(unittest.TestCase):
         self.assertEqual(by[117]["speaker_cn"], "特雷西斯")
         self.assertIn("Хёдерера", by[81]["text_ru"])
         self.assertIn("птицезверь", by[107]["text_ru"])
-        self.assertEqual(self.audit["alignment"]["documented_source_meaning_difference"]["ordinal"], 127)
+        self.assertEqual(self.audit["alignment"]["documented_meaning_difference"]["ordinal"], 127)
         self.assertIn("Военная комиссия — её враг", self.audit["alignment"]["documented_source_meaning_difference"]["ru"])
 
     def test_source_alignment_and_differences(self):
