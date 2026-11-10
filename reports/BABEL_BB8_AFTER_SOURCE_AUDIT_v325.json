@@ -500,9 +500,18 @@
     "The previous 200 Russian entries are preserved at the JSON value level. All 241/241 text-bearing positions are now translated; the BB-8 after-battle first draft is complete.",
     "For selected CN/EN physical lines 712–782, all 71 normalized lines align after removing localized speaker labels and text payloads. The 41 text positions, speaker slots, command parameters, and markup tags match; no structural differences were found.",
     "The name 以勒什 is rendered as Илиш, following the Russian Arknights Wiki. The CN description of the troops returning exhausted is retained instead of EN's 'defeated troops'.",
-    "No complete CN/EN source scripts are stored in the repository. Literary review and Yostar Global PC in-game validation have not been performed."
+    "No complete CN/EN source scripts are stored in the repository. Literary review and Yostar Global PC in-game validation have not been performed.",
+    "В позиции 211 сохранены оба компонента CN 遗落者 и 销声匿迹: те, кто остался позади и бесследно исчез.",
+    "В позиции 234 не добавлено отсутствующее в CN прямое слово «война»: образ волны передан как «подхватит их и увлечёт за собой»."
   ],
   "scene_complete": true,
   "game_behavior_verified": false,
-  "editorial_review": false
+  "editorial_review": false,
+  "external_references": [
+    {
+      "url": "https://arknights.wiki.gg/ru/wiki/King_of_Sarkaz",
+      "claim": "Русская Arknights Wiki передаёт имя Yliš (以勒什) как «Илиш» и указывает его как предшественника Терезии на посту Короля Сарказ.",
+      "use": "Сверка русской формы имени в позиции 225; игровой CN остаётся первичным источником смысла."
+    }
+  ]
 }
