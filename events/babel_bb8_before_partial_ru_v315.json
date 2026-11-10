@@ -32,7 +32,7 @@
     "cn_decision_total": 0,
     "en_decision_total": 0,
     "en_extra_terminal_newline": true,
-    "version_difference": "CN and EN have 594 logical lines, 200 aligned text positions (158 named, 40 narration, two multiline) and 394 control-command lines. Speaker tags align after mapping Chinese names to EN. Two control commands differ: at CN/EN source lines 435 and 459, CN includes isCopy=true while EN omits it; preserve the CN attribute. The two multiline payloads at source lines 313 and 316 contain CN sound effects/text differing from EN's English onomatopoeia. Meaning differences at ordinals 19, 21, 27 and 39 are documented; Russian follows CN."
+    "version_difference": "CN and EN have 594 logical lines, 200 aligned text positions (158 named, 40 narration, two multiline) and 394 control-command lines. Speaker tags align after mapping Chinese names to EN. Two control commands differ: at CN/EN source lines 435 and 459, CN includes isCopy=true while EN omits it; preserve the CN attribute. The two multiline payloads at source lines 477 and 480 contain CN sound effects/text differing from EN's English onomatopoeia. Meaning differences at ordinals 19, 21, 27 and 39 are documented; Russian follows CN."
   },
   "progress": {
     "translated_text_positions": 40,
@@ -428,7 +428,7 @@
     "At ordinal 27, CN says Ascalon does not want Julie and Her Highness to meet; EN adds «at this moment». Russian follows CN and omits the time qualifier.",
     "At ordinal 39, CN says Julie appreciates Ascalon coming to see her off; EN reframes this as not minding that Ascalon gives her the clothes. Russian follows CN.",
     "Across the full source, 394 control-command lines are present. Two CN charslot commands include isCopy=true, which EN omits; this difference is preserved in the source audit.",
-    "Two later multiline text positions at CN/EN source lines 313 and 316 contain different Chinese/English sound-effect payloads; they are not part of this opening 40-position segment.",
+    "Two later multiline text positions at CN/EN source lines 477 and 480 contain different Chinese/English sound-effect payloads; they are not part of this opening 40-position segment.",
     "The first 40 positions comprise 33 named dialogue positions and seven narration positions. The next untranslated position is ordinal 41 at source line 90.",
     "No full CN/EN source scripts or game files are committed. No literary review or Yostar Global PC in-game validation has been performed."
   ]
