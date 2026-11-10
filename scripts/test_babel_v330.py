@@ -44,8 +44,8 @@ class BabelST03V330(unittest.TestCase):
         for entry in self.doc["dialogues"]:
             self.assertTrue(entry["text_ru"].strip())
             self.assertFalse(any(0x3400 <= ord(ch) <= 0x9fff for ch in entry["text_ru"]))
-            self.assertNotIn("\\n", entry["text_ru"])
-            self.assertNotIn("\\r", entry["text_ru"])
+            self.assertNotIn("\n", entry["text_ru"])
+            self.assertNotIn("\r", entry["text_ru"])
         self.assertEqual(by[52]["text_ru"].count("<color=#FF4200>"), 2)
         self.assertEqual(by[52]["text_ru"].count("</color>"), 2)
         self.assertIn("0091_admin", by[52]["text_ru"])
