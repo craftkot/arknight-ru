@@ -1224,26 +1224,24 @@
     "At ordinal 21, Russian uses «разобщённость» for the broader CN term; EN's «prejudices» is narrower.",
     "At ordinal 22, Russian preserves the quotation marks around the two terms in CN; EN has no corresponding quotation marks.",
     "The source files contain 149 aligned text positions and 235 identical control-command lines. EN has one extra terminal newline only.",
-    "The next untranslated text position is ordinal 41 at source line 125. The scene remains incomplete; no literary review or Yostar Global PC in-game test has been performed.",
     "No full CN/EN source scripts or game files are committed.",
     "This update adds positions 41–80 (CN/EN source lines 125–211): 33 named dialogue positions and seven narration positions; the first 40 entries from v3.11 are preserved unchanged.",
     "The new segment recalls Manfred, Ascalon, Theresis and Theresa as children on an ancient battlefield, then follows Ascalon's decision not to kill Manfred and their tense exchange about the coming campaign in Londinium.",
     "The scene turns from a quiet memory to Ascalon's sudden attack; she places a blade at Manfred's neck and explains that killing him now could spare him and others from dying in a foreign land.",
     "At ordinal 61 / source line 162, CN describes books from an entire wall falling, while EN says an entire bookshelf was knocked down. Russian follows CN.",
     "At ordinal 76 / source line 199, EN adds the word «fate» to the image of invisible tides; CN does not. Russian follows CN.",
-    "The next untranslated text position is ordinal 81 at source line 214. The scene remains incomplete and has not been tested in Yostar Global PC.",
     "This update adds positions 81–120 (CN/EN source lines 214–310): 34 named dialogue positions and six narration positions; the first 80 entries from v3.12 are preserved unchanged.",
     "The segment closes Manfred's exchange with Ascalon, then moves to Babel's Rhodes Island in Kazdel, where Ascalon speaks with Theresa about her return, the coming operation to retake Kazdel, and the Doctor's changed manner.",
     "At ordinal 100, CN uses pronoun 他 while EN explicitly names Theresis; Russian preserves the CN pronoun, whose antecedent is established by context.",
     "At ordinal 110, CN describes the Doctor as calmer while EN says more clinical; Russian follows CN.",
     "At ordinal 120, CN describes continual risk-taking while EN describes continual danger; Russian follows CN.",
     "The inherited note that counted 360 control-command lines was corrected: the verified count is 235; all 235 CN/EN control-command lines match exactly.",
-    "The next untranslated text position is ordinal 121 at source line 312. The scene remains incomplete; literary review and Yostar Global PC validation have not been performed.",
     "This update adds positions 121–149 (CN/EN source lines 312–377): 21 named dialogue positions and eight narration positions; the first 120 entries from v3.13 are preserved unchanged.",
     "At ordinal 121 / source line 312, CN says Babel has reached this point while carrying many people's hopes and convictions; EN recasts the thought as separate clauses about hopes and faith. Russian follows the CN sentence structure and retains both hopes and convictions.",
     "The final segment contains eight narration positions and 21 named positions. CN/EN source line positions, text types, speaker tags and all 235 control-command lines align; no new markup differences were found.",
     "All 149 text positions are now translated in a complete first draft. Literary review and Yostar Global PC in-game validation have not been performed.",
     "The next scene in author order is Babel BB-8 before battle: activities/act33side/level_act33side_08_beg.txt.",
-    "No full CN/EN source scripts or game files are committed."
+    "No full CN/EN source scripts or game files are committed.",
+    "Historical progress notes from v3.11–v3.13 describe earlier partial states only; the current v3.14 first draft is complete at 149/149."
   ]
 }
