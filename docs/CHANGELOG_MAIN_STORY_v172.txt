@@ -1,0 +1,21 @@
+Arknights RU — Main Story Changelog v1.72 / repository v3.32
+Date: 2026-11-10
+Base: main e78fad8f0a605aacf55ba421debc800c10c6acab
+
+Scene: obt/main/level_main_06-09_end.txt (chapter 6, 6-9 after battle)
+
+- Promoted the inherited v1.64 named-dialogue draft to a complete first draft after source audit: 120/120 named positions.
+- No new dialogue positions were added in this change. Sixteen inherited Russian lines were revised; 104 were retained unchanged.
+- Localized HEADER suffix 第四关（后） as «Этап 4 (после боя)»; it is not counted as dialogue.
+- CN source: Kengxxiao/ArknightsGameData, blob ff213f0a92ac216e8c9a1a8066b563724ed2ce9c.
+- EN Yostar source: Kengxxiao/ArknightsGameData_YoStar, blob 4e2a11deddd5e00efd20e3b64bc77381fa6eb519.
+- CN has 255 physical split lines; EN has 256 due to one terminal newline. Both have 120 named positions and 135 command lines at matching line numbers. All command text, order and parameters match. No untagged narration, Decision menus or branch text.
+- CN line 249 我不信 means «Не верю!»; EN says “I can't!”. Russian follows CN.
+- CN line 187 states that all Infected in the batch have evacuated; EN says the group is almost evacuated. Russian follows CN.
+- Corrected CN 荡平贫民窟 as «сносят трущобы до основания»; corrected the lower-limit phrasing and the evacuation line.
+- Added provisional glossary entries for Nesti / 大熊 and Lungmen Guard Department / 龙门近卫局.
+- Updated chapter-6 index, completed-scene selection, QA, chronology and README.
+- Next scene: 6-10 before battle, 85/104 source text entries currently present (80 named + 5 unnamed); next missing ordinal 86 at CN line 174.
+- Open PR #149 remains stale and is not counted or used as the base for this change.
+
+Limitations: no full CN/EN scripts committed; no complete literary review; no Yostar Global PC in-game validation. Local preview is not a verified game patch.
