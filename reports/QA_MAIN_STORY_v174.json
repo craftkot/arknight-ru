@@ -71,7 +71,11 @@
     "cn_physical_lines": 367,
     "en_physical_lines": 368,
     "command_lines": 187,
-    "first_text_source_line": 9
+    "first_text_source_line": 9,
+    "decision_commands": 3,
+    "localized_decision_option_payloads": true,
+    "localized_speaker_labels": true,
+    "note": "CN and EN text positions align by physical line. Speaker labels are localized. Three Decision option strings differ by language; the full parameter-level normalization remains pending before translating this scene."
   },
   "editorial_review": false,
   "in_game_test": false,
