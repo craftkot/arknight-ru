@@ -1,0 +1,61 @@
+{
+  "version": "v1.72",
+  "scope": "Complete structural audit of the inherited main-story 6-9 after-battle draft; revise sixteen inherited lines and localize the HEADER title.",
+  "completed_story_files": 113,
+  "completed_story_named_ru": 7806,
+  "completed_story_unnamed_ru": 101,
+  "completed_story_text_entries": 7907,
+  "selection_files": 113,
+  "selection_dialogue_entries_counted": 7906,
+  "selection_vs_historical_manifest_delta": 1,
+  "partial_scene_files": 1,
+  "partial_scene_named_ru": 80,
+  "partial_scene_unnamed_ru": 5,
+  "partial_scene_text_entries": 85,
+  "all_story_text_entries_including_partial": 7992,
+  "chapter_6_complete_files": 16,
+  "chapter_6_complete_named_ru": 1603,
+  "chapter_6_complete_unnamed_ru": 59,
+  "chapter_6_partial_files": 1,
+  "chapter_6_partial_named_ru": 80,
+  "chapter_6_partial_unnamed_ru": 5,
+  "chapter_6_partial_text_entries": 85,
+  "chapter_6_complete_text_entries": 1662,
+  "chapter_6_text_entries_including_partial": 1747,
+  "partial_scenes": [
+    {
+      "source_file": "obt/main/level_main_06-10_beg.txt",
+      "status": "partial_first_draft",
+      "named_ru": 80,
+      "unnamed_ru": 5,
+      "total_ru": 85,
+      "source_total_text_positions": 104,
+      "next_ordinal": 86,
+      "next_source_line": 174,
+      "included_in_selection": false,
+      "source_sha_cn": "8a5d4c711491343324dc29b668e30d972724bba5",
+      "source_sha_en": "448f0d022a8c992d15badbf3e2c2e85a5d70c83e"
+    }
+  ],
+  "stale_open_pr": {
+    "number": 149,
+    "title": "Arknights RU v1.70: finish 6-10 before battle first draft",
+    "status": "open; stale relative to current main; not included in selection",
+    "note": "The old PR branch is not used as the work base; refresh and CI-check before considering its 6-10 content."
+  },
+  "completed_scene_audit": {
+    "source_file": "obt/main/level_main_06-09_end.txt",
+    "named_positions": 120,
+    "unnamed_positions": 0,
+    "command_lines": 135,
+    "commands_match_cn_en": true,
+    "command_line_numbers_match": true,
+    "decision_menus": 0,
+    "header_title_ru": "Этап 4 (после боя)",
+    "new_dialogue_positions_in_this_change": 0,
+    "revised_inherited_dialogue_positions": 16
+  },
+  "editorial_review": false,
+  "in_game_test": false,
+  "note": "All 120 named translations were inherited from v1.64; sixteen positions were revised, and no new dialogue positions were added. The 135 command lines match exactly between CN and EN. The inherited one-entry difference between the historical manifest (7,907) and selection (7,906) remains explicit. Literary review and Yostar Global PC validation remain pending."
+}

@@ -1,0 +1,161 @@
+{
+  "version": "v1.72",
+  "scene": "Main story chapter 6, stage 6-9 after battle",
+  "source_file": "obt/main/level_main_06-09_end.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "ff213f0a92ac216e8c9a1a8066b563724ed2ce9c",
+    "cn_physical_lines": 255,
+    "cn_named_positions": 120,
+    "cn_unnamed_positions": 0,
+    "cn_command_lines": 135,
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "4e2a11deddd5e00efd20e3b64bc77381fa6eb519",
+    "en_physical_lines": 256,
+    "en_named_positions": 120,
+    "en_unnamed_positions": 0,
+    "en_command_lines": 135
+  },
+  "alignment": {
+    "named_position_count_match": true,
+    "named_line_number_match": true,
+    "ordinal_sequence_match": true,
+    "untagged_text_count_match": true,
+    "command_count_match": true,
+    "command_line_number_match": true,
+    "command_text_and_parameter_match": true,
+    "decision_count_match": true,
+    "cn_decision_count": 0,
+    "en_decision_count": 0
+  },
+  "command_counts": {
+    "HEADER": 1,
+    "Background": 2,
+    "Delay": 2,
+    "PlayMusic": 1,
+    "Character": 92,
+    "Dialog": 9,
+    "Blocker": 19,
+    "Image": 3,
+    "ImageTween": 1,
+    "CameraShake": 2,
+    "PlaySound": 2,
+    "delay": 1
+  },
+  "header_title": {
+    "source_line": 1,
+    "source_text": "第四关（后）",
+    "translation_ru": "Этап 4 (после боя)",
+    "counted_as_dialogue": false
+  },
+  "existing_translation": {
+    "source_file": "story/story_chapter_6_stage_6-9_after_named_ru_v164.json",
+    "blob_sha1": "587c867a61d0a3dca2ddf31efdac24672a1027a9",
+    "named_positions_retained": 120,
+    "new_named_dialogue_translations_in_this_change": 0,
+    "revised_dialogue_positions": 16,
+    "revised_ordinals": [
+      5,
+      11,
+      15,
+      20,
+      25,
+      27,
+      31,
+      70,
+      71,
+      81,
+      90,
+      94,
+      98,
+      105,
+      107,
+      120
+    ]
+  },
+  "semantic_review": [
+    {
+      "source_line": 14,
+      "cn": "荡下来",
+      "en": "swing down",
+      "ru_note": "Убрано не подтверждённое источником уточнение «с тросом»."
+    },
+    {
+      "source_line": 23,
+      "cn": "别说让他们减员了",
+      "en": "Don't even think about trying to kill them!",
+      "ru_note": "Уточнено как «нанести им потери»."
+    },
+    {
+      "source_line": 45,
+      "cn": "精神受到了一点创伤",
+      "en": "hits to his psyche",
+      "ru_note": "Уменьшена сила формулировки до «небольшую психологическую травму»."
+    },
+    {
+      "source_line": 50,
+      "cn": "很难生还",
+      "en": "It's hard to come back from that.",
+      "ru_note": "CN говорит, что выжить трудно, а не почти невозможно."
+    },
+    {
+      "source_line": 64,
+      "cn": "从这里撤退",
+      "en": "retreat from here",
+      "ru_note": "Убрано ошибочное «через эту точку»; речь об отходе отсюда."
+    },
+    {
+      "source_line": 140,
+      "cn": "还分什么我啊你的",
+      "en": "Who cares whether it's the Infected or the uninfected now?",
+      "ru_note": "Сохранена идея отказа делить людей на своих и чужих."
+    },
+    {
+      "source_line": 164,
+      "cn": "大熊",
+      "en": "Nesti",
+      "ru_note": "Использовано имя Nesti из EN Yostar; русская передача «Нести» предварительная."
+    },
+    {
+      "source_line": 179,
+      "cn": "这批已经差不多了",
+      "en": "They're almost done!",
+      "ru_note": "По контексту эвакуации передано как «Эту группу почти эвакуировали»."
+    },
+    {
+      "source_line": 197,
+      "cn": "荡平贫民窟",
+      "en": "They're purging the slums",
+      "ru_note": "Исправлена ошибка «сравнивают трущобы с землёй» на «сносят трущобы до основания»."
+    },
+    {
+      "source_line": 215,
+      "cn": "温度在突破下限",
+      "en": "The temperature just cracked the lower limit",
+      "ru_note": "Снята тавтология «ниже нижнего предела»."
+    },
+    {
+      "source_line": 217,
+      "cn": "把他们的落脚点砸了",
+      "en": "Smash their footing",
+      "ru_note": "По контексту сцены речь об опорах конструкции."
+    },
+    {
+      "source_line": 249,
+      "cn": "我不信！",
+      "en": "I can't!",
+      "ru_note": "RU следует CN: «Не верю!»; EN расходится по смыслу."
+    }
+  ],
+  "source_version_difference": "EN has one additional terminal newline; text positions and all commands otherwise align.",
+  "limitations": [
+    "The 120 named translations pre-existed in v1.64; this change audits and revises the inherited draft rather than translating 120 new lines.",
+    "No untagged narration or decision menus occur in this file.",
+    "Literary review beyond the listed targeted revisions remains pending.",
+    "No Yostar Global PC in-game validation was performed.",
+    "No full CN/EN scenario script is stored in the repository."
+  ],
+  "result": "120/120 named positions present; 0 unnamed positions; 135/135 command lines match exactly; 0 decision menus; HEADER title localized."
+}
