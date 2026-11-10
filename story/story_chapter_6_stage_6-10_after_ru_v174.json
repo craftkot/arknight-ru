@@ -1347,7 +1347,7 @@
       "source_line": 329,
       "kind": "named",
       "speaker_cn": "凯尔希",
-      "text_ru": "Теперь она стала штаммом вируса, распространяющим «тревогу» среди фанатично настроенных заражённых Чернобога."
+      "text_ru": "Теперь она станет штаммом вируса, который будет распространять «тревогу» среди фанатично настроенных заражённых Чернобога."
     },
     {
       "ordinal": 190,
@@ -1463,5 +1463,5 @@
     }
   ],
   "header_title_ru": "Этап 4 (после боя)",
-  "notes_v174": "Complete first draft: 205/205 named dialogue positions. All source line numbers and speakers were mapped from the current CN file; EN Yostar was used to cross-check names and structure. 152 command lines are unchanged. Key CN-primary choices include the smoke-organ description, the Ursus-raised monster metaphor, the distinction between killing the falling debris and Crownslayer, and the 'real idealist' wording. No full CN/EN source script is included. Literary review and Yostar Global PC validation remain pending. Editorial pass before PR: restored parenthetical internal-monologue formatting in ordinals 1–6; corrected CN-primary 'Why?' at ordinal 121 (EN says 'What?'); clarified 'spine' as 'позвоночник' and refined several long sentences."
+  "notes_v174": "Complete first draft: 205/205 named dialogue positions. All source line numbers and speakers were mapped from the current CN file; EN Yostar was used to cross-check names and structure. 152 command lines are unchanged. Key CN-primary choices include the smoke-organ description, the Ursus-raised monster metaphor, the distinction between killing the falling debris and Crownslayer, and the 'real idealist' wording. No full CN/EN source script is included. Literary review and Yostar Global PC validation remain pending. Editorial pass before PR: restored parenthetical internal-monologue formatting in ordinals 1–6; corrected CN-primary 'Why?' at ordinal 121 (EN says 'What?'); clarified 'spine' as 'позвоночник' and refined several long sentences. Ordinal 189 retains the future tense in CN 会成为 ('will become'), rather than following the past-tense phrasing of EN."
 }
