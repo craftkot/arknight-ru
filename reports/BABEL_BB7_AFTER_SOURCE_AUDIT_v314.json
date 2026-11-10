@@ -1,0 +1,209 @@
+{
+  "version": "v3.14",
+  "scene": "Babel BB-7 after battle",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_07_end.txt",
+    "cn_git_blob_sha1": "684c483e02f057552465a48707968e1566b74e6a",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_07_end.txt",
+    "en_git_blob_sha1": "4f340479e37a5ef752b0341fe7aefb3a16d8f817",
+    "cn_logical_line_count": 384,
+    "en_logical_line_count": 384,
+    "en_extra_terminal_newline": true
+  },
+  "source_totals": {
+    "cn_text_positions": 149,
+    "en_text_positions": 149,
+    "cn_named": 125,
+    "en_named": 125,
+    "cn_narration": 24,
+    "en_narration": 24,
+    "cn_multiline": 0,
+    "en_multiline": 0,
+    "cn_subtitle": 0,
+    "en_subtitle": 0,
+    "cn_sticker": 0,
+    "en_sticker": 0,
+    "cn_control_commands": 235,
+    "en_control_commands": 235,
+    "decisions": 0
+  },
+  "alignment": {
+    "text_positions_match": true,
+    "text_type_sequence_match": true,
+    "speaker_tags_match": true,
+    "control_command_lines_match_exactly": true,
+    "control_command_tag_sequence_match": true,
+    "decision_positions_and_values_match": true,
+    "logical_line_alignment": true,
+    "terminal_newline_only_difference": true
+  },
+  "speaker_tag_map_cn_to_en": {
+    "曼弗雷德": "Manfred",
+    "特雷西斯": "Theresis",
+    "军事委员会卫士": "Military Commission Guard",
+    "阿斯卡纶": "Ascalon",
+    "特蕾西娅": "Theresa",
+    "维多利亚士兵": "Victorian Soldier"
+  },
+  "previous_segment": {
+    "ordinals": [
+      81,
+      120
+    ],
+    "text_positions": 40,
+    "named": 34,
+    "narration": 6,
+    "source_audit": "reports/BABEL_BB7_AFTER_SOURCE_AUDIT_v313.json"
+  },
+  "segment": {
+    "ordinals": [
+      121,
+      149
+    ],
+    "source_lines": [
+      312,
+      313,
+      315,
+      316,
+      318,
+      319,
+      320,
+      322,
+      324,
+      326,
+      328,
+      337,
+      338,
+      339,
+      340,
+      351,
+      353,
+      354,
+      355,
+      357,
+      362,
+      363,
+      364,
+      366,
+      367,
+      373,
+      375,
+      376,
+      377
+    ],
+    "text_positions": 29,
+    "named": 21,
+    "narration": 8,
+    "multiline": 0,
+    "subtitles": 0,
+    "stickers": 0,
+    "next_ordinal": null,
+    "next_source_line": null,
+    "previous_entries_preserved": true,
+    "scene_complete": true,
+    "source_line_range": [
+      312,
+      377
+    ]
+  },
+  "documented_markup_differences": [
+    {
+      "ordinal": 22,
+      "source_line": 55,
+      "description": "CN places quotation marks around the terms for glory and respect; EN omits the matching quotation marks.",
+      "resolution": "Russian preserves CN punctuation."
+    }
+  ],
+  "documented_meaning_differences": [
+    {
+      "ordinal": 8,
+      "source_line": 32,
+      "description": "CN depicts the Sarkaz warriors as having risen from the civil war; EN describes them as redeployed.",
+      "resolution": "Russian follows CN."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 38,
+      "description": "EN adds an explicit acknowledgement before Manfred's unfinished clause; the corresponding words are absent from CN.",
+      "resolution": "Russian follows CN and does not add the EN clause."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 54,
+      "description": "CN uses a broader term for divisions or estrangement; EN narrows it to prejudices.",
+      "resolution": "Russian follows CN with «разобщённость»."
+    },
+    {
+      "ordinal": 61,
+      "source_line": 162,
+      "description": "CN says books from an entire wall fell; EN says an entire bookshelf was knocked down.",
+      "resolution": "Russian follows CN."
+    },
+    {
+      "ordinal": 76,
+      "source_line": 199,
+      "description": "EN adds «fate» to the invisible-tides image; CN does not explicitly include it.",
+      "resolution": "Russian follows CN and does not add «судьбы»."
+    },
+    {
+      "ordinal": 100,
+      "source_line": 273,
+      "cn": "CN uses pronoun 他 for the first person in «他和曼弗雷德都很好».",
+      "en": "EN resolves the pronoun explicitly as Theresis.",
+      "resolution": "Russian preserves the CN pronoun; its antecedent is established by context."
+    },
+    {
+      "ordinal": 110,
+      "source_line": 290,
+      "cn": "CN says the Doctor has become more 冷静 (calm, composed).",
+      "en": "EN renders this as more clinical.",
+      "resolution": "Russian follows CN with «спокойнее»."
+    },
+    {
+      "ordinal": 120,
+      "source_line": 310,
+      "cn": "CN says «我们始终是在冒险» — they are continually taking risks.",
+      "en": "EN says they have always been in danger.",
+      "resolution": "Russian follows CN with «Мы всё время рискуем…»."
+    },
+    {
+      "ordinal": 121,
+      "source_line": 312,
+      "cn": "CN says Babel has reached the present while bearing the hopes and convictions of many people.",
+      "en": "EN separates the thought into Babel carrying many people's hopes and faith having brought them this far.",
+      "resolution": "Russian follows the CN sentence structure and retains both hopes and convictions."
+    }
+  ],
+  "notes": [
+    "CN is the primary semantic source. EN Yostar is used to cross-check names, structure and formatting.",
+    "All 235 control-command lines match exactly. The 125 name-tagged dialogue lines are speaker labels, not control commands.",
+    "The CN/EN speaker-label mapping was checked across all 149 positions; all mapped speaker tags align.",
+    "The only physical-line difference is EN's additional terminal newline. Both files contain 384 logical lines.",
+    "No complete CN/EN source script or game data is stored in this repository.",
+    "The previous 120 translated positions are preserved unchanged. The final segment adds positions 121–149 (21 named and eight narration positions).",
+    "At ordinal 121, CN links Babel's progress to carrying many people's hopes and convictions; EN separates hopes and faith into two clauses. Russian follows CN.",
+    "All 149 text positions are now covered in the first draft. No new markup differences were found in the final segment.",
+    "The scene has not undergone literary review or Yostar Global PC in-game validation."
+  ],
+  "segment_cn_en_line_alignment": true,
+  "segment_cn_en_text_type_alignment": true,
+  "segment_cn_en_speaker_tags_align": true,
+  "segment_cn_en_markup_alignment": true,
+  "segment_cn_en_markup_alignment_except_documented_difference": true,
+  "cn_en_physical_line_counts_match": true,
+  "scene_complete": true,
+  "game_behavior_verified": false,
+  "cn_en_control_command_lines_match_exactly": true,
+  "cn_en_speaker_tags_align": true,
+  "cn_en_control_command_count": 235,
+  "previous_entries_preserved": true,
+  "full_translated_prefix_markup_alignment_except_documented_differences": true,
+  "source_line_range": [
+    312,
+    377
+  ]
+}
