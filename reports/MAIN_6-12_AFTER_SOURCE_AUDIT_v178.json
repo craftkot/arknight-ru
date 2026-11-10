@@ -1,0 +1,87 @@
+{
+  "version": "v1.78",
+  "scene": "Main story 6-12 after battle",
+  "source_file": "obt/main/level_main_06-12_end.txt",
+  "source_repositories": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "ref": "master",
+      "path": "zh_CN/gamedata/story/obt/main/level_main_06-12_end.txt",
+      "git_blob_sha1": "68639fdcc567ae79289307d5c9a9a7faf64e10a4"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "ref": "main",
+      "path": "en_US/gamedata/story/obt/main/level_main_06-12_end.txt",
+      "git_blob_sha1": "d3aa2303aea8ec614f3fde6c9a739211a0971e73"
+    }
+  },
+  "source_versions": "Structural versions align. CN has 316 physical lines; EN has 317 due to one additional trailing newline.",
+  "cn_physical_lines": 316,
+  "en_physical_lines": 317,
+  "cn_text_positions": 163,
+  "en_text_positions": 163,
+  "named_positions": 163,
+  "unnamed_positions": 0,
+  "text_positions": 163,
+  "command_lines_cn": 153,
+  "command_lines_en": 153,
+  "command_counts": {
+    "HEADER": 1,
+    "Background": 3,
+    "Delay": 2,
+    "PlayMusic": 1,
+    "Character": 105,
+    "Dialog": 9,
+    "Blocker": 12,
+    "PlaySound": 3,
+    "CameraShake": 1,
+    "delay": 3,
+    "Decision": 6,
+    "Predicate": 6,
+    "Image": 1
+  },
+  "commands_match_cn_en": true,
+  "command_line_numbers_match": true,
+  "text_line_numbers_match": true,
+  "speaker_label_positions_match": true,
+  "decision_commands": 6,
+  "decision_option_total": 12,
+  "predicate_branches": 6,
+  "decision_values_and_predicate_references_match": true,
+  "decision_options_translated": 12,
+  "decision_option_source_lines": [
+    181,
+    189,
+    194,
+    199,
+    204,
+    213
+  ],
+  "placeholder_count_cn": 2,
+  "placeholder_count_en": 2,
+  "placeholder_count_ru": 2,
+  "untranslated_cjk_in_ru": 0,
+  "empty_ru_entries": 0,
+  "inline_markup_tags_in_dialogue_payloads": 0,
+  "translated_new_positions": 163,
+  "translated_source_lines": [
+    6,
+    312
+  ],
+  "header_title_source": "第二关（后）",
+  "header_title_ru": "Этап 2 (после боя)",
+  "header_title_filename_suffix_consistent": true,
+  "editorial_review": false,
+  "in_game_test": false,
+  "notes": [
+    "The file contains 163 named dialogue positions and no unnamed text payloads.",
+    "The six Decision commands are separate from the 163 dialogue positions; all 12 option strings were translated in decision_options_ru.",
+    "All 153 non-dialogue commands align by line and normalized command text. Decision option strings are the only language-specific command payloads.",
+    "The EN source has one additional terminal newline; this does not shift any source positions.",
+    "CN remains primary where EN paraphrases or compresses the Chinese wording.",
+    "No full original CN/EN scenario text is included in this repository."
+  ],
+  "cn_git_blob_sha1": "68639fdcc567ae79289307d5c9a9a7faf64e10a4",
+  "en_git_blob_sha1": "d3aa2303aea8ec614f3fde6c9a739211a0971e73"
+}
