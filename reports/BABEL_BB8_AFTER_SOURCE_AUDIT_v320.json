@@ -1,0 +1,199 @@
+{
+  "version": "v3.20",
+  "scene": "Babel BB-8 after battle",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "502baa017ba32f5d3359d2caeedd2adafc72cd2a",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "f5b13d3e11d4be6c3d4412eff082ae606fe586b4",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_08_end.txt",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_08_end.txt",
+    "cn_line_count": 790,
+    "en_line_count": 791,
+    "cn_text_total": 241,
+    "en_text_total": 241,
+    "cn_named_total": 141,
+    "en_named_total": 141,
+    "cn_multiline_total": 2,
+    "en_multiline_total": 2,
+    "cn_narration_total": 26,
+    "en_narration_total": 26,
+    "cn_sticker_total": 55,
+    "en_sticker_total": 55,
+    "cn_subtitle_total": 12,
+    "en_subtitle_total": 12,
+    "cn_decision_total": 5,
+    "en_decision_total": 5,
+    "cn_control_command_total": 549,
+    "en_control_command_total": 549,
+    "en_extra_terminal_newline": true,
+    "version_difference": "CN and EN align at all 241 text-bearing source positions by physical line and type. EN has one additional terminal newline. The 549 non-text control commands match exactly. Speaker labels and text payloads are localized: 55 Sticker, 12 Subtitle, five Decision, and two multiline payloads differ by language. No source command-parameter differences were found. The translated first segment contains 40 positions (29 named, 11 narration); its command lines and markup align exactly."
+  },
+  "segment": {
+    "ordinals": [
+      1,
+      40
+    ],
+    "source_lines": [
+      12,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      33,
+      34,
+      35,
+      36,
+      40,
+      42,
+      44,
+      45,
+      47,
+      48,
+      50,
+      51,
+      52,
+      54,
+      59,
+      60,
+      62,
+      63,
+      94,
+      95,
+      105,
+      112,
+      113,
+      114,
+      130,
+      132,
+      134,
+      135,
+      137,
+      140,
+      141,
+      144
+    ],
+    "text_positions": 40,
+    "kind_counts": {
+      "named": 29,
+      "narration": 11,
+      "multiline": 0,
+      "sticker": 0,
+      "subtitle": 0,
+      "decision": 0
+    },
+    "next_ordinal": 41,
+    "next_source_line": 158
+  },
+  "structural_comparison": {
+    "all_text_positions_align_by_source_line_and_type": true,
+    "all_speaker_slots_align_by_position": true,
+    "nontext_control_commands_match_exactly": true,
+    "nontext_control_command_count": 549,
+    "localized_text_payload_command_count": 74,
+    "localized_payloads_are_not_command_structure_differences": true,
+    "en_extra_terminal_newline": true,
+    "translated_segment_command_and_markup_differences": []
+  },
+  "speaker_mappings": [
+    {
+      "cn": "“疤眼”",
+      "en": "Scareye",
+      "ru": "Скарай"
+    },
+    {
+      "cn": "萨卡兹雇佣兵",
+      "en": "Sarkaz Mercenary",
+      "ru": "Сарказский наёмник"
+    },
+    {
+      "cn": "特雷西斯",
+      "en": "Theresis",
+      "ru": "Терезис"
+    },
+    {
+      "cn": "曼弗雷德",
+      "en": "Manfred",
+      "ru": "Манфред"
+    },
+    {
+      "cn": "弃名死士",
+      "en": "Name-Forsaken Sacrificer",
+      "ru": "Смертник, отрёкшийся от имени (рабочая передача)"
+    }
+  ],
+  "documented_meaning_differences": [
+    {
+      "ordinal": 5,
+      "source_line": 18,
+      "cn_summary": "Scareye insists that Ascalon did not kill him.",
+      "en_summary": "EN recasts the opening as a rhetorical dismissal of the prophecy.",
+      "ru_summary": "Аскалон меня не убила! Не убила!",
+      "resolution": "Russian preserves the repeated CN assertion."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 20,
+      "cn_summary": "CN calls the Cyclops Court a huge joke.",
+      "en_summary": "EN adds the intensifier 'sick'.",
+      "ru_summary": "Королевский двор циклопов — одна большая шутка!",
+      "resolution": "Russian follows CN and omits the added adjective."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 33,
+      "cn_summary": "CN repeats that Scareye did not die at Ascalon's hands, then refers to his own prophecy.",
+      "en_summary": "EN compresses the repetition.",
+      "ru_summary": "Я не погиб от руки Аскалон. Не погиб так, как сам себе предсказывал…",
+      "resolution": "Russian keeps the repeated denial in a concise Russian form."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 51,
+      "cn_summary": "CN says the mercenaries can return to the Scar Market and secure their position if Babel loses.",
+      "en_summary": "EN reduces the consequence to 'nothing to lose'.",
+      "ru_summary": "…позаботиться о собственном положении.",
+      "resolution": "Russian follows the CN reference to their position."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 59,
+      "cn_summary": "CN explicitly identifies the men as ambushers Scareye himself placed there.",
+      "en_summary": "EN calls them soldiers he set up for an ambush.",
+      "ru_summary": "…наёмников, которых сам же расставил здесь в засаде.",
+      "resolution": "Russian retains the ambush and Scareye's responsibility."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 113,
+      "cn_summary": "CN says Theresis respects compatriots who come before him one after another at the cost of their lives.",
+      "en_summary": "EN adds an explanation about fighting their way out.",
+      "ru_summary": "…сородичей, которые один за другим пробивались к нему, ставя на кон собственную жизнь.",
+      "resolution": "Russian follows the CN image without adding the EN explanation."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 134,
+      "cn_summary": "CN says the traitors lying in ambush around them have probably prepared for a long time.",
+      "en_summary": "EN adds the metaphor of sharpening their blades.",
+      "ru_summary": "…должно быть, готовились уже давно.",
+      "resolution": "Russian follows CN and does not add the sharpening metaphor."
+    }
+  ],
+  "notes": [
+    "The original CN and EN game scripts were read from the attributed Kengxxiao mirrors; no complete source scripts are copied into this repository.",
+    "The source contains 241 text-bearing positions: 141 named, 26 narration, 55 Sticker, two multiline, 12 Subtitle and five Decision positions.",
+    "CN has 790 physical lines; EN has 791 because of one extra terminal newline. The 241 text positions align by source line and type.",
+    "The 549 non-text control commands match exactly. The 74 text-bearing command payloads are localized content, not structural command differences.",
+    "This update translates only ordinals 1–40, source lines 12–144. The next text position is ordinal 41 at source line 158.",
+    "The scene remains partial at 40/241. Literary review and Yostar Global PC in-game validation have not been performed."
+  ],
+  "scene_complete": false,
+  "game_behavior_verified": false,
+  "editorial_review": false
+}
