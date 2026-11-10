@@ -1,0 +1,1467 @@
+{
+  "version": "v1.74",
+  "stage": "Main story 6-10 after battle — complete first draft",
+  "status": "COMPLETE_FIRST_DRAFT; STRUCTURAL_AUDIT_PASSED; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_main_06-10_end.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "bb62801e39e1b96789067cd5ed25aa567e06896f",
+    "cn_physical_lines": 357,
+    "cn_final_newline": false,
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "e9f0401e0c5a790c4ea0b37f3cf7a970eb4a879d",
+    "en_physical_lines": 358,
+    "en_final_newline": true,
+    "version_difference": "CN contains 357 physical lines and no final newline; EN contains 358 because it has one final newline. Both sources contain 205 named text positions at identical physical line numbers and 152 command lines. All command lines match exactly in name, parameters, order and position. No placeholders or inline markup occur in dialogue payloads. CN is primary for meaning; EN Yostar is the name and structure cross-check. Full source scripts are not stored in this repository."
+  },
+  "progress": {
+    "translated": 205,
+    "total": 205,
+    "remaining": 0,
+    "next_ordinal": null,
+    "next_source_line": null,
+    "complete": true,
+    "unit": "named dialogue"
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 13,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "(Ух… ух…! Ха… ха…)"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 15,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "(…Попалась?! Так атака только что была лишь отвлекающим манёвром?)"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "(Если она и дальше будет рассекать мой отряд на части, всё подразделение утратит боеспособность…)"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 17,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "(Нужно немедленно связаться с остальными!)"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 18,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "(Чёрт, почему пальцы меня не слушаются? Почему меня бьёт дрожь?!)"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "(Нельзя… Нельзя дать ей меня догнать!)"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 24,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "!"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 33,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "У-у, кхе!"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 35,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "(Низкое рычание)"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 37,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Ред, не убивай её."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 39,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 41,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Кхе, кхе…! Кх!"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Это она?"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Точно. Ред учуяла её."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 46,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "(Принюхивается)"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Фу, фальшивка. Она не волк."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 48,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Но запах настоящий."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Запах настоящего волка. Первого настоящего волка."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Настоящему волку?"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 53,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Ты… проклятый волчонок!"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 55,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Не двигайся."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 62,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Что… как такое возможно? Я не могу пошевелиться?"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Она… она может меня подавить?"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Она пытается напрячься. Это волчий приём. Она научилась кусать у волков."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 66,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Она хочет контратаковать. Ред может пронзить ей спинной мозг и парализовать её."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Не нужно."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 70,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Хорошо."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Постой, ты…"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "…Это ты. Ты! Наконец-то я тебя нашла…!"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 74,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Предательница… Предательница! Я нашла тебя, предательница!"
+    },
+    {
+      "ordinal": 31,
+      "source_line": 76,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ты…"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Дочь Илии, Людмила?"
+    },
+    {
+      "ordinal": 33,
+      "source_line": 79,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Замолчи! Как ты смеешь произносить имя моего отца!"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Урсус уничтожил весь институт и расправился со всеми учёными."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 82,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ты так считаешь?"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 84,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Как ты смеешь?!"
+    },
+    {
+      "ordinal": 37,
+      "source_line": 85,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Это ты! Ты, подлая предательница, вместе с Сергеем выдала моего отца и всех остальных учёных!"
+    },
+    {
+      "ordinal": 38,
+      "source_line": 87,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 88,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "У тебя такой же цвет волос, как у него."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 90,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "…О чём ты говоришь? Почему ты…"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 92,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Не двигайся."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Ах!"
+    },
+    {
+      "ordinal": 43,
+      "source_line": 96,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ты хочешь спросить, почему я никак не реагирую на твои обвинения?"
+    },
+    {
+      "ordinal": 44,
+      "source_line": 98,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Потому что ты — мразь!"
+    },
+    {
+      "ordinal": 45,
+      "source_line": 100,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Мразь. Каким же человеком, по-твоему, я должна быть?"
+    },
+    {
+      "ordinal": 46,
+      "source_line": 101,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Трусливой, слабой, жадной до денег и покоя… Или жестокой и бессердечной, готовой на всё ради своей цели?"
+    },
+    {
+      "ordinal": 47,
+      "source_line": 102,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Я, стоящая сейчас перед тобой, соответствую твоему представлению?"
+    },
+    {
+      "ordinal": 48,
+      "source_line": 104,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Я и подумать не могла… не могла, что ты настолько бессердечная, холодная женщина!"
+    },
+    {
+      "ordinal": 49,
+      "source_line": 106,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Когда ты убивала Сергея, он раскаялся?"
+    },
+    {
+      "ordinal": 50,
+      "source_line": 108,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "…Что ты…"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 110,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ты знала, что он был отцом Алекса и Миши?"
+    },
+    {
+      "ordinal": 52,
+      "source_line": 112,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Ха… Ха-ха-ха… Это Алекс помог мне найти его!"
+    },
+    {
+      "ordinal": 53,
+      "source_line": 114,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…Воссоединение приняло Алекса в свои ряды, убило его отца и преследовало его сестру."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 115,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ха…"
+    },
+    {
+      "ordinal": 55,
+      "source_line": 117,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ред. Дай ей возможность."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 119,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Хорошо."
+    },
+    {
+      "ordinal": 57,
+      "source_line": 121,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "…Что ты собираешься делать?"
+    },
+    {
+      "ordinal": 58,
+      "source_line": 123,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Дать тебе шанс убить меня."
+    },
+    {
+      "ordinal": 59,
+      "source_line": 125,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Шанс? Ты хоть понимаешь, что говоришь?"
+    },
+    {
+      "ordinal": 60,
+      "source_line": 126,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Ты хочешь отказаться от жизни? Тоже решила раскаяться, как Сергей, который благодаря предательству коллег пробрался в высшие круги Чернобога?"
+    },
+    {
+      "ordinal": 61,
+      "source_line": 127,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "…Ты ещё пожалеешь. Пожалеешь обо всём, что сделала!"
+    },
+    {
+      "ordinal": 62,
+      "source_line": 129,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Обычно я говорю: «Я ни о чём не жалею»…"
+    },
+    {
+      "ordinal": 63,
+      "source_line": 130,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Но сегодня я могу откровенно признаться тебе: есть одна вещь, о которой я очень сожалею."
+    },
+    {
+      "ordinal": 64,
+      "source_line": 131,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "— И это никак не связано с твоим отцом."
+    },
+    {
+      "ordinal": 65,
+      "source_line": 133,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "…Я убью тебя. Я убью тебя!"
+    },
+    {
+      "ordinal": 66,
+      "source_line": 134,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "(Шипит, тяжело дышит)"
+    },
+    {
+      "ordinal": 67,
+      "source_line": 135,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "«Проглоти горечь погибших»…"
+    },
+    {
+      "ordinal": 68,
+      "source_line": 139,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Туман?"
+    },
+    {
+      "ordinal": 69,
+      "source_line": 141,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Это Искусства."
+    },
+    {
+      "ordinal": 70,
+      "source_line": 143,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Туман… Нет, по сути это дым."
+    },
+    {
+      "ordinal": 71,
+      "source_line": 144,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Нервные сигналы заставляют орган в полости рта выделять дым в ответ на стресс. Это действительно особые Искусства Ориджиниума, основанные на заражённом органе."
+    },
+    {
+      "ordinal": 72,
+      "source_line": 146,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Стоишь и без умолку болтаешь… Тебя уже не спасти. Неужели ты так напугана, что даже не можешь показать свой страх?"
+    },
+    {
+      "ordinal": 73,
+      "source_line": 147,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Почему ты предала моего отца? Почему предала учёных?"
+    },
+    {
+      "ordinal": 74,
+      "source_line": 148,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Почему?! Скажи мне, почему—"
+    },
+    {
+      "ordinal": 75,
+      "source_line": 149,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "«Директор Кальцит»?!"
+    },
+    {
+      "ordinal": 76,
+      "source_line": 151,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Людмила, мне самой едва удалось выбраться живой."
+    },
+    {
+      "ordinal": 77,
+      "source_line": 153,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "И ты хочешь, чтобы я поверила твоей чуши?"
+    },
+    {
+      "ordinal": 78,
+      "source_line": 155,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Хм. Отец читал тебе «Правду и справедливость», верно?"
+    },
+    {
+      "ordinal": 79,
+      "source_line": 157,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "—!"
+    },
+    {
+      "ordinal": 80,
+      "source_line": 159,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Дать пятилетнему ребёнку такую книгу… Илия и правда не отличался здравым смыслом."
+    },
+    {
+      "ordinal": 81,
+      "source_line": 160,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Он очень любил эту книгу. Однажды жарким летним днём он нёс тебя и книгу мимо окна; кусты за окном золотились в солнечных лучах. Он попросил тебя помахать мне, но ты обиженно отвернулась."
+    },
+    {
+      "ordinal": 82,
+      "source_line": 162,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Хватит!"
+    },
+    {
+      "ordinal": 83,
+      "source_line": 164,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "В тот вечер он спросил меня: если бы мы запечатали саркофаг и не стали сообщать Урсусу о механизмах внутри, смогли бы мы спасти больше людей?"
+    },
+    {
+      "ordinal": 84,
+      "source_line": 165,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Смогли бы мы помешать Урсусу использовать эти механизмы в войне?"
+    },
+    {
+      "ordinal": 85,
+      "source_line": 167,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Ты хочешь… хочешь сбить меня с толку этими… этими сладкими речами?!"
+    },
+    {
+      "ordinal": 86,
+      "source_line": 169,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Илия был одним из инициаторов операции по запечатыванию саркофага. Его убеждения определили всю его жизнь."
+    },
+    {
+      "ordinal": 87,
+      "source_line": 170,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ты унаследовала боевой дух отца, но в нём было нечто большее, чем один лишь боевой дух…"
+    },
+    {
+      "ordinal": 88,
+      "source_line": 171,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Людмила, ты считаешь меня предательницей и хочешь убить. Можешь это сделать. Но—"
+    },
+    {
+      "ordinal": 89,
+      "source_line": 172,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Выбрав путь насилия, рано или поздно ты непременно столкнёшься с тем, что окажется сильнее тебя."
+    },
+    {
+      "ordinal": 90,
+      "source_line": 174,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Ха-ха…"
+    },
+    {
+      "ordinal": 91,
+      "source_line": 175,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Можешь и дальше важничать. Ни один заклинатель не способен видеть сквозь этот густой туман и определить, где я нахожусь."
+    },
+    {
+      "ordinal": 92,
+      "source_line": 176,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Ты умрёшь ужасной смертью. Я… я непременно заставлю тебя умереть в муках."
+    },
+    {
+      "ordinal": 93,
+      "source_line": 178,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "…(Показывает язык)"
+    },
+    {
+      "ordinal": 94,
+      "source_line": 180,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Ради учёных, ради заражённых я должна убить тебя — чудовище, взращённое Урсусом, мерзавку!"
+    },
+    {
+      "ordinal": 95,
+      "source_line": 182,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Я похожа на заклинателя? Хотя в том, что я заражена, ты не ошиблась…"
+    },
+    {
+      "ordinal": 96,
+      "source_line": 183,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Выходи, Mon3tr."
+    },
+    {
+      "ordinal": 97,
+      "source_line": 185,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "…?"
+    },
+    {
+      "ordinal": 98,
+      "source_line": 186,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "…А? Что… Что происходит?"
+    },
+    {
+      "ordinal": 99,
+      "source_line": 187,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "К-как? Твой позвоночник?!"
+    },
+    {
+      "ordinal": 100,
+      "source_line": 189,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Похоже, туман не мешает тебе видеть. Ты всё видишь."
+    },
+    {
+      "ordinal": 101,
+      "source_line": 191,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Как… Как такое возможно…"
+    },
+    {
+      "ordinal": 102,
+      "source_line": 192,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Кх…! Что… Кто ты… Ты…!"
+    },
+    {
+      "ordinal": 103,
+      "source_line": 193,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Что это такое?!"
+    },
+    {
+      "ordinal": 104,
+      "source_line": 195,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Я не заклинатель. Я никогда не полагалась на Искусства Ориджиниума."
+    },
+    {
+      "ordinal": 105,
+      "source_line": 196,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Вперёд, Mon3tr."
+    },
+    {
+      "ordinal": 106,
+      "source_line": 198,
+      "kind": "named",
+      "speaker_cn": "Mon3tr",
+      "text_ru": "(Радостное шипение)"
+    },
+    {
+      "ordinal": 107,
+      "source_line": 201,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Ннн… А-а-а!"
+    },
+    {
+      "ordinal": 108,
+      "source_line": 202,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Что это?! Что это за тварь?!"
+    },
+    {
+      "ordinal": 109,
+      "source_line": 204,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "А-а-а! Не трогай меня! Отпусти! Отпусти меня!"
+    },
+    {
+      "ordinal": 110,
+      "source_line": 206,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Почему я не могу пробить его панцирь?! Ай! Не трогай меня! Прочь!"
+    },
+    {
+      "ordinal": 111,
+      "source_line": 208,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Уничтожь…"
+    },
+    {
+      "ordinal": 112,
+      "source_line": 210,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "А-а-а!!"
+    },
+    {
+      "ordinal": 113,
+      "source_line": 212,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…обломок, падающий ей на голову."
+    },
+    {
+      "ordinal": 114,
+      "source_line": 214,
+      "kind": "named",
+      "speaker_cn": "Mon3tr",
+      "text_ru": "(Недовольный визг)"
+    },
+    {
+      "ordinal": 115,
+      "source_line": 216,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ты слишком разошёлся. Здание вот-вот обрушится. Не дай ей погибнуть под обломками."
+    },
+    {
+      "ordinal": 116,
+      "source_line": 218,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 117,
+      "source_line": 219,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "У-у…"
+    },
+    {
+      "ordinal": 118,
+      "source_line": 220,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "…Нет…"
+    },
+    {
+      "ordinal": 119,
+      "source_line": 222,
+      "kind": "named",
+      "speaker_cn": "Mon3tr",
+      "text_ru": "(Низкое гудение)"
+    },
+    {
+      "ordinal": 120,
+      "source_line": 224,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Убей меня."
+    },
+    {
+      "ordinal": 121,
+      "source_line": 226,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Почему?"
+    },
+    {
+      "ordinal": 122,
+      "source_line": 228,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "…Ты ведь можешь без труда убить меня! Неужели ты тоже любишь играть со своей добычей?!"
+    },
+    {
+      "ordinal": 123,
+      "source_line": 229,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Если я не могу убить тебя, зачем мне жить?"
+    },
+    {
+      "ordinal": 124,
+      "source_line": 230,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Но запомни: даже после смерти я буду проклинать тебя вечно!"
+    },
+    {
+      "ordinal": 125,
+      "source_line": 232,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…Ты действительно готова умереть?"
+    },
+    {
+      "ordinal": 126,
+      "source_line": 234,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 127,
+      "source_line": 236,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ты хочешь умереть?"
+    },
+    {
+      "ordinal": 128,
+      "source_line": 238,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "…Тц…"
+    },
+    {
+      "ordinal": 129,
+      "source_line": 240,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Если я и правда предательница, тебе станет легче, когда ты меня убьёшь?"
+    },
+    {
+      "ordinal": 130,
+      "source_line": 242,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "…Хватит… говорить! Я убью тебя! Обязательно!"
+    },
+    {
+      "ordinal": 131,
+      "source_line": 244,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Илия был моим учеником и другом."
+    },
+    {
+      "ordinal": 132,
+      "source_line": 245,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Твой отец был одним из лучших исследователей, с которыми мне доводилось работать. Его самоотверженность и целеустремлённость могли бы продвинуть Урсус на пять лет вперёд."
+    },
+    {
+      "ordinal": 133,
+      "source_line": 247,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Хватит! Зачем ты говоришь мне всё это?! Я не хочу слушать! Мне всё равно!"
+    },
+    {
+      "ordinal": 134,
+      "source_line": 249,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Хочешь. Потому что ты всегда сомневалась в себе."
+    },
+    {
+      "ordinal": 135,
+      "source_line": 250,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ты не дала Сергею возможности объясниться, поэтому я сделаю это за него."
+    },
+    {
+      "ordinal": 136,
+      "source_line": 251,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "— Я никого не предаю. Даже Сергея."
+    },
+    {
+      "ordinal": 137,
+      "source_line": 252,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Сергей был нерешительным, но не жадным."
+    },
+    {
+      "ordinal": 138,
+      "source_line": 253,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Урсусские власти держали его новорождённых детей в заложниках. Чтобы спасти их, он сообщил властям, где находится твой отец и остальные учёные."
+    },
+    {
+      "ordinal": 139,
+      "source_line": 254,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Теперь Миша и Алекс мертвы. Он раскрыл тайну, но в итоге не смог спасти никого."
+    },
+    {
+      "ordinal": 140,
+      "source_line": 256,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Если бы… Если бы тогда я отправилась спасать Мишу, может быть, она и Костолом… остались бы живы."
+    },
+    {
+      "ordinal": 141,
+      "source_line": 257,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Н-нет… Не может быть! Ты ведь обладаешь такой силой! Почему же ты не спасла моего отца?!"
+    },
+    {
+      "ordinal": 142,
+      "source_line": 259,
+      "kind": "named",
+      "speaker_cn": "Mon3tr",
+      "text_ru": "(Угрожающее низкое рычание)"
+    },
+    {
+      "ordinal": 143,
+      "source_line": 261,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 144,
+      "source_line": 262,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Потому что я не могла."
+    },
+    {
+      "ordinal": 145,
+      "source_line": 263,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Я не смогла бы убедить твоего отца покинуть институт."
+    },
+    {
+      "ordinal": 146,
+      "source_line": 264,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Людмила, перед отъездом из Чернобога я отправила тебя в Сиракузу, но ты сама вернулась в тот город."
+    },
+    {
+      "ordinal": 147,
+      "source_line": 265,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Видишь, ты так похожа на отца. Порой сила воли способна победить даже время."
+    },
+    {
+      "ordinal": 148,
+      "source_line": 266,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ты всё равно вернулась бы в Чернобог — так же, как в итоге встретила меня здесь."
+    },
+    {
+      "ordinal": 149,
+      "source_line": 268,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 150,
+      "source_line": 269,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "Значит, всё это не имело смысла? Всё, что сделал мой отец, всё, что сделала я… Всё было напрасно?"
+    },
+    {
+      "ordinal": 151,
+      "source_line": 271,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Нет. Исследователи погибли, чтобы сохранить нашу тайну."
+    },
+    {
+      "ordinal": 152,
+      "source_line": 272,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Урсус до сих пор не может разобраться в механизмах внутри саркофага. Империя отказалась от исследований и законсервировала комплекс."
+    },
+    {
+      "ordinal": 153,
+      "source_line": 273,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Теперь лишь крошечная часть энергии используется для питания ядра Чернобога."
+    },
+    {
+      "ordinal": 154,
+      "source_line": 274,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "«Предательница»… Если я и заслуживаю этого звания, то лишь как предательница Империи Урсус."
+    },
+    {
+      "ordinal": 155,
+      "source_line": 275,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Твой отец не зря трудился. Даже если Урсус давно всё замёл под ковёр, ты помнишь."
+    },
+    {
+      "ordinal": 156,
+      "source_line": 276,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "И я буду помнить."
+    },
+    {
+      "ordinal": 157,
+      "source_line": 278,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "(Зевает)"
+    },
+    {
+      "ordinal": 158,
+      "source_line": 280,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…Но ради чего ты сделала всё это?"
+    },
+    {
+      "ordinal": 159,
+      "source_line": 281,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Урсус зачистил весь институт, уничтожив то редкое и драгоценное сострадание, которое было присуще учёным."
+    },
+    {
+      "ordinal": 160,
+      "source_line": 282,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Посмотри на себя. Ты убила Сергея — человека, который даже собственных детей не смог защитить."
+    },
+    {
+      "ordinal": 161,
+      "source_line": 283,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Теперь ты в Лунмэне. Если ты и твои товарищи-заражённые действительно захватите этот город, что вы сделаете с его обычными жителями?"
+    },
+    {
+      "ordinal": 162,
+      "source_line": 284,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Перебьёте их всех? Поработите? Или выгоните в пустоши, оставив умирать?"
+    },
+    {
+      "ordinal": 163,
+      "source_line": 286,
+      "kind": "named",
+      "speaker_cn": "弑君者",
+      "text_ru": "…Я…"
+    },
+    {
+      "ordinal": 164,
+      "source_line": 288,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Заразите их орипатией, превратите в заражённых, чтобы они испытали ту же боль, что и вы?"
+    },
+    {
+      "ordinal": 165,
+      "source_line": 289,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…Или будете жить с ними в мире?"
+    },
+    {
+      "ordinal": 166,
+      "source_line": 290,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Сможете ли вы? Людмила, сможет ли нынешнее Воссоединение? Ты хочешь таким образом построить государство заражённых или так собираешься бороться с Урсусом?"
+    },
+    {
+      "ordinal": 167,
+      "source_line": 291,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Если последнее — зачем ты пришла в Лунмэнь? Если хочешь запугать врага, чем ты можешь быть страшнее Урсуса?"
+    },
+    {
+      "ordinal": 168,
+      "source_line": 293,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "(Кальцит, она растеряна. Ей страшно. Она хочет убежать.)"
+    },
+    {
+      "ordinal": 169,
+      "source_line": 295,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 170,
+      "source_line": 296,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Mon3tr, вернись."
+    },
+    {
+      "ordinal": 171,
+      "source_line": 298,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Так правильно?"
+    },
+    {
+      "ordinal": 172,
+      "source_line": 300,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Она тебя слышит."
+    },
+    {
+      "ordinal": 173,
+      "source_line": 301,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Краунслеер, ненавистью Воссоединения и твоей собственной ненавистью уже кто-то манипулирует, играя вами, как захочет."
+    },
+    {
+      "ordinal": 174,
+      "source_line": 302,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Вспомни отца. Вспомни, чему учил тебя Илия."
+    },
+    {
+      "ordinal": 175,
+      "source_line": 303,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Подумай, кому ты на самом деле хочешь отомстить?"
+    },
+    {
+      "ordinal": 176,
+      "source_line": 304,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Тот, кто ведёт тебя по пути террора и убийств… Твой лидер не в своём уме."
+    },
+    {
+      "ordinal": 177,
+      "source_line": 305,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Настоящий идеалист не позволит другим умирать ради себя, тем более не заставит кого-то убивать за себя."
+    },
+    {
+      "ordinal": 178,
+      "source_line": 306,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Уходи. Покинь это место. Выбери другой путь."
+    },
+    {
+      "ordinal": 179,
+      "source_line": 307,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Найди путь, который действительно способен изменить эту землю… если именно этого ты хочешь."
+    },
+    {
+      "ordinal": 180,
+      "source_line": 313,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Её запах исчез."
+    },
+    {
+      "ordinal": 181,
+      "source_line": 314,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Кальцит, ты ведь всё это время хотела увидеть её? Почему теперь не убила?"
+    },
+    {
+      "ordinal": 182,
+      "source_line": 316,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Стоит ли нам убивать бездомную гиену, даже если её дом ненастоящий?"
+    },
+    {
+      "ordinal": 183,
+      "source_line": 318,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Трудный вопрос. Ред не знает."
+    },
+    {
+      "ordinal": 184,
+      "source_line": 320,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ред, как думаешь, она обрадовалась бы, если бы убила меня?"
+    },
+    {
+      "ordinal": 185,
+      "source_line": 322,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Нет. Ей и так больно."
+    },
+    {
+      "ordinal": 186,
+      "source_line": 324,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Мы не закон. Мы не вправе судить других. Мы можем лишить человека жизни, но не вправе объявлять убийство правильным поступком."
+    },
+    {
+      "ordinal": 187,
+      "source_line": 325,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Если бы убийство приводило её в восторг и доставляло ей удовольствие, я бы убила её на месте. И не колебалась бы."
+    },
+    {
+      "ordinal": 188,
+      "source_line": 327,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Ред знает. Она несчастна. Дышит неровно."
+    },
+    {
+      "ordinal": 189,
+      "source_line": 329,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Теперь она станет штаммом вируса, который будет распространять «тревогу» среди фанатично настроенных заражённых Чернобога."
+    },
+    {
+      "ordinal": 190,
+      "source_line": 330,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…Сколько лет может прожить человек? Сколько дорог ему дано пройти? Мы гораздо дольше остаёмся в неведении, чем видим правду."
+    },
+    {
+      "ordinal": 191,
+      "source_line": 331,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Но увидеть правду и сделать выбор — совсем разные вещи."
+    },
+    {
+      "ordinal": 192,
+      "source_line": 332,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Когда она придёт в себя и освободится от коллективной жажды мести, она покинет Воссоединение. И всё же кровь Сергея и жителей Чернобога навсегда останется на её руках."
+    },
+    {
+      "ordinal": 193,
+      "source_line": 333,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ред… Когда сделаешь выбор, пути назад уже не будет."
+    },
+    {
+      "ordinal": 194,
+      "source_line": 335,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Ред понимает. Ред постарается. Ред будет убивать только волков."
+    },
+    {
+      "ordinal": 195,
+      "source_line": 337,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Умница."
+    },
+    {
+      "ordinal": 196,
+      "source_line": 338,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ты запомнила тот запах?"
+    },
+    {
+      "ordinal": 197,
+      "source_line": 340,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Ред запомнила."
+    },
+    {
+      "ordinal": 198,
+      "source_line": 342,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Какой он?"
+    },
+    {
+      "ordinal": 199,
+      "source_line": 344,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "…Не противный."
+    },
+    {
+      "ordinal": 200,
+      "source_line": 345,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Пахнет кровью, но не так, как ты только что говорила — не про душевные качества и всё такое."
+    },
+    {
+      "ordinal": 201,
+      "source_line": 347,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Глупышка. Талула — драко, откуда ей быть волком?"
+    },
+    {
+      "ordinal": 202,
+      "source_line": 349,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Угу."
+    },
+    {
+      "ordinal": 203,
+      "source_line": 350,
+      "kind": "named",
+      "speaker_cn": "红",
+      "text_ru": "Пора идти?"
+    },
+    {
+      "ordinal": 204,
+      "source_line": 352,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Да, пойдём."
+    },
+    {
+      "ordinal": 205,
+      "source_line": 353,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…Температура падает. Времени почти не осталось. Пора действовать эффективнее."
+    }
+  ],
+  "header_title_ru": "Этап 4 (после боя)",
+  "notes_v174": "Complete first draft: 205/205 named dialogue positions. All source line numbers and speakers were mapped from the current CN file; EN Yostar was used to cross-check names and structure. 152 command lines are unchanged. Key CN-primary choices include the smoke-organ description, the Ursus-raised monster metaphor, the distinction between killing the falling debris and Crownslayer, and the 'real idealist' wording. No full CN/EN source script is included. Literary review and Yostar Global PC validation remain pending. Editorial pass before PR: restored parenthetical internal-monologue formatting in ordinals 1–6; corrected CN-primary 'Why?' at ordinal 121 (EN says 'What?'); clarified 'spine' as 'позвоночник' and refined several long sentences. Ordinal 189 retains the future tense in CN 会成为 ('will become'), rather than following the past-tense phrasing of EN. Additional CN-primary wording refinements: ordinal 49 uses 'раскаялся' for 忏悔; ordinal 95 is phrased idiomatically; ordinal 100 clarifies that the mist does not affect Kal'tsit's opponent; ordinal 179 keeps CN 这片大地 as 'эта земля'."
+}

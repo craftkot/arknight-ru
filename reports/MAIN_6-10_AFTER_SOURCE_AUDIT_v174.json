@@ -1,0 +1,113 @@
+{
+  "version": "v1.74",
+  "source_file": "obt/main/level_main_06-10_end.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "bb62801e39e1b96789067cd5ed25aa567e06896f",
+    "cn_physical_lines": 357,
+    "cn_final_newline": false,
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "e9f0401e0c5a790c4ea0b37f3cf7a970eb4a879d",
+    "en_physical_lines": 358,
+    "en_final_newline": true,
+    "version_difference": "The EN mirror has one additional terminal newline. All 205 text positions and all 152 command lines otherwise align exactly."
+  },
+  "alignment": {
+    "cn_text_positions": 205,
+    "en_text_positions": 205,
+    "named_positions": 205,
+    "unnamed_positions": 0,
+    "text_line_numbers_match": true,
+    "text_kind_order_match": true,
+    "speaker_positions_match": true,
+    "translation_position_count": 205,
+    "translation_source_line_match": true,
+    "translation_speaker_cn_match": true,
+    "command_lines_cn": 152,
+    "command_lines_en": 152,
+    "command_names_and_parameters_match": true,
+    "command_line_numbers_match": true,
+    "command_counts": {
+      "HEADER": 1,
+      "Background": 1,
+      "Delay": 3,
+      "Character": 117,
+      "delay": 2,
+      "PlaySound": 2,
+      "Blocker": 10,
+      "CameraShake": 5,
+      "Dialog": 6,
+      "PlayMusic": 1,
+      "Image": 3,
+      "ImageTween": 1
+    },
+    "placeholder_count_cn": 0,
+    "placeholder_count_en": 0,
+    "placeholder_count_ru": 0,
+    "untranslated_cjk_in_ru": 0,
+    "empty_ru_entries": 0,
+    "inline_markup_tags_in_dialogue_payloads": 0,
+    "header_title_ru": "Этап 4 (после боя)"
+  },
+  "cn_en_semantic_notes": [
+    {
+      "ordinal": 4,
+      "cn": "CN explicitly says she must contact the others immediately; EN punctuation is incomplete.",
+      "decision": "RU follows CN and preserves the urgent internal monologue."
+    },
+    {
+      "ordinal": 49,
+      "cn": "CN asks whether Sergei repented while being killed; EN calls it a heartfelt confession.",
+      "decision": "RU follows CN: 'Когда ты убивала Сергея, он раскаялся?' rather than EN's more specific 'heartfelt confession'."
+    },
+    {
+      "ordinal": 71,
+      "cn": "CN describes neural commands triggering a smoke-emitting organ; EN compresses the mechanism.",
+      "decision": "RU retains the physiological mechanism from CN."
+    },
+    {
+      "ordinal": 94,
+      "cn": "CN calls Kal'tsit a monster raised/nurtured by Ursus; EN calls her an Ursus puppet.",
+      "decision": "RU follows CN: 'чудовище, взращённое Урсусом'."
+    },
+    {
+      "ordinal": 111,
+      "cn": "The command to annihilate is interrupted; the following line specifies the falling object above Crownslayer.",
+      "decision": "The two split dialogue fragments remain separate and retain the intended referent."
+    },
+    {
+      "ordinal": 115,
+      "cn": "CN says Mon3tr has made too much of a fuss; EN says it is too excited.",
+      "decision": "RU follows CN: 'Ты слишком разошёлся'."
+    },
+    {
+      "ordinal": 164,
+      "cn": "CN says to infect the civilians with Oripathy; EN describes cutting them with Originium.",
+      "decision": "RU follows CN and uses the established term 'орипатия'."
+    },
+    {
+      "ordinal": 177,
+      "cn": "CN says 'a true idealist'; EN specifies a leader true to her ideals.",
+      "decision": "RU follows CN's broader formulation."
+    },
+    {
+      "ordinal": 189,
+      "cn": "CN describes Crownslayer as a virus strain spreading 'unease'; EN splits this into a virus and a unique strain.",
+      "decision": "RU follows CN future tense: 'Теперь она станет штаммом вируса...' rather than the EN past-tense phrasing."
+    },
+    {
+      "ordinal": 121,
+      "cn": "CN says 为什么？ ('Why?'); EN Yostar says 'What?'.",
+      "decision": "RU follows CN: 'Почему?'."
+    }
+  ],
+  "header_title": {
+    "source_cn": "第四关（后）",
+    "translation_ru": "Этап 4 (после боя)"
+  },
+  "editorial_review": false,
+  "in_game_test": false,
+  "note": "CN is the primary semantic source; EN Yostar is the name/structure cross-check. Structural alignment is verified against current mirror blobs. This is a complete first draft, not an editorially reviewed or game-tested patch. Full CN/EN scripts are not stored in the repository."
+}
