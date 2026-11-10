@@ -45,7 +45,7 @@ class BabelBB9AfterV327(unittest.TestCase):
     def test_russian_text_invariants(self):
         for entry in self.doc["dialogues"]:
             self.assertTrue(entry["text_ru"].strip())
-            self.assertNotRegex(entry["text_ru"], r"[\u3400-\u9fff]")
+            self.assertFalse(any(chr(0x3400) <= ch <= chr(0x9fff) for ch in entry["text_ru"]))
             self.assertNotIn(chr(10), entry["text_ru"])
             self.assertNotIn(chr(13), entry["text_ru"])
             self.assertEqual(entry["text_ru"].count("«"), entry["text_ru"].count("»"))
