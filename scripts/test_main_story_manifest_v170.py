@@ -35,8 +35,8 @@ class MainStoryManifestV170(unittest.TestCase):
         self.assertEqual(m["translation_integrity"]["main_story_partial_files"],3)
         self.assertEqual(m["next_file"],"activities/act33side/level_act33side_06_beg.txt")
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
-        self.assertIn("111 полных первых черновиков", readme)
-        self.assertIn("Основной сюжет приостановлен", readme)
+        self.assertIn("112 полных первых черновиков", readme)
+        self.assertIn("Основной сюжет возобновлён после завершения Babel", readme)
 
 if __name__ == "__main__":
     unittest.main()

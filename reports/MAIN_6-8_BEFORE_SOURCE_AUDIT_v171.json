@@ -1,0 +1,64 @@
+{
+  "version": "v1.71",
+  "scene": "Main story chapter 6, stage 6-8 before battle",
+  "source_file": "obt/main/level_main_06-08_beg.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "198a8387a3748041f6f9063348fd61552c8c4cf2",
+    "cn_physical_lines": 227,
+    "cn_named_positions": 117,
+    "cn_unnamed_positions": 0,
+    "cn_command_lines": 110,
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "bf2271985bc64d1b87d338d2f0409e304ee97e60",
+    "en_physical_lines": 228,
+    "en_named_positions": 117,
+    "en_unnamed_positions": 0,
+    "en_command_lines": 110
+  },
+  "alignment": {
+    "named_position_count_match": true,
+    "named_line_number_match": true,
+    "ordinal_sequence_match": true,
+    "untagged_text_count_match": true,
+    "command_count_match": true,
+    "command_line_number_match": true,
+    "command_text_and_parameter_match": true,
+    "decision_count_match": true,
+    "cn_decision_count": 0,
+    "en_decision_count": 0
+  },
+  "command_counts": {
+    "HEADER": 1,
+    "Background": 3,
+    "Delay": 2,
+    "PlayMusic": 1,
+    "Character": 82,
+    "playsound": 5,
+    "Dialog": 5,
+    "Blocker": 8,
+    "delay": 1,
+    "PlaySound": 1,
+    "Image": 1
+  },
+  "header_title": {
+    "source_line": 1,
+    "translation_ru": "Этап 4 (до боя)",
+    "counted_as_dialogue": false
+  },
+  "source_version_difference": "EN has one additional terminal newline (228 physical split lines vs 227 CN); no named-position or command-position differences.",
+  "existing_translation": {
+    "source_file": "story/story_chapter_6_stage_6-8_before_named_ru_v158.json",
+    "blob_sha1": "d02f2bb7c5c1d34b84ab9a0ecc5b571003c4305c",
+    "named_positions_retained": 117,
+    "new_named_dialogue_translations_in_this_change": 0
+  },
+  "limitations": [
+    "This change certifies structural completeness; it does not retranslate or independently literary-review the 117 inherited Russian lines.",
+    "No in-game validation was performed.",
+    "No full CN/EN source script was committed."
+  ],
+  "result": "117/117 named positions present; 0 unnamed narrative positions; 110/110 command lines match exactly; 0 decision menus."
+}
