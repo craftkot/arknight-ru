@@ -1,0 +1,29 @@
+Arknights RU — Babel changelog v3.22
+=====================================
+
+Scene: Babel BB-8 after battle
+Source: activities/act33side/level_act33side_08_end.txt
+Status: partial first draft, 120/241 text-bearing positions
+
+Added in v3.22:
+- Ordinals 81–120, CN source lines 329–460.
+- 32 named dialogue lines.
+- 2 narration lines.
+- 2 multiline dialogue positions, preserved separately.
+- 4 Sticker text payloads (two countdown labels and two time values).
+- Cumulative progress: 120/241; 121 positions remain.
+- Next position: ordinal 121, CN source line 461.
+
+Source audit:
+- CN repository: Kengxxiao/ArknightsGameData, blob 502baa017ba32f5d3359d2caeedd2adafc72cd2a.
+- EN repository: Kengxxiao/ArknightsGameData_YoStar, blob f5b13d3e11d4be6c3d4412eff082ae606fe586b4.
+- CN 790 physical lines; EN 791 (one extra terminal newline).
+- 241 text-bearing positions align by source line and type.
+- 549 non-text control commands match exactly.
+- The selected 40 positions align by source line, type, and speaker.
+- No non-text command differences were found in source lines 329–460.
+- CN is primary for meaning; EN is used for names and structural cross-check.
+
+No full CN/EN game scripts were copied into the repository.
+No literary review or Yostar Global PC in-game validation is claimed.
+This is not a verified game patch.
