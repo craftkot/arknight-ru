@@ -1,0 +1,882 @@
+{
+  "version": "v3.26",
+  "event": "Babel",
+  "scene": "Babel BB-9 before battle — complete first draft",
+  "source_file": "activities/act33side/level_act33side_09_beg.txt",
+  "status": "first_draft_complete",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "20ed741c357f668e305da640a72c79e2d02648f3",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "1e878c05b06853b0ac7ea49e22459a2906ea32f2",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_09_beg.txt",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_09_beg.txt",
+    "cn_line_count": 399,
+    "en_line_count": 400,
+    "cn_text_total": 106,
+    "en_text_total": 106,
+    "cn_named_total": 84,
+    "en_named_total": 84,
+    "cn_multiline_total": 2,
+    "en_multiline_total": 2,
+    "cn_narration_total": 20,
+    "en_narration_total": 20,
+    "cn_sticker_total": 0,
+    "en_sticker_total": 0,
+    "cn_subtitle_total": 0,
+    "en_subtitle_total": 0,
+    "cn_decision_total": 0,
+    "en_decision_total": 0,
+    "cn_control_command_total": 293,
+    "en_control_command_total": 293,
+    "en_extra_terminal_newline": true,
+    "version_difference": "CN has 399 logical lines and EN has 400 because EN contains one additional terminal newline. Both contain 106 text-bearing positions (84 named, two multiline, 20 narration) and 293 non-text control-command lines. After normalizing localized speaker labels and text payloads, all 399 non-empty logical lines align; all 293 non-text control commands match exactly. CN remains primary for meaning; EN is used for names and structure cross-check."
+  },
+  "source_alignment": {
+    "cn_en_text_positions_match": true,
+    "cn_en_text_type_sequence_match": true,
+    "cn_en_source_line_positions_match": true,
+    "cn_en_speaker_tag_positions_align": true,
+    "cn_en_nontext_control_commands_match_exactly": true,
+    "cn_en_nontext_control_command_count": 293,
+    "segment_ordinals": [
+      1,
+      106
+    ],
+    "segment_cn_en_line_alignment": true,
+    "segment_cn_en_text_type_alignment": true,
+    "segment_cn_en_speaker_tag_positions_align": true,
+    "segment_cn_en_markup_alignment": true,
+    "segment_cn_en_control_commands_match_exactly": true,
+    "segment_cn_en_control_command_difference_source_lines": [],
+    "scene_complete": true,
+    "game_behavior_verified": false
+  },
+  "progress": {
+    "translated_text_positions": 106,
+    "total_source_text_positions": 106,
+    "remaining_text_positions": 0,
+    "complete": true,
+    "last_source_line": 392,
+    "next_source_line": null,
+    "next_text_ordinal": null,
+    "next_text_source_line": null,
+    "translated_kind_counts": {
+      "named": 84,
+      "multiline": 2,
+      "narration": 20,
+      "sticker": 0,
+      "subtitle": 0,
+      "decision": 0
+    },
+    "remaining_kind_counts": {
+      "named": 0,
+      "multiline": 0,
+      "narration": 0,
+      "sticker": 0,
+      "subtitle": 0,
+      "decision": 0
+    }
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 11,
+      "kind": "narration",
+      "text_ru": "Каздель. У главного корабля Бабеля — «Родос Айленд»."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_cn": "决然的刺客",
+      "text_ru": "Как и предсказывал Регент, Бабель не охраняется."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 21,
+      "kind": "named",
+      "speaker_cn": "谨慎的刺客",
+      "text_ru": "Свести шум к минимуму. Быть начеку."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 22,
+      "kind": "named",
+      "speaker_cn": "谨慎的刺客",
+      "text_ru": "Следуйте заранее намеченному маршруту и найдите Короля. Маршруты А и Б — быть наготове."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 24,
+      "kind": "named",
+      "speaker_cn": "决然的刺客",
+      "text_ru": "Ключевые боевые силы находятся не на этом корабле. Им понадобится время, чтобы вернуться и оказать поддержку."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 25,
+      "kind": "named",
+      "speaker_cn": "决然的刺客",
+      "text_ru": "Охрана Бабеля до сих пор ничего не заметила."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 27,
+      "kind": "named",
+      "speaker_cn": "谨慎的刺客",
+      "text_ru": "…Его Высочество Регент не ошибся. Кто-то из высокопоставленных лиц противника помогает нам."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_cn": "谨慎的刺客",
+      "text_ru": "Всем группам — немедленно на борт. Действовать быстро, не допускать неожиданностей."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 39,
+      "kind": "narration",
+      "text_ru": "Десять минут назад странный шум разбудил Амию."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 40,
+      "kind": "narration",
+      "text_ru": "На корабле Бабеля постоянно что-то ремонтировали и перестраивали. С тех пор как Амия впервые попала в этот новый дом, здесь многое изменилось."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 41,
+      "kind": "narration",
+      "text_ru": "Может, госпожа Клоужер опять хлопочет без устали?"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 42,
+      "kind": "narration",
+      "text_ru": "В комнате Амии Доктор оставил ей множество книжек с картинками — с историями, о которых она прежде и не слышала."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 43,
+      "kind": "narration",
+      "text_ru": "Больше всего ей нравилась одна: история о человеке, который на необычном летательном аппарате рухнул с неба на землю и пережил множество приключений."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 44,
+      "kind": "narration",
+      "text_ru": "Но концовка ей не нравилась: герой в конце концов починил аппарат, попрощался с детьми на земле и вернулся в небо."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…Какой неприятный шум. Доктор ещё не пришёл…"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Госпожа Терезия… Придётся пойти к госпоже Терезии."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 61,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Здравствуйте, дядюшка Даунинг! Вы уронили клещи. Вот, держите!"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 64,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Спасибо, Амия. Куда направляешься?"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 66,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "В кабинет Спикера, к госпоже Терезии. Кстати, вы не видели Доктора?"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Доктора? Кажется, уже несколько дней его не видел. Наверное, он в командном центре руководит операцией?"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 70,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Понятно, Доктор и правда очень занят… До свидания!"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 76,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Амия, не беги так быстро! На корабле ещё много мест ремонтируют — смотри, не споткнись!"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Ну и девчушка же…"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 86,
+      "kind": "named",
+      "speaker_cn": "巴别塔成员",
+      "text_ru": "Э-э…"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 97,
+      "kind": "named",
+      "speaker_cn": "谨慎的刺客",
+      "text_ru": "Одного устранили. Продолжаем движение."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 99,
+      "kind": "named",
+      "speaker_cn": "决然的刺客",
+      "text_ru": "Наши люди внутри уже заняли позиции в местах засад. В любой момент готовы действовать с нами заодно."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 100,
+      "kind": "named",
+      "speaker_cn": "决然的刺客",
+      "text_ru": "Встретите кого-нибудь — сразу убивайте. Те, кто остался на корабле, угрозы не представляют."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 111,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Госпожа Терезия, я принесла свою книжку—"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 112,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Э? Почему дверь закрыта?"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 116,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Госпожа Терезия, это я! Вы там?"
+    },
+    {
+      "ordinal": 31,
+      "source_line": 119,
+      "kind": "multiline",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Госпожа Клоужер научила меня ещё одному способу открыть дверь…"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 122,
+      "kind": "multiline",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Открылась!"
+    },
+    {
+      "ordinal": 33,
+      "source_line": 128,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Госпожа Терезия—"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 134,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Амия, почему ты здесь?"
+    },
+    {
+      "ordinal": 35,
+      "source_line": 136,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Я услышала неприятный шум совсем рядом… Мне стало немного страшно."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 138,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 37,
+      "source_line": 140,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Скоро мы сможем вернуться домой."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 142,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Вы выглядите уставшей…"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 144,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Хочешь побыть со мной, пока я работаю?"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 146,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Это… книжка с картинками?"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 147,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Вот как. Раз это для Амии, думаю, могу ненадолго передохнуть. Доктор и доктор Кальцит не станут возражать."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 149,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Спасибо, госпожа Терезия!"
+    },
+    {
+      "ordinal": 43,
+      "source_line": 151,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ну же, садись сюда. Когда закончим эту историю, я отведу тебя поиграть к себе домой."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 157,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Так на чём мы остановились в прошлый раз?"
+    },
+    {
+      "ordinal": 45,
+      "source_line": 167,
+      "kind": "named",
+      "speaker_cn": "孽茨雷",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 46,
+      "source_line": 168,
+      "kind": "named",
+      "speaker_cn": "孽茨雷",
+      "text_ru": "Дук'араэль, отойди подальше."
+    },
+    {
+      "ordinal": 47,
+      "source_line": 169,
+      "kind": "named",
+      "speaker_cn": "孽茨雷",
+      "text_ru": "Ты весь в крови посредственностей."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 174,
+      "kind": "named",
+      "speaker_cn": "杜卡雷",
+      "text_ru": "Я лишь попутно очистил это место от потомков, позволивших себе безрассудно рассуждать об этом. Сейчас никому не следует легкомысленно говорить о жизни и смерти этих брата и сестры."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 175,
+      "kind": "named",
+      "speaker_cn": "杜卡雷",
+      "text_ru": "Это — величайшее непочтение."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 179,
+      "kind": "named",
+      "speaker_cn": "杜卡雷",
+      "text_ru": "Незсалем, разве тебе сейчас не следует отступить и защищать внутренний город?"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 181,
+      "kind": "named",
+      "speaker_cn": "孽茨雷",
+      "text_ru": "Это не имеет отношения к войне, которой я жду."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 183,
+      "kind": "named",
+      "speaker_cn": "杜卡雷",
+      "text_ru": "Терезис послал тебя убедиться, что она погибла?"
+    },
+    {
+      "ordinal": 53,
+      "source_line": 185,
+      "kind": "named",
+      "speaker_cn": "孽茨雷",
+      "text_ru": "Разве ты сам не презираешь этих брата и сестру? Регент не стал бы прибегать к таким методам."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 186,
+      "kind": "named",
+      "speaker_cn": "孽茨雷",
+      "text_ru": "Я пришёл сюда лишь засвидетельствовать конец одной войны и начало другой."
+    },
+    {
+      "ordinal": 55,
+      "source_line": 187,
+      "kind": "named",
+      "speaker_cn": "孽茨雷",
+      "text_ru": "Если Король Сарказов падёт, я понесу на себе дыхание смерти этого мгновения… И от имени Короля засвидетельствую победу, которую вырву из бездны."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 189,
+      "kind": "named",
+      "speaker_cn": "杜卡雷",
+      "text_ru": "Так ты всё-таки способен чувствовать скорбь."
+    },
+    {
+      "ordinal": 57,
+      "source_line": 191,
+      "kind": "named",
+      "speaker_cn": "孽茨雷",
+      "text_ru": "И ты тоже."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 203,
+      "kind": "narration",
+      "text_ru": "Сплетённый из тростника венок медленно опускается на речное дно. Мрачный туман не рассеивается уже много дней."
+    },
+    {
+      "ordinal": 59,
+      "source_line": 205,
+      "kind": "named",
+      "speaker_cn": "菈玛莲",
+      "text_ru": "…Аэфаниль… Ты всё ещё рядом с ней?"
+    },
+    {
+      "ordinal": 60,
+      "source_line": 207,
+      "kind": "named",
+      "speaker_cn": "菈玛莲",
+      "text_ru": "Для кого теперь звучит траурная песнь?"
+    },
+    {
+      "ordinal": 61,
+      "source_line": 221,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 62,
+      "source_line": 223,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Госпожа Терезия, почему вы остановились? Ведь мы только дошли до самого интересного места!"
+    },
+    {
+      "ordinal": 63,
+      "source_line": 225,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Я решила оставить тебе немного интриги, Амия. Не возражаешь, если я расскажу эту историю иначе, более удобным способом?"
+    },
+    {
+      "ordinal": 64,
+      "source_line": 227,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Но… Ладно, как скажете."
+    },
+    {
+      "ordinal": 65,
+      "source_line": 229,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Осторожно, Амия."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 231,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Пузырь! Э? Это же—"
+    },
+    {
+      "ordinal": 67,
+      "source_line": 237,
+      "kind": "narration",
+      "text_ru": "Слившиеся воедино чёрные волны расходятся по белоснежной комнате; Амия словно нырнула в бассейн с чернилами."
+    },
+    {
+      "ordinal": 68,
+      "source_line": 244,
+      "kind": "narration",
+      "text_ru": "Чёрные пузыри заглушают звуки и скрывают от Амии всё вокруг."
+    },
+    {
+      "ordinal": 69,
+      "source_line": 245,
+      "kind": "narration",
+      "text_ru": "Сквозь пузыри фигура Терезии становится всё расплывчатее…"
+    },
+    {
+      "ordinal": 70,
+      "source_line": 246,
+      "kind": "narration",
+      "text_ru": "Всё дальше и дальше…"
+    },
+    {
+      "ordinal": 71,
+      "source_line": 247,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Тере… зия…?"
+    },
+    {
+      "ordinal": 72,
+      "source_line": 251,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Пока побудь внутри и спокойно поспи, Амия."
+    },
+    {
+      "ordinal": 73,
+      "source_line": 252,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "…Рядом со мной ты будешь в безопасности."
+    },
+    {
+      "ordinal": 74,
+      "source_line": 260,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Эх…"
+    },
+    {
+      "ordinal": 75,
+      "source_line": 266,
+      "kind": "named",
+      "speaker_cn": "决然的刺客",
+      "text_ru": "Терезия. Ваше Высочество…"
+    },
+    {
+      "ordinal": 76,
+      "source_line": 267,
+      "kind": "named",
+      "speaker_cn": "决然的刺客",
+      "text_ru": "Мы докажем вам своими жизнями, что будущее, к которому стремится генерал, достижимо."
+    },
+    {
+      "ordinal": 77,
+      "source_line": 269,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Нет, я вздохнула совсем о другом."
+    },
+    {
+      "ordinal": 78,
+      "source_line": 271,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "На самом деле вам незачем скрывать от меня лица."
+    },
+    {
+      "ordinal": 79,
+      "source_line": 272,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Я до сих пор помню, как вы получили приказ перед колесницей Илиша. Ваше мужество и доблесть в той битве глубоко тронули меня."
+    },
+    {
+      "ordinal": 80,
+      "source_line": 274,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Я помню и ваших товарищей. Большинство из них мне тоже памятны."
+    },
+    {
+      "ordinal": 81,
+      "source_line": 275,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Все вы достойны звания храбрых воинов. Вы ничуть не уступаете героям, которые сейчас сражаются в Казделе."
+    },
+    {
+      "ordinal": 82,
+      "source_line": 277,
+      "kind": "named",
+      "speaker_cn": "决然的刺客",
+      "text_ru": "…Мы скрываем лица не ради того, чтобы утаить свою личность. Мы знали, что перед вами это бессмысленно."
+    },
+    {
+      "ordinal": 83,
+      "source_line": 278,
+      "kind": "named",
+      "speaker_cn": "决然的刺客",
+      "text_ru": "Мы отсекли себе рога, отказались от имён и даже уничтожили на теле все приметы, по которым нас можно опознать. Всё ради того, чтобы после того, как мы столь низким способом убьём Короля Сарказов—"
+    },
+    {
+      "ordinal": 84,
+      "source_line": 279,
+      "kind": "named",
+      "speaker_cn": "决然的刺客",
+      "text_ru": "Мы не заслуживаем того, чтобы сарказы нас помнили. Нас нельзя помнить."
+    },
+    {
+      "ordinal": 85,
+      "source_line": 280,
+      "kind": "named",
+      "speaker_cn": "决然的刺客",
+      "text_ru": "Приступайте."
+    },
+    {
+      "ordinal": 86,
+      "source_line": 302,
+      "kind": "narration",
+      "text_ru": "Бушующий поток воздуха, словно трясина, обволакивает клинки убийц, вновь и вновь устремляющиеся вперёд."
+    },
+    {
+      "ordinal": 87,
+      "source_line": 303,
+      "kind": "narration",
+      "text_ru": "Вж-ж—"
+    },
+    {
+      "ordinal": 88,
+      "source_line": 304,
+      "kind": "narration",
+      "text_ru": "Дрожь клинков заставляет пространство вокруг них резонировать. Они неотступно приближаются, снова и снова пронзая всё на пути."
+    },
+    {
+      "ordinal": 89,
+      "source_line": 305,
+      "kind": "narration",
+      "text_ru": "Но самих владельцев клинков словно отбрасывает назад и поглощает непреодолимая волна."
+    },
+    {
+      "ordinal": 90,
+      "source_line": 309,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Я помню ваши имена."
+    },
+    {
+      "ordinal": 91,
+      "source_line": 310,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Лука… Я помню тебя."
+    },
+    {
+      "ordinal": 92,
+      "source_line": 311,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ты в одиночку сдерживал Парового рыцаря. Прикрывшись паром, ты вытащил его наружу и обезглавил на глазах и у друзей, и у врагов."
+    },
+    {
+      "ordinal": 93,
+      "source_line": 323,
+      "kind": "narration",
+      "text_ru": "Жизнь убийцы угасает."
+    },
+    {
+      "ordinal": 94,
+      "source_line": 325,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "…И тебя я тоже помню. Лиэнс."
+    },
+    {
+      "ordinal": 95,
+      "source_line": 326,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Среди бесчисленных сарказов с таким именем ты выделялся сильнее всех. Попав в плен к магам Шпилей, ты сумел вызволить из их лагеря троих сородичей и разрушить их магический круг."
+    },
+    {
+      "ordinal": 96,
+      "source_line": 351,
+      "kind": "narration",
+      "text_ru": "Смерть не смогла остановить их — они продолжали приближаться к Терезии."
+    },
+    {
+      "ordinal": 97,
+      "source_line": 353,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "И ты… Левин."
+    },
+    {
+      "ordinal": 98,
+      "source_line": 354,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Ты заслонил Терезиса от стрел и арбалетных болтов, потерял руку, но пережил сам ад и держался до самого отступления."
+    },
+    {
+      "ordinal": 99,
+      "source_line": 355,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Я не хочу, чтобы вы умерли безымянными, никому не известными."
+    },
+    {
+      "ordinal": 100,
+      "source_line": 357,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "По крайней мере… я вас запомню."
+    },
+    {
+      "ordinal": 101,
+      "source_line": 380,
+      "kind": "narration",
+      "text_ru": "Всё больше тел скапливается рядом с ней, а места, где ещё можно стоять, остаётся всё меньше."
+    },
+    {
+      "ordinal": 102,
+      "source_line": 381,
+      "kind": "narration",
+      "text_ru": "Она вздыхает, стирает кровь, сочившуюся из шеи, и случайно оставляет тёмно-красный след на белом платье."
+    },
+    {
+      "ordinal": 103,
+      "source_line": 384,
+      "kind": "named",
+      "speaker_cn": "决然的刺客",
+      "text_ru": "Перед смертью мы хотели ещё хоть что-то сделать для сарказов. Поэтому и пришли к вам…"
+    },
+    {
+      "ordinal": 104,
+      "source_line": 385,
+      "kind": "named",
+      "speaker_cn": "决然的刺客",
+      "text_ru": "Мы пришли убить вас — Короля, которому когда-то присягнули на верность."
+    },
+    {
+      "ordinal": 105,
+      "source_line": 386,
+      "kind": "named",
+      "speaker_cn": "决然的刺客",
+      "text_ru": "Мы лучше кого бы то ни было знаем, насколько вы сильны. Позвольте же нам, проклятым предателям, проводить вас в ад."
+    },
+    {
+      "ordinal": 106,
+      "source_line": 392,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "……"
+    }
+  ],
+  "semantic_differences": [
+    {
+      "ordinal": 4,
+      "source_line": 22,
+      "cn_summary": "魔王 is the CN title used for the target of the operation.",
+      "en_summary": "EN renders the target as 'the King'.",
+      "ru_summary": "Used «Король» in line with EN and project royal terminology; no extra demon-related wording was added.",
+      "resolution": "CN is primary; EN supplies the concise title cross-check."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 24,
+      "cn_summary": "核心战力 says the core combat strength is not on this ship.",
+      "en_summary": "EN paraphrases this as the main force not being on the ship.",
+      "ru_summary": "Rendered as «ключевые боевые силы», retaining the CN emphasis on combat strength.",
+      "resolution": "Russian follows the more specific CN wording."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 174,
+      "cn_summary": "妄议此事的子裔 refers to descendants who spoke recklessly; 净化 is a euphemism for purging them.",
+      "en_summary": "EN paraphrases them as heirs making ridiculous comments.",
+      "ru_summary": "Rendered as descendants who recklessly discussed the matter; the euphemistic verb is retained as «очистил».",
+      "resolution": "CN is primary; EN confirms context."
+    },
+    {
+      "ordinal": 55,
+      "source_line": 187,
+      "cn_summary": "The speaker bears the deathly aura of the moment and witnesses a victory grasped from the abyss on behalf of the King.",
+      "en_summary": "EN has the same image with slightly different English syntax.",
+      "ru_summary": "Kept both the burden of death and the victory seized from the abyss.",
+      "resolution": "No extra agent or event was added."
+    },
+    {
+      "ordinal": 87,
+      "source_line": 303,
+      "cn_summary": "嗡 is a humming or resonating sound.",
+      "en_summary": "EN uses 'Swoosh—'.",
+      "ru_summary": "Used «Вж-ж—» to retain the CN hum/resonance.",
+      "resolution": "CN is primary for sound symbolism."
+    },
+    {
+      "ordinal": 92,
+      "source_line": 311,
+      "cn_summary": "The assassin drew the Steam Knight out under cover of steam and beheaded him publicly.",
+      "en_summary": "EN says the assassin hid in steam, pulled the knight out, and beheaded him before friend and foe.",
+      "ru_summary": "Kept the CN action sequence and public nature of the beheading.",
+      "resolution": "Russian follows CN; EN confirms context."
+    },
+    {
+      "ordinal": 95,
+      "source_line": 326,
+      "cn_summary": "法阵 refers to a magical formation or circle.",
+      "en_summary": "EN names it an Arts Circle.",
+      "ru_summary": "Used «магический круг» rather than adding an unsupported technical name.",
+      "resolution": "CN is primary for the generic term."
+    },
+    {
+      "ordinal": 98,
+      "source_line": 354,
+      "cn_summary": "弓弩 refers to arrows and crossbows; the text says the character blocked them for Theresis and lost an arm.",
+      "en_summary": "EN condenses this to taking an arrow for Theresis.",
+      "ru_summary": "Rendered the plural threat as arrows and crossbow bolts, following CN.",
+      "resolution": "CN is primary; EN confirms the sacrifice context."
+    }
+  ],
+  "editorial_review": false,
+  "in_game_test": false,
+  "game_behavior_verified": false,
+  "limitations": [
+    "All 106 text-bearing positions are translated as a first draft; literary review has not been performed.",
+    "The scene has not been validated in the Yostar Global PC client.",
+    "The JSON is a translation archive, not a verified game patch.",
+    "Original CN and EN scenario files are not stored in this repository."
+  ]
+}
