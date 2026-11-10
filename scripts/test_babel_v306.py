@@ -82,7 +82,7 @@ class BabelBB7BeforeV306(unittest.TestCase):
 
     def test_index_manifest_qa_readme_and_glossary(self):
         row = next(x for x in self.index.splitlines() if "level_act33side_07_beg.txt" in x)
-        self.assertIn("partial_first_draft\\t72\\t0\\t0\\t0\\t8\\t80", row)
+        self.assertEqual(row.split(chr(9))[:9], ["act33side","level_act33side_07_beg.txt","partial_first_draft","72","0","0","0","8","80"])
         self.assertEqual(self.qa["scene_translated_text_entries"], 80)
         self.assertEqual(self.qa["scene_remaining_text_entries"], 142)
         self.assertEqual(self.qa["new_named_ru"], 40)
