@@ -1,0 +1,15 @@
+Arknights RU — Babel v3.30
+Date: 2026-11-10
+
+- Added complete first draft of Babel BB-ST-3 (End of Souls): 122/122 text positions.
+- 85 named dialogue positions and 37 narration positions; no multiline, sticker, subtitle, or decision payloads.
+- CN source blob: 945b9cbe8b92f6517423fb3c774db8fd1dd806e6
+- EN Yostar source blob: 324a425d6d345a1a594ee3ba87dad6c5321eee8a
+- CN: 336 physical lines; EN: 337 (one extra terminal newline).
+- 214 non-text control commands match exactly; all 122 text positions align by source line and type.
+- Preserved the two <color=#FF4200> tags and the runtime placeholder {@nickname}.
+- Updated Babel index, chronology manifest, QA, glossary, README, and regression tests.
+- Babel is now 23/23 complete first drafts (4,633 text positions).
+- Next chronological work: main story chapter 6, 6-8 before battle (existing partial draft).
+
+This is an unreviewed first draft. No literary review or Yostar Global PC in-game validation has been performed. The local preview is not a verified game patch.

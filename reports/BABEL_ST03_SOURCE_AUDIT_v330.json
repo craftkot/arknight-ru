@@ -1,0 +1,261 @@
+{
+  "version": "v3.30",
+  "scene": "Babel BB-ST-3 — End of Souls — complete first draft",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "945b9cbe8b92f6517423fb3c774db8fd1dd806e6",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "324a425d6d345a1a594ee3ba87dad6c5321eee8a",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_st03.txt",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_st03.txt",
+    "cn_line_count": 336,
+    "en_line_count": 337,
+    "cn_text_total": 122,
+    "en_text_total": 122,
+    "cn_named_total": 85,
+    "en_named_total": 85,
+    "cn_multiline_total": 0,
+    "en_multiline_total": 0,
+    "cn_narration_total": 37,
+    "en_narration_total": 37,
+    "cn_sticker_total": 0,
+    "en_sticker_total": 0,
+    "cn_subtitle_total": 0,
+    "en_subtitle_total": 0,
+    "cn_decision_total": 0,
+    "en_decision_total": 0,
+    "cn_control_command_total": 214,
+    "en_control_command_total": 214,
+    "en_extra_terminal_newline": true,
+    "version_difference": "CN has 336 physical lines and no terminal newline; EN Yostar has 337 physical lines because of one additional terminal newline. Both sources contain 122 text-bearing positions at identical physical lines and with the same type sequence: 85 named dialogue lines and 37 narration lines. The 214 non-text control commands match exactly. Speaker names are localized differently in the source files but occupy the same positions. CN is primary for meaning; EN is used to cross-check names and structure."
+  },
+  "segment": {
+    "ordinals": [
+      1,
+      122
+    ],
+    "source_lines": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      28,
+      47,
+      49,
+      51,
+      53,
+      54,
+      56,
+      60,
+      64,
+      65,
+      66,
+      69,
+      71,
+      72,
+      75,
+      77,
+      79,
+      84,
+      85,
+      86,
+      88,
+      94,
+      95,
+      98,
+      100,
+      107,
+      111,
+      112,
+      113,
+      116,
+      119,
+      128,
+      129,
+      141,
+      142,
+      143,
+      155,
+      156,
+      157,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      189,
+      190,
+      191,
+      202,
+      204,
+      209,
+      210,
+      211,
+      213,
+      214,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      238,
+      239,
+      240,
+      241,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      267,
+      269,
+      274,
+      275,
+      277,
+      278,
+      280,
+      281,
+      282,
+      284,
+      286,
+      288,
+      289,
+      291,
+      293,
+      298,
+      299,
+      301,
+      303,
+      304,
+      306,
+      310,
+      325,
+      326,
+      327
+    ],
+    "text_positions": 122,
+    "kind_counts": {
+      "named": 85,
+      "multiline": 0,
+      "narration": 37,
+      "sticker": 0,
+      "subtitle": 0,
+      "decision": 0
+    },
+    "next_ordinal": null,
+    "next_source_line": null
+  },
+  "structural_comparison": {
+    "all_text_positions_align_by_source_line_and_type": true,
+    "all_speaker_slots_align_by_position": true,
+    "nontext_control_commands_match_exactly": true,
+    "nontext_control_command_count": 214,
+    "en_extra_terminal_newline": true,
+    "translated_segment_command_and_markup_differences": [],
+    "translated_segment_ordinals": [
+      1,
+      122
+    ],
+    "translated_segment_source_line_positions_match": true,
+    "translated_segment_type_sequence_match": true,
+    "translated_segment_nontext_control_command_count": 214,
+    "normalized_structural_difference_count": 0
+  },
+  "semantic_differences": [
+    {
+      "ordinal": 1,
+      "description": "CN says Theresa also lacks sufficient experience with memory erasure; EN adds 'actually'. Russian follows the CN emphasis."
+    },
+    {
+      "ordinal": 19,
+      "description": "CN frames the Doctor's hesitation as a long absence of occasions worth celebrating; Russian preserves the shared past and scarcity of celebrations."
+    },
+    {
+      "ordinal": 23,
+      "description": "CN says Kal'tsit pats the Doctor's back and gently pushes him toward the waiting crowd. Russian retains both actions."
+    },
+    {
+      "ordinal": 46,
+      "description": "CN specifies a still-unhealed needle wound on the woman's hand; Russian keeps the physical detail."
+    },
+    {
+      "ordinal": 52,
+      "description": "Both <color=#FF4200> tags and identifier 0091_admin are preserved; full-width parentheses follow the CN payload."
+    },
+    {
+      "ordinal": 61,
+      "description": "CN 守望者 can mean watcher or guardian. Russian uses 'страж' to retain the protective nuance."
+    },
+    {
+      "ordinal": 74,
+      "description": "CN refers to prior bandit attacks at the location and dispatching armed security. Russian follows the CN sequence."
+    },
+    {
+      "ordinal": 80,
+      "description": "CN 好孩子 is an encouraging address; Russian uses 'умница' without adding a gender marker."
+    },
+    {
+      "ordinal": 104,
+      "description": "CN 阳谋 denotes an overt, not hidden, plan that is nevertheless unavoidable. 'Открытый замысел' is a working rendering and remains a literary-review point."
+    },
+    {
+      "ordinal": 108,
+      "description": "CN describes the Oracle as residue left after the Doctor's emotions burned away. Russian preserves the burnt-remnant image."
+    },
+    {
+      "ordinal": 114,
+      "description": "CN explicitly includes the wind rushing through the wheat field and the last scene dispersing to reveal the end of a thread. Russian keeps both images."
+    },
+    {
+      "ordinal": 119,
+      "description": "The runtime placeholder {@nickname} is preserved exactly."
+    }
+  ],
+  "review_status": "first_draft_only",
+  "literary_review_complete": false,
+  "game_behavior_verified": false,
+  "source_files_copied_to_repository": false,
+  "cn_primary_for_semantics": true,
+  "en_yostar_used_for": "speaker names and structural cross-check",
+  "translation_notes": [
+    {
+      "ordinal": 35,
+      "description": "酒量 means drinking capacity/tolerance. The Russian draft uses a natural construction rather than the literal clinical-sounding 'alcohol tolerance'."
+    },
+    {
+      "ordinal": 111,
+      "description": "The speaker is Theresa; Russian feminine agreement is used."
+    },
+    {
+      "ordinal": 112,
+      "description": "Oracle is the Doctor's past self and the character's gender is not specified. Russian wording avoids gendered past-tense agreement."
+    }
+  ]
+}
