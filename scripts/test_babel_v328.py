@@ -41,6 +41,16 @@ class BabelBB10BeforeV328(unittest.TestCase):
         self.assertIn("<color=#000000>", by[53]["text_ru"])
         self.assertIn("</color>", by[53]["text_ru"])
 
+    def test_speaker_metadata_and_unique_source_lines(self):
+        lines = [x["source_line"] for x in self.doc["dialogues"]]
+        self.assertEqual(len(lines), len(set(lines)))
+        self.assertEqual(lines, sorted(lines))
+        for entry in self.doc["dialogues"]:
+            if entry["kind"] == "named":
+                self.assertTrue(entry.get("speaker_cn"))
+            else:
+                self.assertNotIn("speaker_cn", entry)
+
     def test_russian_text_and_placeholders(self):
         for entry in self.doc["dialogues"]:
             self.assertTrue(entry["text_ru"].strip())
