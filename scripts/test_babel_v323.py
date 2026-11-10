@@ -70,7 +70,7 @@ class BabelBB8AfterV323(unittest.TestCase):
         by = {x["ordinal"]:x for x in self.doc["dialogues"]}
         self.assertIn("кровавым пятном", by[121]["text_ru"])
         self.assertIn("десяти миллиардов", by[130]["text_ru"])
-        self.assertIn("барьерного слоя", by[130]["text_ru"])
+        self.assertIn("о барьерном слое", by[130]["text_ru"])
         self.assertIn("далеки от идеала", by[134]["text_ru"])
         self.assertIn("Он уже совсем близко", by[137]["text_ru"])
         self.assertIn("партитура", by[155]["text_ru"])
