@@ -65,6 +65,7 @@ class BabelBB7AfterV311(unittest.TestCase):
         self.assertEqual((s["cn_line_count"], s["en_line_count"]), (384, 384))
         self.assertEqual((s["cn_text_total"], s["en_text_total"]), (149, 149))
         self.assertEqual((s["cn_control_command_total"], s["en_control_command_total"]), (235, 235))
+        self.assertIn("The 235 command lines match exactly.", s["version_difference"])
         self.assertTrue(s["en_extra_terminal_newline"])
         self.assertTrue(a["cn_en_text_positions_match"])
         self.assertTrue(a["cn_en_text_type_sequence_match"])
