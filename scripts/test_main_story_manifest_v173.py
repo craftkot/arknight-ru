@@ -21,11 +21,11 @@ class MainStoryManifestV173(unittest.TestCase):
         self.assertEqual(sum(x["kind"] == "unnamed" for x in t["dialogues"]), 5)
         self.assertEqual([x["source_line"] for x in t["dialogues"]], sorted(x["source_line"] for x in t["dialogues"]))
         self.assertTrue(all(x["text_ru"].strip() for x in t["dialogues"]))
-        self.assertFalse(any(re.search(r"[\\u4e00-\\u9fff]", x["text_ru"]) for x in t["dialogues"]))
+        self.assertFalse(any(re.search(r"[\u4e00-\u9fff]", x["text_ru"]) for x in t["dialogues"]))
         self.assertEqual((t["source"]["cn_git_blob_sha1"], t["source"]["en_git_blob_sha1"]),
                          ("8a5d4c711491343324dc29b668e30d972724bba5", "448f0d022a8c992d15badbf3e2c2e85a5d70c83e"))
         self.assertEqual(t["header_title_ru"], "Этап 4 (до боя)")
-        self.assertEqual(sum(len(re.findall(r"\\{@[^}]+\\}", x["text_ru"])) for x in t["dialogues"]), 1)
+        self.assertEqual(sum(len(re.findall(r"\{@[^}]+\}", x["text_ru"])) for x in t["dialogues"]), 1)
         self.assertIn("{@nickname}", t["dialogues"][79]["text_ru"])
 
     def test_decisions_and_predicates(self):
@@ -65,7 +65,7 @@ class MainStoryManifestV173(unittest.TestCase):
         self.assertEqual(s["files"][key]["dialogue_count"], 104)
         self.assertEqual(len(s["files"][key]["dialogues"]), 104)
         idx = (ROOT / "story/CHAPTER_6_INDEX_v173.tsv").read_text(encoding="utf-8")
-        self.assertIn("level_main_06-10_beg.txt\\tfirst_draft_complete\\t99\\t5\\t104", idx)
+        self.assertIn("level_main_06-10_beg.txt\tfirst_draft_complete\t99\t5\t104", idx)
         q = load("reports/QA_MAIN_STORY_v173.json")
         self.assertEqual((q["completed_story_files"], q["completed_story_text_entries"]), (114, 8011))
         self.assertEqual((q["partial_scene_files"], q["partial_scene_text_entries"]), (0, 0))
