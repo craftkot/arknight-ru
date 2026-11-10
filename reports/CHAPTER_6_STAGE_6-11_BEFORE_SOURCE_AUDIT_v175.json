@@ -1,0 +1,155 @@
+{
+  "version": "v1.75",
+  "scope": "Opening 60/180 named positions of main-story 6-11 before battle; full-file CN/EN structural alignment audit.",
+  "source": {
+    "file": "obt/main/level_main_06-11_beg.txt",
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "0986ac67e9b36541dc93f82e53dd687780015d60",
+    "cn_physical_lines": 367,
+    "cn_final_newline": false,
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "92b2237c92178fb888e2c6928c6bae6b2a45a0e8",
+    "en_physical_lines": 368,
+    "en_final_newline": true,
+    "full_source_scripts_stored": false
+  },
+  "alignment": {
+    "cn_text_positions": 180,
+    "en_text_positions": 180,
+    "named_positions": 180,
+    "unnamed_positions": 0,
+    "text_line_numbers_match": true,
+    "command_lines_cn": 187,
+    "command_lines_en": 187,
+    "command_line_numbers_match": true,
+    "command_names_and_parameters_match_after_decision_option_normalization": true,
+    "command_counts_cn": {
+      "HEADER": 1,
+      "Dialog": 12,
+      "Character": 131,
+      "Blocker": 21,
+      "Background": 9,
+      "PlayMusic": 1,
+      "playsound": 3,
+      "Delay": 2,
+      "Decision": 3,
+      "Predicate": 3,
+      "Image": 1
+    },
+    "command_counts_en": {
+      "HEADER": 1,
+      "Dialog": 12,
+      "Character": 131,
+      "Blocker": 21,
+      "Background": 9,
+      "PlayMusic": 1,
+      "playsound": 3,
+      "Delay": 2,
+      "Decision": 3,
+      "Predicate": 3,
+      "Image": 1
+    },
+    "decision_commands": 3,
+    "decision_option_total": 3,
+    "predicate_branches": 3,
+    "decision_values_and_predicate_references_match": true,
+    "decision_option_payloads_differ_by_language": true,
+    "full_file_command_mismatches": [],
+    "translated_range": {
+      "first_ordinal": 1,
+      "last_ordinal": 60,
+      "source_line_start": 9,
+      "source_line_end": 118,
+      "translated_positions": 60,
+      "remaining_positions": 120,
+      "command_lines_cn": 58,
+      "command_lines_en": 58,
+      "command_counts_cn": {
+        "HEADER": 1,
+        "Dialog": 3,
+        "Character": 44,
+        "Blocker": 6,
+        "Background": 3,
+        "PlayMusic": 1
+      },
+      "command_counts_en": {
+        "HEADER": 1,
+        "Dialog": 3,
+        "Character": 44,
+        "Blocker": 6,
+        "Background": 3,
+        "PlayMusic": 1
+      },
+      "decision_commands": 0,
+      "predicate_branches": 0,
+      "placeholder_count_cn": 0,
+      "placeholder_count_en": 0,
+      "placeholder_count_ru": 0,
+      "inline_markup_tags": 0,
+      "empty_ru_entries": 0,
+      "untranslated_cjk_in_ru": 0
+    }
+  },
+  "cn_en_semantic_notes": [
+    {
+      "ordinal": 5,
+      "cn": "龙门人",
+      "en": "Lugmenites",
+      "ru": "Жители Лунмэня",
+      "note": "EN contains the spelling Lugmenites; CN clearly means people of Lungmen."
+    },
+    {
+      "ordinal": 6,
+      "cn": "总归无处可去",
+      "en": "there's never anywhere they could've gone",
+      "ru": "им всё равно некуда податься",
+      "note": "CN emphasizes that the refugees have nowhere to go; the Russian follows CN without importing the EN absolute past framing."
+    },
+    {
+      "ordinal": 12,
+      "cn": "大爹",
+      "en": "Big Daddy",
+      "ru": "Батя",
+      "note": "Colloquial address used by the Yeti Squad for Patriot; working Russian equivalent added to the glossary."
+    },
+    {
+      "ordinal": 28,
+      "cn": "霜星大姊她的身体，已经支撑不了多久了",
+      "en": "She's growing weak. She can't keep this up for long.",
+      "ru": "Старшая сестра ФростНова… её тело долго не продержится.",
+      "note": "CN explicitly foregrounds the condition of FrostNova's body; the Russian follows that wording."
+    },
+    {
+      "ordinal": 41,
+      "cn": "只要战斗，就总会战死的。战死在这里，我们都觉得不错。",
+      "en": "Live by the sword, die by the sword. We're okay with dying in battle.",
+      "ru": "Раз уж мы сражаемся, рано или поздно кто-нибудь погибнет в бою. Мы не против пасть здесь.",
+      "note": "The Russian keeps the explicit inevitability of death in battle rather than copying the EN idiom."
+    },
+    {
+      "ordinal": 48,
+      "cn": "大姊的温度会冷到你受不了",
+      "en": "Our Sister is far too cold for you.",
+      "ru": "Без защиты холод старшей сестры тебе не выдержать.",
+      "note": "CN specifies her temperature; the Russian preserves the warning in context."
+    },
+    {
+      "ordinal": 51,
+      "cn": "法术掏空了她的身体",
+      "en": "The Arts have emptied her body.",
+      "ru": "Искусства опустошили её тело.",
+      "note": "The CN bodily image is retained."
+    }
+  ],
+  "header_title": {
+    "cn": "第二关（后）",
+    "en": "第二关（后）",
+    "translation_ru": "Этап 2 (после боя)",
+    "note": "The HEADER payload is identical in CN and EN but appears to conflict with the file suffix _beg. It is retained literally and not used to reorder the scene."
+  },
+  "editorial_review": false,
+  "in_game_test": false,
+  "note": "The first 60 named positions are a partial literary draft, not a complete scene. The three Decision options and all later dialogue remain untranslated. Structural alignment was checked for the full CN and EN files; the translated range contains 58 command lines. No full CN/EN scripts were committed."
+}

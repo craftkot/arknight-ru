@@ -1,0 +1,454 @@
+{
+  "version": "v1.75",
+  "stage": "Main story 6-11 before battle — partial first draft (opening 60 positions)",
+  "status": "PARTIAL_FIRST_DRAFT; FULL_FILE_SOURCE_ALIGNMENT_AUDITED; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_main_06-11_beg.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "0986ac67e9b36541dc93f82e53dd687780015d60",
+    "cn_physical_lines": 367,
+    "cn_final_newline": false,
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "92b2237c92178fb888e2c6928c6bae6b2a45a0e8",
+    "en_physical_lines": 368,
+    "en_final_newline": true,
+    "version_difference": "CN has 367 physical lines and no final newline; EN has 368 because it ends with one additional newline. Both have 180 named text positions at matching physical lines and 187 command lines. All command names, positions and parameters match after normalizing the three language-specific Decision option payloads. CN is primary for meaning; EN Yostar is the name and structure cross-check. Full source scripts are not stored in this repository."
+  },
+  "progress": {
+    "translated": 60,
+    "total": 180,
+    "remaining": 120,
+    "next_ordinal": 61,
+    "next_source_line": 125,
+    "complete": false,
+    "unit": "named dialogue positions"
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 9,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Я проверил: все отряды Воссоединения, с которыми удалось связаться, уже отошли."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 11,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Народу-то сколько."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 13,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "И правда, целая река людей…"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 15,
+      "kind": "named",
+      "speaker_cn": "大熊",
+      "text_ru": "В пустошах потечёт река… река беженцев."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_cn": "大熊",
+      "text_ru": "Там будут и урсусцы, и жители Лунмэня. И заражённые, и обычные люди. Какими бы бедными или богатыми они ни были, уходят все с пустыми руками."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 17,
+      "kind": "named",
+      "speaker_cn": "大熊",
+      "text_ru": "Они думали, что найдётся место, где их примут. Теперь поняли: им всё равно некуда податься."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 18,
+      "kind": "named",
+      "speaker_cn": "大熊",
+      "text_ru": "В конце концов эта река исчезнет в пустошах."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 21,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "(Он так печально говорит.)"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "(Наверное, перенял это у Бати.)"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 25,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "(Неудивительно. В такое время кого угодно одолеет грусть.)"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 27,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Если бы Батя был здесь, мы бы точно победили и не дошли бы до такого, да?"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Удача — дело такое. Хоть представляй себе другой исход, ничего уже не изменишь."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "…Собирайся. Пойду переговорю с Призрачными арбалетчиками."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 32,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Не подгоняй меня, я и сам всё знаю."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 34,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Давай быстрее, не тяни резину."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 36,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Да мне тоже грустно!"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Точно?"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_cn": "罗德岛干员",
+      "text_ru": "Это отряд йети."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "А что с Амией и остальными?"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_cn": "罗德岛干员",
+      "text_ru": "Они уже направились туда. Амия просила передать тебе: «Не горячись»."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 52,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Сказала — будто ничего не сказала. Она же знает… Если кто и действует сгоряча, то я в Родосе Айленд первая."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 54,
+      "kind": "named",
+      "speaker_cn": "罗德岛干员",
+      "text_ru": "Блейз! Ты куда?!"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Спасать людей!"
+    },
+    {
+      "ordinal": 26,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Арбалетчики! Подождите!"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Йети… Погодите, что ты задумал?"
+    },
+    {
+      "ordinal": 28,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "…Старшая сестра ФростНова… её тело долго не продержится."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Только что, отбивая войска Лунмэня, она истратила все силы. Возможно, она ещё какое-то время не придёт в себя."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 70,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Вы хотите, чтобы мы снова взяли её с собой?"
+    },
+    {
+      "ordinal": 31,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Но мы ведь не собирались возвращаться в Чернобог. И Фауст тоже не хотел, чтобы Мефисто возвращался…"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Мы умоляем вас!"
+    },
+    {
+      "ordinal": 33,
+      "source_line": 74,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Мы хотим, чтобы в последние дни старшая сестра… чтобы она была рядом с Патриотом!"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 75,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Да, сейчас они не в лучших отношениях, но мы знаем… их родственная связь крепче кровных уз."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 76,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Мы… просим вас."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 78,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 37,
+      "source_line": 79,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "А вы?"
+    },
+    {
+      "ordinal": 38,
+      "source_line": 81,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Мы останемся прикрывать ваш отход. Если не задержим их, Лунмэнь быстро вас настигнет."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 82,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Когда вы с остальными уйдёте подальше и перестанете представлять угрозу для Лунмэня, им уже будет не с руки вас преследовать."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 84,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Но тогда вы…"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 86,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Раз уж мы сражаемся, рано или поздно кто-нибудь погибнет в бою. Мы не против пасть здесь."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 87,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Будущее, о котором говорила старшая сестра ФростНова, ещё далеко. Но нам и не обязательно увидеть его собственными глазами."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 89,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Мы снова обязаны вам жизнью."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Вы ведь тоже помогаете нам увезти старшую сестру. Это пустяки."
+    },
+    {
+      "ordinal": 45,
+      "source_line": 93,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "…Мы непременно выполним вашу просьбу. Даю слово."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 95,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Вот, надень эти наручи и защитный костюм."
+    },
+    {
+      "ordinal": 47,
+      "source_line": 97,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Что это?"
+    },
+    {
+      "ordinal": 48,
+      "source_line": 99,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Без защиты холод старшей сестры тебе не выдержать."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 101,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "…Она…"
+    },
+    {
+      "ordinal": 50,
+      "source_line": 102,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "…Какая же она лёгкая…"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 104,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Искусства опустошили её тело. Осторожнее, потише…"
+    },
+    {
+      "ordinal": 52,
+      "source_line": 105,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Не разбуди её."
+    },
+    {
+      "ordinal": 53,
+      "source_line": 106,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Посмотри на неё… Как крепко она спит."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 108,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Прощай, старшая сестра…"
+    },
+    {
+      "ordinal": 55,
+      "source_line": 109,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Мы будем тебя ждать."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 111,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "…Вот и всё."
+    },
+    {
+      "ordinal": 57,
+      "source_line": 112,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Мы… пойдём первыми."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 114,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员",
+      "text_ru": "Нет, это мы уйдём первыми."
+    },
+    {
+      "ordinal": 59,
+      "source_line": 116,
+      "kind": "named",
+      "speaker_cn": "幻影弩手",
+      "text_ru": "Мы ещё встретимся, йети."
+    },
+    {
+      "ordinal": 60,
+      "source_line": 118,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员",
+      "text_ru": "Надеюсь, этот день наступит нескоро."
+    }
+  ],
+  "decision_options_ru": [],
+  "header_title_ru": "Этап 2 (после боя)",
+  "translation_revision": "v1.75",
+  "notes_v175": "Partial first draft: positions 1–60, source lines 9–118. The next untranslated position is #61 at source line 125. The source HEADER title is 第二关（后） in both CN and EN despite the filename suffix _beg; it is preserved literally as “Этап 2 (после боя)” and the discrepancy is documented. The full file has three Decision/Predicate pairs later in the scene; they are outside this translated fragment and their options have not yet been translated. Full-file CN/EN command structure was checked; no full original script is stored."
+}
