@@ -1,0 +1,12 @@
+# Babel v3.20 — BB-8 after battle
+
+- Added the first 40 of 241 text-bearing positions in `level_act33side_08_end.txt`.
+- Segment: ordinals 1–40, CN source lines 12–144.
+- Translation: 29 named dialogue positions and 11 narration positions.
+- Remaining: 201 positions (112 named, 15 narration, 55 Sticker, 2 multiline, 12 Subtitle, 5 Decision).
+- CN blob: 502baa017ba32f5d3359d2caeedd2adafc72cd2a
+- EN Yostar blob: f5b13d3e11d4be6c3d4412eff082ae606fe586b4
+- CN/EN align at all 241 text positions by source line and type; 549 non-text control commands match exactly.
+- EN contains one additional terminal newline.
+- The scene is a partial first draft. No literary review or Yostar Global PC in-game validation.
+- Next position: ordinal 41, CN source line 158.
