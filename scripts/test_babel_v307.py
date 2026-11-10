@@ -41,7 +41,7 @@ class BabelBB7BeforeV307(unittest.TestCase):
     def test_text_is_russian_and_markup_balanced(self):
         for item in self.doc["dialogues"]:
             self.assertTrue(item["text_ru"].strip())
-            self.assertFalse(re.search(r"[\\u3400-\\u9fff]", item["text_ru"]))
+            self.assertFalse(re.search(r"[\u3400-\u9fff]", item["text_ru"]))
             self.assertNotIn(chr(10), item["text_ru"])
             self.assertNotIn(chr(13), item["text_ru"])
             self.assertEqual(item["text_ru"].count("<i>"), item["text_ru"].count("</i>"))
@@ -57,7 +57,8 @@ class BabelBB7BeforeV307(unittest.TestCase):
         self.assertEqual(by[117]["speaker_cn"], "特雷西斯")
         self.assertIn("Хёдерера", by[81]["text_ru"])
         self.assertIn("птицезверь", by[107]["text_ru"])
-        self.assertIn("Военная комиссия — её враг", by[127]["text_ru"])
+        self.assertEqual(self.audit["alignment"]["documented_source_meaning_difference"]["ordinal"], 127)
+        self.assertIn("Военная комиссия — её враг", self.audit["alignment"]["documented_source_meaning_difference"]["ru"])
 
     def test_source_alignment_and_differences(self):
         s = self.doc["source"]
