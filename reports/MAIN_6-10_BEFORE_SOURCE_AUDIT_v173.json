@@ -1,0 +1,98 @@
+{
+  "version": "v1.73",
+  "source_file": "obt/main/level_main_06-10_beg.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "8a5d4c711491343324dc29b668e30d972724bba5",
+    "cn_physical_lines": 203,
+    "cn_final_newline": false,
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "448f0d022a8c992d15badbf3e2c2e85a5d70c83e",
+    "en_physical_lines": 204,
+    "en_final_newline": true,
+    "version_difference": "The source blobs are unchanged from the prior draft. The only physical-line-count difference is the final newline in EN. No source files were copied into this repository."
+  },
+  "alignment": {
+    "cn_text_positions": 104,
+    "en_text_positions": 104,
+    "named_positions": 99,
+    "unnamed_positions": 5,
+    "text_line_numbers_match": true,
+    "text_kind_order_match": true,
+    "speaker_positions_match": true,
+    "translation_position_count": 104,
+    "translation_source_line_match": true,
+    "translation_speaker_cn_match": true,
+    "command_lines_cn": 99,
+    "command_lines_en": 99,
+    "command_names_and_parameters_match": true,
+    "command_line_numbers_match": true,
+    "command_counts": {
+      "HEADER": 1,
+      "Background": 1,
+      "PlayMusic": 2,
+      "Delay": 2,
+      "Character": 53,
+      "playsound": 1,
+      "Dialog": 6,
+      "Blocker": 7,
+      "stopmusic": 1,
+      "CameraShake": 4,
+      "PlaySound": 4,
+      "delay": 5,
+      "Decision": 4,
+      "Predicate": 7,
+      "Image": 1
+    },
+    "decision_commands_cn": 4,
+    "decision_commands_en": 4,
+    "decision_values_match": true,
+    "decision_option_counts_cn": [
+      3,
+      3,
+      3,
+      1
+    ],
+    "decision_option_counts_ru": [
+      3,
+      3,
+      3,
+      1
+    ],
+    "decision_option_total_ru": 10,
+    "predicate_commands_cn": 7,
+    "predicate_commands_en": 7,
+    "predicate_references_cn": [
+      "1;2;3",
+      "1",
+      "2",
+      "3",
+      "1;2;3",
+      "1;2;3",
+      "1"
+    ],
+    "predicate_references_match": true,
+    "placeholder_count_cn": 1,
+    "placeholder_count_en": 1,
+    "placeholder_count_ru": 1,
+    "untranslated_cjk_in_ru": 0,
+    "empty_ru_entries": 0,
+    "inline_markup_tags_in_dialogue_payloads": 0
+  },
+  "header_title": {
+    "source_cn": "第四关（前）",
+    "translation_ru": "Этап 4 (до боя)"
+  },
+  "editorial_review": false,
+  "in_game_test": false,
+  "prior_unmerged_draft": {
+    "pr": 149,
+    "not_merged": true,
+    "reused_positions": 19,
+    "branch_used_as_base": false,
+    "note": "The stale branch was 462 commits behind current main and was not merged. Only its dialogue payload was reused after current-source verification."
+  },
+  "note": "CN is the primary semantic source; EN Yostar is the name/structure cross-check. The translation is a complete first draft, not an editorially reviewed or game-tested patch."
+}
