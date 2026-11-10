@@ -1,0 +1,14 @@
+# Babel v3.10 — BB-7 before battle, positions 201–222
+
+- Added the final 22 text positions (ordinals 201–222; source lines 390–405, 417–418 and 423–426): 16 named dialogue entries and 6 narration entries.
+- Preserved all previous 200 translated positions unchanged.
+- Completed the scene as a first draft: 222/222 positions.
+- Babel progress: 15/23 full first drafts (3,420 text entries); 8 scenes remain unstarted.
+- Next author-ordered scene: BB-7 after battle, `activities/act33side/level_act33side_07_end.txt`.
+- CN source: Kengxxiao/ArknightsGameData, blob `605fede5533907ce926d038129da2abb2af57af7`.
+- EN Yostar source: Kengxxiao/ArknightsGameData_YoStar, blob `63c0f520b4f0de80ea34b4dd0afbbc4cb2df9f5b`.
+- Both mirrors: 434 logical lines, 222 text positions, 212 control-command lines; all 212 control-command lines match exactly. EN has one terminal newline absent from CN.
+- Documented CN/EN differences: ordinal 215 (CN says Theresis will punish the lofty evil spirit and judge the Doctor's sins; EN adds «Don't» and reframes the image); ordinal 216 (CN says the Sarkaz's fate; EN says «our fate»); ordinal 221 (CN quotes «heroes», EN does not).
+- CN remains primary for meaning; EN is used for names, scene structure and formatting cross-checks.
+- No complete source scripts or game files are stored in this repository.
+- Complete first draft only. No literary review or Yostar Global PC in-game validation.
