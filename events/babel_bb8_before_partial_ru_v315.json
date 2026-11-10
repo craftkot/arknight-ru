@@ -1,0 +1,435 @@
+{
+  "version": "v3.15",
+  "event": "Babel",
+  "scene": "Babel BB-8 before battle — partial first draft",
+  "source_file": "activities/act33side/level_act33side_08_beg.txt",
+  "status": "partial_first_draft",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "61daf6c0beeecfb442fd84a7dad26ea1110dac5b",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "cbf456ffc623a5865f193132fb076857ec2e6c1a",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_08_beg.txt",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_08_beg.txt",
+    "cn_line_count": 594,
+    "en_line_count": 594,
+    "cn_text_total": 200,
+    "en_text_total": 200,
+    "cn_named_total": 158,
+    "en_named_total": 158,
+    "cn_multiline_total": 2,
+    "en_multiline_total": 2,
+    "cn_narration_total": 40,
+    "en_narration_total": 40,
+    "cn_subtitle_total": 0,
+    "en_subtitle_total": 0,
+    "cn_sticker_total": 0,
+    "en_sticker_total": 0,
+    "cn_control_command_total": 394,
+    "en_control_command_total": 394,
+    "cn_decision_total": 0,
+    "en_decision_total": 0,
+    "en_extra_terminal_newline": true,
+    "version_difference": "CN and EN have 594 logical lines, 200 aligned text positions (158 named, 40 narration, two multiline) and 394 control-command lines. Speaker tags align after mapping Chinese names to EN. Two control commands differ: at CN/EN source lines 435 and 459, CN includes isCopy=true while EN omits it; preserve the CN attribute. The two multiline payloads at source lines 313 and 316 contain CN sound effects/text differing from EN's English onomatopoeia. Meaning differences at ordinals 19, 21, 27 and 39 are documented; Russian follows CN."
+  },
+  "progress": {
+    "translated_text_positions": 40,
+    "total_source_text_positions": 200,
+    "remaining_text_positions": 160,
+    "complete": false,
+    "last_source_line": 88,
+    "next_source_line": 90,
+    "next_text_ordinal": 41,
+    "next_text_source_line": 90,
+    "translated_kind_counts": {
+      "named": 33,
+      "multiline": 0,
+      "narration": 7,
+      "subtitle": 0,
+      "sticker": 0
+    },
+    "remaining_kind_counts": {
+      "named": 125,
+      "multiline": 2,
+      "narration": 33,
+      "subtitle": 0,
+      "sticker": 0
+    }
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 13,
+      "kind": "narration",
+      "text_ru": "Весна 1094 года."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 14,
+      "kind": "narration",
+      "text_ru": "Каздель. Главный корабль Бабеля — «Родос Айленд»."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Аскалон, я знала, что ты придёшь."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 24,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "…Осталась только я."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Да."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "За эти годы из всех, кого я знала и с кем могла перекинуться парой слов, в живых осталась только ты."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 31,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Твоё задание на этот раз…"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 33,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Ты ведь уже знаешь: тебе предстоит отправиться в Лондиниум."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 35,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Честно говоря, мне немного не по себе. Мне уже доводилось работать под прикрытием, но…"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 36,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "На самом деле я впервые покидаю Каздель."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Аскалон, я слышала, ты несколько месяцев провела в разъездах?"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 40,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Но поездка в Викторию — совсем другое дело."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 41,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Тебе предстоит внедриться в отряд наёмников Терезиса и в подходящий момент поднять мятеж."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "…И правда ли убийство Терезиса решит наши проблемы?"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Нет. Военная комиссия больше не зависит от какого-то одного сильного лидера. Именно этого и добивается Терезис."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 46,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Поэтому твоя задача — в нужный момент спровоцировать беспорядки и посеять подозрения среди викторианских герцогов. Пусть они сделают грязную работу за тебя."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Лондиниум — сердце Виктории. Им некуда бежать. Там падёт вся Военная комиссия."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "А потом вы сможете хорошенько поколотить весь двор нахцереров и захватить Каздель, да?"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Но, Джули, тебе стоит…"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 53,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Да брось! Я и раньше работала под прикрытием, но обмануть одновременно Терезиса и викторианцев… Я ведь почти не встречала Фелинов!"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 55,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Я даже специально подтянула викторианский язык…"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 57,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "…Я не об этом."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Ладно, держи."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 61,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "…Что это? Моя старая одежда?"
+    },
+    {
+      "ordinal": 26,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "На подкладке вышито моё имя… Это Её Высочество?"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Её Высочество хотела передать её тебе лично, но я не хочу, чтобы вы встречались."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 66,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Я… не хочу, чтобы Её Высочество страдала."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 70,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Ты понимаешь, что я имела в виду. Ты должна понимать: в этом плане все мы — расходные пешки."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Её Высочество прекрасно это знает. Она хотела лично проводить каждого из вас, но тогда ночами не смогла бы сомкнуть глаз."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Поэтому я солгала ей. Сказала, что вы ушли раньше срока."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_cn": "阿斯卡纶",
+      "text_ru": "Прости, Джули. Возможно, ты тоже хотела в последний раз увидеть Её Высочество."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 79,
+      "kind": "narration",
+      "text_ru": "Джули не ответила. Она молча провела пальцами по имени, вышитому льняной нитью на одежде, ощущая его шероховатость."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 80,
+      "kind": "narration",
+      "text_ru": "«Джули»."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 81,
+      "kind": "narration",
+      "text_ru": "Она вспомнила, как Её Высочество проводила для них уроки."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 82,
+      "kind": "narration",
+      "text_ru": "Убивать ей привычнее, чем учиться в классе. На уроках она ничего не понимала и постоянно клевала носом, но где-то в глубине души знала: Её Высочество говорит только правильные вещи."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 83,
+      "kind": "narration",
+      "text_ru": "Поэтому она никогда не задавала вопросов."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 86,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "…Кто бы не хотел увидеть Её Высочество в последний раз? Но мне приятно, что меня провожаешь именно ты. За эти годы я и у тебя многому научилась."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 88,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "А. Ты ведь не считаешь, что сама подходишь для этого задания лучше меня?"
+    }
+  ],
+  "source_alignment": {
+    "cn_en_text_positions_match": true,
+    "cn_en_text_type_sequence_match": true,
+    "cn_en_text_position_count": 200,
+    "cn_en_control_command_positions_match": true,
+    "cn_en_control_command_type_sequence_match": true,
+    "cn_control_command_count": 394,
+    "en_control_command_count": 394,
+    "cn_en_control_command_tag_sequence_match": true,
+    "cn_en_decision_positions_and_values_match": true,
+    "decision_count": 0,
+    "en_extra_terminal_newline": true,
+    "cn_en_control_command_lines_match_exactly": false,
+    "cn_en_control_command_difference_count": 2,
+    "cn_en_speaker_tags_align": true,
+    "documented_control_command_differences": [
+      {
+        "command_ordinal": 278,
+        "source_line": 435,
+        "cn": "[charslot(slot = \"l\", name = \"avg_4132_ascln_1#4$1\", posfrom=\"1200,0\", posto=\"400,0\", afrom = 0, ato = 1, duration=0.1, isblock=true,isCopy=true)]",
+        "en": "[charslot(slot = \"l\", name = \"avg_4132_ascln_1#4$1\", posfrom=\"1200,0\", posto=\"400,0\", afrom = 0, ato = 1, duration=0.1, isblock=true)]"
+      },
+      {
+        "command_ordinal": 302,
+        "source_line": 459,
+        "cn": "[charslot(slot = \"l\", name = \"avg_4132_ascln_1#4$1\", posfrom=\"340,0\", posto=\"600,0\", afrom=1, ato=0, duration=0.5, isblock=true,isCopy=true)]",
+        "en": "[charslot(slot = \"l\", name = \"avg_4132_ascln_1#4$1\", posfrom=\"340,0\", posto=\"600,0\", afrom=1, ato=0, duration=0.5, isblock=true)]"
+      }
+    ],
+    "segment_source_lines": [
+      13,
+      14,
+      19,
+      24,
+      26,
+      28,
+      30,
+      31,
+      33,
+      35,
+      36,
+      38,
+      40,
+      41,
+      43,
+      45,
+      46,
+      47,
+      49,
+      51,
+      53,
+      55,
+      57,
+      59,
+      61,
+      63,
+      65,
+      66,
+      68,
+      70,
+      71,
+      73,
+      77,
+      79,
+      80,
+      81,
+      82,
+      83,
+      86,
+      88
+    ],
+    "segment_cn_en_line_alignment": true,
+    "segment_cn_en_text_type_alignment": true,
+    "segment_cn_en_speaker_tags_align": true,
+    "segment_cn_en_markup_alignment": true,
+    "segment_cn_en_control_commands_match_exactly": true,
+    "segment_ordinals": [
+      1,
+      40
+    ],
+    "segment_new_text_positions": 40,
+    "scene_complete": false,
+    "game_behavior_verified": false,
+    "full_translated_prefix_markup_alignment": true
+  },
+  "notes": [
+    "The opening scene is set in spring 1094 aboard Babel's main ship, Rhodes Island, in Kazdel.",
+    "The first exchange is between Julie and Ascalon. Julie is preparing to infiltrate Theresis's mercenary forces in Londinium.",
+    "CN is the primary semantic source; EN Yostar is used to cross-check names, structure and markup.",
+    "Russian forms «Джули», «двор нахцереров» and «Фелины» were checked against the Russian Arknights Wiki BB-8 story page; the CN text remains authoritative.",
+    "At ordinal 19, CN says 占领卡兹戴尔 (occupy Kazdel), while EN says take back Kazdel; Russian follows the more literal CN «захватить Каздель».",
+    "At ordinal 21, CN says Julie has hardly met any Felines; EN adds «who can do that», which is absent from CN. Russian follows CN.",
+    "At ordinal 27, CN says Ascalon does not want Julie and Her Highness to meet; EN adds «at this moment». Russian follows CN and omits the time qualifier.",
+    "At ordinal 39, CN says Julie appreciates Ascalon coming to see her off; EN reframes this as not minding that Ascalon gives her the clothes. Russian follows CN.",
+    "Across the full source, 394 control-command lines are present. Two CN charslot commands include isCopy=true, which EN omits; this difference is preserved in the source audit.",
+    "Two later multiline text positions at CN/EN source lines 313 and 316 contain different Chinese/English sound-effect payloads; they are not part of this opening 40-position segment.",
+    "The first 40 positions comprise 33 named dialogue positions and seven narration positions. The next untranslated position is ordinal 41 at source line 90.",
+    "No full CN/EN source scripts or game files are committed. No literary review or Yostar Global PC in-game validation has been performed."
+  ]
+}
