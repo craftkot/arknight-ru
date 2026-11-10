@@ -1,0 +1,11 @@
+# Main story v1.73 / chronology v3.33
+
+- Completed the main-story 6-10 before-battle first draft: 104/104 text positions (99 named, 5 unnamed).
+- Integrated the 19 missing positions (86–104) from the old unmerged PR #149 only after independently re-fetching the current CN and Yostar EN source files. The stale PR branch was not used as the base and is 462 commits behind current main.
+- Retained the 85 positions already present in main.
+- Revised five dialogue formulations against CN as the primary semantic source and adjusted one decision option.
+- Preserved four Decision commands (10 options), seven Predicate branches, one {@nickname} placeholder, and all 99 command lines.
+- CN/EN source blob hashes: 8a5d4c711491343324dc29b668e30d972724bba5 / 448f0d022a8c992d15badbf3e2c2e85a5d70c83e. CN has 203 physical lines; EN has 204 due to one extra final newline. All text positions and command names/parameters align.
+- Updated the chapter-6 index, merged story selection, QA, chronology manifest and README.
+- Next author-order scene: 6-10 after battle, 205 named positions. CN/EN blobs: bb62801e39e1b96789067cd5ed25aa567e06896f / e9f0401e0c5a790c4ea0b37f3cf7a970eb4a879d.
+- Literary review and Yostar Global PC in-game validation remain pending. Local preview is not a verified game patch.
