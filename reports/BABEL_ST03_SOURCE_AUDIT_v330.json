@@ -243,5 +243,19 @@
   "game_behavior_verified": false,
   "source_files_copied_to_repository": false,
   "cn_primary_for_semantics": true,
-  "en_yostar_used_for": "speaker names and structural cross-check"
+  "en_yostar_used_for": "speaker names and structural cross-check",
+  "translation_notes": [
+    {
+      "ordinal": 35,
+      "description": "酒量 means drinking capacity/tolerance. The Russian draft uses a natural construction rather than the literal clinical-sounding 'alcohol tolerance'."
+    },
+    {
+      "ordinal": 111,
+      "description": "The speaker is Theresa; Russian feminine agreement is used."
+    },
+    {
+      "ordinal": 112,
+      "description": "Oracle is the Doctor's past self and the character's gender is not specified. Russian wording avoids gendered past-tense agreement."
+    }
+  ]
 }
