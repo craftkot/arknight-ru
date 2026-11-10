@@ -55,6 +55,7 @@ class BabelBB9BeforeV326(unittest.TestCase):
         self.assertEqual(by[45]["speaker_cn"], "孽茨雷")
         self.assertEqual(by[48]["speaker_cn"], "杜卡雷")
         self.assertEqual(by[59]["speaker_cn"], "菈玛莲")
+        self.assertIn("Эфанил", by[59]["text_ru"])
         self.assertIn("Илиша", by[79]["text_ru"])
         self.assertEqual(by[87]["text_ru"], "Вж-ж—")
         self.assertIn("Парового рыцаря", by[92]["text_ru"])
