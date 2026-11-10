@@ -28,6 +28,8 @@ class MainStoryManifestV174(unittest.TestCase):
         self.assertTrue(all(t["dialogues"][i]["text_ru"].startswith("(") and t["dialogues"][i]["text_ru"].endswith(")") for i in range(6)))
         self.assertEqual(t["dialogues"][98]["text_ru"], "К-как? Твой позвоночник?!")
         self.assertEqual(t["dialogues"][120]["text_ru"], "Почему?")
+        self.assertEqual(t["dialogues"][48]["text_ru"], "Когда ты убивала Сергея, он раскаялся?")
+        self.assertIn("изменить эту землю", t["dialogues"][178]["text_ru"])
 
     def test_full_source_audit(self):
         a = load("reports/MAIN_6-10_AFTER_SOURCE_AUDIT_v174.json")
