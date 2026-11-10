@@ -1,0 +1,14 @@
+# Babel v3.09 — BB-7 before battle, positions 161–200
+
+- Added 40 text positions (ordinals 161–200; source lines 347–352 and 356–389): 37 named dialogue entries and 3 narration entries.
+- Preserved all previous 160 translated positions unchanged.
+- Updated cumulative progress to 200/222; 22 positions remain.
+- Next position: ordinal 201, source line 390.
+- CN source: Kengxxiao/ArknightsGameData, blob `605fede5533907ce926d038129da2abb2af57af7`.
+- EN Yostar source: Kengxxiao/ArknightsGameData_YoStar, blob `63c0f520b4f0de80ea34b4dd0afbbc4cb2df9f5b`.
+- Both mirrors: 434 logical lines, 222 text positions, 212 control-command lines; all 212 control-command lines match exactly. EN has one terminal newline absent from CN.
+- Documented CN/EN differences: ordinal 179 (CN quoted proper name vs EN italics for The Shard); ordinal 185 (CN says no proactive total extermination vs EN's shorter promise); ordinal 190 (CN says hopes are extinguished vs EN says members are eradicated); ordinal 197 (CN says Babel will no longer belong to the Sarkaz vs EN's "Sarkaz endeavor").
+- CN remains primary for meaning; EN is used for names, scene structure and formatting cross-checks.
+- Russian community terminology added: Шард, Конфессарии, Лондиниум.
+- No complete source scripts or game files are stored in this repository.
+- Partial first draft only. No literary review or Yostar Global PC in-game validation.
