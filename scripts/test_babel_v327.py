@@ -53,7 +53,7 @@ class BabelBB9AfterV327(unittest.TestCase):
     def test_cn_primary_choices_and_markup(self):
         by = {x["ordinal"]: x for x in self.doc["dialogues"]}
         self.assertIn("Пустыне Отчаяния", by[4]["text_ru"])
-        self.assertIn("тряпичного человечка", by[13]["text_ru"])
+        self.assertIn("тряпичному человечку", by[13]["text_ru"])
         self.assertIn("ряски", by[13]["text_ru"])
         self.assertIn("права доступа", by[50]["text_ru"])
         self.assertIn("запечатала большую часть её областей", by[51]["text_ru"])
