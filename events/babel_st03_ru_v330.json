@@ -1,0 +1,1024 @@
+{
+  "version": "v3.30",
+  "event": "Babel",
+  "scene": "Babel BB-ST-3 — End of Souls — complete first draft",
+  "source_file": "activities/act33side/level_act33side_st03.txt",
+  "status": "first_draft_complete",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "945b9cbe8b92f6517423fb3c774db8fd1dd806e6",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "324a425d6d345a1a594ee3ba87dad6c5321eee8a",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_st03.txt",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_st03.txt",
+    "cn_line_count": 336,
+    "en_line_count": 337,
+    "cn_text_total": 122,
+    "en_text_total": 122,
+    "cn_named_total": 85,
+    "en_named_total": 85,
+    "cn_multiline_total": 0,
+    "en_multiline_total": 0,
+    "cn_narration_total": 37,
+    "en_narration_total": 37,
+    "cn_sticker_total": 0,
+    "en_sticker_total": 0,
+    "cn_subtitle_total": 0,
+    "en_subtitle_total": 0,
+    "cn_decision_total": 0,
+    "en_decision_total": 0,
+    "cn_control_command_total": 214,
+    "en_control_command_total": 214,
+    "en_extra_terminal_newline": true,
+    "version_difference": "CN has 336 physical lines and no terminal newline; EN Yostar has 337 physical lines because of one additional terminal newline. Both sources contain 122 text-bearing positions at identical physical lines and with the same type sequence: 85 named dialogue lines and 37 narration lines. The 214 non-text control commands match exactly. Speaker names are localized differently in the source files but occupy the same positions. CN is primary for meaning; EN is used to cross-check names and structure."
+  },
+  "source_alignment": {
+    "cn_en_text_positions_match": true,
+    "cn_en_text_type_sequence_match": true,
+    "cn_en_source_line_positions_match": true,
+    "cn_en_speaker_tag_positions_align": true,
+    "cn_en_nontext_control_commands_match_exactly": true,
+    "cn_en_nontext_control_command_count": 214,
+    "cn_en_normalized_structural_difference_count": 0,
+    "segment_ordinals": [
+      1,
+      122
+    ],
+    "segment_source_lines": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      28,
+      47,
+      49,
+      51,
+      53,
+      54,
+      56,
+      60,
+      64,
+      65,
+      66,
+      69,
+      71,
+      72,
+      75,
+      77,
+      79,
+      84,
+      85,
+      86,
+      88,
+      94,
+      95,
+      98,
+      100,
+      107,
+      111,
+      112,
+      113,
+      116,
+      119,
+      128,
+      129,
+      141,
+      142,
+      143,
+      155,
+      156,
+      157,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      189,
+      190,
+      191,
+      202,
+      204,
+      209,
+      210,
+      211,
+      213,
+      214,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      238,
+      239,
+      240,
+      241,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      267,
+      269,
+      274,
+      275,
+      277,
+      278,
+      280,
+      281,
+      282,
+      284,
+      286,
+      288,
+      289,
+      291,
+      293,
+      298,
+      299,
+      301,
+      303,
+      304,
+      306,
+      310,
+      325,
+      326,
+      327
+    ],
+    "segment_cn_en_control_command_difference_source_lines": [],
+    "segment_cn_en_markup_alignment": true,
+    "segment_cn_en_control_commands_match_exactly": true,
+    "scene_complete": true,
+    "game_behavior_verified": false
+  },
+  "progress": {
+    "translated_text_positions": 122,
+    "total_source_text_positions": 122,
+    "remaining_text_positions": 0,
+    "complete": true,
+    "last_source_line": 327,
+    "next_source_line": null,
+    "next_text_ordinal": null,
+    "next_text_source_line": null,
+    "translated_kind_counts": {
+      "named": 85,
+      "multiline": 0,
+      "narration": 37,
+      "sticker": 0,
+      "subtitle": 0,
+      "decision": 0
+    },
+    "remaining_kind_counts": {
+      "named": 0,
+      "multiline": 0,
+      "narration": 0,
+      "sticker": 0,
+      "subtitle": 0,
+      "decision": 0
+    }
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 11,
+      "kind": "narration",
+      "text_ru": "Стирание воспоминаний — и для Терезии это непривычная задача."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 12,
+      "kind": "narration",
+      "text_ru": "Тем более теперь ей предстоит столкнуться с сознанием, о котором она почти ничего не знает."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 13,
+      "kind": "narration",
+      "text_ru": "Она не знает, что встретит, и не может предугадать, опасно ли это. Но отступать ей некуда."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 14,
+      "kind": "narration",
+      "text_ru": "Это последнее решение в её жизни."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 15,
+      "kind": "narration",
+      "text_ru": "Она идёт сквозь воспоминания Доктора; бесчисленные образы распадаются на нити и исчезают."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 16,
+      "kind": "narration",
+      "text_ru": "Воспоминания угасают. Беззвучно."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 17,
+      "kind": "narration",
+      "text_ru": "Она проходит через мир, которого никогда не видела и не могла постичь."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 18,
+      "kind": "narration",
+      "text_ru": "Почему же столь блистательная цивилизация пришла к концу?"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 19,
+      "kind": "narration",
+      "text_ru": "Почему гении, сияющие ярче падающих звёзд, так и не смогли найти ответ на этот главный вопрос, сколько ни искали?"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 20,
+      "kind": "narration",
+      "text_ru": "Неужели сопротивление бессмысленно? Неужели единство — лишь пустая мечта?"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 21,
+      "kind": "narration",
+      "text_ru": "Неужели будущее Терры уже предрешено? А что станет с родным домом, который она любит?"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 22,
+      "kind": "narration",
+      "text_ru": "А с теми, кого она любит?"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 23,
+      "kind": "narration",
+      "text_ru": "У неё нет ответа. Она не может его найти."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 24,
+      "kind": "narration",
+      "text_ru": "Ей остаётся лишь бродить по пустоте, оставшейся после исчезнувших воспоминаний."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 28,
+      "kind": "narration",
+      "text_ru": "Наконец она увидела знакомого человека."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Тебя смущает такое внимание?"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Что ты здесь делаешь, Кал'цит?"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Это праздник в честь твоей очередной крупной победы. Разве мне не следует здесь быть?"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 53,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Ты же знаешь, я так давно не... В те времена поводов для праздника у нас было немного."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 54,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Я уже немного забыл, как праздновать."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ничего, постепенно привыкнешь. Бабель станет новым началом."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 60,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Иди. Нам стоит как следует отпраздновать."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 64,
+      "kind": "narration",
+      "text_ru": "Терезия увидела, как Кал'цит похлопала Доктора по спине и мягко подтолкнула его к толпе, давно его ожидавшей."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 65,
+      "kind": "narration",
+      "text_ru": "Люди теснились вокруг, протягивали руки, наперебой стараясь пожать Доктору руку или похлопать его по плечу."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 66,
+      "kind": "narration",
+      "text_ru": "Некоторые — высокие и весьма смелые — даже клали ладонь ему на голову и хорошенько ерошили волосы."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 69,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…?"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Э-э, простите моего подчинённого за эту выходку, Доктор. Я как раз собирался его остановить..."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Но я повредил руку... и просто не успел."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 75,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Ничего страшного... Как твоя рана?"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Уже лучше."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 79,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Жаль, сегодня вечером тебе не удастся попробовать многие напитки."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 84,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Ничего, Доктор. Я выпью за него пару лишних кружек."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 85,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Если бы вы в последний момент не изменили план и не перешли в атаку, нас бы, пожалуй, окружили."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 86,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Ну же, за вас! Сегодня надо как следует выпить."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 88,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Боюсь, моя стойкость к алкоголю тебя разочарует, господин Эйс."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Посторонитесь, посторонитесь! Я уже не вижу сегодняшнего героя!"
+    },
+    {
+      "ordinal": 37,
+      "source_line": 95,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Столько народу! Впервые мне кажется, что командный центр такой тесный. Может, потом расширить его? Снаружи ещё полно людей — несут сюда вкусности."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 98,
+      "kind": "named",
+      "speaker_cn": "Logos",
+      "text_ru": "Доктор, все радуются победе, которую вы нам принесли, но вы выглядите... немного скованно."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 100,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Я думал, мне удаётся это скрыть. Кхм... Просто я нервничаю в толпе."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 107,
+      "kind": "named",
+      "speaker_cn": "Scout",
+      "text_ru": "Эй, осторожнее! Не толкайтесь! Амия, ты в порядке?"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 111,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Я в порядке!"
+    },
+    {
+      "ordinal": 42,
+      "source_line": 112,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Доктор! Скорее идёмте со мной! Мы с госпожой Терезией испекли для вас торт!"
+    },
+    {
+      "ordinal": 43,
+      "source_line": 113,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Смотрите, духовка была такой горячей, что я обожгла палец — даже волдырь появился."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 116,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Спасибо... Эй! Ты в порядке? У кого-нибудь есть мазь от ожогов?.."
+    },
+    {
+      "ordinal": 45,
+      "source_line": 119,
+      "kind": "narration",
+      "text_ru": "Раздался тихий кашель, и толпа тут же расступилась."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 128,
+      "kind": "narration",
+      "text_ru": "Терезия увидела, как мимо прошла женщина в белом платье. Та с улыбкой протянула Доктору руку; следы от уколов на ней ещё не зажили."
+    },
+    {
+      "ordinal": 47,
+      "source_line": 129,
+      "kind": "narration",
+      "text_ru": "Это была она сама."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 141,
+      "kind": "narration",
+      "text_ru": "Радость угасла, воспоминания угасли, стихли и голоса вокруг."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 142,
+      "kind": "narration",
+      "text_ru": "Терезия стёрла это воспоминание, знакомое даже ей самой, и двинулась дальше."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 143,
+      "kind": "narration",
+      "text_ru": "Она увидела запись, которой прежде не встречала в PRTS."
+    },
+    {
+      "ordinal": 51,
+      "source_line": 155,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Запустить функцию визуализации. Включить шифрование с правами администратора."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 156,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Номер записи <color=#FF4200>（0091_admin）</color>… Тема: <color=#FF4200>（для тебя）</color>."
+    },
+    {
+      "ordinal": 53,
+      "source_line": 157,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Начать запись... Видеосъёмка запущена."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 165,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 55,
+      "source_line": 166,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Если я не доживу до твоего пробуждения, ты увидишь это видео."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 167,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Пока всё не уляжется, я останусь здесь, в самом безопасном месте."
+    },
+    {
+      "ordinal": 57,
+      "source_line": 168,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Когда я закончу всё, что должен, то исчезну в тишине..."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 169,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Исчезну с глаз всех, кто меня ненавидит."
+    },
+    {
+      "ordinal": 59,
+      "source_line": 170,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 60,
+      "source_line": 171,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Внутри меня постоянно звучит голос: он напоминает мне, допрашивает меня — «Кто я?»"
+    },
+    {
+      "ordinal": 61,
+      "source_line": 172,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Страж, оберегающий нас самих? Или предатель цивилизаций будущего?"
+    },
+    {
+      "ordinal": 62,
+      "source_line": 173,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Я больше не могу понять, кто я такой —"
+    },
+    {
+      "ordinal": 63,
+      "source_line": 174,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Изучив все оставленные мной записи, ты сможешь найти ответ. Но сейчас, по крайней мере, я больше не сомневаюсь в том, что должен сделать."
+    },
+    {
+      "ordinal": 64,
+      "source_line": 175,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Я…"
+    },
+    {
+      "ordinal": 65,
+      "source_line": 176,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Когда ты проснёшься, меня уже не будет в твоём прошлом, и в обещанном нам будущем мне тоже не найдётся места."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 177,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Поэтому я надеюсь..."
+    },
+    {
+      "ordinal": 67,
+      "source_line": 178,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Остановить запись. Удалить всё сказанное только что. Мне… нужно ещё немного времени."
+    },
+    {
+      "ordinal": 68,
+      "source_line": 189,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 69,
+      "source_line": 190,
+      "kind": "narration",
+      "text_ru": "Она не колебалась и не вздыхала — молча продолжала делать то, что должна."
+    },
+    {
+      "ordinal": 70,
+      "source_line": 191,
+      "kind": "narration",
+      "text_ru": "Терезия углублялась всё дальше, приближаясь к воспоминаниям, погребённым ещё глубже."
+    },
+    {
+      "ordinal": 71,
+      "source_line": 202,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Свяжитесь с ближайшей спасательной группой! На разбившемся транспорте — эмблема Рим Биллитон. Это ваша колонна..."
+    },
+    {
+      "ordinal": 72,
+      "source_line": 204,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Я слышу, внутри ещё есть выжившие!"
+    },
+    {
+      "ordinal": 73,
+      "source_line": 209,
+      "kind": "named",
+      "speaker_cn": "通讯声",
+      "text_ru": "Пш-ш... Мы уже связались с ними, но от ближайшего горнодобывающего участка до места происшествия ещё нужно добраться — потребуется время."
+    },
+    {
+      "ordinal": 74,
+      "source_line": 210,
+      "kind": "named",
+      "speaker_cn": "通讯声",
+      "text_ru": "Судя по вашим словам, там уже случались нападения бандитов. Мы также уведомим вооружённую охрану, пусть немедленно выдвигаются."
+    },
+    {
+      "ordinal": 75,
+      "source_line": 211,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "…Ух..."
+    },
+    {
+      "ordinal": 76,
+      "source_line": 213,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Вооружённая охрана... Но ведь в Рим Биллитон так обращаются с заражёнными, у которых нет семьи..."
+    },
+    {
+      "ordinal": 77,
+      "source_line": 214,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Тц—"
+    },
+    {
+      "ordinal": 78,
+      "source_line": 226,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Потерпи... Сейчас я вытащу тебя оттуда..."
+    },
+    {
+      "ordinal": 79,
+      "source_line": 227,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "…Ты..."
+    },
+    {
+      "ordinal": 80,
+      "source_line": 228,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Только не засыпай... Тс... Умница, протяни руку."
+    },
+    {
+      "ordinal": 81,
+      "source_line": 229,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Хватайся!"
+    },
+    {
+      "ordinal": 82,
+      "source_line": 230,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Но... я... так устала..."
+    },
+    {
+      "ordinal": 83,
+      "source_line": 231,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Как тебя зовут—"
+    },
+    {
+      "ordinal": 84,
+      "source_line": 232,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "…Я—"
+    },
+    {
+      "ordinal": 85,
+      "source_line": 233,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Имя...?"
+    },
+    {
+      "ordinal": 86,
+      "source_line": 238,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Мама... зовёт меня... Амией..."
+    },
+    {
+      "ordinal": 87,
+      "source_line": 239,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Амия, потерпи! Крепче держись за мою руку!"
+    },
+    {
+      "ordinal": 88,
+      "source_line": 240,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Я... держу тебя—"
+    },
+    {
+      "ordinal": 89,
+      "source_line": 241,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Я не отпущу—"
+    },
+    {
+      "ordinal": 90,
+      "source_line": 248,
+      "kind": "narration",
+      "text_ru": "Воспоминание рассыпалось."
+    },
+    {
+      "ordinal": 91,
+      "source_line": 249,
+      "kind": "narration",
+      "text_ru": "Вот и конечная точка Терезии, конец воспоминаний Доктора —"
+    },
+    {
+      "ordinal": 92,
+      "source_line": 250,
+      "kind": "narration",
+      "text_ru": "«Терезия...»"
+    },
+    {
+      "ordinal": 93,
+      "source_line": 251,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 94,
+      "source_line": 252,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Невозможно. Ведь все воспоминания уже..."
+    },
+    {
+      "ordinal": 95,
+      "source_line": 253,
+      "kind": "narration",
+      "text_ru": "«Терезия»."
+    },
+    {
+      "ordinal": 96,
+      "source_line": 254,
+      "kind": "narration",
+      "text_ru": "Она пошла на голос и остановилась перед пустотой, из-за которой он доносился."
+    },
+    {
+      "ordinal": 97,
+      "source_line": 255,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Где я—"
+    },
+    {
+      "ordinal": 98,
+      "source_line": 267,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Наконец ты добралась сюда. Я ждал тебя."
+    },
+    {
+      "ordinal": 99,
+      "source_line": 269,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Доктор...?"
+    },
+    {
+      "ordinal": 100,
+      "source_line": 274,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Доктор?"
+    },
+    {
+      "ordinal": 101,
+      "source_line": 275,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Мало кто меня так называет. Обычно меня зовут по позывному моей команды — «Оракул»."
+    },
+    {
+      "ordinal": 102,
+      "source_line": 277,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "...Оракул..."
+    },
+    {
+      "ordinal": 103,
+      "source_line": 278,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Значит, Кал'цит доверяла именно тебе."
+    },
+    {
+      "ordinal": 104,
+      "source_line": 280,
+      "kind": "named",
+      "speaker_cn": "预言家",
+      "text_ru": "Мне очень жаль, что я подвёл Кал'цит. Но ничего не поделаешь: я и вправду оказался втянут в открытый замысел, которого невозможно избежать."
+    },
+    {
+      "ordinal": 105,
+      "source_line": 281,
+      "kind": "named",
+      "speaker_cn": "预言家",
+      "text_ru": "Я всё это время наблюдал за тобой: как ты боролась за надежду, как мучилась из-за предательства —"
+    },
+    {
+      "ordinal": 106,
+      "source_line": 282,
+      "kind": "named",
+      "speaker_cn": "预言家",
+      "text_ru": "Словно смотрел на самого себя в прошлом."
+    },
+    {
+      "ordinal": 107,
+      "source_line": 284,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "…Прости."
+    },
+    {
+      "ordinal": 108,
+      "source_line": 286,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Теперь ты — лишь остаток от сгоревших эмоций Доктора. В нынешних обстоятельствах я не могу отдельно сохранить твои чувства и воспоминания..."
+    },
+    {
+      "ordinal": 109,
+      "source_line": 288,
+      "kind": "named",
+      "speaker_cn": "预言家",
+      "text_ru": "Ты уже дошла до конца. Сделай то, что должна."
+    },
+    {
+      "ordinal": 110,
+      "source_line": 289,
+      "kind": "named",
+      "speaker_cn": "预言家",
+      "text_ru": "Спасибо, что поверила мне."
+    },
+    {
+      "ordinal": 111,
+      "source_line": 291,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "…Может, уже поздно говорить это, но я рад нашей встрече."
+    },
+    {
+      "ordinal": 112,
+      "source_line": 293,
+      "kind": "named",
+      "speaker_cn": "预言家",
+      "text_ru": "Я тоже рад встрече с тобой, Терезия."
+    },
+    {
+      "ordinal": 113,
+      "source_line": 298,
+      "kind": "narration",
+      "text_ru": "Оракул направился к бескрайнему пшеничному полю вдали и исчез среди колосьев."
+    },
+    {
+      "ordinal": 114,
+      "source_line": 299,
+      "kind": "narration",
+      "text_ru": "Порывы ветра пронеслись над полем, заставив колосья зашелестеть. Последний образ этого пространства рассыпался, обнажив конец нити."
+    },
+    {
+      "ordinal": 115,
+      "source_line": 301,
+      "kind": "narration",
+      "text_ru": "Терезия взяла нить в руку. Вскоре та начала тускнеть и рассыпаться в пыль."
+    },
+    {
+      "ordinal": 116,
+      "source_line": 303,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Пора прощаться..."
+    },
+    {
+      "ordinal": 117,
+      "source_line": 304,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Мы ведь ещё встретимся в будущем, правда?.."
+    },
+    {
+      "ordinal": 118,
+      "source_line": 306,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Кал'цит... Амия..."
+    },
+    {
+      "ordinal": 119,
+      "source_line": 310,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "…{@nickname}."
+    },
+    {
+      "ordinal": 120,
+      "source_line": 325,
+      "kind": "narration",
+      "text_ru": "Терезия выпустила последний конец нити из руки и смотрела, как он рассеивается и исчезает, словно звёздный свет."
+    },
+    {
+      "ordinal": 121,
+      "source_line": 326,
+      "kind": "narration",
+      "text_ru": "Она шагнула вперёд — навстречу надежде..."
+    },
+    {
+      "ordinal": 122,
+      "source_line": 327,
+      "kind": "narration",
+      "text_ru": "Навстречу смерти."
+    }
+  ]
+}
