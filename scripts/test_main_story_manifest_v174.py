@@ -52,6 +52,7 @@ class MainStoryManifestV174(unittest.TestCase):
         self.assertEqual(s["files"][key]["dialogue_count"], 205)
         self.assertEqual(len(s["files"][key]["dialogues"]), 205)
         self.assertEqual(s["files"][key]["dialogues"]["121"], "Почему?")
+        self.assertIn("станет штаммом", s["files"][key]["dialogues"]["189"])
         idx = (ROOT / "story/CHAPTER_6_INDEX_v174.tsv").read_text(encoding="utf-8")
         self.assertIn("level_main_06-10_end.txt\tfirst_draft_complete\t205\t0\t205", idx)
         q = load("reports/QA_MAIN_STORY_v174.json")
