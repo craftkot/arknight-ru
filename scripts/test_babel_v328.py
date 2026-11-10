@@ -91,6 +91,7 @@ class BabelBB10BeforeV328(unittest.TestCase):
         self.assertEqual(a["segment_source_lines"], EXPECTED_LINES)
         self.assertEqual(a["segment_cn_en_control_command_difference_source_lines"], [])
         self.assertTrue(a["segment_cn_en_markup_alignment"])
+        self.assertTrue(a["segment_cn_en_control_commands_match_exactly"])
         self.assertTrue(a["scene_complete"])
         self.assertFalse(a["game_behavior_verified"])
 
