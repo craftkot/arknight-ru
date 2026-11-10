@@ -96,6 +96,11 @@
       "ordinal": 189,
       "cn": "CN describes Crownslayer as a virus strain spreading 'unease'; EN splits this into a virus and a unique strain.",
       "decision": "RU keeps the strain metaphor from CN."
+    },
+    {
+      "ordinal": 121,
+      "cn": "CN says 为什么？ ('Why?'); EN Yostar says 'What?'.",
+      "decision": "RU follows CN: 'Почему?'."
     }
   ],
   "header_title": {
