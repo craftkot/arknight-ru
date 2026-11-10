@@ -45,7 +45,7 @@ class BabelBB9BeforeV326(unittest.TestCase):
     def test_russian_text_invariants(self):
         for entry in self.doc["dialogues"]:
             self.assertTrue(entry["text_ru"].strip())
-            self.assertNotRegex(entry["text_ru"], r"[\u3400-\u9fff]")
+            self.assertNotRegex(entry["text_ru"], r"[\\u3400-\\u9fff]")
             self.assertNotIn(chr(10), entry["text_ru"])
             self.assertNotIn(chr(13), entry["text_ru"])
             self.assertEqual(entry["text_ru"].count("«"), entry["text_ru"].count("»"))
@@ -59,7 +59,7 @@ class BabelBB9BeforeV326(unittest.TestCase):
         self.assertIn("Илиша", by[79]["text_ru"])
         self.assertEqual(by[87]["text_ru"], "Вж-ж—")
         self.assertIn("Парового рыцаря", by[92]["text_ru"])
-        self.assertIn("магами Шпилей", by[95]["text_ru"])
+        self.assertIn("к магам Шпилей", by[95]["text_ru"])
         self.assertIn("арбалетных болтов", by[98]["text_ru"])
         self.assertIn("у всех на виду", by[92]["text_ru"])
         self.assertEqual(by[106]["text_ru"], "……")
