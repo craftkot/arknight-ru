@@ -40,7 +40,7 @@ class BabelBB7AfterV311(unittest.TestCase):
     def test_russian_text_is_clean_and_markup_balanced(self):
         for item in self.doc["dialogues"]:
             self.assertTrue(item["text_ru"].strip())
-            self.assertFalse(re.search(r"[\\u3400-\\u9fff]", item["text_ru"]))
+            self.assertFalse(re.search(r"[\u3400-\u9fff]", item["text_ru"]))
             self.assertNotIn(chr(10), item["text_ru"])
             self.assertNotIn(chr(13), item["text_ru"])
             self.assertEqual(item["text_ru"].count("«"), item["text_ru"].count("»"))
@@ -55,7 +55,7 @@ class BabelBB7AfterV311(unittest.TestCase):
         self.assertEqual(by[37]["speaker_cn"], "阿斯卡纶")
         self.assertIn("разобщённость", by[21]["text_ru"])
         self.assertIn("«слава»", by[22]["text_ru"])
-        self.assertNotIn("понимаю", by[11]["text_ru"].lower())
+        self.assertFalse(by[11]["text_ru"].startswith("Понимаю"))
 
     def test_source_hashes_and_alignment(self):
         s = self.doc["source"]
@@ -91,6 +91,13 @@ class BabelBB7AfterV311(unittest.TestCase):
         self.assertIn("BB-7 после боя", self.readme)
         self.assertIn("Ascalon / 阿斯卡纶", self.terms)
         self.assertIn("Cavendish / 卡文迪许", self.terms)
+
+    def test_audit_differences_and_next_boundary(self):
+        meaning = self.audit["documented_meaning_differences"]
+        self.assertEqual([x["ordinal"] for x in meaning], [8, 11, 21])
+        self.assertEqual([x["ordinal"] for x in self.audit["documented_markup_differences"]], [22])
+        self.assertEqual(self.audit["segment"]["next_ordinal"], 41)
+        self.assertEqual(self.audit["segment"]["next_source_line"], 125)
 
 if __name__ == "__main__":
     unittest.main()

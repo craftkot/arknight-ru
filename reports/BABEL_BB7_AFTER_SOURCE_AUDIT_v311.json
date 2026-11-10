@@ -116,7 +116,8 @@
       "ordinal": 11,
       "source_line": 38,
       "description": "EN adds an explicit acknowledgement before Manfred's unfinished clause; the corresponding words are absent from CN.",
-      "resolution": "Russian follows CN and does not add the EN clause."
+      "resolution": "Russian follows CN and does not add the EN clause.",
+      "ru": "Это тоже ваше… Я понимаю, зачем нужно показывать врагу свою слабость, но…"
     },
     {
       "ordinal": 21,
