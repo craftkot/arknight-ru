@@ -1,0 +1,153 @@
+{
+  "version": "v3.06",
+  "scene": "Babel BB-7 before battle — partial first draft, positions 1–80",
+  "source_file": "activities/act33side/level_act33side_07_beg.txt",
+  "sources": {
+    "cn": {
+      "repository": "Kengxxiao/ArknightsGameData",
+      "path": "zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+      "ref": "master",
+      "git_blob_sha1": "605fede5533907ce926d038129da2abb2af57af7",
+      "line_count": 434,
+      "url": "https://github.com/Kengxxiao/ArknightsGameData/blob/master/zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt"
+    },
+    "en": {
+      "repository": "Kengxxiao/ArknightsGameData_YoStar",
+      "path": "en_US/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+      "ref": "main",
+      "git_blob_sha1": "63c0f520b4f0de80ea34b4dd0afbbc4cb2df9f5b",
+      "line_count": 434,
+      "url": "https://github.com/Kengxxiao/ArknightsGameData_YoStar/blob/main/en_US/gamedata/story/activities/act33side/level_act33side_07_beg.txt"
+    }
+  },
+  "full_scene_counts": {
+    "text_positions": 222,
+    "named": 186,
+    "multiline": 2,
+    "narration": 26,
+    "subtitle": 8,
+    "sticker": 0,
+    "control_commands": 212,
+    "decisions": 0
+  },
+  "alignment": {
+    "cn_en_text_positions_match": true,
+    "cn_en_text_type_sequence_match": true,
+    "cn_en_control_command_positions_match": true,
+    "cn_en_control_command_type_sequence_match": true,
+    "cn_en_control_command_lines_match_exactly": true,
+    "cn_en_control_command_tag_sequence_match": true,
+    "cn_en_decision_positions_and_values_match": true,
+    "decision_count": 0,
+    "physical_line_counts_match": true,
+    "cn_en_speaker_tags_match_except_documented_composite_label": true,
+    "documented_speaker_tag_difference": {
+      "ordinal": 79,
+      "source_line": 213,
+      "cn": "伊内丝&W",
+      "en": "Ines & W"
+    },
+    "segment_cn_en_line_alignment": true,
+    "segment_cn_en_text_type_alignment": true,
+    "segment_cn_en_speaker_tags_align": false,
+    "segment_cn_en_subtitle_markup_align": null,
+    "segment_text_positions": 40,
+    "segment_ordinals": [
+      41,
+      80
+    ],
+    "source_line_range": [
+      114,
+      216
+    ],
+    "scene_complete": false,
+    "game_behavior_verified": false,
+    "segment_cn_en_speaker_tags_align_except_documented_difference": true,
+    "segment_cn_en_markup_alignment": false,
+    "segment_cn_en_markup_alignment_except_documented_difference": true,
+    "documented_markup_difference": {
+      "ordinal": 42,
+      "source_line": 115,
+      "cn": "“人类” (quotation marks; no <i> tag)",
+      "en": "<i>humans</i>",
+      "ru": "<i>человеком</i>",
+      "resolution": "CN meaning is primary; EN emphasis is retained in the Russian overlay."
+    }
+  },
+  "translated_segment": {
+    "new_ordinals": [
+      41,
+      80
+    ],
+    "new_source_lines": [
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      136,
+      138,
+      140,
+      141,
+      143,
+      145,
+      147,
+      149,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      159,
+      163,
+      164,
+      167,
+      171,
+      173,
+      175,
+      177,
+      178,
+      185,
+      186,
+      188,
+      190,
+      191,
+      193,
+      194,
+      200,
+      207,
+      213,
+      216
+    ],
+    "new_text_positions": 40,
+    "new_named": 40,
+    "new_multiline": 0,
+    "new_narration": 0,
+    "new_subtitle": 0,
+    "new_sticker": 0,
+    "cumulative_text_positions": 80,
+    "next_text_ordinal": 81,
+    "next_text_source_line": 218,
+    "scene_complete": false
+  },
+  "speaker_tag_mapping": {
+    "博士": "Doctor",
+    "普瑞赛斯": "Priestess",
+    "Scout": "Scout",
+    "特蕾西娅": "Theresa",
+    "凯尔希": "Kal'tsit",
+    "阿斯卡纶": "Ascalon",
+    "伊内丝&W": "Ines & W (composite localized speaker tag; see documented difference)"
+  },
+  "notes": [
+    "The first 40 positions from v3.05 are preserved unchanged.",
+    "This v3.06 segment adds 40 named dialogue positions, ordinals 41–80, at source lines 114–216.",
+    "All text positions and all 212 control-command lines align between CN and EN by line/type; control-command lines are identical.",
+    "The composite speaker label differs at ordinal 79 (伊内丝&W / Ines & W) and is documented; CN tag is retained in speaker_cn.",
+    "At ordinal 42, CN uses quotation marks around 人类 while EN uses italic markup. Russian retains EN emphasis with balanced <i> markup; the source formatting difference is documented.",
+    "CN is primary for meaning; EN is used for character-name and structural cross-checks.",
+    "No full source scripts are committed. The scene is still partial and no Yostar Global PC in-game validation has been performed."
+  ]
+}
