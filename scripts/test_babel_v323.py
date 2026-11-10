@@ -74,7 +74,7 @@ class BabelBB8AfterV323(unittest.TestCase):
         self.assertIn("далеки от идеала", by[134]["text_ru"])
         self.assertIn("Он уже совсем близко", by[137]["text_ru"])
         self.assertIn("партитура", by[155]["text_ru"])
-        self.assertIn("самовольных действий", by[159]["text_ru"])
+        self.assertIn("в конце концов", by[159]["text_ru"])
         self.assertFalse(self.doc["editorial_review"])
         self.assertFalse(self.doc["in_game_test"])
 
