@@ -217,6 +217,9 @@
     "named_positions": 180,
     "unnamed_positions": 0,
     "command_lines": 187,
-    "version_difference": "CN and EN have 180 named text positions and 187 command lines at matching positions. EN has one additional final newline. CN is the primary semantic source; EN Yostar is used for names and structure."
+    "version_difference": "CN and EN have 180 named text positions at matching physical line numbers and 187 command lines at matching positions. Speaker labels are localized in all 180 text positions. Three Decision commands (source lines 236, 240 and 246) contain language-specific option payloads; command names and values align, but option strings differ as expected. EN has one additional final newline. Full parameter-level normalization is pending for this next scene; no translation has started.",
+    "decision_commands": 3,
+    "localized_decision_option_payloads": true,
+    "localized_speaker_labels": true
   }
 }
