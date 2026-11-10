@@ -82,7 +82,7 @@ class MainStoryManifestV173(unittest.TestCase):
         self.assertEqual(m["next_text_source_line"], 13)
         self.assertEqual(m["next_source"]["text_positions"], 205)
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
-        self.assertIn("v3.33", readme)
+        self.assertIn("v3.34", readme)  # latest README after the v1.74 scene update
         self.assertIn("6-10 до боя завершена", readme)
         self.assertIn("6-10 после боя", readme)
         self.assertIn("Историческая отметка v3.32", readme)
