@@ -48,7 +48,7 @@ class BabelBB8AfterV320(unittest.TestCase):
         self.assertEqual(by[34]["speaker_cn"], "曼弗雷德")
         self.assertEqual(by[40]["speaker_cn"], "弃名死士")
         self.assertIn("Королевский двор циклопов", by[7]["text_ru"])
-        self.assertIn("сохранить своё положение", by[20]["text_ru"])
+        self.assertIn("позаботиться о собственном положении", by[20]["text_ru"])
         self.assertIn("сородичей", by[31]["text_ru"])
         self.assertIn("Древний сарказский язык", by[37]["text_ru"])
 
