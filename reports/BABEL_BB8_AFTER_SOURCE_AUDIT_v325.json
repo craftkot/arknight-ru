@@ -1,0 +1,517 @@
+{
+  "version": "v3.25",
+  "scene": "Babel BB-8 after battle — complete first draft",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "502baa017ba32f5d3359d2caeedd2adafc72cd2a",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "f5b13d3e11d4be6c3d4412eff082ae606fe586b4",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_08_end.txt",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_08_end.txt",
+    "cn_line_count": 790,
+    "en_line_count": 791,
+    "cn_text_total": 241,
+    "en_text_total": 241,
+    "cn_named_total": 141,
+    "en_named_total": 141,
+    "cn_multiline_total": 2,
+    "en_multiline_total": 2,
+    "cn_narration_total": 26,
+    "en_narration_total": 26,
+    "cn_sticker_total": 55,
+    "en_sticker_total": 55,
+    "cn_subtitle_total": 12,
+    "en_subtitle_total": 12,
+    "cn_decision_total": 5,
+    "en_decision_total": 5,
+    "cn_control_command_total": 549,
+    "en_control_command_total": 549,
+    "en_extra_terminal_newline": true,
+    "version_difference": "CN and EN align at all 241 text-bearing positions by physical source line and type. EN has one additional terminal newline. The 549 non-text control commands match exactly. Speaker labels and localized text payloads differ by language. For the v3.25 selected range (CN/EN physical lines 712–782), all 71 normalized physical lines align after removing localized speaker labels and text payloads; the 41 text-bearing positions, command parameters, speaker slots, and markup-tag sequences align with no differences."
+  },
+  "segment": {
+    "ordinals": [
+      201,
+      241
+    ],
+    "source_lines": [
+      712,
+      713,
+      718,
+      719,
+      720,
+      721,
+      722,
+      723,
+      731,
+      732,
+      738,
+      739,
+      745,
+      747,
+      748,
+      749,
+      750,
+      759,
+      760,
+      761,
+      762,
+      763,
+      764,
+      765,
+      766,
+      767,
+      768,
+      769,
+      770,
+      771,
+      772,
+      773,
+      774,
+      775,
+      776,
+      777,
+      778,
+      779,
+      780,
+      781,
+      782
+    ],
+    "text_positions": 41,
+    "kind_counts": {
+      "named": 33,
+      "multiline": 0,
+      "narration": 4,
+      "sticker": 4,
+      "subtitle": 0,
+      "decision": 0
+    },
+    "next_ordinal": null,
+    "next_source_line": null
+  },
+  "structural_comparison": {
+    "all_text_positions_align_by_source_line_and_type": true,
+    "all_speaker_slots_align_by_position": true,
+    "nontext_control_commands_match_exactly": true,
+    "nontext_control_command_count": 549,
+    "localized_text_payload_command_count": 74,
+    "localized_payloads_are_not_command_structure_differences": true,
+    "en_extra_terminal_newline": true,
+    "translated_segment_command_and_markup_differences": [],
+    "translated_segment_ordinals": [
+      201,
+      241
+    ],
+    "translated_segment_nontext_command_differences": [],
+    "segment_cn_en_line_alignment": true,
+    "segment_cn_en_text_type_alignment": true,
+    "segment_cn_en_speaker_tag_positions_align": true,
+    "segment_cn_en_markup_alignment": true,
+    "segment_cn_en_control_commands_match_exactly": true,
+    "selected_range_physical_lines": 71
+  },
+  "speaker_mappings": [
+    {
+      "cn": "“疤眼”",
+      "en": "Scareye",
+      "ru": "Скарай"
+    },
+    {
+      "cn": "萨卡兹雇佣兵",
+      "en": "Sarkaz Mercenary",
+      "ru": "Сарказский наёмник"
+    },
+    {
+      "cn": "特雷西斯",
+      "en": "Theresis",
+      "ru": "Терезис"
+    },
+    {
+      "cn": "曼弗雷德",
+      "en": "Manfred",
+      "ru": "Манфред"
+    },
+    {
+      "cn": "弃名死士",
+      "en": "Name-Forsaken Sacrificer",
+      "ru": "Смертник, отрёкшийся от имени (рабочая передача)"
+    },
+    {
+      "cn": "巴别塔刺客",
+      "en": "Babel Assassin",
+      "ru": "Ассасин Бабеля"
+    },
+    {
+      "cn": "尤莉叶",
+      "en": "Julie",
+      "ru": "Джули"
+    },
+    {
+      "cn": "慌乱的王庭军",
+      "en": "Panicked Royal Court Soldier",
+      "ru": "Перепуганный солдат Королевского двора"
+    },
+    {
+      "cn": "凯尔希",
+      "en": "Kal'tsit",
+      "ru": "Кальцит"
+    },
+    {
+      "cn": "Ace",
+      "en": "Ace",
+      "ru": "Эйс"
+    },
+    {
+      "cn": "Logos",
+      "en": "Logos",
+      "ru": "Логос"
+    },
+    {
+      "cn": "特蕾西娅",
+      "en": "Theresa",
+      "ru": "Терезия"
+    },
+    {
+      "cn": "博士",
+      "en": "Doctor",
+      "ru": "Доктор"
+    },
+    {
+      "cn": "凯尔希",
+      "en": "Kal'tsit",
+      "ru": "Кальцит"
+    },
+    {
+      "cn": "可露希尔",
+      "en": "Closure",
+      "ru": "Клоужер"
+    },
+    {
+      "cn": "Logos",
+      "en": "Logos",
+      "ru": "Логос"
+    },
+    {
+      "cn": "Mantra",
+      "en": "Mantra",
+      "ru": "Мантра"
+    },
+    {
+      "cn": "预言家",
+      "en": "Oracle",
+      "ru": "Оракул (титул Доктора в воспоминании BB-8; рабочая форма)"
+    },
+    {
+      "cn": "以勒什",
+      "en": "Yliš",
+      "ru": "Илиш (форма русской Arknights Wiki)"
+    }
+  ],
+  "documented_meaning_differences": [
+    {
+      "ordinal": 5,
+      "source_line": 18,
+      "cn_summary": "Scareye insists that Ascalon did not kill him.",
+      "en_summary": "EN recasts the opening as a rhetorical dismissal of the prophecy.",
+      "ru_summary": "Аскалон меня не убила! Не убила!",
+      "resolution": "Russian preserves the repeated CN assertion."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 20,
+      "cn_summary": "CN calls the Cyclops Court a huge joke.",
+      "en_summary": "EN adds the intensifier 'sick'.",
+      "ru_summary": "Королевский двор циклопов — одна большая шутка!",
+      "resolution": "Russian follows CN and omits the added adjective."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 33,
+      "cn_summary": "CN repeats that Scareye did not die at Ascalon's hands, then refers to his own prophecy.",
+      "en_summary": "EN compresses the repetition.",
+      "ru_summary": "Я не погиб от руки Аскалон. Не погиб так, как сам себе предсказывал…",
+      "resolution": "Russian keeps the repeated denial in a concise Russian form."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 51,
+      "cn_summary": "CN says the mercenaries can return to the Scar Market and secure their position if Babel loses.",
+      "en_summary": "EN reduces the consequence to 'nothing to lose'.",
+      "ru_summary": "…позаботиться о собственном положении.",
+      "resolution": "Russian follows the CN reference to their position."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 59,
+      "cn_summary": "CN explicitly identifies the men as ambushers Scareye himself placed there.",
+      "en_summary": "EN calls them soldiers he set up for an ambush.",
+      "ru_summary": "…наёмников, которых сам же расставил здесь в засаде.",
+      "resolution": "Russian retains the ambush and Scareye's responsibility."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 113,
+      "cn_summary": "CN says Theresis respects compatriots who come before him one after another at the cost of their lives.",
+      "en_summary": "EN adds an explanation about fighting their way out.",
+      "ru_summary": "…сородичей, которые один за другим пробивались к нему, ставя на кон собственную жизнь.",
+      "resolution": "Russian follows the CN image without adding the EN explanation."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 134,
+      "cn_summary": "CN says the traitors lying in ambush around them have probably prepared for a long time.",
+      "en_summary": "EN adds the metaphor of sharpening their blades.",
+      "ru_summary": "…должно быть, готовились уже давно.",
+      "resolution": "Russian follows CN and does not add the sharpening metaphor."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 196,
+      "cn_summary": "CN identifies Manfred as a guard officer attached to the General; it does not specify the rank 'captain'.",
+      "en_summary": "EN specifies 'guard captain'.",
+      "ru_summary": "Но я — офицер охраны генерала, ассасин.",
+      "resolution": "Russian follows the less specific CN wording and does not add a rank."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 230,
+      "cn_summary": "CN says she faces countless threats while in Kazdel.",
+      "en_summary": "EN adds 'just as we are here'.",
+      "ru_summary": "Вы участвуете в гонке, а она в Казделе сталкивается с бесчисленными угрозами —",
+      "resolution": "Russian follows CN and omits the added EN comparison."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 233,
+      "cn_summary": "CN calls the targets 刽子手, literally executioners.",
+      "en_summary": "EN uses the freer term 'deathmongers'.",
+      "ru_summary": "…убейте меня, палачи.",
+      "resolution": "Russian uses 'палачи' following CN."
+    },
+    {
+      "ordinal": 65,
+      "source_line": 286,
+      "cn_summary": "CN explicitly orders all inside agents/infiltrators to act and disarm patrol troops.",
+      "en_summary": "EN generalizes this to all operations within the city.",
+      "ru_summary": "Передайте всем нашим агентам внутри города приказ действовать: разоружить патрульные отряды.",
+      "resolution": "Russian preserves the CN reference to inside agents."
+    },
+    {
+      "ordinal": 67,
+      "source_line": 293,
+      "cn_summary": "CN explicitly says to defeat the forces one by one before they regroup.",
+      "en_summary": "EN says to strike before they can regroup but omits the one-by-one detail.",
+      "ru_summary": "Разбейте их поодиночке, пока они не успели объединиться. Быстро.",
+      "resolution": "Russian retains the CN instruction to defeat them individually."
+    },
+    {
+      "ordinal": 79,
+      "source_line": 327,
+      "cn_summary": "CN says the Sarkaz look toward the ruins 不约而同, acting in unison / as if by agreement.",
+      "en_summary": "EN only says they gaze at the same ruins.",
+      "ru_summary": "…словно сговорившись, устремляли взгляды к руинам в центре города.",
+      "resolution": "Russian preserves the CN detail of acting in unison."
+    },
+    {
+      "ordinal": 88,
+      "source_line": 349,
+      "cn_summary": "CN specifies damage to Kazdel's main urban districts (主城区).",
+      "en_summary": "EN uses the broader 'center city'.",
+      "ru_summary": "центральные районы Казделя",
+      "resolution": "Russian preserves the CN specification of the main urban area."
+    },
+    {
+      "ordinal": 97,
+      "source_line": 367,
+      "cn_summary": "CN uses 凄苦 as a compact expression of sorrow and suffering.",
+      "en_summary": "EN expands this into 'sorrow, misery'.",
+      "ru_summary": "скорбь",
+      "resolution": "Russian keeps one compact emotional term rather than duplicating the idea."
+    },
+    {
+      "ordinal": 99,
+      "source_line": 370,
+      "cn_summary": "CN says there is no longer room for strategic gambits and calculations (博弈和算计); the assassins must be defeated directly.",
+      "en_summary": "EN renders this as no wagering or planning our way out.",
+      "ru_summary": "никакие расчёты и уловки не помогут — остаётся лишь в открытом бою разгромить этих ассасинов",
+      "resolution": "Russian follows the CN emphasis on abandoning calculations and confronting the assassins directly."
+    },
+    {
+      "ordinal": 114,
+      "source_line": 434,
+      "cn_summary": "CN uses 心神 for the minds/consciousness linked by the elegy.",
+      "en_summary": "EN uses 'minds'.",
+      "ru_summary": "погребальная песнь связывает наши сознания",
+      "resolution": "Russian preserves the mental/spiritual link rather than making it a physical connection."
+    },
+    {
+      "ordinal": 118,
+      "source_line": 458,
+      "cn_summary": "CN calls the Sarkaz a 弱势群体, a disadvantaged or vulnerable group.",
+      "en_summary": "EN says 'weak community'.",
+      "ru_summary": "уязвимая общность",
+      "resolution": "Russian follows the CN sense of social vulnerability rather than implying inherent weakness."
+    },
+    {
+      "ordinal": 119,
+      "source_line": 459,
+      "cn_summary": "CN says the Sarkaz will corrupt the land with Originium (源石腐化大地).",
+      "en_summary": "EN uses the same broad image.",
+      "ru_summary": "сарказы заразят землю Ориджиниумом",
+      "resolution": "Russian expresses the land contamination in the established Originium terminology."
+    },
+    {
+      "ordinal": 121,
+      "source_line": 461,
+      "cn_summary": "CN describes a resilient race becoming believers/followers and the first bright bloodstain on the curtain over which Originium spreads.",
+      "en_summary": "EN calls them followers and keeps the bloodstain metaphor.",
+      "ru_summary": "Такой стойкий народ стал нашими последователями — первым ярким кровавым пятном на полотне, по которому расползается Ориджиниум.",
+      "resolution": "Russian preserves the full CN image and the explicit relation to the spread of Originium."
+    },
+    {
+      "ordinal": 123,
+      "source_line": 463,
+      "cn_summary": "CN uses the quoted phrase “文明的存续” (continuation/preservation of civilization).",
+      "en_summary": "EN renders the phrase as the proper name “Civilight Eterna”.",
+      "ru_summary": "«сохранение цивилизации»",
+      "resolution": "Russian follows the literal CN wording; the EN proper-name rendering is documented rather than silently substituted."
+    },
+    {
+      "ordinal": 130,
+      "source_line": 491,
+      "cn_summary": "CN uses 百亿, ten billion, for the number of compatriots sacrificed in the distant past.",
+      "en_summary": "EN generalizes this to billions.",
+      "ru_summary": "десяти миллиардов сородичей",
+      "resolution": "Russian preserves the more specific quantity in CN."
+    },
+    {
+      "ordinal": 134,
+      "source_line": 509,
+      "cn_summary": "CN says the races are not united, not ideal, and not developed (不团结、不理想、不发达).",
+      "en_summary": "EN interprets 不理想 as narrow-minded.",
+      "ru_summary": "разобщены, далеки от идеала, неразвиты",
+      "resolution": "Russian follows the literal CN sequence and avoids importing the EN interpretation."
+    },
+    {
+      "ordinal": 137,
+      "source_line": 526,
+      "cn_summary": "CN uses the divine pronoun 祂 for the approaching entity.",
+      "en_summary": "EN uses the neutral pronoun “It”.",
+      "ru_summary": "Он уже совсем близко.",
+      "resolution": "Russian retains the elevated personal pronoun indicated by CN; the referent remains deliberately unnamed."
+    },
+    {
+      "ordinal": 148,
+      "source_line": 564,
+      "cn_summary": "CN compares the receding stars to leaves at night and does not explicitly say they tremble.",
+      "en_summary": "EN adds “trembling”.",
+      "ru_summary": "словно листья в ночи",
+      "resolution": "Russian follows CN and does not add the motion from EN."
+    },
+    {
+      "ordinal": 155,
+      "source_line": 579,
+      "cn_summary": "CN calls Originium a score/notation (歌谱) written by the speakers and a melody offered to those who come after.",
+      "en_summary": "EN condenses this into “our song”.",
+      "ru_summary": "партитура, которую мы написали, мелодия, оставленная тем, кто придёт после нас",
+      "resolution": "Russian preserves the musical-score image present in CN."
+    },
+    {
+      "ordinal": 197,
+      "source_line": 702,
+      "cn_summary": "CN explicitly frames the question around people willing to do anything to safeguard the interests of their own group (族群的利益).",
+      "en_summary": "EN broadens this to people willing to pay any price to defend their people.",
+      "ru_summary": "Как бы вы оценили тех, кто готов пойти на всё ради интересов своего народа?",
+      "resolution": "Russian retains the explicit CN reference to the group's interests."
+    },
+    {
+      "ordinal": 200,
+      "source_line": 708,
+      "cn_summary": "CN says tangible, living legends seem to become 泡影 in stories overnight when a brief era of peace arrives; 泡影 is an illusion or insubstantial shadow.",
+      "en_summary": "EN says the living legends are relegated to the land of stories and tales.",
+      "ru_summary": "легенды, ещё недавно казавшиеся осязаемыми, словно превращаются в миражи из сказаний",
+      "resolution": "Russian preserves the CN contrast between tangible legends and their sudden insubstantiality."
+    },
+    {
+      "ordinal": 216,
+      "source_line": 749,
+      "cn_summary": "魔王崩塌的车辇 identifies the collapsed chariot of the Demon King.",
+      "en_summary": "EN renders the title as the King's chariot.",
+      "ru_summary": "Сохранён титул Короля Сарказ, а не буквальное «король демонов».",
+      "resolution": "The contextual title is rendered consistently with the project's King of Sarkaz glossary."
+    },
+    {
+      "ordinal": 225,
+      "source_line": 766,
+      "cn_summary": "The previous King is named 以勒什.",
+      "en_summary": "EN gives the name Yliš.",
+      "ru_summary": "Имя передано как «Илиш».",
+      "resolution": "The spelling follows the Russian Arknights Wiki entry for Yliš."
+    },
+    {
+      "ordinal": 228,
+      "source_line": 769,
+      "cn_summary": "疲惫地带兵回到故乡废墟 describes returning with troops to the homeland ruins while exhausted.",
+      "en_summary": "EN characterizes the troops as defeated.",
+      "ru_summary": "Перевод говорит об измученном возвращении во главе войска, не добавляя отсутствующее в CN слово «побеждённые».",
+      "resolution": "CN is primary; EN is used as a structural and naming cross-check."
+    },
+    {
+      "ordinal": 235,
+      "source_line": 776,
+      "cn_summary": "从我的手中再传递给下一代 describes hatred being passed from Theresa's hands to the next generation.",
+      "en_summary": "EN paraphrases this as hatred in her hand passing on.",
+      "ru_summary": "Сохранён образ передачи ненависти через руки Терезии следующему поколению.",
+      "resolution": "The Russian line follows the CN image and keeps the cyclical continuation."
+    }
+  ],
+  "notes": [
+    "The original CN and EN game scripts were read from the attributed Kengxxiao mirrors; no complete source scripts are copied into this repository.",
+    "The full source contains 241 text-bearing positions: 141 named, 26 narration, 55 Sticker, two multiline, 12 Subtitle and five Decision positions.",
+    "CN has 790 physical lines; EN has 791 because of one extra terminal newline. All 241 text-bearing positions align by physical source line and type.",
+    "The 549 non-text control commands match exactly. Localized Sticker, Subtitle, Decision and multiline payloads are content, not command-structure differences.",
+    "This update translates ordinals 41–80, source lines 158–328: 27 named dialogue lines, seven narration lines and six Sticker text payloads.",
+    "The cumulative partial draft contains 80/241 positions. The next text position is ordinal 81 at CN source line 329.",
+    "Documented CN/EN meaning differences include Manfred's guard rank, the omitted EN comparison in Theresis's race metaphor, the term for executioners, the identity of inside agents, the one-by-one instruction, and the Sarkaz acting in unison.",
+    "The translated segment preserves all source command parameters and text-bearing command structure. No full CN/EN scripts are included.",
+    "The scene remains partial. Literary review and Yostar Global PC in-game validation have not been performed.",
+    "The v3.22 increment adds only source positions 81–120; the 80 v3.21 entries are preserved byte-for-byte at the JSON value level.",
+    "The two multiline lines at ordinals 95–96 remain separate source positions and were not merged.",
+    "The four countdown Sticker text payloads at ordinals 103–104 and 110–111 are translated; all surrounding Sticker control commands remain outside the translation JSON.",
+    "The 40 selected CN/EN text positions align by physical source line, type, and speaker slot. Non-text command lines in the selected range have no differences.",
+    "Mantra is a named Rhodes Island Elite Operator who previously joined Babel; the name is retained as Мантра.",
+    "The v3.23 increment translates ordinals 121–160 at CN/EN physical source lines 461–591: 14 named lines, 14 Sticker payloads and all 12 Subtitle payloads. No narration, multiline or Decision position occurs in this selected range.",
+    "The previous 120 Russian entries are preserved at the JSON value level. The cumulative partial draft is 160/241; next is ordinal 161 at CN line 592.",
+    "CN and EN were fetched from the attributed Kengxxiao repositories at the recorded refs. Both contain 241 text positions aligned by physical line and type; CN has 790 physical lines and EN 791 because of one extra terminal newline.",
+    "All 549 non-text control commands match exactly, including the selected range. The selected range has no control-command or markup-token differences; color tags and the {@nickname} placeholder are retained.",
+    "The quoted CN phrase 文明的存续 is translated literally as «сохранение цивилизации»; EN Yostar uses the proper-name rendering Civilight Eterna. This difference is documented and not silently normalized.",
+    "The CN quantity 百亿 is rendered as ten billion, and the divine pronoun 祂 is rendered with a capitalized personal pronoun. These choices follow the Chinese source; EN differences are recorded.",
+    "All 12 Subtitle positions are now translated. Five Decision options remain untranslated after ordinal 160.",
+    "No complete CN or EN source scripts are stored in the repository. Literary review and Yostar Global PC in-game validation have not been performed.",
+    "The v3.24 increment translates ordinals 161–200 at CN/EN physical source lines 592–708: six named dialogue lines, two narration lines, 27 Sticker payloads, and all five Decision options.",
+    "The previous 160 Russian entries are preserved at the JSON value level. The cumulative partial draft is 200/241; the next text position is ordinal 201 at CN source line 712.",
+    "The five Decision options are now translated. Both multiline positions and all 12 Subtitle positions were already translated in earlier increments.",
+    "For the selected CN/EN source range 592–708, all 117 normalized lines align after removing localized name and text payloads; no command parameter, speaker-slot, or markup-tag structure differences were found.",
+    "CN wording at ordinal 197 explicitly mentions safeguarding the interests of the group; ordinal 200 retains the CN image of tangible legends turning into insubstantial illusions (泡影).",
+    "No complete CN/EN source scripts are stored in the repository. Literary review and Yostar Global PC in-game validation have not been performed.",
+    "The v3.25 increment translates ordinals 201–241 at CN/EN physical source lines 712–782: 33 named dialogue lines, four narration lines, and four Sticker payloads.",
+    "The previous 200 Russian entries are preserved at the JSON value level. All 241/241 text-bearing positions are now translated; the BB-8 after-battle first draft is complete.",
+    "For selected CN/EN physical lines 712–782, all 71 normalized lines align after removing localized speaker labels and text payloads. The 41 text positions, speaker slots, command parameters, and markup tags match; no structural differences were found.",
+    "The name 以勒什 is rendered as Илиш, following the Russian Arknights Wiki. The CN description of the troops returning exhausted is retained instead of EN's 'defeated troops'.",
+    "No complete CN/EN source scripts are stored in the repository. Literary review and Yostar Global PC in-game validation have not been performed.",
+    "В позиции 211 сохранены оба компонента CN 遗落者 и 销声匿迹: те, кто остался позади и бесследно исчез.",
+    "В позиции 234 не добавлено отсутствующее в CN прямое слово «война»: образ волны передан как «подхватит их и увлечёт за собой»."
+  ],
+  "scene_complete": true,
+  "game_behavior_verified": false,
+  "editorial_review": false,
+  "external_references": [
+    {
+      "url": "https://arknights.wiki.gg/ru/wiki/King_of_Sarkaz",
+      "claim": "Русская Arknights Wiki передаёт имя Yliš (以勒什) как «Илиш» и указывает его как предшественника Терезии на посту Короля Сарказ.",
+      "use": "Сверка русской формы имени в позиции 225; игровой CN остаётся первичным источником смысла."
+    }
+  ]
+}

@@ -1,0 +1,1725 @@
+{
+  "version": "v3.25",
+  "event": "Babel",
+  "scene": "Babel BB-8 after battle — complete first draft",
+  "source_file": "activities/act33side/level_act33side_08_end.txt",
+  "status": "first_draft_complete",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "502baa017ba32f5d3359d2caeedd2adafc72cd2a",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "f5b13d3e11d4be6c3d4412eff082ae606fe586b4",
+    "cn_path": "zh_CN/gamedata/story/activities/act33side/level_act33side_08_end.txt",
+    "en_path": "en_US/gamedata/story/activities/act33side/level_act33side_08_end.txt",
+    "cn_line_count": 790,
+    "en_line_count": 791,
+    "cn_text_total": 241,
+    "en_text_total": 241,
+    "cn_named_total": 141,
+    "en_named_total": 141,
+    "cn_multiline_total": 2,
+    "en_multiline_total": 2,
+    "cn_narration_total": 26,
+    "en_narration_total": 26,
+    "cn_sticker_total": 55,
+    "en_sticker_total": 55,
+    "cn_subtitle_total": 12,
+    "en_subtitle_total": 12,
+    "cn_decision_total": 5,
+    "en_decision_total": 5,
+    "cn_control_command_total": 549,
+    "en_control_command_total": 549,
+    "en_extra_terminal_newline": true,
+    "version_difference": "CN and EN align at all 241 text-bearing source positions by physical line and type. EN has one additional terminal newline. The 549 non-text control commands match exactly. Speaker labels and localized text payloads differ by language. For the v3.24 selected range (CN/EN physical lines 592–708), all 117 normalized lines align after removing localized name and text payloads; no command-parameter, speaker-slot, or markup-tag structure differences were found."
+  },
+  "progress": {
+    "translated_text_positions": 241,
+    "total_source_text_positions": 241,
+    "remaining_text_positions": 0,
+    "complete": true,
+    "last_source_line": 782,
+    "next_source_line": null,
+    "next_text_ordinal": null,
+    "next_text_source_line": null,
+    "translated_kind_counts": {
+      "named": 141,
+      "multiline": 2,
+      "narration": 26,
+      "sticker": 55,
+      "subtitle": 12,
+      "decision": 5
+    },
+    "remaining_kind_counts": {
+      "named": 0,
+      "multiline": 0,
+      "narration": 0,
+      "sticker": 0,
+      "subtitle": 0,
+      "decision": 0
+    }
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 12,
+      "kind": "narration",
+      "text_ru": "Каздель. Где-то в пустоши."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 15,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "…Ха."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 17,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "Ха-ха! Ха-ха-ха-ха!"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 18,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "Пророчество? Какое ещё пророчество? Аскалон меня не убила! Не убила!"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "Сказанное ещё предстоит истолковать, а истолкованное всё ещё можно изменить. Суть пророческих Искусств — лишь предположения и расчёты. Разве существует судьба, которой нельзя противиться?!"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "Королевский двор циклопов — одна большая шутка!"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 21,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "…Тьфу. Как же больно."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 33,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "Я не погиб от руки Аскалон. Не погиб так, как сам себе предсказывал…"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 34,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "Значит, умереть должна она."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 35,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "Она непременно придёт убедиться, что я мёртв. Тогда вы пригвоздите её тень и растерзаете её тело."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 36,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "Она тоже ранена. Я ведь не зря получил свои побои…"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 40,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "…Что вы делаете?"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 42,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 44,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "И в такой момент вы направляете оружие на меня?"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "Кто вас подкупил?"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Никто, босс."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 48,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "Просто отличный шанс воспользоваться случаем и подняться повыше."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 50,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "Удобный случай? И правда, случай отличный… Бабель вошла в город — можете принести им мою голову, чтобы выслужиться."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "А если Бабель проиграет, вы сможете вернуться на Рынок шрамов и позаботиться о собственном положении."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 52,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 54,
+      "kind": "named",
+      "speaker_cn": "萨卡兹雇佣兵",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 59,
+      "kind": "narration",
+      "text_ru": "«Скарай» молча смотрел на наёмников, которых сам же расставил здесь в засаде."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 60,
+      "kind": "narration",
+      "text_ru": "Ветер пронёсся мимо, принося с собой лёгкий запах его крови."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 62,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "Хех."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "“疤眼”",
+      "text_ru": "Хорошо же вы всё рассчитали, старые приятели."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 94,
+      "kind": "narration",
+      "text_ru": "Судьба не убила его. И правда, он смог. Он сумел обратить пророчество вспять."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 95,
+      "kind": "narration",
+      "text_ru": "А затем погиб на сцене, которую сам же построил."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 105,
+      "kind": "narration",
+      "text_ru": "Виктория. Лондиниум."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 112,
+      "kind": "narration",
+      "text_ru": "Огромный дворцовый комплекс в Лондиниуме всегда был слишком тихим."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 113,
+      "kind": "narration",
+      "text_ru": "Терезис презирал равнодушных аристократов, живших в этих дворцах. Он уважал лишь сородичей, которые один за другим пробивались к нему, ставя на кон собственную жизнь."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 114,
+      "kind": "narration",
+      "text_ru": "Даже если клинки, которые они поднимали, были направлены на него самого —"
+    },
+    {
+      "ordinal": 33,
+      "source_line": 130,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Манфред, если щадить врага, погубишь себя. Не повторяй эту ошибку."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 132,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Прости, генерал… Я думал—"
+    },
+    {
+      "ordinal": 35,
+      "source_line": 134,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Сосредоточься на противнике. Эти предатели, устроившие засаду вокруг нас, должно быть, готовились уже давно."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 135,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Они всколыхнули сердца викторианцев. Теперь лишь мы сами можем подавить это восстание."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 137,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "*Древний сарказский язык*—"
+    },
+    {
+      "ordinal": 38,
+      "source_line": 140,
+      "kind": "narration",
+      "text_ru": "Едва прозвучал его тихий тайный приказ, как в суматоху уже бесшумно вступили одна за другой несколько фигур."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 141,
+      "kind": "narration",
+      "text_ru": "Словно порыв ветра, разметавший проливной дождь."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 144,
+      "kind": "named",
+      "speaker_cn": "弃名死士",
+      "text_ru": "Отступи."
+    },
+    {
+      "ordinal": 41,
+      "source_line": 158,
+      "kind": "named",
+      "speaker_cn": "巴别塔刺客",
+      "text_ru": "Тц. С этими разберёмся мы."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 159,
+      "kind": "named",
+      "speaker_cn": "巴别塔刺客",
+      "text_ru": "Джули, вы с остальными продолжайте."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 163,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Поняла."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 176,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "— Даже не думай приближаться к генералу."
+    },
+    {
+      "ordinal": 45,
+      "source_line": 178,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "Не торопись. Твоя очередь скоро придёт."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 196,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Но я — офицер охраны генерала, ассасин."
+    },
+    {
+      "ordinal": 47,
+      "source_line": 198,
+      "kind": "named",
+      "speaker_cn": "尤莉叶",
+      "text_ru": "…Тогда лучше держи меч крепче."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 217,
+      "kind": "narration",
+      "text_ru": "Перед глазами Джули мелькнула едва заметная дуга."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 218,
+      "kind": "narration",
+      "text_ru": "Холод пробрал до костей. Её тело оцепенело."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 219,
+      "kind": "narration",
+      "text_ru": "Она вспомнила день, когда увидела Её Высочество на Рынке шрамов."
+    },
+    {
+      "ordinal": 51,
+      "source_line": 220,
+      "kind": "narration",
+      "text_ru": "Тогда она даже не осмеливалась поднять клинок."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 224,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Хватит, Манфред."
+    },
+    {
+      "ordinal": 53,
+      "source_line": 226,
+      "kind": "named",
+      "speaker_cn": "曼弗雷德",
+      "text_ru": "Генерал!"
+    },
+    {
+      "ordinal": 54,
+      "source_line": 228,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Они пришли ко мне в поисках почётной смерти, а не пощады."
+    },
+    {
+      "ordinal": 55,
+      "source_line": 229,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Своими жизнями они доказывают мне, каким видят будущее."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 230,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Вы участвуете в гонке, а она в Казделе сталкивается с бесчисленными угрозами —"
+    },
+    {
+      "ordinal": 57,
+      "source_line": 231,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "И завершится эта гонка моей смертью или её."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 233,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Я дам вам такую возможность. Ну же, убейте меня, палачи. Не разочаруйте Терезию."
+    },
+    {
+      "ordinal": 59,
+      "source_line": 243,
+      "kind": "sticker",
+      "text_ru": "Обратный отсчёт"
+    },
+    {
+      "ordinal": 60,
+      "source_line": 244,
+      "kind": "sticker",
+      "text_ru": "2 ч 7 мин 21 с"
+    },
+    {
+      "ordinal": 61,
+      "source_line": 250,
+      "kind": "named",
+      "speaker_cn": "Logos",
+      "text_ru": "«Раскол»."
+    },
+    {
+      "ordinal": 62,
+      "source_line": 271,
+      "kind": "named",
+      "speaker_cn": "慌乱的王庭军",
+      "text_ru": "Ворота... Ворота прорваны! Они сейчас ворвутся!"
+    },
+    {
+      "ordinal": 63,
+      "source_line": 279,
+      "kind": "sticker",
+      "text_ru": "Обратный отсчёт"
+    },
+    {
+      "ordinal": 64,
+      "source_line": 280,
+      "kind": "sticker",
+      "text_ru": "1 ч 33 мин 48 с"
+    },
+    {
+      "ordinal": 65,
+      "source_line": 286,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Передайте всем нашим агентам внутри города приказ действовать: разоружить патрульные отряды."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 292,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "В городе слабая оборона — почти одни лишь гарнизонные войска Военной комиссии."
+    },
+    {
+      "ordinal": 67,
+      "source_line": 293,
+      "kind": "named",
+      "speaker_cn": "Ace",
+      "text_ru": "Разбейте их поодиночке, пока они не успели объединиться. Быстро."
+    },
+    {
+      "ordinal": 68,
+      "source_line": 298,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…Даже если обе стороны стараются не допустить, чтобы бои затронули город, всё равно что-то здесь не так."
+    },
+    {
+      "ordinal": 69,
+      "source_line": 299,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Передайте Доктору все разведданные. Оперативным группам — ускориться и сохранять бдительность."
+    },
+    {
+      "ordinal": 70,
+      "source_line": 300,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Снимите флаг Военной комиссии на площади и включите общегородскую частоту вещания."
+    },
+    {
+      "ordinal": 71,
+      "source_line": 309,
+      "kind": "sticker",
+      "text_ru": "Обратный отсчёт"
+    },
+    {
+      "ordinal": 72,
+      "source_line": 310,
+      "kind": "sticker",
+      "text_ru": "49 мин 59 с"
+    },
+    {
+      "ordinal": 73,
+      "source_line": 316,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Подготовьте стыковку с нашим кораблём, чтобы как можно скорее провести Её Высочество и остальных в зону под нашим контролем."
+    },
+    {
+      "ordinal": 74,
+      "source_line": 317,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Также свяжитесь с отрядом Аскалон и велите ему как можно скорее присоединиться к нам. Три отряда уже досрочно заняли стратегические позиции."
+    },
+    {
+      "ordinal": 75,
+      "source_line": 319,
+      "kind": "named",
+      "speaker_cn": "Logos",
+      "text_ru": "Куда дальше, доктор Кальцит?"
+    },
+    {
+      "ordinal": 76,
+      "source_line": 321,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…К бывшей штаб-квартире Бабеля."
+    },
+    {
+      "ordinal": 77,
+      "source_line": 322,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Флаг Бабеля там не поднимался уже много лет."
+    },
+    {
+      "ordinal": 78,
+      "source_line": 326,
+      "kind": "narration",
+      "text_ru": "Кальцит шла по улице, по-прежнему отлично зная дорогу к офису Бабеля."
+    },
+    {
+      "ordinal": 79,
+      "source_line": 327,
+      "kind": "narration",
+      "text_ru": "Сарказы на улицах начали действовать незаметно: они забирались на самые высокие точки зданий и, словно сговорившись, устремляли взгляды к руинам в центре города."
+    },
+    {
+      "ordinal": 80,
+      "source_line": 328,
+      "kind": "narration",
+      "text_ru": "Флаг, который много лет не видели в Казделе, медленно поднимался —"
+    },
+    {
+      "ordinal": 81,
+      "source_line": 329,
+      "kind": "narration",
+      "text_ru": "Бабель вернулся."
+    },
+    {
+      "ordinal": 82,
+      "source_line": 341,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 83,
+      "source_line": 342,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "В последнем докладе Мантры говорится, что мы полностью расчистили пять ключевых дорог."
+    },
+    {
+      "ordinal": 84,
+      "source_line": 343,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Если всё идёт по плану, Кальцит уже должна была увидеть пламя Горнила."
+    },
+    {
+      "ordinal": 85,
+      "source_line": 345,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Доктор, городская оборона Казделя почти полностью выведена из строя. Теперь мы можем высадиться в городе."
+    },
+    {
+      "ordinal": 86,
+      "source_line": 347,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Хорошо."
+    },
+    {
+      "ordinal": 87,
+      "source_line": 348,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Но Военная комиссия не откажется от Казделя. Чтобы полностью взять город под контроль, нам понадобится ещё немного времени."
+    },
+    {
+      "ordinal": 88,
+      "source_line": 349,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "К тому времени мы, возможно, уже не сможем избежать разрушений в центральных районах Казделя —"
+    },
+    {
+      "ordinal": 89,
+      "source_line": 351,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Постой."
+    },
+    {
+      "ordinal": 90,
+      "source_line": 353,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "…Я чувствую их."
+    },
+    {
+      "ordinal": 91,
+      "source_line": 355,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Что?"
+    },
+    {
+      "ordinal": 92,
+      "source_line": 357,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Они всё ещё здесь, но не собираются помогать ни одной из сторон."
+    },
+    {
+      "ordinal": 93,
+      "source_line": 358,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Похоже, в нашей битве появились ещё несколько высокомерных наблюдателей."
+    },
+    {
+      "ordinal": 94,
+      "source_line": 362,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Терезия."
+    },
+    {
+      "ordinal": 95,
+      "source_line": 364,
+      "kind": "multiline",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Хм…"
+    },
+    {
+      "ordinal": 96,
+      "source_line": 365,
+      "kind": "multiline",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "И ещё… необычные враги."
+    },
+    {
+      "ordinal": 97,
+      "source_line": 367,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Жажда убийства, почти обжигающая душу, скорбь и решимость."
+    },
+    {
+      "ordinal": 98,
+      "source_line": 369,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Ассасины Военной комиссии. С самого начала они собирались использовать город как приманку, чтобы нанести тяжёлый удар по штабу Бабеля."
+    },
+    {
+      "ordinal": 99,
+      "source_line": 370,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Этого тоже следовало ожидать. Но на этот раз никакие расчёты и уловки не помогут — остаётся лишь в открытом бою разгромить этих ассасинов и вернуться в наш город."
+    },
+    {
+      "ordinal": 100,
+      "source_line": 371,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Я отправлюсь управлять оборонными системами корабля и возьму на себя руководство обороной."
+    },
+    {
+      "ordinal": 101,
+      "source_line": 373,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Иди, Доктор."
+    },
+    {
+      "ordinal": 102,
+      "source_line": 374,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Не нужно приносить ещё одну бойню в тот город, окутанный закатным сиянием."
+    },
+    {
+      "ordinal": 103,
+      "source_line": 386,
+      "kind": "sticker",
+      "text_ru": "Обратный отсчёт"
+    },
+    {
+      "ordinal": 104,
+      "source_line": 387,
+      "kind": "sticker",
+      "text_ru": "22 мин 48 с"
+    },
+    {
+      "ordinal": 105,
+      "source_line": 393,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Клоужер, удалось связаться с нашим кораблём?"
+    },
+    {
+      "ordinal": 106,
+      "source_line": 399,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Пока нет ответа."
+    },
+    {
+      "ordinal": 107,
+      "source_line": 401,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 108,
+      "source_line": 403,
+      "kind": "named",
+      "speaker_cn": "可露希尔",
+      "text_ru": "Я-я всё ещё перенастраиваю мощность городской системы вещания и пытаюсь увеличить радиус действия. Возможно, связь с нашим кораблём временно неисправна… Я делаю всё, чтобы её восстановить!"
+    },
+    {
+      "ordinal": 109,
+      "source_line": 405,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 110,
+      "source_line": 420,
+      "kind": "sticker",
+      "text_ru": "Обратный отсчёт"
+    },
+    {
+      "ordinal": 111,
+      "source_line": 421,
+      "kind": "sticker",
+      "text_ru": "12 мин 57 с"
+    },
+    {
+      "ordinal": 112,
+      "source_line": 427,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 113,
+      "source_line": 432,
+      "kind": "named",
+      "speaker_cn": "Logos",
+      "text_ru": "Доктор Кальцит, я чувствую что-то странное…"
+    },
+    {
+      "ordinal": 114,
+      "source_line": 434,
+      "kind": "named",
+      "speaker_cn": "Logos",
+      "text_ru": "Моя мать… Она создавала заклинание для каждого, кто был ей дорог… Когда жизнь угасает, погребальная песнь связывает наши сознания."
+    },
+    {
+      "ordinal": 115,
+      "source_line": 435,
+      "kind": "named",
+      "speaker_cn": "Logos",
+      "text_ru": "Но сейчас со мной всё в порядке, и всё же…"
+    },
+    {
+      "ordinal": 116,
+      "source_line": 437,
+      "kind": "narration",
+      "text_ru": "Кальцит внезапно почувствовала, как всё её тело охватил холод."
+    },
+    {
+      "ordinal": 117,
+      "source_line": 457,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "…Даже если Бабель захватит Каздель, она неизбежно понесёт тяжёлые потери."
+    },
+    {
+      "ordinal": 118,
+      "source_line": 458,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Терезис был прав: сарказы не смогут объединиться, и раскол станет для них нормой. Ещё долго они не смогут превратиться из уязвимой общности в силу, способную вести за собой весь мир."
+    },
+    {
+      "ordinal": 119,
+      "source_line": 459,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Главное, я указал Терезису другой путь. Так его план в Лондиниуме получит куда больше шансов на успех: сарказы заразят землю Ориджиниумом и уничтожат своих врагов."
+    },
+    {
+      "ordinal": 120,
+      "source_line": 460,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Разве это не хорошо?"
+    },
+    {
+      "ordinal": 121,
+      "source_line": 461,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Такой стойкий народ стал нашими последователями — первым ярким кровавым пятном на полотне, по которому расползается Ориджиниум."
+    },
+    {
+      "ordinal": 122,
+      "source_line": 462,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Ведь так?.. Нам… не нужно уничтожать их. И уж тем более не нужно убивать её."
+    },
+    {
+      "ordinal": 123,
+      "source_line": 463,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "Я… должен воспользоваться «сохранением цивилизации», попытаться лучше направить его скрытые возможности. Мне незачем…"
+    },
+    {
+      "ordinal": 124,
+      "source_line": 468,
+      "kind": "sticker",
+      "text_ru": "Запущен поиск во внутреннем массиве. Обнаружены права администратора."
+    },
+    {
+      "ordinal": 125,
+      "source_line": 472,
+      "kind": "sticker",
+      "text_ru": "\\n\\nПроверка пройдена. Права доступа в норме."
+    },
+    {
+      "ordinal": 126,
+      "source_line": 473,
+      "kind": "sticker",
+      "text_ru": "\\n\\nДобро пожаловать, доктор {@nickname}."
+    },
+    {
+      "ordinal": 127,
+      "source_line": 474,
+      "kind": "sticker",
+      "text_ru": "\\n\\nВход в <color=#FF4200>(общекорабельную систему обороны)</color> выполнен. Подтвердите следующее действие…"
+    },
+    {
+      "ordinal": 128,
+      "source_line": 479,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 129,
+      "source_line": 490,
+      "kind": "subtitle",
+      "text_ru": "<color=#000000>Неужели именно сейчас я должен потакать действиям Бабеля?</color>"
+    },
+    {
+      "ordinal": 130,
+      "source_line": 491,
+      "kind": "subtitle",
+      "text_ru": "<color=#000000>Неужели ради расы, которая не имеет представления даже о барьерном слое, я должен отказаться от достижений, оплаченных в далёком прошлом жизнями десяти миллиардов сородичей? От их плоти и крови, от их песен и баллад, от искры, которую они пронесли сквозь десять тысяч лет до наших дней… Отказаться от Проекта Ориджиниума?</color>"
+    },
+    {
+      "ordinal": 131,
+      "source_line": 492,
+      "kind": "subtitle",
+      "text_ru": "<color=#000000>Если… ради Терры… остановить Ориджиниум… Если Терезия действительно добьётся успеха…</color>"
+    },
+    {
+      "ordinal": 132,
+      "source_line": 493,
+      "kind": "subtitle",
+      "text_ru": "<color=#000000>И что тогда значат наши десять тысяч лет ожидания?</color>"
+    },
+    {
+      "ordinal": 133,
+      "source_line": 502,
+      "kind": "subtitle",
+      "text_ru": "Но неужели у Терезии и народов Терры действительно нет ни малейшего шанса?"
+    },
+    {
+      "ordinal": 134,
+      "source_line": 509,
+      "kind": "subtitle",
+      "text_ru": "<color=#000000>Нет… Как я мог быть настолько наивен? Они разобщены, далеки от идеала, неразвиты… Они всего лишь случайно уцелевшие существа.</color>"
+    },
+    {
+      "ordinal": 135,
+      "source_line": 518,
+      "kind": "subtitle",
+      "text_ru": "Каждое живое существо вправе само выбирать, на что надеяться."
+    },
+    {
+      "ordinal": 136,
+      "source_line": 525,
+      "kind": "subtitle",
+      "text_ru": "<color=#000000>Но времени у нас больше нет, но—</color>"
+    },
+    {
+      "ordinal": 137,
+      "source_line": 526,
+      "kind": "subtitle",
+      "text_ru": "<color=#000000>Он уже совсем близко.</color>"
+    },
+    {
+      "ordinal": 138,
+      "source_line": 541,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "……Доктор?"
+    },
+    {
+      "ordinal": 139,
+      "source_line": 542,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Доктор! Ты меня слышишь?"
+    },
+    {
+      "ordinal": 140,
+      "source_line": 546,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Странно… Эмоции Доктора… какие-то необычные."
+    },
+    {
+      "ordinal": 141,
+      "source_line": 547,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Сильные, страстные, с оттенком… мрака."
+    },
+    {
+      "ordinal": 142,
+      "source_line": 549,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Что же с Доктором…?"
+    },
+    {
+      "ordinal": 143,
+      "source_line": 557,
+      "kind": "subtitle",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 144,
+      "source_line": 558,
+      "kind": "subtitle",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 145,
+      "source_line": 559,
+      "kind": "subtitle",
+      "text_ru": "Смотри."
+    },
+    {
+      "ordinal": 146,
+      "source_line": 562,
+      "kind": "sticker",
+      "text_ru": "Это огненные всполохи от разрушенного портала — словно тлеющая трещина, прочертившая небо."
+    },
+    {
+      "ordinal": 147,
+      "source_line": 563,
+      "kind": "sticker",
+      "text_ru": "И лишь спустя несколько столетий она бесследно растворится."
+    },
+    {
+      "ordinal": 148,
+      "source_line": 564,
+      "kind": "sticker",
+      "text_ru": "Звёзды удалялись от того места, где мы стояли, словно листья в ночи."
+    },
+    {
+      "ordinal": 149,
+      "source_line": 565,
+      "kind": "sticker",
+      "text_ru": "И всё же корабль с Талос-II прибыл в эти руины, усеянные обломками."
+    },
+    {
+      "ordinal": 150,
+      "source_line": 566,
+      "kind": "sticker",
+      "text_ru": "Это жизнь."
+    },
+    {
+      "ordinal": 151,
+      "source_line": 567,
+      "kind": "sticker",
+      "text_ru": "Это то, что мы на время утратили после конца света, — древняя песнь, способная рассеять любую пелену мрака."
+    },
+    {
+      "ordinal": 152,
+      "source_line": 573,
+      "kind": "sticker",
+      "text_ru": "<color=#888888>???</color>"
+    },
+    {
+      "ordinal": 153,
+      "source_line": 575,
+      "kind": "sticker",
+      "text_ru": "До сих пор мы не понимаем, как жизнь появилась посреди бескрайнего звёздного моря."
+    },
+    {
+      "ordinal": 154,
+      "source_line": 577,
+      "kind": "sticker",
+      "text_ru": "Но я думаю, нам всем следует воспевать всё живое — и самих себя."
+    },
+    {
+      "ordinal": 155,
+      "source_line": 579,
+      "kind": "sticker",
+      "text_ru": "Ориджиниум — это партитура, которую мы написали, мелодия, оставленная тем, кто придёт после нас. Вмешиваться в эволюцию цивилизации высокомерно, но у меня нет иного выхода."
+    },
+    {
+      "ordinal": 156,
+      "source_line": 587,
+      "kind": "named",
+      "speaker_cn": "预言家",
+      "text_ru": "Я нарушил обещание. Я предал ту, что ждала в самом времени."
+    },
+    {
+      "ordinal": 157,
+      "source_line": 588,
+      "kind": "named",
+      "speaker_cn": "预言家",
+      "text_ru": "Потому что я люблю. Люблю жизнь. Люблю само бытие. Любовь — вечная чистота. Она не даёт мне задумываться."
+    },
+    {
+      "ordinal": 158,
+      "source_line": 589,
+      "kind": "named",
+      "speaker_cn": "预言家",
+      "text_ru": "Кальцит, научись любить, научись верить. Тебе придётся думать, вести за собой и смотреть в лицо валунам, которые с пронзительным криком скатываются с горных склонов."
+    },
+    {
+      "ordinal": 159,
+      "source_line": 590,
+      "kind": "named",
+      "speaker_cn": "预言家",
+      "text_ru": "Но… в конце концов… я верю, что ты научишься любить. Это вечная чистота, дитя всего, что дышит, — наша с тобой природа."
+    },
+    {
+      "ordinal": 160,
+      "source_line": 591,
+      "kind": "named",
+      "speaker_cn": "预言家",
+      "text_ru": "Иди. Кальцит. Сначала осмотрись вокруг, потом загляни за дальние горы. Отыщи формы существования… А мне пора возвращаться."
+    },
+    {
+      "ordinal": 161,
+      "source_line": 592,
+      "kind": "named",
+      "speaker_cn": "预言家",
+      "text_ru": "Когда-то она научила меня всему и с увлечением исследовала всё вокруг. Но она изменилась и не оставит мне много времени, чтобы действовать по собственной воле."
+    },
+    {
+      "ordinal": 162,
+      "source_line": 593,
+      "kind": "named",
+      "speaker_cn": "预言家",
+      "text_ru": "…До следующей встречи. Мы ещё увидимся. Кальцит."
+    },
+    {
+      "ordinal": 163,
+      "source_line": 595,
+      "kind": "decision",
+      "text_ru": "Я верю в них. Я верю в тебя, Кальцит."
+    },
+    {
+      "ordinal": 164,
+      "source_line": 597,
+      "kind": "decision",
+      "text_ru": "Кальцит… У меня осталось мало времени."
+    },
+    {
+      "ordinal": 165,
+      "source_line": 599,
+      "kind": "decision",
+      "text_ru": "Ищи следы жизни. Ищи надежду и будущее."
+    },
+    {
+      "ordinal": 166,
+      "source_line": 601,
+      "kind": "decision",
+      "text_ru": "Кальцит… Найди ответ сама."
+    },
+    {
+      "ordinal": 167,
+      "source_line": 603,
+      "kind": "decision",
+      "text_ru": "Найди себя."
+    },
+    {
+      "ordinal": 168,
+      "source_line": 610,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 169,
+      "source_line": 618,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 170,
+      "source_line": 619,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 171,
+      "source_line": 620,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 172,
+      "source_line": 621,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 173,
+      "source_line": 622,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 174,
+      "source_line": 623,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 175,
+      "source_line": 624,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 176,
+      "source_line": 625,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 177,
+      "source_line": 626,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 178,
+      "source_line": 627,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 179,
+      "source_line": 628,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 180,
+      "source_line": 629,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 181,
+      "source_line": 630,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 182,
+      "source_line": 631,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 183,
+      "source_line": 632,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 184,
+      "source_line": 633,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 185,
+      "source_line": 634,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 186,
+      "source_line": 635,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 187,
+      "source_line": 636,
+      "kind": "sticker",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 188,
+      "source_line": 667,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "…!"
+    },
+    {
+      "ordinal": 189,
+      "source_line": 668,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Доктор—!"
+    },
+    {
+      "ordinal": 190,
+      "source_line": 676,
+      "kind": "sticker",
+      "text_ru": "Выбрано: <color=#FF4200>(перезапустить проверку личности при посадке)</color>. Подтверждено."
+    },
+    {
+      "ordinal": 191,
+      "source_line": 677,
+      "kind": "sticker",
+      "text_ru": "\\n\\nВыбрано: <color=#FF4200>(перезапустить общекорабельные модули связи)</color>. Подтверждено."
+    },
+    {
+      "ordinal": 192,
+      "source_line": 678,
+      "kind": "sticker",
+      "text_ru": "\\n\\nЗагрузка……"
+    },
+    {
+      "ordinal": 193,
+      "source_line": 679,
+      "kind": "sticker",
+      "text_ru": "\\n\\nОбратный отсчёт завершён."
+    },
+    {
+      "ordinal": 194,
+      "source_line": 690,
+      "kind": "named",
+      "speaker_cn": "博士",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 195,
+      "source_line": 695,
+      "kind": "narration",
+      "text_ru": "Свет панели управления отражается на маске Доктора."
+    },
+    {
+      "ordinal": 196,
+      "source_line": 696,
+      "kind": "narration",
+      "text_ru": "Когда экран гаснет, человек под маской вновь исчезает во тьме."
+    },
+    {
+      "ordinal": 197,
+      "source_line": 702,
+      "kind": "sticker",
+      "text_ru": "<i>Как бы вы оценили тех, кто готов пойти на всё ради интересов своего народа?</i>"
+    },
+    {
+      "ordinal": 198,
+      "source_line": 703,
+      "kind": "sticker",
+      "text_ru": "<i>Одни назовут их героями. Другие — легендами.</i>"
+    },
+    {
+      "ordinal": 199,
+      "source_line": 707,
+      "kind": "sticker",
+      "text_ru": "<i>Но подобные титулы обычно укореняются лишь в эпоху всеобщей войны.</i>"
+    },
+    {
+      "ordinal": 200,
+      "source_line": 708,
+      "kind": "sticker",
+      "text_ru": "<i>Когда наступает короткая эпоха мира, за одну ночь легенды, ещё недавно казавшиеся осязаемыми, словно превращаются в миражи из сказаний.</i>"
+    },
+    {
+      "ordinal": 201,
+      "source_line": 712,
+      "kind": "sticker",
+      "text_ru": "<i>Дети, слушая эти истории, спросят: почему же все, кто носил столь блистательные имена, бесследно исчезли?</i>"
+    },
+    {
+      "ordinal": 202,
+      "source_line": 713,
+      "kind": "sticker",
+      "text_ru": "<i>…</i>"
+    },
+    {
+      "ordinal": 203,
+      "source_line": 718,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Потому что они сами решили остаться в прошлом."
+    },
+    {
+      "ordinal": 204,
+      "source_line": 719,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Их миссия завершилась, и в новой эпохе, которую они создали, для них уже не найдётся места."
+    },
+    {
+      "ordinal": 205,
+      "source_line": 720,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Легенды забыты. Героев никто не помнит."
+    },
+    {
+      "ordinal": 206,
+      "source_line": 721,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "А смерть всё равно придёт, как и обещала. От неё никому не скрыться…"
+    },
+    {
+      "ordinal": 207,
+      "source_line": 722,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Долг заставит героя собственной смертью дать ответ и проложить путь по грязи."
+    },
+    {
+      "ordinal": 208,
+      "source_line": 723,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Такова наша судьба."
+    },
+    {
+      "ordinal": 209,
+      "source_line": 731,
+      "kind": "sticker",
+      "text_ru": "1086 год"
+    },
+    {
+      "ordinal": 210,
+      "source_line": 732,
+      "kind": "sticker",
+      "text_ru": "Накануне ухода Бабеля из Казделя"
+    },
+    {
+      "ordinal": 211,
+      "source_line": 738,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Возможно, спустя много лет к нашему делу присоединятся многие из тех, кто остался позади и бесследно исчез после того, как мы построили наш дом…"
+    },
+    {
+      "ordinal": 212,
+      "source_line": 739,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Они возьмут на себя дурную славу и помогут нам положить конец этому спору."
+    },
+    {
+      "ordinal": 213,
+      "source_line": 745,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Возможно."
+    },
+    {
+      "ordinal": 214,
+      "source_line": 747,
+      "kind": "narration",
+      "text_ru": "Близнецы стоят плечом к плечу."
+    },
+    {
+      "ordinal": 215,
+      "source_line": 748,
+      "kind": "narration",
+      "text_ru": "Опираясь на воспоминания, хранящиеся в Чёрной Короне, они идут по полю боя минувших лет. Всё как прежде."
+    },
+    {
+      "ordinal": 216,
+      "source_line": 749,
+      "kind": "narration",
+      "text_ru": "Двое сарказов-полукровок сходят с рухнувшей колесницы Короля Сарказ и направляются к полю боя —"
+    },
+    {
+      "ordinal": 217,
+      "source_line": 750,
+      "kind": "narration",
+      "text_ru": "Навстречу будущему."
+    },
+    {
+      "ordinal": 218,
+      "source_line": 759,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Значит, здесь мы прощаемся?"
+    },
+    {
+      "ordinal": 219,
+      "source_line": 760,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Да. Мы прощаемся здесь — в том самом месте, где когда-то решили вместе изменить Каздель."
+    },
+    {
+      "ordinal": 220,
+      "source_line": 761,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Хотя ты уже столько лет их Король, порой ты… всё ещё такая, как прежде."
+    },
+    {
+      "ordinal": 221,
+      "source_line": 762,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Помнишь, как в детстве я часто колола пальцы, когда шила, и пачкала мантии, которые продавала покупателям?"
+    },
+    {
+      "ordinal": 222,
+      "source_line": 763,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Помню…"
+    },
+    {
+      "ordinal": 223,
+      "source_line": 764,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Тогда ты был угрюмым подмастерьем, которому не позволяли носить настоящий меч, и всё мечтал однажды стать солдатом Казделя."
+    },
+    {
+      "ordinal": 224,
+      "source_line": 765,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "А я тогда ещё не понимала, почему нам суждено вечно скрываться."
+    },
+    {
+      "ordinal": 225,
+      "source_line": 766,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Наконец Королевский двор оценил моё мастерство, и я смогла предстать перед Илишем. Тогда я набралась смелости и спросила Короля Сарказ —"
+    },
+    {
+      "ordinal": 226,
+      "source_line": 767,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Где наше будущее?"
+    },
+    {
+      "ordinal": 227,
+      "source_line": 768,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Он не ответил, а лишь велел мне уйти."
+    },
+    {
+      "ordinal": 228,
+      "source_line": 769,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Лишь когда мы, измученные, вернулись во главе войска к руинам родины, я поняла: ответ, который я искала, был не где-то ещё, а здесь —"
+    },
+    {
+      "ordinal": 229,
+      "source_line": 770,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "— в Казделе."
+    },
+    {
+      "ordinal": 230,
+      "source_line": 771,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Каздель вновь обретёт величие лишь тогда, когда один из нас уйдёт."
+    },
+    {
+      "ordinal": 231,
+      "source_line": 772,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Но проиграть суждено тебе. Ты всё ещё намерена настаивать на своём, Терезия?"
+    },
+    {
+      "ordinal": 232,
+      "source_line": 773,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "У меня тоже есть немало сторонников."
+    },
+    {
+      "ordinal": 233,
+      "source_line": 774,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Но большинство Сарказов, измученных притеснениями и унижениями, выбирают сопротивление и насилие."
+    },
+    {
+      "ordinal": 234,
+      "source_line": 775,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Хотят того оставшиеся или нет, рано или поздно эта волна подхватит их и увлечёт за собой."
+    },
+    {
+      "ordinal": 235,
+      "source_line": 776,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Но наше поколение всё же должно что-то сделать. Я не хочу, чтобы эта ненависть через мои руки вновь перешла к следующему поколению и продолжила свой бесконечный круг…"
+    },
+    {
+      "ordinal": 236,
+      "source_line": 777,
+      "kind": "named",
+      "speaker_cn": "特蕾西娅",
+      "text_ru": "Даже если я не могу изменить будущее, надежду, способную зажечь искру, мы обязаны передать дальше."
+    },
+    {
+      "ordinal": 237,
+      "source_line": 778,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Я тоже должен отвечать за тех, кто следует за мной."
+    },
+    {
+      "ordinal": 238,
+      "source_line": 779,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Призывы к войне звучат не только в Казделе. На этой земле для нас больше не осталось места."
+    },
+    {
+      "ordinal": 239,
+      "source_line": 780,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Всё, что я могу, — лишь подтолкнуть их."
+    },
+    {
+      "ordinal": 240,
+      "source_line": 781,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "И я останусь здесь — в прошлом, на которое новое поколение Сарказов однажды будет оглядываться."
+    },
+    {
+      "ordinal": 241,
+      "source_line": 782,
+      "kind": "named",
+      "speaker_cn": "特雷西斯",
+      "text_ru": "Как и ты."
+    }
+  ],
+  "source_alignment": {
+    "cn_en_text_positions_match": true,
+    "cn_en_text_type_sequence_match": true,
+    "cn_en_source_line_positions_match": true,
+    "cn_en_speaker_tag_positions_align": true,
+    "cn_en_nontext_control_commands_match_exactly": true,
+    "cn_nontext_control_command_count": 549,
+    "en_nontext_control_command_count": 549,
+    "cn_en_text_payload_command_count": 74,
+    "cn_en_text_payloads_differ_by_language": true,
+    "en_extra_terminal_newline": true,
+    "segment_ordinals": [
+      201,
+      241
+    ],
+    "segment_source_lines": [
+      712,
+      713,
+      718,
+      719,
+      720,
+      721,
+      722,
+      723,
+      731,
+      732,
+      738,
+      739,
+      745,
+      747,
+      748,
+      749,
+      750,
+      759,
+      760,
+      761,
+      762,
+      763,
+      764,
+      765,
+      766,
+      767,
+      768,
+      769,
+      770,
+      771,
+      772,
+      773,
+      774,
+      775,
+      776,
+      777,
+      778,
+      779,
+      780,
+      781,
+      782
+    ],
+    "segment_cn_en_line_alignment": true,
+    "segment_cn_en_text_type_alignment": true,
+    "segment_cn_en_speaker_tag_positions_align": true,
+    "segment_cn_en_markup_alignment": true,
+    "segment_cn_en_control_commands_match_exactly": true,
+    "segment_cn_en_control_command_difference_source_lines": [],
+    "scene_complete": true,
+    "game_behavior_verified": false,
+    "segment_scene_complete": true
+  },
+  "previous_entries_preserved": true,
+  "editorial_review": false,
+  "in_game_test": false
+}
