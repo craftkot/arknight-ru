@@ -71,7 +71,7 @@ class BabelBB8AfterV324(unittest.TestCase):
         by = {x["ordinal"]: x for x in self.doc["dialogues"]}
         self.assertIn("интересов своего народа", by[197]["text_ru"])
         self.assertIn("миражи", by[200]["text_ru"])
-        self.assertIn("самостоятельно", by[161]["text_ru"])
+        self.assertIn("по собственной воле", by[161]["text_ru"])
         self.assertIn("Обратный отсчёт завершён", by[193]["text_ru"])
         self.assertFalse(self.doc["editorial_review"])
         self.assertFalse(self.doc["in_game_test"])
