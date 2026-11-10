@@ -1,0 +1,318 @@
+{
+  "version": "v1.79",
+  "scope": "Structural and source audit for the complete first draft of main-story 6-13 before battle.",
+  "source_file": "obt/main/level_main_06-13_beg.txt",
+  "cn_repository": "Kengxxiao/ArknightsGameData",
+  "cn_ref": "master",
+  "cn_git_blob_sha1": "c25a51a7073b79d4578a35389bd95735703f7d4a",
+  "cn_physical_lines": 88,
+  "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+  "en_ref": "main",
+  "en_git_blob_sha1": "3374be807ba84ba5249d9212788b16281b8a432a",
+  "en_physical_lines": 89,
+  "terminal_newline_difference": 1,
+  "text_positions": 41,
+  "named_positions": 41,
+  "unnamed_positions": 0,
+  "cn_text_positions": 41,
+  "en_text_positions": 41,
+  "text_line_numbers_match": true,
+  "speaker_label_positions_match": true,
+  "source_speaker_pairs": [
+    {
+      "ordinal": 1,
+      "speaker_cn": "整合运动术师",
+      "speaker_en": "Reunion Caster"
+    },
+    {
+      "ordinal": 2,
+      "speaker_cn": "整合运动术师",
+      "speaker_en": "Reunion Caster"
+    },
+    {
+      "ordinal": 3,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 4,
+      "speaker_cn": "整合运动术师",
+      "speaker_en": "Reunion Caster"
+    },
+    {
+      "ordinal": 5,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 6,
+      "speaker_cn": "整合运动术师",
+      "speaker_en": "Reunion Caster"
+    },
+    {
+      "ordinal": 7,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 8,
+      "speaker_cn": "整合运动术师",
+      "speaker_en": "Reunion Caster"
+    },
+    {
+      "ordinal": 9,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 10,
+      "speaker_cn": "整合运动术师",
+      "speaker_en": "Reunion Caster"
+    },
+    {
+      "ordinal": 11,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 12,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 13,
+      "speaker_cn": "整合运动术师",
+      "speaker_en": "Reunion Caster"
+    },
+    {
+      "ordinal": 14,
+      "speaker_cn": "整合运动术师",
+      "speaker_en": "Reunion Caster"
+    },
+    {
+      "ordinal": 15,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 16,
+      "speaker_cn": "煌",
+      "speaker_en": "Blaze"
+    },
+    {
+      "ordinal": 17,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 18,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 19,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 20,
+      "speaker_cn": "整合运动术师",
+      "speaker_en": "Reunion Caster"
+    },
+    {
+      "ordinal": 21,
+      "speaker_cn": "整合运动术师",
+      "speaker_en": "Reunion Caster"
+    },
+    {
+      "ordinal": 22,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 23,
+      "speaker_cn": "整合运动术师",
+      "speaker_en": "Reunion Caster"
+    },
+    {
+      "ordinal": 24,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 25,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 26,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 27,
+      "speaker_cn": "煌",
+      "speaker_en": "Blaze"
+    },
+    {
+      "ordinal": 28,
+      "speaker_cn": "煌",
+      "speaker_en": "Blaze"
+    },
+    {
+      "ordinal": 29,
+      "speaker_cn": "阿米娅",
+      "speaker_en": "Amiya"
+    },
+    {
+      "ordinal": 30,
+      "speaker_cn": "煌",
+      "speaker_en": "Blaze"
+    },
+    {
+      "ordinal": 31,
+      "speaker_cn": "煌",
+      "speaker_en": "Blaze"
+    },
+    {
+      "ordinal": 32,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 33,
+      "speaker_cn": "阿米娅",
+      "speaker_en": "Amiya"
+    },
+    {
+      "ordinal": 34,
+      "speaker_cn": "阿米娅",
+      "speaker_en": "Amiya"
+    },
+    {
+      "ordinal": 35,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 36,
+      "speaker_cn": "雪怪小队成员B",
+      "speaker_en": "Yeti Squad Member B"
+    },
+    {
+      "ordinal": 37,
+      "speaker_cn": "雪怪小队成员A",
+      "speaker_en": "Yeti Squad Member A"
+    },
+    {
+      "ordinal": 38,
+      "speaker_cn": "阿米娅",
+      "speaker_en": "Amiya"
+    },
+    {
+      "ordinal": 39,
+      "speaker_cn": "阿米娅",
+      "speaker_en": "Amiya"
+    },
+    {
+      "ordinal": 40,
+      "speaker_cn": "雪怪1号先生",
+      "speaker_en": "Mr. Yeti #1"
+    },
+    {
+      "ordinal": 41,
+      "speaker_cn": "煌",
+      "speaker_en": "Blaze"
+    }
+  ],
+  "command_lines_cn": 44,
+  "command_lines_en": 44,
+  "command_line_numbers_match": true,
+  "commands_match_cn_en": true,
+  "command_counts": {
+    "HEADER": 1,
+    "Dialog": 2,
+    "Character": 32,
+    "Background": 1,
+    "PlayMusic": 1,
+    "Delay": 2,
+    "playsound": 3,
+    "Blocker": 2
+  },
+  "decision_commands": 0,
+  "predicate_branches": 0,
+  "decision_options": 0,
+  "placeholder_count_cn": 0,
+  "placeholder_count_en": 0,
+  "placeholder_count_ru": 0,
+  "untranslated_cjk_in_ru": 0,
+  "empty_ru_entries": 0,
+  "inline_markup_tags_in_dialogue_payloads": 0,
+  "translated_new_positions": 41,
+  "translated_source_lines": [
+    12,
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    27,
+    29,
+    31,
+    32,
+    34,
+    35,
+    37,
+    39,
+    41,
+    43,
+    44,
+    46,
+    47,
+    49,
+    51,
+    54,
+    56,
+    57,
+    59,
+    60,
+    62,
+    64,
+    65,
+    67,
+    69,
+    71,
+    73,
+    75,
+    77,
+    79,
+    80,
+    82,
+    84
+  ],
+  "header_title_source": "第一关（前）",
+  "header_title_ru": "Этап 1 (до боя)",
+  "header_title_filename_suffix_consistent": true,
+  "cn_en_version_status": "STRUCTURALLY_IDENTICAL",
+  "semantic_differences": [
+    {
+      "source_line": 17,
+      "note": "CN and EN both refer to Originium already placed in the sector; Russian avoids inventing an explicit charge/explosive absent from the source."
+    },
+    {
+      "source_line": 49,
+      "note": "CN says 无数次 (countless times); EN uses the hyperbolic «like a million times». Russian follows CN."
+    },
+    {
+      "source_line": 54,
+      "note": "CN says 掐断 (cut off); EN uses «Static». Russian follows the action in CN."
+    },
+    {
+      "source_line": 43,
+      "note": "CN's reluctant concession is retained; EN paraphrases it as «that's your prerogative»."
+    }
+  ],
+  "copyright_handling": "Only source repository names, refs, blob hashes, positions, and audit metadata are stored. Full CN/EN scripts are not copied."
+}

@@ -1,0 +1,328 @@
+{
+  "version": "v1.79",
+  "stage": "Main story 6-13 before battle",
+  "status": "COMPLETE_FIRST_DRAFT; STRUCTURAL_AUDIT_PASSED; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_main_06-13_beg.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "c25a51a7073b79d4578a35389bd95735703f7d4a",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "3374be807ba84ba5249d9212788b16281b8a432a",
+    "cn_physical_lines": 88,
+    "en_physical_lines": 89,
+    "version_difference": "CN has 88 split physical lines; EN has 89 because of one additional terminal newline. All 41 named text positions align by physical line number. All 44 command lines match exactly by line number, command name and parameters. No Decision or Predicate branches occur in this scene."
+  },
+  "progress": {
+    "translated": 41,
+    "total": 41,
+    "remaining": 0,
+    "next_ordinal": null,
+    "next_source_line": null,
+    "complete": true,
+    "unit": "named dialogue positions"
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 12,
+      "kind": "named",
+      "speaker_cn": "整合运动术师",
+      "text_ru": "Что за чертовщина?"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 13,
+      "kind": "named",
+      "speaker_cn": "整合运动术师",
+      "text_ru": "Отряд йети, почему вы прекратили огонь? Чего ждёте?"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 15,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "…Разобрать эти завалы, что ли?"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 17,
+      "kind": "named",
+      "speaker_cn": "整合运动术师",
+      "text_ru": "Вы ведь уже разместили Ориджиниум. Почему бы просто не обрушить плиту и не покончить с Родос Айленд разом?"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Вы шутите? Старшая сестра ФростНова всё ещё под этими завалами!"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 21,
+      "kind": "named",
+      "speaker_cn": "整合运动术师",
+      "text_ru": "Тогда мы сами уничтожим Родос Айленд. А вы продолжайте разбирать завалы. Мы скоро будем."
+    },
+    {
+      "ordinal": 7,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Не приближайтесь к этому кварталу! Несущие конструкции здесь уже едва держатся. Если здесь начнёт бой неподготовленный отряд, одно неверное движение — и всё рухнет!"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 25,
+      "kind": "named",
+      "speaker_cn": "整合运动术师",
+      "text_ru": "Ликвидация Родос Айленд — приоритетная задача. Займитесь этим сами!"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 27,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Да сколько можно указывать нам, что делать… С кем надо сражаться — мы и сами знаем. Кто вообще назначил это приоритетом?"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_cn": "整合运动术师",
+      "text_ru": "Разумеется, это наша главная стратегическая цель."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 31,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "А когда вы срывали злость на жителях Урсуса, о стратегических целях вы думали?"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 32,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Будьте людьми, мы постараемся сделать всё, что сможем. Не могли бы вы проявить немного понимания?"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 34,
+      "kind": "named",
+      "speaker_cn": "整合运动术师",
+      "text_ru": "Вы что… вступили в переговоры с Родос Айленд?"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 35,
+      "kind": "named",
+      "speaker_cn": "整合运动术师",
+      "text_ru": "Ты предаёшь наше Движение!"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 37,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 39,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "(Что у вас там происходит?)"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 41,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "(Похоже, придётся драться. Не уйти.)"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Если вы считаете, что любой разговор — это уже предательство, ну и ладно. Пусть будет так."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 44,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "С таким тактическим мышлением неудивительно, что вами вертят как хотят."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 46,
+      "kind": "named",
+      "speaker_cn": "整合运动术师",
+      "text_ru": "…Йети! Что вы задумали?!"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "整合运动术师",
+      "text_ru": "Нас в несколько раз больше вас! Не делайте глупостей!!"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "…Постойте. Мы ведь бесчисленное количество раз сражались с регулярной армией Урсуса. С чего это какая-то толпа так хорохорится?"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_cn": "整合运动术师",
+      "text_ru": "Вы ещё пожалеете!"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 54,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "(Обрывает связь.)"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Ну что ж, Родос Айленд. Похоже, нам придётся проучить эту шайку, которая не знает своего места."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 57,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Советую вам не вмешиваться. Не хотим, чтобы нас обвинили в сговоре с врагом."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "А? Сговоре с врагом? О чём ты?"
+    },
+    {
+      "ordinal": 28,
+      "source_line": 60,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Амия, что произошло в руинах и какова будет официальная версия Родос Айленд?"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 62,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "……Ничего не произошло. Мы сражались с отрядом йети. Другие бойцы Воссоединения в бой не вступали."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 64,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Разыграть спектакль? Это у меня лучше всего получается."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Как тебе идея: немного подыграем, а потом в суматохе покончим со всеми этими типами?"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Я не против. А что скажет ваш командир?"
+    },
+    {
+      "ordinal": 33,
+      "source_line": 69,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Простите, господин, как мне к вам обращаться?"
+    },
+    {
+      "ordinal": 35,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Э-э… ну, вы очень милая девушка, но мы ведь так мало знакомы, я ещё не готов к такому…"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 75,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "К чему готовиться?! Что ты себе вообразил?!"
+    },
+    {
+      "ordinal": 37,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员A",
+      "text_ru": "Простите, простите! Я просто… хотел немного разрядить обстановку. Может, зовите меня Йети № 1?"
+    },
+    {
+      "ordinal": 38,
+      "source_line": 79,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Тогда, господин Йети № 1… Нам всем есть кого спасти, верно?"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Давайте вместе обезвредим тех бойцов Воссоединения, которые могут помешать спасательной операции."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 82,
+      "kind": "named",
+      "speaker_cn": "雪怪1号先生",
+      "text_ru": "Ладно. Теперь я прямо горю энтузиазмом."
+    },
+    {
+      "ordinal": 41,
+      "source_line": 84,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "…И откуда только в тебе взялся такой энтузиазм?"
+    }
+  ],
+  "decision_options_ru": [],
+  "header_title_ru": "Этап 1 (до боя)",
+  "translation_revision": 1,
+  "notes_v179": [
+    "CN is the primary source for meaning; EN Yostar is used to cross-check speaker identities and structure.",
+    "Originium is rendered as «Ориджиниум» according to the project glossary. The source does not explicitly name an explosive device, so no additional technical object was invented.",
+    "FrostNova is rendered as «ФростНова» and Yeti Squadron as «Отряд йети», following docs/TERMS_RU.txt.",
+    "The CN idiom 无数次 is rendered as «бесчисленное количество раз»; the EN hyperbole «like a million times» is not copied literally.",
+    "The CN transmission cue 掐断 is rendered as «Обрывает связь»; the EN parenthetical is «Static».",
+    "The CN wording 行啊，那就是了行吧 is retained as reluctant acceptance rather than the more abstract EN «that's your prerogative».",
+    "No unnamed text, placeholders, inline markup, Decision options or Predicate branches occur in this file.",
+    "This is a complete first draft, not a literary-edited localization or a client-tested patch."
+  ]
+}
