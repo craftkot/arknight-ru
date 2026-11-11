@@ -10,7 +10,7 @@ Source: obt/main/level_st_07-01.txt
 - CN/EN source structure remains aligned: 286 text positions and 276 command positions.
 - CN blob: 1c613bfbf006470b3b8e131b9fcb8b8f53e19ea5
 - EN Yostar blob: 7a204cb0010abcbf60f12017f0b2b4d02eaba156
-- Documented lexical differences at CN lines 176 and 228; Russian follows CN.
+- Documented four lexical differences in the translated prefix: CN lines 105 (侯爵 vs EN Count), 143 (修士 vs EN nun), 176 (considerate vs EN 'showed her cards') and 228 (CN 龙女 vs EN's added profanity); Russian follows CN.
 - Added glossary entry for Savra / 萨弗拉.
 - Updated Chapter 7 index, source audit, QA, chronology and README.
 - Partial scene remains excluded from completed-scene selection.
