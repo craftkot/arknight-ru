@@ -883,7 +883,7 @@
       "source_line": 131,
       "kind": "named",
       "speaker_cn": "伊诺",
-      "text_ru": "Те дети-инфицированные, которых ещё не выгнали из города..."
+      "text_ru": "Те инфицированные дети, которых ещё не выгнали из города..."
     },
     {
       "ordinal": 99,
@@ -903,5 +903,5 @@
   "decision_options_ru": [],
   "header_title_ru": "Этап 6 (после боя)",
   "translation_revision": "v1.87",
-  "notes_v187": "Backfill of the previously unindexed Episode 6 6-6 Interlude (level_st_06-01.txt). This revision translates the continuous opening range, ordinals 1–100: 82 named and 18 unnamed positions, CN source lines 6–133. Full CN/EN resource: 203 text positions (174 named, 29 unnamed), 109 command lines, no Decision or Predicate commands. One anonymous speaker-label punctuation difference occurs at line 188 (CN ？？？, EN ????), with positions aligned. Continue at ordinal 101, CN source line 134. CN is primary for meaning; EN Yostar is used for speaker and structural cross-check. No full CN/EN scripts are stored. Partial first draft; not editorially reviewed or tested in Yostar Global PC."
+  "notes_v187": "Backfill of the previously unindexed Episode 6 6-6 Interlude (level_st_06-01.txt). This revision translates the continuous opening range, ordinals 1–100: 82 named and 18 unnamed positions, CN source lines 6–133. Full CN/EN resource: 203 text positions (174 named, 29 unnamed), 109 command lines, no Decision or Predicate commands. One anonymous speaker-label punctuation difference occurs at line 188 (CN ？？？, EN ????), with positions aligned. Continue at ordinal 101, CN source line 134. CN is primary for meaning; EN Yostar is used for speaker and structural cross-check. No full CN/EN scripts are stored. Partial first draft; not editorially reviewed or tested in Yostar Global PC. Minor wording pass: the phrase at ordinal 98 uses the natural Russian word order «инфицированные дети» rather than «дети-инфицированные»."
 }
