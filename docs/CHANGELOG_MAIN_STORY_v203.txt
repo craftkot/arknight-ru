@@ -1,0 +1,12 @@
+Arknights RU — Main Story Changelog v2.03 / chronology v3.63
+Date: 2026-11-11
+
+- Added the next continuous 40 text positions (41–80) of Episode 7, 7-1 32:00:00 Interlude, CN lines 81–149: 27 named W/Talulah lines and 13 unnamed narration lines.
+- The cumulative partial draft is 80/286 positions (59 named, 21 unnamed); 206 positions remain. The next untranslated text position is ordinal 81 at CN line 150.
+- Corrected v3.62's off-by-one pointer: CN line 82 is a Character command; the actual next text after ordinal 40 was CN line 81.
+- Audited and preserved 29 additional command positions; 69 command positions are covered by the translated prefix. No Decision or Predicate commands occur.
+- Recorded CN/EN source blobs 1c613bfbf006470b3b8e131b9fcb8b8f53e19ea5 / 7a204cb0010abcbf60f12017f0b2b4d02eaba156. Both sources align structurally on 286 text positions and 276 command positions.
+- Recorded lexical differences: CN 侯爵 vs EN Yostar Count at line 105 (Russian «маркиз» follows CN); CN 伊比利亚修士 vs EN Yostar Iberian nun at line 143 (Russian «монах» follows CN).
+- Added working glossary entries for 城邦地块 (city plate) and 废城 (ruined city); consistency review remains pending.
+- Updated Chapter 7 index, Source Audit, QA, chronology and README. Partial 7-1 remains excluded from the merged selection.
+- First draft only. Literary review and Yostar Global PC in-game validation remain pending. No full source scripts or game assets are committed.
