@@ -1,0 +1,1014 @@
+{
+  "version": "v1.96",
+  "stage": "Main story — 6-17 After Operation: Winter's End (resource key level_main_06-15_end)",
+  "status": "first_draft_complete",
+  "source_file": "obt/main/level_main_06-15_end.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "b8dc8453340f5eeb673c81bc82ad81be9ac7280a",
+    "cn_physical_lines": 186,
+    "cn_final_newline": false,
+    "cn_url": "https://github.com/Kengxxiao/ArknightsGameData/blob/master/zh_CN/gamedata/story/obt/main/level_main_06-15_end.txt",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "bc8db9e49aa225aef8e57bf62c87488d3cd05ff9",
+    "en_physical_lines": 187,
+    "en_final_newline": true,
+    "en_url": "https://github.com/Kengxxiao/ArknightsGameData_YoStar/blob/main/en_US/gamedata/story/obt/main/level_main_06-15_end.txt",
+    "version_difference": "CN and EN align on 89 text positions (86 named, 3 unnamed), 97 command positions, 15 Decision commands, 20 option values and 15 Predicate branches. CN has 186 physical lines without a terminal newline; EN has 187 with a terminal newline. CN line 114 says 捡到我 (found/picked me up), while EN says adopted me; Russian follows CN. CN line 126 擦拭我结出的果 is an unusual metaphor and differs from EN's fruit-of-the-seeds wording; the Russian draft interprets it as correcting the consequences of her actions and flags it for editorial review."
+  },
+  "source_alignment": {
+    "cn_text_positions": 89,
+    "en_text_positions": 89,
+    "cn_named_positions": 86,
+    "en_named_positions": 86,
+    "cn_unnamed_positions": 3,
+    "en_unnamed_positions": 3,
+    "command_lines_cn": 97,
+    "command_lines_en": 97,
+    "command_counts": {
+      "HEADER": 1,
+      "stopmusic": 1,
+      "Blocker": 11,
+      "PlaySound": 1,
+      "Image": 6,
+      "Character": 28,
+      "ImageTween": 1,
+      "Delay": 3,
+      "Background": 2,
+      "Decision": 15,
+      "Predicate": 15,
+      "Dialog": 12,
+      "PlayMusic": 1
+    },
+    "named_text_line_numbers_match": true,
+    "unnamed_text_line_numbers_match": true,
+    "speaker_label_positions_match": true,
+    "speaker_label_names_match_after_localization": true,
+    "speaker_label_map": {
+      "霜星": "FrostNova",
+      "煌": "Blaze",
+      "阿米娅": "Amiya"
+    },
+    "speaker_label_spelling_exceptions": [],
+    "command_line_numbers_match": true,
+    "command_names_and_parameters_match_after_decision_option_normalization": true,
+    "decision_commands": 15,
+    "predicate_branches": 15,
+    "decision_option_total": 20,
+    "decision_values_and_predicate_references_match": true,
+    "translated_range": {
+      "ordinal_start": 1,
+      "ordinal_end": 89,
+      "translated_source_lines": [
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        24,
+        26,
+        27,
+        29,
+        30,
+        31,
+        32,
+        36,
+        38,
+        40,
+        41,
+        42,
+        43,
+        45,
+        46,
+        49,
+        50,
+        51,
+        59,
+        60,
+        61,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        102,
+        112,
+        113,
+        114,
+        115,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        133,
+        134,
+        140,
+        143,
+        146,
+        147,
+        148,
+        153,
+        154,
+        155,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        181,
+        182
+      ],
+      "named_positions": 86,
+      "unnamed_positions": 3,
+      "command_lines_in_range": 97,
+      "command_counts": {
+        "HEADER": 1,
+        "stopmusic": 1,
+        "Blocker": 11,
+        "PlaySound": 1,
+        "Image": 6,
+        "Character": 28,
+        "ImageTween": 1,
+        "Delay": 3,
+        "Background": 2,
+        "Decision": 15,
+        "Predicate": 15,
+        "Dialog": 12,
+        "PlayMusic": 1
+      },
+      "decision_commands": 15,
+      "decision_option_strings": 20,
+      "predicate_branches": 15
+    },
+    "decision_option_source_lines": [
+      33,
+      47,
+      64,
+      86,
+      99,
+      105,
+      107,
+      109,
+      118,
+      130,
+      137,
+      141,
+      144,
+      156,
+      164
+    ],
+    "predicate_source_lines": [
+      34,
+      48,
+      65,
+      87,
+      100,
+      106,
+      108,
+      110,
+      119,
+      131,
+      138,
+      142,
+      145,
+      157,
+      165
+    ],
+    "placeholder_count_cn": 1,
+    "placeholder_count_en": 1,
+    "placeholder_count_ru": 1
+  },
+  "progress": {
+    "translated": 89,
+    "total": 89,
+    "remaining": 0,
+    "complete": true,
+    "named_translated": 86,
+    "named_total": 86,
+    "unnamed_translated": 3,
+    "unnamed_total": 3,
+    "next_ordinal": null,
+    "next_source_line": null,
+    "decision_commands_translated": 15,
+    "decision_commands_total": 15,
+    "decision_commands_remaining": 0,
+    "decision_option_strings_translated": 20,
+    "decision_option_strings_total": 20,
+    "decision_option_strings_remaining": 0,
+    "predicate_branches_translated": 15,
+    "predicate_branches_total": 15,
+    "predicate_branches_remaining": 0
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Разбилось…?"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 17,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Старик выпросил эту вещь у какого-то мага… Сказал, что она сможет поддерживать во мне жизнь."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 18,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Не выдержала даже одного боя. Хех, всё-таки подделка."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Может, и мы с ним — ненастоящие отец и дочь…? Как и нынешнее, нелепое Воссоединение…"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 21,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "М-м!"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 22,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Ух…"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 24,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Кхе-кхе… Блейз!"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Мороз уже… отступил."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 27,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Я в порядке! Амия, скорее, проверь, как там белый кролик!"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Отличная победа, Родос Айленд."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Мои братья и сёстры… Я позволила им погибнуть напрасно."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 31,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Мы ничего не добились."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 32,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Моя жизнь… не имела никакой ценности."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 36,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Из-за моей смерти… никому не стоит здесь задерживаться."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 40,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Идите и спасите тех, кого ещё можете. Скорее."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 41,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Идите."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 42,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Будь то остановить людей в дождевиках, отправиться в погоню за Мефисто или приютить заражённых, которым больше некуда податься…"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Идите. Займитесь чем-нибудь действительно важным."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 46,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Доктор…"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Я поняла."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 50,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Доктор, пожалуйста, передайте ФростНове те слова."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…Прошу вас."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Ну и… наивный же кролик."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 60,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Очень похожа. Совсем как тогда Талула."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 61,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Перед смертью увидеть такого человека… человека, который так твёрдо намерен воплотить свои идеалы…"
+    },
+    {
+      "ordinal": 28,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "С твоим умом ты ведь и сама должна была это учесть, верно?"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Даже злодей должен вести себя как подобает злодею. Я не жалуюсь на участь, которую заслужила."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 69,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Я причинила вам боль. Я и Воссоединение нацелились на невинных жителей Лунмэня, а я собственными руками приблизила мрачное будущее заражённых Урсуса. Таким, как я, не место на Родос Айленде."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 70,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Мои братья и сёстры… Эти глупцы, наверное, хотели, чтобы я выжила?"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Я думала: даже если на этот раз я погибну, эти глупцы хотя бы обретут место, где смогут жить."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Но нет. Ничего подобного. Они погибли, защищая меня — человека, которому и без того оставалось недолго жить."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Я не могу с этим смириться. Нас всех использовали, а наши жизни выбросили на ветер."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 74,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Я не могу смириться… Эта последняя крупица жизни мне не принадлежит. Все они заплатили за неё своей кровью!"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 75,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Эту последнюю крупицу жизни… я должна доверить тому, кому могу доверять."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 76,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Спасибо тебе."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…А-а… Даже если бы мы выжили, куда нам было бы идти?"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 78,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Нам и прежде некуда было идти. Всё, что нам было знакомо, — только снежные просторы."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 79,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Лунмэнь — не Урсус. Мы так хотели спасти своих соотечественников и других заражённых, найти место, где было бы тепло, где были бы еда и крыша над головой…"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Но это не должен был быть Лунмэнь. С самого начала нам не следовало идти в Лунмэнь. Жители Лунмэня и сами с трудом пытаются устроить свою жизнь."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 81,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Единственное место, куда нам следовало вернуться, — Урсус… наша родина…"
+    },
+    {
+      "ordinal": 43,
+      "source_line": 82,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Снег… тихая река… покачивающиеся сосны… изумрудный мох…"
+    },
+    {
+      "ordinal": 44,
+      "source_line": 83,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Как же прекрасна эта земля…"
+    },
+    {
+      "ordinal": 45,
+      "source_line": 89,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…Если я не ошибаюсь… заговор уже готов прийти в действие."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 90,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Даже если старик Булдроккас'ти сумеет ненадолго отсрочить это, раз Талула осмелилась всё это спланировать, значит, она наверняка знает, как с ним справиться."
+    },
+    {
+      "ordinal": 47,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Лунмэнь не сможет вмешаться… а Урсус останется в стороне."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 92,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Но вы ещё здесь, и у заражённых всё ещё есть шанс. Пусть даже совсем крошечный —"
+    },
+    {
+      "ordinal": 49,
+      "source_line": 93,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "— уничтожьте нынешнюю Талулу. Остановите её безумие, не дайте Воссоединению поглотить ещё больше заражённых. Воссоединению не нужна Талула. Не нужна никакая Талула…"
+    },
+    {
+      "ordinal": 50,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Или…"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 95,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…Или это моя маленькая личная просьба. Спасите её. Нет… помогите ей. Вместе с бесчисленными нашими собратьями-заражёнными…"
+    },
+    {
+      "ordinal": 52,
+      "source_line": 96,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Той настоящей… Талуле, ступающей по грязной земле…"
+    },
+    {
+      "ordinal": 53,
+      "source_line": 102,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Ты… говори."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 112,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 55,
+      "source_line": 113,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Как же я могу этого не знать? Просто… я умру раньше него."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 114,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Как было бы хорошо, если бы он тогда меня не подобрал. Тогда ему не пришлось бы страдать из-за меня."
+    },
+    {
+      "ordinal": 57,
+      "source_line": 115,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Он и так столько натерпелся…"
+    },
+    {
+      "ordinal": 58,
+      "source_line": 121,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Хе-хе…"
+    },
+    {
+      "ordinal": 59,
+      "source_line": 122,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…Доктор."
+    },
+    {
+      "ordinal": 60,
+      "source_line": 123,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Можно я буду так тебя называть?"
+    },
+    {
+      "ordinal": 61,
+      "source_line": 124,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Доктор Родос Айленда. В этом мире, возможно, выбор ничего не значит."
+    },
+    {
+      "ordinal": 62,
+      "source_line": 125,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "И всё же, даже если исход не изменится… я хочу сама сделать выбор. Я уже сделала его."
+    },
+    {
+      "ordinal": 63,
+      "source_line": 126,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Своими руками… исправить последствия того, что сама натворила."
+    },
+    {
+      "ordinal": 64,
+      "source_line": 127,
+      "kind": "unnamed",
+      "text_ru": "Пальцы ФростНовы осторожно ощупывают твоё лицо."
+    },
+    {
+      "ordinal": 65,
+      "source_line": 133,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Странно. Твоё лицо… холодное."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 134,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Моя температура тела… уже не такая низкая?"
+    },
+    {
+      "ordinal": 67,
+      "source_line": 140,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…Перед смертью… я наконец снова могу прикоснуться к кому-то."
+    },
+    {
+      "ordinal": 68,
+      "source_line": 143,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Неужели я и правда этого достойна?"
+    },
+    {
+      "ordinal": 69,
+      "source_line": 146,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…Было бы невежливо не ответить."
+    },
+    {
+      "ordinal": 70,
+      "source_line": 147,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Передай Амии, Доктор {@nickname}…"
+    },
+    {
+      "ordinal": 71,
+      "source_line": 148,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "В этом мире одному человеку ничего не под силу."
+    },
+    {
+      "ordinal": 72,
+      "source_line": 153,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Но она точно не одна."
+    },
+    {
+      "ordinal": 73,
+      "source_line": 154,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "С этого момента я буду рядом с тобой. Рядом со всеми вами."
+    },
+    {
+      "ordinal": 74,
+      "source_line": 155,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Я… согласна вступить в Родос Айленд."
+    },
+    {
+      "ordinal": 75,
+      "source_line": 158,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Нет. Это я… должна тебя благодарить."
+    },
+    {
+      "ordinal": 76,
+      "source_line": 159,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Твой взгляд… напоминает мне одного моего старого знакомого."
+    },
+    {
+      "ordinal": 77,
+      "source_line": 160,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Я встретила мальчика. Он говорил, что его брат скорее взойдёт на виселицу, чем изменит своим убеждениям ради милости врагов…"
+    },
+    {
+      "ordinal": 78,
+      "source_line": 161,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Поэтому он собирался пройти через снежные равнины, пройти весь Урсус… и потому не отправился с нами."
+    },
+    {
+      "ordinal": 79,
+      "source_line": 162,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Я думала, что никогда не встречала человека более преданного идеалам."
+    },
+    {
+      "ordinal": 80,
+      "source_line": 163,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Но вы с Амией заставили меня задуматься… возможно, идеалы тоже могут стать верой."
+    },
+    {
+      "ordinal": 81,
+      "source_line": 166,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Когда-то Воссоединение было таким же…"
+    },
+    {
+      "ordinal": 82,
+      "source_line": 167,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Как похоже…"
+    },
+    {
+      "ordinal": 83,
+      "source_line": 168,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Твой взгляд и правда очень похож на взгляд того мальчика."
+    },
+    {
+      "ordinal": 84,
+      "source_line": 169,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Только ты не такой решительный, как он, зато… гораздо мягче."
+    },
+    {
+      "ordinal": 85,
+      "source_line": 170,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Отпусти меня. Братья и сёстры ждут меня."
+    },
+    {
+      "ordinal": 86,
+      "source_line": 171,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…Отец… какая же я глупая."
+    },
+    {
+      "ordinal": 87,
+      "source_line": 172,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Прости меня."
+    },
+    {
+      "ordinal": 88,
+      "source_line": 181,
+      "kind": "unnamed",
+      "text_ru": "Она медленно сползает вниз."
+    },
+    {
+      "ordinal": 89,
+      "source_line": 182,
+      "kind": "unnamed",
+      "text_ru": "Уголки её губ приподнимаются; она выглядит гордой, словно всё ещё жива."
+    }
+  ],
+  "decision_options_ru": [
+    {
+      "source_line": 33,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Они последовали за тобой, потому что разделяли твои идеалы."
+      ]
+    },
+    {
+      "source_line": 47,
+      "values": [
+        "1",
+        "2"
+      ],
+      "options_ru": [
+        "Я останусь.",
+        "А ты иди."
+      ]
+    },
+    {
+      "source_line": 64,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "А как же обещанная ответственность?!",
+        "……",
+        "Разве ты не обещала вступить в Родос Айленд?"
+      ]
+    },
+    {
+      "source_line": 86,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Значит, ты считаешь, что всем этим манипулировала Талула."
+      ]
+    },
+    {
+      "source_line": 99,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Госпожа ФростНова?"
+      ]
+    },
+    {
+      "source_line": 105,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Я думаю, твой отец действительно тебя любит."
+      ]
+    },
+    {
+      "source_line": 107,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Ты ведь помнишь, как твои родные родители погибли, защищая тебя."
+      ]
+    },
+    {
+      "source_line": 109,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Ты хорошо помнишь всё, что отец для тебя сделал."
+      ]
+    },
+    {
+      "source_line": 118,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Именно потому, что он столько пережил, он и дорожит тобой."
+      ]
+    },
+    {
+      "source_line": 130,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "…Твои пальцы… тёплые?"
+      ]
+    },
+    {
+      "source_line": 137,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "Да. Симптомы твоей болезни исчезли.",
+        "……",
+        "Ты такая тёплая, ФростНова."
+      ]
+    },
+    {
+      "source_line": 141,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "ФростНова, мы с Амией хотим, чтобы ты вступила в Родос Айленд."
+      ]
+    },
+    {
+      "source_line": 144,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Если ты сейчас просто умрёшь, у тебя не останется времени исправить свои ошибки."
+      ]
+    },
+    {
+      "source_line": 156,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Спасибо тебе."
+      ]
+    },
+    {
+      "source_line": 164,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Родос Айленд сражается за общие идеалы."
+      ]
+    }
+  ],
+  "header_title_ru": "Этап 3 (после боя)",
+  "translation_revision": "Complete first draft from CN primary source; EN Yostar used for speaker-name and structural cross-check. All source text and command positions were aligned before translation.",
+  "notes_v196": [
+    "The source contains 86 named and 3 unnamed text positions. Unnamed narration occurs at CN lines 127, 181 and 182.",
+    "All 15 Decision commands / 20 options and 15 Predicate branches are translated or structurally preserved.",
+    "CN line 114 uses 捡到我 (found/picked her up); EN says adopted me. Russian follows CN.",
+    "CN line 126 擦拭我结出的果 is metaphorically difficult; current Russian wording is provisional and explicitly flagged for human editorial review.",
+    "No full CN or EN source script is included. Literary review and Yostar Global PC in-game validation have not been performed."
+  ]
+}
