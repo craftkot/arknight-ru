@@ -70,7 +70,7 @@ class TestMainStory618InterludeV197(unittest.TestCase):
         r = a["translated_range"]
         self.assertEqual((r["ordinal_start"], r["ordinal_end"], r["command_lines_in_range"]), (1, 55, 50))
         self.assertEqual(r["command_counts"], RANGE_COMMAND_COUNTS)
-        self.assertEqual(r["translated_source_lines"] if "translated_source_lines" in r else r["translated_source_lines"] if False else r["translated_source_lines"] if "translated_source_lines" in r else T["dialogues"][0]["source_line"], T["dialogues"][0]["source_line"])
+        self.assertEqual(r["translated_source_lines"], SOURCE_LINES)
         self.assertEqual((r["decision_commands"], r["decision_option_strings"], r["predicate_branches"]), (1, 3, 4))
         self.assertEqual((r["placeholder_count_cn"], r["placeholder_count_en"], r["placeholder_count_ru"]), (0, 0, 0))
         self.assertEqual(A["integrity"]["translated_text_positions"], 55)
