@@ -1,0 +1,35 @@
+Arknights RU — Main story v1.85 / repository v3.45
+Date: 2026-11-11
+
+Partial CN-primary first draft:
+- Source resource: obt/main/level_main_06-14_beg.txt.
+- In-game story placement: Episode 6, 6-16 Before Operation. The internal resource key suffix 06-14 is not the operation number.
+- Newly translated range: text ordinals 241–300, source lines 546–639; 60 named dialogue positions.
+- Newly translated Decision option payloads: source lines 592 and 603 (one option each). Decision values and Predicate references are unchanged.
+- Cumulative progress: 300/329 text positions (298 named, 2 unnamed); 29 remain.
+- Cumulative Decision option progress: 15 of 18 strings; 3 remain (source lines 643, 681 and 711).
+- CN Git blob: 0af35351ae66a4f4dc21670ef30b833180154f05
+- EN Yostar Git blob: 4a17d2af3e8752dc67b5601dcbc9be21615422ab
+- CN: 720 physical lines, no final newline; EN: 721 physical lines, one additional terminal newline.
+- Both mirrors contain 327 named and 2 unnamed text positions at identical physical line numbers.
+- All 391 command lines align by physical line and normalized command name/parameters; all 12 Decision values and 12 Predicate references match.
+- The new source range contains 34 command lines: 27 Character, 2 Dialog, 2 Decision, 2 Predicate and 1 stopmusic.
+- The cumulative translated range contains 329 command lines, including 9 Decision and 9 Predicate commands.
+- CN source line 377 contains one opening '**' marker absent from EN. It remains preserved without an invented closing token.
+- No new placeholders; the two prior {@nickname} placeholders remain intact.
+- Updated partial translation JSON, source audit, QA, chapter index, chronology v3.45, README and regression tests.
+- Full CN/EN scripts were not copied into the repository.
+- This is a partial first draft only. No literary review or Yostar Global PC client test is claimed.
+
+Project progress:
+- Darknights Memoir: 13/13 full first drafts.
+- Babel: 23/23 full first drafts (4,633 entries).
+- Main story: 119 complete first drafts plus one partial scene (resource level_main_06-14_beg, corresponding to 6-16 Before Operation; 300/329).
+- Chapter 6: 22 complete scenes / 2,537 complete text positions plus 300 partial positions.
+- Combined selection remains at 119 complete scenes / 8,781 entries; the partial scene is intentionally not included until completion.
+- One inherited difference between the historical manifest (8,782) and combined selection (8,781) remains documented.
+
+Next work:
+- Continue obt/main/level_main_06-14_beg.txt at ordinal 301, source line 646.
+- Translate the remaining 29 text positions and 3 Decision option strings before marking the scene complete.
+- Preserve the in-game 6-16 Before Operation mapping; no client validation is claimed.
