@@ -1,0 +1,1225 @@
+{
+  "version": "v2.04",
+  "stage": "Episode 7 — 7-1 32:00:00 (Interlude)",
+  "status": "partial_first_draft",
+  "source_file": "obt/main/level_st_07-01.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "1c613bfbf006470b3b8e131b9fcb8b8f53e19ea5",
+    "cn_physical_lines": 562,
+    "cn_final_newline": false,
+    "cn_url": "https://github.com/Kengxxiao/ArknightsGameData/blob/master/zh_CN/gamedata/story/obt/main/level_st_07-01.txt",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "7a204cb0010abcbf60f12017f0b2b4d02eaba156",
+    "en_physical_lines": 563,
+    "en_final_newline": true,
+    "en_url": "https://github.com/Kengxxiao/ArknightsGameData_YoStar/blob/main/en_US/gamedata/story/obt/main/level_st_07-01.txt",
+    "version_difference": "CN and EN Yostar align structurally on 286 text positions and 276 command positions. Two lexical differences in the translated range are recorded: CN 侯爵 vs EN Count (line 105), and CN 伊比利亚修士 vs EN Iberian nun (line 143). The Russian follows CN. EN has one terminal newline absent in CN."
+  },
+  "source_alignment": {
+    "cn_text_positions": 286,
+    "en_text_positions": 286,
+    "cn_named_positions": 215,
+    "en_named_positions": 215,
+    "cn_unnamed_positions": 71,
+    "en_unnamed_positions": 71,
+    "command_lines_cn": 276,
+    "command_lines_en": 276,
+    "command_counts": {
+      "HEADER": 1,
+      "stopmusic": 3,
+      "Dialog": 28,
+      "Delay": 1,
+      "Blocker": 56,
+      "playMusic": 3,
+      "delay": 16,
+      "Character": 122,
+      "Image": 2,
+      "ImageTween": 1,
+      "image": 5,
+      "Background": 5,
+      "PlaySound": 22,
+      "CameraShake": 11
+    },
+    "commands_match_cn_en": true,
+    "named_text_line_numbers_match": true,
+    "unnamed_text_line_numbers_match": true,
+    "text_line_numbers_match": true,
+    "speaker_label_positions_match": true,
+    "speaker_label_names_match_after_localization": true,
+    "speaker_label_map": {
+      "W": "W",
+      "塔露拉": "Talulah"
+    },
+    "speaker_label_spelling_exceptions": [],
+    "command_line_numbers_match": true,
+    "command_names_and_parameters_match_after_decision_option_normalization": true,
+    "decision_commands": 0,
+    "predicate_branches": 0,
+    "decision_option_total": 0,
+    "decision_values_and_predicate_references_match": true,
+    "decision_option_source_lines": [],
+    "predicate_source_lines": [],
+    "placeholder_count_cn": 0,
+    "placeholder_count_en": 0,
+    "placeholder_count_ru": 0,
+    "translated_range": {
+      "ordinal_start": 1,
+      "ordinal_end": 120,
+      "translated_source_lines": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        30,
+        31,
+        36,
+        38,
+        39,
+        41,
+        43,
+        45,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        55,
+        56,
+        58,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        81,
+        83,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        97,
+        98,
+        99,
+        100,
+        102,
+        104,
+        105,
+        107,
+        109,
+        110,
+        112,
+        113,
+        115,
+        116,
+        117,
+        119,
+        121,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        139,
+        143,
+        149,
+        150,
+        151,
+        154,
+        169,
+        170,
+        171,
+        172,
+        173,
+        176,
+        180,
+        181,
+        188,
+        189,
+        190,
+        191,
+        192,
+        194,
+        198,
+        199,
+        200,
+        201,
+        202,
+        206,
+        208,
+        209,
+        211,
+        213,
+        228,
+        229,
+        231,
+        232,
+        234,
+        235,
+        237,
+        238,
+        239,
+        241,
+        243,
+        245,
+        249
+      ],
+      "named_positions": 77,
+      "unnamed_positions": 43,
+      "command_lines_in_range": 129,
+      "command_line_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        32,
+        33,
+        34,
+        35,
+        37,
+        40,
+        42,
+        44,
+        46,
+        54,
+        57,
+        59,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        82,
+        85,
+        87,
+        89,
+        91,
+        93,
+        95,
+        101,
+        103,
+        106,
+        108,
+        111,
+        114,
+        118,
+        120,
+        122,
+        123,
+        124,
+        136,
+        137,
+        138,
+        140,
+        141,
+        142,
+        144,
+        145,
+        146,
+        147,
+        148,
+        152,
+        153,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        174,
+        175,
+        177,
+        178,
+        179,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        193,
+        195,
+        196,
+        197,
+        203,
+        204,
+        205,
+        207,
+        210,
+        212,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        230,
+        233,
+        236,
+        240,
+        242,
+        244,
+        246,
+        247,
+        248
+      ],
+      "command_counts": {
+        "HEADER": 1,
+        "stopmusic": 2,
+        "Dialog": 15,
+        "Delay": 1,
+        "Blocker": 27,
+        "playMusic": 2,
+        "delay": 6,
+        "Character": 55,
+        "Image": 1,
+        "ImageTween": 1,
+        "image": 4,
+        "Background": 1,
+        "PlaySound": 10,
+        "CameraShake": 3
+      },
+      "decision_commands": 0,
+      "decision_option_strings": 0,
+      "predicate_branches": 0,
+      "newly_translated_positions": 40,
+      "remaining_positions": 166
+    },
+    "version_differences": [
+      {
+        "source_line": 105,
+        "cn": "侯爵",
+        "en_yostar": "Count",
+        "resolution_ru": "маркиз Борис",
+        "resolution": "CN is primary; title follows the Chinese source."
+      },
+      {
+        "source_line": 143,
+        "cn": "伊比利亚修士",
+        "en_yostar": "Iberian nun",
+        "resolution_ru": "монах из Иберии",
+        "resolution": "CN is primary; 修士 is rendered as monk."
+      },
+      {
+        "source_line": 176,
+        "cn": "现在的你也太善解人意了",
+        "en_yostar": "The old Talulah wouldn't have showed her cards this early.",
+        "resolution_ru": "Слишком уж очевидно, драконья девочка. Сейчас ты вдруг стала такой понимающей — совсем не как обычно.",
+        "resolution": "CN-primary; the Chinese describes unusual consideration/accommodation, while EN paraphrases it as showing her cards early."
+      },
+      {
+        "source_line": 228,
+        "cn": "果然这个龙女不可能让你好过",
+        "en_yostar": "Man, this dragon bitch just won't let me have any fun.",
+        "resolution_ru": "эта драконья девица не даст мне ни минуты покоя",
+        "resolution": "CN-primary; the profanity in EN is absent from the Chinese line."
+      }
+    ]
+  },
+  "progress": {
+    "translated": 120,
+    "total": 286,
+    "remaining": 166,
+    "complete": false,
+    "named_translated": 77,
+    "named_total": 215,
+    "unnamed_translated": 43,
+    "unnamed_total": 71,
+    "next_ordinal": 121,
+    "next_source_line": 250,
+    "decision_commands_translated": 0,
+    "decision_commands_total": 0,
+    "decision_commands_remaining": 0,
+    "decision_option_strings_translated": 0,
+    "decision_option_strings_total": 0,
+    "decision_option_strings_remaining": 0,
+    "predicate_branches_translated": 0,
+    "predicate_branches_total": 0,
+    "predicate_branches_remaining": 0
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 13,
+      "kind": "unnamed",
+      "text_ru": "Когда-то один старый монстр сказал мне: то, что не убивает человека, лишь делает его сильнее."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 14,
+      "kind": "unnamed",
+      "text_ru": "Я всегда считала эту мысль нелепой. Но тот тип и правда был монстром, так что мне всё же пришлось обдумать его слова."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 15,
+      "kind": "unnamed",
+      "text_ru": "Неужели жук прыгает в огонь, чтобы стать сильнее? Какая глупость."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 16,
+      "kind": "unnamed",
+      "text_ru": "Нет, оставим в стороне, насколько жук вообще разумен и насколько хрупко его тело. Как бы он ни окреп, он всё равно останется жуком."
+    },
+    {
+      "ordinal": 5,
+      "source_line": 17,
+      "kind": "unnamed",
+      "text_ru": "Если жук прыгает в огонь, это доказывает лишь, что жар помутил ему рассудок — если у него вообще был рассудок. Он явно обезумел."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 18,
+      "kind": "unnamed",
+      "text_ru": "А если в пламя прыгну я? Что это докажет, кроме того, что я тоже спятила? Да, обожгусь, но разве стану от этого сильнее?"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 19,
+      "kind": "unnamed",
+      "text_ru": "Но речь ведь о смерти. Что бессмертный монстр может знать о смерти?"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 20,
+      "kind": "unnamed",
+      "text_ru": "Увы, такова горькая смерть, которой никто не может избежать."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Ты всё-таки согласилась со мной поговорить? Вот уж не ожидала."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 31,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Я думала, ты целиком поглощена планом уничтожить Лунмэнь, Талула."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 36,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "W. Ты никого не предупредила о своём визите."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Ха, тогда прошу прощения, Лидер. Я слишком долго была наёмницей и совсем забыла, что начальству полагается докладывать о каждом шаге своей жизни."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 39,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Но ты же знаешь, что мне не добраться до самого верха командной башни. Так что придётся тебе спуститься ко мне."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 41,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Твои колкости нам не помогут, W. Воссоединению нужна сила сарказов, и нам не стоит множить личные конфликты."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Зови нас просто дьяволами. Лишь мягкосердечные праведники называют нас сарказами. А мы, наёмники, прекрасно знаем, чего стоим."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Странно. «Дьяволы», «изгнанная низшая раса»… Неужели наёмники способны принять такое определение и гордиться им?"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Ещё бы. Но когда вы впервые стали называть сарказов «дьяволами», дело было не в презрении и не в том, что слово красиво звучит."
+    },
+    {
+      "ordinal": 18,
+      "source_line": 48,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Это прозвище родилось из «страха». Именно страх заставил вас так называть наш народ."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Вот почему мы, наёмники, охотно принимаем прозвище «дьяволы»: мы знаем, что оно на самом деле означает."
+    },
+    {
+      "ordinal": 20,
+      "source_line": 50,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "И мы не жалеем сил, чтобы вбить его истинный смысл в головы всех, кому удаётся выжить."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Ой, прости… Рассуждать об этом при тебе — всё равно что учить мастера его ремеслу, верно?"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 52,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Наша маленькая наёмная шайка, прославившаяся жестокостью, на твоём фоне выглядит нелепо — словно червяк, бросивший вызов крабу."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 53,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Лидер, уж кто-кто, а ты лучше всех умеешь внушать людям страх."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 55,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "«Пугай врагов и согревай товарищей»."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Пугать врагов и дарить надежду соратникам. Так Воссоединение действовало всегда."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Значит, направить центральный город Урсуса прямо на Лунмэнь — тоже чьё-то заветное желание?"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 60,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Наши бойцы Воссоединения всё ещё храбро сражаются в Лунмэне. Им нужна поддержка, и мы её окажем."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 61,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Заражённым в Лунмэне нужна надежда. Заражённые бойцы, обороняющие центральный город, тоже горячо желают принести им эту надежду."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 62,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Желания всех совпадают, а способ их исполнения мы, Воссоединение, создаём собственными руками."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "— И, разумеется, это принесёт пользу вам, сарказам."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 64,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Вам не нужна надежда, поэтому я дам вам выгоду."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Сарказские наёмники вроде тебя, рассеянные по разным городам-государствам, и те, кто управляет вами из-за кулис, будут черпать силы из хаоса между городами и странами."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 66,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "После Лунмэня ни один мобильный город не будет в безопасности. Пространство для действий дьяволов расширится, и ваш народ будет процветать."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "О, звучит заманчиво. Если судить по выгоде, я могу поддержать твою стратегию."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 70,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Ну что, W, какие у тебя ещё сомнения?"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Никаких. Ты всё изложила просто прекрасно. Может, мне даже встать и поаплодировать?"
+    },
+    {
+      "ordinal": 37,
+      "source_line": 74,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Не нужно."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 76,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "А теперь поговорим о моём задании. К сожалению, я провалилась: не смогла доставить цель, а она отказалась отдавать мне нужную вещь."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 78,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Это не твоя вина. Родственные связи между Мишей и Череполомом могли привести к неожиданным последствиям."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Тогда зачем ты послала меня схватить дочь того учёного?"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 81,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Похоже, ты могла бы прекрасно обойтись без неё и её тайн. Для нападения на Лунмэнь и запуска ядра Чернобога она тебе ни к чему."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 83,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Подлинность ключа ещё предстоит проверить."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 84,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Я могу лично убедиться, что ядро Чернобога запущено. Но Воссоединение должно полностью контролировать и способ его остановки. Именно для этого и нужен ключ."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 86,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Мефисто сказал мне, что настоящий ключ — тот, который старик Патриот нашёл в разрушенном городе."
+    },
+    {
+      "ordinal": 45,
+      "source_line": 88,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Нет, W. Мефисто не стал бы говорить тебе такого. Это ты сама нашептала ему слух, надеясь вытянуть нужные сведения."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 90,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Так это правда или нет?"
+    },
+    {
+      "ordinal": 47,
+      "source_line": 92,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Ты не хочешь выслушивать мои оправдания, но и сама оправдываться не собираешься."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "У меня свои источники. И, возможно, я стала чуть прямолинейнее прежнего. А может, ещё и перепутала, откуда что узнала? Наверное."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 96,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "W, если хочешь, чтобы я была откровеннее, я могу рассказать тебе обо всём, что запланировано. Обо всём."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 97,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Череполом и твоя первая операция помогли нам проверить скорость реакции Управления охраны Лунмэня. Благодаря этому мы скорректировали тактику и усовершенствовали план нападения на Лунмэнь."
+    },
+    {
+      "ordinal": 51,
+      "source_line": 98,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Без твоих действий мы бы не добились успеха."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 99,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Ключ действительно существовал, но после внезапной смерти Миши исчез вместе с ней. Ключ, который искал Патриот, был лишь запасным вариантом на случай подобного развития событий."
+    },
+    {
+      "ordinal": 53,
+      "source_line": 100,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Я не стану требовать, чтобы ты раскрыла источник своих сведений, но, думаю, моё объяснение должно тебя убедить."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 102,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Ладно, ладно. Но, Лидер, я хочу знать, сколько всего ключей. Это мой последний вопрос — больше спрашивать не буду. Честно."
+    },
+    {
+      "ordinal": 55,
+      "source_line": 104,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Два. Один из них был у Сергея, королевского учёного из Чернобога. Особым способом он передал этот ключ Мише."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 105,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Другим владел маркиз Борис, бывший мэр Чернобога. Когда мы захватили город, он отсоединил одну из городских платформ и бежал из Чернобога, но от Катастрофы ему не удалось спастись."
+    },
+    {
+      "ordinal": 57,
+      "source_line": 107,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Разрушенный город."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 109,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "В городе скрываются влиятельные люди, у которых есть нужные нам вещи. Если держаться на достаточном расстоянии, можно заманить Управление охраны Лунмэня в засаду."
+    },
+    {
+      "ordinal": 59,
+      "source_line": 110,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "У нас более чем достаточно причин захватить разрушенный город. А превратить его в опорный пункт — самый разумный способ использовать его."
+    },
+    {
+      "ordinal": 60,
+      "source_line": 112,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Ты всё объяснила предельно ясно, Лидер. Больше вопросов у меня нет."
+    },
+    {
+      "ordinal": 61,
+      "source_line": 113,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Погоди, я ведь не слишком много спрашиваю? Мне даже неловко, что заставила тебя так долго всё объяснять."
+    },
+    {
+      "ordinal": 62,
+      "source_line": 115,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "W. Если моя откровенность поможет развеять недопонимание между нами, я не стану жалеть на это времени."
+    },
+    {
+      "ordinal": 63,
+      "source_line": 116,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Чтобы наше сотрудничество оставалось взаимовыгодным и впредь, я продолжу разрабатывать планы на будущее. Может, это хоть немного укрепит доверие между нами, W?"
+    },
+    {
+      "ordinal": 64,
+      "source_line": 117,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Нам нужно поддерживать друг друга, чтобы справиться с трудностями, которые ещё ждут нас впереди."
+    },
+    {
+      "ordinal": 65,
+      "source_line": 119,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Правда? Я прямо растрогана."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 121,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Разумеется..."
+    },
+    {
+      "ordinal": 67,
+      "source_line": 125,
+      "kind": "unnamed",
+      "text_ru": "Мне эта женщина никогда не нравилась."
+    },
+    {
+      "ordinal": 68,
+      "source_line": 126,
+      "kind": "unnamed",
+      "text_ru": "Талула, которую они с такой теплотой вспоминают наедине, кажется мне до ужаса скучной. А та Талула, что сейчас передо мной, — просто мерзавка, с ног до головы укутанная ложью."
+    },
+    {
+      "ordinal": 69,
+      "source_line": 127,
+      "kind": "unnamed",
+      "text_ru": "О, да врать — совершенно обычное дело."
+    },
+    {
+      "ordinal": 70,
+      "source_line": 128,
+      "kind": "unnamed",
+      "text_ru": "Я и сама часто лгу. Сильнее лжи может быть разве что бомба. Правда — всего лишь стакан воды: какой от неё толк, когда горит весь дом?"
+    },
+    {
+      "ordinal": 71,
+      "source_line": 129,
+      "kind": "unnamed",
+      "text_ru": "Но когда я лгу, я знаю, что лгу: я перекраиваю собственные мысли и бросаю их другим. А эта драконица лжёт так естественно, словно говорит чужими словами."
+    },
+    {
+      "ordinal": 72,
+      "source_line": 130,
+      "kind": "unnamed",
+      "text_ru": "С кем бы она ни говорила, дело не ограничивается тем, что она отбирает лишь часть своих мыслей, скрывая истинные намерения."
+    },
+    {
+      "ordinal": 73,
+      "source_line": 131,
+      "kind": "unnamed",
+      "text_ru": "— Она словно становится совершенно другим человеком, принимает облик, который не вызовет подозрений, и говорит каждому именно то, что он хочет услышать."
+    },
+    {
+      "ordinal": 74,
+      "source_line": 132,
+      "kind": "unnamed",
+      "text_ru": "Для Воссоединения она, конечно же, всеми любимый Лидер Талула. Со мной она — Талула, деловой партнёр. А перед Патриотом превращается в Талулу-воительницу."
+    },
+    {
+      "ordinal": 75,
+      "source_line": 133,
+      "kind": "unnamed",
+      "text_ru": "Когда-нибудь она покажет своё истинное лицо, но не каждому суждено дожить до этого дня."
+    },
+    {
+      "ordinal": 76,
+      "source_line": 134,
+      "kind": "unnamed",
+      "text_ru": "И всё же… есть ли у неё вообще настоящее лицо?"
+    },
+    {
+      "ordinal": 77,
+      "source_line": 135,
+      "kind": "unnamed",
+      "text_ru": "Может, она луковица? Снимаешь слой за слоем — а внутри в конце концов ничего не остаётся?"
+    },
+    {
+      "ordinal": 78,
+      "source_line": 139,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Я серьёзно."
+    },
+    {
+      "ordinal": 79,
+      "source_line": 143,
+      "kind": "unnamed",
+      "text_ru": "Ещё мгновение назад она была искренна, словно монах из Иберии."
+    },
+    {
+      "ordinal": 80,
+      "source_line": 149,
+      "kind": "unnamed",
+      "text_ru": "Она лишь слегка подняла руку. А, я знаю этот приём."
+    },
+    {
+      "ordinal": 81,
+      "source_line": 150,
+      "kind": "unnamed",
+      "text_ru": "Сейчас она — словно самая коварная савра, мастер внезапных налётов и убийств."
+    },
+    {
+      "ordinal": 82,
+      "source_line": 151,
+      "kind": "unnamed",
+      "text_ru": "Что-то разрывает воздух передо мной. В следующее мгновение оно, похоже, расплавит моё тело."
+    },
+    {
+      "ordinal": 83,
+      "source_line": 154,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Неужели ты и правда хочешь убить меня лишь за то, что я вывела тебя из себя?"
+    },
+    {
+      "ordinal": 84,
+      "source_line": 169,
+      "kind": "unnamed",
+      "text_ru": "Похоже, никто никогда не видел, что именно представляют собой эти бесформенные штуки, которые выпускает Талула. Но я знаю, на что они способны."
+    },
+    {
+      "ordinal": 85,
+      "source_line": 170,
+      "kind": "unnamed",
+      "text_ru": "Руины, обломки. От вещей не остаётся даже их изначальной формы."
+    },
+    {
+      "ordinal": 86,
+      "source_line": 171,
+      "kind": "unnamed",
+      "text_ru": "Словно огонь без света."
+    },
+    {
+      "ordinal": 87,
+      "source_line": 172,
+      "kind": "unnamed",
+      "text_ru": "Я — её добыча."
+    },
+    {
+      "ordinal": 88,
+      "source_line": 173,
+      "kind": "unnamed",
+      "text_ru": "Мне следовало догадаться."
+    },
+    {
+      "ordinal": 89,
+      "source_line": 176,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Слишком уж очевидно, драконья девочка. Сейчас ты вдруг стала такой понимающей — совсем не как обычно."
+    },
+    {
+      "ordinal": 90,
+      "source_line": 180,
+      "kind": "unnamed",
+      "text_ru": "Сложить руки и ждать смерти или перед концом произносить длинную-длинную прощальную речь — совсем не в моём стиле."
+    },
+    {
+      "ordinal": 91,
+      "source_line": 181,
+      "kind": "unnamed",
+      "text_ru": "Я не собираюсь умирать. По крайней мере, не сейчас."
+    },
+    {
+      "ordinal": 92,
+      "source_line": 188,
+      "kind": "unnamed",
+      "text_ru": "Моё грубоватое устройство, которое я выбросила во время разговора, пролежало на земле всего несколько секунд, а затем прямо передо мной эффектно взорвалось, распустившись огненным цветком."
+    },
+    {
+      "ordinal": 93,
+      "source_line": 189,
+      "kind": "unnamed",
+      "text_ru": "В лицо ударила волна жара. К счастью, это приятное тепло исходило не от неё."
+    },
+    {
+      "ordinal": 94,
+      "source_line": 190,
+      "kind": "unnamed",
+      "text_ru": "Я мало что смыслю в Искусствах, но могу подтвердить на собственном опыте: по силе девяносто девять процентов Искусств уступают самой чистой форме применения энергии."
+    },
+    {
+      "ordinal": 95,
+      "source_line": 191,
+      "kind": "unnamed",
+      "text_ru": "Взрыв. Жар, осколки, ударная волна. От них разнесёт в клочья и врага, и меня."
+    },
+    {
+      "ordinal": 96,
+      "source_line": 192,
+      "kind": "unnamed",
+      "text_ru": "Нужно лишь продержаться с ней ещё немного. Достаточно дождаться, пока расцветут все посеянные мной семена."
+    },
+    {
+      "ordinal": 97,
+      "source_line": 194,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Ну и ну, сколько же ты потрудилась. Столько времени разыгрывала со мной целый ситком... Я не ошиблась: ты и правда отличная актриса."
+    },
+    {
+      "ordinal": 98,
+      "source_line": 198,
+      "kind": "unnamed",
+      "text_ru": "Эта драконья девочка... Да не так уж сильно я её и ненавижу, верно?"
+    },
+    {
+      "ordinal": 99,
+      "source_line": 199,
+      "kind": "unnamed",
+      "text_ru": "Тот, кто не притворяется, не станет лгать и не будет лжецом. А она... она чудовище, насквозь пропитанное ложью."
+    },
+    {
+      "ordinal": 100,
+      "source_line": 200,
+      "kind": "unnamed",
+      "text_ru": "Ей даже не нужно лгать."
+    },
+    {
+      "ordinal": 101,
+      "source_line": 201,
+      "kind": "unnamed",
+      "text_ru": "Неудивительно, что при виде неё я... немного... Ладно, признаюсь: мне и правда становится страшно. Я её не ненавижу — похоже, я действительно её боюсь."
+    },
+    {
+      "ordinal": 102,
+      "source_line": 202,
+      "kind": "unnamed",
+      "text_ru": "Страх заставляет быть настороже. А тот, кто держится настороже, всегда готов."
+    },
+    {
+      "ordinal": 103,
+      "source_line": 206,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Твои уловки... Они действительно способны нейтрализовать мои Искусства. Похоже, я тебя недооценила."
+    },
+    {
+      "ordinal": 104,
+      "source_line": 208,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Эй, на эту твою «уловку» у меня ушло несколько часов. Прояви хоть немного уважения!"
+    },
+    {
+      "ordinal": 105,
+      "source_line": 209,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Но если меня можно так легко сжечь, какой дьявол согласится идти за мной?"
+    },
+    {
+      "ordinal": 106,
+      "source_line": 211,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Ты подготовилась заранее. С самого начала ты собиралась напасть на меня."
+    },
+    {
+      "ordinal": 107,
+      "source_line": 213,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Это ты напала первой. Драконья девочка, ты решила сжечь меня, потому что я тебе мешаю, или потому что боишься, что я тебя раскусила, и хочешь заставить меня замолчать?"
+    },
+    {
+      "ordinal": 108,
+      "source_line": 228,
+      "kind": "unnamed",
+      "text_ru": "Не успела я договорить, как от её пальцев снова хлынул жар. И правда, эта драконья девица не даст мне ни минуты покоя."
+    },
+    {
+      "ordinal": 109,
+      "source_line": 229,
+      "kind": "unnamed",
+      "text_ru": "Я согнулась и нарочито перекатилась, чтобы это выглядело так, будто я просто наклонилась подтянуть шнурки."
+    },
+    {
+      "ordinal": 110,
+      "source_line": 231,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Ой-ой."
+    },
+    {
+      "ordinal": 111,
+      "source_line": 232,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "В следующий раз целься получше."
+    },
+    {
+      "ordinal": 112,
+      "source_line": 234,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "W, твои уловки раскрыты. Теперь ты враг всего Воссоединения."
+    },
+    {
+      "ordinal": 113,
+      "source_line": 235,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Зачем ты выступаешь против меня? Это не принесёт тебе никакой выгоды."
+    },
+    {
+      "ordinal": 114,
+      "source_line": 237,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Мои намерения? С чего ты взяла, что знаешь, каковы мои намерения? Скорее уж, это я не хотела так быстро переходить к открытому конфликту."
+    },
+    {
+      "ordinal": 115,
+      "source_line": 238,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Как ни крути, первой напала всё-таки ты. Хм, решила, что лучше ударить первой?"
+    },
+    {
+      "ordinal": 116,
+      "source_line": 239,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Мне ничего не остаётся. Прежде чем ты убьёшь меня, я должна убить тебя."
+    },
+    {
+      "ordinal": 117,
+      "source_line": 241,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Твоё помешательство лишь сделало тебя ещё самоувереннее и ослепило."
+    },
+    {
+      "ordinal": 118,
+      "source_line": 243,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "То, что ты мне лжёшь, — мелочь. Мне всё равно, кто кого обманывает, сколько людей ты убила и скольких обманула..."
+    },
+    {
+      "ordinal": 119,
+      "source_line": 245,
+      "kind": "named",
+      "speaker_cn": "W",
+      "text_ru": "Но, драконья девочка, ты пожалеешь, что тронула моих людей."
+    },
+    {
+      "ordinal": 120,
+      "source_line": 249,
+      "kind": "unnamed",
+      "text_ru": "Разве я из тех, кто способен такое сказать?"
+    }
+  ],
+  "decision_options_ru": [],
+  "translation_revision": "v2.04 — adds continuous positions 81–120 (CN lines 150–249); cumulative prefix 120/286, next position 121 at CN line 250.",
+  "notes_v202": [
+    "The correct 7-1 32:00:00 Interlude source is obt/main/level_st_07-01.txt. The v3.61 manifest incorrectly pointed to level_main_07-01_beg.txt; that resource contains a separate Rosmontis/FrostNova scene, not the W/Talulah Interlude shown on the 7-1 story page.",
+    "Translated the first continuous 40/286 text positions: eight unnamed monologue lines followed by 32 named W/Talulah lines. Next is position 41 at CN source line 82.",
+    "CN and EN sources align on all 286 text positions (215 named, 71 unnamed) and all 276 command positions. The only physical-line difference is the EN terminal newline. No Decision or Predicate commands occur in this resource.",
+    "CN blob 1c613bfbf006470b3b8e131b9fcb8b8f53e19ea5; EN Yostar blob 7a204cb0010abcbf60f12017f0b2b4d02eaba156. No source version drift detected.",
+    "This is a partial first draft. Literary review and Yostar Global PC in-game validation remain pending. No full source scripts or game assets are committed."
+  ],
+  "notes_v203": [
+    "Added positions 41–80, a continuous text-position range CN lines 81–149: 27 named W/Talulah lines and 13 unnamed narration lines. Total progress is 80/286 (59 named, 21 unnamed); 206 positions remain.",
+    "The v2.02 manifest incorrectly recorded the next text source line as 82. CN line 82 is a Character command; the next untranslated text position after ordinal 40 is line 81. After this update, the next untranslated text position is ordinal 81 at CN line 150.",
+    "The 29 command positions between the previous and new text segments are preserved and audited; 69 command positions are covered in the translated prefix. The source has no Decision or Predicate commands.",
+    "CN and EN Yostar match structurally on 286 text positions and 276 command positions. CN line 105 uses 侯爵 (marquess), while EN Yostar says Count; CN line 143 uses 修士 (monk), while EN Yostar says nun. Russian follows CN in both cases.",
+    "City plate 城邦地块 is rendered as «городская платформа» (working term); 废城 is rendered as «разрушенный город». Both require glossary-wide consistency review.",
+    "First draft only. Literary review and Yostar Global PC in-game validation remain pending. No full source scripts or game assets are committed."
+  ],
+  "notes_v204": [
+    "Added 40 continuous positions, ordinals 81–120, CN lines 150–249: 18 named and 22 unnamed. Cumulative progress 120/286 (77 named, 43 unnamed); 166 remain.",
+    "The cumulative translated prefix preserves 129 command positions through CN line 249.",
+    "CN/EN align on 286 text positions and 276 command positions. CN blob 1c613bfbf006470b3b8e131b9fcb8b8f53e19ea5; EN Yostar blob 7a204cb0010abcbf60f12017f0b2b4d02eaba156.",
+    "CN line 176 describes Talulah as unusually considerate while EN paraphrases this as showing her cards early; line 228 EN adds profanity absent from CN. Russian follows CN.",
+    "萨弗拉 is rendered «савра» following the established Russian race name. Arts is rendered «Искусства» per project glossary.",
+    "Partial first draft only; literary review and Yostar Global PC validation pending. No full scripts or game assets committed."
+  ]
+}

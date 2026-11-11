@@ -1,0 +1,19 @@
+Arknights RU — main story v2.04 / chronology v3.64
+2026-11-12
+
+Scene: Episode 7, 7-1 32:00:00 (Interlude)
+Source: obt/main/level_st_07-01.txt
+
+- Added 40 continuous text positions, ordinals 81–120, CN source lines 150–249.
+- Cumulative partial first draft: 120/286 positions (77 named, 43 unnamed); 166 remain.
+- Preserved 129 command positions in the translated prefix; no Decision/Predicate commands exist in this resource.
+- CN/EN source structure remains aligned: 286 text positions and 276 command positions.
+- CN blob: 1c613bfbf006470b3b8e131b9fcb8b8f53e19ea5
+- EN Yostar blob: 7a204cb0010abcbf60f12017f0b2b4d02eaba156
+- Documented lexical differences at CN lines 176 and 228; Russian follows CN.
+- Added glossary entry for Savra / 萨弗拉.
+- Updated Chapter 7 index, source audit, QA, chronology and README.
+- Partial scene remains excluded from completed-scene selection.
+
+Quality: first draft only. Literary review and Yostar Global PC in-game validation remain pending.
+No full CN/EN game scripts or game assets are included.
