@@ -1,0 +1,1381 @@
+{
+  "version": "v1.80",
+  "stage": "Main story 6-13 after battle",
+  "status": "COMPLETE_FIRST_DRAFT; STRUCTURAL_AUDIT_PASSED; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_main_06-13_end.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "df3b196895c307d550ee2d501c2ae79b27dc84e3",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "866908f1fcd804e41259bb399b4e8087d3cf8239",
+    "cn_physical_lines": 365,
+    "en_physical_lines": 366,
+    "version_difference": "CN and EN both contain 177 named dialogue positions and 5 unnamed time/location captions aligned by physical line. CN has 365 split physical lines; EN has 366 because of one additional terminal newline. Each source has 183 command lines. All command names and parameters match by line after comparing Decision option payloads separately; 7 Decision commands and 7 Predicate branches align with identical values and references. The 9 CN option strings are translated in decision_options_ru."
+  },
+  "progress": {
+    "translated": 182,
+    "total": 182,
+    "remaining": 0,
+    "next_ordinal": null,
+    "next_source_line": null,
+    "complete": true,
+    "unit": "named and unnamed text positions; Decision option payloads tracked separately"
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 6,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 7,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "(Блейз. Мне нужно, чтобы ты повела отряд и захватила преимущество.)"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 9,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "(Ты хочешь организовать внезапную атаку?)"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 11,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "(Я тревожусь из-за нынешней ситуации.)"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 12,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "(И мы, и йети своими методами смогли определить местоположение Доктора и ФростНовы. Благодаря твоим Искусствам мы точно их нашли; сейчас они в безопасности.)"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 13,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "(Но… они находятся слишком близко друг к другу. Если удастся вытащить одного, вместе с ним мы спасём и второго.)"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 14,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "(Есть две вещи, в которых мы пока не можем быть уверены.)"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 15,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "(Во-первых, кто первым доберётся до Доктора и ФростНовы…)"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 17,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "(Во-вторых, отношение самой ФростНовы.)"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "(Именно.)"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "(Если мы опередим их, нам придётся сразу обезвредить ФростНову, а затем использовать её, чтобы заручиться поддержкой Отряда йети.)"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 21,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "(Так мы не только избежим боя, но и получим возможность для более глубокого диалога.)"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 22,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "(Но если они первыми освободят свою предводительницу…)"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 24,
+      "kind": "named",
+      "speaker_cn": "杰西卡",
+      "text_ru": "А-Амия, датчик сердцебиения подал сигнал! Мы определили точное место, но глубину пока не знаем…"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Поняла!"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Эй… постой!"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "И куда она так торопливо рванула? Вот же…"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 32,
+      "kind": "named",
+      "speaker_cn": "陨星",
+      "text_ru": "Стоит делу коснуться Доктора, как она тут же начинает суетиться и забывает обо всех своих обычных привычках."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 33,
+      "kind": "named",
+      "speaker_cn": "陨星",
+      "text_ru": "И не поймёшь, то ли это недостаток Амии, то ли её сильная сторона…"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 35,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Слушай, всё, что она только что предположила, совсем на неё не похоже. Слишком уж быстро, точно и решительно."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 37,
+      "kind": "named",
+      "speaker_cn": "陨星",
+      "text_ru": "Хорошо, что она не дошла до внезапного нападения. Это уже наша работа."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 39,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Не совсем. Если мы нападём на Отряд йети исподтишка, они будут сопротивляться до последнего."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 40,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Моя цель — спасти вас всех, а не увеличить наши потери. Амия всё же не отказалась от оптимального решения."
+    },
+    {
+      "ordinal": 24,
+      "source_line": 42,
+      "kind": "named",
+      "speaker_cn": "陨星",
+      "text_ru": "…Похоже, извиняться должна я. Слишком уж я мыслю как наёмник."
+    },
+    {
+      "ordinal": 25,
+      "source_line": 44,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Но ты ведь тоже не стала действовать напрямую, верно?"
+    },
+    {
+      "ordinal": 26,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Не позволять близкой победе вскружить себе голову и продолжать придерживаться изначальной тактической цели — именно за это я доверяю Амии как полевому командиру."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 46,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Пойду проверю, как там йети."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 48,
+      "kind": "named",
+      "speaker_cn": "陨星",
+      "text_ru": "А?"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 54,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Эта конструкция… слишком сложная. Я уже ничего не понимаю."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Опиши её, а я нарисую схему."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "А? Да я даже учебник за восьмой класс средней школы не дочитал! Пощади меня."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 60,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "А чем ты тогда занимался на уроках?"
+    },
+    {
+      "ordinal": 33,
+      "source_line": 62,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Тренировался, конечно."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Может, попросим Нести попробовать? У него ведь есть какие-то Искусства."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Он у нас по стихам да сочинениям, а не по зондированию конструкций — это совсем другое."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 66,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Тогда попробуй выразить всё формулами. Как тебе идея?"
+    },
+    {
+      "ordinal": 37,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "О, неплохо придумано. С математикой у меня всё в порядке. Давай так."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 70,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Тебе не кажется, что стало жарковато?"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Да ладно, я же даже в такой толстой одежде чувствую, как Искусства старшей сестры морозят меня до костей…"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "А."
+    },
+    {
+      "ordinal": 41,
+      "source_line": 75,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Привет, кошка с Родоса Айленд."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Извини, просто стоит мне вспотеть, как вокруг становится жарко, и я начинаю потеть ещё сильнее."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 78,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "С вами мне, к счастью, гораздо прохладнее, чем обычно."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Ты нервничаешь?"
+    },
+    {
+      "ordinal": 45,
+      "source_line": 82,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Немного. Я и не думала, что мне придётся работать бок о бок с врагом."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 84,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "…По крайней мере сейчас можешь не считать нас врагами. Выкопаем старшую сестру — и поступим так, как она скажет. Но это уже потом."
+    },
+    {
+      "ordinal": 47,
+      "source_line": 86,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "…Вы и правда не похожи на остальных бойцов Воссоединения."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 88,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "А много ли вообще бойцов Воссоединения одинаковы? Ты ведь не считаешь, что ты и та маленькая крольчиха — одного склада?"
+    },
+    {
+      "ordinal": 49,
+      "source_line": 90,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Ого. А ведь ты прав. У нас тоже всякие люди встречаются."
+    },
+    {
+      "ordinal": 50,
+      "source_line": 92,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Везде так."
+    },
+    {
+      "ordinal": 51,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "По крайней мере вы готовы нас выслушать. А урсийские солдаты, которых мы встречали раньше, сразу открывали огонь, даже не задавая вопросов."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 95,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Стрелы летели во все стороны с лязгом и грохотом, а потом начиналась драка — и заканчивалась лишь тогда, когда одна из сторон погибала полностью."
+    },
+    {
+      "ordinal": 53,
+      "source_line": 97,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Всё-таки мы не солдаты Урсуса, а фармацевтическая компания."
+    },
+    {
+      "ordinal": 54,
+      "source_line": 99,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "И у фармацевтических компаний бывает такое снаряжение?"
+    },
+    {
+      "ordinal": 55,
+      "source_line": 101,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Сейчас времена неспокойные. Каждый должен уметь защитить себя, верно?"
+    },
+    {
+      "ordinal": 56,
+      "source_line": 103,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Вот бы вместо всех этих драк тратить время на земледелие."
+    },
+    {
+      "ordinal": 57,
+      "source_line": 104,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Если бы удалось вырастить ещё один урожай красной пшеницы, еды хватило бы как минимум для половины заражённых в поселении."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 105,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Если бы они не голодали, то не пошли бы в тот маленький городок и не были бы расстреляны."
+    },
+    {
+      "ordinal": 59,
+      "source_line": 106,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Если бы… Эх."
+    },
+    {
+      "ordinal": 60,
+      "source_line": 108,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Хватит об этом."
+    },
+    {
+      "ordinal": 61,
+      "source_line": 110,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Он довольно сентиментален. Хотя, думаю, все урсийцы немного сентиментальны."
+    },
+    {
+      "ordinal": 62,
+      "source_line": 112,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员C",
+      "text_ru": "Что это вы тут бездельничаете?!"
+    },
+    {
+      "ordinal": 63,
+      "source_line": 114,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "А, простите. Пора возвращаться к работе."
+    },
+    {
+      "ordinal": 64,
+      "source_line": 116,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Ничего, занимайтесь."
+    },
+    {
+      "ordinal": 65,
+      "source_line": 117,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Но то, что ты несёшь, так вкусно пахнет."
+    },
+    {
+      "ordinal": 66,
+      "source_line": 119,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "А? Это… я…"
+    },
+    {
+      "ordinal": 67,
+      "source_line": 121,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员C",
+      "text_ru": "О чём она говорит?"
+    },
+    {
+      "ordinal": 68,
+      "source_line": 123,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Ничего, ничего."
+    },
+    {
+      "ordinal": 69,
+      "source_line": 124,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Эх, аж есть захотелось."
+    },
+    {
+      "ordinal": 70,
+      "source_line": 126,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员C",
+      "text_ru": "О-о…?"
+    },
+    {
+      "ordinal": 71,
+      "source_line": 128,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Ты… ты чего на меня смотришь?"
+    },
+    {
+      "ordinal": 72,
+      "source_line": 133,
+      "kind": "unnamed",
+      "text_ru": "15:22"
+    },
+    {
+      "ordinal": 73,
+      "source_line": 134,
+      "kind": "unnamed",
+      "text_ru": "Руины района «14» в городе-спутнике Чернобога"
+    },
+    {
+      "ordinal": 74,
+      "source_line": 135,
+      "kind": "unnamed",
+      "text_ru": "Поверхность сектора"
+    },
+    {
+      "ordinal": 75,
+      "source_line": 136,
+      "kind": "unnamed",
+      "text_ru": "Спустя три часа после начала раскопок"
+    },
+    {
+      "ordinal": 76,
+      "source_line": 138,
+      "kind": "named",
+      "speaker_cn": "陨星",
+      "text_ru": "Амия, прекрати!"
+    },
+    {
+      "ordinal": 77,
+      "source_line": 139,
+      "kind": "named",
+      "speaker_cn": "陨星",
+      "text_ru": "У тебя пальцы уже не перестают кровоточить…! Хватит копать руками!"
+    },
+    {
+      "ordinal": 78,
+      "source_line": 141,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Но я… я чувствую чьи-то эмоции. Они прямо здесь, под землёй… здесь!"
+    },
+    {
+      "ordinal": 79,
+      "source_line": 142,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Если я пользуюсь инструментом, ничего не чувствую… Только пальцами могу уловить это едва заметное ощущение…"
+    },
+    {
+      "ordinal": 80,
+      "source_line": 144,
+      "kind": "named",
+      "speaker_cn": "陨星",
+      "text_ru": "Амия!"
+    },
+    {
+      "ordinal": 81,
+      "source_line": 146,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Уже совсем близко!"
+    },
+    {
+      "ordinal": 82,
+      "source_line": 148,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "(Метеорит…)"
+    },
+    {
+      "ordinal": 83,
+      "source_line": 150,
+      "kind": "named",
+      "speaker_cn": "陨星",
+      "text_ru": "(Но…)"
+    },
+    {
+      "ordinal": 84,
+      "source_line": 152,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "(Не мешай ей.)"
+    },
+    {
+      "ordinal": 85,
+      "source_line": 154,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Если они найдут их первыми… Если они найдут их первыми!"
+    },
+    {
+      "ordinal": 86,
+      "source_line": 160,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Ничего, у тебя получится!"
+    },
+    {
+      "ordinal": 87,
+      "source_line": 162,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员D",
+      "text_ru": "Нужно применить Искусства? Я… я не могу! Правда, не могу!"
+    },
+    {
+      "ordinal": 88,
+      "source_line": 164,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Разве кроме старшей сестры никто не умеет пользоваться такими Искусствами? Быстрее, быстрее! Нужно лишь сделать температуру по обе стороны разной. Чем больше разница, тем лучше!"
+    },
+    {
+      "ordinal": 89,
+      "source_line": 166,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员D",
+      "text_ru": "Я попробую… Только не вините меня, если ничего не выйдет!"
+    },
+    {
+      "ordinal": 90,
+      "source_line": 168,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "А кого ещё винить, если не тебя…"
+    },
+    {
+      "ordinal": 91,
+      "source_line": 170,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员C",
+      "text_ru": "Хватит его донимать, дайте ему сосредоточиться."
+    },
+    {
+      "ordinal": 92,
+      "source_line": 177,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Вот здесь, вот здесь!"
+    },
+    {
+      "ordinal": 93,
+      "source_line": 178,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…Стена? Я ошиблась?"
+    },
+    {
+      "ordinal": 94,
+      "source_line": 179,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Да, нужно просто разбить её, разбить…!"
+    },
+    {
+      "ordinal": 95,
+      "source_line": 180,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Но если здесь всё обрушится… я…"
+    },
+    {
+      "ordinal": 96,
+      "source_line": 182,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Я… ошиблась."
+    },
+    {
+      "ordinal": 97,
+      "source_line": 184,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Открыто!"
+    },
+    {
+      "ordinal": 98,
+      "source_line": 190,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…!"
+    },
+    {
+      "ordinal": 99,
+      "source_line": 191,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Блейз! Метеорит!"
+    },
+    {
+      "ordinal": 100,
+      "source_line": 193,
+      "kind": "named",
+      "speaker_cn": "陨星",
+      "text_ru": "…Поняла."
+    },
+    {
+      "ordinal": 101,
+      "source_line": 195,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Приготовиться."
+    },
+    {
+      "ordinal": 102,
+      "source_line": 204,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Неужели я проиграю?"
+    },
+    {
+      "ordinal": 103,
+      "source_line": 208,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Старшая сестра!"
+    },
+    {
+      "ordinal": 104,
+      "source_line": 209,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "…Этот человек…"
+    },
+    {
+      "ordinal": 105,
+      "source_line": 210,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Это ведь тот самый человек, которого на Родосе Айленд называют Доктором?"
+    },
+    {
+      "ordinal": 106,
+      "source_line": 214,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Лидер Родоса Айленд."
+    },
+    {
+      "ordinal": 107,
+      "source_line": 219,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Это я. Можешь звать меня Амией."
+    },
+    {
+      "ordinal": 108,
+      "source_line": 221,
+      "kind": "named",
+      "speaker_cn": "陨星",
+      "text_ru": "(Её кольца… они краснеют?)"
+    },
+    {
+      "ordinal": 109,
+      "source_line": 222,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "…!"
+    },
+    {
+      "ordinal": 110,
+      "source_line": 223,
+      "kind": "named",
+      "speaker_cn": "陨星",
+      "text_ru": "(Ты не собираешься её остановить?)"
+    },
+    {
+      "ordinal": 111,
+      "source_line": 224,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "(С чего мне останавливать наш единственный шанс на победу?)"
+    },
+    {
+      "ordinal": 112,
+      "source_line": 225,
+      "kind": "named",
+      "speaker_cn": "陨星",
+      "text_ru": "Блейз!"
+    },
+    {
+      "ordinal": 113,
+      "source_line": 226,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Я уважаю решение Амии."
+    },
+    {
+      "ordinal": 114,
+      "source_line": 231,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Доктор!"
+    },
+    {
+      "ordinal": 115,
+      "source_line": 233,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Нести, Родос Айленд ведь не сражается с вами?"
+    },
+    {
+      "ordinal": 116,
+      "source_line": 235,
+      "kind": "named",
+      "speaker_cn": "大熊",
+      "text_ru": "Нет."
+    },
+    {
+      "ordinal": 117,
+      "source_line": 237,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…Тогда на этом поле боя мы не враги."
+    },
+    {
+      "ordinal": 118,
+      "source_line": 239,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "ФростНова…"
+    },
+    {
+      "ordinal": 119,
+      "source_line": 241,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Если мы не враги, то незачем и сражаться."
+    },
+    {
+      "ordinal": 120,
+      "source_line": 242,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Возвращайся, Доктор. К своим."
+    },
+    {
+      "ordinal": 121,
+      "source_line": 244,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "…Как и подобает старшей сестре."
+    },
+    {
+      "ordinal": 122,
+      "source_line": 246,
+      "kind": "named",
+      "speaker_cn": "雪怪小队成员B",
+      "text_ru": "Тебе ещё и похвала нужна?"
+    },
+    {
+      "ordinal": 123,
+      "source_line": 248,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Тише."
+    },
+    {
+      "ordinal": 124,
+      "source_line": 249,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Зайчонок."
+    },
+    {
+      "ordinal": 125,
+      "source_line": 251,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Э-э, вообще-то меня зовут Амия…"
+    },
+    {
+      "ordinal": 126,
+      "source_line": 253,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Вы тоже направляетесь в Лунмэнь, верно?"
+    },
+    {
+      "ordinal": 127,
+      "source_line": 255,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…Да."
+    },
+    {
+      "ordinal": 128,
+      "source_line": 257,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Рано или поздно мы станем врагами, зайчонок. Просто пока ещё нет."
+    },
+    {
+      "ordinal": 129,
+      "source_line": 259,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "ФростНова, ты и твой отряд не такие кровожадные и хаотичные, как остальные бойцы Воссоединения."
+    },
+    {
+      "ordinal": 130,
+      "source_line": 261,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Не обвиняй моих товарищей. Ты не знаешь, через что им пришлось пройти."
+    },
+    {
+      "ordinal": 131,
+      "source_line": 263,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Но ты ведь и сама не хочешь, чтобы они продолжали так жить!"
+    },
+    {
+      "ordinal": 132,
+      "source_line": 265,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…О?"
+    },
+    {
+      "ordinal": 133,
+      "source_line": 266,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Похоже, ты умеешь читать мои мысли?"
+    },
+    {
+      "ordinal": 134,
+      "source_line": 268,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Нет. Но я чувствую твою тревогу и неловкость."
+    },
+    {
+      "ordinal": 135,
+      "source_line": 270,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Всё это исчезнет, когда Лунмэнь падёт."
+    },
+    {
+      "ordinal": 136,
+      "source_line": 272,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Родос Айленд… на самом деле может понять тебя и твой отряд."
+    },
+    {
+      "ordinal": 137,
+      "source_line": 273,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Ты, возможно, возразишь и скажешь, что я вас совсем не понимаю…"
+    },
+    {
+      "ordinal": 138,
+      "source_line": 274,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Но, госпожа ФростНова, я прекрасно знаю, через что им пришлось пройти."
+    },
+    {
+      "ordinal": 139,
+      "source_line": 276,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…Наивно."
+    },
+    {
+      "ordinal": 140,
+      "source_line": 280,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 141,
+      "source_line": 281,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Верно. Когда-то это был плащ «Патриота». Я перешила его в пальто."
+    },
+    {
+      "ordinal": 142,
+      "source_line": 283,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…Ах…"
+    },
+    {
+      "ordinal": 143,
+      "source_line": 285,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Как ты догадалась?"
+    },
+    {
+      "ordinal": 144,
+      "source_line": 286,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Неважно…"
+    },
+    {
+      "ordinal": 145,
+      "source_line": 288,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 146,
+      "source_line": 289,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Думаю, у каждого есть то, о чём он не может рассказать."
+    },
+    {
+      "ordinal": 147,
+      "source_line": 291,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Госпожа ФростНова, Родос Айленд не хочет ни с кем вступать в ненужные конфликты."
+    },
+    {
+      "ordinal": 148,
+      "source_line": 293,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "А какой из уже случившихся конфликтов вообще был необходим?"
+    },
+    {
+      "ordinal": 149,
+      "source_line": 295,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "По крайней мере, мы не хотим сражаться с твоим отрядом!"
+    },
+    {
+      "ordinal": 150,
+      "source_line": 296,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Все они честные и добрые люди. Причинять им вред или позволять им причинять вред невинным — это совершенно против наших принципов!"
+    },
+    {
+      "ordinal": 151,
+      "source_line": 298,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…Тогда молись, чтобы нам больше не пришлось встретиться."
+    },
+    {
+      "ordinal": 152,
+      "source_line": 300,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Госпожа ФростНова!"
+    },
+    {
+      "ordinal": 153,
+      "source_line": 302,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Возможно, я и сама не очень хочу причинять вам вред. Но если понадобится, я убью вас всех."
+    },
+    {
+      "ordinal": 154,
+      "source_line": 306,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Тогда попробуй победить меня."
+    },
+    {
+      "ordinal": 155,
+      "source_line": 308,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Если ты победишь меня, я подумаю над этим."
+    },
+    {
+      "ordinal": 156,
+      "source_line": 309,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Но стоит нам встретиться на поле боя, мы станем врагами. А враги будут убивать друг друга — до последнего."
+    },
+    {
+      "ordinal": 157,
+      "source_line": 311,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 158,
+      "source_line": 313,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Ах да, это — той лисичке."
+    },
+    {
+      "ordinal": 159,
+      "source_line": 315,
+      "kind": "named",
+      "speaker_cn": "霜叶",
+      "text_ru": "…Что?"
+    },
+    {
+      "ordinal": 160,
+      "source_line": 317,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Особое средство от обморожения. Рецепт мой собственный. Оно хотя бы снимет жжение и боль."
+    },
+    {
+      "ordinal": 161,
+      "source_line": 318,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Я давно изучаю такие вещи. И только что ты сражалась очень хорошо."
+    },
+    {
+      "ordinal": 162,
+      "source_line": 319,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "В моих глазах самые сильные — воины, готовые пожертвовать собой ради других."
+    },
+    {
+      "ordinal": 163,
+      "source_line": 321,
+      "kind": "named",
+      "speaker_cn": "霜叶",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 164,
+      "source_line": 322,
+      "kind": "named",
+      "speaker_cn": "霜叶",
+      "text_ru": "Спасибо."
+    },
+    {
+      "ordinal": 165,
+      "source_line": 324,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "ФростНова…"
+    },
+    {
+      "ordinal": 166,
+      "source_line": 326,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "А, постой, я тоже кое-что хочу сказать."
+    },
+    {
+      "ordinal": 167,
+      "source_line": 327,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Йети номер один!"
+    },
+    {
+      "ordinal": 168,
+      "source_line": 329,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "А… а?"
+    },
+    {
+      "ordinal": 169,
+      "source_line": 331,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…?"
+    },
+    {
+      "ordinal": 170,
+      "source_line": 332,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Что происходит?"
+    },
+    {
+      "ordinal": 171,
+      "source_line": 334,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "В следующий раз давай выпьем вместе! От твоей водки так вкусно пахнет!"
+    },
+    {
+      "ordinal": 172,
+      "source_line": 336,
+      "kind": "named",
+      "speaker_cn": "雪怪1号",
+      "text_ru": "Не говори это вслух!"
+    },
+    {
+      "ordinal": 173,
+      "source_line": 338,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 174,
+      "source_line": 339,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Хм."
+    },
+    {
+      "ordinal": 175,
+      "source_line": 341,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Ха-ха…"
+    },
+    {
+      "ordinal": 176,
+      "source_line": 342,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Прощай, Родос Айленд."
+    },
+    {
+      "ordinal": 177,
+      "source_line": 343,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Надеюсь, мы больше никогда не встретимся."
+    },
+    {
+      "ordinal": 178,
+      "source_line": 350,
+      "kind": "unnamed",
+      "text_ru": "Подземные уровни Лунмэня"
+    },
+    {
+      "ordinal": 179,
+      "source_line": 352,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 180,
+      "source_line": 353,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Я так и знала, что ты будешь здесь."
+    },
+    {
+      "ordinal": 181,
+      "source_line": 361,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 182,
+      "source_line": 362,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Здравствуйте, Родос Айленд."
+    }
+  ],
+  "decision_options_ru": [
+    {
+      "source_line": 201,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Победа за тобой."
+      ]
+    },
+    {
+      "source_line": 205,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Ты не оставила мне шанса на победу."
+      ]
+    },
+    {
+      "source_line": 211,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "Делай со мной что хочешь!",
+        "…",
+        "Привет."
+      ]
+    },
+    {
+      "source_line": 228,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Амия, нет."
+      ]
+    },
+    {
+      "source_line": 277,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "ФростНова, эта одежда на тебе ведь не твоя?"
+      ]
+    },
+    {
+      "source_line": 303,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Ты можешь присоединиться к Родосу Айленд. Нам не обязательно сражаться друг с другом."
+      ]
+    },
+    {
+      "source_line": 356,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Здравствуй, ФростНова."
+      ]
+    }
+  ],
+  "header_title_ru": "Этап 1 (после боя)",
+  "translation_revision": 1,
+  "notes_v180": [
+    "CN is the primary source for meaning; EN Yostar is used to cross-check speaker identities and structure.",
+    "The 5 unnamed time/location captions at source lines 133–136 and 350 are included as unnamed text positions.",
+    "The CN line 204 asks whether FrostNova will lose; EN Yostar phrases it as a statement about not losing. The Russian line follows CN.",
+    "CN line 154 repeats the conditional phrase twice; EN Yostar contains it once. The Russian translation preserves the repetition.",
+    "CN line 274 says Amiya knows what FrostNova's people have been through (they), while EN Yostar says what FrostNova has been through (you). The Russian translation follows CN.",
+    "CN line 281 confirms the clothing was once Patriot's cloak and FrostNova rewove it into a coat; the Russian translation follows this wording.",
+    "The CN nickname 大熊 is mapped to Nesti using EN Yostar and the project glossary; the original CN speaker label is retained in speaker_cn.",
+    "All 7 Decision commands retain their original values and matching Predicate references; all 9 option payloads are translated separately.",
+    "No placeholders or inline markup occur in this scene.",
+    "The header 第一关（后） is rendered as «Этап 1 (после боя)».",
+    "This is a complete first draft, not a literary-edited localization or a client-tested patch."
+  ]
+}

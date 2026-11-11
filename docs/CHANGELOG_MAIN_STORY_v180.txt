@@ -1,0 +1,31 @@
+Arknights RU — Main story v1.80 / repository v3.40
+Date: 2026-11-11
+
+Completed first Russian draft:
+- Source: obt/main/level_main_06-13_end.txt (Episode 6, stage 6-13, after battle).
+- 182/182 text positions translated: 177 named dialogue positions and 5 unnamed time/location captions.
+- All 7 Decision commands translated separately: 9 option strings; all 7 Predicate references and values preserved.
+- CN source blob: df3b196895c307d550ee2d501c2ae79b27dc84e3
+- EN Yostar source blob: 866908f1fcd804e41259bb399b4e8087d3cf8239
+- CN: 365 split physical lines; EN: 366 due to one additional terminal newline.
+- All 177 named positions and 5 unnamed captions align by physical line.
+- All 183 command lines align by physical line, command name and parameters after normalizing localized Decision option payloads.
+- Header 第一关（后） translated as “Этап 1 (после боя)”.
+- CN/EN disagreements at lines 204, 154, 274 and 281 are documented in the source audit; Russian follows CN for meaning.
+- Added source audit, QA, chapter index, combined selection, chronology v3.40 and regression tests.
+- Full CN/EN scripts were not copied into the repository.
+- No literary review or Yostar Global PC client test is claimed.
+
+Project progress:
+- Darknights Memoir: 13/13 full first drafts.
+- Babel: 23/23 full first drafts (4,633 entries).
+- Main story: 119 full first drafts; 8,671 named and 111 unnamed text positions in the historical register; no partial scenes.
+- Chapter 6: 22 full scenes, 2,537 text positions.
+- Combined selection: 8,781 positions; one inherited discrepancy from the historical register remains documented.
+
+Next scene in author order:
+- obt/main/level_main_06-14_beg.txt
+- 327 named and 2 unnamed positions (329 total); translation not started.
+- CN blob: 0af35351ae66a4f4dc21670ef30b833180154f05
+- EN Yostar blob: 4a17d2af3e8752dc67b5601dcbc9be21615422ab
+- 720 CN physical lines; 721 EN physical lines; 391 command lines in each source.

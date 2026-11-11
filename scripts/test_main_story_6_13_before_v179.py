@@ -99,9 +99,13 @@ class TestMainStory613BeforeV179(unittest.TestCase):
         self.assertEqual(QA["next_scene"]["remaining"], 177)
 
     def test_readme_status(self):
-        self.assertIn("v3.39", README)
+        self.assertIn("v3.40", README)
         self.assertIn("level_main_06-13_beg.txt", README)
         self.assertIn("level_main_06-13_end.txt", README)
+        self.assertIn("level_main_06-14_beg.txt", README)
+        self.assertIn("182/182", README)
+        self.assertIn("level_main_06-14_beg.txt", README)
+        self.assertIn("182/182", README)
         self.assertIn("Это полный первый черновик", README)
 
 if __name__ == "__main__":
