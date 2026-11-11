@@ -66,7 +66,9 @@ class TestMainStory613InterludeV193(unittest.TestCase):
     def test_index_manifest_qa_and_selection(self):
         rows = [x for x in INDEX.splitlines() if x.startswith("level_st_06-02.txt")]
         self.assertEqual(len(rows), 1)
-        self.assertIn("level_st_06-02.txt\\tpartial_first_draft\\t180\\t12\\t192\\tffa8947a78abc196f2ebfcb90ae2283ee136c953\\t79204a97fedbc6e1950440f86a618c8d6efa37ba", rows[0])
+        fields = rows[0].split("\t")
+        self.assertEqual(fields[:5], ["level_st_06-02.txt", "partial_first_draft", "180", "12", "192"])
+        self.assertEqual(fields[5:], ["ffa8947a78abc196f2ebfcb90ae2283ee136c953", "79204a97fedbc6e1950440f86a618c8d6efa37ba"])
         self.assertEqual(MANIFEST["version"], "v3.53")
         self.assertEqual((MANIFEST["next_text_ordinal"], MANIFEST["next_text_source_line"]), (193, 313))
         t = MANIFEST["translation_integrity"]
