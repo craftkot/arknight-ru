@@ -85,9 +85,9 @@ class TestMainStory701InterludeV203(unittest.TestCase):
         self.assertIn("partial_first_draft\t59\t21\t80", I)
 
     def test_readme_and_glossary_current_status(self):
-        self.assertIn("v3.63", R)
-        self.assertIn("80/286", R)
-        self.assertIn("№81, CN-строка 150", R)
+        self.assertIn("v3.64", R)
+        self.assertIn("120/286", R)
+        self.assertIn("№121, CN-строка 250", R)
         self.assertIn("v3.62", R)
         self.assertIn("40/286", R)
         self.assertIn("CN-строка 82", R)
