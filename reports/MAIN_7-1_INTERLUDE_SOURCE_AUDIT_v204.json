@@ -503,7 +503,8 @@
       "source_line": 176,
       "cn": "现在的你也太善解人意了",
       "en_yostar": "The old Talulah wouldn't have showed her cards this early.",
-      "resolution": "CN-primary; Russian describes Talulah as unusually accommodating."
+      "resolution": "CN-primary; Russian describes Talulah as unusually accommodating.",
+      "resolution_ru": "Слишком уж очевидно, драконья девочка. Сейчас ты вдруг стала такой понимающей — совсем не как обычно."
     },
     {
       "source_line": 228,
@@ -524,7 +525,8 @@
     "CN line 150 uses 萨弗拉, the Savra race; Russian «савра» follows the established Russian race name.",
     "CN line 176 says Talulah is unusually 善解人意 (considerate/accommodating), while EN Yostar paraphrases this as showing her cards early. Russian follows CN.",
     "CN line 228 uses 龙女 without the profanity in EN Yostar's 'dragon bitch'; Russian follows CN.",
-    "CN lines 190 and 206 use Arts/Originium Arts; Russian «Искусства» follows docs/TERMS_RU.txt."
+    "CN lines 190 and 206 use Arts/Originium Arts; Russian «Искусства» follows docs/TERMS_RU.txt.",
+    "CN line 190 最纯粹的能量使用形式 is rendered «самая чистая форма применения энергии», retaining the source's meaning of the purest form of energy use."
   ],
   "command_preservation": {
     "full_source_command_positions": 276,
