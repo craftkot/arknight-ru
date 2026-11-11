@@ -1,0 +1,2829 @@
+{
+  "version": "v2.01",
+  "stage": "6-18 Only You Know — Interlude",
+  "status": "first_draft_complete",
+  "source_file": "obt/main/level_st_06-03.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "f0b744c48b2a6592674a42e7c9c3e61cd8c226d8",
+    "cn_physical_lines": 574,
+    "cn_final_newline": false,
+    "cn_url": "https://github.com/Kengxxiao/ArknightsGameData/blob/master/zh_CN/gamedata/story/obt/main/level_st_06-03.txt",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "9f0a4ae9762665a21262d72ecd2ff09b34544187",
+    "en_physical_lines": 575,
+    "en_final_newline": true,
+    "en_url": "https://github.com/Kengxxiao/ArknightsGameData_YoStar/blob/main/en_US/gamedata/story/obt/main/level_st_06-03.txt"
+  },
+  "source_alignment": {
+    "cn_text_positions": 290,
+    "en_text_positions": 290,
+    "cn_named_positions": 285,
+    "en_named_positions": 285,
+    "cn_unnamed_positions": 5,
+    "en_unnamed_positions": 5,
+    "command_lines_cn": 284,
+    "command_lines_en": 284,
+    "command_counts": {
+      "HEADER": 1,
+      "stopmusic": 4,
+      "Dialog": 21,
+      "Character": 177,
+      "PlayMusic": 3,
+      "Blocker": 29,
+      "Background": 10,
+      "delay": 14,
+      "playsound": 1,
+      "PlaySound": 10,
+      "Decision": 2,
+      "Predicate": 5,
+      "Delay": 1,
+      "Image": 5,
+      "ImageTween": 1
+    },
+    "commands_match_cn_en": true,
+    "named_text_line_numbers_match": true,
+    "unnamed_text_line_numbers_match": true,
+    "text_line_numbers_match": true,
+    "speaker_label_positions_match": true,
+    "speaker_label_names_match_after_localization": true,
+    "speaker_label_map": {
+      "陈": "Ch'en",
+      "诗怀雅": "Swire",
+      "近卫局成员": "L. G. D. Officer",
+      "煌": "Blaze",
+      "灰喉": "GreyThroat",
+      "阿米娅": "Amiya",
+      "接待员": "Receptionist",
+      "太合": "Taihe",
+      "苍老的男声": "Elderly Male Voice",
+      "？？？": "???",
+      "监察司": "Censor",
+      "魏彦吾": "Wei Yenwu",
+      "凯尔希": "Kal'tsit",
+      "文月": "Fumizuki"
+    },
+    "speaker_label_spelling_exceptions": [],
+    "command_line_numbers_match": true,
+    "command_names_and_parameters_match_after_decision_option_normalization": true,
+    "decision_commands": 2,
+    "predicate_branches": 5,
+    "decision_option_total": 4,
+    "decision_values_and_predicate_references_match": true,
+    "decision_option_source_lines": [
+      121,
+      135
+    ],
+    "predicate_source_lines": [
+      122,
+      125,
+      128,
+      132,
+      136
+    ],
+    "placeholder_count_cn": 4,
+    "placeholder_count_en": 4,
+    "placeholder_count_ru": 4,
+    "translated_range": {
+      "ordinal_start": 1,
+      "ordinal_end": 290,
+      "translated_source_lines": [
+        30,
+        31,
+        32,
+        33,
+        37,
+        38,
+        40,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        58,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        72,
+        73,
+        74,
+        75,
+        77,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        91,
+        92,
+        94,
+        95,
+        104,
+        106,
+        108,
+        109,
+        119,
+        120,
+        123,
+        124,
+        126,
+        127,
+        129,
+        130,
+        131,
+        133,
+        134,
+        143,
+        144,
+        145,
+        146,
+        147,
+        149,
+        151,
+        152,
+        154,
+        155,
+        157,
+        158,
+        160,
+        162,
+        164,
+        166,
+        167,
+        169,
+        171,
+        173,
+        175,
+        177,
+        178,
+        179,
+        181,
+        183,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        196,
+        198,
+        199,
+        200,
+        202,
+        204,
+        206,
+        208,
+        209,
+        210,
+        211,
+        213,
+        214,
+        216,
+        217,
+        218,
+        220,
+        222,
+        223,
+        225,
+        227,
+        229,
+        231,
+        232,
+        233,
+        235,
+        236,
+        238,
+        240,
+        241,
+        242,
+        244,
+        245,
+        246,
+        253,
+        255,
+        257,
+        258,
+        260,
+        269,
+        271,
+        277,
+        279,
+        281,
+        283,
+        285,
+        288,
+        290,
+        292,
+        294,
+        296,
+        298,
+        299,
+        301,
+        303,
+        304,
+        312,
+        313,
+        315,
+        321,
+        326,
+        327,
+        329,
+        330,
+        332,
+        333,
+        334,
+        336,
+        337,
+        338,
+        340,
+        342,
+        344,
+        346,
+        348,
+        350,
+        352,
+        354,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        363,
+        365,
+        366,
+        368,
+        370,
+        371,
+        372,
+        373,
+        375,
+        377,
+        378,
+        379,
+        381,
+        383,
+        385,
+        387,
+        388,
+        389,
+        391,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398,
+        400,
+        402,
+        403,
+        404,
+        406,
+        408,
+        409,
+        417,
+        419,
+        421,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        437,
+        438,
+        440,
+        441,
+        443,
+        445,
+        447,
+        449,
+        451,
+        453,
+        455,
+        457,
+        459,
+        461,
+        463,
+        464,
+        465,
+        467,
+        468,
+        470,
+        472,
+        474,
+        475,
+        476,
+        477,
+        479,
+        481,
+        482,
+        484,
+        486,
+        487,
+        488,
+        489,
+        490,
+        492,
+        493,
+        494,
+        496,
+        497,
+        504,
+        506,
+        508,
+        510,
+        512,
+        514,
+        520,
+        522,
+        524,
+        525,
+        526,
+        528,
+        530,
+        532,
+        533,
+        540,
+        541,
+        542,
+        544,
+        545,
+        547,
+        553,
+        555,
+        557,
+        559,
+        560,
+        561,
+        562
+      ],
+      "named_positions": 285,
+      "unnamed_positions": 5,
+      "command_lines": 284,
+      "command_counts": {
+        "HEADER": 1,
+        "stopmusic": 4,
+        "Dialog": 21,
+        "Character": 177,
+        "PlayMusic": 3,
+        "Blocker": 29,
+        "Background": 10,
+        "delay": 14,
+        "playsound": 1,
+        "PlaySound": 10,
+        "Decision": 2,
+        "Predicate": 5,
+        "Delay": 1,
+        "Image": 5,
+        "ImageTween": 1
+      },
+      "command_line_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        34,
+        35,
+        36,
+        39,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        76,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        93,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        105,
+        107,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        121,
+        122,
+        125,
+        128,
+        132,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        148,
+        150,
+        153,
+        156,
+        159,
+        161,
+        163,
+        165,
+        168,
+        170,
+        172,
+        174,
+        176,
+        180,
+        182,
+        184,
+        195,
+        197,
+        201,
+        203,
+        205,
+        207,
+        212,
+        215,
+        219,
+        221,
+        224,
+        226,
+        228,
+        230,
+        234,
+        237,
+        239,
+        243,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        254,
+        256,
+        259,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        270,
+        272,
+        273,
+        274,
+        275,
+        276,
+        278,
+        280,
+        282,
+        284,
+        286,
+        287,
+        289,
+        291,
+        293,
+        295,
+        297,
+        300,
+        302,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        314,
+        316,
+        317,
+        318,
+        319,
+        320,
+        322,
+        323,
+        324,
+        325,
+        328,
+        331,
+        335,
+        339,
+        341,
+        343,
+        345,
+        347,
+        349,
+        351,
+        353,
+        355,
+        362,
+        364,
+        367,
+        369,
+        374,
+        376,
+        380,
+        382,
+        384,
+        386,
+        390,
+        392,
+        399,
+        401,
+        405,
+        407,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415,
+        416,
+        418,
+        420,
+        422,
+        436,
+        439,
+        442,
+        444,
+        446,
+        448,
+        450,
+        452,
+        454,
+        456,
+        458,
+        460,
+        462,
+        466,
+        469,
+        471,
+        473,
+        478,
+        480,
+        483,
+        485,
+        491,
+        495,
+        498,
+        499,
+        500,
+        501,
+        502,
+        503,
+        505,
+        507,
+        509,
+        511,
+        513,
+        515,
+        516,
+        517,
+        518,
+        519,
+        521,
+        523,
+        527,
+        529,
+        531,
+        534,
+        535,
+        536,
+        537,
+        538,
+        539,
+        543,
+        546,
+        548,
+        549,
+        550,
+        551,
+        552,
+        554,
+        556,
+        558,
+        563,
+        564,
+        565,
+        566,
+        567,
+        568,
+        569,
+        570,
+        571,
+        572,
+        573,
+        574
+      ],
+      "decision_commands_translated": 2,
+      "decision_option_strings_translated": 4,
+      "predicate_branches_translated": 5,
+      "decision_option_source_lines": [
+        121,
+        135
+      ],
+      "predicate_source_lines": [
+        122,
+        125,
+        128,
+        132,
+        136
+      ],
+      "decision_values_and_predicate_references_match": true,
+      "placeholder_count_cn": 4,
+      "placeholder_count_en": 4,
+      "placeholder_count_ru": 4,
+      "inline_markup_tags_in_dialogue_payloads": 0
+    }
+  },
+  "progress": {
+    "translated": 290,
+    "total": 290,
+    "remaining": 0,
+    "complete": true,
+    "named_translated": 285,
+    "named_total": 285,
+    "unnamed_translated": 5,
+    "unnamed_total": 5,
+    "next_ordinal": null,
+    "next_source_line": null,
+    "decision_commands_translated": 2,
+    "decision_commands_total": 2,
+    "decision_commands_remaining": 0,
+    "decision_option_strings_translated": 4,
+    "decision_option_strings_total": 4,
+    "decision_option_strings_remaining": 0,
+    "predicate_branches_translated": 5,
+    "predicate_branches_total": 5,
+    "predicate_branches_remaining": 0
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 30,
+      "kind": "unnamed",
+      "text_ru": "Операция по обороне Лунмэня завершена. Повторяю: операция по обороне Лунмэня завершена."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 31,
+      "kind": "unnamed",
+      "text_ru": "Полицейским следует проверить снаряжение, вернуться в свои участки и в течение одного рабочего дня явиться в расположение своих подразделений."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 32,
+      "kind": "unnamed",
+      "text_ru": "Сотрудникам Управления охраны Лунмэня следует собраться со своими отрядами и прибыть в Управление, чтобы ожидать дальнейших приказов."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 33,
+      "kind": "unnamed",
+      "text_ru": "Повторяю…"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 37,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Что ты здесь делаешь?"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "…И что это у тебя за выражение лица?"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 40,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 41,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Н-ничего."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "…Ясно."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Стой. Куда ты идёшь?"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Проверить."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Не нужно. Я уже всё проверила — там ничего нет."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Вот как."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 53,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Чэнь, хватит. Бой уже окончен."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 55,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Будь добра, посторонись, мисс Свирь."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 57,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Ты остановила Воссоединение, даже их спецотряд!"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Ты вывела их на свет сразу перед Управлением охраны Лунмэня, Родос Айленд и даже Цензором!"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Ты их остановила!"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 61,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Отойди!"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Как руководитель специальной инспекционной группы, ты уже сделала достаточно."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Хватит расследовать! Чего ещё ты хочешь узнать? Больше нечего выяснять!"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Я хочу знать, что произошло."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 69,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Ты понимаешь, что означает эта система канализации?"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Ты уже сделала достаточно. Ещё один шаг — и окажешься по ту сторону Лунмэня!"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Мы вполне можем сделать Лунмэнь лучше. Отстроить его заново, избавиться от всего, что осталось от прошлого!"
+    },
+    {
+      "ordinal": 26,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Но, Чэнь, не спускайся туда. Не смотри!"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 74,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Чувство справедливости, чувство долга, чувство принадлежности — всё это в тебе есть. В этот раз ты действовала безупречно!"
+    },
+    {
+      "ordinal": 28,
+      "source_line": 75,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "А-Чэнь!"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 78,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Отойди."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Ты именно такая, поэтому тебе нельзя это видеть!"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 82,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Тебе ведь сказали: «Не расследуй дело с канализацией», верно?"
+    },
+    {
+      "ordinal": 33,
+      "source_line": 84,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 86,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Мне сказали то же самое."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 88,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Тогда почему ты продолжаешь расследование?! Никто не хочет, чтобы ты это увидела! Никто!"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 90,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Нет."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Сам Лунмэнь хочет, чтобы я увидела. Я такая, какая есть, и должна это увидеть."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 92,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Свирь. Не заставляй меня обнажить меч."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 95,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "У-у…"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 104,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Что это за запах?"
+    },
+    {
+      "ordinal": 42,
+      "source_line": 106,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Это…"
+    },
+    {
+      "ordinal": 43,
+      "source_line": 108,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 44,
+      "source_line": 109,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "…………"
+    },
+    {
+      "ordinal": 45,
+      "source_line": 119,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "А, вы уже вернулись."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 120,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Командира противника — заражённого по имени Мефисто — поймали?"
+    },
+    {
+      "ordinal": 47,
+      "source_line": 123,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Что… Что вы сказали? И это вы называете сотрудничеством?.."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 124,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Как так? Разве вы, сотрудники Родос Айленд, не отправились за ним?"
+    },
+    {
+      "ordinal": 49,
+      "source_line": 126,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "…Можете дать точный ответ?"
+    },
+    {
+      "ordinal": 50,
+      "source_line": 127,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Нам ведь нужно отчитаться. И если вражеский командир не был убит…"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 129,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Мёртв? Как он умер?"
+    },
+    {
+      "ordinal": 52,
+      "source_line": 130,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Вы уверены? Установить личность заражённого можно только по кристаллическим останкам и результатам вскрытия. Орипатия стирает первичные биологические признаки…"
+    },
+    {
+      "ordinal": 53,
+      "source_line": 131,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Вы ведь это знаете, верно?"
+    },
+    {
+      "ordinal": 54,
+      "source_line": 133,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "А? Постойте, куда вы? Кого это вы несёте?"
+    },
+    {
+      "ordinal": 55,
+      "source_line": 134,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "…Что же там внизу произошло?"
+    },
+    {
+      "ordinal": 56,
+      "source_line": 143,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Остатки отряда Воссоединения, должно быть, уже благополучно отступили."
+    },
+    {
+      "ordinal": 57,
+      "source_line": 144,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Не знаю, можно ли считать это тем исходом, которого хотела белая крольчиха... Хотя к концу ей, похоже, уже было всё равно."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 145,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Как бы то ни было, она добилась своего."
+    },
+    {
+      "ordinal": 59,
+      "source_line": 146,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Белая крольчиха... Ну и упрямая же ты."
+    },
+    {
+      "ordinal": 60,
+      "source_line": 147,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "«Победа с блеском»? Да какая там победа... Не будь ты при смерти, мы бы сейчас все лежали кучей ледяных осколков."
+    },
+    {
+      "ordinal": 61,
+      "source_line": 149,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Ты ведь выжила? И получила ценный боевой опыт."
+    },
+    {
+      "ordinal": 62,
+      "source_line": 151,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Ценность такого опыта проявится лишь потом. А тех, кто погиб у тебя на глазах, уже не вернуть."
+    },
+    {
+      "ordinal": 63,
+      "source_line": 152,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Я могла её спасти."
+    },
+    {
+      "ordinal": 64,
+      "source_line": 154,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 65,
+      "source_line": 155,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Амия уже пошла к руководству Лунмэня?"
+    },
+    {
+      "ordinal": 66,
+      "source_line": 157,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Наверное. Пусть они сами разбираются, мне всё равно."
+    },
+    {
+      "ordinal": 67,
+      "source_line": 158,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Грейтроут, помоги-ка."
+    },
+    {
+      "ordinal": 68,
+      "source_line": 160,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "А? Зачем?"
+    },
+    {
+      "ordinal": 69,
+      "source_line": 162,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Ты что, издеваешься? Неужели не видишь, в каком я состоянии?"
+    },
+    {
+      "ordinal": 70,
+      "source_line": 164,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Ты не можешь встать? А выглядишь вполне бодро."
+    },
+    {
+      "ordinal": 71,
+      "source_line": 166,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "…Оператор Грейтроут, не могла бы ты помочь мне подняться? Я потеряла слишком много крови, к тому же у меня сильное переохлаждение. На вид я цела, но вообще-то умираю. Будь добра, поскорее помоги мне вернуться на корабль!"
+    },
+    {
+      "ordinal": 72,
+      "source_line": 167,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "А... точно. Ладно, не буду тебя утруждать."
+    },
+    {
+      "ordinal": 73,
+      "source_line": 169,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Почему?"
+    },
+    {
+      "ordinal": 74,
+      "source_line": 171,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Ты ведь собиралась покинуть Родос Айленд? Не нужно заставлять себя и дальше работать на Родос Айленд."
+    },
+    {
+      "ordinal": 75,
+      "source_line": 173,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "…Почему?"
+    },
+    {
+      "ordinal": 76,
+      "source_line": 175,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "А?!"
+    },
+    {
+      "ordinal": 77,
+      "source_line": 177,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "В той битве я почувствовала, как страдают заражённые."
+    },
+    {
+      "ordinal": 78,
+      "source_line": 178,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Их страдания оказались куда более удручающими и безысходными, чем всё, что происходит вокруг нас."
+    },
+    {
+      "ordinal": 79,
+      "source_line": 179,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Я поняла, как страдают заражённые. Думаю, мы можем не допустить, чтобы такое повторялось."
+    },
+    {
+      "ordinal": 80,
+      "source_line": 181,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Боюсь, ты видела слишком мало трагедий. Грейтроут, скажи: чем мы с тобой отличаемся?"
+    },
+    {
+      "ordinal": 81,
+      "source_line": 183,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Ты заражённая?"
+    },
+    {
+      "ordinal": 82,
+      "source_line": 185,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Если бы мы тогда погибли в бою, какая была бы разница между обычным человеком и заражённым? Просто несколько человек погибли бы — и всё."
+    },
+    {
+      "ordinal": 83,
+      "source_line": 186,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Кому-то важно, Старший он или Древний; кто-то дорожит страной, в которой родился; для кого-то важны раса и происхождение, а для кого-то — богатство..."
+    },
+    {
+      "ordinal": 84,
+      "source_line": 187,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Будучи заражённой, я никогда не твердила другим: «Мне живётся хуже, чем всем остальным», «Заражённых постоянно угнетают» — и прочую чушь. Никто не хочет это слушать."
+    },
+    {
+      "ordinal": 85,
+      "source_line": 188,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "В этих трущобах никто из тех, кого ты видишь, — ни заражённые, ни незаражённые — не станет это слушать."
+    },
+    {
+      "ordinal": 86,
+      "source_line": 189,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Страдания нельзя мерить по степени тяжести. Я лишь хочу, чтобы страдания заражённых воспринимали всерьёз."
+    },
+    {
+      "ordinal": 87,
+      "source_line": 190,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "«Заражённые — тоже люди». Всё так просто. Я не хочу, чтобы на меня смотрели с жалостью, как на зверушку. Я добиваюсь равного отношения — чтобы на меня смотрели как на равную."
+    },
+    {
+      "ordinal": 88,
+      "source_line": 191,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Резня, изоляция, заключение, каторжный труд — я видела всё это, но до сих пор не знаю, что можно противопоставить всему этому, чтобы сказать «нет»."
+    },
+    {
+      "ordinal": 89,
+      "source_line": 192,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Белая крольчиха сделала то, чего не смогла я."
+    },
+    {
+      "ordinal": 90,
+      "source_line": 193,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Я увидела настоящую борьбу на пороге смерти... Даже когда ей оставались считаные мгновения, она всё равно хотела показать нам весь этот ужас. Такая стойкость выше любых различий между людьми."
+    },
+    {
+      "ordinal": 91,
+      "source_line": 194,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Теперь я хоть сейчас готова сцепиться с этими бессердечными типами в чёрных плащах из Лунмэня. На фоне этой белой крольчихи они ничто."
+    },
+    {
+      "ordinal": 92,
+      "source_line": 196,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Правда?"
+    },
+    {
+      "ordinal": 93,
+      "source_line": 198,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Да я так, для красного словца. Меня же там убьют."
+    },
+    {
+      "ordinal": 94,
+      "source_line": 199,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Но умереть, сражаясь за свои убеждения, — достойный конец. Можно сказать, одна из моих жизненных целей."
+    },
+    {
+      "ordinal": 95,
+      "source_line": 200,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "…Видишь, в каком состоянии эти двое?"
+    },
+    {
+      "ordinal": 96,
+      "source_line": 202,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Кого?"
+    },
+    {
+      "ordinal": 97,
+      "source_line": 204,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Доктора {@nickname} и Амию."
+    },
+    {
+      "ordinal": 98,
+      "source_line": 206,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Куда направляется Доктор?"
+    },
+    {
+      "ordinal": 99,
+      "source_line": 208,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "На Родос Айленд — похоронить белую крольчиху."
+    },
+    {
+      "ordinal": 100,
+      "source_line": 209,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Ха. Хотя «похоронить» — громко сказано: на самом деле тело просто утилизируют, чтобы её кристаллы не рассыпались в пыль и не вызвали вторичного заражения. Нам, заражённым, всё равно приходится через это проходить."
+    },
+    {
+      "ordinal": 101,
+      "source_line": 210,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "По крайней мере, как оператор Родоса Айленд, я уже начала доверять Доктору. Грейтроут, ты видела взгляд Доктора {@nickname}?"
+    },
+    {
+      "ordinal": 102,
+      "source_line": 211,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Именно этот взгляд заставляет меня верить, что этому человеку можно доверять."
+    },
+    {
+      "ordinal": 103,
+      "source_line": 213,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Видела."
+    },
+    {
+      "ordinal": 104,
+      "source_line": 214,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "…Но, по-моему, сейчас взгляд Амии всё-таки страшнее."
+    },
+    {
+      "ordinal": 105,
+      "source_line": 216,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Потому что они направляются в разные места."
+    },
+    {
+      "ordinal": 106,
+      "source_line": 217,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Доктор {@nickname} направляется к печи для сжигания заражённых, а Амия — в Лунмэнь, на новое кладбище заражённых."
+    },
+    {
+      "ordinal": 107,
+      "source_line": 218,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Теперь я наконец понимаю, почему Эйс говорил, что Доктор {@nickname} так же удивителен, как Амия и Кальцит."
+    },
+    {
+      "ordinal": 108,
+      "source_line": 220,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "А где Кальцит?"
+    },
+    {
+      "ordinal": 109,
+      "source_line": 222,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Кальцит там, где ей и положено быть."
+    },
+    {
+      "ordinal": 110,
+      "source_line": 223,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Ладно, пошли. Раз ты не собираешься уходить с Родоса Айленд, попрошу тебя ещё раз: помоги мне подняться."
+    },
+    {
+      "ordinal": 111,
+      "source_line": 225,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Почему бы не дождаться медиков?"
+    },
+    {
+      "ordinal": 112,
+      "source_line": 227,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Потому что сейчас я выгляжу просто ужасно. Элитный оперативник... должен держать марку."
+    },
+    {
+      "ordinal": 113,
+      "source_line": 229,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "…Сама себя мучаешь, лишь бы не потерять лицо."
+    },
+    {
+      "ordinal": 114,
+      "source_line": 231,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "В такие моменты не стоит бросаться словами, которые могут ранить…!"
+    },
+    {
+      "ordinal": 115,
+      "source_line": 232,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "И знаешь, кто у нас сопровождающий медик? Не кто иной, как Гавиал! Именно Гавиал. Она сказала, что только помоет руки и сразу придёт. Вот-вот будет здесь!"
+    },
+    {
+      "ordinal": 116,
+      "source_line": 233,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Тебе нравится, когда тебя с ног до головы забрызгивает кровью?"
+    },
+    {
+      "ordinal": 117,
+      "source_line": 235,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Дай руку."
+    },
+    {
+      "ordinal": 118,
+      "source_line": 236,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Кровь я не люблю."
+    },
+    {
+      "ordinal": 119,
+      "source_line": 238,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "Тогда нам лучше поторопиться..."
+    },
+    {
+      "ordinal": 120,
+      "source_line": 240,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Кстати."
+    },
+    {
+      "ordinal": 121,
+      "source_line": 241,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Если бы я не спасла тех двух детей-заражённых, ты бы не спасла меня, и у меня не было бы шанса изменить своё отношение к заражённым."
+    },
+    {
+      "ordinal": 122,
+      "source_line": 242,
+      "kind": "named",
+      "speaker_cn": "灰喉",
+      "text_ru": "Вот чему ещё меня научили заражённые."
+    },
+    {
+      "ordinal": 123,
+      "source_line": 244,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "А?"
+    },
+    {
+      "ordinal": 124,
+      "source_line": 245,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "…Ты опять всё перепутала."
+    },
+    {
+      "ordinal": 125,
+      "source_line": 246,
+      "kind": "named",
+      "speaker_cn": "煌",
+      "text_ru": "И при чём тут то, что я тебя спасла?"
+    },
+    {
+      "ordinal": 126,
+      "source_line": 253,
+      "kind": "unnamed",
+      "text_ru": "Лунмэнь, Верхний город — канцелярия главы администрации"
+    },
+    {
+      "ordinal": 127,
+      "source_line": 255,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Здравствуйте. У меня назначена встреча с господином Вэем. Будьте добры, проводите меня."
+    },
+    {
+      "ordinal": 128,
+      "source_line": 257,
+      "kind": "named",
+      "speaker_cn": "接待员",
+      "text_ru": "А, предыдущая встреча главы Вэя как раз только что закончилась. Прошу сюда, мисс."
+    },
+    {
+      "ordinal": 129,
+      "source_line": 258,
+      "kind": "named",
+      "speaker_cn": "接待员",
+      "text_ru": "Э-э… Вы…"
+    },
+    {
+      "ordinal": 130,
+      "source_line": 260,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Амия. Амия, заражённая."
+    },
+    {
+      "ordinal": 131,
+      "source_line": 269,
+      "kind": "named",
+      "speaker_cn": "太合",
+      "text_ru": "На этом мы откланяемся."
+    },
+    {
+      "ordinal": 132,
+      "source_line": 271,
+      "kind": "named",
+      "speaker_cn": "苍老的男声",
+      "text_ru": "Не стану вас провожать."
+    },
+    {
+      "ordinal": 133,
+      "source_line": 277,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Ну как?"
+    },
+    {
+      "ordinal": 134,
+      "source_line": 279,
+      "kind": "named",
+      "speaker_cn": "太合",
+      "text_ru": "Я уже видел, насколько беспощадны его методы."
+    },
+    {
+      "ordinal": 135,
+      "source_line": 281,
+      "kind": "named",
+      "speaker_cn": "监察司",
+      "text_ru": "На первый взгляд — ничего особенного. Но мы с вами оба знаем, как всё обстоит на самом деле."
+    },
+    {
+      "ordinal": 136,
+      "source_line": 283,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Такие люди всегда ведут себя одинаково. Теперь я понимаю, почему именно он стоит на страже Лунмэня."
+    },
+    {
+      "ordinal": 137,
+      "source_line": 285,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 138,
+      "source_line": 288,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 139,
+      "source_line": 290,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Заражённая? Что ты здесь делаешь?"
+    },
+    {
+      "ordinal": 140,
+      "source_line": 292,
+      "kind": "named",
+      "speaker_cn": "接待员",
+      "text_ru": "Ах, уважаемый гость, прошу не обращать внимания. Эта девушка тоже пришла по делу к господину Вэю…"
+    },
+    {
+      "ordinal": 141,
+      "source_line": 294,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Я не собираюсь ни о чём просить господина Вэя."
+    },
+    {
+      "ordinal": 142,
+      "source_line": 296,
+      "kind": "named",
+      "speaker_cn": "接待员",
+      "text_ru": "(Мисс Амия, хотя бы отойдите пока в сторону…!)"
+    },
+    {
+      "ordinal": 143,
+      "source_line": 298,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "По одежде видно… Вы ведь из Родоса Айленд, который сотрудничает с Лунмэнем."
+    },
+    {
+      "ordinal": 144,
+      "source_line": 299,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Заражённым не стоит здесь задерживаться надолго. Лунмэнь умеет пожирать людей."
+    },
+    {
+      "ordinal": 145,
+      "source_line": 301,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Спасибо за предупреждение. Но эта земля, когда пожирает людей, никого не разбирает."
+    },
+    {
+      "ordinal": 146,
+      "source_line": 303,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "О…"
+    },
+    {
+      "ordinal": 147,
+      "source_line": 304,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Тогда и мне следует поблагодарить вас за предупреждение."
+    },
+    {
+      "ordinal": 148,
+      "source_line": 312,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 149,
+      "source_line": 313,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Знаешь, кто она?"
+    },
+    {
+      "ordinal": 150,
+      "source_line": 315,
+      "kind": "named",
+      "speaker_cn": "监察司",
+      "text_ru": "Что ты опять задумал?"
+    },
+    {
+      "ordinal": 151,
+      "source_line": 321,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Господин Вэй."
+    },
+    {
+      "ordinal": 152,
+      "source_line": 326,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "О… Мисс Амия, я так и думал, что вы придёте. Операция прошла успешно, и Родос Айленд внесла в неё немалый вклад."
+    },
+    {
+      "ordinal": 153,
+      "source_line": 327,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Далее Лунмэнь выполнит обязательства по договору: предоставит Родосу Айленд необходимую коммерческую поддержку и прочее…"
+    },
+    {
+      "ordinal": 154,
+      "source_line": 329,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Не нужно, господин Вэй."
+    },
+    {
+      "ordinal": 155,
+      "source_line": 330,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Я пришла лишь расторгнуть договор."
+    },
+    {
+      "ordinal": 156,
+      "source_line": 332,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Вот как?"
+    },
+    {
+      "ordinal": 157,
+      "source_line": 333,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Неужели Родос Айленд так сильно затаила обиду на меня за тактику заманивания противника вглубь? Если я допустил что-то неподобающее, можете прямо сказать об этом."
+    },
+    {
+      "ordinal": 158,
+      "source_line": 334,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Я принесу вам искренние извинения, мисс Амия."
+    },
+    {
+      "ordinal": 159,
+      "source_line": 336,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 160,
+      "source_line": 337,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Господин Вэй, вы всегда держитесь так учтиво, что я каждый раз теряюсь."
+    },
+    {
+      "ordinal": 161,
+      "source_line": 338,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Но я уже увидела ваши вооружённые силы и ваш план."
+    },
+    {
+      "ordinal": 162,
+      "source_line": 340,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Не стоит делать далеко идущие выводы по итогам сражения, мисс Амия. Это ведь не обвинение?"
+    },
+    {
+      "ordinal": 163,
+      "source_line": 342,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Нет, господин Вэй. Я не вправе вас обвинять. Я пришла лишь уладить дальнейшие формальности."
+    },
+    {
+      "ordinal": 164,
+      "source_line": 344,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Почему вы хотите расторгнуть договор?"
+    },
+    {
+      "ordinal": 165,
+      "source_line": 346,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Потому что я решила, что сотрудничество с Лунмэнем не подходит Родосу Айленд."
+    },
+    {
+      "ordinal": 166,
+      "source_line": 348,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Взаимная выгода — разве этого недостаточно для коммерческой компании?"
+    },
+    {
+      "ordinal": 167,
+      "source_line": 350,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Даже у компании есть собственное направление развития."
+    },
+    {
+      "ordinal": 168,
+      "source_line": 352,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "То есть вы считаете, что Лунмэнь обделил ту часть вашей компании, которая работает с заражёнными?"
+    },
+    {
+      "ordinal": 169,
+      "source_line": 354,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Нет. У Родоса Айленд никогда не было отдельного «направления заражённых»."
+    },
+    {
+      "ordinal": 170,
+      "source_line": 356,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Родос Айленд сражается не только ради заражённых."
+    },
+    {
+      "ordinal": 171,
+      "source_line": 357,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Я не просто заражённая… Я тоже часть этой земли."
+    },
+    {
+      "ordinal": 172,
+      "source_line": 358,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Родос Айленд специализируется на решении проблем заражённых, ведь многие наши операторы сами заражены и прекрасно знают, через что проходят заражённые и в каких условиях живут, —"
+    },
+    {
+      "ordinal": 173,
+      "source_line": 359,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Но стремление избавить эту землю от тени орипатии вовсе не означает, что мы сражаемся только за заражённых."
+    },
+    {
+      "ordinal": 174,
+      "source_line": 360,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Господин Вэй, если вы считаете нас лишь наивной и неопытной организацией по защите прав заражённых, располагающей определённой вооружённой силой… мне будет жаль. Это заблуждение."
+    },
+    {
+      "ordinal": 175,
+      "source_line": 361,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Родос Айленд сражается за всех жителей этой земли — за вас, за нас и за них."
+    },
+    {
+      "ordinal": 176,
+      "source_line": 363,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 177,
+      "source_line": 365,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Лунмэню не нужна наша помощь. Если мы сейчас расторгнем договор, Родос Айленд покинет Лунмэнь."
+    },
+    {
+      "ordinal": 178,
+      "source_line": 366,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Родос Айленд уже выполнил все свои обязательства. После расторжения договора все дополнительные условия также утратят силу — это чёрным по белому прописано в контракте."
+    },
+    {
+      "ordinal": 179,
+      "source_line": 368,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Родос Айленд вполне может счесть выгоды, которыми с ним поделился Лунмэнь, подарком."
+    },
+    {
+      "ordinal": 180,
+      "source_line": 370,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Не стоит, господин Вэй. Для Родоса Айленд важнее не эти «выгоды», а то, как ведёт себя партнёр."
+    },
+    {
+      "ordinal": 181,
+      "source_line": 371,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "С самого начала вы рассматривали нас как фигуру в своей игре. Теперь эта фигура доказала свою ценность, и наш уход, должно быть, тоже предусмотрен вашим планом."
+    },
+    {
+      "ordinal": 182,
+      "source_line": 372,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Но, господин Вэй…"
+    },
+    {
+      "ordinal": 183,
+      "source_line": 373,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 184,
+      "source_line": 375,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Продолжайте."
+    },
+    {
+      "ordinal": 185,
+      "source_line": 377,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Если бы в неведении держали только Родос Айленд, я бы не стала расторгать этот договор."
+    },
+    {
+      "ordinal": 186,
+      "source_line": 378,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Но мы — не единственные, от кого Лунмэнь скрыл правду."
+    },
+    {
+      "ordinal": 187,
+      "source_line": 379,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Управление охраны Лунмэня, жители города, заражённые из трущоб… Они не знают о грязных методах, скрытых за всем этим."
+    },
+    {
+      "ordinal": 188,
+      "source_line": 381,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Я слышал, мисс Амия умеет читать мысли."
+    },
+    {
+      "ordinal": 189,
+      "source_line": 383,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Господин Вэй волен считать, что я не умею читать мысли, а волен — что умею."
+    },
+    {
+      "ordinal": 190,
+      "source_line": 385,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Но я ведь могу расценить ваши предположения как предупреждение, а не как допрос, верно?"
+    },
+    {
+      "ordinal": 191,
+      "source_line": 387,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Я не собираюсь критиковать стратегию Лунмэня и его планы на будущее, господин Вэй. Но я вправе не допустить, чтобы мои операторы участвовали в них."
+    },
+    {
+      "ordinal": 192,
+      "source_line": 388,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Господин Вэй, будь то оператор Родоса Айленд или участник Воссоединения, изгнанник из Чернобога или житель Лунмэня…"
+    },
+    {
+      "ordinal": 193,
+      "source_line": 389,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Все они — живые люди. Я не считаю правильным, чтобы их судьбами распоряжались обстоятельства, о которых они сами даже не знают."
+    },
+    {
+      "ordinal": 194,
+      "source_line": 391,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "А я считаю, что важнее выполнять свою роль, чем осознавать её."
+    },
+    {
+      "ordinal": 195,
+      "source_line": 393,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…Нет. Так быть не должно."
+    },
+    {
+      "ordinal": 196,
+      "source_line": 394,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Некоторые вещи для вас, господин Вэй… возможно, стали слишком привычными. Как для обычных людей, изоляция заражённых — обыденность, не заслуживающая обсуждения."
+    },
+    {
+      "ordinal": 197,
+      "source_line": 395,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Но, как бы «обычно» это ни выглядело, нельзя считать такое положение вещей «нормальным»."
+    },
+    {
+      "ordinal": 198,
+      "source_line": 396,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Неужели, если что-то слишком часто происходит у нас на глазах, мы должны к этому привыкнуть?.. Такого оправдания не существует."
+    },
+    {
+      "ordinal": 199,
+      "source_line": 397,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Иначе даже после того, как мы победим орипатию, конфликты не уменьшатся и не утихнут."
+    },
+    {
+      "ordinal": 200,
+      "source_line": 398,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Просто использовать и держать взаперти начнут других людей… Они лишь перестанут называться «заражёнными»."
+    },
+    {
+      "ordinal": 201,
+      "source_line": 400,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Это ваше требование… или идеал?"
+    },
+    {
+      "ordinal": 202,
+      "source_line": 402,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Это мой принцип."
+    },
+    {
+      "ordinal": 203,
+      "source_line": 403,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Господин Вэй, я должна кое-что сказать."
+    },
+    {
+      "ordinal": 204,
+      "source_line": 404,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "— Живые люди не должны становиться игровыми фигурами в чужой игре. Люди — это люди."
+    },
+    {
+      "ordinal": 205,
+      "source_line": 406,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Мисс Амия, вы умеете играть в го?"
+    },
+    {
+      "ordinal": 206,
+      "source_line": 408,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Господин Вэй…"
+    },
+    {
+      "ordinal": 207,
+      "source_line": 409,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Вы играете чёрными или белыми?"
+    },
+    {
+      "ordinal": 208,
+      "source_line": 417,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Вэй Яньу, что ты натворил?!"
+    },
+    {
+      "ordinal": 209,
+      "source_line": 419,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Офицер Чэнь, у меня гость."
+    },
+    {
+      "ordinal": 210,
+      "source_line": 421,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Офицер Чэнь?"
+    },
+    {
+      "ordinal": 211,
+      "source_line": 423,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Что ты сделал?! Это ты?"
+    },
+    {
+      "ordinal": 212,
+      "source_line": 424,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Нет, это мог быть только ты… Только ты."
+    },
+    {
+      "ordinal": 213,
+      "source_line": 425,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Та крыса и её хитрый отец — в лучшем случае лишь одна из твоих мелких уловок. Отдать такой приказ мог только ты."
+    },
+    {
+      "ordinal": 214,
+      "source_line": 426,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Я думала, что если мы победим Воссоединение и вновь сплотим всех жителей Лунмэня, то в конце концов преодолеем этот кризис — возможно, даже устраним недопонимание между жителями Лунмэня…"
+    },
+    {
+      "ordinal": 215,
+      "source_line": 427,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Я не ожидала… Хотя должна была догадаться."
+    },
+    {
+      "ordinal": 216,
+      "source_line": 428,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "В этот момент ты вновь заявил о своём статусе — статусе хозяина Лунмэня. Ты всегда им и был."
+    },
+    {
+      "ordinal": 217,
+      "source_line": 429,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Но даже так… даже так… как ты мог поступить подобным образом?"
+    },
+    {
+      "ordinal": 218,
+      "source_line": 430,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Разве ты не мог устранить любые препятствия? Разве не мог сжечь все тернии на своём пути? Что же заставило тебя склонить голову?"
+    },
+    {
+      "ordinal": 219,
+      "source_line": 431,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Я знаю, как вы все относитесь к заражённым. Но почему? Почему?.. Ведь дело было не только в этом… не только…"
+    },
+    {
+      "ordinal": 220,
+      "source_line": 432,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 221,
+      "source_line": 433,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Ты даже не осмелился взять на себя ответственность за собственные поступки."
+    },
+    {
+      "ordinal": 222,
+      "source_line": 434,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Стереть имя, уничтожить следы, стереть приказ — замести все следы своих действий."
+    },
+    {
+      "ordinal": 223,
+      "source_line": 435,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Вэй Яньу, вам с Линь стоило бы поменяться расами."
+    },
+    {
+      "ordinal": 224,
+      "source_line": 437,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Не неси чепухи."
+    },
+    {
+      "ordinal": 225,
+      "source_line": 438,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Суперинтендант Чэнь, я не понимаю, о чём вы говорите. Надеюсь, ваши объяснения меня убедят."
+    },
+    {
+      "ordinal": 226,
+      "source_line": 440,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 227,
+      "source_line": 441,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Хорошо. Тогда перейду прямо к делу."
+    },
+    {
+      "ordinal": 228,
+      "source_line": 443,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Это ты убил отца Талулы?!"
+    },
+    {
+      "ordinal": 229,
+      "source_line": 445,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "…Офицер Чэнь?"
+    },
+    {
+      "ordinal": 230,
+      "source_line": 447,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Это ты заставил нашу мать выйти замуж за того труса?"
+    },
+    {
+      "ordinal": 231,
+      "source_line": 449,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Кто внушил тебе всё это?"
+    },
+    {
+      "ordinal": 232,
+      "source_line": 451,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Попробуй угадать."
+    },
+    {
+      "ordinal": 233,
+      "source_line": 453,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Следи за тоном."
+    },
+    {
+      "ordinal": 234,
+      "source_line": 455,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Господин Вэй, держащий под контролем весь Лунмэнь, вдруг понял, что тайна, которую он скрывал долгие годы, давно уже ни для кого не секрет?"
+    },
+    {
+      "ordinal": 235,
+      "source_line": 457,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Офицер Чэнь, не переходите границ. Стража!"
+    },
+    {
+      "ordinal": 236,
+      "source_line": 459,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Это мне рассказала Талула."
+    },
+    {
+      "ordinal": 237,
+      "source_line": 461,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 238,
+      "source_line": 463,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Конечно. Изначально мало кто знал обо всём, что было известно Талуле."
+    },
+    {
+      "ordinal": 239,
+      "source_line": 464,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Ты злишься лишь потому, что понял: это снова может угрожать твоей власти… Тот старик, герцог Кашчей, всегда был твоим кошмаром."
+    },
+    {
+      "ordinal": 240,
+      "source_line": 465,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "И ты ведь ни разу не почувствовал даже тени вины перед Талулой, верно?"
+    },
+    {
+      "ordinal": 241,
+      "source_line": 467,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Офицер Чэнь, не делайте выводов о фактах, к которым у вас нет допуска, и не доверяйте сведениям из непроверенных источников."
+    },
+    {
+      "ordinal": 242,
+      "source_line": 468,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Ты устала."
+    },
+    {
+      "ordinal": 243,
+      "source_line": 470,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Я, конечно, не верю этому старику-герцогу! Он едва не уничтожил весь Лунмэнь — и именно он похитил Талулу!"
+    },
+    {
+      "ordinal": 244,
+      "source_line": 472,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "В таком случае —"
+    },
+    {
+      "ordinal": 245,
+      "source_line": 474,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Но я очень хорошо помню… День был ясным. А ночью не было луны — лишь несколько звёзд."
+    },
+    {
+      "ordinal": 246,
+      "source_line": 475,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Старик держал Талулу и стоял по ту сторону разрушенного моста."
+    },
+    {
+      "ordinal": 247,
+      "source_line": 476,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "А за твоей спиной…"
+    },
+    {
+      "ordinal": 248,
+      "source_line": 477,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "За твоей спиной стояла целая толпа людей в чёрных дождевиках."
+    },
+    {
+      "ordinal": 249,
+      "source_line": 479,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 250,
+      "source_line": 481,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Я верю Талуле. Всегда ей верила. Да, я допускаю, что она могла быть ослеплена ложью, но ты и правда способен на такое!"
+    },
+    {
+      "ordinal": 251,
+      "source_line": 482,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Разве ты не из тех, кто ради собственной цели готов пожертвовать чем угодно?"
+    },
+    {
+      "ordinal": 252,
+      "source_line": 484,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Чэнь Хуэйцзе!"
+    },
+    {
+      "ordinal": 253,
+      "source_line": 486,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Ты хочешь очистить все трущобы, а то и вовсе уничтожить их! Столько жителей Лунмэня, столько тех, кто доверял нам и помог нам дойти до этого момента…"
+    },
+    {
+      "ordinal": 254,
+      "source_line": 487,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Потому что заражённые не считаются гражданами Лунмэня? Потому что они не способны вписаться в твой мир небоскрёбов? Или потому, что даже у жителей трущоб есть человечность и однажды они смогут жить в мире с заражёнными?"
+    },
+    {
+      "ordinal": 255,
+      "source_line": 488,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Ты действительно защищаешь Лунмэнь? Не ты ли сам угрожаешь спокойной жизни этого города?"
+    },
+    {
+      "ordinal": 256,
+      "source_line": 489,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Не думай, что сможешь снять с себя всю ответственность, выставив перед собой нескольких крыс!"
+    },
+    {
+      "ordinal": 257,
+      "source_line": 490,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "…Без твоего разрешения люди из семьи Линь и не осмелились бы на такое!"
+    },
+    {
+      "ordinal": 258,
+      "source_line": 492,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Мисс Чэнь."
+    },
+    {
+      "ordinal": 259,
+      "source_line": 493,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Ты почти ничего не знаешь о том, что я сделал для Лунмэня…"
+    },
+    {
+      "ordinal": 260,
+      "source_line": 494,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Почти ничего."
+    },
+    {
+      "ordinal": 261,
+      "source_line": 496,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 262,
+      "source_line": 497,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Больше всего меня всегда раздражало в тебе то, что ты привык держать всё в своих руках."
+    },
+    {
+      "ordinal": 263,
+      "source_line": 504,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Если у вас двоих найдётся хоть немного свободного времени, я хотела бы, чтобы вы выслушали одно сообщение."
+    },
+    {
+      "ordinal": 264,
+      "source_line": 506,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "Доктор Кальцит?"
+    },
+    {
+      "ordinal": 265,
+      "source_line": 508,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Посмотри на терминал. Я уже отправила тебе подробности."
+    },
+    {
+      "ordinal": 266,
+      "source_line": 510,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "А… хорошо."
+    },
+    {
+      "ordinal": 267,
+      "source_line": 512,
+      "kind": "named",
+      "speaker_cn": "阿米娅",
+      "text_ru": "…Что?"
+    },
+    {
+      "ordinal": 268,
+      "source_line": 514,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Не припоминаю, чтобы разрешал тебе входить в мою личную гостиную в такое время, доктор с Родоса Айленд."
+    },
+    {
+      "ordinal": 269,
+      "source_line": 520,
+      "kind": "named",
+      "speaker_cn": "文月",
+      "text_ru": "Это я разрешила ей войти."
+    },
+    {
+      "ordinal": 270,
+      "source_line": 522,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 271,
+      "source_line": 524,
+      "kind": "named",
+      "speaker_cn": "文月",
+      "text_ru": "Сколько лет прошло, а ты всё такой же…"
+    },
+    {
+      "ordinal": 272,
+      "source_line": 525,
+      "kind": "named",
+      "speaker_cn": "文月",
+      "text_ru": "Ты всё скрываешь от неё, всё берёшь на себя. Тебе не надоело?"
+    },
+    {
+      "ordinal": 273,
+      "source_line": 526,
+      "kind": "named",
+      "speaker_cn": "文月",
+      "text_ru": "Выслушай нашу гостью. Мы тоже получили это сообщение. Ты мог узнать о нём на три минуты раньше."
+    },
+    {
+      "ordinal": 274,
+      "source_line": 528,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Что ж, доктор Кальцит, прошу вас."
+    },
+    {
+      "ordinal": 275,
+      "source_line": 530,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Когда мы уничтожали силы Воссоединения в Лунмэне, их верховный командир так и не появился."
+    },
+    {
+      "ordinal": 276,
+      "source_line": 532,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Причина проста: всё это время она находилась в Чернобоге."
+    },
+    {
+      "ordinal": 277,
+      "source_line": 533,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Она наблюдала за нами: то мы сохраняли невозмутимость, то сбивались с ног… А мы всё равно не уделяли ей достаточно внимания."
+    },
+    {
+      "ordinal": 278,
+      "source_line": 540,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "А теперь часть Чернобога — точнее, его ядро…"
+    },
+    {
+      "ordinal": 279,
+      "source_line": 541,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…приближается к Лунмэню."
+    },
+    {
+      "ordinal": 280,
+      "source_line": 542,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Через тридцать шесть часов ядро Чернобога столкнётся с Лунмэнем."
+    },
+    {
+      "ordinal": 281,
+      "source_line": 544,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Пустяки. У Лунмэня хватает средств, чтобы противостоять кочующим городам и военным кораблям. Одно лишь ядро города нам не страшно, мы даже не…"
+    },
+    {
+      "ordinal": 282,
+      "source_line": 545,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 283,
+      "source_line": 547,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Вы уже поняли, господин Вэй?"
+    },
+    {
+      "ordinal": 284,
+      "source_line": 553,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "…Оно уже начало…"
+    },
+    {
+      "ordinal": 285,
+      "source_line": 555,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "…непрерывно рассылать собственные идентификационные коды города?"
+    },
+    {
+      "ordinal": 286,
+      "source_line": 557,
+      "kind": "named",
+      "speaker_cn": "魏彦吾",
+      "text_ru": "Нет."
+    },
+    {
+      "ordinal": 287,
+      "source_line": 559,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Именно. Ваша интуиция — или, вернее, предположение — верна."
+    },
+    {
+      "ordinal": 288,
+      "source_line": 560,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "Ядро города непрерывно рассылает идентификационные коды. Радиосигнал уже дошёл до всех районов Лунмэня."
+    },
+    {
+      "ordinal": 289,
+      "source_line": 561,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "В них говорится —"
+    },
+    {
+      "ordinal": 290,
+      "source_line": 562,
+      "kind": "named",
+      "speaker_cn": "凯尔希",
+      "text_ru": "«Этот город — территория Урсуса»."
+    }
+  ],
+  "decision_options_ru": [
+    {
+      "source_line": 121,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "Не твоё дело.",
+        "……",
+        "Уже мёртв."
+      ]
+    },
+    {
+      "source_line": 135,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Погиб один заражённый."
+      ]
+    }
+  ],
+  "translation_revision": "v2.01 — complete first draft; restore CN lines 357–361, correct ordinals, and translate lines 440–562.",
+  "notes_v197": [
+    "Translated positions 1–55: four unnamed announcement lines and 51 named dialogue entries. Source lines: 30–134; next position is №56 at CN line 143.",
+    "The Decision command at CN line 121 is translated with all three options. Its four Predicate branches at lines 122, 125, 128 and 132 are fully covered by this segment. The second Decision command at line 135 remains untranslated.",
+    "The full CN and EN sources align on 290 text positions (285 named, 5 unnamed) and 284 command positions. Command line numbers and parameters match after normalizing localized Decision option text.",
+    "Terminology follows docs/TERMS_RU.txt: Rhodes Island — «Родос Айленд»; Lungmen Guard Department — «Управление охраны Лунмэня»; Oripathy — «орипатия»; Mephisto — «Мефисто»; Censor — «Цензор».",
+    "The four {@nickname} placeholders occur later in the source and are not present in the translated range; no placeholder was dropped from this segment.",
+    "No complete CN or EN source script is included. This is a partial first draft; literary review and Yostar Global PC in-game validation have not been performed."
+  ],
+  "notes_v198": [
+    "Translated positions 1–113: four unnamed announcement lines and 109 named dialogue entries. The first text segment is CN lines 30–134; the second adds positions 56–113 from CN lines 143–229. The next position is №114 at CN line 231.",
+    "The second Decision at CN line 135 is translated as «Погиб один заражённый.» with value 1 preserved. Both Decision commands and all four option strings are now translated. All five Predicate branches at lines 122, 125, 128, 132 and 136 are accounted for.",
+    "The full CN and EN Yostar sources align on 290 text positions (285 named, 5 unnamed) and 284 command positions. Command line numbers, command names and parameters match after normalizing localized Decision option text. No source-version drift was detected.",
+    "The four {@nickname} placeholders at CN lines 204, 210, 217 and 218 are preserved exactly in Russian.",
+    "Terminology follows docs/TERMS_RU.txt: GreyThroat / 灰喉 — «Грейтроут». 神民 and 先民 are rendered as «Старшие» and «Древние», following the Russian Arknights Wiki terminology. The phrasing around 平视 conveys equal treatment rather than a literal gaze.",
+    "No complete CN or EN source script is included. This is a partial first draft; literary review and Yostar Global PC in-game validation have not been performed."
+  ],
+  "notes_v199": [
+    "Added positions 114–170: 56 named dialogue entries and one unnamed location caption, from CN/EN source lines 231–356. The next position is №171 at CN line 357.",
+    "The new segment closes Blaze and GreyThroat's exchange, moves to the Chief Executive's Office, covers Amiya's encounter with Taihe, the Censor and an unidentified speaker, then translates the opening part of Amiya's meeting with Wei Yenwu through her statement that Rhodes Island does not fight only for the Infected.",
+    "CN is the primary semantic source. EN Yostar was used to cross-check the speaker labels and dialogue context. All source speaker labels match the existing speaker map; the unidentified speaker remains `？？？` rather than being guessed.",
+    "The scene caption at CN line 253 is retained as an unnamed text position. The new range adds no Decision options or Predicate branches; all 2 Decision commands, 4 option strings and 5 Predicate branches were already translated in v1.98.",
+    "The full CN and EN Yostar sources still align on 290 text positions (285 named, 5 unnamed) and 284 command positions. Command line positions and names align; source Git blobs are unchanged.",
+    "The four {@nickname} placeholders from CN lines 204, 210, 217 and 218 remain preserved. No new placeholder occurs in positions 114–170.",
+    "Editorial flags: 雷霆手段 at CN line 279 has a range of nuance ('brutal/forceful methods'); 不送 at line 271 is a conventional refusal to see the departing guest out; 诱敌深入 at line 333 refers to luring the enemy deeper into the city; the 'Infected side' framing at lines 352–354 is deliberately challenged by Amiya.",
+    "No complete CN or EN source script is included. This remains a partial first draft; literary review and Yostar Global PC in-game validation have not been performed."
+  ],
+  "notes_v200": [
+    "Added positions 171–220: 50 named dialogue entries from CN/EN source lines 357–438. The next position is №221 at CN line 440; 70 text positions remain.",
+    "The segment continues Amiya and Wei Yenwu's discussion of Rhodes Island's principles, political responsibility and the treatment of the Infected, then moves into Ch'en's confrontation with Wei Yenwu.",
+    "CN is the primary semantic source. EN Yostar was used to cross-check speaker labels and sequence. All 50 speaker labels and source line positions match.",
+    "The CN source uses 围棋 (Go) at line 406, while EN Yostar says chess. Russian follows CN: «го»; line 409 is rendered as a question about playing black or white. The preceding metaphor at line 404 is kept as a generic game-piece image, not a chess pawn.",
+    "The new segment contains 27 command lines (22 Character, 1 Dialog, 2 PlaySound, 2 delay). No new Decision or Predicate branch occurs. Both Decision commands, all four option strings and all five Predicate branches remain translated.",
+    "The four {@nickname} placeholders at CN lines 204, 210, 217 and 218 remain preserved; no new placeholder occurs in positions 171–220.",
+    "CN and EN Yostar remain aligned on 290 text positions and 284 command positions. Source blobs are unchanged; no source-version drift detected.",
+    "No complete CN or EN source script is included. This remains a partial first draft; literary review and Yostar Global PC in-game validation have not been performed."
+  ],
+  "notes_v201": [
+    "Completed 6-18 Only You Know: 290/290 text positions (285 named, 5 unnamed); all 284 source command positions are preserved. Both Decision commands, all four options and all five Predicate branches are translated.",
+    "Audit correction: v2.00 omitted the five CN dialogue lines 357–361 while numbering the following lines 363–438 as ordinals 171–220. v2.01 restores lines 357–361 as ordinals 171–175, shifts the previous v2.00 entries to ordinals 176–225, and adds lines 440–562 as ordinals 226–290.",
+    "The corrected dialogue array follows the complete CN source order without gaps or duplicate source lines; speaker labels and unnamed positions align.",
+    "CN is primary for meaning; EN Yostar is used for names and structural cross-check. CN/EN blobs are unchanged and align on all 290 text positions and 284 command positions. The only physical-line difference is the EN terminal newline.",
+    "The four {@nickname} placeholders are preserved. CN line 406 uses 围棋 (Go), while EN Yostar says chess; Russian follows CN and uses «го».",
+    "Editorial review flags remain for the Russian rank rendering of 陈警司, the working transliteration «Кашчей» for 科西切, the wording for 核心城 / 城邦认证码, and the exact referent of 姓林的.",
+    "No complete CN or EN source script or game asset is committed. This is a complete first draft only; literary review and Yostar Global PC in-game validation have not been performed."
+  ]
+}
