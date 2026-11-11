@@ -1,0 +1,2643 @@
+{
+  "version": "v1.94",
+  "stage": "Main story — 6-13 Interlude: No Light Without Fire (resource key level_st_06-02)",
+  "status": "PARTIAL_FIRST_DRAFT; FULL_SOURCE_STRUCTURAL_AUDIT_PASSED; TRANSLATED_RANGE_AUDITED; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_st_06-02.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "ffa8947a78abc196f2ebfcb90ae2283ee136c953",
+    "cn_physical_lines": 410,
+    "cn_final_newline": false,
+    "cn_url": "https://github.com/Kengxxiao/ArknightsGameData/blob/master/zh_CN/gamedata/story/obt/main/level_st_06-02.txt",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "79204a97fedbc6e1950440f86a618c8d6efa37ba",
+    "en_physical_lines": 411,
+    "en_final_newline": true,
+    "en_url": "https://github.com/Kengxxiao/ArknightsGameData_YoStar/blob/main/en_US/gamedata/story/obt/main/level_st_06-02.txt",
+    "version_difference": "CN and EN align on 269 text positions (257 named, 12 unnamed) and 141 command positions. CN has 410 physical lines without a final newline; EN has 411 with a final newline. Speaker labels map by localization (霜星 → FrostNova; ？？？ → ???). Command names and parameters match after localizing Decision options; all 53 Decision value entries and 45 Predicate references align. CN line 32 includes 分城 (satellite city), omitted in EN; CN line 33 地基层上部 differs semantically from EN 'Upper superstructure levels'. The draft follows CN for both and flags line 33 for editorial review."
+  },
+  "source_alignment": {
+    "cn_text_positions": 269,
+    "en_text_positions": 269,
+    "cn_named_positions": 257,
+    "en_named_positions": 257,
+    "cn_unnamed_positions": 12,
+    "en_unnamed_positions": 12,
+    "command_lines_cn": 141,
+    "command_lines_en": 141,
+    "command_counts": {
+      "HEADER": 1,
+      "stopmusic": 1,
+      "delay": 3,
+      "Decision": 34,
+      "Predicate": 45,
+      "Dialog": 12,
+      "Character": 25,
+      "Blocker": 11,
+      "Background": 3,
+      "PlayMusic": 1,
+      "Image": 3,
+      "ImageTween": 1,
+      "hideitem": 1
+    },
+    "named_text_line_numbers_match": true,
+    "unnamed_text_line_numbers_match": true,
+    "speaker_label_positions_match": true,
+    "speaker_label_names_match_after_localization": true,
+    "speaker_label_map": {
+      "？？？": "???",
+      "霜星": "FrostNova"
+    },
+    "speaker_label_spelling_exceptions": [],
+    "command_line_numbers_match": true,
+    "command_names_and_parameters_match_after_decision_option_normalization": true,
+    "decision_commands": 34,
+    "predicate_branches": 45,
+    "decision_option_total": 53,
+    "decision_values_and_predicate_references_match": true,
+    "translated_range": {
+      "ordinal_start": 1,
+      "ordinal_end": 232,
+      "translated_source_lines": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        31,
+        32,
+        33,
+        34,
+        41,
+        42,
+        52,
+        58,
+        59,
+        62,
+        63,
+        66,
+        67,
+        69,
+        70,
+        71,
+        73,
+        76,
+        77,
+        78,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        91,
+        94,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        137,
+        138,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        161,
+        162,
+        163,
+        164,
+        171,
+        172,
+        173,
+        174,
+        177,
+        178,
+        179,
+        183,
+        186,
+        187,
+        188,
+        191,
+        194,
+        196,
+        198,
+        200,
+        204,
+        205,
+        206,
+        207,
+        208,
+        212,
+        214,
+        215,
+        216,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        227,
+        228,
+        229,
+        230,
+        233,
+        234,
+        235,
+        236,
+        237,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        263,
+        264,
+        265,
+        268,
+        269,
+        272,
+        273,
+        274,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        285,
+        286,
+        289,
+        290,
+        292,
+        293,
+        294,
+        296,
+        297,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        336,
+        337,
+        338,
+        339,
+        342,
+        343,
+        344,
+        345,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360
+      ],
+      "named_positions": 220,
+      "unnamed_positions": 12,
+      "command_lines_in_range": 128,
+      "command_counts": {
+        "HEADER": 1,
+        "stopmusic": 1,
+        "delay": 3,
+        "Decision": 30,
+        "Predicate": 41,
+        "Dialog": 11,
+        "Character": 23,
+        "Blocker": 10,
+        "Background": 3,
+        "PlayMusic": 1,
+        "Image": 2,
+        "ImageTween": 1,
+        "hideitem": 1
+      },
+      "decision_commands": 30,
+      "decision_option_strings": 45,
+      "predicate_branches": 41
+    },
+    "untranslated_positions": 37,
+    "empty_ru_entries": 0,
+    "untranslated_cjk_in_ru": 0,
+    "placeholder_count_cn": 5,
+    "placeholder_count_en": 5,
+    "placeholder_count_ru": 4,
+    "translated_chunks": [
+      {
+        "ordinal_start": 1,
+        "ordinal_end": 50,
+        "translated_source_lines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          31,
+          32,
+          33,
+          34,
+          41,
+          42,
+          52,
+          58,
+          59,
+          62,
+          63,
+          66,
+          67,
+          69,
+          70,
+          71,
+          73,
+          76,
+          77,
+          78,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          91,
+          94,
+          100
+        ],
+        "named_positions": 41,
+        "unnamed_positions": 9
+      },
+      {
+        "ordinal_start": 51,
+        "ordinal_end": 112,
+        "translated_source_lines": [
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          137,
+          138,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          161,
+          162,
+          163,
+          164,
+          171,
+          172,
+          173,
+          174,
+          177,
+          178,
+          179,
+          183,
+          186,
+          187,
+          188,
+          191,
+          194,
+          196,
+          198,
+          200,
+          204,
+          205
+        ],
+        "named_positions": 59,
+        "unnamed_positions": 3,
+        "command_lines_in_range": 43,
+        "command_counts": {
+          "Dialog": 5,
+          "Blocker": 6,
+          "Image": 2,
+          "Character": 7,
+          "ImageTween": 1,
+          "Decision": 7,
+          "Predicate": 12,
+          "Background": 1,
+          "delay": 1,
+          "hideitem": 1
+        },
+        "decision_commands": 7,
+        "decision_option_strings": 12,
+        "predicate_branches": 12
+      },
+      {
+        "ordinal_start": 113,
+        "ordinal_end": 180,
+        "translated_source_lines": [
+          206,
+          207,
+          208,
+          212,
+          214,
+          215,
+          216,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          227,
+          228,
+          229,
+          230,
+          233,
+          234,
+          235,
+          236,
+          237,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          263,
+          264,
+          265,
+          268,
+          269,
+          272,
+          273,
+          274,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          285,
+          286,
+          289,
+          290,
+          292,
+          293,
+          294,
+          296,
+          297,
+          299,
+          300
+        ],
+        "named_positions": 68,
+        "unnamed_positions": 0,
+        "command_lines_in_range": 27,
+        "command_counts": {
+          "Decision": 11,
+          "Predicate": 14,
+          "Character": 2
+        },
+        "decision_commands": 11,
+        "decision_option_strings": 13,
+        "predicate_branches": 14
+      },
+      {
+        "ordinal_start": 181,
+        "ordinal_end": 192,
+        "translated_source_lines": [
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312
+        ],
+        "named_positions": 12,
+        "unnamed_positions": 0,
+        "command_lines_in_range": 0,
+        "command_counts": {},
+        "decision_commands": 0,
+        "decision_option_strings": 0,
+        "predicate_branches": 0
+      },
+      {
+        "ordinal_start": 193,
+        "ordinal_end": 232,
+        "translated_source_lines": [
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          336,
+          337,
+          338,
+          339,
+          342,
+          343,
+          344,
+          345,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360
+        ],
+        "named_positions": 40,
+        "unnamed_positions": 0,
+        "command_lines_in_range": 8,
+        "command_counts": {
+          "Decision": 4,
+          "Predicate": 4
+        },
+        "decision_commands": 4,
+        "decision_option_strings": 6,
+        "predicate_branches": 4
+      }
+    ],
+    "version_differences": [
+      {
+        "source_line": 32,
+        "cn": "切尔诺伯格分城“14区”废墟",
+        "en": "Ruins of Chernobog 'District 14'",
+        "note": "CN includes 分城 (satellite city), omitted in EN; translation follows CN."
+      },
+      {
+        "source_line": 33,
+        "cn": "地基层上部",
+        "en": "Upper superstructure levels",
+        "note": "Semantic mismatch; translation follows CN as «Верхний ярус фундамента», flagged for editorial review."
+      },
+      {
+        "source_line": 410,
+        "cn": "no terminal newline",
+        "en": "terminal newline",
+        "note": "One physical terminal newline difference; no story position is affected."
+      },
+      {
+        "source_line": 101,
+        "cn": "矿场位置偏远，规模不大，不属于任何城市，周边也没有聚落。一年四季除了雪，什么也看不见。",
+        "en": "The mine was small and remote, not part of any city, and there are with no settlements around. There was nothing to see but snow all year round.",
+        "note": "EN Yostar contains a grammatical error ('there are with no settlements around'); translation follows the clear CN meaning."
+      },
+      {
+        "source_line": 237,
+        "cn": "年老后退守某座城邦",
+        "en": "retired to a certain city-state in his old age",
+        "note": "CN uses 退守 (withdrew/retreated to); Russian follows CN without adding a formal retirement claim."
+      },
+      {
+        "source_line": 268,
+        "cn": "我不用，难道让你去代我战斗？",
+        "en": "Oh are you going to fight for me now?",
+        "note": "The English line shifts the rhetorical force; translation follows CN."
+      },
+      {
+        "source_line": 280,
+        "cn": "切尔诺伯格分城废墟",
+        "en": "Chernobog",
+        "note": "CN explicitly identifies satellite-city ruins; EN omits 分城; translation follows CN."
+      },
+      {
+        "source_line": 286,
+        "cn": "害怕吗？",
+        "en": "are you scared, right now??",
+        "note": "Punctuation differs only; Russian follows the single CN question mark."
+      },
+      {
+        "source_line": 354,
+        "cn": "无论是她沉思之后吐出的词句，还是与我切磋时大剑的挥舞",
+        "en": "Whether was the words she spat out after pausing to think, or the swing of her great sword as she slashed alongside me",
+        "note": "CN 切磋 means sparring/practice; EN recasts this as slashing alongside FrostNova. Russian follows CN."
+      },
+      {
+        "source_line": 358,
+        "cn": "做出来的品相也很烂",
+        "en": "they tasted worse",
+        "note": "CN 品相 means appearance/finish, not taste. Russian follows CN."
+      }
+    ]
+  },
+  "progress": {
+    "translated": 232,
+    "total": 269,
+    "remaining": 37,
+    "complete": false,
+    "named_translated": 220,
+    "named_total": 257,
+    "unnamed_translated": 12,
+    "unnamed_total": 12,
+    "next_ordinal": 233,
+    "next_source_line": 361,
+    "decision_commands_translated": 30,
+    "decision_commands_total": 34,
+    "decision_commands_remaining": 4,
+    "decision_option_strings_translated": 45,
+    "decision_option_strings_total": 53,
+    "decision_option_strings_remaining": 8,
+    "predicate_branches_translated": 41,
+    "predicate_branches_total": 45,
+    "predicate_branches_remaining": 4
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 6,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Очнись!!!"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 7,
+      "kind": "unnamed",
+      "text_ru": "……?"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 8,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Очнись… Очнись!"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 9,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Адам! Сюда! Неси тёплую воду!"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 10,
+      "kind": "unnamed",
+      "text_ru": "Папа…"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 11,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "А…"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 12,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Она жива! Слава предкам, она жива! Она жива!"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 13,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Адам! Поторопись!"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 14,
+      "kind": "unnamed",
+      "text_ru": "Па… папа…?"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 15,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Папа?"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Я… да! Я папа!"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 17,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Да, да! Я папа, всё верно!"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 18,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Не засыпай, не засыпай! Держи папу за руку и не отпускай!"
+    },
+    {
+      "ordinal": 14,
+      "source_line": 19,
+      "kind": "unnamed",
+      "text_ru": "Папа… Мне так… холодно…"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Не засыпай, доченька, моя девочка! Живи!"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 21,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Её температура продолжает падать! Мишка, придумай что-нибудь!"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 22,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Неужели нельзя перенаправить поток?"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 23,
+      "kind": "unnamed",
+      "text_ru": "Холодно…! Папа! Мне холодно!"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 24,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "…Доченька… моя доченька! Держись!"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 25,
+      "kind": "unnamed",
+      "text_ru": "Папа, не надо… Не оставляй меня больше…"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 31,
+      "kind": "unnamed",
+      "text_ru": "10:48 утра"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 32,
+      "kind": "unnamed",
+      "text_ru": "Руины района «14» города-спутника Чернобога"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 33,
+      "kind": "unnamed",
+      "text_ru": "Верхний ярус фундамента"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 34,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 41,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Я уже проснулась."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 42,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Ты не убил меня, пока я была без сознания. Из-за уверенности в себе или по какой-то другой причине?"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 52,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Как бы то ни было, ты этого не сделал."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Считай, что ты уже пощадил меня. Теперь я отплачу тем же и не стану тебя убивать."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 62,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Что это за сложное выражение у тебя на лице?"
+    },
+    {
+      "ordinal": 31,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Это потому, что… я рассказала всё, что видела во сне?"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 66,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Похоже, пока я была без сознания, я и правда выболтала кое-что весьма неприятное."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Воспоминания, оказывается, не так-то просто выбросить из головы, даже если хочется."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 69,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Ты осмотрел окрестности?"
+    },
+    {
+      "ordinal": 35,
+      "source_line": 70,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Выхода не нашёл, верно?"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Похоже, какое-то время нам отсюда не выбраться."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 38,
+      "source_line": 76,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Того, кого я называю отцом, зовут Булдроккас'ти. Когда-то он был офицером армии Урсуса."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Но мой родной отец умер очень давно."
+    },
+    {
+      "ordinal": 40,
+      "source_line": 78,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "В детстве я смутно помню, как один мужчина заслонил собой женщину от арбалетных болтов. А женщина прижала меня к груди и своей спиной остановила вторую очередь болтов."
+    },
+    {
+      "ordinal": 41,
+      "source_line": 82,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Тогда я была слишком мала, чтобы понять, что происходит. Просто это воспоминание случайно не стёрлось."
+    },
+    {
+      "ordinal": 42,
+      "source_line": 83,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "А что произошло на самом деле, мне позже рассказала бабушка."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 84,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Когда я стала расспрашивать бабушку, что означает то воспоминание, и ей уже не удалось отмахнуться, она всё мне рассказала."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 85,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "«Это были твои родные родители… Они защитили тебя перед смертью»."
+    },
+    {
+      "ordinal": 45,
+      "source_line": 86,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Ирония в том, что я совсем их не знала. Кроме этой картины, в памяти не осталось ничего, что было бы с ними связано."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 87,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Так я и забыла своих родных родителей. Мне даже трудно сказать, что я что-то к ним чувствую."
+    },
+    {
+      "ordinal": 47,
+      "source_line": 88,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 48,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Поровну. Другую половину составила кровь заражённых Урсуса."
+    },
+    {
+      "ordinal": 49,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Хе…"
+    },
+    {
+      "ordinal": 50,
+      "source_line": 100,
+      "kind": "named",
+      "speaker_cn": "霜星",
+      "text_ru": "Я родилась на одном из рудников северо-западной тундры."
+    },
+    {
+      "ordinal": 51,
+      "source_line": 101,
+      "kind": "named",
+      "text_ru": "Рудник был небольшим и находился в глуши, далеко от городов; поблизости не было ни одного поселения. Куда ни глянь, круглый год — один снег.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 52,
+      "source_line": 102,
+      "kind": "named",
+      "text_ru": "Этот рудник был настоящим адом, созданным лишь для того, чтобы нести смерть и рабство. На снежных равнинах таких рудников бесчисленное множество.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 53,
+      "source_line": 103,
+      "kind": "named",
+      "text_ru": "Мои родные родители работали шахтёрами в этом аду.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 54,
+      "source_line": 104,
+      "kind": "named",
+      "text_ru": "Бабушка была со мной, пока я училась говорить, но так и не рассказала, за какие преступления родителей приговорили к каторжным работам в руднике.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 55,
+      "source_line": 105,
+      "kind": "named",
+      "text_ru": "Позже, когда я подросла, я расспрашивала людей в руднике и узнала, что оба моих родителя выступали против военных планов императора Урсуса.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 56,
+      "source_line": 106,
+      "kind": "named",
+      "text_ru": "Их арестовали по ошибке. Две последние строки в ордере на арест были пустыми, и сержант, руководивший обыском, наугад переписал имя с таблички на двери.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 57,
+      "source_line": 107,
+      "kind": "named",
+      "text_ru": "Без суда и следствия родителей лишили имён и отправили из тёплого маленького городка в холодные северные земли отбывать каторгу сроком в несколько столетий.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 58,
+      "source_line": 108,
+      "kind": "named",
+      "text_ru": "Разумеется, никто не дожил бы до конца такого срока, не говоря уже о том, чтобы выйти оттуда живым.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 59,
+      "source_line": 109,
+      "kind": "named",
+      "text_ru": "Бабушку как «укрывательницу преступников» тоже приговорили к каторжным работам и отправили вместе с ними.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 60,
+      "source_line": 110,
+      "kind": "named",
+      "text_ru": "На самом деле почти все шахтёры в том руднике прошли через нечто подобное.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 61,
+      "source_line": 111,
+      "kind": "named",
+      "text_ru": "Как и следовало ожидать, мои родители заразились орипатией во время работы в шахте. Как и все шахтёры.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 62,
+      "source_line": 112,
+      "kind": "named",
+      "text_ru": "Даже если бы ты сбежал из этого рудника, никто бы не поверил ни единому твоему слову. Ты всего лишь заражённый — самый страшный, злобный и неуравновешенный из больных орипатией.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 63,
+      "source_line": 113,
+      "kind": "named",
+      "text_ru": "Однако надзиратели рудника — один из гарнизонов армии Урсуса — считали, что заражённые и так умирают слишком медленно.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 64,
+      "source_line": 114,
+      "kind": "named",
+      "text_ru": "Они тянули жребий, решая судьбу больных орипатией, и убивали их ради забавы.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 65,
+      "source_line": 115,
+      "kind": "named",
+      "text_ru": "Возможно, не снег свёл шахтёров с ума, а сами шахтёры — их. А может, в их глазах заражённые и вовсе не считались людьми.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 66,
+      "source_line": 116,
+      "kind": "named",
+      "text_ru": "Когда мне было пять, моим родителям выпал чёрный жребий.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 67,
+      "source_line": 117,
+      "kind": "named",
+      "text_ru": "Когда мне было десять, чёрный жребий выпал бабушке.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 68,
+      "source_line": 118,
+      "kind": "named",
+      "text_ru": "В одиннадцать чёрный жребий выпал уже мне, но это было неважно: к тому времени им стало всё равно, кто вытянет жребий. Они просто хотели закрыть весь рудник.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 69,
+      "source_line": 119,
+      "kind": "named",
+      "text_ru": "К тому времени все взрослые заражённые в руднике уже умерли, а новая политика императора привела к тому, что рабочей силы там почти не осталось.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 70,
+      "source_line": 120,
+      "kind": "named",
+      "text_ru": "По приказу урсусские надзиратели собирались казнить последних заражённых… нескольких больных детей.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 71,
+      "source_line": 121,
+      "kind": "named",
+      "text_ru": "После этого они собирались взорвать рудник, превратив его в братскую могилу заражённых, чтобы скрыть собственные преступления.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 72,
+      "source_line": 122,
+      "kind": "named",
+      "text_ru": "Позже, во время своих странствий, я узнала, что они постоянно так поступают.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 73,
+      "source_line": 123,
+      "kind": "named",
+      "text_ru": "Мне было горько. Мне было больно.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 74,
+      "source_line": 124,
+      "kind": "named",
+      "text_ru": "Я разбила немало руды. Я жила в руднике с другими детьми, мы были друг другу как братья и сёстры — и теперь все мы должны были бессмысленно погибнуть.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 75,
+      "source_line": 125,
+      "kind": "named",
+      "text_ru": "В груди зарождались всё более сильные чувства; перед глазами стояли смерти моих родителей и бабушки.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 76,
+      "source_line": 126,
+      "kind": "named",
+      "text_ru": "Когда началась казнь, моя магия вырвалась наружу и на месте убила четырёх солдат, исполнявших приговор.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 77,
+      "source_line": 127,
+      "kind": "named",
+      "text_ru": "Разумеется, изменить ход событий я не могла.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 78,
+      "source_line": 128,
+      "kind": "named",
+      "text_ru": "Для надзирателей дети были просто скотом. Они, солдаты, держали в руках острые клинки и носили прочную броню, а мы были словно букашки, сумевшие лишь ужалить их.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 79,
+      "source_line": 129,
+      "kind": "named",
+      "text_ru": "Когда они повалили меня на землю и готовились начать последнюю волну расправы, до меня донеслись крики моих братьев и сестёр…",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 80,
+      "source_line": 130,
+      "kind": "named",
+      "text_ru": "И тут появился партизанский отряд.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 81,
+      "source_line": 137,
+      "kind": "named",
+      "text_ru": "Это был отряд Булдроккас'ти.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 82,
+      "source_line": 138,
+      "kind": "named",
+      "text_ru": "Все урсусские солдаты, охраняющие заражённых на северо-западной тундре, видят сны. И этот отряд — их самый страшный кошмар.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 83,
+      "source_line": 142,
+      "kind": "named",
+      "text_ru": "Если бы могла, я бы гордилась ими.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 84,
+      "source_line": 143,
+      "kind": "named",
+      "text_ru": "Они перебили всех палачей прямо у нас на глазах, и дети-заражённые из рудника спаслись.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 85,
+      "source_line": 144,
+      "kind": "named",
+      "text_ru": "Но…",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 86,
+      "source_line": 145,
+      "kind": "named",
+      "text_ru": "На этой безжалостно белой земле кровь моих менее удачливых товарищей смешалась с кровью убитых солдат и застыла льдом.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 87,
+      "source_line": 146,
+      "kind": "named",
+      "text_ru": "И в тот миг я вдруг кое-что поняла…",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 88,
+      "source_line": 147,
+      "kind": "named",
+      "text_ru": "Эти урсусские солдаты изначально лишь исполняли приказы. У них была такая же кровь, как у нас.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 89,
+      "source_line": 148,
+      "kind": "named",
+      "text_ru": "Поток пропаганды, приукрашенные истории и намеренно раздутая вражда пустили в них корни жестокости и равнодушия.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 90,
+      "source_line": 149,
+      "kind": "named",
+      "text_ru": "Именно Урсус превратил их в таких.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 91,
+      "source_line": 161,
+      "kind": "named",
+      "text_ru": "С-с… м-м…",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 92,
+      "source_line": 162,
+      "kind": "named",
+      "text_ru": "Прошу… помоги мне.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 93,
+      "source_line": 163,
+      "kind": "named",
+      "text_ru": "В левом кармане моей куртки лежит несколько конфет. Возьми одну.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 94,
+      "source_line": 164,
+      "kind": "named",
+      "text_ru": "…Если хочешь попробовать, можешь взять и одну себе.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 95,
+      "source_line": 171,
+      "kind": "named",
+      "text_ru": "Боишься, что конфета отравлена?",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 96,
+      "source_line": 172,
+      "kind": "named",
+      "text_ru": "Может, ты и не любишь сладкое, но попробуй. В Лунмэне такую конфету не достать.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 97,
+      "source_line": 173,
+      "kind": "named",
+      "text_ru": "Это особые конфеты из Урсуса. Съешь одну — и одной такой конфетой в мире станет меньше.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 98,
+      "source_line": 174,
+      "kind": "named",
+      "text_ru": "В благодарность за то, что достал мне конфету, попробуй и сам.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 99,
+      "source_line": 177,
+      "kind": "named",
+      "text_ru": "О? Похоже, ты всё-таки любишь сладости.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 100,
+      "source_line": 178,
+      "kind": "named",
+      "text_ru": "Только предупреждаю: эта конфета может совсем не походить по вкусу на всё, что ты пробовал раньше.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 101,
+      "source_line": 179,
+      "kind": "named",
+      "text_ru": "Но жизнь коротка. Стоит попробовать что-нибудь новое, верно?",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 102,
+      "source_line": 183,
+      "kind": "named",
+      "text_ru": "Пожалуйста, положи конфету мне в рот. Осторожно, не касайся моей кожи.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 103,
+      "source_line": 186,
+      "kind": "named",
+      "text_ru": "От кончиков пальцев до шеи всё моё тело парализовано. Я могу двигать только тем, что выше шеи.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 104,
+      "source_line": 187,
+      "kind": "named",
+      "text_ru": "Но даже едва шевельнув языком, я всё ещё могу мгновенно заморозить тебя насмерть.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 105,
+      "source_line": 188,
+      "kind": "named",
+      "text_ru": "Так что не беспокойся. Если ты всё-таки меня оскорбишь, скоро умрёшь.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 106,
+      "source_line": 191,
+      "kind": "named",
+      "text_ru": "Спасибо.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 107,
+      "source_line": 194,
+      "kind": "unnamed",
+      "text_ru": "Конфета очень острая."
+    },
+    {
+      "ordinal": 108,
+      "source_line": 196,
+      "kind": "unnamed",
+      "text_ru": "Конфета невероятно острая."
+    },
+    {
+      "ordinal": 109,
+      "source_line": 198,
+      "kind": "unnamed",
+      "text_ru": "Конфета невыносимо жгучая."
+    },
+    {
+      "ordinal": 110,
+      "source_line": 200,
+      "kind": "named",
+      "text_ru": "……",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 111,
+      "source_line": 204,
+      "kind": "named",
+      "text_ru": "У тебя такое лицо…",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 112,
+      "source_line": 205,
+      "kind": "named",
+      "text_ru": "Хе-хе…",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 113,
+      "source_line": 206,
+      "kind": "named",
+      "text_ru": "Прости, не удержалась и решила немного тебя поддразнить.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 114,
+      "source_line": 207,
+      "kind": "named",
+      "text_ru": "Я столько раз разыгрывала так своих близких, что теперь никто уже не попадается.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 115,
+      "source_line": 208,
+      "kind": "named",
+      "text_ru": "И вот наконец… снова подвернулся случай. Прости, просто я… не смогла удержаться.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 116,
+      "source_line": 212,
+      "kind": "named",
+      "text_ru": "……",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 117,
+      "source_line": 214,
+      "kind": "named",
+      "text_ru": "Потому что мне холодно.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 118,
+      "source_line": 215,
+      "kind": "named",
+      "text_ru": "Я просила тебя быть осторожнее: даже от малейшего прикосновения к моей коже ты получил бы сильное обморожение.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 119,
+      "source_line": 216,
+      "kind": "named",
+      "text_ru": "Если бы ты раньше касался меня, я бы поняла это по твоей реакции. Но ты этого не делал — ты не собирался меня убивать.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 120,
+      "source_line": 219,
+      "kind": "named",
+      "text_ru": "Мой холод сильнее самой зимы.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 121,
+      "source_line": 220,
+      "kind": "named",
+      "text_ru": "Тепло извне всё равно не может пробиться сквозь холод, охвативший моё тело. Я люблю горячие напитки: когда тёплая жидкость стекает по пищеводу в желудок, я чувствую её температуру…",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 122,
+      "source_line": 221,
+      "kind": "named",
+      "text_ru": "Жаль только, что горячие напитки обжигают мои внутренности.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 123,
+      "source_line": 222,
+      "kind": "named",
+      "text_ru": "Из удовольствий у меня осталось лишь это странное пойло из алкоголя, жгучих приправ и небольшого количества сахара — с натяжкой его можно назвать конфетой.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 124,
+      "source_line": 223,
+      "kind": "named",
+      "text_ru": "Это ощущение тепла, пусть и всего лишь мимолётная иллюзия, приносит мне хоть немного утешения.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 125,
+      "source_line": 224,
+      "kind": "named",
+      "text_ru": "Прости, что только что тебя разыграла.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 126,
+      "source_line": 227,
+      "kind": "named",
+      "text_ru": "Орипатия создала это ужасное тело.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 127,
+      "source_line": 228,
+      "kind": "named",
+      "text_ru": "Но тогда Булдроккас'ти крепко прижал к себе моё ледяное тело, не знавшее тепла.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 128,
+      "source_line": 229,
+      "kind": "named",
+      "text_ru": "Его нисколько не волновало, что обе его руки без брони из-за меня едва не полностью омертвели от холода.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 129,
+      "source_line": 230,
+      "kind": "named",
+      "text_ru": "Не знаю, передались ли мне тогда его чувства… Но я осталась в сознании и в итоге выжила.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 130,
+      "source_line": 233,
+      "kind": "named",
+      "text_ru": "Он мне как родной. В детстве я считала его самым близким человеком.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 131,
+      "source_line": 234,
+      "kind": "named",
+      "text_ru": "Как я уже говорила, я почти ничего не помню о своём родном отце… Наверное, подсознательно я и правда считала этого огромного зверя родным. Сама не знаю.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 132,
+      "source_line": 235,
+      "kind": "named",
+      "text_ru": "При всей своей грозной внешности он очень сентиментален, хотя в некоторых вопросах упрям до невозможности. Разве не смешно, что когда-то такой человек был машиной убийства Урсуса?",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 133,
+      "source_line": 236,
+      "kind": "named",
+      "text_ru": "Не смешно, правда? Мне тоже не до смеха.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 134,
+      "source_line": 237,
+      "kind": "named",
+      "text_ru": "Когда-то он был военным героем Урсуса, а в старости удалился в один из городов-государств.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 135,
+      "source_line": 240,
+      "kind": "named",
+      "text_ru": "Если не верить одним лишь словам Урсуса, станет ясно, что таких людей немало. Хотя заражённые называют «Патриотом» только одного.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 136,
+      "source_line": 241,
+      "kind": "named",
+      "text_ru": "Его жена умерла рано, и они с сыном остались друг у друга единственной опорой.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 137,
+      "source_line": 242,
+      "kind": "named",
+      "text_ru": "Кстати, он сарказ — причём из самого свирепого племени. А его сын стал учёным, учёным-вендиго… возможно, первым в истории Урсуса.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 138,
+      "source_line": 243,
+      "kind": "named",
+      "text_ru": "Булдроккас'ти заразился орипатией в последней битве, в которой участвовал.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 139,
+      "source_line": 244,
+      "kind": "named",
+      "text_ru": "Его солдаты помогли скрыть болезнь, и от сына он тоже всё утаил. Он не хотел становиться для сына обузой и лишь надеялся умереть где-нибудь в тёмном углу, неся свою болезнь.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 140,
+      "source_line": 245,
+      "kind": "named",
+      "text_ru": "Но во время «Великого восстания» его сын боролся за права заражённых. Они давно не общались, и сын по-прежнему считал отца приспешником Урсуса.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 141,
+      "source_line": 246,
+      "kind": "named",
+      "text_ru": "Так и было. Ему приказали любой ценой поддерживать порядок. Он разрешил солдатам применять оружие; вспыхнуло столкновение, и люди один за другим падали в снег.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 142,
+      "source_line": 247,
+      "kind": "named",
+      "text_ru": "Когда-то он был именно таким.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 143,
+      "source_line": 248,
+      "kind": "named",
+      "text_ru": "А потом он увидел на улице собственного сына — тот уже остыл.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 144,
+      "source_line": 249,
+      "kind": "named",
+      "text_ru": "Интересно, вспоминал ли он своего сына, когда обнимал меня?",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 145,
+      "source_line": 250,
+      "kind": "named",
+      "text_ru": "Его сын боролся за таких заражённых, как он сам, на своём поприще, а Булдроккас'ти считал, что собственными руками убил сына.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 146,
+      "source_line": 251,
+      "kind": "named",
+      "text_ru": "Его отряд ушёл вместе с ним. С тех пор на северо-западной тундре появился партизанский отряд, наводящий ужас на урсусцев, которые издеваются над заражёнными.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 147,
+      "source_line": 252,
+      "kind": "named",
+      "text_ru": "……",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 148,
+      "source_line": 253,
+      "kind": "named",
+      "text_ru": "Ни о чём из этого старый зверь мне ни слова не сказал.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 149,
+      "source_line": 254,
+      "kind": "named",
+      "text_ru": "Возможно, он и правда считает меня своей дочерью. Но мне хотелось бы, чтобы он сам рассказал мне обо всём этом, слово за словом.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 150,
+      "source_line": 255,
+      "kind": "named",
+      "text_ru": "Всё это мне рассказали его подчинённые. Сам Булдроккас'ти не скажет никому ни единого слова.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 151,
+      "source_line": 256,
+      "kind": "named",
+      "text_ru": "Этот упрямый старик, похожий на чудовище, а сердце у него хрупкое, словно решето.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 152,
+      "source_line": 257,
+      "kind": "named",
+      "text_ru": "До того как спасти нас, детей-заражённых, его отряд прошёл через четыре рудника.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 153,
+      "source_line": 258,
+      "kind": "named",
+      "text_ru": "Тем заражённым повезло меньше, чем нам: их тела погребли обрушившиеся шахты, а урсусские отряды, казнившие их, исчезли бесследно.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 154,
+      "source_line": 259,
+      "kind": "named",
+      "text_ru": "Что он нашёл во мне? Родную привязанность? Искупление? Или хотя бы немного душевного утешения? Не знаю.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 155,
+      "source_line": 260,
+      "kind": "named",
+      "text_ru": "…Кхе, кхе.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 156,
+      "source_line": 263,
+      "kind": "named",
+      "text_ru": "Наверное. Ничего страшного. Возможно, это просто последствия чрезмерного использования Искусств.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 157,
+      "source_line": 264,
+      "kind": "named",
+      "text_ru": "Сегодня приступ был особенно сильным. Раньше такое случалось лишь однажды.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 158,
+      "source_line": 265,
+      "kind": "named",
+      "text_ru": "Я уже теряла сознание, всё тело парализовало, и даже после того, как я приходила в себя, не могла нормально двигаться. Такое уже случалось. Я лучше всех знаю своё состояние.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 159,
+      "source_line": 268,
+      "kind": "named",
+      "text_ru": "Если не я, то кто будет сражаться вместо меня — ты?",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 160,
+      "source_line": 269,
+      "kind": "named",
+      "text_ru": "Родосец… Как мне тебя называть?",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 161,
+      "source_line": 272,
+      "kind": "named",
+      "text_ru": "Доктор {@nickname}?",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 162,
+      "source_line": 273,
+      "kind": "named",
+      "text_ru": "Доктор {@nickname}.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 163,
+      "source_line": 274,
+      "kind": "named",
+      "text_ru": "…Признаю, вы, родосцы, неплохо сражаетесь. Но доверять вам я всё равно не могу. Тем более что вообще-то вы всего лишь фармацевтическая компания.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 164,
+      "source_line": 277,
+      "kind": "named",
+      "text_ru": "Всё, что не связано с боем, меня не касается.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 165,
+      "source_line": 278,
+      "kind": "named",
+      "text_ru": "В Чернобоге я наблюдала за вашими боями. Я собственными глазами видела, что вы твёрдо придерживаетесь своей позиции, но не могу судить, добрые вы или злые.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 166,
+      "source_line": 279,
+      "kind": "named",
+      "text_ru": "…Я слышала, что Алекс погиб от ваших рук. Из-за этого я стала сомневаться в вас.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 167,
+      "source_line": 280,
+      "kind": "named",
+      "text_ru": "Теперь я не могу позволить вам покинуть руины спутникового города Чернобога и тем самым дать вам возможность навредить другим заражённым из Воссоединения.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 168,
+      "source_line": 281,
+      "kind": "named",
+      "text_ru": "Но ты выслушал столько моей болтовни…",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 169,
+      "source_line": 282,
+      "kind": "named",
+      "text_ru": "Буду считать, что вы не совсем такие, какими вас описывают другие заражённые.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 170,
+      "source_line": 285,
+      "kind": "named",
+      "text_ru": "Кто не испугается того, кто несёт смерть?",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 171,
+      "source_line": 286,
+      "kind": "named",
+      "text_ru": "Доктор {@nickname}, тебе сейчас страшно?",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 172,
+      "source_line": 289,
+      "kind": "named",
+      "text_ru": "Бояться — совершенно естественно.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 173,
+      "source_line": 290,
+      "kind": "named",
+      "text_ru": "Это значит, что тебе ещё дорога эта земля и что у тебя впереди много дел.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 174,
+      "source_line": 292,
+      "kind": "named",
+      "text_ru": "Ты и правда испытываешь страх?",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 175,
+      "source_line": 293,
+      "kind": "named",
+      "text_ru": "Сомневаюсь.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 176,
+      "source_line": 294,
+      "kind": "named",
+      "text_ru": "Если перед лицом смерти ты сохраняешь такое спокойствие, то, возможно, тебе и правда больше нечего желать и ничто не держит тебя на этой земле.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 177,
+      "source_line": 296,
+      "kind": "named",
+      "text_ru": "Любопытно. Ты не боишься?",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 178,
+      "source_line": 297,
+      "kind": "named",
+      "text_ru": "Думаю, тот, кто не боится смерти, уже не слишком дорожит этой землёй.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 179,
+      "source_line": 299,
+      "kind": "named",
+      "text_ru": "Я постоянно задаюсь одним вопросом…",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 180,
+      "source_line": 300,
+      "kind": "named",
+      "text_ru": "«Боюсь ли я смерти?»",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 181,
+      "source_line": 301,
+      "kind": "named",
+      "text_ru": "Я слышала, что урсусские гарнизоны прозвали меня Принцессой йети и Смертью зимы…",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 182,
+      "source_line": 302,
+      "kind": "named",
+      "text_ru": "На самом деле мы были всего лишь несколькими потрёпанными отрядами, скитавшимися по тундре и едва сводившими концы с концами.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 183,
+      "source_line": 303,
+      "kind": "named",
+      "text_ru": "Мои Искусства были могущественны — это признавали и враги, и товарищи по отряду.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 184,
+      "source_line": 304,
+      "kind": "named",
+      "text_ru": "Конечно, моё тело, как видишь, — всего лишь тело человека, больного орипатией.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 185,
+      "source_line": 305,
+      "kind": "named",
+      "text_ru": "Я ощущала себя особенной не из-за болезни, а благодаря ощущениям, которые дарил мне лёд.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 186,
+      "source_line": 306,
+      "kind": "named",
+      "text_ru": "Я считала свою способность благословением, а старик Булдроккас'ти — проклятием.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 187,
+      "source_line": 307,
+      "kind": "named",
+      "text_ru": "Мы пробирались через топкое болото, ледяная вода заливала мне ноги, но я не чувствовала холода.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 188,
+      "source_line": 308,
+      "kind": "named",
+      "text_ru": "Старик всё ещё не разрешал нам вступать в бой, хотя его солдаты уже понесли немалые потери.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 189,
+      "source_line": 309,
+      "kind": "named",
+      "text_ru": "Он зажёг масляную лампу и молча сидел один за столом. Думаю, он плакал, но доказать это я не могла и не знала, стоит ли его утешить.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 190,
+      "source_line": 310,
+      "kind": "named",
+      "text_ru": "На пятый год я впервые призвала ледяной поток перед лицом врага.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 191,
+      "source_line": 311,
+      "kind": "named",
+      "text_ru": "Одного солдата сковало льдом, другой случайно упал на ледяную глыбу — и оба разбились на осколки.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 192,
+      "source_line": 312,
+      "kind": "named",
+      "text_ru": "Я вступила в бой. Солдаты смотрели на меня с благоговением, братья и сёстры гордились мной, а другие заражённые говорили: —",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 193,
+      "source_line": 313,
+      "kind": "named",
+      "text_ru": "Это наша старшая сестра. Она спасла нам всем жизнь.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 194,
+      "source_line": 314,
+      "kind": "named",
+      "text_ru": "Неужели мои Искусства и правда кого-то спасли?",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 195,
+      "source_line": 315,
+      "kind": "named",
+      "text_ru": "Дети, вышедшие из шахты, носили на себе созданные мной кристаллы Ориджиниума. Так мы и стали «Отрядом йети».",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 196,
+      "source_line": 316,
+      "kind": "named",
+      "text_ru": "Эти кристаллы излучали мой холод. Мы несли стужу и возмездие врагам заражённых.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 197,
+      "source_line": 317,
+      "kind": "named",
+      "text_ru": "Но в конечном счёте… это был лишь холод. Зимний холод, в котором не рождается новая жизнь.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 198,
+      "source_line": 318,
+      "kind": "named",
+      "text_ru": "И всё же я считала себя счастливицей. Ведь мои братья и сёстры смогли выжить.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 199,
+      "source_line": 319,
+      "kind": "named",
+      "text_ru": "Смогли продолжить жить на этой земле.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 200,
+      "source_line": 322,
+      "kind": "named",
+      "text_ru": "Обычные люди…",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 201,
+      "source_line": 323,
+      "kind": "named",
+      "text_ru": "Кого ты называешь обычными людьми?",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 202,
+      "source_line": 324,
+      "kind": "named",
+      "text_ru": "Безоружные жители Чернобога, равнодушно наблюдающие, как казнят заражённых, или урсусские призывники в шахтах, которым доставляет удовольствие стрелять в заражённых?",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 203,
+      "source_line": 325,
+      "kind": "named",
+      "text_ru": "Каждый раз, вспоминая рожи надсмотрщиков, я стискиваю зубы. Так и хочется перерезать им глотки и напиться их крови…",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 204,
+      "source_line": 326,
+      "kind": "named",
+      "text_ru": "……",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 205,
+      "source_line": 327,
+      "kind": "named",
+      "text_ru": "Но я не ненавижу жителей Урсуса.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 206,
+      "source_line": 328,
+      "kind": "named",
+      "text_ru": "Когда наш партизанский отряд пробирался сквозь снег, отступал из долины или даже спасался от преследования урсусской армии…",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 207,
+      "source_line": 329,
+      "kind": "named",
+      "text_ru": "Именно жители Урсуса оставляли у окон по несколько кружек хлебного напитка.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 208,
+      "source_line": 330,
+      "kind": "named",
+      "text_ru": "Жители Урсуса вовсе не бессердечные чудовища. Мой единственный враг — Урсусская империя, загнавшая заражённых в безвыходное положение.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 209,
+      "source_line": 331,
+      "kind": "named",
+      "text_ru": "Я не считаю обычных людей своими врагами. Урсусцев учат ненавидеть заражённых, но, пока эта ненависть не ослепила их, они остаются обычными людьми.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 210,
+      "source_line": 332,
+      "kind": "named",
+      "text_ru": "Мы дошли до такой жестокости лишь потому, что считали друг друга врагами и были готовы убивать. И только.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 211,
+      "source_line": 333,
+      "kind": "named",
+      "text_ru": "Да, я заражённая… Но прежде всего я была обычным человеком.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 212,
+      "source_line": 336,
+      "kind": "named",
+      "text_ru": "…Главное наше разногласие с Булдроккас'ти заключалось в том, что он всеми силами пытался защитить сообщество заражённых.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 213,
+      "source_line": 337,
+      "kind": "named",
+      "text_ru": "«Воссоединение — первое имя, которому заражённые могут доверять, имя, на которое они могут положиться».",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 214,
+      "source_line": 338,
+      "kind": "named",
+      "text_ru": "«Как бы ни сложился путь Воссоединения, мы не можем… просто разрушить его. Крах Воссоединения лишит заражённых веры. Веры в борьбу».",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 215,
+      "source_line": 339,
+      "kind": "named",
+      "text_ru": "— Именно так говорил этот старик. И сам твёрдо верил в свои слова.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 216,
+      "source_line": 342,
+      "kind": "named",
+      "text_ru": "Потому что теперь он именно так и говорит. Я лишь… кх-кх… попыталась передать его манеру речи.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 217,
+      "source_line": 343,
+      "kind": "named",
+      "text_ru": "Доктор {@nickname}, знаешь, почему Родос Айленд — никому не известная фармацевтическая компания?",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 218,
+      "source_line": 344,
+      "kind": "named",
+      "text_ru": "Потому что вам нельзя действовать открыто. Стоит вам выйти на публику — и вы превратитесь в то, чем сейчас стало Воссоединение.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 219,
+      "source_line": 345,
+      "kind": "named",
+      "text_ru": "Вы пойдёте по этому пути.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 220,
+      "source_line": 348,
+      "kind": "named",
+      "text_ru": "Хм.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 221,
+      "source_line": 349,
+      "kind": "named",
+      "text_ru": "После более чем десяти лет скитаний по тундре одна женщина-заражённая протянула нам руку. Она сказала: «Пойдёмте со мной. Вместе мы разрушим все оковы».",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 222,
+      "source_line": 350,
+      "kind": "named",
+      "text_ru": "Представь: мы встретились в руинах старого города, ставшего полем боя. Она была одна; при ней не было ничего, кроме списка имён и книги с номерами.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 223,
+      "source_line": 351,
+      "kind": "named",
+      "text_ru": "Даже её слова казались мне настолько оторванными от реальности, что это было смешно.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 224,
+      "source_line": 352,
+      "kind": "named",
+      "text_ru": "Но она сказала нам: «Пойдёмте со мной».",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 225,
+      "source_line": 353,
+      "kind": "named",
+      "text_ru": "Она сражалась вместе с нами и благодаря своим идеям и силе стала нашей подругой. Вместе мы покинули снежные равнины и направились к городам Урсуса.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 226,
+      "source_line": 354,
+      "kind": "named",
+      "text_ru": "И слова, которые она произносила после долгих раздумий, и взмахи её огромного меча во время наших тренировочных поединков — во всём чувствовалась сила, искренняя и весомая.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 227,
+      "source_line": 355,
+      "kind": "named",
+      "text_ru": "Она была рядом, когда лечили раненых бойцов. Была рядом, когда рассказывала заражённым о стратегии и своих учениях. И даже когда мы сражались с отрядами зачистки Урсуса, она тоже была с нами.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 228,
+      "source_line": 356,
+      "kind": "named",
+      "text_ru": "…Мы даже могли вместе обедать с некоторыми обычными людьми. Её не волновало происхождение людей; искренность читалась в её глазах.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 229,
+      "source_line": 357,
+      "kind": "named",
+      "text_ru": "Наш отряд рос, крепла и наша дружба. Люди, с которыми она налаживала связи, были и умелыми бойцами, и хорошими людьми.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 230,
+      "source_line": 358,
+      "kind": "named",
+      "text_ru": "Тогда я считала её своей подругой. Она тихонько помогала мне делать эти конфеты, хотя совсем не умела этого делать, и на вид они получались ужасными.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 231,
+      "source_line": 359,
+      "kind": "named",
+      "text_ru": "Когда она пробовала их, у неё было такое странное выражение лица. Она изо всех сил пыталась улыбнуться мне.",
+      "speaker_cn": "霜星"
+    },
+    {
+      "ordinal": 232,
+      "source_line": 360,
+      "kind": "named",
+      "text_ru": "Выражение у неё было и правда очень странное. Она явно заставляла себя улыбаться — я это понимала, и в конце концов даже сама рассмеялась.",
+      "speaker_cn": "霜星"
+    }
+  ],
+  "decision_options_ru": [
+    {
+      "source_line": 4,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Очнись!"
+      ]
+    },
+    {
+      "source_line": 37,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "Очнись!",
+        "……",
+        "Не сочти за труд…"
+      ]
+    },
+    {
+      "source_line": 45,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Кажется, такое уже случалось…"
+      ]
+    },
+    {
+      "source_line": 49,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "У меня не было выбора.",
+        "……",
+        "Разве я мог так поступить?"
+      ]
+    },
+    {
+      "source_line": 55,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "Наверное, ты всё время говорила во сне.",
+        "……",
+        "Можно расспросить тебя о прошлом?"
+      ]
+    },
+    {
+      "source_line": 79,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Ты видела это своими глазами…"
+      ]
+    },
+    {
+      "source_line": 89,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Значит, тебя вырастила бабушка."
+      ]
+    },
+    {
+      "source_line": 92,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "…Что?"
+      ]
+    },
+    {
+      "source_line": 140,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Кажется, ты… гордишься ими."
+      ]
+    },
+    {
+      "source_line": 168,
+      "values": [
+        "1",
+        "2"
+      ],
+      "options_ru": [
+        "Возьми одну конфету.",
+        "Возьми две конфеты."
+      ]
+    },
+    {
+      "source_line": 181,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "И что дальше?"
+      ]
+    },
+    {
+      "source_line": 184,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "Разве так можно?",
+        "……",
+        "Вот так?"
+      ]
+    },
+    {
+      "source_line": 189,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "(Дать конфету ФростНове)"
+      ]
+    },
+    {
+      "source_line": 192,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "(Съесть конфету)",
+        "(Съесть конфету)",
+        "(Съесть конфету)"
+      ]
+    },
+    {
+      "source_line": 201,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "……"
+      ]
+    },
+    {
+      "source_line": 209,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Зачем ты ешь такие конфеты?"
+      ]
+    },
+    {
+      "source_line": 217,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Это явление выходит за рамки того, что описано в существующих научных источниках."
+      ]
+    },
+    {
+      "source_line": 225,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Значит, ты сказала, что тебе холодно, потому что…"
+      ]
+    },
+    {
+      "source_line": 231,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "То есть Булдроккас'ти…"
+      ]
+    },
+    {
+      "source_line": 238,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Он был солдатом Урсуса, но сражался за заражённых?"
+      ]
+    },
+    {
+      "source_line": 261,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Кашель и внутреннее кровотечение — это тоже… симптомы орипатии?"
+      ]
+    },
+    {
+      "source_line": 266,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Тебе больше нельзя использовать Искусства Ориджиниума."
+      ]
+    },
+    {
+      "source_line": 270,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Можешь называть меня так же, как операторы Родос Айленда."
+      ]
+    },
+    {
+      "source_line": 275,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Родос Айленду нужно заниматься многими делами."
+      ]
+    },
+    {
+      "source_line": 283,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Те заражённые просто очень напуганы."
+      ]
+    },
+    {
+      "source_line": 287,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "Да.",
+        "Не знаю.",
+        "Нет."
+      ]
+    },
+    {
+      "source_line": 320,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Ты когда-нибудь думала о том, чтобы жить бок о бок с обычными людьми?"
+      ]
+    },
+    {
+      "source_line": 334,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "А что насчёт нынешних действий Воссоединения?"
+      ]
+    },
+    {
+      "source_line": 340,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Почему ты говоришь с такими паузами?"
+      ]
+    },
+    {
+      "source_line": 346,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "Возможно.",
+        "……",
+        "Неужели мы и правда так поступим?"
+      ]
+    }
+  ],
+  "header_title_ru": "Шестой этап (после боя)",
+  "translation_revision": "v1.94",
+  "notes_v191": "Добавлен непрерывный фрагмент позиций №51–112: 59 именных и 3 безымянные реплики, исходные строки CN 101–205. Переведены 7 команд Decision и 12 вариантов выбора; всего локализовано 15/34 Decision, 26/53 вариантов и 23/45 Predicate-ветвлений. Следующая позиция №113, строка CN 206; осталось 157 текстовых позиций и 27 вариантов Decision. CN blob ffa8947a78abc196f2ebfcb90ae2283ee136c953; EN Yostar blob 79204a97fedbc6e1950440f86a618c8d6efa37ba. Структура и порядок команд сверены; CN остаётся первичным источником. EN line 101 содержит грамматическую ошибку ('there are with no settlements around'), перевод следует ясному CN. Полные исходные сценарии не включались. Это частичный первый черновик без литературной вычитки и проверки в Yostar Global PC.",
+  "notes_v192": "Добавлен непрерывный фрагмент позиций №113–180: 68 именных реплик, исходные строки CN 206–300. Переведены 11 команд Decision / 13 вариантов и 14 ветвей Predicate. Итого 180/269 текстовых позиций (168 именных, 12 безымянных), 26/34 Decision, 39/53 вариантов и 37/45 Predicate; следующая позиция №181, строка CN 301. Сохранены три {@nickname}. CN blob ffa8947a78abc196f2ebfcb90ae2283ee136c953; EN Yostar blob 79204a97fedbc6e1950440f86a618c8d6efa37ba. Структура команд и физические позиции сверены. Перевод следует CN при расхождениях на строках 237, 268 и 280; строка 286 отличается только пунктуацией. Написание «Булдроккас'ти» согласовано с ранее переведёнными сценами главы 6. Полные исходные сценарии не включались. Это частичный первый черновик без литературной вычитки и проверки в Yostar Global PC.",
+  "notes_v193": "Добавлен непрерывный фрагмент позиций №181–192: 12 именных реплик, исходные строки CN 301–312. Теперь переведено 192/269 позиций (180 именных, 12 безымянных); следующая позиция №193, строка CN 313. В новом фрагменте нет управляющих команд и вариантов Decision; ранее переведённые 26/34 Decision, 39/53 вариантов и 37/45 Predicate-ветвлений сохранены. CN blob ffa8947a78abc196f2ebfcb90ae2283ee136c953; EN Yostar blob 79204a97fedbc6e1950440f86a618c8d6efa37ba. Все 12 позиций сверены по строкам и говорящему в CN/EN. Полные исходные сценарии не включались. Частичный первый черновик; литературная вычитка и проверка в Yostar Global PC не проводились.",
+  "notes_v194": "Добавлены позиции №193–232: 40 именных реплик, CN 313–360. Переведено 232/269 позиций (220 именных, 12 безымянных); следующая №233, CN 361. Добавлены 4 Decision-команды, 6 вариантов и 4 Predicate-команды; итого 30/34 Decision, 45/53 вариантов, 41/45 Predicate. В строках 354 и 358 перевод следует CN: 切磋 — тренировочный поединок; 品相 — внешний вид конфет. Плейсхолдер {@nickname} сохранён. Полные исходные сценарии не включались. Первый черновик, без литературной вычитки и проверки в клиенте."
+}
