@@ -120,7 +120,7 @@
       "status": "Первый полный черновик готов: 23/23 сценария, 4 633 текстовые позиции; требуется литературная вычитка и игровой тест.",
       "accuracy": "Основное действие около 1094, воспоминания от более ранних эпох",
       "priority": "After Darknights Memoir; continue in author order",
-      "notes": "All 23 Babel scenes have complete first drafts (4,633 text entries). After Babel, the active track is the main story in author order. Episode 6 interludes 6-6 (level_st_06-01.txt, 203/203), 6-13 (level_st_06-02.txt, 269/269) and 6-17 After Operation (level_main_06-15_end.txt, 89/89) are complete. Current scene: 6-18 Only You Know (level_st_06-03.txt), partial first draft 55/290; next position 56 at CN line 143. No full source scripts are stored; literary review and Yostar Global PC validation remain pending."
+      "notes": "All 23 Babel scenes have complete first drafts (4,633 text entries). After Babel, the active track is the main story in author order. Episode 6 interludes 6-6 (level_st_06-01.txt, 203/203), 6-13 (level_st_06-02.txt, 269/269) and 6-17 After Operation (level_main_06-15_end.txt, 89/89) are complete. Current scene: 6-18 Only You Know (level_st_06-03.txt), partial first draft 170/290; next position 171 at CN line 357. No full source scripts are stored; literary review and Yostar Global PC validation remain pending."
     },
     {
       "order": 3,
@@ -128,10 +128,10 @@
       "event": "Основная история: главы 0–2",
       "type": "Main Theme",
       "source_code": "obt/main",
-      "status": "Main story: 123 complete first-draft files and one partial scene — 6-18 Only You Know (55/290); next position 56 at CN line 143.",
+      "status": "Main story: 123 complete first-draft files and one partial scene — 6-18 Only You Know (170/290); next position 171 at CN line 357.",
       "accuracy": "Последовательность подтверждена сюжетом",
       "priority": "Не перепереводить, начать литературную вычитку позднее",
-      "notes": "Episode 6 interludes 6-6 (203/203), 6-13 (269/269), and 6-17 After Operation (89/89) are complete. 6-18 Only You Know is in progress at 55/290 positions (51 named, 4 unnamed); next is position 56 at CN line 143. Partial scenes are excluded from the completed selection. Literary review and Yostar Global PC validation remain pending."
+      "notes": "Episode 6 interludes 6-6 (203/203), 6-13 (269/269), and 6-17 After Operation (89/89) are complete. 6-18 Only You Know is in progress at 170/290 positions (165 named, 5 unnamed); next is position 171 at CN line 357. Partial scenes are excluded from the completed selection. Literary review and Yostar Global PC validation remain pending."
     },
     {
       "order": 4,
@@ -139,10 +139,10 @@
       "event": "Основная история: главы 3–8",
       "type": "Main Theme",
       "source_code": "obt/main",
-      "status": "Main story: 123 complete first-draft files and one partial scene — 6-18 Only You Know (55/290); next position 56 at CN line 143.",
+      "status": "Main story: 123 complete first-draft files and one partial scene — 6-18 Only You Know (170/290); next position 171 at CN line 357.",
       "accuracy": "Сюжет следует за главой 2",
       "priority": "Continue with earliest incomplete chapter-6 scene in author order after Babel",
-      "notes": "Episode 6 interludes 6-6 (203/203), 6-13 (269/269), and 6-17 After Operation (89/89) are complete. 6-18 Only You Know is in progress at 55/290 positions (51 named, 4 unnamed); next is position 56 at CN line 143. Partial scenes are excluded from the completed selection. Literary review and Yostar Global PC validation remain pending."
+      "notes": "Episode 6 interludes 6-6 (203/203), 6-13 (269/269), and 6-17 After Operation (89/89) are complete. 6-18 Only You Know is in progress at 170/290 positions (165 named, 5 unnamed); next is position 171 at CN line 357. Partial scenes are excluded from the completed selection. Literary review and Yostar Global PC validation remain pending."
     },
     {
       "order": 5,
@@ -183,10 +183,10 @@
       "event": "Основная история: глава 9",
       "type": "Main Theme",
       "source_code": "obt/main",
-      "status": "Main story: 123 complete first-draft files and one partial scene — 6-18 Only You Know (113/290); next position 114 at CN line 231.",
+      "status": "Main story: 123 complete first-draft files and one partial scene — 6-18 Only You Know (113/290); next position 171 at CN line 357.",
       "accuracy": "Январь 1098 для первых событий",
       "priority": "Начало викторианской линии",
-      "notes": "Episode 6 interludes 6-6 (203/203), 6-13 (269/269) and 6-17 After Operation (89/89) are complete. 6-18 Only You Know is in progress at 113/290 positions (109 named, 4 unnamed); both Decision commands, all four option strings and all five Predicate branches are translated. Next is position 114 at CN line 231. Partial scenes remain excluded from the completed selection. Literary review and Yostar Global PC validation remain pending."
+      "notes": "Episode 6 interludes 6-6 (203/203), 6-13 (269/269) and 6-17 After Operation (89/89) are complete. 6-18 Only You Know is in progress at 170/290 positions (165 named, 5 unnamed); both Decision commands, all four option strings and all five Predicate branches are translated. Next is position 114 at CN line 231. Partial scenes remain excluded from the completed selection. Literary review and Yostar Global PC validation remain pending."
     },
     {
       "order": 9,
