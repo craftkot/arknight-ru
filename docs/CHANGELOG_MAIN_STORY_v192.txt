@@ -1,0 +1,18 @@
+Arknights RU — main story v1.92 / repository v3.52
+Date: 2026-11-11
+
+Episode 6 — 6-13 Interlude: No Light Without Fire
+Source: obt/main/level_st_06-02.txt
+
+- Added continuous text positions 113–180: 68 named entries, CN source lines 206–300.
+- Cumulative progress: 180/269 text positions (168 named, 12 unnamed); next ordinal 181, CN line 301; 89 positions remain.
+- Added 11 Decision commands / 13 option strings. Cumulative: 26/34 Decision commands and 39/53 option strings; 37/45 Predicate branches represented.
+- New range contains 27 command lines: 11 Decision, 14 Predicate, 2 Character. Parameters, values and branch references are preserved.
+- Preserved three {@nickname} placeholders in the new range.
+- CN blob: ffa8947a78abc196f2ebfcb90ae2283ee136c953
+- EN Yostar blob: 79204a97fedbc6e1950440f86a618c8d6efa37ba
+- CN/EN align on 269 text positions and 141 command positions; command positions and parameters were rechecked.
+- CN remains primary for meaning. Differences at lines 237, 268 and 280 are documented; line 286 differs only in punctuation.
+- Harmonized Buldrokkas'tee spelling to «Булдроккас'ти», matching earlier Episode 6 translations.
+- Partial scene remains excluded from the completed-scene selection. Full CN/EN scripts are not committed.
+- First draft only; no literary review or Yostar Global PC validation.

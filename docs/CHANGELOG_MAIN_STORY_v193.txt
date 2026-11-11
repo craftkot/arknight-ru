@@ -1,0 +1,20 @@
+Arknights RU — main story v1.93 / repository v3.53
+Date: 2026-11-11
+
+Episode 6 — 6-13 Interlude: No Light Without Fire
+Source: obt/main/level_st_06-02.txt
+
+- Added continuous positions 181–192: 12 named entries, CN source lines 301–312.
+- Cumulative progress: 192/269 text positions (180 named, 12 unnamed); next ordinal 193, CN line 313; 77 positions remain.
+- No new Decision options or Predicate branches in this segment. Cumulative: 26/34 Decision commands, 39/53 option strings, 37/45 Predicate branches.
+- The new range contains no control-command lines; all prior command names, parameters, branch references and values remain unchanged.
+- CN blob: ffa8947a78abc196f2ebfcb90ae2283ee136c953
+- EN Yostar blob: 79204a97fedbc6e1950440f86a618c8d6efa37ba
+- CN/EN speaker labels and source positions match for all 12 new entries.
+- No additional semantic discrepancy was found in lines 301–312; CN remains primary for meaning, EN Yostar is used for names and structural cross-check.
+- Full CN/EN scripts are not committed. The partial scene remains excluded from the completed-scene selection.
+- First draft only; no literary review or Yostar Global PC validation.
+
+CI repair:
+- Corrected the v1.92 regression test TSV assertion to expect the filename and actual tab separators.
+- Corrected an over-escaped CJK regex that matched backslashes instead of the CJK range.
