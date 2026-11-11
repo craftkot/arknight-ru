@@ -1,0 +1,17 @@
+Arknights RU — main story v1.91 / repository v3.51
+Date: 2026-11-11
+
+Episode 6 — 6-13 Interlude: No Light Without Fire
+Source: obt/main/level_st_06-02.txt
+
+- Added continuous positions 51–112: 59 named and 3 unnamed entries, CN source lines 101–205.
+- Total translated: 112/269 text positions (100 named, 12 unnamed); next ordinal 113, CN line 206; 157 positions remain.
+- Localized 7 additional Decision commands / 12 option strings. Cumulative: 15/34 Decision commands and 26/53 option strings; 23/45 Predicate branches represented.
+- The new physical range contains 43 command lines: Dialog 5, Blocker 6, Image 2, Character 7, ImageTween 1, Decision 7, Predicate 12, Background 1, delay 1, hideitem 1.
+- CN blob: ffa8947a78abc196f2ebfcb90ae2283ee136c953
+- EN Yostar blob: 79204a97fedbc6e1950440f86a618c8d6efa37ba
+- CN/EN still align on 269 text positions and 141 command positions. Decision values, Predicate references and command parameters remain unchanged.
+- EN Yostar line 101 contains a grammatical error (“there are with no settlements around”); the translation follows CN.
+- Restored the historical v3.46 checkpoint in README because an older regression test still asserts that marker; current status remains v3.51.
+- Chapter 6 index, chronology, QA, README and source audit updated. Completed-scene selection remains unchanged; partial scene is excluded.
+- No full copyrighted CN/EN scripts committed. First draft only; no literary review or Yostar Global PC validation.

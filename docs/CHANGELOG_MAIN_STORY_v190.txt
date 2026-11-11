@@ -1,0 +1,15 @@
+Arknights RU — main story v1.90 / repository v3.50
+Date: 2026-11-11
+
+Episode 6 — 6-13 Interlude: No Light Without Fire
+Source: obt/main/level_st_06-02.txt
+
+- Added a continuous opening fragment: 50/269 text positions (41 named, 9 unnamed), CN source lines 6–100.
+- Localized 8 Decision commands / 14 option strings. Full source contains 34 Decision commands, 53 option strings and 45 Predicate branches.
+- Next position: ordinal 51, CN line 101; 219 text positions and 39 option strings remain.
+- CN blob: ffa8947a78abc196f2ebfcb90ae2283ee136c953
+- EN Yostar blob: 79204a97fedbc6e1950440f86a618c8d6efa37ba
+- CN/EN align on 269 text positions and 141 command positions. Speaker labels map after localization; command parameters, Decision values and Predicate references align.
+- CN line 32 includes 分城 (satellite city), omitted in EN; CN line 33 地基层上部 differs semantically from EN “Upper superstructure levels”. Translation follows CN; line 33 is flagged for editorial review. EN has one additional terminal newline.
+- Chapter 6 index, chronology, QA, README and source audit updated. Completed-scene selection remains unchanged; partial scene is excluded.
+- No full copyrighted CN/EN scripts committed. First draft only; no literary review or Yostar Global PC validation.
