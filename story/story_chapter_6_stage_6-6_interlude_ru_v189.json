@@ -1,0 +1,1903 @@
+{
+  "version": "v1.89",
+  "stage": "Main story — 6-6 Interlude: Leave it Behind (resource key level_st_06-01)",
+  "status": "COMPLETE_FIRST_DRAFT; FULL_SOURCE_STRUCTURAL_AUDIT_PASSED; TRANSLATED_RANGE_AUDITED; NOT_EDITORIALLY_REVIEWED; NOT_GAME_TESTED",
+  "source_file": "obt/main/level_st_06-01.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "026bf7f38a9e0794661a54635a137df90ff4fba0",
+    "cn_physical_lines": 312,
+    "cn_final_newline": false,
+    "cn_url": "https://github.com/Kengxxiao/ArknightsGameData/blob/master/zh_CN/gamedata/story/obt/main/level_st_06-01.txt",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "9eefd6f8b7e7a7956d7a5e4d9464004cd6ad9676",
+    "en_physical_lines": 313,
+    "en_final_newline": true,
+    "en_url": "https://github.com/Kengxxiao/ArknightsGameData_YoStar/blob/main/en_US/gamedata/story/obt/main/level_st_06-01.txt",
+    "version_difference": "CN and EN align on 174 named and 29 unnamed positions and all 109 non-name command positions. One anonymous speaker label differs only in punctuation at line 188 (CN ？？？, EN ????); the position is unchanged. CN has 312 physical lines without a final newline; EN has 313 with one extra terminal newline. This partial draft translates ordinals 1–150 (130 named, 20 unnamed)."
+  },
+  "source_alignment": {
+    "cn_text_positions": 203,
+    "en_text_positions": 203,
+    "cn_named_positions": 174,
+    "en_named_positions": 174,
+    "cn_unnamed_positions": 29,
+    "en_unnamed_positions": 29,
+    "command_lines_cn": 109,
+    "command_lines_en": 109,
+    "command_counts": {
+      "HEADER": 1,
+      "delay": 4,
+      "CameraEffect": 4,
+      "Background": 11,
+      "PlayMusic": 1,
+      "Dialog": 21,
+      "Character": 44,
+      "Blocker": 21,
+      "CameraShake": 1,
+      "Image": 1
+    },
+    "named_text_line_numbers_match": true,
+    "unnamed_text_line_numbers_match": true,
+    "speaker_label_positions_match": true,
+    "speaker_label_names_match_after_anonymous_normalization": true,
+    "speaker_label_spelling_exceptions": [
+      {
+        "line": 188,
+        "cn": "？？？",
+        "en": "????"
+      }
+    ],
+    "command_line_numbers_match": true,
+    "command_names_and_parameters_match_after_decision_option_normalization": true,
+    "decision_commands": 0,
+    "predicate_branches": 0,
+    "decision_option_total": 0,
+    "decision_values_and_predicate_references_match": true,
+    "translated_range": {
+      "ordinal_start": 1,
+      "ordinal_end": 203,
+      "translated_source_lines": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        34,
+        35,
+        36,
+        37,
+        38,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        61,
+        62,
+        63,
+        68,
+        69,
+        70,
+        71,
+        72,
+        76,
+        77,
+        78,
+        79,
+        80,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        100,
+        101,
+        102,
+        103,
+        104,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        158,
+        159,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        176,
+        178,
+        179,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        204,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        221,
+        223,
+        224,
+        226,
+        228,
+        229,
+        230,
+        231,
+        232,
+        234,
+        236,
+        238,
+        240,
+        241,
+        247,
+        252,
+        254,
+        256,
+        258,
+        260,
+        262,
+        263,
+        265,
+        267,
+        269,
+        271,
+        275,
+        281,
+        283,
+        285,
+        287,
+        288,
+        290,
+        292,
+        294,
+        296,
+        298,
+        300,
+        302,
+        303,
+        308,
+        309
+      ],
+      "named_positions": 174,
+      "unnamed_positions": 29,
+      "command_lines_in_range": 109,
+      "command_counts": {
+        "HEADER": 1,
+        "delay": 4,
+        "CameraEffect": 4,
+        "Background": 11,
+        "PlayMusic": 1,
+        "Dialog": 21,
+        "Character": 44,
+        "Blocker": 21,
+        "CameraShake": 1,
+        "Image": 1
+      }
+    },
+    "untranslated_positions": 0,
+    "empty_ru_entries": 0,
+    "untranslated_cjk_in_ru": 0,
+    "placeholder_count_cn": 0,
+    "placeholder_count_en": 0,
+    "placeholder_count_ru": 0,
+    "translated_chunks": [
+      {
+        "ordinal_start": 1,
+        "ordinal_end": 100,
+        "translated_source_lines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          34,
+          35,
+          36,
+          37,
+          38,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          61,
+          62,
+          63,
+          68,
+          69,
+          70,
+          71,
+          72,
+          76,
+          77,
+          78,
+          79,
+          80,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          100,
+          101,
+          102,
+          103,
+          104,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133
+        ],
+        "named_positions": 82,
+        "unnamed_positions": 18
+      },
+      {
+        "ordinal_start": 101,
+        "ordinal_end": 150,
+        "translated_source_lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          158,
+          159,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          176,
+          178,
+          179,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197
+        ],
+        "named_positions": 48,
+        "unnamed_positions": 2
+      }
+    ]
+  },
+  "progress": {
+    "translated": 203,
+    "total": 203,
+    "remaining": 0,
+    "next_ordinal": null,
+    "next_source_line": null,
+    "complete": true,
+    "unit": "named and unnamed text positions; Decision option payloads tracked separately",
+    "named_translated": 174,
+    "named_total": 174,
+    "unnamed_translated": 29,
+    "unnamed_total": 29,
+    "decision_option_strings_translated": 0,
+    "decision_option_strings_total": 0,
+    "decision_option_strings_remaining": 0
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 6,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Эно, о чём эта книга?"
+    },
+    {
+      "ordinal": 2,
+      "source_line": 7,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Я уже прочитал её, поэтому и принёс тебе."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 8,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Думаю, тебе понравится, Саша! Эта книга об идеалах."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 9,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Об идеалах?"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 10,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Да."
+    },
+    {
+      "ordinal": 6,
+      "source_line": 11,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "А какие идеалы у тебя, Эно?"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 12,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "…Идеалы, говоришь."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 13,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Не знаю. А у меня вообще могут быть идеалы?"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 14,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Конечно! Почему же нет?"
+    },
+    {
+      "ordinal": 10,
+      "source_line": 15,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Ах, чёрт, уже пора домой..."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Не хочешь уходить?"
+    },
+    {
+      "ordinal": 12,
+      "source_line": 17,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "…Не хочу домой."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 18,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Но, Эно, ты же говорил: если не вернёшься домой, отец тебя побьёт..."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 19,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Но ведь завтра мы снова увидимся, правда? Завтра можно будет встретиться."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 20,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Понял. Оставлю здесь книгу и хлеб."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 21,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "…Саша, я не хочу уходить. Мне больно. Даже если вернусь сейчас, меня всё равно побьют."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 22,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 23,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Тогда приходи завтра. Если тебя снова побьют, можешь ударить меня."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 24,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "А?.. Ха-ха-ха! Саша, ты опять подрался? Тебе голову отбили?"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 25,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "У тебя столько синяков... столько ран."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Так хотя бы кто-то поймёт, как тебе больно. Хоть кто-то будет знать."
+    },
+    {
+      "ordinal": 22,
+      "source_line": 27,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Я понимаю, о чём ты. Но не стану."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Если те ребята снова будут задирать тебя по дороге, скажи мне! Я им всем накостыляю!"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 29,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Знаю!"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "До завтра! Я снова приду и спою тебе!"
+    },
+    {
+      "ordinal": 26,
+      "source_line": 34,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Я даже не знаю, что с ним случилось."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 35,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Знаю только, что он делился со мной едой."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 36,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Знаю только, что он умел читать. Я тоже хотел научиться, и он меня учил."
+    },
+    {
+      "ordinal": 29,
+      "source_line": 37,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Знаю только, что другие дети задирали его за то, что он приносил мне хлеб. Я был сильнее, давал им отпор — и сам получал от них."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 38,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Но что с ним произошло, я так и не знаю."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Мне страшно, Саша. Очень страшно."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 44,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Кажется... мне не место в том доме. Я подслушал, что мама... Мамы вообще нет дома."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Они так на меня смотрят... Мне страшно. Я не хочу возвращаться. Не хочу..."
+    },
+    {
+      "ordinal": 34,
+      "source_line": 46,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Но здесь нет ни еды, ни места, где можно жить. Здесь только... только канализационные тоннели."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Мне всё равно."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 48,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Но..."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 38,
+      "source_line": 50,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Ты тоже меня ненавидишь?"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Что?.. Почему?"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 52,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Потому что я люблю смеяться?"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 53,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Нет... Нет. С чего бы мне?"
+    },
+    {
+      "ordinal": 42,
+      "source_line": 54,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Потому что мне нельзя смеяться."
+    },
+    {
+      "ordinal": 43,
+      "source_line": 55,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Глупости! Эно, ты должен продолжать смеяться."
+    },
+    {
+      "ordinal": 44,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Правда?"
+    },
+    {
+      "ordinal": 45,
+      "source_line": 57,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Правда."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 61,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "А что, если бы в тот день он не вернулся домой? Всё могло бы измениться?"
+    },
+    {
+      "ordinal": 47,
+      "source_line": 62,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Я отправил его домой только потому, что у меня было слишком грязно и холодно?"
+    },
+    {
+      "ordinal": 48,
+      "source_line": 63,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Если бы он тогда не вернулся, разве всё могло бы сложиться иначе?"
+    },
+    {
+      "ordinal": 49,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Твои раны! Рана на животе... Что случилось? Что с тобой произошло?!"
+    },
+    {
+      "ordinal": 50,
+      "source_line": 69,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Саша... Я всё смеялся."
+    },
+    {
+      "ordinal": 51,
+      "source_line": 70,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Видишь, ты сказал, что мне можно смеяться, и я продолжал."
+    },
+    {
+      "ordinal": 52,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Всё смеялся..."
+    },
+    {
+      "ordinal": 53,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Саша, хочешь ещё послушать, как я пою?"
+    },
+    {
+      "ordinal": 54,
+      "source_line": 76,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "После этого он всё ещё время от времени приходил ко мне."
+    },
+    {
+      "ordinal": 55,
+      "source_line": 77,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Но шрамов на его теле становилось всё больше..."
+    },
+    {
+      "ordinal": 56,
+      "source_line": 78,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Всё больше."
+    },
+    {
+      "ordinal": 57,
+      "source_line": 79,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Я понимал, насколько сильно мои слова на него влияют, и стал говорить всё реже."
+    },
+    {
+      "ordinal": 58,
+      "source_line": 80,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Может, так станет лучше?"
+    },
+    {
+      "ordinal": 59,
+      "source_line": 85,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Твоя спина!"
+    },
+    {
+      "ordinal": 60,
+      "source_line": 86,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Твоя спина..."
+    },
+    {
+      "ordinal": 61,
+      "source_line": 87,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 62,
+      "source_line": 88,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "…Больно?"
+    },
+    {
+      "ordinal": 63,
+      "source_line": 89,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 64,
+      "source_line": 90,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Так больше продолжаться не может."
+    },
+    {
+      "ordinal": 65,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Кто это сделал?! Почему они так с тобой обращаются?!"
+    },
+    {
+      "ordinal": 66,
+      "source_line": 92,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Кто бы это ни был... его нужно уничтожить! Что бы это ни было — всё нужно уничтожить!"
+    },
+    {
+      "ordinal": 67,
+      "source_line": 93,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Эно, возьми меня с собой!"
+    },
+    {
+      "ordinal": 68,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "…Ладно."
+    },
+    {
+      "ordinal": 69,
+      "source_line": 95,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "А?"
+    },
+    {
+      "ordinal": 70,
+      "source_line": 96,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Я это сделаю."
+    },
+    {
+      "ordinal": 71,
+      "source_line": 100,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Я не понимал, что сказал."
+    },
+    {
+      "ordinal": 72,
+      "source_line": 101,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Не знал даже, могу ли ещё что-нибудь сказать."
+    },
+    {
+      "ordinal": 73,
+      "source_line": 102,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Что я наделал? Что же я наделал?"
+    },
+    {
+      "ordinal": 74,
+      "source_line": 103,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Я прочитал немало книг, но ни одна не дала мне ответа."
+    },
+    {
+      "ordinal": 75,
+      "source_line": 104,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Ни одна."
+    },
+    {
+      "ordinal": 76,
+      "source_line": 109,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Смотри. Смотри, Саша..."
+    },
+    {
+      "ordinal": 77,
+      "source_line": 110,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Ты ведь говорил, что хочешь уничтожить всё, что причиняет мне боль, верно?"
+    },
+    {
+      "ordinal": 78,
+      "source_line": 111,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 79,
+      "source_line": 112,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Иди сюда."
+    },
+    {
+      "ordinal": 80,
+      "source_line": 113,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Твои раны..."
+    },
+    {
+      "ordinal": 81,
+      "source_line": 114,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Ничего страшного. Всё в порядке."
+    },
+    {
+      "ordinal": 82,
+      "source_line": 115,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Смотри, стоит лишь слегка подуть... и всё заживает. Всё будет хорошо."
+    },
+    {
+      "ordinal": 83,
+      "source_line": 116,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Иди сюда, я перевяжу тебя! Где-то же должна быть ткань...!"
+    },
+    {
+      "ordinal": 84,
+      "source_line": 117,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Тот мужчина порезал мне ногу... Стоило подуть — и всё зажило."
+    },
+    {
+      "ordinal": 85,
+      "source_line": 118,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Какой-то старик распорол мне спину. Одно лёгкое прикосновение — и всё прошло."
+    },
+    {
+      "ordinal": 86,
+      "source_line": 119,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "И всё это благодаря куску ориджиниума, который та толстая женщина затолкала мне в горло!"
+    },
+    {
+      "ordinal": 87,
+      "source_line": 120,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Хватит, Эно. Правда..."
+    },
+    {
+      "ordinal": 88,
+      "source_line": 121,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Я больше не могу петь, но посмотри! Всё это благодаря ориджиниуму!"
+    },
+    {
+      "ordinal": 89,
+      "source_line": 122,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Теперь я могу всё!"
+    },
+    {
+      "ordinal": 90,
+      "source_line": 123,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Эно!"
+    },
+    {
+      "ordinal": 91,
+      "source_line": 124,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "…Ты расстроен. Почему? Я ведь сделал всё, как ты говорил."
+    },
+    {
+      "ordinal": 92,
+      "source_line": 125,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Почему ты расстроен?"
+    },
+    {
+      "ordinal": 93,
+      "source_line": 126,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Но ведь они все довольны. Если делать то, что они говорят, все будут довольны..."
+    },
+    {
+      "ordinal": 94,
+      "source_line": 127,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "…Потому что все твои родные — мерзавцы. Все до единого."
+    },
+    {
+      "ordinal": 95,
+      "source_line": 128,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Да!"
+    },
+    {
+      "ordinal": 96,
+      "source_line": 129,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Поэтому дети их и убили."
+    },
+    {
+      "ordinal": 97,
+      "source_line": 130,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "…Что?"
+    },
+    {
+      "ordinal": 98,
+      "source_line": 131,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Те инфицированные дети, которых ещё не выгнали из города..."
+    },
+    {
+      "ordinal": 99,
+      "source_line": 132,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Что ты с ними сделал?"
+    },
+    {
+      "ordinal": 100,
+      "source_line": 133,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Они тоже били меня. И тебя ранили."
+    },
+    {
+      "ordinal": 101,
+      "source_line": 134,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Теперь они словно фигуры на шахматной доске. Пешки."
+    },
+    {
+      "ordinal": 102,
+      "source_line": 135,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Стоит мне залечить их раны — и они выполняют всё, что я им велю."
+    },
+    {
+      "ordinal": 103,
+      "source_line": 136,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Я... всех этих уродливых, отвратительных людей... Всех до единого!"
+    },
+    {
+      "ordinal": 104,
+      "source_line": 137,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Саша, посмотри, что я сделал!"
+    },
+    {
+      "ordinal": 105,
+      "source_line": 138,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Я сжёг их всех дотла! Всех!"
+    },
+    {
+      "ordinal": 106,
+      "source_line": 139,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 107,
+      "source_line": 140,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Саша, что с тобой?"
+    },
+    {
+      "ordinal": 108,
+      "source_line": 141,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Больше так не делай."
+    },
+    {
+      "ordinal": 109,
+      "source_line": 142,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Но ведь ты сам говорил..."
+    },
+    {
+      "ordinal": 110,
+      "source_line": 143,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Я не думал, что всё обернётся именно так."
+    },
+    {
+      "ordinal": 111,
+      "source_line": 144,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Эно, поступай так, как действительно хочешь. Не так."
+    },
+    {
+      "ordinal": 112,
+      "source_line": 145,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Я тебе помогу. Больше не делай этого."
+    },
+    {
+      "ordinal": 113,
+      "source_line": 146,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Но я..."
+    },
+    {
+      "ordinal": 114,
+      "source_line": 147,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Хватит! Делай то, чего по-настоящему хочешь!"
+    },
+    {
+      "ordinal": 115,
+      "source_line": 148,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Не то, к чему тебя принуждают. Не кровь, не слёзы и не месть!"
+    },
+    {
+      "ordinal": 116,
+      "source_line": 149,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Тебе ведь совсем не нравится такое...!"
+    },
+    {
+      "ordinal": 117,
+      "source_line": 150,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "…Саша…"
+    },
+    {
+      "ordinal": 118,
+      "source_line": 151,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Я..."
+    },
+    {
+      "ordinal": 119,
+      "source_line": 152,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Я хочу... петь..."
+    },
+    {
+      "ordinal": 120,
+      "source_line": 153,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "У-у..."
+    },
+    {
+      "ordinal": 121,
+      "source_line": 154,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 122,
+      "source_line": 158,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Я ничего не мог сделать."
+    },
+    {
+      "ordinal": 123,
+      "source_line": 159,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Я ни на что не годился."
+    },
+    {
+      "ordinal": 124,
+      "source_line": 164,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Эно..."
+    },
+    {
+      "ordinal": 125,
+      "source_line": 165,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Я больше не могу петь."
+    },
+    {
+      "ordinal": 126,
+      "source_line": 166,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Давай уйдём вместе. Мы выживем."
+    },
+    {
+      "ordinal": 127,
+      "source_line": 167,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Выживем?"
+    },
+    {
+      "ordinal": 128,
+      "source_line": 168,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "И что в этом хорошего?"
+    },
+    {
+      "ordinal": 129,
+      "source_line": 169,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 130,
+      "source_line": 170,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Ничего."
+    },
+    {
+      "ordinal": 131,
+      "source_line": 171,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Но мы можем выжить вместе."
+    },
+    {
+      "ordinal": 132,
+      "source_line": 172,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Что ты собираешься делать?"
+    },
+    {
+      "ordinal": 133,
+      "source_line": 173,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Это ориджиниум, который я украл из шахты. Я собирался продать его и купить еды."
+    },
+    {
+      "ordinal": 134,
+      "source_line": 174,
+      "kind": "named",
+      "speaker_cn": "伊诺",
+      "text_ru": "Саша!"
+    },
+    {
+      "ordinal": 135,
+      "source_line": 176,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Ух!"
+    },
+    {
+      "ordinal": 136,
+      "source_line": 178,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Тогда мы оба станем инфицированными."
+    },
+    {
+      "ordinal": 137,
+      "source_line": 179,
+      "kind": "named",
+      "speaker_cn": "萨沙",
+      "text_ru": "Давай выживем вместе."
+    },
+    {
+      "ordinal": 138,
+      "source_line": 185,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "О том, что было, я спрашивать не стану."
+    },
+    {
+      "ordinal": 139,
+      "source_line": 186,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Всё, что ты делаешь, лишено причины. Ты живёшь на этой земле не ради какой-то цели."
+    },
+    {
+      "ordinal": 140,
+      "source_line": 187,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Нет, тебе вовсе не нужен кто-то, кто спасёт тебя..."
+    },
+    {
+      "ordinal": 141,
+      "source_line": 188,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Выбери себе имя, которое тебе нравится."
+    },
+    {
+      "ordinal": 142,
+      "source_line": 189,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Это? Хорошо."
+    },
+    {
+      "ordinal": 143,
+      "source_line": 190,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Мефисто..."
+    },
+    {
+      "ordinal": 144,
+      "source_line": 191,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Мефисто. Отныне ты — Мефисто. Тебя больше ничто не связывает с тем, кем ты был прежде."
+    },
+    {
+      "ordinal": 145,
+      "source_line": 192,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Я тебе не доверяю. И не вправе тебе доверять. Единственный, кому ты можешь доверять, — ты сам."
+    },
+    {
+      "ordinal": 146,
+      "source_line": 193,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Твои поступки нельзя просто перечеркнуть. Тебе всегда придётся нести груз всего, что ты совершил, — даже если забудешь об этом, даже если не поймёшь, что именно сделал."
+    },
+    {
+      "ordinal": 147,
+      "source_line": 194,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Всё, что ты делаешь и переживаешь, должно стать твоим топливом. Пусть оно заставляет тебя не давать погаснуть огню внутри..."
+    },
+    {
+      "ordinal": 148,
+      "source_line": 195,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Пока вся земля не будет освобождена, пока ты не отбросишь всё, что дали тебе другие, пока наконец не поймёшь самого себя."
+    },
+    {
+      "ordinal": 149,
+      "source_line": 196,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Тогда ты сможешь отказаться даже от этого имени. Остаться или уйти, жить или умереть — решать тебе."
+    },
+    {
+      "ordinal": 150,
+      "source_line": 197,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Мефисто, я не могу изменить твои идеалы. Если их у тебя нет, отправляйся на поиски. Мы сами спасём себя."
+    },
+    {
+      "ordinal": 151,
+      "source_line": 198,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Кто я? Это неважно."
+    },
+    {
+      "ordinal": 152,
+      "source_line": 199,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "Хочешь узнать, как меня зовут?"
+    },
+    {
+      "ordinal": 153,
+      "source_line": 200,
+      "kind": "named",
+      "speaker_cn": "？？？",
+      "text_ru": "……Талула."
+    },
+    {
+      "ordinal": 154,
+      "source_line": 204,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Я всего лишь мятежница, обычная женщина. Я никто. Но пока можешь звать меня Талулой."
+    },
+    {
+      "ordinal": 155,
+      "source_line": 208,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "А Талула почти ничего мне не рассказала."
+    },
+    {
+      "ordinal": 156,
+      "source_line": 209,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Она крепко обняла меня и трижды постучала мне по спине."
+    },
+    {
+      "ordinal": 157,
+      "source_line": 210,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Талула верила в меня. Елена, Булдроккас'ти, Людмила — все они верили в меня."
+    },
+    {
+      "ordinal": 158,
+      "source_line": 211,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Я думала, что смогу оставить позади детство, проведённое в том городе."
+    },
+    {
+      "ordinal": 159,
+      "source_line": 212,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Но всё быстро изменилось. Всё началось с того, что произошло в той деревне."
+    },
+    {
+      "ordinal": 160,
+      "source_line": 213,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Это была трагедия. Но почему после неё Талула стала такой?"
+    },
+    {
+      "ordinal": 161,
+      "source_line": 214,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Почему всё обернулось именно так?"
+    },
+    {
+      "ordinal": 162,
+      "source_line": 221,
+      "kind": "named",
+      "speaker_cn": "梅菲斯特",
+      "text_ru": "Я сделаю всё, что ты мне скажешь…"
+    },
+    {
+      "ordinal": 163,
+      "source_line": 223,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Всё в порядке. Если хочешь — делай."
+    },
+    {
+      "ordinal": 164,
+      "source_line": 224,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Я разрешаю. В конце концов, ты ведь Мефисто."
+    },
+    {
+      "ordinal": 165,
+      "source_line": 226,
+      "kind": "named",
+      "speaker_cn": "梅菲斯特",
+      "text_ru": "Но ты ведь раньше говорила…"
+    },
+    {
+      "ordinal": 166,
+      "source_line": 228,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Это было несколько лет назад."
+    },
+    {
+      "ordinal": 167,
+      "source_line": 229,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "По мере того как наше дело продвигается вперёд, кое-что неизбежно меняется."
+    },
+    {
+      "ordinal": 168,
+      "source_line": 230,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Если не идти в ногу со временем, мы окажемся за бортом."
+    },
+    {
+      "ordinal": 169,
+      "source_line": 231,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Поэтому мы и наши собратья-инфицированные должны бороться за будущее."
+    },
+    {
+      "ordinal": 170,
+      "source_line": 232,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Ради этого идеала можно пожертвовать кем угодно."
+    },
+    {
+      "ordinal": 171,
+      "source_line": 234,
+      "kind": "named",
+      "speaker_cn": "梅菲斯特",
+      "text_ru": "Я ведь могу тебе доверять, верно, лидер?"
+    },
+    {
+      "ordinal": 172,
+      "source_line": 236,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Да. Потому что я — Талула."
+    },
+    {
+      "ordinal": 173,
+      "source_line": 238,
+      "kind": "named",
+      "speaker_cn": "梅菲斯特",
+      "text_ru": "Я сделаю это!"
+    },
+    {
+      "ordinal": 174,
+      "source_line": 240,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Ты обязательно справишься. Я верю в тебя."
+    },
+    {
+      "ordinal": 175,
+      "source_line": 241,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Без тебя нам не справиться. Ты способен на всё и можешь добиться чего угодно."
+    },
+    {
+      "ordinal": 176,
+      "source_line": 247,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Входи."
+    },
+    {
+      "ordinal": 177,
+      "source_line": 252,
+      "kind": "named",
+      "speaker_cn": "浮士德",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 178,
+      "source_line": 254,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Ты ведь всё видел."
+    },
+    {
+      "ordinal": 179,
+      "source_line": 256,
+      "kind": "named",
+      "speaker_cn": "浮士德",
+      "text_ru": "Кто ты?"
+    },
+    {
+      "ordinal": 180,
+      "source_line": 258,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Разумеется, Талула."
+    },
+    {
+      "ordinal": 181,
+      "source_line": 260,
+      "kind": "named",
+      "speaker_cn": "浮士德",
+      "text_ru": "Та Талула, которую я знал… была не такой, как ты."
+    },
+    {
+      "ordinal": 182,
+      "source_line": 262,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Талула — всего лишь имя. Талула — это Талула."
+    },
+    {
+      "ordinal": 183,
+      "source_line": 263,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Помоги ему. Мефисто нуждается в твоей помощи. Ему нужно, чтобы ты помог ему почувствовать свою значимость. Он доверяет только тебе и мне."
+    },
+    {
+      "ordinal": 184,
+      "source_line": 265,
+      "kind": "named",
+      "speaker_cn": "浮士德",
+      "text_ru": "Талула никогда бы так не поступила! Ты пользуешься его доверием к тебе!"
+    },
+    {
+      "ordinal": 185,
+      "source_line": 267,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Никто из нас не вправе выбирать."
+    },
+    {
+      "ordinal": 186,
+      "source_line": 269,
+      "kind": "named",
+      "speaker_cn": "浮士德",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 187,
+      "source_line": 271,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Ты сделаешь для него всё. Абсолютно всё."
+    },
+    {
+      "ordinal": 188,
+      "source_line": 275,
+      "kind": "named",
+      "speaker_cn": "塔露拉",
+      "text_ru": "Ты хочешь увидеть, как он умрёт?"
+    },
+    {
+      "ordinal": 189,
+      "source_line": 281,
+      "kind": "named",
+      "speaker_cn": "浮士德",
+      "text_ru": "Разве ты не понимаешь? После того как мы прошли через ту деревню, Талула совершенно изменилась! Она стала совсем другой!"
+    },
+    {
+      "ordinal": 190,
+      "source_line": 283,
+      "kind": "named",
+      "speaker_cn": "梅菲斯特",
+      "text_ru": "Я знаю."
+    },
+    {
+      "ordinal": 191,
+      "source_line": 285,
+      "kind": "named",
+      "speaker_cn": "浮士德",
+      "text_ru": "Тогда почему ты всё ещё так поступаешь?"
+    },
+    {
+      "ordinal": 192,
+      "source_line": 287,
+      "kind": "named",
+      "speaker_cn": "梅菲斯特",
+      "text_ru": "Я никому не доверяю, кроме тебя и сестры Талулы."
+    },
+    {
+      "ordinal": 193,
+      "source_line": 288,
+      "kind": "named",
+      "speaker_cn": "梅菲斯特",
+      "text_ru": "И я тоже не хочу выбирать."
+    },
+    {
+      "ordinal": 194,
+      "source_line": 290,
+      "kind": "named",
+      "speaker_cn": "浮士德",
+      "text_ru": "……"
+    },
+    {
+      "ordinal": 195,
+      "source_line": 292,
+      "kind": "named",
+      "speaker_cn": "梅菲斯特",
+      "text_ru": "Фауст, куда мы идём?"
+    },
+    {
+      "ordinal": 196,
+      "source_line": 294,
+      "kind": "named",
+      "speaker_cn": "浮士德",
+      "text_ru": "……Я……"
+    },
+    {
+      "ordinal": 197,
+      "source_line": 296,
+      "kind": "named",
+      "speaker_cn": "梅菲斯特",
+      "text_ru": "Фауст, скажи мне. Что нам делать?"
+    },
+    {
+      "ordinal": 198,
+      "source_line": 298,
+      "kind": "named",
+      "speaker_cn": "浮士德",
+      "text_ru": "……Мы выживем."
+    },
+    {
+      "ordinal": 199,
+      "source_line": 300,
+      "kind": "named",
+      "speaker_cn": "梅菲斯特",
+      "text_ru": "Разве жить не больно?"
+    },
+    {
+      "ordinal": 200,
+      "source_line": 302,
+      "kind": "named",
+      "speaker_cn": "浮士德",
+      "text_ru": "Больно."
+    },
+    {
+      "ordinal": 201,
+      "source_line": 303,
+      "kind": "named",
+      "speaker_cn": "浮士德",
+      "text_ru": "Но мы можем жить дальше вместе."
+    },
+    {
+      "ordinal": 202,
+      "source_line": 308,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Эта книга — об идеалах."
+    },
+    {
+      "ordinal": 203,
+      "source_line": 309,
+      "kind": "unnamed",
+      "speaker_cn": null,
+      "text_ru": "Мой идеал — ……"
+    }
+  ],
+  "decision_options_ru": [],
+  "header_title_ru": "Этап 6 (после боя)",
+  "translation_revision": "v1.89",
+  "notes_v187": "Backfill of the previously unindexed Episode 6 6-6 Interlude (level_st_06-01.txt). This revision translates the continuous opening range, ordinals 1–100: 82 named and 18 unnamed positions, CN source lines 6–133. Full CN/EN resource: 203 text positions (174 named, 29 unnamed), 109 command lines, no Decision or Predicate commands. One anonymous speaker-label punctuation difference occurs at line 188 (CN ？？？, EN ????), with positions aligned. Continue at ordinal 101, CN source line 134. CN is primary for meaning; EN Yostar is used for speaker and structural cross-check. No full CN/EN scripts are stored. Partial first draft; not editorially reviewed or tested in Yostar Global PC. Minor wording pass: the phrase at ordinal 98 uses the natural Russian word order «инфицированные дети» rather than «дети-инфицированные».",
+  "notes_v188": "Continuation of 6-6 Interlude, continuous ordinals 101–150 (48 named, 2 unnamed), CN source lines 134–197. CN remains primary for meaning; Yostar EN cross-checks speaker labels and command structure. Full source alignment remains 203 text positions (174 named, 29 unnamed) and 109 non-name command lines. No Decision/Predicate commands. Source blobs unchanged. Partial first draft; not editorially reviewed or tested in Yostar Global PC. Wording pass: ordinal 103 preserves the interrupted Chinese construction without adding an unsupported verb.",
+  "notes_v189": "Completed the final continuous range of 6-6 Interlude, ordinals 151–203 (44 named and 9 unnamed positions), CN source lines 198–309. Together with v1.87 and v1.88, all 203 positions are translated (174 named, 29 unnamed). CN remains primary for meaning; EN Yostar is used for names and structural cross-check. Full source alignment: 109 command lines, no Decision/Predicate commands. Source blobs unchanged. Complete first draft; not editorially reviewed or tested in Yostar Global PC."
+}

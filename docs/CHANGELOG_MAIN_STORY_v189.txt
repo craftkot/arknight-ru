@@ -1,0 +1,35 @@
+Arknights RU — основной сюжет, v1.89
+Дата: 2026-11-11
+
+Завершён первый черновик ранее пропущенной интерлюдии Episode 6 — 6-6 Interlude: Leave it Behind
+(ресурс obt/main/level_st_06-01.txt).
+
+- Добавлены последние 53 позиции №151–203: 44 именные и 9 безымянных; исходные строки CN 198–309.
+- Полный перевод теперь содержит 203/203 позиций: 174 именные и 29 безымянных.
+- CN Git blob: 026bf7f38a9e0794661a54635a137df90ff4fba0.
+- EN Yostar Git blob: 9eefd6f8b7e7a7956d7a5e4d9464004cd6ad9676.
+- CN/EN совпадают по 203 позициям и 109 позициям управляющих команд; различие метки анонимного говорящего на строке 188 ограничено пунктуацией.
+- Decision/Predicate в ресурсе отсутствуют.
+- Сцена переведена в первый черновик, но не прошла литературную редактуру и тест в Yostar Global PC.
+- Обновлены объединённая выборка, индекс главы 6, хронология и QA.
+- Объединённая выборка: 121 полная сцена / 9 313 позиций; исторический реестр: 9 314, унаследованное расхождение 1 сохранено.
+
+Следующая сцена:
+- 6-13 Interlude — No Light Without Fire, obt/main/level_st_06-02.txt.
+- CN Git blob: ffa8947a78abc196f2ebfcb90ae2283ee136c953.
+- EN Yostar Git blob: 79204a97fedbc6e1950440f86a618c8d6efa37ba.
+- В источниках 269 текстовых позиций (257 именных, 12 безымянных), 141 командная позиция.
+- Следующая позиция: №1, исходная строка 6.
+
+Файлы:
+- story/story_chapter_6_stage_6-6_interlude_ru_v189.json
+- story/story_main_selection_ru_v189.json
+- reports/MAIN_6-6_INTERLUDE_SOURCE_AUDIT_v189.json
+- reports/QA_MAIN_STORY_v189.json
+- story/CHAPTER_6_INDEX_v189.tsv
+- chronology/CHRONOLOGY_MANIFEST_v349.json
+- docs/CHANGELOG_MAIN_STORY_v189.txt
+- scripts/test_main_story_6_6_interlude_v189.py
+- README.md
+
+Полные CN/EN сценарии не помещались в репозиторий. Локальный предпросмотр не является проверенным игровым патчем.
