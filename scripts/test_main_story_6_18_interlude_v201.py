@@ -38,6 +38,9 @@ class TestMainStory618InterludeV201(unittest.TestCase):
         self.assertEqual([x["ordinal"] for x in rows[175:225]], list(range(176,226)))
         self.assertEqual([x["text_ru"] for x in rows[175:225]], [x["text_ru"] for x in OLD["dialogues"][170:]])
         self.assertEqual([x["source_line"] for x in rows[225:]], FINAL_LINES)
+        by_line = {x["source_line"]: x["text_ru"] for x in rows}
+        self.assertEqual(by_line[493], "О том, что я сделал для Лунмэня…")
+        self.assertEqual(by_line[494], "…ты почти ничего не знаешь.")
         self.assertEqual([x["ordinal"] for x in rows[225:]], list(range(226,291)))
         self.assertEqual([x["source_line"] for x in rows], sorted(x["source_line"] for x in rows))
         self.assertEqual(sum(x["kind"] == "named" for x in rows), 285)
