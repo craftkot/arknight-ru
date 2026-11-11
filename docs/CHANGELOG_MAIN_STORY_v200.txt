@@ -1,0 +1,20 @@
+Arknights RU — Main Story Changelog v2.00
+Date: 2026-11-11
+Track: Original Arknights, Yostar Global PC (not Endfield)
+
+Episode 6 — 6-18 Only You Know (obt/main/level_st_06-03.txt)
+- Added 50 named dialogue positions, ordinals 171–220, from CN/EN source lines 357–438.
+- Extended the partial first draft from 170/290 to 220/290 text positions (215 named, 5 unnamed); 70 positions remain.
+- The segment continues Amiya and Wei Yenwu's discussion of Rhodes Island's principles and the treatment of the Infected, then moves into Ch'en's confrontation with Wei Yenwu.
+- CN is the primary semantic source; EN Yostar was used to cross-check speaker names, ordering and structure. All 50 text positions and speaker labels align.
+- CN line 406 uses 围棋 (Go); EN Yostar says chess. Russian follows CN and renders this as «го». The metaphor at CN line 404 remains generic («игровые фигуры») rather than importing the English chess-specific wording.
+- CN line 438 uses 陈警司; the draft renders the rank as «суперинтендант Чэнь» following EN Yostar. This rank wording remains flagged for final terminology review.
+- Added 27 command lines in the new range: 22 Character, 1 Dialog, 2 PlaySound and 2 delay. No new Decision or Predicate branches occur.
+- Both Decision commands, all four option strings and all five Predicate branches remain translated.
+- Preserved all four {@nickname} placeholders from earlier positions; no new placeholder occurs in this segment.
+- CN source: Kengxxiao/ArknightsGameData, ref master, blob f0b744c48b2a6592674a42e7c9c3e61cd8c226d8.
+- EN cross-check: Kengxxiao/ArknightsGameData_YoStar, ref main, blob 9f0a4ae9762665a21262d72ecd2ff09b34544187.
+- CN/EN structure remains aligned: 290 text positions and 284 command positions; no source-version drift.
+- Next position: ordinal 221, CN line 440.
+- No complete CN/EN source scripts or game assets are committed.
+- Status: partial first draft only. Literary review and Yostar Global PC in-game validation have not been performed.
