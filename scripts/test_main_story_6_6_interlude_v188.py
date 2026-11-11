@@ -38,8 +38,8 @@ class TestMainStory66InterludeV188(unittest.TestCase):
 
     def test_translation_payload_and_names(self):
         rows = TRANSLATION["dialogues"]
-        payload = "\\n".join(x["text_ru"] for x in rows)
-        self.assertIsNone(re.search(r"[\\u3400-\\u9fff]", payload))
+        payload = "\n".join(x["text_ru"] for x in rows)
+        self.assertIsNone(re.search(r"[\u3400-\u9fff]", payload))
         self.assertTrue(all(x["text_ru"].strip() for x in rows))
         self.assertEqual(rows[140]["speaker_cn"], "？？？")
         self.assertEqual(rows[142]["text_ru"], "Мефисто...")
@@ -77,7 +77,7 @@ class TestMainStory66InterludeV188(unittest.TestCase):
     def test_index_manifest_qa_and_readme(self):
         row = [x for x in INDEX.splitlines() if x.startswith("level_st_06-01.txt")]
         self.assertEqual(len(row), 1)
-        self.assertIn("partial_first_draft\\t130\\t20\\t150\\t026bf7f38a9e0794661a54635a137df90ff4fba0\\t9eefd6f8b7e7a7956d7a5e4d9464004cd6ad9676", row[0])
+        self.assertIn("partial_first_draft\t130\t20\t150\t026bf7f38a9e0794661a54635a137df90ff4fba0\t9eefd6f8b7e7a7956d7a5e4d9464004cd6ad9676", row[0])
         self.assertEqual(MANIFEST["version"], "v3.48")
         self.assertEqual(MANIFEST["next_file"], "obt/main/level_st_06-01.txt")
         self.assertEqual((MANIFEST["next_text_ordinal"], MANIFEST["next_text_source_line"]), (151, 198))
