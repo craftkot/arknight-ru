@@ -239,7 +239,7 @@
     "en_git_blob_sha1": "7a204cb0010abcbf60f12017f0b2b4d02eaba156",
     "command_lines_cn": 276,
     "command_lines_en": 276,
-    "source_version_difference": "CN/EN align structurally on 286 text positions and 276 command positions. CN line 176 says Talulah is unusually considerate while EN paraphrases it as showing her cards early; CN line 228 lacks the profanity added by EN. Russian follows CN."
+    "source_version_difference": "CN/EN align structurally on 286 text positions and 276 command positions. Four lexical differences in the translated prefix are documented: line 105 侯爵 vs EN Count; line 143 伊比利亚修士 vs EN Iberian nun; line 176 CN says Talulah is unusually considerate while EN paraphrases this as showing her cards early; line 228 CN uses 龙女 without EN's added profanity. Russian follows CN."
   },
   "editorial_review": false,
   "in_game_test": false,
@@ -1169,7 +1169,8 @@
     "empty_ru_entries": 0,
     "untranslated_cjk_in_ru": 0,
     "source_structure_aligned": true,
-    "complete": false
+    "complete": false,
+    "source_version_difference": "CN/EN align structurally on 286 text positions and 276 command positions. Four lexical differences in the translated prefix are documented: line 105 侯爵 vs EN Count; line 143 伊比利亚修士 vs EN Iberian nun; line 176 CN says Talulah is unusually considerate while EN paraphrases this as showing her cards early; line 228 CN uses 龙女 without EN's added profanity. Russian follows CN."
   },
   "previous_newly_completed_scene_audit": {
     "source_file": "obt/main/level_st_06-02.txt",
