@@ -819,6 +819,12 @@
     "translated_decision_commands": 34,
     "translated_decision_option_strings": 53,
     "translated_predicate_branches": 45,
+    "untranslated_positions": 0,
+    "empty_ru_entries": 0,
+    "untranslated_cjk_in_ru": 0,
+    "placeholder_count_cn": 5,
+    "placeholder_count_en": 5,
+    "placeholder_count_ru": 5,
     "next_ordinal": null,
     "next_source_line": null,
     "complete": true
