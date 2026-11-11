@@ -39,7 +39,7 @@ class TestMainStory613InterludeV192(unittest.TestCase):
         rows = TRANSLATION["dialogues"]
         payload = "\\n".join(x["text_ru"] for x in rows)
         options = "\\n".join(s for d in TRANSLATION["decision_options_ru"] for s in d["options_ru"])
-        self.assertIsNone(re.search(r"[\\u3400-\\u9fff]", payload + options))
+        self.assertIsNone(re.search(r"[\u3400-\u9fff]", payload + options))
         self.assertTrue(all(x["text_ru"].strip() for x in rows))
         self.assertEqual(len(TRANSLATION["decision_options_ru"]), 26)
         self.assertEqual(sum(len(x["options_ru"]) for x in TRANSLATION["decision_options_ru"]), 39)
@@ -76,7 +76,7 @@ class TestMainStory613InterludeV192(unittest.TestCase):
     def test_index_manifest_qa_and_completed_selection(self):
         rows = [x for x in INDEX.splitlines() if x.startswith("level_st_06-02.txt")]
         self.assertEqual(len(rows), 1)
-        self.assertIn("partial_first_draft\\t168\\t12\\t180\\tffa8947a78abc196f2ebfcb90ae2283ee136c953\\t79204a97fedbc6e1950440f86a618c8d6efa37ba", rows[0])
+        self.assertIn("level_st_06-02.txt\tpartial_first_draft\t168\t12\t180\tffa8947a78abc196f2ebfcb90ae2283ee136c953\t79204a97fedbc6e1950440f86a618c8d6efa37ba", rows[0])
         self.assertEqual(MANIFEST["version"], "v3.52")
         self.assertEqual(MANIFEST["next_file"], "obt/main/level_st_06-02.txt")
         self.assertEqual((MANIFEST["next_text_ordinal"], MANIFEST["next_text_source_line"]), (181, 301))
