@@ -1137,7 +1137,7 @@
       "source_line": 136,
       "kind": "named",
       "speaker_cn": "伊诺",
-      "text_ru": "Я взял всех этих уродливых, отвратительных людей... Всех до единого!"
+      "text_ru": "Я... всех этих уродливых, отвратительных людей... Всех до единого!"
     },
     {
       "ordinal": 104,
@@ -1473,5 +1473,5 @@
   "header_title_ru": "Этап 6 (после боя)",
   "translation_revision": "v1.88",
   "notes_v187": "Backfill of the previously unindexed Episode 6 6-6 Interlude (level_st_06-01.txt). This revision translates the continuous opening range, ordinals 1–100: 82 named and 18 unnamed positions, CN source lines 6–133. Full CN/EN resource: 203 text positions (174 named, 29 unnamed), 109 command lines, no Decision or Predicate commands. One anonymous speaker-label punctuation difference occurs at line 188 (CN ？？？, EN ????), with positions aligned. Continue at ordinal 101, CN source line 134. CN is primary for meaning; EN Yostar is used for speaker and structural cross-check. No full CN/EN scripts are stored. Partial first draft; not editorially reviewed or tested in Yostar Global PC. Minor wording pass: the phrase at ordinal 98 uses the natural Russian word order «инфицированные дети» rather than «дети-инфицированные».",
-  "notes_v188": "Continuation of 6-6 Interlude, continuous ordinals 101–150 (48 named, 2 unnamed), CN source lines 134–197. CN remains primary for meaning; Yostar EN cross-checks speaker labels and command structure. Full source alignment remains 203 text positions (174 named, 29 unnamed) and 109 non-name command lines. No Decision/Predicate commands. Source blobs unchanged. Partial first draft; not editorially reviewed or tested in Yostar Global PC."
+  "notes_v188": "Continuation of 6-6 Interlude, continuous ordinals 101–150 (48 named, 2 unnamed), CN source lines 134–197. CN remains primary for meaning; Yostar EN cross-checks speaker labels and command structure. Full source alignment remains 203 text positions (174 named, 29 unnamed) and 109 non-name command lines. No Decision/Predicate commands. Source blobs unchanged. Partial first draft; not editorially reviewed or tested in Yostar Global PC. Wording pass: ordinal 103 preserves the interrupted Chinese construction without adding an unsupported verb."
 }
