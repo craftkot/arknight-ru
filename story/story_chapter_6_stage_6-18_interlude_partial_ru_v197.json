@@ -1,0 +1,662 @@
+{
+  "version": "v1.97",
+  "stage": "6-18 Only You Know — Interlude",
+  "status": "partial_first_draft",
+  "source_file": "obt/main/level_st_06-03.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "f0b744c48b2a6592674a42e7c9c3e61cd8c226d8",
+    "cn_physical_lines": 574,
+    "cn_final_newline": false,
+    "cn_url": "https://github.com/Kengxxiao/ArknightsGameData/blob/master/zh_CN/gamedata/story/obt/main/level_st_06-03.txt",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "9f0a4ae9762665a21262d72ecd2ff09b34544187",
+    "en_physical_lines": 575,
+    "en_final_newline": true,
+    "en_url": "https://github.com/Kengxxiao/ArknightsGameData_YoStar/blob/main/en_US/gamedata/story/obt/main/level_st_06-03.txt",
+    "version_difference": "CN and EN currently align on all 290 text positions (285 named, 5 unnamed), 284 command positions, 2 Decision commands, 4 option strings and 5 Predicate branches. All command line numbers and command names/parameters match after normalizing the localized Decision options. CN has 574 physical lines without a terminal newline; EN has 575 with a terminal newline. The first Decision at CN line 121 has values 1;2;3 and all four associated Predicate branches are included in this partial segment. No source-version drift was detected."
+  },
+  "source_alignment": {
+    "cn_text_positions": 290,
+    "en_text_positions": 290,
+    "cn_named_positions": 285,
+    "en_named_positions": 285,
+    "cn_unnamed_positions": 5,
+    "en_unnamed_positions": 5,
+    "command_lines_cn": 284,
+    "command_lines_en": 284,
+    "command_counts": {
+      "HEADER": 1,
+      "stopmusic": 4,
+      "Dialog": 21,
+      "Character": 177,
+      "PlayMusic": 3,
+      "Blocker": 29,
+      "Background": 10,
+      "delay": 14,
+      "playsound": 1,
+      "PlaySound": 10,
+      "Decision": 2,
+      "Predicate": 5,
+      "Delay": 1,
+      "Image": 5,
+      "ImageTween": 1
+    },
+    "commands_match_cn_en": true,
+    "named_text_line_numbers_match": true,
+    "unnamed_text_line_numbers_match": true,
+    "text_line_numbers_match": true,
+    "speaker_label_positions_match": true,
+    "speaker_label_names_match_after_localization": true,
+    "speaker_label_map": {
+      "陈": "Ch'en",
+      "诗怀雅": "Swire",
+      "近卫局成员": "L. G. D. Officer",
+      "煌": "Blaze",
+      "灰喉": "GreyThroat",
+      "阿米娅": "Amiya",
+      "接待员": "Receptionist",
+      "太合": "Taihe",
+      "苍老的男声": "Elderly Male Voice",
+      "？？？": "???",
+      "监察司": "Censor",
+      "魏彦吾": "Wei Yenwu",
+      "凯尔希": "Kal'tsit",
+      "文月": "Fumizuki"
+    },
+    "speaker_label_spelling_exceptions": [],
+    "command_line_numbers_match": true,
+    "command_names_and_parameters_match_after_decision_option_normalization": true,
+    "decision_commands": 2,
+    "predicate_branches": 5,
+    "decision_option_total": 4,
+    "decision_values_and_predicate_references_match": true,
+    "decision_option_source_lines": [
+      121,
+      135
+    ],
+    "predicate_source_lines": [
+      122,
+      125,
+      128,
+      132,
+      136
+    ],
+    "placeholder_count_cn": 4,
+    "placeholder_count_en": 4,
+    "placeholder_count_ru": 0,
+    "translated_range": {
+      "ordinal_start": 1,
+      "ordinal_end": 55,
+      "translated_source_lines": [
+        30,
+        31,
+        32,
+        33,
+        37,
+        38,
+        40,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        58,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        72,
+        73,
+        74,
+        75,
+        77,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        91,
+        92,
+        94,
+        95,
+        104,
+        106,
+        108,
+        109,
+        119,
+        120,
+        123,
+        124,
+        126,
+        127,
+        129,
+        130,
+        131,
+        133,
+        134
+      ],
+      "named_positions": 51,
+      "unnamed_positions": 4,
+      "command_lines_in_range": 50,
+      "command_counts": {
+        "Dialog": 3,
+        "Character": 30,
+        "delay": 4,
+        "Blocker": 4,
+        "Background": 2,
+        "PlaySound": 2,
+        "Decision": 1,
+        "Predicate": 4
+      },
+      "command_line_numbers": [
+        34,
+        35,
+        36,
+        39,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        76,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        93,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        105,
+        107,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        121,
+        122,
+        125,
+        128,
+        132
+      ],
+      "decision_commands": 1,
+      "decision_option_strings": 3,
+      "predicate_branches": 4,
+      "decision_option_source_lines": [
+        121
+      ],
+      "predicate_source_lines": [
+        122,
+        125,
+        128,
+        132
+      ],
+      "decision_values_and_predicate_references_match": true,
+      "placeholder_count_cn": 0,
+      "placeholder_count_en": 0,
+      "placeholder_count_ru": 0,
+      "inline_markup_tags_in_dialogue_payloads": 0
+    }
+  },
+  "progress": {
+    "translated": 55,
+    "total": 290,
+    "remaining": 235,
+    "complete": false,
+    "named_translated": 51,
+    "named_total": 285,
+    "unnamed_translated": 4,
+    "unnamed_total": 5,
+    "next_ordinal": 56,
+    "next_source_line": 143,
+    "decision_commands_translated": 1,
+    "decision_commands_total": 2,
+    "decision_commands_remaining": 1,
+    "decision_option_strings_translated": 3,
+    "decision_option_strings_total": 4,
+    "decision_option_strings_remaining": 1,
+    "predicate_branches_translated": 4,
+    "predicate_branches_total": 5,
+    "predicate_branches_remaining": 1
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 30,
+      "kind": "unnamed",
+      "text_ru": "Операция по обороне Лунмэня завершена. Повторяю: операция по обороне Лунмэня завершена."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 31,
+      "kind": "unnamed",
+      "text_ru": "Полицейским следует проверить снаряжение, вернуться в свои участки и в течение одного рабочего дня явиться в расположение своих подразделений."
+    },
+    {
+      "ordinal": 3,
+      "source_line": 32,
+      "kind": "unnamed",
+      "text_ru": "Сотрудникам Управления охраны Лунмэня следует собраться со своими отрядами и прибыть в Управление, чтобы ожидать дальнейших приказов."
+    },
+    {
+      "ordinal": 4,
+      "source_line": 33,
+      "kind": "unnamed",
+      "text_ru": "Повторяю…"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 37,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Что ты здесь делаешь?"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "…И что это у тебя за выражение лица?"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 40,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 8,
+      "source_line": 41,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Н-ничего."
+    },
+    {
+      "ordinal": 9,
+      "source_line": 43,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "…Ясно."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 45,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Стой. Куда ты идёшь?"
+    },
+    {
+      "ordinal": 11,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Проверить."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Не нужно. Я уже всё проверила — там ничего нет."
+    },
+    {
+      "ordinal": 13,
+      "source_line": 51,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Вот как."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 53,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Чэнь, хватит. Бой уже окончен."
+    },
+    {
+      "ordinal": 15,
+      "source_line": 55,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Будь добра, посторонись, мисс Свирь."
+    },
+    {
+      "ordinal": 16,
+      "source_line": 57,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Ты остановила Воссоединение, даже их спецотряд!"
+    },
+    {
+      "ordinal": 17,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Ты вывела их на свет сразу перед Управлением охраны Лунмэня, Родос Айленд и даже Цензором!"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 59,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Ты их остановила!"
+    },
+    {
+      "ordinal": 19,
+      "source_line": 61,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Отойди!"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Как руководитель специальной инспекционной группы, ты уже сделала достаточно."
+    },
+    {
+      "ordinal": 21,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Хватит расследовать! Чего ещё ты хочешь узнать? Больше нечего выяснять!"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Я хочу знать, что произошло."
+    },
+    {
+      "ordinal": 23,
+      "source_line": 69,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Ты понимаешь, что означает эта система канализации?"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 71,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Ты уже сделала достаточно. Ещё один шаг — и окажешься по ту сторону Лунмэня!"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 72,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Мы вполне можем сделать Лунмэнь лучше. Отстроить его заново, избавиться от всего, что осталось от прошлого!"
+    },
+    {
+      "ordinal": 26,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Но, Чэнь, не спускайся туда. Не смотри!"
+    },
+    {
+      "ordinal": 27,
+      "source_line": 74,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Чувство справедливости, чувство долга, чувство принадлежности — всё это в тебе есть. В этот раз ты действовала безупречно!"
+    },
+    {
+      "ordinal": 28,
+      "source_line": 75,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "А-Чэнь!"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 30,
+      "source_line": 78,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Отойди."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 80,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Ты именно такая, поэтому тебе нельзя это видеть!"
+    },
+    {
+      "ordinal": 32,
+      "source_line": 82,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Тебе ведь сказали: «Не расследуй дело с канализацией», верно?"
+    },
+    {
+      "ordinal": 33,
+      "source_line": 84,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 86,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Мне сказали то же самое."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 88,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "Тогда почему ты продолжаешь расследование?! Никто не хочет, чтобы ты это увидела! Никто!"
+    },
+    {
+      "ordinal": 36,
+      "source_line": 90,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Нет."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Сам Лунмэнь хочет, чтобы я увидела. Я такая, какая есть, и должна это увидеть."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 92,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Свирь. Не заставляй меня обнажить меч."
+    },
+    {
+      "ordinal": 39,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 95,
+      "kind": "named",
+      "speaker_cn": "诗怀雅",
+      "text_ru": "У-у…"
+    },
+    {
+      "ordinal": 41,
+      "source_line": 104,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Что это за запах?"
+    },
+    {
+      "ordinal": 42,
+      "source_line": 106,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "Это…"
+    },
+    {
+      "ordinal": 43,
+      "source_line": 108,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "…"
+    },
+    {
+      "ordinal": 44,
+      "source_line": 109,
+      "kind": "named",
+      "speaker_cn": "陈",
+      "text_ru": "…………"
+    },
+    {
+      "ordinal": 45,
+      "source_line": 119,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "А, вы уже вернулись."
+    },
+    {
+      "ordinal": 46,
+      "source_line": 120,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Командира противника — заражённого по имени Мефисто — поймали?"
+    },
+    {
+      "ordinal": 47,
+      "source_line": 123,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Что… Что вы сказали? И это вы называете сотрудничеством?.."
+    },
+    {
+      "ordinal": 48,
+      "source_line": 124,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Как так? Разве вы, сотрудники Родос Айленд, не отправились за ним?"
+    },
+    {
+      "ordinal": 49,
+      "source_line": 126,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "…Можете дать точный ответ?"
+    },
+    {
+      "ordinal": 50,
+      "source_line": 127,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Нам ведь нужно отчитаться. И если вражеский командир не был убит…"
+    },
+    {
+      "ordinal": 51,
+      "source_line": 129,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Мёртв? Как он умер?"
+    },
+    {
+      "ordinal": 52,
+      "source_line": 130,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Вы уверены? Установить личность заражённого можно только по кристаллическим останкам и результатам вскрытия. Орипатия стирает первичные биологические признаки…"
+    },
+    {
+      "ordinal": 53,
+      "source_line": 131,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Вы ведь это знаете, верно?"
+    },
+    {
+      "ordinal": 54,
+      "source_line": 133,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "А? Постойте, куда вы? Кого это вы несёте?"
+    },
+    {
+      "ordinal": 55,
+      "source_line": 134,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "…Что же там внизу произошло?"
+    }
+  ],
+  "decision_options_ru": [
+    {
+      "source_line": 121,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "Не твоё дело.",
+        "……",
+        "Уже мёртв."
+      ]
+    }
+  ],
+  "translation_revision": "Partial first draft translated from CN as the primary meaning source; EN Yostar used to cross-check speaker labels and structure. The complete 290-position CN/EN scripts and all 284 command positions were aligned before translation. Only the first continuous segment (positions 1–55) is translated; source commands are not copied or modified.",
+  "notes_v197": [
+    "Translated positions 1–55: four unnamed announcement lines and 51 named dialogue entries. Source lines: 30–134; next position is №56 at CN line 143.",
+    "The Decision command at CN line 121 is translated with all three options. Its four Predicate branches at lines 122, 125, 128 and 132 are fully covered by this segment. The second Decision command at line 135 remains untranslated.",
+    "The full CN and EN sources align on 290 text positions (285 named, 5 unnamed) and 284 command positions. Command line numbers and parameters match after normalizing localized Decision option text.",
+    "Terminology follows docs/TERMS_RU.txt: Rhodes Island — «Родос Айленд»; Lungmen Guard Department — «Управление охраны Лунмэня»; Oripathy — «орипатия»; Mephisto — «Мефисто»; Censor — «Цензор».",
+    "The four {@nickname} placeholders occur later in the source and are not present in the translated range; no placeholder was dropped from this segment.",
+    "No complete CN or EN source script is included. This is a partial first draft; literary review and Yostar Global PC in-game validation have not been performed."
+  ]
+}
