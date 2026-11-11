@@ -1,0 +1,17 @@
+Arknights RU — main story v1.97 / repository v3.57
+Date: 2026-11-11
+
+Episode 6 — 6-18 Only You Know (Interlude)
+Source: obt/main/level_st_06-03.txt
+
+- Added the first continuous segment: positions 1–55 (51 named, 4 unnamed), CN/EN source lines 30–134.
+- Translated the first Decision command at CN line 121: 3/3 option strings. Values 1;2;3 are unchanged.
+- Translated all four Predicate branches attached to that Decision: CN lines 122, 125, 128 and 132.
+- Current progress: 55/290 text positions; 235 remain. Next: position 56, CN line 143.
+- Full source inventory: 290 text positions (285 named, 5 unnamed), 284 command positions, 2 Decision commands / 4 options and 5 Predicate branches.
+- CN blob: f0b744c48b2a6592674a42e7c9c3e61cd8c226d8
+- EN Yostar blob: 9f0a4ae9762665a21262d72ecd2ff09b34544187
+- CN/EN text positions, speaker labels, command line numbers and command parameters align; Decision option payloads were normalized for structural comparison.
+- CN has 574 physical lines without a terminal newline; EN has 575 with a terminal newline.
+- The four {@nickname} placeholders occur later in the full source and are not part of this translated segment.
+- Full CN/EN scripts are not committed. Partial first draft only; no literary review or Yostar Global PC in-game validation.
