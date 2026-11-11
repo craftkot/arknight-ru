@@ -26,6 +26,9 @@ class MainStory71InterludeV204(unittest.TestCase):
     def test_source_audit_and_commands(self):
         d=load("story/story_chapter_7_stage_7-1_interlude_partial_ru_v204.json");a=load("reports/MAIN_7-1_INTERLUDE_SOURCE_AUDIT_v204.json")
         self.assertEqual((d["source"]["cn_git_blob_sha1"],d["source"]["en_git_blob_sha1"]),("1c613bfbf006470b3b8e131b9fcb8b8f53e19ea5","7a204cb0010abcbf60f12017f0b2b4d02eaba156"))
+        self.assertIn("Four lexical differences",d["source"]["version_difference"])
+        self.assertIn("line 176",d["source"]["version_difference"])
+        self.assertIn("line 228",d["source"]["version_difference"])
         self.assertEqual((a["alignment"]["cn_text_positions"],a["alignment"]["en_text_positions"]),(286,286))
         self.assertEqual((a["alignment"]["command_lines_cn"],a["alignment"]["command_lines_en"]),(276,276))
         self.assertTrue(a["alignment"]["commands_match_cn_en"])
@@ -43,6 +46,8 @@ class MainStory71InterludeV204(unittest.TestCase):
         q=load("reports/QA_MAIN_STORY_v204.json")
         self.assertEqual((q["partial_scene_named_ru"],q["partial_scene_unnamed_ru"],q["partial_scene_text_entries"],q["all_story_text_entries_including_partial"]),(77,43,120,10082))
         self.assertEqual((q["next_scene"]["next_ordinal"],q["next_scene"]["next_source_line"]),(121,250))
+        for marker in ("line 105","line 143","line 176","line 228"):
+            self.assertIn(marker,q["next_scene"]["source_version_difference"])
         self.assertEqual((q["partial_scene_audit"]["translated"],q["partial_scene_audit"]["translated_range_command_lines"],q["partial_scene_audit"]["next_ordinal"]),(120,129,121))
         self.assertFalse(q["editorial_review"]);self.assertFalse(q["in_game_test"])
         m=load("chronology/CHRONOLOGY_MANIFEST_v364.json")
@@ -53,5 +58,6 @@ class MainStory71InterludeV204(unittest.TestCase):
     def test_readme_glossary(self):
         readme=(ROOT/"README.md").read_text(encoding="utf-8");terms=(ROOT/"docs/TERMS_RU.txt").read_text(encoding="utf-8")
         self.assertIn("v3.64",readme);self.assertIn("120/286",readme);self.assertIn("№121",readme)
+        self.assertIn("четыре лексических расхождения",readme)
         self.assertIn("Savra / 萨弗拉 — савра",terms);self.assertIn("Arts — Искусства",terms)
 if __name__=="__main__": unittest.main()
