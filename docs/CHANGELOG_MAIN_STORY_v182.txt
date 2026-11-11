@@ -1,0 +1,33 @@
+Arknights RU — Main story v1.82 / repository v3.42
+Date: 2026-11-11
+
+Partial CN-primary first draft:
+- Source resource: obt/main/level_main_06-14_beg.txt.
+- In-game story placement: Episode 6, 6-16 Before Operation. The internal resource key suffix 06-14 is not the operation number; previous display labels calling this 6-14 were inaccurate.
+- Newly translated range: ordinals 61–120, source lines 123–266; 58 named dialogue positions and 2 unnamed captions.
+- Cumulative progress: 120/329 text positions (118 named, 2 unnamed); 209 remain.
+- Decision option payloads translated in this range: source lines 143 (1 option), 170 (3), 180 (1), 193 (1), and 195 (1): 7 of 18 total option strings. Decision values and Predicate references remain unchanged.
+- CN Git blob: 0af35351ae66a4f4dc21670ef30b833180154f05
+- EN Yostar Git blob: 4a17d2af3e8752dc67b5601dcbc9be21615422ab
+- CN: 720 physical lines, no final newline; EN: 721 physical lines, one additional terminal newline.
+- Both mirrors contain 327 named and 2 unnamed text positions at identical physical line numbers.
+- All 391 command lines match by physical line, command name and parameters after normalizing Decision option payloads; all 12 Decision values and 12 Predicate references match.
+- The two unnamed captions at source lines 176 and 177 are translated.
+- {@nickname} is preserved twice in the new range.
+- The next text position is ordinal 121, source line 267; 209 text positions remain.
+- Updated partial translation JSON, source audit, QA, chapter index, chronology v3.42, README and regression tests.
+- Full CN/EN scripts were not copied into the repository.
+- This is a partial first draft only. No literary review or Yostar Global PC client test is claimed.
+
+Project progress:
+- Darknights Memoir: 13/13 full first drafts.
+- Babel: 23/23 full first drafts (4,633 entries).
+- Main story: 119 complete first drafts plus one partial scene (resource level_main_06-14_beg, corresponding to 6-16 Before Operation; 120/329).
+- Chapter 6: 22 complete scenes / 2,537 complete text positions plus 120 partial positions.
+- Combined selection remains at 119 complete scenes / 8,781 entries; the partial scene is intentionally not included until completion.
+- One inherited difference between the historical manifest (8,782) and combined selection (8,781) remains documented.
+
+Next work:
+- Continue obt/main/level_main_06-14_beg.txt at ordinal 121, source line 267.
+- Translate the remaining 209 text positions and 11 Decision option strings before marking the scene complete.
+- Next scene after this resource must be determined from the current in-game story sequence, not by blindly equating the resource filename suffix with an operation number.
