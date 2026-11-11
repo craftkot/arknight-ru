@@ -241,7 +241,7 @@
       385,
       519
     ],
-    "version_difference": "CN and EN align on all 327 named and 2 unnamed positions, all 391 command positions, and all Decision values/Predicate references after normalizing localized option payloads. CN has 720 physical lines without a final newline; EN has 721 with one extra terminal newline. CN line 377 contains one opening '**' marker absent from EN; the Russian draft preserves it verbatim. The next position is ordinal 181 at source line 434.",
+    "version_difference": "CN and EN align on all 327 named and 2 unnamed positions, all 391 command positions, and all Decision values/Predicate references after normalizing localized option payloads. CN has 720 physical lines without a final newline; EN has 721 with one extra terminal newline. Thirteen of the 18 Decision option strings are translated (source lines 143, 170, 180, 193, 195, 385 and 519); five remain. CN line 377 contains one opening '**' marker absent from EN; the Russian draft preserves it verbatim. The next position is ordinal 241 at source line 546.",
     "in_game_operation": "6-16",
     "in_game_section": "Before Operation"
   }
