@@ -1,0 +1,18 @@
+Arknights RU — main story v1.95 / repository v3.55
+Date: 2026-11-11
+
+Episode 6 — 6-13 Interlude: No Light Without Fire
+Source: obt/main/level_st_06-02.txt
+
+- Added final continuous positions 233–269: 37 named dialogue entries from CN lines 361–375, 378–385, 389, 393–398 and 401–407.
+- Scene complete: 269/269 text positions (257 named, 12 unnamed).
+- Completed all 34/34 Decision commands, 53/53 option strings and 45/45 Predicate branches.
+- Final fragment contains 13 command lines: 4 Decision, 4 Predicate, 2 Character, 1 Dialog, 1 Blocker and 1 Image.
+- CN blob: ffa8947a78abc196f2ebfcb90ae2283ee136c953
+- EN Yostar blob: 79204a97fedbc6e1950440f86a618c8d6efa37ba
+- All 37 final dialogue positions and FrostNova speaker labels align across CN/EN. Full source command positions: 141/141.
+- CN line 382 uses singular 领袖; EN Yostar uses plural "leaders". Russian follows CN singular context as «наша предводительница».
+- The fifth {@nickname} placeholder is preserved. Full CN/EN scripts are not committed.
+- 6-13 is added to completed selection v1.90. Selection: 122 scenes / 9,582 counted entries; historical manifest: 9,583, inherited delta 1 preserved.
+- Next: 6-17 After Operation — Winter's End, obt/main/level_main_06-15_end.txt (89 positions: 86 named, 3 unnamed; 15 Decision / 20 options / 15 Predicate).
+- Complete first draft only; no literary review or Yostar Global PC in-game validation.
