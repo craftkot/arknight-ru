@@ -1,0 +1,16 @@
+Arknights RU — Main Story Changelog v1.98
+Date: 2026-11-11
+Track: Original Arknights, Yostar Global PC (not Endfield)
+
+Episode 6 — 6-18 Only You Know (obt/main/level_st_06-03.txt)
+- Added 58 named Russian dialogue positions, ordinals 56–113, source lines CN 143–229.
+- Extended the partial first draft from 55/290 to 113/290 positions (109 named, 4 unnamed).
+- Localized the second Decision option at CN line 135 as «Погиб один заражённый.»; preserved value 1.
+- Both Decision commands, all 4 option strings and all 5 Predicate branches are now represented.
+- Preserved all four {@nickname} placeholders at source lines 204, 210, 217 and 218.
+- CN source: Kengxxiao/ArknightsGameData, ref master, blob f0b744c48b2a6592674a42e7c9c3e61cd8c226d8.
+- EN cross-check: Kengxxiao/ArknightsGameData_YoStar, ref main, blob 9f0a4ae9762665a21262d72ecd2ff09b34544187.
+- CN/EN source structure remains aligned: 290 text positions, 284 command positions, identical command line numbers and parameters after Decision-option normalization. No source-version drift.
+- Next position: ordinal 114, CN line 231.
+- No complete CN/EN source scripts or game assets are committed.
+- Status: partial first draft only. Literary review and Yostar Global PC in-game validation have not been performed.
