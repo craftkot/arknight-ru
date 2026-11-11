@@ -1,0 +1,9 @@
+Arknights RU — Main Story Changelog v2.02 / chronology v3.62
+Date: 2026-11-11
+
+- Corrected the Episode 7 scene mapping: 7-1 32:00:00 Interlude is obt/main/level_st_07-01.txt, not level_main_07-01_beg.txt. The latter is a separate Rosmontis/FrostNova scene.
+- Added the first continuous 40/286 positions of 7-1: 32 named W/Talulah lines and 8 unnamed monologue lines. Next: ordinal 41, CN line 82.
+- Recorded CN/EN source blobs 1c613bfbf006470b3b8e131b9fcb8b8f53e19ea5 / 7a204cb0010abcbf60f12017f0b2b4d02eaba156. Both sources align on 286 text positions and 276 command positions; only the EN terminal newline differs.
+- Preserved and audited 40 command positions in the translated prefix. The source has no Decision or Predicate commands.
+- Updated Chapter 7 index, Source Audit, QA, chronology and README. The partial scene remains excluded from the merged selection.
+- First draft only. Literary review and Yostar Global PC in-game validation remain pending. No full source scripts or game assets are committed.
