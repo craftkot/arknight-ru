@@ -1,0 +1,17 @@
+Arknights RU — Main Story Changelog v1.99
+Date: 2026-11-11
+Track: Original Arknights, Yostar Global PC (not Endfield)
+
+Episode 6 — 6-18 Only You Know (obt/main/level_st_06-03.txt)
+- Added 57 text positions: 56 named dialogue entries and one unnamed location caption, ordinals 114–170, source lines CN/EN 231–356.
+- Extended the partial first draft from 113/290 to 170/290 positions (165 named, 5 unnamed); 120 positions remain.
+- The new segment covers Blaze and GreyThroat's closing exchange, Amiya's arrival at the Chief Executive's Office, the encounter with Taihe/Censor/unknown speaker, and the opening of Amiya's meeting with Wei Yenwu through her statement that Rhodes Island does not fight only for the Infected.
+- Unknown speaker remains unidentified (？？？); no character identity was inferred.
+- No new Decision or Predicate branches occur in this segment. The existing 2/2 Decision commands, 4/4 option strings and 5/5 Predicate branches remain translated.
+- Preserved all four {@nickname} placeholders at source lines 204, 210, 217 and 218.
+- CN source: Kengxxiao/ArknightsGameData, ref master, blob f0b744c48b2a6592674a42e7c9c3e61cd8c226d8.
+- EN cross-check: Kengxxiao/ArknightsGameData_YoStar, ref main, blob 9f0a4ae9762665a21262d72ecd2ff09b34544187.
+- CN/EN source structure remains aligned: 290 text positions, 284 command positions, identical text and command line positions. No source-version drift.
+- Next position: ordinal 171, CN line 357.
+- No complete CN/EN source scripts or game assets are committed.
+- Status: partial first draft only. Literary review and Yostar Global PC in-game validation have not been performed.
