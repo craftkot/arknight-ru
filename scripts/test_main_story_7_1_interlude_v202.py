@@ -36,8 +36,8 @@ class TestMainStory701InterludeV202(unittest.TestCase):
         self.assertEqual(sum(x["kind"] == "unnamed" for x in rows), 8)
         self.assertEqual((p["next_ordinal"], p["next_source_line"]), (41, 82))
         self.assertTrue(all(x["text_ru"].strip() for x in rows))
-        payload = "\\n".join(x["text_ru"] for x in rows)
-        self.assertIsNone(re.search(r"[\\u3400-\\u9fff]", payload))
+        payload = "\n".join(x["text_ru"] for x in rows)
+        self.assertIsNone(re.search(r"[\u3400-\u9fff]", payload))
         self.assertEqual(payload.count("{@nickname}"), 0)
         self.assertEqual({x["speaker_cn"] for x in rows if x["kind"] == "named"}, {"W", "塔露拉"})
 
@@ -76,7 +76,7 @@ class TestMainStory701InterludeV202(unittest.TestCase):
         self.assertEqual(M["next_file"], "obt/main/level_st_07-01.txt")
         self.assertEqual((M["next_text_ordinal"], M["next_text_source_line"]), (41, 82))
         self.assertIn("level_st_07-01.txt", I)
-        self.assertIn("partial_first_draft\\t32\\t8\\t40", I)
+        self.assertIn("partial_first_draft\t32\t8\t40", I)
         self.assertEqual(S["summary"]["complete_files"], 124)
         self.assertNotIn("obt/main/level_st_07-01.txt", json.dumps(S, ensure_ascii=False))
 
