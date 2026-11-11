@@ -16,7 +16,7 @@
     "en_physical_lines": 563,
     "en_final_newline": true,
     "en_url": "https://github.com/Kengxxiao/ArknightsGameData_YoStar/blob/main/en_US/gamedata/story/obt/main/level_st_07-01.txt",
-    "version_difference": "CN and EN Yostar align structurally on 286 text positions and 276 command positions. Two lexical differences in the translated range are recorded: CN 侯爵 vs EN Count (line 105), and CN 伊比利亚修士 vs EN Iberian nun (line 143). The Russian follows CN. EN has one terminal newline absent in CN."
+    "version_difference": "CN and EN Yostar align structurally on 286 text positions and 276 command positions. Four lexical differences in the translated prefix are recorded: CN 侯爵 vs EN Count (line 105), CN 伊比利亚修士 vs EN Iberian nun (line 143), CN wording for Talulah's unusual consideration vs EN's 'showed her cards' paraphrase (line 176), and CN 龙女 without the profanity added by EN's 'dragon bitch' (line 228). Russian follows CN. EN has one terminal newline absent in CN."
   },
   "source_alignment": {
     "cn_text_positions": 286,
