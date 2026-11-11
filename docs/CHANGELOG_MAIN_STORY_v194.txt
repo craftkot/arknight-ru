@@ -1,0 +1,17 @@
+Arknights RU — main story v1.94 / repository v3.54
+Date: 2026-11-11
+
+Episode 6 — 6-13 Interlude: No Light Without Fire
+Source: obt/main/level_st_06-02.txt
+
+- Added continuous positions 193–232: 40 named dialogue entries, CN source lines 313–360.
+- Added 4 Decision commands with 6 Russian option strings and 4 Predicate commands.
+- Cumulative progress: 232/269 text positions (220 named, 12 unnamed); next ordinal 233, CN line 361; 37 text positions remain.
+- Cumulative coverage: 30/34 Decision commands, 45/53 option strings, 41/45 Predicate commands.
+- New range: 8 command lines, 4 Decision and 4 Predicate; all 40 speakers align across CN/EN.
+- CN blob: ffa8947a78abc196f2ebfcb90ae2283ee136c953
+- EN Yostar blob: 79204a97fedbc6e1950440f86a618c8d6efa37ba
+- CN remains primary. Line 354 切磋 means sparring/practice; line 358 品相 describes appearance/finish, while EN says taste. Russian follows CN.
+- {@nickname} on CN line 343 is preserved; four placeholders are present cumulatively.
+- Full CN/EN scripts are not committed; partial scene remains excluded from completed selection.
+- First draft only; no literary review or Yostar Global PC validation.
