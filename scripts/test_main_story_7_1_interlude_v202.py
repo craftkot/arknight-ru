@@ -78,7 +78,7 @@ class TestMainStory701InterludeV202(unittest.TestCase):
         self.assertIn("level_st_07-01.txt", I)
         self.assertIn("partial_first_draft\\t32\\t8\\t40", I)
         self.assertEqual(S["summary"]["complete_files"], 124)
-        self.assertNotIn("obt/main/level_st_07-01.txt", S["files"])
+        self.assertNotIn("obt/main/level_st_07-01.txt", json.dumps(S, ensure_ascii=False))
 
     def test_readme_corrects_v361_mapping_and_keeps_history(self):
         self.assertIn("v3.62", R)
