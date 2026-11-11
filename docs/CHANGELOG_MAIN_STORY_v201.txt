@@ -1,0 +1,29 @@
+Arknights RU — Main Story Changelog v2.01
+Date: 2026-11-11
+Track: Original Arknights, Yostar Global PC (not Endfield)
+
+Episode 6 — 6-18 Only You Know (obt/main/level_st_06-03.txt)
+- Completed the first Russian draft: 290/290 text positions (285 named, 5 unnamed).
+- Added 70 missing positions: five named lines at CN 357–361 and 65 named lines at CN 440–562.
+- Corrected the v2.00 ordinal/source mapping: restore CN 357–361 as ordinals 171–175; shift the previous v2.00 segment at CN 363–438 from ordinals 171–220 to 176–225; add CN 440–562 as ordinals 226–290.
+- Revalidated every source text position in CN order; no gaps or duplicate source lines remain.
+- Preserved all 284 command positions, command names, parameters, timings, tags, both Decision commands, all four option strings, all five Predicate branches, and four {@nickname} placeholders.
+- CN primary source; EN Yostar cross-check. CN and EN align on 290 text positions and 284 command positions. No source-version drift.
+- CN line 406 uses 围棋 (Go); EN Yostar says chess. Russian follows CN and uses «го».
+- Editorial flags remain for the rendering of 陈警司, 科西切, 核心城, 城邦认证码, and 姓林的.
+- CN blob: f0b744c48b2a6592674a42e7c9c3e61cd8c226d8
+- EN Yostar blob: 9f0a4ae9762665a21262d72ecd2ff09b34544187
+- No full CN/EN source scripts or game assets are committed.
+
+Repository updates
+- Add complete scene JSON v2.01, source audit, QA, chapter-6 index, combined selection v1.92, chronology manifest v3.61, regression tests, and glossary additions.
+- Main-story selection now contains 124 complete first-draft resources / 9,961 positions. Historical manifest count is 9,962; the inherited delta of one is preserved.
+- Chapter 6 now has 27 complete first-draft resources and no partial scene.
+- Next author-order scene: Episode 7, 7-1 32:00:00 (obt/main/level_main_07-01_beg.txt), 87 positions (85 named, 2 unnamed).
+- Next-scene source hashes: CN 93513ec7727a1646cf7248aac31363358bf70cc0; EN Yostar b4ab1d3e7baf5d40575790cbecdf5e46f35bc06a.
+- 7-1 CN/EN align on 87 text positions, but CN has one additional Predicate command at line 71 (104 CN commands vs 103 EN); this is recorded rather than normalized away.
+
+Quality status
+- 6-18 is a complete first draft, not a polished localization.
+- Literary review and Yostar Global PC in-game validation have not been performed.
+- Local preview is not a verified game patch.
