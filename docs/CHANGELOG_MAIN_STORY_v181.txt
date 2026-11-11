@@ -1,0 +1,31 @@
+Arknights RU — Main story v1.81 / repository v3.41
+Date: 2026-11-11
+
+Partial first Russian draft:
+- Source: obt/main/level_main_06-14_beg.txt (Episode 6, stage 6-14, before battle).
+- Translated range: ordinals 1–60 of 329 text positions; 60 named dialogue positions, 0 unnamed positions.
+- Source lines translated: 10–122. Next position: ordinal 61, source line 123; 269 text positions remain.
+- Header 第三关（前） translated as “Этап 3 (до боя)”.
+- CN Git blob: 0af35351ae66a4f4dc21670ef30b833180154f05
+- EN Yostar Git blob: 4a17d2af3e8752dc67b5601dcbc9be21615422ab
+- CN: 720 physical lines, no final newline; EN: 721 physical lines, one additional terminal newline.
+- Both mirrors contain 327 named and 2 unnamed text positions at identical physical line numbers.
+- All 391 command lines match by physical line, command name and parameters after normalizing Decision option payloads.
+- All 12 Decision values and 12 Predicate references match. The 18 Decision option strings remain untranslated.
+- The translated range contains 62 commands and no Decision or Predicate branches.
+- Added partial translation JSON, source audit, QA, chapter index, chronology v3.41, glossary entry, README section and regression tests.
+- Full CN/EN scripts were not copied into the repository.
+- This is a partial first draft only. No literary review or Yostar Global PC client test is claimed.
+
+Project progress:
+- Darknights Memoir: 13/13 full first drafts.
+- Babel: 23/23 full first drafts (4,633 entries).
+- Main story: 119 complete first drafts plus one partial scene (6-14 before battle, 60/329).
+- Chapter 6: 22 complete scenes / 2,537 complete text positions plus 60 partial positions.
+- Combined selection remains at 119 complete scenes / 8,781 entries; the partial scene is intentionally not included until completion.
+- One inherited difference between the historical manifest (8,782) and combined selection (8,781) remains documented.
+
+Next work:
+- Continue obt/main/level_main_06-14_beg.txt at ordinal 61, source line 123.
+- Translate the two unnamed captions and all 18 Decision option strings when their positions are reached.
+- Complete the remaining 269 text positions before marking the scene complete.
