@@ -16,7 +16,7 @@
     "en_physical_lines": 721,
     "en_final_newline": true,
     "en_url": "https://github.com/Kengxxiao/ArknightsGameData_YoStar/blob/main/en_US/gamedata/story/obt/main/level_main_06-14_beg.txt",
-    "version_difference": "CN and EN both contain 327 named positions and 2 unnamed captions at identical physical line numbers. All 391 command lines align at identical physical line numbers and have identical command names and parameters after normalizing Decision option payloads. CN has 720 physical lines with no final newline; EN has 721 because of one additional terminal newline. All 12 Decision values and all 12 Predicate references match. Ten of the 18 Decision option strings are translated (source lines 143, 170, 180, 193, 195 and 385); eight remain. CN source line 377 contains one opening '**' marker absent from EN; it is preserved without adding a closing token."
+    "version_difference": "CN and EN align on all 327 named and 2 unnamed positions, all 391 command positions, and all Decision values/Predicate references after normalizing localized option payloads. CN has 720 physical lines without a final newline; EN has 721 with one extra terminal newline. Thirteen of the 18 Decision option strings are translated (source lines 143, 170, 180, 193, 195, 385 and 519); five remain. CN line 377 contains one opening '**' marker absent from EN; the Russian draft preserves it verbatim. The next position is ordinal 241 at source line 546."
   },
   "progress": {
     "translated": 240,
