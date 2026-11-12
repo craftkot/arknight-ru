@@ -1,0 +1,13 @@
+Arknights RU — Main Story v2.10 / chronology v3.70
+
+- Extended Episode 7, 7-2 Night of Farewells — Before Operation from 40/212 to 80/212 text positions.
+- Added positions 41–80: 40 named lines at CN source lines 97–170; cumulative prefix 78 named + 2 unnamed.
+- Pinned CN blob 08b18f752b76276d36a69a6d984e429aef598051 and EN Yostar blob ce70e8bc2dcf65b80119fee693ef6bd53b88b50f; source pair aligns on 212 text positions (210 named, 2 unnamed) and 133 command positions.
+- Preserved metadata for 90 command positions through CN line 170; the new segment contains 34 commands.
+- Existing 3 Decision commands, 5 option strings and 5 Predicate branches remain accounted for.
+- Documented CN/EN differences at lines 128, 142, 145, 158 and 168; the earlier line-65 difference remains. Russian follows CN.
+- Updated translation, source audit, QA, chapter index, chronology, glossary, README and regression tests.
+- Updated historical regression assertions to check the current README while retaining pinned v2.09/v2.08 artifact checks.
+- Partial scene remains excluded from merged selection v1.93.
+- Next: position 81, CN source line 171. After Operation remains blocked until Before Operation is complete.
+- No full CN/EN scripts or game assets committed; no in-game validation claimed.
