@@ -101,7 +101,7 @@ class MainStory71InterludeV208(unittest.TestCase):
         self.assertEqual((q["next_scene"]["total"], q["next_scene"]["translated"], q["next_scene"]["next_ordinal"], q["next_scene"]["next_source_line"]), (212,40,41,97))
         self.assertEqual((m["version"], m["next_file"], m["next_text_ordinal"], m["next_text_source_line"]), ("v3.69","obt/main/level_main_07-02_beg.txt",41,97))
         self.assertEqual(m["translation_integrity"]["main_story_selection_text_entries"], 10247)
-        self.assertIn("v3.69", readme.splitlines()[0])
+        self.assertIn("v3.70", readme.splitlines()[0])
         self.assertIn("286/286", readme[:7000])
         self.assertIn("7-2 Night of Farewells", readme[:7000])
         self.assertIn("Леденящий голос", terms)
