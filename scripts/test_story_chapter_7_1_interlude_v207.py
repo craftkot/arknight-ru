@@ -39,7 +39,7 @@ class MainStory71InterludeV207(unittest.TestCase):
         self.assertEqual((d["source_alignment"]["command_lines_cn"], d["source_alignment"]["command_lines_en"]), (276, 276))
         self.assertTrue(d["source_alignment"]["commands_match_cn_en"])
         self.assertIn("Ten lexical/meaning differences", d["source"]["version_difference"])
-        self.assertIn("line 238", d["source"]["version_difference"])
+        self.assertIn("238, 363", d["source"]["version_difference"])
         self.assertIn("465–466", d["source"]["version_difference"])
 
     def test_command_preservation_and_audit(self):
