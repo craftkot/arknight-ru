@@ -1,0 +1,589 @@
+{
+  "version": "v2.09",
+  "stage": "Episode 7 — 7-2 Night of Farewells (Before Operation)",
+  "status": "first_draft_partial",
+  "source_file": "obt/main/level_main_07-02_beg.txt",
+  "source": {
+    "cn_repository": "Kengxxiao/ArknightsGameData",
+    "cn_ref": "master",
+    "cn_git_blob_sha1": "08b18f752b76276d36a69a6d984e429aef598051",
+    "cn_physical_lines": 345,
+    "cn_final_newline": false,
+    "cn_url": "https://github.com/Kengxxiao/ArknightsGameData/blob/master/zh_CN/gamedata/story/obt/main/level_main_07-02_beg.txt",
+    "en_repository": "Kengxxiao/ArknightsGameData_YoStar",
+    "en_ref": "main",
+    "en_git_blob_sha1": "ce70e8bc2dcf65b80119fee693ef6bd53b88b50f",
+    "en_physical_lines": 346,
+    "en_final_newline": true,
+    "en_url": "https://github.com/Kengxxiao/ArknightsGameData_YoStar/blob/main/en_US/gamedata/story/obt/main/level_main_07-02_beg.txt",
+    "version_difference": "CN and EN align structurally on 212 text positions (210 named, 2 unnamed) and 133 command positions. Text and command source-line numbers match. EN has one terminal newline absent in CN. CN is primary for meaning."
+  },
+  "source_alignment": {
+    "cn_text_positions": 212,
+    "en_text_positions": 212,
+    "cn_named_positions": 210,
+    "en_named_positions": 210,
+    "cn_unnamed_positions": 2,
+    "en_unnamed_positions": 2,
+    "command_lines_cn": 133,
+    "command_lines_en": 133,
+    "command_counts": {
+      "HEADER": 1,
+      "stopmusic": 3,
+      "Dialog": 14,
+      "Delay": 1,
+      "Blocker": 18,
+      "Background": 5,
+      "playMusic": 3,
+      "PlaySound": 4,
+      "Character": 64,
+      "delay": 4,
+      "CameraShake": 2,
+      "Decision": 3,
+      "Predicate": 3,
+      "Image": 4,
+      "ImageTween": 3,
+      "image": 1
+    },
+    "command_counts_en": {
+      "HEADER": 1,
+      "stopmusic": 3,
+      "Dialog": 14,
+      "Delay": 1,
+      "Blocker": 18,
+      "Background": 5,
+      "playMusic": 3,
+      "PlaySound": 4,
+      "Character": 64,
+      "delay": 4,
+      "CameraShake": 2,
+      "Decision": 3,
+      "Predicate": 3,
+      "Image": 4,
+      "ImageTween": 3,
+      "image": 1
+    },
+    "commands_match_cn_en": true,
+    "named_text_line_numbers_match": true,
+    "unnamed_text_line_numbers_match": true,
+    "text_line_numbers_match": true,
+    "speaker_label_positions_match": true,
+    "speaker_label_names_match_after_localization": true,
+    "speaker_label_map": {
+      "近卫局成员": "L.G.D. Officer",
+      "鼠王": "Rat King",
+      "灰尾": "Greytail",
+      "牧群": "Herd",
+      "罗德岛干员": "Rhodes Island Operator",
+      "迷迭香": "Rosmontis",
+      "星熊": "Hoshiguma",
+      "陈": "Ch'en",
+      "PRTS": "PRTS"
+    },
+    "speaker_label_map_ru": {
+      "近卫局成员": "Сотрудник ЛГД",
+      "鼠王": "Крысиный король",
+      "灰尾": "Грейтейл",
+      "牧群": "Стадо",
+      "罗德岛干员": "Оператор Родос Айленд",
+      "迷迭香": "Розмонтис",
+      "星熊": "Хошигума",
+      "陈": "Чэнь",
+      "PRTS": "PRTS"
+    },
+    "speaker_label_spelling_exceptions": [],
+    "command_line_numbers_match": true,
+    "command_names_and_parameters_match_after_decision_option_normalization": true,
+    "decision_commands": 3,
+    "predicate_branches": 3,
+    "decision_option_total": 5,
+    "decision_option_source_lines": [
+      70,
+      74,
+      85
+    ],
+    "predicate_source_lines": [
+      71,
+      75,
+      86
+    ],
+    "decision_values_and_predicate_references_match": true,
+    "placeholder_count_cn": 0,
+    "placeholder_count_en": 0,
+    "placeholder_count_ru": 0,
+    "translated_range": {
+      "ordinal_start": 1,
+      "ordinal_end": 40,
+      "translated_source_lines": [
+        9,
+        12,
+        13,
+        14,
+        15,
+        16,
+        24,
+        26,
+        28,
+        30,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        44,
+        47,
+        49,
+        50,
+        56,
+        58,
+        60,
+        62,
+        63,
+        64,
+        65,
+        67,
+        68,
+        69,
+        73,
+        77,
+        79,
+        81,
+        90,
+        91,
+        93,
+        94,
+        96
+      ],
+      "command_lines_in_range": 56,
+      "new_segment_command_lines": 56,
+      "command_counts": {
+        "HEADER": 1,
+        "stopmusic": 1,
+        "Dialog": 6,
+        "Delay": 1,
+        "Blocker": 6,
+        "Background": 3,
+        "playMusic": 1,
+        "PlaySound": 2,
+        "Character": 25,
+        "delay": 2,
+        "CameraShake": 2,
+        "Decision": 3,
+        "Predicate": 3
+      },
+      "command_line_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        25,
+        27,
+        29,
+        31,
+        39,
+        40,
+        41,
+        42,
+        43,
+        45,
+        46,
+        48,
+        51,
+        52,
+        53,
+        54,
+        55,
+        57,
+        59,
+        61,
+        66,
+        70,
+        71,
+        72,
+        74,
+        75,
+        76,
+        78,
+        80,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        92,
+        95
+      ]
+    },
+    "version_differences": [
+      {
+        "source_line": 65,
+        "kind": "semantic_nuance",
+        "cn_meaning": "The line explicitly attributes the movement of the already-dead bodies to a controlling spell.",
+        "en_meaning": "The EN version generalizes this as bodies being propped up by Arts.",
+        "ru_decision": "The Russian draft follows the more specific CN meaning: a spell of control/subjugation.",
+        "primary_source": "CN"
+      }
+    ]
+  },
+  "progress": {
+    "translated": 40,
+    "total": 212,
+    "remaining": 172,
+    "complete": false,
+    "named_translated": 38,
+    "named_total": 210,
+    "unnamed_translated": 2,
+    "unnamed_total": 2,
+    "next_ordinal": 41,
+    "next_source_line": 97,
+    "decision_commands_translated": 3,
+    "decision_commands_total": 3,
+    "decision_commands_remaining": 0,
+    "decision_option_strings_translated": 5,
+    "decision_option_strings_total": 5,
+    "decision_option_strings_remaining": 0,
+    "predicate_branches_translated": 5,
+    "predicate_branches_total": 5,
+    "predicate_branches_remaining": 0
+  },
+  "dialogues": [
+    {
+      "ordinal": 1,
+      "source_line": 9,
+      "kind": "unnamed",
+      "text_ru": "Верхний город Лунмэня. 19:00. Смеркается."
+    },
+    {
+      "ordinal": 2,
+      "source_line": 12,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Секретный ордер на арест? На госпожу Чэнь?!"
+    },
+    {
+      "ordinal": 3,
+      "source_line": 13,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Неужели ошибка? Да как такое возможно…"
+    },
+    {
+      "ordinal": 4,
+      "source_line": 14,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Эй! Вернись! Я спрашиваю, не ошибка ли это?!"
+    },
+    {
+      "ordinal": 5,
+      "source_line": 15,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Чёрт, Чэнь, как такое могло случиться… Кто за этим стоит?!"
+    },
+    {
+      "ordinal": 6,
+      "source_line": 16,
+      "kind": "named",
+      "speaker_cn": "近卫局成员",
+      "text_ru": "Нужно найти Чэнь и услышать всё от неё самой!"
+    },
+    {
+      "ordinal": 7,
+      "source_line": 24,
+      "kind": "named",
+      "speaker_cn": "鼠王",
+      "text_ru": "…Хорошо. Я понял."
+    },
+    {
+      "ordinal": 8,
+      "source_line": 26,
+      "kind": "named",
+      "speaker_cn": "灰尾",
+      "text_ru": "Хозяин, будут ещё распоряжения?"
+    },
+    {
+      "ordinal": 9,
+      "source_line": 28,
+      "kind": "named",
+      "speaker_cn": "鼠王",
+      "text_ru": "Нет. Выполни все поручения, которые я дал тебе раньше. А закончив, поскорее заляг на дно."
+    },
+    {
+      "ordinal": 10,
+      "source_line": 30,
+      "kind": "named",
+      "speaker_cn": "灰尾",
+      "text_ru": "Есть."
+    },
+    {
+      "ordinal": 11,
+      "source_line": 32,
+      "kind": "named",
+      "speaker_cn": "鼠王",
+      "text_ru": "Иди. Живо."
+    },
+    {
+      "ordinal": 12,
+      "source_line": 33,
+      "kind": "named",
+      "speaker_cn": "鼠王",
+      "text_ru": "А…"
+    },
+    {
+      "ordinal": 13,
+      "source_line": 34,
+      "kind": "named",
+      "speaker_cn": "鼠王",
+      "text_ru": "— Эх. И надо же, нашёлся кто-то, кто сумел переиграть Вэй Яньу."
+    },
+    {
+      "ordinal": 14,
+      "source_line": 35,
+      "kind": "named",
+      "speaker_cn": "鼠王",
+      "text_ru": "Талула, Талула… Неужели это и правда судьба?"
+    },
+    {
+      "ordinal": 15,
+      "source_line": 36,
+      "kind": "named",
+      "speaker_cn": "鼠王",
+      "text_ru": "Молодой господин, если вы видите нас с того света, вам ведь тоже не хотелось бы видеть такую картину, верно?"
+    },
+    {
+      "ordinal": 16,
+      "source_line": 37,
+      "kind": "named",
+      "speaker_cn": "鼠王",
+      "text_ru": "Что ж, что ж. Лунмэнь всё-таки дошёл до этого."
+    },
+    {
+      "ordinal": 17,
+      "source_line": 38,
+      "kind": "named",
+      "speaker_cn": "鼠王",
+      "text_ru": "Но Хуэйцзе… Хуэйцзе! Береги себя… Только не погибни!"
+    },
+    {
+      "ordinal": 18,
+      "source_line": 44,
+      "kind": "unnamed",
+      "text_ru": "Стыковочная площадка Лунмэня. 19:20."
+    },
+    {
+      "ordinal": 19,
+      "source_line": 47,
+      "kind": "named",
+      "speaker_cn": "牧群",
+      "text_ru": "А… А! Ух, кх…"
+    },
+    {
+      "ordinal": 20,
+      "source_line": 49,
+      "kind": "named",
+      "speaker_cn": "罗德岛干员",
+      "text_ru": "Ох, их и правда целая уйма… ЛГД ещё не зачистило этот район?"
+    },
+    {
+      "ordinal": 21,
+      "source_line": 50,
+      "kind": "named",
+      "speaker_cn": "罗德岛干员",
+      "text_ru": "Вчера сюда нагрянуло Воссоединение, сегодня — особые заражённые. Даже нам их едва удаётся сдерживать. А использовать в городе тяжёлое вооружение нельзя…"
+    },
+    {
+      "ordinal": 22,
+      "source_line": 56,
+      "kind": "named",
+      "speaker_cn": "迷迭香",
+      "text_ru": "Здравствуйте, оператор. Они — наши противники на этот раз?"
+    },
+    {
+      "ordinal": 23,
+      "source_line": 58,
+      "kind": "named",
+      "speaker_cn": "罗德岛干员",
+      "text_ru": "Розмонтис! Фух, теперь мы спасены!"
+    },
+    {
+      "ordinal": 24,
+      "source_line": 60,
+      "kind": "named",
+      "speaker_cn": "迷迭香",
+      "text_ru": "Это заражённые, преобразованные Искусствами…? И вы не можете сдержать их?"
+    },
+    {
+      "ordinal": 25,
+      "source_line": 62,
+      "kind": "named",
+      "speaker_cn": "罗德岛干员",
+      "text_ru": "Да. У нас в основном оборонительное снаряжение. Не ожидали, что даже стальные тросы и сети из высокопрочного волокна почти не помогут против этих заражённых. Похоже, придётся задействовать военное вооружение."
+    },
+    {
+      "ordinal": 26,
+      "source_line": 63,
+      "kind": "named",
+      "speaker_cn": "罗德岛干员",
+      "text_ru": "Наша линия обороны испытывает слишком сильное давление, поэтому нам ничего не оставалось, кроме как запросить поддержку у основного корабля. Хорошо, что прислали именно тебя: теперь у нас появился шанс."
+    },
+    {
+      "ordinal": 27,
+      "source_line": 64,
+      "kind": "named",
+      "speaker_cn": "罗德岛干员",
+      "text_ru": "Структура Ориджиниума внутри их тел сделала их очень крепкими. Чтобы сдерживать их передвижение, нам приходится вести контролируемый огонь из тяжёлого вооружения. И ещё… мы не обнаруживаем никаких признаков мозговой активности."
+    },
+    {
+      "ordinal": 28,
+      "source_line": 65,
+      "kind": "named",
+      "speaker_cn": "罗德岛干员",
+      "text_ru": "Судя по наблюдениям, они, похоже… фактически уже мертвы. Сейчас ими движет лишь какое-то заклинание подчинения. Это ужасно…"
+    },
+    {
+      "ordinal": 29,
+      "source_line": 67,
+      "kind": "named",
+      "speaker_cn": "迷迭香",
+      "text_ru": "Тот, кто это сделал… должен заплатить."
+    },
+    {
+      "ordinal": 30,
+      "source_line": 68,
+      "kind": "named",
+      "speaker_cn": "迷迭香",
+      "text_ru": "Но ваша безопасность важнее всего."
+    },
+    {
+      "ordinal": 31,
+      "source_line": 69,
+      "kind": "named",
+      "speaker_cn": "迷迭香",
+      "text_ru": "Помогите мне составить план. Я… прекращу их буйство."
+    },
+    {
+      "ordinal": 32,
+      "source_line": 73,
+      "kind": "named",
+      "speaker_cn": "迷迭香",
+      "text_ru": "Да."
+    },
+    {
+      "ordinal": 33,
+      "source_line": 77,
+      "kind": "named",
+      "speaker_cn": "罗德岛干员",
+      "text_ru": "Доктор… вы ведь раньше не встречали Розмонтис?"
+    },
+    {
+      "ordinal": 34,
+      "source_line": 79,
+      "kind": "named",
+      "speaker_cn": "迷迭香",
+      "text_ru": "Доктор, пожалуйста, отойдите в сторону."
+    },
+    {
+      "ordinal": 35,
+      "source_line": 81,
+      "kind": "named",
+      "speaker_cn": "罗德岛干员",
+      "text_ru": "Тогда будьте осторожны и отойдите подальше. Уверяю, вы ещё никогда не видели ничего подобного."
+    },
+    {
+      "ordinal": 36,
+      "source_line": 90,
+      "kind": "named",
+      "speaker_cn": "迷迭香",
+      "text_ru": "Это моё."
+    },
+    {
+      "ordinal": 37,
+      "source_line": 91,
+      "kind": "named",
+      "speaker_cn": "迷迭香",
+      "text_ru": "Оператор, опишите мне свои впечатления о цели."
+    },
+    {
+      "ordinal": 38,
+      "source_line": 93,
+      "kind": "named",
+      "speaker_cn": "罗德岛干员",
+      "text_ru": "Секунду, загляну в руководство… Так, цель — это, э-э, большое скопление активных и беспокойных особей?"
+    },
+    {
+      "ordinal": 39,
+      "source_line": 94,
+      "kind": "named",
+      "speaker_cn": "罗德岛干员",
+      "text_ru": "Двигаются группой, чёткой цели нет; общая тенденция прослеживается, но установленного маршрута нет. Кажется, это всё!"
+    },
+    {
+      "ordinal": 40,
+      "source_line": 96,
+      "kind": "named",
+      "speaker_cn": "迷迭香",
+      "text_ru": "— Поняла. Предоставьте это мне."
+    }
+  ],
+  "decision_options_ru": [
+    {
+      "source_line": 70,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Ты собираешься участвовать в бою?"
+      ]
+    },
+    {
+      "source_line": 74,
+      "values": [
+        "1"
+      ],
+      "options_ru": [
+        "Но ты выглядишь…"
+      ]
+    },
+    {
+      "source_line": 85,
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "options_ru": [
+        "Железный ящик у люка взлетел?!",
+        "…?",
+        "Парящее в воздухе устройство — это твоё снаряжение?"
+      ]
+    }
+  ],
+  "translation_revision": "v2.09 — begins 7-2 Night of Farewells — Before Operation; positions 1–40 translated from CN, EN checked for names and structure.",
+  "notes_v209": [
+    "This is a continuous partial first-draft prefix: positions 1–40, CN source lines 9–96; 38 named entries and both unnamed location/time headings.",
+    "All 56 command positions through CN line 96 are retained in the source audit; the 3 Decision commands, all 5 option strings and all 5 Predicate branches in this prefix are accounted for.",
+    "CN and EN align on 212 text positions and 133 command positions. Their command names and parameters match after normalizing localized Decision options; EN has one terminal newline absent in CN.",
+    "CN line 65 explicitly says a controlling spell drives the bodies; EN generalizes this as Arts. Russian follows CN.",
+    "No complete CN or EN scenario text, game assets or extracted game files are committed.",
+    "First draft only. Literary editing and in-game validation in Yostar Global PC remain pending."
+  ]
+}
