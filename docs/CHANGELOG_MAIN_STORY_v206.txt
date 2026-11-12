@@ -1,0 +1,24 @@
+Arknights RU — main story v2.06 / chronology v3.66
+2026-11-12
+
+Scene: Episode 7, 7-1 32:00:00 (Interlude)
+Source: obt/main/level_st_07-01.txt
+
+- Added 40 continuous text positions, ordinals 161–200, CN source lines 352–417.
+- New segment: 22 named dialogue positions and 18 unnamed narration positions.
+- Cumulative partial first draft: 200/286 positions (130 named, 70 unnamed); 86 remain.
+- Preserved 26 new command positions; the cumulative translated prefix now preserves 217 command positions. No Decision/Predicate commands exist in this resource.
+- CN/EN source structure remains aligned: 286 text positions (215 named, 71 unnamed) and 276 command positions.
+- CN blob: 1c613bfbf006470b3b8e131b9fcb8b8f53e19ea5
+- EN Yostar blob: 7a204cb0010abcbf60f12017f0b2b4d02eaba156
+- Four earlier CN/EN differences remain documented; four additional differences are recorded at CN lines 363, 378, 384 and 406. Russian follows CN.
+- CN line 363 says «more than twenty times», not EN's «a million times».
+- CN line 378 says «your plan» without EN's added «backup».
+- CN line 384 specifies being thrown from the core city, not city walls.
+- CN line 406 says W should turn herself into a bomb; Russian follows CN rather than EN's «blow this joint».
+- The grotesque comic image in CN line 367 is retained in W's inner monologue.
+- Reconciled QA and chronology; updated Chapter 7 index, source audit, changelog and README.
+- Partial scene remains excluded from the completed-scene selection.
+
+Quality: first draft only. Literary review and Yostar Global PC in-game validation remain pending.
+No full CN/EN game scripts or game assets are included.
