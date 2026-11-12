@@ -10,3 +10,5 @@ Arknights RU — Main Story v2.09 / chronology v3.69
 - The partial scene remains excluded from merged selection v1.93.
 - Next: position 41, CN source line 97. After Operation remains blocked until Before Operation is complete.
 - No full CN/EN scripts or game assets were committed. No in-game patch validation is claimed.
+
+- Updated the current chapter 7 regression test to retain the completed 7-1 assertions while accepting the newly started 7-2 partial scene.
