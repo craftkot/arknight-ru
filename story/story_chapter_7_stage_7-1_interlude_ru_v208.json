@@ -16,7 +16,7 @@
     "en_physical_lines": 563,
     "en_final_newline": true,
     "en_url": "https://github.com/Kengxxiao/ArknightsGameData_YoStar/blob/main/en_US/gamedata/story/obt/main/level_st_07-01.txt",
-    "version_difference": "CN/EN align structurally on 286 text positions and 276 command positions. Thirteen lexical/meaning differences in the translated scene are documented at CN lines 105, 143, 176, 228, 363, 378, 384, 406, 511, 544, 553; Russian follows CN. EN has one terminal newline absent in CN."
+    "version_difference": "CN/EN align structurally on 286 text positions and 276 command positions. Thirteen lexical/meaning differences in the translated scene are documented at CN lines 105, 143, 176, 228, 238, 363, 378, 384, 406, 465–466, 511, 544, 553; Russian follows CN. EN has one terminal newline absent in CN."
   },
   "source_alignment": {
     "cn_text_positions": 286,
@@ -688,15 +688,21 @@
         "source_line": 176,
         "cn": "现在的你也太善解人意了",
         "en_yostar": "The old Talulah wouldn't have showed her cards this early.",
-        "resolution_ru": "Слишком уж очевидно, драконья девочка. Сейчас ты вдруг стала такой понимающей — совсем не как обычно.",
-        "resolution": "CN-primary; the Chinese describes unusual consideration/accommodation, while EN paraphrases it as showing her cards early."
+        "resolution": "CN-primary; Russian describes Talulah as unusually accommodating.",
+        "resolution_ru": "Слишком уж очевидно, драконья девочка. Сейчас ты вдруг стала такой понимающей — совсем не как обычно."
       },
       {
         "source_line": 228,
         "cn": "果然这个龙女不可能让你好过",
         "en_yostar": "Man, this dragon bitch just won't let me have any fun.",
-        "resolution_ru": "эта драконья девица не даст мне ни минуты покоя",
-        "resolution": "CN-primary; the profanity in EN is absent from the Chinese line."
+        "resolution": "CN-primary; Russian does not add the profanity absent from CN."
+      },
+      {
+        "source_line": 238,
+        "cn": "有劳你了，先生。",
+        "en_yostar": "Excuse me, Sir.",
+        "resolution_ru": "Рассчитываю на вас, господин.",
+        "resolution": "有劳你了 means entrusting a task to someone or acknowledging their effort; EN Yostar's 'Excuse me' is not accurate in this context. Russian follows CN and the scene context."
       },
       {
         "source_line": 363,
@@ -725,6 +731,17 @@
         "en_yostar": "it's about time I also blow this joint",
         "resolution_ru": "пора и мне самой стать бомбой",
         "resolution": "CN is primary; W says she should turn herself into a bomb."
+      },
+      {
+        "source_line": 465,
+        "source_lines": [
+          465,
+          466
+        ],
+        "cn": "既然，你已经，启动核心城。 / 我这把密钥，又有什么用？",
+        "en_yostar": "But... What's done, is done. / This Key. How will you use it?",
+        "resolution_ru": "Раз ты уже. Запустила ядро Чернобога... / Тогда какой прок. От моего ключа?",
+        "resolution": "CN says that since Talulah has already started the core city, Patriot questions what use his key has. EN rewrites both lines and changes the relation. Russian follows CN."
       },
       {
         "source_line": 511,
