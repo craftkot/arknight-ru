@@ -25,7 +25,7 @@ class MainStory72BeforeV209(unittest.TestCase):
         self.assertEqual((d["progress"]["next_ordinal"], d["progress"]["next_source_line"]), (41, 97))
         for item in d["dialogues"]:
             self.assertTrue(item["text_ru"].strip())
-            self.assertFalse(re.search(r"[\\u3400-\\u9fff]", item["text_ru"]))
+            self.assertFalse(re.search(r"[\u3400-\u9fff]", item["text_ru"]))
 
     def test_decision_options_and_predicate_branches(self):
         d = load("story/story_chapter_7_stage_7-2_before_partial_ru_v209.json")
@@ -74,7 +74,7 @@ class MainStory72BeforeV209(unittest.TestCase):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         terms = (ROOT / "docs/TERMS_RU.txt").read_text(encoding="utf-8")
         self.assertIn("v3.69", readme.splitlines()[0])
-        self.assertIn("7-2 Before Operation (40/212)", readme[:5000])
+        self.assertIn("7-2 Before Operation (40/212:", readme[:5000])
         self.assertIn("Крысиный король", terms)
         self.assertIn("Грейтейл", terms)
         self.assertIn("Вэй Яньу", terms)
