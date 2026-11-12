@@ -85,11 +85,11 @@ class MainStory71InterludeV208(unittest.TestCase):
         self.assertEqual(s["summary"]["inherited_delta"], 1)
 
     def test_qa_manifest_readme_glossary_and_next_scene(self):
-        q = load("reports/QA_MAIN_STORY_v208.json")
-        m = load("chronology/CHRONOLOGY_MANIFEST_v368.json")
+        q = load("reports/QA_MAIN_STORY_v209.json")
+        m = load("chronology/CHRONOLOGY_MANIFEST_v369.json")
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         terms = (ROOT / "docs/TERMS_RU.txt").read_text(encoding="utf-8")
-        index = (ROOT / "story/CHAPTER_7_INDEX_v208.tsv").read_text(encoding="utf-8").splitlines()
+        index = (ROOT / "story/CHAPTER_7_INDEX_v209.tsv").read_text(encoding="utf-8").splitlines()
         self.assertEqual((q["completed_story_files"], q["completed_story_named_ru"], q["completed_story_unnamed_ru"], q["completed_story_text_entries"]), (125,10015,233,10248))
         self.assertEqual((q["partial_scene_files"], q["partial_scene_text_entries"]), (1,40))
         self.assertEqual(len(q["partial_scenes"]), 1)
@@ -109,7 +109,7 @@ class MainStory71InterludeV208(unittest.TestCase):
         self.assertIn("воин Сарказов", terms)
         self.assertEqual(len(index), 3)
         self.assertIn("level_st_07-01.txt\tfirst_draft_complete\t215\t71\t286", index[1])
-        self.assertIn("level_main_07-02_beg.txt\tnot_started\t0\t0\t0", index[2])
+        self.assertIn("level_main_07-02_beg.txt\tfirst_draft_partial\t38\t2\t40", index[2])
 
 if __name__ == "__main__":
     unittest.main()
