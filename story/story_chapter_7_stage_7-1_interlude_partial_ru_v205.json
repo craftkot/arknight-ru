@@ -1599,8 +1599,8 @@
     "Added positions 121–160, a continuous text-position range at CN lines 250–351: 31 named W/Talulah lines and 9 unnamed narration lines. Cumulative progress is 160/286 (108 named, 52 unnamed); 126 positions remain.",
     "The new range preserves 62 command positions (CN lines 252–350). The cumulative translated prefix now preserves 191 command positions. The source contains no Decision or Predicate commands.",
     "CN and EN Yostar source blobs remain unchanged and structurally aligned on 286 text positions and 276 command positions. Russian follows CN as the primary source; EN is used for structural and name cross-checking.",
-    "The Chinese phrase 可怜可憎的内敌 on line 272 is kept as a deliberately grandiloquent address, «жалкий и презренный внутренний враг»; EN shortens this to 'You pitiful thing'.",
-    "CN line 347 explicitly asks whether W used Arts (施术) to detonate the explosives. Russian follows CN with «применила Искусства», rather than EN's paraphrase about a detonator mechanism.",
-    "The 7-1 scene remains a partial first draft. Literary review and Yostar Global PC in-game validation are pending. No full CN/EN scripts or game assets are committed."
+    "CN line 272 uses the stylized phrase 可怜可憎的内敌; Russian keeps the deliberately grandiloquent «жалкий и презренный внутренний враг», while EN shortens it to 'You pitiful thing'.",
+    "CN line 347 explicitly says 施术 (use/cast Arts) to detonate the explosives; Russian follows CN with «применила Искусства», rather than EN's paraphrase about a detonator mechanism.",
+    "Partial first draft only; literary review and Yostar Global PC in-game validation remain pending. No full source scripts or game assets are committed."
   ]
 }

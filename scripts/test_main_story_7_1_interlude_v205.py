@@ -5,7 +5,6 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-
 def load(path):
     return json.loads((ROOT / path).read_text(encoding="utf-8"))
 

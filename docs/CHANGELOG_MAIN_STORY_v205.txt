@@ -14,7 +14,7 @@ Source: obt/main/level_st_07-01.txt
 - Four previously documented lexical differences remain resolved in favor of CN: lines 105, 143, 176 and 228.
 - CN line 272's stylized 内敌 address is retained as «жалкий и презренный внутренний враг».
 - CN line 347 explicitly refers to using Arts (施术) to detonate the explosives; Russian follows CN with «применила Искусства».
-- Reconciled stale nested Episode 7 counters in QA v2.04; QA v2.05 now consistently reports 160 positions.
+- Reconciled stale nested Episode 7 counters inherited in QA v2.04; QA v2.05 now consistently reports 160 positions.
 - Updated Chapter 7 index, source audit, QA, chronology and README.
 - Partial scene remains excluded from the completed-scene selection.
 
