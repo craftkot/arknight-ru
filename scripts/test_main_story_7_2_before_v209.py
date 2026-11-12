@@ -68,7 +68,7 @@ class MainStory72BeforeV209(unittest.TestCase):
         self.assertEqual((m["version"], m["next_file"], m["next_text_ordinal"], m["next_text_source_line"]), ("v3.69", "obt/main/level_main_07-02_beg.txt", 41, 97))
         self.assertEqual((m["translation_integrity"]["main_story_partial_files"], m["translation_integrity"]["main_story_partial_text_entries"]), (1, 40))
         self.assertEqual(len(index), 3)
-        self.assertIn("level_main_07-02_beg.txt\\tfirst_draft_partial\\t38\\t2\\t40", index[2])
+        self.assertIn("level_main_07-02_beg.txt\tfirst_draft_partial\t38\t2\t40", index[2])
 
     def test_readme_and_glossary_are_current(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
