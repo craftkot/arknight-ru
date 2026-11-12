@@ -1,0 +1,21 @@
+Arknights RU — main story v2.08 / chronology v3.68
+2026-11-12
+
+Scene completed: Episode 7, 7-1 32:00:00 (Interlude)
+Source: obt/main/level_st_07-01.txt
+
+- Added the final 46 continuous text positions, ordinals 241–286, from CN source lines 489–559.
+- All 46 new positions are named dialogue; cumulative scene is complete at 286/286 (215 named, 71 unnamed).
+- Preserved the final 29 command positions, including the Character command at CN line 488 between the previous checkpoint and the new dialogue. Cumulative command preservation is 276/276.
+- CN/EN source structure remains aligned: 286 text positions and 276 command positions.
+- CN blob: 1c613bfbf006470b3b8e131b9fcb8b8f53e19ea5
+- EN Yostar blob: 7a204cb0010abcbf60f12017f0b2b4d02eaba156
+- Thirteen CN/EN lexical or meaning differences are documented at lines 105, 143, 176, 228, 238, 363, 378, 384, 406, 465–466, 511, 544 and 553; Russian follows CN.
+- New differences: CN 511 describes the talisman sustaining life; CN 544 says the Sarkaz will no longer be needed as leaders; CN 553 explicitly includes new ruins and remade steel.
+- Anonymous speaker labels 凛冽的声音 / 沙哑的声音 are rendered «Леденящий голос» / «Хриплый голос» without assigning identities.
+- Updated the translation, Source Audit, QA, Chapter 7 index, chronology v3.68, selection v1.93, README, glossary and regression tests.
+- Main story now has 125 complete first-draft scenes and no partial scene. Selection v1.93 contains 125 scenes / 10,247 entries; historical manifest 10,248 preserves its inherited delta of one.
+- Next in author order: 7-2 Night of Farewells — Before Operation, obt/main/level_main_07-02_beg.txt. CN blob 08b18f752b76276d36a69a6d984e429aef598051; EN Yostar blob ce70e8bc2dcf65b80119fee693ef6bd53b88b50f. Both sources align on 212 text positions and 133 command positions; first text position is CN line 9.
+
+Quality: complete first draft only. Literary review and Yostar Global PC in-game validation remain pending.
+No full CN/EN game scripts or game assets are included.
