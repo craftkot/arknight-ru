@@ -76,7 +76,8 @@ class MainStory72BeforeV210(unittest.TestCase):
         self.assertIn("level_main_07-02_beg.txt\tfirst_draft_partial\t78\t2\t80",index[2])
         self.assertIn("v3.71", readme.splitlines()[0])
         self.assertIn("v3.70", readme)
-        self.assertIn("7-2 Before Operation (80/212:",readme[:5000])
+        self.assertIn("7-2 Before Operation (120/212:", readme[:5000])
+        self.assertIn("v2.10 (80/212)", readme)
         self.assertIn("сестрица Они",terms)
         self.assertIn("электромотоцикл",terms)
 
