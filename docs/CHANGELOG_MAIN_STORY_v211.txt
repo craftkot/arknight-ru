@@ -10,3 +10,4 @@ Arknights RU — Main Story v2.11 / chronology v3.71
 - Partial scene remains excluded from merged selection v1.93.
 - Next: position 121, CN source line 216. After Operation remains blocked until Before Operation is complete.
 - No full CN/EN scripts or game assets committed; no in-game validation claimed.
+- Updated three historical regression tests to assert the current v3.71 README header while retaining an explicit v3.70 history marker.

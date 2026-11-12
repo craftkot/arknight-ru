@@ -73,7 +73,8 @@ class MainStory72BeforeV209(unittest.TestCase):
     def test_readme_and_glossary_are_current(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         terms = (ROOT / "docs/TERMS_RU.txt").read_text(encoding="utf-8")
-        self.assertIn("v3.70", readme.splitlines()[0])
+        self.assertIn("v3.71", readme.splitlines()[0])
+        self.assertIn("v3.70", readme)
         self.assertIn("7-2 Before Operation (80/212:", readme[:5000])
         self.assertIn("Крысиный король", terms)
         self.assertIn("Грейтейл", terms)
