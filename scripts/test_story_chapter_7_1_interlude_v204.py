@@ -58,6 +58,6 @@ class MainStory71InterludeV204(unittest.TestCase):
     def test_readme_glossary(self):
         readme=(ROOT/"README.md").read_text(encoding="utf-8");terms=(ROOT/"docs/TERMS_RU.txt").read_text(encoding="utf-8")
         self.assertIn("v3.64",readme);self.assertIn("120/286",readme);self.assertIn("№121",readme)
-        self.assertIn("четыре лексических расхождения",readme)
+        self.assertIn("восемь лексических/смысловых расхождений",readme)
         self.assertIn("Savra / 萨弗拉 — савра",terms);self.assertIn("Arts — Искусства",terms)
 if __name__=="__main__": unittest.main()
