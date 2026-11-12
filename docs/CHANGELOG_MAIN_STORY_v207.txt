@@ -1,0 +1,23 @@
+Arknights RU — main story v2.07 / chronology v3.67
+2026-11-12
+
+Scene: Episode 7, 7-1 32:00:00 (Interlude)
+Source: obt/main/level_st_07-01.txt
+
+- Added 40 continuous text positions, ordinals 201–240, CN source lines 418–487.
+- New segment: 39 named dialogue positions and one unnamed post-battle time card.
+- Cumulative partial first draft: 240/286 positions (169 named, 71 unnamed); 46 remain.
+- Preserved 30 new command positions; the cumulative translated prefix preserves 247/276 commands. No Decision/Predicate commands exist in this resource.
+- CN/EN source structure remains aligned: 286 text positions (215 named, 71 unnamed) and 276 command positions.
+- CN blob: 1c613bfbf006470b3b8e131b9fcb8b8f53e19ea5
+- EN Yostar blob: 7a204cb0010abcbf60f12017f0b2b4d02eaba156
+- Ten CN/EN lexical or meaning differences are documented at lines 105, 143, 176, 228, 238, 363, 378, 384, 406 and 465–466; Russian follows CN.
+- CN line 238 有劳你了 is an entrusting/reliance formula; EN Yostar's “Excuse me” is inaccurate in context.
+- CN lines 465–466 ask what use Patriot's key has now that Talulah has already started the core city; EN Yostar rewrites the exchange.
+- The 31-hour countdown and 18:30 post-battle time card is retained.
+- Added Patriot / 爱国者 and Leader / 领袖 to the project glossary.
+- Updated the versioned translation, source audit, QA, Chapter 7 index, chronology and README.
+- Partial scene remains excluded from the completed-scene selection.
+
+Quality: first draft only. Literary review and Yostar Global PC in-game validation remain pending.
+No full CN/EN game scripts or game assets are included.
