@@ -1,0 +1,22 @@
+Arknights RU — main story v2.05 / chronology v3.65
+2026-11-12
+
+Scene: Episode 7, 7-1 32:00:00 (Interlude)
+Source: obt/main/level_st_07-01.txt
+
+- Added 40 continuous text positions, ordinals 121–160, CN source lines 250–351.
+- New segment: 31 named dialogue positions and 9 unnamed narration positions.
+- Cumulative partial first draft: 160/286 positions (108 named, 52 unnamed); 126 remain.
+- Preserved 62 new command positions; the cumulative translated prefix now preserves 191 command positions. No Decision/Predicate commands exist in this resource.
+- CN/EN source structure remains aligned: 286 text positions (215 named, 71 unnamed) and 276 command positions.
+- CN blob: 1c613bfbf006470b3b8e131b9fcb8b8f53e19ea5
+- EN Yostar blob: 7a204cb0010abcbf60f12017f0b2b4d02eaba156
+- Four previously documented lexical differences remain resolved in favor of CN: lines 105, 143, 176 and 228.
+- CN line 272's stylized 内敌 address is retained as «жалкий и презренный внутренний враг».
+- CN line 347 explicitly refers to using Arts (施术) to detonate the explosives; Russian follows CN with «применила Искусства».
+- Reconciled stale nested Episode 7 counters inherited in QA v2.04; QA v2.05 now consistently reports 160 positions.
+- Updated Chapter 7 index, source audit, QA, chronology and README.
+- Partial scene remains excluded from the completed-scene selection.
+
+Quality: first draft only. Literary review and Yostar Global PC in-game validation remain pending.
+No full CN/EN game scripts or game assets are included.
