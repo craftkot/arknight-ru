@@ -68,7 +68,7 @@ class TestMainStory701InterludeV206(unittest.TestCase):
         self.assertEqual(rows[1]["speaker_cn"],"W")
         self.assertEqual(rows[2]["kind"],"unnamed")
         self.assertEqual(rows[15]["speaker_cn"],"W")
-        self.assertEqual(rows[-4]["kind"],"unnamed")
+        self.assertEqual(rows[-4]["speaker_cn"],"塔露拉")
         self.assertEqual(rows[-1]["speaker_cn"],"塔露拉")
 
     def test_qa_chronology_index(self):
